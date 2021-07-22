@@ -3747,7 +3747,7 @@ ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%TAN%+Jewel.%NL%%YELLOW%Btf: %TAN%Hel
 ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%TAN%+Jewel.%NL%%YELLOW%Btf: %TAN%io, & %ORANGE%P%TAN%Top.%NL%%BLUE%Hit: %TAN%Ral, & %ORANGE%P%TAN%Sap. %GRAY%Vpc: %TAN%El, & %ORANGE%P%TAN%Sku.%NL%%RED%Bld: %TAN%Eth, & %ORANGE%P%TAN%Rub. %PURPLE%Ctr: %TAN%Thul, & %ORANGE%P%TAN%Ame.}
 ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%TAN%+Jewel.%NL%%GRAY%Vpc: %TAN%Eld, & %ORANGE%P%TAN%Sku. %YELLOW%Btf: %TAN%El, & %ORANGE%P%TAN%Top.%NL%%RED%Bld: %TAN%Tal, & %ORANGE%P%TAN%Rub. %PURPLE%Ctr: %TAN%Ith, & %ORANGE%P%TAN%Ame.}
 ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%TAN%+Jewel.%NL%%YELLOW%Btf: %TAN%Shael, & %ORANGE%P%TAN%Top.%NL%%GREEN%Sfy: %TAN%Sol, & %ORANGE%P%TAN%Eme. %GRAY%Vpc: %TAN%Shael, & %ORANGE%P%TAN%Sku.}
-ItemDisplay[MAG ID WEAPON ILVL>]: %NAME%{%TAN%+Jewel.%NL%%YELLOW%Btf: %TAN%Shael, & %ORANGE%P%TAN%Top.%NL%%BLUE%Hit: %TAN%Tir, & %ORANGE%P%TAN%Sap. %GRAY%Vpc: %TAN%Shael, & %ORANGE%P%TAN%Sku.%NL%%RED%Bld: %TAN%Ort, & %ORANGE%P%TAN%Rub. %PURPLE%Ctr: %TAN%Tir, & %ORANGE%P%TAN%Ame.}
+ItemDisplay[MAG ID WEAPON ILVL>25]: %NAME%{%TAN%+Jewel.%NL%%YELLOW%Btf: %TAN%Shael, & %ORANGE%P%TAN%Top.%NL%%BLUE%Hit: %TAN%Tir, & %ORANGE%P%TAN%Sap. %GRAY%Vpc: %TAN%Shael, & %ORANGE%P%TAN%Sku.%NL%%RED%Bld: %TAN%Ort, & %ORANGE%P%TAN%Rub. %PURPLE%Ctr: %TAN%Tir, & %ORANGE%P%TAN%Ame.}
 
 // Upgrading Recipe For Craft/Rare
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%TAN%Ral, Thul, & %ORANGE%P%TAN%Amethyst:}%CONTINUE%
