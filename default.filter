@@ -3456,7 +3456,7 @@ ItemDisplay[NMAG SOCK=0 !INF !SUP ILVL<26 (gth OR ful OR aar OR xth OR xul OR xa
 
 // Base Shield Socket Numbers
 ItemDisplay[NMAG SOCK=0 !INF !SUP (buc OR xuc)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-1s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: %RED%1-1s.%NL%%TAN%Larzuk Quest: %RED%1s.}%CONTINUE%
-ItemDisplay[NMAG SOCK=0 !INF !SUP (sml OR spk OR bsh OR xml OR xpk OR xsh OR uuc OR uml OR NORM NEC)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: 1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.}%CONTINUE%
+ItemDisplay[NMAG SOCK=0 !INF !SUP (sml OR spk OR bsh OR xml OR xpk OR xsh OR uuc OR uml OR NORM NEC)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.}%CONTINUE%
 ItemDisplay[NMAG SOCK=0 !INF !SUP (lrg OR kit OR tow OR gts OR xrg OR xit OR xow OR xts OR urg OR upk OR ush OR EXC NEC OR ELT NEC)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.}%CONTINUE%
 ItemDisplay[NMAG SOCK=0 !INF !SUP (uit OR uow OR uts OR DIN)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.}%CONTINUE%
 ItemDisplay[NMAG SOCK=0 !INF !SUP ILVL<41 (uit OR uow OR uts)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Tal, Amn, & %ORANGE%P%TAN%Ruby: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.}%CONTINUE%
