@@ -1495,8 +1495,8 @@ ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
 ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 ItemDisplay[tbk]: %BLUE%%NAME%
 ItemDisplay[ibk]: %RED%%NAME%
-ItemDisplay[tsc]: %DARK_GREEN%TP
-ItemDisplay[isc CLVL<75]: %DARK_GREEN%ID
+ItemDisplay[tsc]: %DARK_GREEN%*%BLUE%TP%DARK_GREEN%*
+ItemDisplay[isc CLVL<75]: %DARK_GREEN%*%RED%ID%DARK_GREEN%*
 ItemDisplay[isc CLVL>74]:
 ItemDisplay[ear]: %NAME%
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl OR vps OR wms)]:
