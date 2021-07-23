@@ -1773,11 +1773,11 @@ ItemDisplay[MAG !ID (ILVL>86 OR CLVL>89)]:
 ItemDisplay[RARE !ID (jew OR amu OR rin)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Helms
 ItemDisplay[RARE !ID !ETH (CIRC OR DRU OR BAR)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
-ItemDisplay[RARE !ID !ETH HELM]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID !ETH HELM]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Armors
-ItemDisplay[RARE !ID !ETH CHEST]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID !ETH CHEST]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Shields
-ItemDisplay[RARE !ID !ETH SHIELD]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID !ETH SHIELD]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Gloves
 ItemDisplay[RARE !ID !ETH GLOVES]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Boots
@@ -1811,16 +1811,16 @@ ItemDisplay[RARE !ID !ETH (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx)]: %BORDER-6D%
 // Rare Staffs
 ItemDisplay[RARE !ID (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Wands
-ItemDisplay[RARE !ID WAND]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID WAND]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Scepters
 ItemDisplay[RARE !ID SCEPTER]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Assassin Claws
-ItemDisplay[RARE !ID SIN]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID SIN]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Sorceress Orbs
-ItemDisplay[RARE !ID SOR]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID SOR]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Amazon Weapons
 ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
-ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rest of the Rare Items Are Hidden
 ItemDisplay[RARE !ID (ILVL>86 OR CLVL>89)]:
 
