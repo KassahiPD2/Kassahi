@@ -1489,7 +1489,7 @@ ItemDisplay[mp1 CLVL<14]: %WHITE%Mana%BLUE%1
 ItemDisplay[mp2 CLVL<19]: %WHITE%Mana%BLUE%2
 ItemDisplay[mp3 CLVL<24]: %WHITE%Mana%BLUE%3
 ItemDisplay[mp4 CLVL<59]: %WHITE%Mana%BLUE%4
-ItemDisplay[mp5]: %BLUE%!%WHITE%M5
+ItemDisplay[mp5]: %BLUE%!%WHITE%MP5
 ItemDisplay[yps]: %GREEN%+%WHITE%Anti
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
 ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
