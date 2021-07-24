@@ -1467,11 +1467,11 @@ ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%(%WHITE%%SOCKETS%%TAN%)%CONTINUE%
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
 
 // Gold
-ItemDisplay[GOLD<25]:
-ItemDisplay[GOLD<50 CLVL>9]:
-ItemDisplay[GOLD<100 CLVL>19]:
-ItemDisplay[GOLD<200 CLVL>29]:
-ItemDisplay[GOLD<300 CLVL>39]:
+ItemDisplay[GOLD<40]:
+ItemDisplay[GOLD<75 CLVL>9]:
+ItemDisplay[GOLD<150 CLVL>19]:
+ItemDisplay[GOLD<250 CLVL>29]:
+ItemDisplay[GOLD<350 CLVL>39]:
 ItemDisplay[GOLD<500 CLVL>49]:
 ItemDisplay[GOLD<1000 CLVL>59]:
 ItemDisplay[GOLD<3000 CLVL>69]:
@@ -5190,74 +5190,74 @@ ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>89)]: {%NAME%}
 
 // Crafted Amulets
-ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=83]: %NAME% %TAN%(%WHITE%98+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=84]: %NAME% %TAN%(%WHITE%96+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=85]: %NAME% %TAN%(%WHITE%96+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=86]: %NAME% %TAN%(%WHITE%94+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=87]: %NAME% %TAN%(%WHITE%94+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=88]: %NAME% %TAN%(%WHITE%92+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=89]: %NAME% %TAN%(%WHITE%92+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=90]: %NAME% %TAN%(%WHITE%90+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=91]: %NAME% %TAN%(%WHITE%90+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=92]: %NAME% %TAN%(%WHITE%88+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=93]: %NAME% %TAN%(%WHITE%88+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=94]: %NAME% %TAN%(%WHITE%86+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=95]: %NAME% %TAN%(%WHITE%86+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=96]: %NAME% %TAN%(%WHITE%84+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=97]: %NAME% %TAN%(%WHITE%84+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=98]: %NAME% %TAN%(%WHITE%82+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=99]: %NAME% %TAN%(%WHITE%82+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=83]: %NAME% %TAN%(%WHITE%98+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=84]: %NAME% %TAN%(%WHITE%96+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=85]: %NAME% %TAN%(%WHITE%96+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=86]: %NAME% %TAN%(%WHITE%94+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=87]: %NAME% %TAN%(%WHITE%94+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=88]: %NAME% %TAN%(%WHITE%92+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=89]: %NAME% %TAN%(%WHITE%92+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=90]: %NAME% %TAN%(%WHITE%90+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=91]: %NAME% %TAN%(%WHITE%90+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=92]: %NAME% %TAN%(%WHITE%88+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=93]: %NAME% %TAN%(%WHITE%88+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=94]: %NAME% %TAN%(%WHITE%86+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=95]: %NAME% %TAN%(%WHITE%86+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=96]: %NAME% %TAN%(%WHITE%84+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=97]: %NAME% %TAN%(%WHITE%84+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=98]: %NAME% %TAN%(%WHITE%82+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=99]: %NAME% %TAN%(%WHITE%82+%TAN%){%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
 
 // Crafted Rings
-ItemDisplay[MAG ID rin ILVL=64]: %NAME% %TAN%(%WHITE%98+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=65]: %NAME% %TAN%(%WHITE%98+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=66]: %NAME% %TAN%(%WHITE%96+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=67]: %NAME% %TAN%(%WHITE%96+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=68]: %NAME% %TAN%(%WHITE%94+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=69]: %NAME% %TAN%(%WHITE%94+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=70]: %NAME% %TAN%(%WHITE%92+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=71]: %NAME% %TAN%(%WHITE%92+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=72]: %NAME% %TAN%(%WHITE%90+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=73]: %NAME% %TAN%(%WHITE%90+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=74]: %NAME% %TAN%(%WHITE%88+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=75]: %NAME% %TAN%(%WHITE%88+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=76]: %NAME% %TAN%(%WHITE%86+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=77]: %NAME% %TAN%(%WHITE%86+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=78]: %NAME% %TAN%(%WHITE%84+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=79]: %NAME% %TAN%(%WHITE%84+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=80]: %NAME% %TAN%(%WHITE%82+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=81]: %NAME% %TAN%(%WHITE%82+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=82]: %NAME% %TAN%(%WHITE%80+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=83]: %NAME% %TAN%(%WHITE%80+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=84]: %NAME% %TAN%(%WHITE%78+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=85]: %NAME% %TAN%(%WHITE%78+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=86]: %NAME% %TAN%(%WHITE%76+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=87]: %NAME% %TAN%(%WHITE%76+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=88]: %NAME% %TAN%(%WHITE%74+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=89]: %NAME% %TAN%(%WHITE%74+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=90]: %NAME% %TAN%(%WHITE%72+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=91]: %NAME% %TAN%(%WHITE%72+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=92]: %NAME% %TAN%(%WHITE%70+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=93]: %NAME% %TAN%(%WHITE%70+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=94]: %NAME% %TAN%(%WHITE%68+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=95]: %NAME% %TAN%(%WHITE%68+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=96]: %NAME% %TAN%(%WHITE%66+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=97]: %NAME% %TAN%(%WHITE%66+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=98]: %NAME% %TAN%(%WHITE%64+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL=99]: %NAME% %TAN%(%WHITE%64+%TAN%){%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID rin ILVL>25]: %BLUE%Ring{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=64]: %NAME% %TAN%(%WHITE%98+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=65]: %NAME% %TAN%(%WHITE%98+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=66]: %NAME% %TAN%(%WHITE%96+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=67]: %NAME% %TAN%(%WHITE%96+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=68]: %NAME% %TAN%(%WHITE%94+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=69]: %NAME% %TAN%(%WHITE%94+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=70]: %NAME% %TAN%(%WHITE%92+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=71]: %NAME% %TAN%(%WHITE%92+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=72]: %NAME% %TAN%(%WHITE%90+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=73]: %NAME% %TAN%(%WHITE%90+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=74]: %NAME% %TAN%(%WHITE%88+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=75]: %NAME% %TAN%(%WHITE%88+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=76]: %NAME% %TAN%(%WHITE%86+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=77]: %NAME% %TAN%(%WHITE%86+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=78]: %NAME% %TAN%(%WHITE%84+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=79]: %NAME% %TAN%(%WHITE%84+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=80]: %NAME% %TAN%(%WHITE%82+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=81]: %NAME% %TAN%(%WHITE%82+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=82]: %NAME% %TAN%(%WHITE%80+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=83]: %NAME% %TAN%(%WHITE%80+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=84]: %NAME% %TAN%(%WHITE%78+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=85]: %NAME% %TAN%(%WHITE%78+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=86]: %NAME% %TAN%(%WHITE%76+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=87]: %NAME% %TAN%(%WHITE%76+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=88]: %NAME% %TAN%(%WHITE%74+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=89]: %NAME% %TAN%(%WHITE%74+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=90]: %NAME% %TAN%(%WHITE%72+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=91]: %NAME% %TAN%(%WHITE%72+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=92]: %NAME% %TAN%(%WHITE%70+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=93]: %NAME% %TAN%(%WHITE%70+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=94]: %NAME% %TAN%(%WHITE%68+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=95]: %NAME% %TAN%(%WHITE%68+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=96]: %NAME% %TAN%(%WHITE%66+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=97]: %NAME% %TAN%(%WHITE%66+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=98]: %NAME% %TAN%(%WHITE%64+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL=99]: %NAME% %TAN%(%WHITE%64+%TAN%){%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID rin ILVL>25]: %BLUE%Ring{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
 
 // Crafted Items
-ItemDisplay[MAG ID HELM ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID CHEST ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID SHIELD ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Io%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Hel%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + El%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%YELLOW%Bountiful:%TAN% P Top + Io%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID WEAPON ILVL>25]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID HELM ILVL>25]: %NAME%{%GREEN%Sfy: %TAN%P Eme + Ith. %GRAY%Vpc: %TAN%P Sku + Lum.%NL%%YELLOW%Btf: %TAN%P Top + Tir. %PURPLE%Ctr: %TAN%P Ame + Nef.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID CHEST ILVL>25]: %NAME%{%GREEN%Sfy: %TAN%P Eme + Eth. %GRAY%Vpc: %TAN%P Sku + Tir.%NL%%YELLOW%Btf: %TAN%P Top + Eld. %PURPLE%Ctr: %TAN%P Ame + Tal.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID SHIELD ILVL>25]: %NAME%{%GREEN%Sfy: %TAN%P Eme + Nef. %GRAY%Vpc: %TAN%P Sku + Sol.%NL%%YELLOW%Btf: %TAN%P Top + Dol. %PURPLE%Ctr: %TAN%P Ame + Eth.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + Io.%NL%%PURPLE%Ctr: %TAN%P Ame + Ort. %BLUE%Hit: %TAN%P Sap + Ort.%NL%%RED%Bld: %TAN%P Rub + Nef. %YELLOW%Btf: %TAN%P Top + Hel.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + El.%NL%%PURPLE%Ctr: %TAN%P Ame + Thul. %BLUE%Hit: %TAN%P Sap + Ral.%NL%%RED%Bld: %TAN%P Rub + Eth. %YELLOW%Btf: %TAN%P Top + Io.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%PURPLE%Ctr: %TAN%P Ame + Ith. %GRAY%Vpc: %TAN%P Sku + Eld.%NL%%RED%Bld: %TAN%P Rub + Tal. %YELLOW%Btf: %TAN%P Top + El.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + Shael.%NL%%BLUE%Hit: %TAN%P Sap + Tir. %GREEN%Sfy: %TAN%P Eme + Sol.%NL%%RED%Bld: %TAN%P Rub + Ort. %YELLOW%Btf: %TAN%P Top + Shael.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID WEAPON ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + Shael.%NL%%PURPLE%Ctr: %TAN%P Ame + Tir. %BLUE%Hit: %TAN%P Sap + Tir.%NL%%RED%Bld: %TAN%P Rub + Ort. %YELLOW%Btf: %TAN%P Top + Shael.%NL%%ORANGE%+Jewel:}
 
 // Upgrading Recipe For Craft/Rare
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%TAN%Ral, Thul, & %ORANGE%P%TAN%Amethyst:}%CONTINUE%
