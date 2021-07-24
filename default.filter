@@ -5187,7 +5187,7 @@ ItemDisplay[NMAG SOCK=3 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAM
 ItemDisplay[NMAG SOCK=5 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=6 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
-ItemDisplay[NMAG !RW NORM CLVL>59]: {%NAME%}
+ItemDisplay[NMAG !RW NORM CLVL>49]: {%NAME%}
 ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>89)]: {%NAME%}
 
 // Crafted Amulets
