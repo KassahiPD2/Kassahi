@@ -1510,7 +1510,7 @@ ItemDisplay[hdm]: %MAP-58%Horadric Malus{%TAN%Give to Charsi}
 
 // Quest Items Act 2
 ItemDisplay[ass]: %MAP-58%Book of Skill{%WHITE%+1 %TAN%Skill Point%NL%Right click For}
-ItemDisplay[tr1]: %MAP-58%Horadric Scroll{%TAN%Uesless Item Does Nothing}
+ItemDisplay[tr1]: Horadric Scroll{%TAN%Uesless Item Does Nothing}
 ItemDisplay[box]: %MAP-58%Horadric Cube
 ItemDisplay[hst]: %MAP-58%Horadric Staff{%TAN%in Tal Rashas Tomb%NL%Place in Tomb Orifice}
 ItemDisplay[vip]: %MAP-58%Amulet of the Viper{%TAN%Staff of Kings}
