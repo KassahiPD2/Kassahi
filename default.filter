@@ -710,7 +710,7 @@ ItemDisplay[SET ID (rng OR xng OR ung) ED>39 STAT34>2]: %GRAY%%NAME% %GREEN%Ange
 // Names of Set Arcanna's Tricks
 ItemDisplay[SET ID amu MANA>34 STAT27>19]: %GRAY%%NAME% %GREEN%Arcanna's Sign%CONTINUE%
 ItemDisplay[SET ID (wst OR 8ws OR 6ws) CLSK1>0 ED>49 STAT141>24]: %GRAY%%NAME% %GREEN%Arcanna's Deathwand%CONTINUE%
-ItemDisplay[SET ID (ltp OR xtp OR utp) FCR>9 STAT89>1]: %GRAY%%NAME% %GREEN%Arcanna's Flesh%CONTINUE%
+ItemDisplay[SET ID (ltp OR xtp OR utp) STAT34>3 STAT89>1]: %GRAY%%NAME% %GREEN%Arcanna's Flesh%CONTINUE%
 ItemDisplay[SET ID (skp OR xkp OR ukp) REPLIFE>9 STAT27>19 STAT78>11]: %GRAY%%NAME% %GREEN%Arcanna's Head%CONTINUE%
 
 // Names of Set Arctic Gear
