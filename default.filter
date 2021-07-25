@@ -1767,7 +1767,7 @@ ItemDisplay[MAG !ID SOR]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[MAG !ID !ETH (am2 OR am7 OR amc)]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[MAG !ID (am5 OR ama OR amf)]: %GRAY%* %NAME% %GRAY%*
 // Rest of the Magic Items Are Hidden
-ItemDisplay[MAG !ID (ILVL>86 OR CLVL>89)]:
+ItemDisplay[MAG !ID (ILVL>86 OR CLVL>84)]:
 
 // Rare jewelry
 ItemDisplay[RARE !ID (jew OR amu OR rin)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
@@ -1822,7 +1822,7 @@ ItemDisplay[RARE !ID SOR]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELL
 ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rest of the Rare Items Are Hidden
-ItemDisplay[RARE !ID (ILVL>86 OR CLVL>89)]:
+ItemDisplay[RARE !ID (ILVL>86 OR CLVL>84)]:
 
 // Set jewelry
 ItemDisplay[SET !ID (amu OR rin)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
@@ -5190,7 +5190,7 @@ ItemDisplay[NMAG !RW (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !RW NORM CLVL>49]: {%NAME%}
 ItemDisplay[NMAG !RW EXC CLVL>79]: {%NAME%}
-ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>89)]: {%NAME%}
+ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>84)]: {%NAME%}
 
 // Crafted Amulets
 ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
