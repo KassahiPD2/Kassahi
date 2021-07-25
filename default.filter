@@ -5186,7 +5186,7 @@ ItemDisplay[NMAG SOCK=0 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-20%%PX-00%%NAM
 ItemDisplay[NMAG SOCK=3 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=6 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
-ItemDisplay[NMAG !RW GLOVES BOOTS BELT]:
+ItemDisplay[NMAG !RW (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !RW NORM CLVL>49]: {%NAME%}
 ItemDisplay[NMAG !RW EXC CLVL>79]: {%NAME%}
