@@ -1,111 +1,111 @@
-The Pages Is Not Done Fully Yet
-╔═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╗
-║                       Page 1                        ║                      Page 2                         ║                       Page 3                        ║
-╠═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬
-║// Names of Magic Charms                             ║// Magic Charms/jewelry                              ║// Orginal Coloring For Items                        ║
-║// Names of Magic/Crafted/Rare jewelry               ║// Magic Helms                                       ║// Every Inferiors Item                              ║
-║// Names of Magic/Crafted/Rare/Base Helms            ║// Magic Armors                                      ║// Every Gambling Item                               ║
-║// Names of Magic/Crafted/Rare/Base Armors           ║// Magic Shields                                     ║// Every Ethereal Item                               ║
-║// Names of Magic/Crafted/Rare/Base Shields          ║// Magic Gloves                                      ║// Every Socketed Item                               ║
-║// Names of Magic/Crafted/Rare/Base Gloves           ║// Magic Boots                                       ║// Quantitiy of Stackables                           ║
-║// Names of Magic/Crafted/Rare/Base Boots            ║// Magic Axes                                        ║// Gold                                              ║
-║// Names of Magic/Crafted/Rare/Base Belts            ║// Magic Clubs                                       ║// Rejuv/Health/Mana/Antidote Potions/Tome/Scroll/Ear║
-║// Names of Magic/Crafted/Rare/Base Circlets         ║// Magic Maces                                       ║// Quest Items Act 1                                 ║
-║// Names of Magic/Crafted/Rare/Base Druid Pelts      ║// Magic Hammers                                     ║// Quest Items Act 2                                 ║
-║// Names of Magic/Crafted/Rare/Base Barbarian Helms  ║// Magic Swords                                      ║// Quest Items Act 3                                 ║
-║// Names of Magic/Crafted/Rare/Base Paladin Shields  ║// Magic Daggers                                     ║// Quest Items Act 4                                 ║
-║// Names of Magic/Crafted/Rare/Base Necromancer Heads║// Magic Throwing Weapons                            ║// Quest Items Act 5                                 ║
-║// Names of Magic/Crafted/Rare/Base Axes             ║// Magic Javelins                                    ║// Gems                                              ║
-║// Names of Magic/Crafted/Rare/Base Clubs            ║// Magic Spears                                      ║// Runes                                             ║
-║// Names of Magic/Crafted/Rare/Base Maces            ║// Magic Polearms                                    ║// Essences/Token                                    ║
-║// Names of Magic/Crafted/Rare/Base Hammers          ║// Magic Bows                                        ║// Uber Keys                                         ║
-║// Names of Magic/Crafted/Rare/Base Swords           ║// Magic Corssbows                                   ║// Organ Items                                       ║
-║// Names of Magic/Crafted/Rare/Base Daggers          ║// Magic Staffs                                      ║// Project Diablo 2 Items                            ║
-║// Names of Magic/Crafted/Rare/Base Throwing Weapons ║// Magic Wands                                       ║// Tier 1 Maps                                       ║
-║// Names of Magic/Crafted/Rare/Base Javelins         ║// Magic Scepters                                    ║// Tier 2 Maps                                       ║
-║// Names of Magic/Crafted/Rare/Base Spears           ║// Magic Assassin Claws                              ║// Tier 3 Maps                                       ║
-║// Names of Magic/Crafted/Rare/Base Polearms         ║// Magic Sorceress Orbs                              ║// Tier 4 Dungeons                                   ║
-║// Names of Magic/Crafted/Rare/Base Bows             ║// Magic Amazon Weapons                              ║// Fixing coloring For vendors                       ║
-║// Names of Magic/Crafted/Rare/Base Corssbows        ║// Rest of the Magic Items Are Hidden                ║// Every Identified Item                             ║
-║// Names of Magic/Crafted/Rare/Base Staffs           ╠═════════════════════════════════════════════════════╣// Upgrading Recipe For Craft/Rare                   ║
-║// Names of Magic/Crafted/Rare/Base Wands            ║// Rare jewelry                                      ║// Upgrading Recipe For Set/Unique                   ║
-║// Names of Magic/Crafted/Rare/Base Scepters         ║// Rare Helms                                        ╠═════════════════════════════════════════════════════╝
-║// Names of Magic/Crafted/Rare/Base Assassin Claws   ║// Rare Armors                                       ║
-║// Names of Magic/Crafted/Rare/Base Sorceress Orbs   ║// Rare Shields                                      ║
-║// Names of Magic/Crafted/Rare/Base Amazon Weapons   ║// Rare Gloves                                       ║
-╠═════════════════════════════════════════════════════╣// Rare Boots                                        ║
-║// Names of Set Angelic Raiment                      ║// Rare Belts                                        ║
-║// Names of Set Arcanna's Tricks                     ║// Rare Axes                                         ║
-║// Names of Set Arctic Gear                          ║// Rare Clubs                                        ║
-║// Names of Set Berserker's Arsenal                  ║// Rare Maces                                        ║
-║// Names of Set Cathan's Traps                       ║// Rare Hammers                                      ║
-║// Names of Set Civerb's Vestments                   ║// Rare Swords                                       ║
-║// Names of Set Cleglaw's Brace                      ║// Rare Daggers                                      ║
-║// Names of Set Cow King's Leathers                  ║// Rare Throwing Weapons                             ║
-║// Names of Set Death's Disguise                     ║// Rare Javelins                                     ║
-║// Names of Set The Disciple                         ║// Rare Spears                                       ║
-║// Names of Set Heaven's Brethren                    ║// Rare Polearms                                     ║
-║// Names of Set Hsarus' Defense                      ║// Rare Bows                                         ║
-║// Names of Set Hwanin's Majesty                     ║// Rare Corssbows                                    ║
-║// Names of Set Infernal Tools                       ║// Rare Staffs                                       ║
-║// Names of Set Iratha's Finery                      ║// Rare Wands                                        ║
-║// Names of Set Isenhart's Armory                    ║// Rare Scepters                                     ║
-║// Names of Set Milabrega's Regalia                  ║// Rare Assassin Claws                               ║
-║// Names of Set Naj's Ancient Vestige                ║// Rare Sorceress Orbs                               ║
-║// Names of Set Orphan's Call                        ║// Rare Amazon Weapons                               ║
-║// Names of Set Sander's Folly                       ║// Rest of the Rare Items Are Hidden                 ║
-║// Names of Set Sazabi's Grand Tribute               ╠═════════════════════════════════════════════════════╣
-║// Names of Set Sigon's Complete Steel               ║// Set jewelry                                       ║
-║// Names of Set Tancred's Battlegear                 ║// Set Helms                                         ║
-║// Names of Set Vidala's Rig                         ║// Set Armors                                        ║
-║// Names of Set Aldur's Watchtower                   ║// Set Shields                                       ║
-║// Names of Set Bul-Kathos' Children                 ║// Set Gloves                                        ║
-║// Names of Set Griswold's Legacy                    ║// Set Boots                                         ║
-║// Names of Set Immortal King                        ║// Set Belts                                         ║
-║// Names of Set M'avina's Battle Hymn                ║// Set Circlets                                      ║
-║// Names of Set Natalya's Odium                      ║// Set Druid Pelts                                   ║
-║// Names of Set Tal Rasha's Wrappings                ║// Set Barbarian Helms                               ║
-║// Names of Set Trang-Oul's Avatar                   ║// Set Necromancer Heads                             ║
-╠═════════════════════════════════════════════════════╣// Set Hammers                                       ║
-║// Names of Unique Charms                            ║// Set Swords                                        ║
-║// Names of Unique Facets                            ║// Set Scepters                                      ║
-║// Names of Unique Amulets                           ║// Set Sorceress Orbs                                ║
-║// Names of Unique Rings                             ║// Set Amazon Weapons                                ║
-║// Names of Unique Helms                             ║// Rest of the Set Items Are Still Shown             ║
-║// Names of Unique Armors                            ╠═════════════════════════════════════════════════════╣
-║// Names of Unique Shields                           ║// Unique Charms                                     ║
-║// Names of Unique Gloves                            ║// Unique jewelry                                    ║
-║// Names of Unique Boots                             ║// Unique Helms                                      ║
-║// Names of Unique Belts                             ║// Unique Armors                                     ║
-║// Names of Unique Circlets                          ║// Unique Shields                                    ║
-║// Names of Unique Druid Pelts                       ║// Unique Gloves                                     ║
-║// Names of Unique Barbarian Helms                   ║// Unique Boots                                      ║
-║// Names of Unique Paladin Shields                   ║// Unique Belts                                      ║
-║// Names of Unique Necromancer Heads                 ║// Unique Circlets                                   ║
-║// Names of Unique Axes                              ║// Unique Druid Pelts                                ║
-║// Names of Unique Clubs                             ║// Unique Barbarian Helms                            ║
-║// Names of Unique Maces                             ║// Unique Paladin Shields                            ║
-║// Names of Unique Hammers                           ║// Unique Necromancer Heads                          ║
-║// Names of Unique Swords                            ║// Unique Axes                                       ║
-║// Names of Unique Daggers                           ║// Unique Maces                                      ║
-║// Names of Unique Throwing Weapons                  ║// Unique Hammers                                    ║
-║// Names of Unique Javelins                          ║// Unique Swords                                     ║
-║// Names of Unique Spears                            ║// Unique Daggers                                    ║
-║// Names of Unique Polearms                          ║// Unique Throwing Weapons                           ║
-║// Names of Unique Bows                              ║// Unique Javelins                                   ║
-║// Names of Unique Corssbows                         ║// Unique Spears                                     ║
-║// Names of Unique Staffs                            ║// Unique Polearms                                   ║
-║// Names of Unique Wands                             ║// Unique Bows                                       ║
-║// Names of Unique Scepters                          ║// Unique Corssbows                                  ║
-║// Names of Unique Assassin Claws                    ║// Unique Staffs                                     ║
-║// Names of Unique Sorceress Orbs                    ║// Unique Wands                                      ║
-║// Names of Unique Amazon Weapons                    ║// Unique Scepters                                   ║
-╠═════════════════════════════════════════════════════╣// Unique Assassin Claws                             ║
-║// Names of Runeword Helms                           ║// Unique Sorceress Orbs                             ║
-║// Names of Runeword Armors                          ║// Unique Amazon Weapons                             ║
-║// Names of Runeword Shields                         ║// Rest of the Unique Items Are Still Shown          ║
-║// Names of Runeword Weapons                         ╠═════════════════════════════════════════════════════╝
-╚═════════════════════════════════════════════════════╝
+//The Pages Is Not Done Fully Yet
+//╔═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╗
+//║                       Page 1                        ║                      Page 2                         ║                       Page 3                        ║
+//╠═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬
+//║// Names of Magic Charms                             ║// Magic Charms/jewelry                              ║// Orginal Coloring For Items                        ║
+//║// Names of Magic/Crafted/Rare jewelry               ║// Magic Helms                                       ║// Every Inferiors Item                              ║
+//║// Names of Magic/Crafted/Rare/Base Helms            ║// Magic Armors                                      ║// Every Gambling Item                               ║
+//║// Names of Magic/Crafted/Rare/Base Armors           ║// Magic Shields                                     ║// Every Ethereal Item                               ║
+//║// Names of Magic/Crafted/Rare/Base Shields          ║// Magic Gloves                                      ║// Every Socketed Item                               ║
+//║// Names of Magic/Crafted/Rare/Base Gloves           ║// Magic Boots                                       ║// Quantitiy of Stackables                           ║
+//║// Names of Magic/Crafted/Rare/Base Boots            ║// Magic Axes                                        ║// Gold                                              ║
+//║// Names of Magic/Crafted/Rare/Base Belts            ║// Magic Clubs                                       ║// Rejuv/Health/Mana/Antidote Potions/Tome/Scroll/Ear║
+//║// Names of Magic/Crafted/Rare/Base Circlets         ║// Magic Maces                                       ║// Quest Items Act 1                                 ║
+//║// Names of Magic/Crafted/Rare/Base Druid Pelts      ║// Magic Hammers                                     ║// Quest Items Act 2                                 ║
+//║// Names of Magic/Crafted/Rare/Base Barbarian Helms  ║// Magic Swords                                      ║// Quest Items Act 3                                 ║
+//║// Names of Magic/Crafted/Rare/Base Paladin Shields  ║// Magic Daggers                                     ║// Quest Items Act 4                                 ║
+//║// Names of Magic/Crafted/Rare/Base Necromancer Heads║// Magic Throwing Weapons                            ║// Quest Items Act 5                                 ║
+//║// Names of Magic/Crafted/Rare/Base Axes             ║// Magic Javelins                                    ║// Gems                                              ║
+//║// Names of Magic/Crafted/Rare/Base Clubs            ║// Magic Spears                                      ║// Runes                                             ║
+//║// Names of Magic/Crafted/Rare/Base Maces            ║// Magic Polearms                                    ║// Essences/Token                                    ║
+//║// Names of Magic/Crafted/Rare/Base Hammers          ║// Magic Bows                                        ║// Uber Keys                                         ║
+//║// Names of Magic/Crafted/Rare/Base Swords           ║// Magic Corssbows                                   ║// Organ Items                                       ║
+//║// Names of Magic/Crafted/Rare/Base Daggers          ║// Magic Staffs                                      ║// Project Diablo 2 Items                            ║
+//║// Names of Magic/Crafted/Rare/Base Throwing Weapons ║// Magic Wands                                       ║// Tier 1 Maps                                       ║
+//║// Names of Magic/Crafted/Rare/Base Javelins         ║// Magic Scepters                                    ║// Tier 2 Maps                                       ║
+//║// Names of Magic/Crafted/Rare/Base Spears           ║// Magic Assassin Claws                              ║// Tier 3 Maps                                       ║
+//║// Names of Magic/Crafted/Rare/Base Polearms         ║// Magic Sorceress Orbs                              ║// Tier 4 Dungeons                                   ║
+//║// Names of Magic/Crafted/Rare/Base Bows             ║// Magic Amazon Weapons                              ║// Fixing coloring For vendors                       ║
+//║// Names of Magic/Crafted/Rare/Base Corssbows        ║// Rest of the Magic Items Are Hidden                ║// Every Identified Item                             ║
+//║// Names of Magic/Crafted/Rare/Base Staffs           ╠═════════════════════════════════════════════════════╣// Upgrading Recipe For Craft/Rare                   ║
+//║// Names of Magic/Crafted/Rare/Base Wands            ║// Rare jewelry                                      ║// Upgrading Recipe For Set/Unique                   ║
+//║// Names of Magic/Crafted/Rare/Base Scepters         ║// Rare Helms                                        ╠═════════════════════════════════════════════════════╝
+//║// Names of Magic/Crafted/Rare/Base Assassin Claws   ║// Rare Armors                                       ║
+//║// Names of Magic/Crafted/Rare/Base Sorceress Orbs   ║// Rare Shields                                      ║
+//║// Names of Magic/Crafted/Rare/Base Amazon Weapons   ║// Rare Gloves                                       ║
+//╠═════════════════════════════════════════════════════╣// Rare Boots                                        ║
+//║// Names of Set Angelic Raiment                      ║// Rare Belts                                        ║
+//║// Names of Set Arcanna's Tricks                     ║// Rare Axes                                         ║
+//║// Names of Set Arctic Gear                          ║// Rare Clubs                                        ║
+//║// Names of Set Berserker's Arsenal                  ║// Rare Maces                                        ║
+//║// Names of Set Cathan's Traps                       ║// Rare Hammers                                      ║
+//║// Names of Set Civerb's Vestments                   ║// Rare Swords                                       ║
+//║// Names of Set Cleglaw's Brace                      ║// Rare Daggers                                      ║
+//║// Names of Set Cow King's Leathers                  ║// Rare Throwing Weapons                             ║
+//║// Names of Set Death's Disguise                     ║// Rare Javelins                                     ║
+//║// Names of Set The Disciple                         ║// Rare Spears                                       ║
+//║// Names of Set Heaven's Brethren                    ║// Rare Polearms                                     ║
+//║// Names of Set Hsarus' Defense                      ║// Rare Bows                                         ║
+//║// Names of Set Hwanin's Majesty                     ║// Rare Corssbows                                    ║
+//║// Names of Set Infernal Tools                       ║// Rare Staffs                                       ║
+//║// Names of Set Iratha's Finery                      ║// Rare Wands                                        ║
+//║// Names of Set Isenhart's Armory                    ║// Rare Scepters                                     ║
+//║// Names of Set Milabrega's Regalia                  ║// Rare Assassin Claws                               ║
+//║// Names of Set Naj's Ancient Vestige                ║// Rare Sorceress Orbs                               ║
+//║// Names of Set Orphan's Call                        ║// Rare Amazon Weapons                               ║
+//║// Names of Set Sander's Folly                       ║// Rest of the Rare Items Are Hidden                 ║
+//║// Names of Set Sazabi's Grand Tribute               ╠═════════════════════════════════════════════════════╣
+//║// Names of Set Sigon's Complete Steel               ║// Set jewelry                                       ║
+//║// Names of Set Tancred's Battlegear                 ║// Set Helms                                         ║
+//║// Names of Set Vidala's Rig                         ║// Set Armors                                        ║
+//║// Names of Set Aldur's Watchtower                   ║// Set Shields                                       ║
+//║// Names of Set Bul-Kathos' Children                 ║// Set Gloves                                        ║
+//║// Names of Set Griswold's Legacy                    ║// Set Boots                                         ║
+//║// Names of Set Immortal King                        ║// Set Belts                                         ║
+//║// Names of Set M'avina's Battle Hymn                ║// Set Circlets                                      ║
+//║// Names of Set Natalya's Odium                      ║// Set Druid Pelts                                   ║
+//║// Names of Set Tal Rasha's Wrappings                ║// Set Barbarian Helms                               ║
+//║// Names of Set Trang-Oul's Avatar                   ║// Set Necromancer Heads                             ║
+//╠═════════════════════════════════════════════════════╣// Set Hammers                                       ║
+//║// Names of Unique Charms                            ║// Set Swords                                        ║
+//║// Names of Unique Facets                            ║// Set Scepters                                      ║
+//║// Names of Unique Amulets                           ║// Set Sorceress Orbs                                ║
+//║// Names of Unique Rings                             ║// Set Amazon Weapons                                ║
+//║// Names of Unique Helms                             ║// Rest of the Set Items Are Still Shown             ║
+//║// Names of Unique Armors                            ╠═════════════════════════════════════════════════════╣
+//║// Names of Unique Shields                           ║// Unique Charms                                     ║
+//║// Names of Unique Gloves                            ║// Unique jewelry                                    ║
+//║// Names of Unique Boots                             ║// Unique Helms                                      ║
+//║// Names of Unique Belts                             ║// Unique Armors                                     ║
+//║// Names of Unique Circlets                          ║// Unique Shields                                    ║
+//║// Names of Unique Druid Pelts                       ║// Unique Gloves                                     ║
+//║// Names of Unique Barbarian Helms                   ║// Unique Boots                                      ║
+//║// Names of Unique Paladin Shields                   ║// Unique Belts                                      ║
+//║// Names of Unique Necromancer Heads                 ║// Unique Circlets                                   ║
+//║// Names of Unique Axes                              ║// Unique Druid Pelts                                ║
+//║// Names of Unique Clubs                             ║// Unique Barbarian Helms                            ║
+//║// Names of Unique Maces                             ║// Unique Paladin Shields                            ║
+//║// Names of Unique Hammers                           ║// Unique Necromancer Heads                          ║
+//║// Names of Unique Swords                            ║// Unique Axes                                       ║
+//║// Names of Unique Daggers                           ║// Unique Maces                                      ║
+//║// Names of Unique Throwing Weapons                  ║// Unique Hammers                                    ║
+//║// Names of Unique Javelins                          ║// Unique Swords                                     ║
+//║// Names of Unique Spears                            ║// Unique Daggers                                    ║
+//║// Names of Unique Polearms                          ║// Unique Throwing Weapons                           ║
+//║// Names of Unique Bows                              ║// Unique Javelins                                   ║
+//║// Names of Unique Corssbows                         ║// Unique Spears                                     ║
+//║// Names of Unique Staffs                            ║// Unique Polearms                                   ║
+//║// Names of Unique Wands                             ║// Unique Bows                                       ║
+//║// Names of Unique Scepters                          ║// Unique Corssbows                                  ║
+//║// Names of Unique Assassin Claws                    ║// Unique Staffs                                     ║
+//║// Names of Unique Sorceress Orbs                    ║// Unique Wands                                      ║
+//║// Names of Unique Amazon Weapons                    ║// Unique Scepters                                   ║
+//╠═════════════════════════════════════════════════════╣// Unique Assassin Claws                             ║
+//║// Names of Runeword Helms                           ║// Unique Sorceress Orbs                             ║
+//║// Names of Runeword Armors                          ║// Unique Amazon Weapons                             ║
+//║// Names of Runeword Shields                         ║// Rest of the Unique Items Are Still Shown          ║
+//║// Names of Runeword Weapons                         ╠═════════════════════════════════════════════════════╝
+//╚═════════════════════════════════════════════════════╝
 
 // Names of Magic Charms
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
@@ -733,7 +733,7 @@ ItemDisplay[SET ID (msk OR xsk OR usk) MANA>19 STAT43>24]: %GRAY%%NAME% %GREEN%C
 
 // Names of Set Civerb's Vestments
 ItemDisplay[SET ID amu REPLIFE>9 STAT27>39]: %GRAY%%NAME% %GREEN%Civerb's Icon%CONTINUE%
-ItemDisplay[SET ID (gsc OR 9qs OR 7qs) STAT22>>16 STAT218>0 AR>74]: %GRAY%%NAME% %GREEN%Civerb's Cudgel%CONTINUE%
+ItemDisplay[SET ID (gsc OR 9qs OR 7qs) STAT22>16 STAT218>0 AR>74]: %GRAY%%NAME% %GREEN%Civerb's Cudgel%CONTINUE%
 ItemDisplay[SET ID (lrg OR xrg OR urg) STAT20>14 STAT31>29]: %GRAY%%NAME% %GREEN%Civerb's Ward%CONTINUE%
 
 // Names of Set Cleglaw's Brace
@@ -842,7 +842,7 @@ ItemDisplay[SET ID (lea OR xea OR uea) STAT31>49 DEX>10]: %GRAY%%NAME% %GREEN%Vi
 ItemDisplay[SET ID (tbt OR xtb OR utb) FRW>29 STAT11>149 !DTM>9]: %GRAY%%NAME% %GREEN%Vidala's Fetlock%CONTINUE%
 
 // Names of Set Aldur's Watchtower
-ItemDisplay[SET ID (9mt OR 7mt) IAS>>44 STAT121>199 STAT122>99 STAT50>49 STAT62>4 STAT60>9]: %GRAY%%NAME% %GREEN%Aldur's Rhythm%CONTINUE%
+ItemDisplay[SET ID (9mt OR 7mt) IAS>44 STAT121>199 STAT122>99 STAT50>49 STAT62>4 STAT60>9]: %GRAY%%NAME% %GREEN%Aldur's Rhythm%CONTINUE%
 ItemDisplay[SET ID uul TABSK42>0 TABSK41>0 STAT31>299 STR>19 DEX>14 LRES>39]: %GRAY%%NAME% %GREEN%Aldur's Deception%CONTINUE%
 ItemDisplay[SET ID (dr8 OR drd) TABSK40>0 CLSK5>0 FHR>24 STAT31>89 STAT27>16 CRES>39]: %GRAY%%NAME% %GREEN%Aldur's Stony Gaze%CONTINUE%
 ItemDisplay[SET ID (xtb OR utb) STAT152>0 FRW>39 LIFE>49 STAT11>179 STAT28>31 FRES>49 DTM>9]: %GRAY%%NAME% %GREEN%Aldur's Advance%CONTINUE%
@@ -884,7 +884,7 @@ ItemDisplay[SET ID amu CLSK1>1 LIFE>39 MANA>31 LRES>32]: %GRAY%%NAME% %GREEN%Tal
 ItemDisplay[SET ID (oba OR obf) FCR>19 SK65>0 SK63>0 SK61>0 STAT1>9 LIFE>56 MANA>76]: %GRAY%%NAME% %GREEN%Tal Rasha's Lidless Eye%CONTINUE%
 ItemDisplay[SET ID uth STAT31>399 CRES>39 LRES>39 FRES>39 STAT35>9 MFIND>59]: %GRAY%%NAME% %GREEN%Tal Rasha's Guardianship%CONTINUE%
 ItemDisplay[SET ID (xsk OR usk) STAT62>5 STAT60>5 STAT31>44 LIFE>49 MANA>24 RES>9]: %GRAY%%NAME% %GREEN%Tal Rasha's Horadric Crest%CONTINUE%
-ItemDisplay[SET ID (zmb OR umc) DEX>19 MANA>19 DTM>36 MFING>9]: %GRAY%%NAME% %GREEN%Tal Rasha's Fine-Spun Cloth%CONTINUE%
+ItemDisplay[SET ID (zmb OR umc) DEX>19 MANA>19 DTM>36 MFIND>9]: %GRAY%%NAME% %GREEN%Tal Rasha's Fine-Spun Cloth%CONTINUE%
 
 // Names of Set Trang-Oul's Avatar
 ItemDisplay[SET ID (xul OR uul) TABSK18>1 FRW>39 SK367>0 ED>149 STAT32>99 PRES>39]: %GRAY%%NAME% %GREEN%Trang-Oul's Scales%CONTINUE%
@@ -938,7 +938,7 @@ ItemDisplay[UNI ID rin ALLSK>0 STAT144>3 MFIND>7]: %GRAY%%NAME% %GOLD%Wisp Proje
 // Names of Unique Helms
 ItemDisplay[UNI ID (cap OR xap OR uap) AR>29 STAT31>13 LIFE>14 MANA>14]: %GRAY%%NAME% %GOLD%Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI ID (xap OR uap) ALLSK>0 FRW>14 ED>99 STAT3>19 STAT1>19 REPLIFE>5]: %GRAY%%NAME% %GOLD%Peasant Crown%CONTINUE%
-ItemDisplay[UNI ID uap ALLSK>1 STAT216>0 STAT217>0 STAT36>2 MFING>49]: %GRAY%%NAME% %GOLD%Harlequin Crest%CONTINUE%
+ItemDisplay[UNI ID uap ALLSK>1 STAT216>0 STAT217>0 STAT36>2 MFIND>49]: %GRAY%%NAME% %GOLD%Harlequin Crest%CONTINUE%
 ItemDisplay[UNI ID (skp OR xkp OR ukp) ALLSK>0 MAEK>0 GFIND>74 MFIND>24]: %GRAY%%NAME% %GOLD%Tarnhelm%CONTINUE%
 ItemDisplay[UNI ID (xkp OR ukp) FHR>29 ED>159 STAT3>14 CRES>19 LRES>19 FRES>19 STAT36>9]: %GRAY%%NAME% %GOLD%Rockstopper%CONTINUE%
 ItemDisplay[UNI ID (hlm OR xlm OR ulm) STAT113>0 STAT31>9 STAT32>99 LRES>14 STAT86>1 STAT128>16]: %GRAY%%NAME% %GOLD%Coif of Glory%CONTINUE%
@@ -1050,7 +1050,7 @@ ItemDisplay[UNI ID (mbt OR xmb OR umb) FRW>29 STAT156>9 ED>29 STAT31>11 STAT32>4
 ItemDisplay[UNI ID (xmb OR umb) FRW>29 ED>149 STAT32>199 STAT77>9 MAEK>4]: %GRAY%%NAME% %GOLD%Silkweave%CONTINUE%
 ItemDisplay[UNI ID umb FRW>19 SK69>0 ED>169 STR>9 DEX>16 STAT27>9 STAT28>9 STAT153>0]: %GRAY%%NAME% %GOLD%Marrowwalk%CONTINUE%
 ItemDisplay[UNI ID (tbt OR xtb OR utb) FRW>19 STAT136>14 ED>49 STAT31>14 STAT34>2 STAT35>2]: %GRAY%%NAME% %GOLD%Goblin Toe%CONTINUE%
-ItemDisplay[UNI ID (xtb OR utb) FRW>24 ED>149 STR>9 STAT3>9 STAT154>39 STAT78>4 MFING>29]: %GRAY%%NAME% %GOLD%War Traveler%CONTINUE%
+ItemDisplay[UNI ID (xtb OR utb) FRW>24 ED>149 STR>9 STAT3>9 STAT154>39 STAT78>4 MFIND>29]: %GRAY%%NAME% %GOLD%War Traveler%CONTINUE%
 ItemDisplay[UNI ID utb FRW>19 FCR>19 FHR>19 STAT31>39 DEX>9 STAT3>9]: %GRAY%%NAME% %GOLD%Itherael's Path%CONTINUE%
 ItemDisplay[UNI ID (hbt OR xhb OR uhb) TABSK26>0 FRW>19 SK115>0 ED>59 STAT31>34 STR>4 DEX>4 RES>9]: %GRAY%%NAME% %GOLD%Tearhaunch%CONTINUE%
 ItemDisplay[UNI ID (xhb OR uhb) FRW>29 STAT136>14 STAT141>14 STAT135>9 ED>159 STAT11>19]: %GRAY%%NAME% %GOLD%Gore Rider%CONTINUE%
@@ -1112,7 +1112,7 @@ ItemDisplay[UNI ID (92a OR 72a) CLSK5>1 IAS>49 ED>169 STAT136>24 SK248>0 SK233>0
 ItemDisplay[UNI ID 72a ED>219 STAT44>4 STAT153>0]: %GRAY%%NAME% %GOLD%Rune Master%CONTINUE%
 ItemDisplay[UNI ID (mpi OR 9mp OR 7mp) ED>59 AR>49 STAT135>14 STAT113>1 STAT27>19]: %GRAY%%NAME% %GOLD%Skull Splitter%CONTINUE%
 ItemDisplay[UNI ID (9mp OR 7mp) IAS>19 ED>169 STAT150>9]: %GRAY%%NAME% %GOLD%Pompeii's Wrath%CONTINUE%
-ItemDisplay[UNI ID 7mp IAS>39 ED>239 MFING>29]: %GRAY%%NAME% %GOLD%Cranebeak%CONTINUE%
+ItemDisplay[UNI ID 7mp IAS>39 ED>239 MFIND>29]: %GRAY%%NAME% %GOLD%Cranebeak%CONTINUE%
 ItemDisplay[UNI ID (wax OR 9wa OR 7wa) IAS>29 ED>74 AR>49 PRES>49]: %GRAY%%NAME% %GOLD%Rakescar%CONTINUE%
 ItemDisplay[UNI ID (9wa OR 7wa) ED>149 MAXDMG>19 PRES>29 STAT78>74]: %GRAY%%NAME% %GOLD%Guardian Naga%CONTINUE%
 ItemDisplay[UNI ID 7wa IAS>39 ED>279 MINDMG>14 STAT141>49 STAT86>5]: %GRAY%%NAME% %GOLD%Death Cleaver%CONTINUE%
@@ -1202,7 +1202,7 @@ ItemDisplay[UNI ID (9gd OR 7gd) FHR>19 STAT20>19 ED>209 STAT214>0 STAT33>199 STA
 ItemDisplay[UNI ID 7gd TABSK34>2 ED>149 STAT218>0 ARPER>49 LIFE>79 REPAIR>0]: %GRAY%%NAME% %GOLD%The Grandfather%CONTINUE%
 
 // Names of Unique Daggers
-ItemDisplay[UNI ID (dgr OR 9dg OR 7dg) STAT141>19 MFING>99]: %GRAY%%NAME% %GOLD%Gull%CONTINUE%
+ItemDisplay[UNI ID (dgr OR 9dg OR 7dg) STAT141>19 MFIND>99]: %GRAY%%NAME% %GOLD%Gull%CONTINUE%
 ItemDisplay[UNI ID (9dg OR 7dg) ALLSK>0 IAS>14 ED>199 STAT115>0 STAT60>7 STAT141>19 STAT117>0 DEX>9]: %GRAY%%NAME% %GOLD%Spineripper%CONTINUE%
 ItemDisplay[UNI ID 7dg STAT152>0 FCR>49 STAT141>19 STAT77>14 STAT217>0 STAT27>14 RES>74]: %GRAY%%NAME% %GOLD%Wizardspike%CONTINUE%
 ItemDisplay[UNI ID (dir OR 9di OR 7di) IAS>29 ED>49 STAT115>0 STAT141>19 DEX>9 CRES>24 FRES>24]: %GRAY%%NAME% %GOLD%The Diggler%CONTINUE%
@@ -1233,7 +1233,7 @@ ItemDisplay[UNI ID 7sr ALLSK>2 IAS>29 ED>239 STAT115>0 STAT141>49]: %GRAY%%NAME%
 ItemDisplay[UNI ID (tri OR 9tr OR 7tr) IAS>29 ED>29 STAT150>24 STR>14 DEX>7]: %GRAY%%NAME% %GOLD%Razortine%CONTINUE%
 ItemDisplay[UNI ID (9tr OR 7tr) ED>139 STAT150>24 STR>9 STAT216>0 FRES>49]: %GRAY%%NAME% %GOLD%Kelpie Snare%CONTINUE%
 ItemDisplay[UNI ID (brn OR 9br OR 7br) ED>49 STAT60>7 STAT135>34 STR>9 LIFE>25]: %GRAY%%NAME% %GOLD%Bloodthief%CONTINUE%
-ItemDisplay[UNI ID (9br OR 7br) ED>189 AR149 STAT62>6 STAT60>6 STAT154>19]: %GRAY%%NAME% %GOLD%Soulfeast Tine%CONTINUE%
+ItemDisplay[UNI ID (9br OR 7br) ED>189 AR>149 STAT62>6 STAT60>6 STAT154>19]: %GRAY%%NAME% %GOLD%Soulfeast Tine%CONTINUE%
 ItemDisplay[UNI ID 7br IAS>49 ED>239 AR>199 STAT332>9 PRES>29]: %GRAY%%NAME% %GOLD%Viperfork%CONTINUE%
 ItemDisplay[UNI ID (spt OR 9st OR 7st) IAS>39 SK24>0 SK14>1 RES>14 STAT78>23]: %GRAY%%NAME% %GOLD%Lance of Yaggai%CONTINUE%
 ItemDisplay[UNI ID (9st OR 7st) ED>159 STAT136>44 REPAIR>0]: %GRAY%%NAME% %GOLD%Hone Sundan%CONTINUE%
@@ -1270,7 +1270,7 @@ ItemDisplay[UNI ID (cbw OR 8cb OR 6cb) IAS>19 ED>79 AR>59 STAT122>99 STAT141>29 
 ItemDisplay[UNI ID (8cb OR 6cb) ED>179 MANA>39 CRES>34]: %GRAY%%NAME% %GOLD%Endlesshail%CONTINUE%
 ItemDisplay[UNI ID (sbb OR 8s8 OR 6s7) STAT156>24 ED>119 AR>27 STR>7 LRES>24]: %GRAY%%NAME% %GOLD%Stormstrike%CONTINUE%
 ItemDisplay[UNI ID (8s8 OR 6s7) STAT157>0 ED>149 STAT250>0 RES>19]: %GRAY%%NAME% %GOLD%Witchwild String%CONTINUE%
-ItemDisplay[UNI ID (lbb OR 8l8 OR 6l7) IAS>29 STAT157>0 ED>69 AR49 STAT335>19 STAT1>14 MANA>29 CRES>25]: %GRAY%%NAME% %GOLD%Wizendraw%CONTINUE%
+ItemDisplay[UNI ID (lbb OR 8l8 OR 6l7) IAS>29 STAT157>0 ED>69 AR>49 STAT335>19 STAT1>14 MANA>29 CRES>25]: %GRAY%%NAME% %GOLD%Wizendraw%CONTINUE%
 ItemDisplay[UNI ID (8l8 OR 6l7) CLSK0>1 IAS>19 ED>189 STAT81>0 STAT32>79 LIFE>49]: %GRAY%%NAME% %GOLD%Cliffkiller%CONTINUE%
 ItemDisplay[UNI ID 6l7 CLSK0>0 ED>199 STAT219>0 STAT115>0 STAT224>0 DEX>24]: %GRAY%%NAME% %GOLD%Eaglehorn%CONTINUE%
 ItemDisplay[UNI ID (swb OR 8sw OR 6sw) IAS>9 ED>119 AR>49 DEX>11 FRES>39]: %GRAY%%NAME% %GOLD%Hellclap%CONTINUE%
@@ -1334,7 +1334,7 @@ ItemDisplay[UNI ID (9ar OR 7ar) FHR>19 STAT219>0 SK275>1 STR>9 STAT89>5]: %GRAY%
 ItemDisplay[UNI ID 7wb TABSK50>0 TABSK49>0 FHR>29 ED>189 STAT62>9 RES>29]: %GRAY%%NAME% %GOLD%Jade Talon%CONTINUE%
 ItemDisplay[UNI ID 7cs STAT152>0 TABSK49>1 FCR>19 ED>169 STAT134>1 MAEK>5]: %GRAY%%NAME% %GOLD%Shadow Killer%CONTINUE%
 ItemDisplay[UNI ID 7lw TABSK50>0 IAS>14 ED>199 STAT333>4 FRES>29]: %GRAY%%NAME% %GOLD%Firelizard's Talons%CONTINUE%
-ItemDisplay[UNI ID (9tw OR 7tw) TABSK50>0 CLSK6>1 FHR>29 ED>199 ARPER>19 STAT604 STR>19 DEX>19]: %GRAY%%NAME% %GOLD%Bartuc's Cut-Throat%CONTINUE%
+ItemDisplay[UNI ID (9tw OR 7tw) TABSK50>0 CLSK6>1 FHR>29 ED>199 ARPER>19 STAT60 STR>19 DEX>19]: %GRAY%%NAME% %GOLD%Bartuc's Cut-Throat%CONTINUE%
 ItemDisplay[UNI ID 7qr STAT152>0 TABSK49>2 IAS>39 ED>439 MINDMG>29 STAT224>0]: %GRAY%%NAME% %GOLD%Aidan's Scar%CONTINUE%
 
 // Names of Unique Sorceress Orbs
