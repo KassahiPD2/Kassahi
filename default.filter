@@ -5292,7 +5292,7 @@ ItemDisplay[(CRAFT OR RARE) !ETH xhl]: %NAME%{%TAN%Upgrading Require %WHITE%142%
 ItemDisplay[(CRAFT OR RARE) !ETH msk]: %NAME%{%TAN%Upgrading Require %WHITE%55%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH xsk]: %NAME%{%TAN%Upgrading Require %WHITE%102%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH bhm]: %NAME%{%TAN%Upgrading Require %WHITE%58%TAN%Str.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE) !ETH xh9]: %NAME%{%TAN%Upgrading Require %WHITE%106%TAN%Str.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE) !ETH xh9]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Bone Visage For 3os Chance.%NL%%TAN%Upgrading Require %WHITE%106%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH ghm]: %NAME%{%TAN%Upgrading Require %WHITE%115%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH xhm]: %NAME%{%TAN%Upgrading Require %WHITE%192%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH crn]: %NAME%{%TAN%Upgrading Require %WHITE%103%TAN%Str.%NL%%NAME%}
@@ -5682,7 +5682,7 @@ ItemDisplay[SET msk]: %NAME%{%TAN%Upgrading Require %WHITE%55%TAN%Str Lvl%WHITE%
 ItemDisplay[SET xsk STAT31>44]: %NAME%{%TAN%Upgrading Require %WHITE%102%TAN%Str Lvl%WHITE%66.%NL%%NAME%}
 ItemDisplay[SET xsk]: %NAME%{%TAN%Upgrading Require %WHITE%102%TAN%Str Lvl%WHITE%55.%NL%%NAME%}
 ItemDisplay[SET bhm]: %NAME%{%TAN%Upgrading Require %WHITE%58%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
-ItemDisplay[SET xh9]: %NAME%{%TAN%Upgrading Require %WHITE%106%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
+ItemDisplay[SET xh9]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Bone Visage For 3os Chance.%NL%%TAN%Upgrading Require %WHITE%106%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
 ItemDisplay[SET ghm]: %NAME%{%TAN%Upgrading Require %WHITE%115%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
 ItemDisplay[SET xhm]: %NAME%{%TAN%Upgrading Require %WHITE%192%TAN%Str Lvl%WHITE%59.%NL%%NAME%}
 ItemDisplay[SET crn]: %NAME%{%TAN%Upgrading Require %WHITE%103%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
@@ -5846,7 +5846,7 @@ ItemDisplay[UNI !ETH xhl]: %NAME%{%TAN%Upgrading Require %WHITE%142%TAN%Str Lvl%
 ItemDisplay[UNI !ETH msk]: %NAME%{%TAN%Upgrading Require %WHITE%55%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
 ItemDisplay[UNI !ETH xsk]: %NAME%{%TAN%Upgrading Require %WHITE%102%TAN%Str Lvl%WHITE%55.%NL%%NAME%}
 ItemDisplay[UNI !ETH bhm]: %NAME%{%TAN%Upgrading Require %WHITE%58%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
-ItemDisplay[UNI !ETH xh9]: %NAME%{%TAN%Upgrading Require %WHITE%106%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
+ItemDisplay[UNI !ETH xh9]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Bone Visage For 3os Chance.%NL%%TAN%Upgrading Require %WHITE%106%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
 ItemDisplay[UNI !ETH ghm]: %NAME%{%TAN%Upgrading Require %WHITE%115%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
 ItemDisplay[UNI !ETH xhm]: %NAME%{%TAN%Upgrading Require %WHITE%192%TAN%Str Lvl%WHITE%59.%NL%%NAME%}
 ItemDisplay[UNI !ETH crn]: %NAME%{%TAN%Upgrading Require %WHITE%103%TAN%Str Lvl%WHITE%29.%NL%%NAME%}
@@ -6168,7 +6168,7 @@ ItemDisplay[(CRAFT OR RARE) ETH xhl]: %NAME%{%TAN%Upgrading Require %WHITE%132%T
 ItemDisplay[(CRAFT OR RARE) ETH msk]: %NAME%{%TAN%Upgrading Require %WHITE%45%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH xsk]: %NAME%{%TAN%Upgrading Require %WHITE%92%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH bhm]: %NAME%{%TAN%Upgrading Require %WHITE%48%TAN%Str.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE) ETH xh9]: %NAME%{%TAN%Upgrading Require %WHITE%96%TAN%Str.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE) ETH xh9]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Bone Visage For 3os Chance.%NL%%TAN%Upgrading Require %WHITE%96%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH ghm]: %NAME%{%TAN%Upgrading Require %WHITE%105%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH xhm]: %NAME%{%TAN%Upgrading Require %WHITE%182%TAN%Str.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH crn]: %NAME%{%TAN%Upgrading Require %WHITE%93%TAN%Str.%NL%%NAME%}
@@ -6555,7 +6555,7 @@ ItemDisplay[UNI ETH xhl]: %NAME%{%TAN%Upgrading Require %WHITE%132%TAN%Str Lvl%W
 ItemDisplay[UNI ETH msk]: %NAME%{%TAN%Upgrading Require %WHITE%45%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
 ItemDisplay[UNI ETH xsk]: %NAME%{%TAN%Upgrading Require %WHITE%92%TAN%Str Lvl%WHITE%55.%NL%%NAME%}
 ItemDisplay[UNI ETH bhm]: %NAME%{%TAN%Upgrading Require %WHITE%48%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
-ItemDisplay[UNI ETH xh9]: %NAME%{%TAN%Upgrading Require %WHITE%96%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
+ItemDisplay[UNI ETH xh9]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Bone Visage For 3os Chance.%NL%%TAN%Upgrading Require %WHITE%96%TAN%Str Lvl%WHITE%63.%NL%%NAME%}
 ItemDisplay[UNI ETH ghm]: %NAME%{%TAN%Upgrading Require %WHITE%105%TAN%Str Lvl%WHITE%25.%NL%%NAME%}
 ItemDisplay[UNI ETH xhm]: %NAME%{%TAN%Upgrading Require %WHITE%182%TAN%Str Lvl%WHITE%59.%NL%%NAME%}
 ItemDisplay[UNI ETH crn]: %NAME%{%TAN%Upgrading Require %WHITE%93%TAN%Str Lvl%WHITE%29.%NL%%NAME%}
