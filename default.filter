@@ -1544,10 +1544,10 @@ ItemDisplay[(glgs OR glg OR gpgs OR gpg)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(glrs OR glr OR gprs OR gpr)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(glws OR glw OR gpws OR gpw)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(skls OR skl OR skzs OR skz)]: %ORANGE%%GEMTYPE%%CONTINUE%
-ItemDisplay[(gzvs OR glys OR glbs OR glgs OR glrs OR glws OR skls)]: %DOT-20%%WHITE%Flawless %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl)]: %DOT-20%%WHITE%Flawless %NAME%
-ItemDisplay[(gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs)]: %MAP-20%%WHITE%Perfect %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[(gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %MAP-20%%WHITE%Perfect %NAME%
+ItemDisplay[(gzvs OR glys OR glbs OR glgs OR glrs OR glws OR skls)]: %DOT-20%%WHITE%* %NAME% %TAN%x%WHITE%%QTY% %WHITE%*%ORANGE%%CONTINUE%
+ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl)]: %DOT-20%%WHITE%* %NAME% %WHITE%*
+ItemDisplay[(gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs)]: %MAP-20%%WHITE%** %NAME% %TAN%x%WHITE%%QTY% %WHITE%**%ORANGE%%CONTINUE%
+ItemDisplay[(gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %MAP-20%%WHITE%** %NAME% %WHITE%**
 ItemDisplay[gzvs]: %NAME%{%TAN%Shields: %BLUE%+24 Defense.%NL%%TAN%Armor, & Helms: %BLUE%+8 to Strength.%NL%%TAN%Weapons: %BLUE%+100 to Attack Rating.}
 ItemDisplay[glws]: %NAME%{%TAN%Shields: %BLUE%All Resistances +14.%NL%%TAN%Armor, & Helms: %BLUE%+80 to Attack Attack.%NL%%TAN%Weapons: %BLUE%+54% Damage to Undead.}
 ItemDisplay[glgs]: %NAME%{%TAN%Shields: %BLUE%Poison Resist +28%.%NL%%TAN%Armor, & Helms: %BLUE%+8 to Dexterity.%NL%%TAN%Weapons: %BLUE%+60 Poison Damage Over 6 Seconds.}
