@@ -1864,7 +1864,7 @@ ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %BORDER-0D%%GRAY%*%RED%*  %NAME%  %RED
 // Unique jewelry
 ItemDisplay[UNI !ID (amu OR rin OR jew)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Helms
-ItemDisplay[UNI !ID !ETH (xap OR xkp OR xhm OR xhl OR uap OR ulm OR uh9 OR uhm OR urn OR xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
+ItemDisplay[UNI !ID !ETH (xkp OR xhm OR xhl OR uap OR ulm OR uh9 OR uhm OR urn OR xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Armors
 ItemDisplay[UNI !ID !ETH (stu OR ltp OR aar OR gth OR xui OR xea OR xng OR xlt OR xld OR xth OR xtp OR xul OR uui OR upl OR uul OR xhn OR xpl OR utu OR uar OR uth OR xcl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
