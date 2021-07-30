@@ -1354,9 +1354,9 @@ ItemDisplay[UNI ID amf TABSK2>1 IAS>14 ED>199 STAT334>14 SK20>2]: %GRAY%%NAME% %
 
 // Names of Runeword Helms
 ItemDisplay[RW HELM SOCK=2 STR>4]: %NAME% %RED%Nadir%CONTINUE%
-ItemDisplay[RW HELM SOCK=2 ALLSK>0]: %NAME% %RED%Lore%CONTINUE%
+ItemDisplay[RW HELM SOCK=2 STAT1>4]: %NAME% %RED%Lore%CONTINUE%
 ItemDisplay[RW HELM SOCK=3 DTM>14]: %NAME% %RED%Radiance%CONTINUE%
-ItemDisplay[RW HELM SOCK=3 ALLSK>1]: %NAME% %RED%Delirium%CONTINUE%
+ItemDisplay[RW HELM SOCK=3 GFIND>49]: %NAME% %RED%Delirium%CONTINUE%
 ItemDisplay[RW HELM SOCK=3 FHR>19]: %NAME% %RED%Dream%CONTINUE%
 
 // Names of Runeword Armors
