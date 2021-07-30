@@ -5304,7 +5304,7 @@ ItemDisplay[(CRAFT OR RARE) !ETH xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%174
 ItemDisplay[(CRAFT OR RARE) !ETH qui]: %NAME%{%TAN%Upgrade Require Str: %RED%38.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH xui]: %NAME%{%TAN%Upgrade Require Str: %RED%77.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH lea]: %NAME%{%TAN%Upgrade Require Str: %RED%43.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE) !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%84.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE) !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get %RED%3s.%NL%%TAN%Upgrade Require Str: %RED%84.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH hla]: %NAME%{%TAN%Upgrade Require Str: %RED%50.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH xla]: %NAME%{%TAN%Upgrade Require Str: %RED%95.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) !ETH stu]: %NAME%{%TAN%Upgrade Require Str: %RED%61.%NL%%NAME%}
@@ -5691,7 +5691,7 @@ ItemDisplay[(CRAFT OR RARE) ETH xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%164.
 ItemDisplay[(CRAFT OR RARE) ETH qui]: %NAME%{%TAN%Upgrade Require Str: %RED%28.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH xui]: %NAME%{%TAN%Upgrade Require Str: %RED%67.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH lea]: %NAME%{%TAN%Upgrade Require Str: %RED%33.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE) ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%74.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE) ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get %RED%3s.%NL%%TAN%Upgrade Require Str: %RED%74.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH hla]: %NAME%{%TAN%Upgrade Require Str: %RED%40.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH xla]: %NAME%{%TAN%Upgrade Require Str: %RED%85.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE) ETH stu]: %NAME%{%TAN%Upgrade Require Str: %RED%51.%NL%%NAME%}
@@ -6081,7 +6081,7 @@ ItemDisplay[SET xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%174, %TAN%Lvl: %RED%
 ItemDisplay[SET qui]: %NAME%{%TAN%Upgrade Require Str: %RED%38, %TAN%Lvl: %RED%22.%NL%%NAME%}
 ItemDisplay[SET xui]: %NAME%{%TAN%Upgrade Require Str: %RED%77, %TAN%Lvl: %RED%49.%NL%%NAME%}
 ItemDisplay[SET lea]: %NAME%{%TAN%Upgrade Require Str: %RED%43, %TAN%Lvl: %RED%24.%NL%%NAME%}
-ItemDisplay[SET xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
+ItemDisplay[SET xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get %RED%3s.%NL%%TAN%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
 ItemDisplay[SET stu]: %NAME%{%TAN%Upgrade Require Str: %RED%61, %TAN%Lvl: %RED%25.%NL%%NAME%}
 ItemDisplay[SET xtu]: %NAME%{%TAN%Upgrade Require Str: %RED%111, %TAN%Lvl: %RED%53.%NL%%NAME%}
 ItemDisplay[SET rng]: %NAME%{%TAN%Upgrade Require Str: %RED%74, %TAN%Lvl: %RED%25.%NL%%NAME%}
@@ -6245,7 +6245,7 @@ ItemDisplay[UNI !ETH xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%174, %TAN%Lvl: 
 ItemDisplay[UNI !ETH qui]: %NAME%{%TAN%Upgrade Require Str: %RED%38, %TAN%Lvl: %RED%22.%NL%%NAME%}
 ItemDisplay[UNI !ETH xui]: %NAME%{%TAN%Upgrade Require Str: %RED%77, %TAN%Lvl: %RED%49.%NL%%NAME%}
 ItemDisplay[UNI !ETH lea]: %NAME%{%TAN%Upgrade Require Str: %RED%43, %TAN%Lvl: %RED%24.%NL%%NAME%}
-ItemDisplay[UNI !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
+ItemDisplay[UNI !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get %RED%3s.%NL%%TAN%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
 ItemDisplay[UNI !ETH hla]: %NAME%{%TAN%Upgrade Require Str: %RED%50, %TAN%Lvl: %RED%25.%NL%%NAME%}
 ItemDisplay[UNI !ETH xla]: %NAME%{%TAN%Upgrade Require Str: %RED%95, %TAN%Lvl: %RED%51.%NL%%NAME%}
 ItemDisplay[UNI !ETH stu]: %NAME%{%TAN%Upgrade Require Str: %RED%61, %TAN%Lvl: %RED%25.%NL%%NAME%}
@@ -6567,7 +6567,7 @@ ItemDisplay[UNI ETH xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%164, %TAN%Lvl: %
 ItemDisplay[UNI ETH qui]: %NAME%{%TAN%Upgrade Require Str: %RED%28, %TAN%Lvl: %RED%22.%NL%%NAME%}
 ItemDisplay[UNI ETH xui]: %NAME%{%TAN%Upgrade Require Str: %RED%67, %TAN%Lvl: %RED%49.%NL%%NAME%}
 ItemDisplay[UNI ETH lea]: %NAME%{%TAN%Upgrade Require Str: %RED%33, %TAN%Lvl: %RED%24.%NL%%NAME%}
-ItemDisplay[UNI ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%74, %TAN%Lvl: %RED%50.%NL%%NAME%}
+ItemDisplay[UNI ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get %RED%3s.%NL%%TAN%Upgrade Require Str: %RED%74, %TAN%Lvl: %RED%50.%NL%%NAME%}
 ItemDisplay[UNI ETH hla]: %NAME%{%TAN%Upgrade Require Str: %RED%40, %TAN%Lvl: %RED%25.%NL%%NAME%}
 ItemDisplay[UNI ETH xla]: %NAME%{%TAN%Upgrade Require Str: %RED%85, %TAN%Lvl: %RED%51.%NL%%NAME%}
 ItemDisplay[UNI ETH stu]: %NAME%{%TAN%Upgrade Require Str: %RED%51, %TAN%Lvl: %RED%25.%NL%%NAME%}
