@@ -1891,7 +1891,7 @@ ItemDisplay[UNI !ID !ETH (pa9 OR pac OR pae OR pa3)]: %BORDER-0D%%PURPLE%*%RED%*
 // Unique Necromancer Heads
 ItemDisplay[UNI !ID !ETH (nea OR nef OR nee OR ne6)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Axes
-ItemDisplay[UNI !ID !ETH (7wa OR 9ga OR 7bt OR 7ga OR 7gi OR 7mp OR 72a OR 7ha)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
+ItemDisplay[UNI !ID !ETH (7wa OR 9ga OR 7bt OR 7ga OR 7gi OR 7mp OR 7ha)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (7wa OR 9ga OR 7bt OR 7ga OR 7gi OR 7mp OR 72a OR 7ha)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Maces
 ItemDisplay[UNI !ID !ETH (7fl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
