@@ -6245,7 +6245,7 @@ ItemDisplay[UNI !ETH xrn]: %NAME%{%TAN%Upgrade Require Str: %RED%174, %TAN%Lvl: 
 ItemDisplay[UNI !ETH qui]: %NAME%{%TAN%Upgrade Require Str: %RED%38, %TAN%Lvl: %RED%22.%NL%%NAME%}
 ItemDisplay[UNI !ETH xui]: %NAME%{%TAN%Upgrade Require Str: %RED%77, %TAN%Lvl: %RED%49.%NL%%NAME%}
 ItemDisplay[UNI !ETH lea]: %NAME%{%TAN%Upgrade Require Str: %RED%43, %TAN%Lvl: %RED%24.%NL%%NAME%}
-ItemDisplay[UNI !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Wyrmhide For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
+ItemDisplay[UNI !ETH xea]: %NAME%{%PURPLE%Wss: %TAN%Upgrade For a Chance to Get 3s.%NL%Upgrade Require Str: %RED%84, %TAN%Lvl: %RED%50.%NL%%NAME%}
 ItemDisplay[UNI !ETH hla]: %NAME%{%TAN%Upgrade Require Str: %RED%50, %TAN%Lvl: %RED%25.%NL%%NAME%}
 ItemDisplay[UNI !ETH xla]: %NAME%{%TAN%Upgrade Require Str: %RED%95, %TAN%Lvl: %RED%51.%NL%%NAME%}
 ItemDisplay[UNI !ETH stu]: %NAME%{%TAN%Upgrade Require Str: %RED%61, %TAN%Lvl: %RED%25.%NL%%NAME%}
