@@ -1567,10 +1567,11 @@ ItemDisplay[skzs]: %NAME%{%TAN%Shields: %BLUE%Attacker Takes Damage of 20.%NL%%T
 ItemDisplay[GEM<4]:
 
 // Runes
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17)]: %DOT-60%%NAME%%ORANGE%%CONTINUE%
-ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %DOT-62%%TAN%*  %NAME%  %TAN%*%ORANGE%%CONTINUE%
-ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-62%%RED%*     %NAME%     %RED%*%ORANGE%%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%RED%*%ORANGE%*%WHITE%*     %NAME%     %WHITE%*%ORANGE%*%RED%*%ORANGE%%CONTINUE%
+ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17)]: %DOT-60%%RUNENAME% Rune %GREEN%%RUNENUM%%ORANGE%%CONTINUE%
+ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %DOT-62%%TAN%*  %RUNENAME% Rune %GREEN%%RUNENUM%  %TAN%*%ORANGE%%CONTINUE%
+ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-62%%RED%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %RED%*%ORANGE%%CONTINUE%
+ItemDisplay[RUNE>25]: %BORDER-62%%RED%*%ORANGE%*%WHITE%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %WHITE%*%ORANGE%*%RED%*%ORANGE%%CONTINUE%
+ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
 ItemDisplay[r01s]: %NAME%{%GREEN%1%NL%%TAN%All Sockets: %BLUE%+1 to Light Radius.%NL%%TAN%Armor, Helms, & Shields: %BLUE%+15 Defense.%NL%%TAN%Weapons: %BLUE%+50 to Attack Rating.}
 ItemDisplay[r02s]: %NAME%{%GREEN%2%NL%%TAN%Shields: %BLUE%7% Chance of Blocking.%NL%%TAN%Armor, & Helms: %BLUE%15% Slower Stamina Drain.%NL%+50 to Attack Rating Against Undead.%NL%%TAN%Weapons: %BLUE%+75% Damage to Undead,}
 ItemDisplay[r03s]: %NAME%{%GREEN%3%NL%%TAN%All Sockets: %BLUE%+2 to Mana After Each Kill.}
@@ -1859,7 +1860,7 @@ ItemDisplay[SET !ID (oba)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME
 // Set Amazon Weapons
 ItemDisplay[SET !ID (amc)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
 // Rest of the Set Items Are Still Shown
-ItemDisplay[SET !ID]: %DOT-84%%NAME%
+ItemDisplay[SET !ID]: %NAME%
 
 // Unique Charms
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %BORDER-0D%%GRAY%*%RED%*  %NAME%  %RED%*%GRAY%*
@@ -1940,7 +1941,7 @@ ItemDisplay[UNI !ID ETH (oba OR obc OR obf OR ob6)]: %BORDER-0D%%PURPLE%*%RED%*%
 ItemDisplay[UNI !ID !ETH (am9 OR amf OR amd OR amb OR am5)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (am9 OR amf OR amd OR am5)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Rest of the Unique Items Are Still Shown
-ItemDisplay[UNI !ID]: %DOT-0D%%NAME%
+ItemDisplay[UNI !ID]: %NAME%
 
 // Magic Charms Magic Find
 ItemDisplay[MAG MFIND=1 (cm1 OR cm2 OR cm3 OR jew)]: %TAN%+1%DARK_GREEN%Mf %NAME%%CONTINUE%
