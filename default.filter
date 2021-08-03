@@ -1486,7 +1486,7 @@ ItemDisplay[hp1 CLVL<14]: %RED%-%WHITE%H1%RED%-%WHITE%
 ItemDisplay[hp2 CLVL<19]: %RED%-%WHITE%H2%RED%-%WHITE%
 ItemDisplay[hp3 CLVL<24]: %RED%-%WHITE%H3%RED%-%WHITE%
 ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%H4%RED%+%WHITE%
-ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+{%TAN%i Like it But i Wanna Hear Ppls Opinion u Can Dm Me on Discord Search 'Kassahi'%NL%Hiding H5 After Lvl 90 Bc They Drop a Lot in Maps%NL%i Would Like to Know What Ppl Think About}%WHITE%
+ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+{%RED%''#Blame onion'' in General Chat.%NL%%TAN%if u Die.}%WHITE%
 ItemDisplay[mp1 CLVL<14]: %BLUE%-%WHITE%M1%BLUE%-%WHITE%
 ItemDisplay[mp2 CLVL<19]: %BLUE%-%WHITE%M2%BLUE%-%WHITE%
 ItemDisplay[mp3 CLVL<24]: %BLUE%-%WHITE%M3%BLUE%-%WHITE%
