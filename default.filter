@@ -1466,7 +1466,7 @@ ItemDisplay[ETH]: %WHITE%Eth %NAME%%CONTINUE%
 ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%(%WHITE%%SOCKETS%%TAN%)%CONTINUE%
 
 // Quantitiy of Stackables
-ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
+ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
 
 // Gold
 ItemDisplay[GOLD<40]:
