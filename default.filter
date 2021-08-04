@@ -1615,9 +1615,9 @@ ItemDisplay[fed]: %DOT-68%%GREEN%Baal Essence %TAN%x%WHITE%%QTY%%GREEN%{%TAN%And
 ItemDisplay[toa]: %MAP-68%%ORANGE%Token of Absolution{%RED%to Reset Stat & Skill Points.%NL%%TAN%Right Click:}
 
 // Uber Keys
-ItemDisplay[pk1]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mimi Ubers.%NL%%TAN%Drops From: %RED%Countess, & Blood Raven.}
-ItemDisplay[pk2]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mimi Ubers.%NL%%TAN%Drops From: %RED%Summoner, & Bloodwitch the Wild.}
-ItemDisplay[pk3]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mimi Ubers.%NL%%TAN%Drops From: %RED%Nihlathak, & Izual.}
+ItemDisplay[pk1]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mini Ubers.%NL%%TAN%Drops From: %RED%Countess, & Blood Raven.}
+ItemDisplay[pk2]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mini Ubers.%NL%%TAN%Drops From: %RED%Summoner, & Bloodwitch the Wild.}
+ItemDisplay[pk3]: %DOT-62%%ORANGE%%NAME%{%TAN%Terror, Hate, & Destruction Keys: %RED%to Open Mini Ubers.%NL%%TAN%Drops From: %RED%Nihlathak, & Izual.}
 
 // Organ Items
 ItemDisplay[mbr]: %MAP-62%%ORANGE%%NAME%{%RED%to Make Pandemonium Talisman.%NL%%TAN%Cube Any 3 Organs + a Key:}
