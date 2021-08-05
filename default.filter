@@ -1878,7 +1878,7 @@ ItemDisplay[UNI !ID !ETH (tow OR xsh OR xow OR uit OR uow OR uts OR upk OR xpk O
 ItemDisplay[UNI !ID !ETH (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xhg OR umg OR uhg OR uvg OR xmg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (uvg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Boots
-ItemDisplay[UNI !ID !ETH (vbt OR tbt OR hbt OR xvb OR xmb OR xtb OR lbt OR xlb OR xhb OR uvb OR utb OR umb)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
+ItemDisplay[UNI !ID !ETH (vbt OR tbt OR hbt OR xvb OR xmb OR xtb OR lbt OR xlb OR xhb OR uvb OR utb OR umb OR mbt)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (lbt OR xlb OR xhb OR uvb OR utb OR umb)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Belts
 ItemDisplay[UNI !ID !ETH (tbl OR zvb OR ztb OR zhb OR ulc OR uvc OR zlb OR umc)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
