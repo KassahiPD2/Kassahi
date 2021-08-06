@@ -1873,7 +1873,7 @@ ItemDisplay[UNI !ID ETH (xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%
 ItemDisplay[UNI !ID !ETH (stu OR ltp OR aar OR gth OR xui OR xea OR xng OR xlt OR xld OR xth OR xtp OR xul OR uui OR upl OR uul OR xhn OR xpl OR utu OR uar OR uth OR xcl OR uld)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (xhn OR xpl OR utu OR uar OR uth OR uul OR uld)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Shields
-ItemDisplay[UNI !ID !ETH (tow OR xsh OR xow OR uit OR uow OR uts OR upk OR xpk OR xts OR uml OR ush)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
+ItemDisplay[UNI !ID !ETH (xsh OR xow OR uit OR uow OR uts OR upk OR xpk OR xts OR uml OR ush)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Gloves
 ItemDisplay[UNI !ID !ETH (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xhg OR umg OR uhg OR uvg OR xmg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (uvg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
