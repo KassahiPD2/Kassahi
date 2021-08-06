@@ -6924,8 +6924,11 @@ ItemDisplay[UNI xul]: %NAME%{%TAN%Auto Rolls: %WHITE%3-4s.%NL%%NAME%}
 ItemDisplay[UNI uul REPAIR>0]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
 ItemDisplay[UNI uul]: %NAME%{%TAN%Auto Rolls: %WHITE%3-4s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) aar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) xar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) uar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR UNI) xar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR UNI) uar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
+ItemDisplay[SET xar]: %NAME%{%TAN%Auto Rolls: %WHITE%2-3s.%NL%%NAME%}
+ItemDisplay[SET uar STAT91>39]: %NAME%{%TAN%Auto Rolls: %WHITE%2-3s.%NAME%}
+ItemDisplay[SET uar]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Shields
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) buc]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Heater For %WHITE%2s %TAN%Chance.%NL%%NAME%}
