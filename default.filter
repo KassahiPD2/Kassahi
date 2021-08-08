@@ -1909,6 +1909,7 @@ ItemDisplay[UNI !ID ETH (9bs OR 9sb OR 9ls OR gsd OR 7b7 OR 7gs OR 7gd OR 7bs OR
 ItemDisplay[UNI !ID !ETH (9kr OR 9bl OR 7dg OR 7kr)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (7bl OR 7kr)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Throwing Weapons
+ItemDisplay[UNI !ID !ETH 7b8]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 ItemDisplay[UNI !ID ETH (9tk OR 9ta OR 7b8 OR 7ta OR 7bk)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
 // Unique Javelins
 ItemDisplay[UNI !ID ETH (7s7 OR 7ts OR 7gl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
