@@ -1623,25 +1623,25 @@ ItemDisplay[MAG !ID !ETH ELT CHEST]: %GRAY%* %NAME% %GRAY%*
 // Magic Shields
 ItemDisplay[MAG !ID !ETH (uit OR uow OR uts OR DIN OR NEC)]: %GRAY%* %NAME% %GRAY%*
 // Magic Axes
-ItemDisplay[MAG !ID ETH (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Clubs
 ItemDisplay[MAG !ID (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%* %NAME% %GRAY%*
 // Magic Maces
-ItemDisplay[MAG !ID ETH (mst OR 9mt OR 7mt)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (mst OR 9mt OR 7mt)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Hammers
-ItemDisplay[MAG !ID ETH (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Swords
-ItemDisplay[MAG !ID ETH (flc OR 9fc OR 7fc OR crs OR 9cr OR bsd OR 9bs OR 7bs OR wsd OR 9wd OR 7wd OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (flc OR 9fc OR 7fc OR crs OR 9cr OR bsd OR 9bs OR 7bs OR wsd OR 9wd OR 7wd OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Daggers
-ItemDisplay[MAG !ID ETH (kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Throwing Weapons
-ItemDisplay[MAG !ID ETH (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (tkf OR 9tk OR 7tk OR tax OR 9ta OR 7ta)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Javelins
-ItemDisplay[MAG !ID ETH (pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Spears
-ItemDisplay[MAG !ID ETH (pik OR 9p9 OR 7p7)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (pik OR 9p9 OR 7p7)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Polearms
-ItemDisplay[MAG !ID ETH (vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
+ItemDisplay[MAG !ID ETH (vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa)]: %BORDER-97%%GRAY%*%ORANGE%*   %NAME%   %ORANGE%*%GRAY%*
 // Magic Bows
 ItemDisplay[MAG !ID !ETH (lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw)]: %GRAY%* %NAME% %GRAY%*
 // Magic Staffs
@@ -1721,7 +1721,7 @@ ItemDisplay[SET !ID (amu OR rin OR 7fb OR 7gd OR uts OR uhm OR xhm OR dr8 OR xtb
 // Ok Sets
 ItemDisplay[SET !ID (ulg OR 7ls OR upl OR xvg OR 7m7 OR amc OR xtg OR zvb OR xh9 OR 7qr OR xsk OR zmb)]: %MAP-84%%DARK_GREEN%*%GREEN%*%GRAY%*     %NAME%     %GRAY%*%GREEN%*%DARK_GREEN%*
 // Sets Worth Notifying
-ItemDisplay[SET !ID (kit OR xrs OR uui OR vbt OR 6cs OR ult OR xhl OR 9mt OR ba5 OR zhb OR xhg OR xhb OR ucl OR xmb OR oba)]: %DOT-84%%NAME%
+ItemDisplay[SET !ID (kit OR xrs OR uui OR 6cs OR ult OR xhl OR 9mt OR ba5 OR zhb OR xhg OR xhb OR ucl OR xmb OR oba)]: %DOT-84%%NAME%
 // Highlight All Sets For Low Lvl Characters
 ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
