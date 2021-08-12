@@ -1,112 +1,3 @@
-//The Pages Is Not Done Fully Yet
-//╔═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╦═════════════════════════════════════════════════════╗
-//║                       Page 1                        ║                      Page 2                         ║                       Page 3                        ║
-//╠═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬═════════════════════════════════════════════════════╬
-//║// Names of Magic Charms                             ║// Magic Charms/jewelry                              ║// Orginal Coloring For Items                        ║
-//║// Names of Magic/Crafted/Rare jewelry               ║// Magic Helms                                       ║// Every Inferiors Item                              ║
-//║// Names of Magic/Crafted/Rare/Base Helms            ║// Magic Armors                                      ║// Every Gambling Item                               ║
-//║// Names of Magic/Crafted/Rare/Base Armors           ║// Magic Shields                                     ║// Every Ethereal Item                               ║
-//║// Names of Magic/Crafted/Rare/Base Shields          ║// Magic Gloves                                      ║// Every Socketed Item                               ║
-//║// Names of Magic/Crafted/Rare/Base Gloves           ║// Magic Boots                                       ║// Quantitiy of Stackables                           ║
-//║// Names of Magic/Crafted/Rare/Base Boots            ║// Magic Axes                                        ║// Gold                                              ║
-//║// Names of Magic/Crafted/Rare/Base Belts            ║// Magic Clubs                                       ║// Rejuv/Health/Mana/Antidote Potions/Tome/Scroll/Ear║
-//║// Names of Magic/Crafted/Rare/Base Circlets         ║// Magic Maces                                       ║// Quest Items Act 1                                 ║
-//║// Names of Magic/Crafted/Rare/Base Druid Pelts      ║// Magic Hammers                                     ║// Quest Items Act 2                                 ║
-//║// Names of Magic/Crafted/Rare/Base Barbarian Helms  ║// Magic Swords                                      ║// Quest Items Act 3                                 ║
-//║// Names of Magic/Crafted/Rare/Base Paladin Shields  ║// Magic Daggers                                     ║// Quest Items Act 4                                 ║
-//║// Names of Magic/Crafted/Rare/Base Necromancer Heads║// Magic Throwing Weapons                            ║// Quest Items Act 5                                 ║
-//║// Names of Magic/Crafted/Rare/Base Axes             ║// Magic Javelins                                    ║// Gems                                              ║
-//║// Names of Magic/Crafted/Rare/Base Clubs            ║// Magic Spears                                      ║// Runes                                             ║
-//║// Names of Magic/Crafted/Rare/Base Maces            ║// Magic Polearms                                    ║// Essences/Token                                    ║
-//║// Names of Magic/Crafted/Rare/Base Hammers          ║// Magic Bows                                        ║// Uber Keys                                         ║
-//║// Names of Magic/Crafted/Rare/Base Swords           ║// Magic Corssbows                                   ║// Organ Items                                       ║
-//║// Names of Magic/Crafted/Rare/Base Daggers          ║// Magic Staffs                                      ║// Project Diablo 2 Items                            ║
-//║// Names of Magic/Crafted/Rare/Base Throwing Weapons ║// Magic Wands                                       ║// Tier 1 Maps                                       ║
-//║// Names of Magic/Crafted/Rare/Base Javelins         ║// Magic Scepters                                    ║// Tier 2 Maps                                       ║
-//║// Names of Magic/Crafted/Rare/Base Spears           ║// Magic Assassin Claws                              ║// Tier 3 Maps                                       ║
-//║// Names of Magic/Crafted/Rare/Base Polearms         ║// Magic Sorceress Orbs                              ║// Tier 4 Dungeons                                   ║
-//║// Names of Magic/Crafted/Rare/Base Bows             ║// Magic Amazon Weapons                              ║// Fixing coloring For vendors                       ║
-//║// Names of Magic/Crafted/Rare/Base Corssbows        ║// Rest of the Magic Items Are Hidden                ║// Every Identified Item                             ║
-//║// Names of Magic/Crafted/Rare/Base Staffs           ╠═════════════════════════════════════════════════════╣// Upgrading Recipe For Craft/Rare                   ║
-//║// Names of Magic/Crafted/Rare/Base Wands            ║// Rare jewelry                                      ║// Upgrading Recipe For Set/Unique                   ║
-//║// Names of Magic/Crafted/Rare/Base Scepters         ║// Rare Helms                                        ╠═════════════════════════════════════════════════════╝
-//║// Names of Magic/Crafted/Rare/Base Assassin Claws   ║// Rare Armors                                       ║
-//║// Names of Magic/Crafted/Rare/Base Sorceress Orbs   ║// Rare Shields                                      ║
-//║// Names of Magic/Crafted/Rare/Base Amazon Weapons   ║// Rare Gloves                                       ║
-//╠═════════════════════════════════════════════════════╣// Rare Boots                                        ║
-//║// Names of Set Angelic Raiment                      ║// Rare Belts                                        ║
-//║// Names of Set Arcanna's Tricks                     ║// Rare Axes                                         ║
-//║// Names of Set Arctic Gear                          ║// Rare Clubs                                        ║
-//║// Names of Set Berserker's Arsenal                  ║// Rare Maces                                        ║
-//║// Names of Set Cathan's Traps                       ║// Rare Hammers                                      ║
-//║// Names of Set Civerb's Vestments                   ║// Rare Swords                                       ║
-//║// Names of Set Cleglaw's Brace                      ║// Rare Daggers                                      ║
-//║// Names of Set Cow King's Leathers                  ║// Rare Throwing Weapons                             ║
-//║// Names of Set Death's Disguise                     ║// Rare Javelins                                     ║
-//║// Names of Set The Disciple                         ║// Rare Spears                                       ║
-//║// Names of Set Heaven's Brethren                    ║// Rare Polearms                                     ║
-//║// Names of Set Hsarus' Defense                      ║// Rare Bows                                         ║
-//║// Names of Set Hwanin's Majesty                     ║// Rare Corssbows                                    ║
-//║// Names of Set Infernal Tools                       ║// Rare Staffs                                       ║
-//║// Names of Set Iratha's Finery                      ║// Rare Wands                                        ║
-//║// Names of Set Isenhart's Armory                    ║// Rare Scepters                                     ║
-//║// Names of Set Milabrega's Regalia                  ║// Rare Assassin Claws                               ║
-//║// Names of Set Naj's Ancient Vestige                ║// Rare Sorceress Orbs                               ║
-//║// Names of Set Orphan's Call                        ║// Rare Amazon Weapons                               ║
-//║// Names of Set Sander's Folly                       ║// Rest of the Rare Items Are Hidden                 ║
-//║// Names of Set Sazabi's Grand Tribute               ╠═════════════════════════════════════════════════════╣
-//║// Names of Set Sigon's Complete Steel               ║// Set jewelry                                       ║
-//║// Names of Set Tancred's Battlegear                 ║// Set Helms                                         ║
-//║// Names of Set Vidala's Rig                         ║// Set Armors                                        ║
-//║// Names of Set Aldur's Watchtower                   ║// Set Shields                                       ║
-//║// Names of Set Bul-Kathos' Children                 ║// Set Gloves                                        ║
-//║// Names of Set Griswold's Legacy                    ║// Set Boots                                         ║
-//║// Names of Set Immortal King                        ║// Set Belts                                         ║
-//║// Names of Set M'avina's Battle Hymn                ║// Set Circlets                                      ║
-//║// Names of Set Natalya's Odium                      ║// Set Druid Pelts                                   ║
-//║// Names of Set Tal Rasha's Wrappings                ║// Set Barbarian Helms                               ║
-//║// Names of Set Trang-Oul's Avatar                   ║// Set Necromancer Heads                             ║
-//╠═════════════════════════════════════════════════════╣// Set Hammers                                       ║
-//║// Names of Unique Charms                            ║// Set Swords                                        ║
-//║// Names of Unique Facets                            ║// Set Scepters                                      ║
-//║// Names of Unique Amulets                           ║// Set Sorceress Orbs                                ║
-//║// Names of Unique Rings                             ║// Set Amazon Weapons                                ║
-//║// Names of Unique Helms                             ║// Rest of the Set Items Are Still Shown             ║
-//║// Names of Unique Armors                            ╠═════════════════════════════════════════════════════╣
-//║// Names of Unique Shields                           ║// Unique Charms                                     ║
-//║// Names of Unique Gloves                            ║// Unique jewelry                                    ║
-//║// Names of Unique Boots                             ║// Unique Helms                                      ║
-//║// Names of Unique Belts                             ║// Unique Armors                                     ║
-//║// Names of Unique Circlets                          ║// Unique Shields                                    ║
-//║// Names of Unique Druid Pelts                       ║// Unique Gloves                                     ║
-//║// Names of Unique Barbarian Helms                   ║// Unique Boots                                      ║
-//║// Names of Unique Paladin Shields                   ║// Unique Belts                                      ║
-//║// Names of Unique Necromancer Heads                 ║// Unique Circlets                                   ║
-//║// Names of Unique Axes                              ║// Unique Druid Pelts                                ║
-//║// Names of Unique Clubs                             ║// Unique Barbarian Helms                            ║
-//║// Names of Unique Maces                             ║// Unique Paladin Shields                            ║
-//║// Names of Unique Hammers                           ║// Unique Necromancer Heads                          ║
-//║// Names of Unique Swords                            ║// Unique Axes                                       ║
-//║// Names of Unique Daggers                           ║// Unique Maces                                      ║
-//║// Names of Unique Throwing Weapons                  ║// Unique Hammers                                    ║
-//║// Names of Unique Javelins                          ║// Unique Swords                                     ║
-//║// Names of Unique Spears                            ║// Unique Daggers                                    ║
-//║// Names of Unique Polearms                          ║// Unique Throwing Weapons                           ║
-//║// Names of Unique Bows                              ║// Unique Javelins                                   ║
-//║// Names of Unique Corssbows                         ║// Unique Spears                                     ║
-//║// Names of Unique Staffs                            ║// Unique Polearms                                   ║
-//║// Names of Unique Wands                             ║// Unique Bows                                       ║
-//║// Names of Unique Scepters                          ║// Unique Corssbows                                  ║
-//║// Names of Unique Assassin Claws                    ║// Unique Staffs                                     ║
-//║// Names of Unique Sorceress Orbs                    ║// Unique Wands                                      ║
-//║// Names of Unique Amazon Weapons                    ║// Unique Scepters                                   ║
-//╠═════════════════════════════════════════════════════╣// Unique Assassin Claws                             ║
-//║// Names of Runeword Helms                           ║// Unique Sorceress Orbs                             ║
-//║// Names of Runeword Armors                          ║// Unique Amazon Weapons                             ║
-//║// Names of Runeword Shields                         ║// Rest of the Unique Items Are Still Shown          ║
-//║// Names of Runeword Weapons                         ╠═════════════════════════════════════════════════════╝
-//╚═════════════════════════════════════════════════════╝
-
 // Names of Magic Charms
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
 ItemDisplay[MAG cm2 STAT329=1]: %TAN%+1%GRAY%Fir %BLUE%Ski %TAN%Damage%CONTINUE%
@@ -121,6 +12,9 @@ ItemDisplay[MAG cm2 STAT331=3]: %TAN%+3%GRAY%Col %BLUE%Ski %TAN%Damage%CONTINUE%
 ItemDisplay[MAG cm2 STAT332=1]: %TAN%+1%GRAY%Psn %BLUE%Ski %TAN%Damage%CONTINUE%
 ItemDisplay[MAG cm2 STAT332=2]: %TAN%+2%GRAY%Psn %BLUE%Ski %TAN%Damage%CONTINUE%
 ItemDisplay[MAG cm2 STAT332=3]: %TAN%+3%GRAY%Psn %BLUE%Ski %TAN%Damage%CONTINUE%
+ItemDisplay[MAG cm2 STAT357=1]: %TAN%+1%GRAY%Mag %BLUE%Ski %TAN%Damage%CONTINUE%
+ItemDisplay[MAG cm2 STAT357=2]: %TAN%+2%GRAY%Mag %BLUE%Ski %TAN%Damage%CONTINUE%
+ItemDisplay[MAG cm2 STAT357=3]: %TAN%+3%GRAY%Mag %BLUE%Ski %TAN%Damage%CONTINUE%
 ItemDisplay[MAG cm2 !(STAT329=1 OR STAT329=2 OR STAT329=3 OR STAT330=1 OR STAT330=2 OR STAT330=3 OR STAT331=1 OR STAT331=2 OR STAT331=3 OR STAT332=1 OR STAT332=2 OR STAT332=3)]: Large Charm%CONTINUE%
 ItemDisplay[MAG cm3 TABSK40=1]: %GRAY%Dru %BLUE%Sum %TAN%Skiller%CONTINUE%
 ItemDisplay[MAG cm3 TABSK41=1]: %GRAY%Dru %BLUE%Ssg %TAN%Skiller%CONTINUE%
@@ -938,7 +832,7 @@ ItemDisplay[UNI ID rin ALLSK>0 STAT144>3 MFIND>7]: %GRAY%%NAME% %GOLD%Wisp Proje
 // Names of Unique Helms
 ItemDisplay[UNI ID (cap OR xap OR uap) AR>29 STAT31>13 LIFE>14 MANA>14]: %GRAY%%NAME% %GOLD%Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI ID (xap OR uap) ALLSK>0 FRW>14 ED>99 STAT3>19 STAT1>19 REPLIFE>5]: %GRAY%%NAME% %GOLD%Peasant Crown%CONTINUE%
-ItemDisplay[UNI ID uap ALLSK>1 STAT216>0 STAT217>0 STAT36>2 MFIND>49]: %GRAY%%NAME% %GOLD%Harlequin Crest%CONTINUE%
+ItemDisplay[UNI ID uap ALLSK>1 STAT216>0 STAT217>0 STAT36>2 MFIND>24]: %GRAY%%NAME% %GOLD%Harlequin Crest%CONTINUE%
 ItemDisplay[UNI ID (skp OR xkp OR ukp) ALLSK>0 MAEK>0 GFIND>74 MFIND>24]: %GRAY%%NAME% %GOLD%Tarnhelm%CONTINUE%
 ItemDisplay[UNI ID (xkp OR ukp) FHR>29 ED>159 STAT3>14 CRES>19 LRES>19 FRES>19 STAT36>9]: %GRAY%%NAME% %GOLD%Rockstopper%CONTINUE%
 ItemDisplay[UNI ID (hlm OR xlm OR ulm) STAT113>0 STAT31>9 STAT32>99 LRES>14 STAT86>1 STAT128>16]: %GRAY%%NAME% %GOLD%Coif of Glory%CONTINUE%
@@ -1486,7 +1380,7 @@ ItemDisplay[hp1 CLVL<14]: %RED%-%WHITE%H1%RED%-%WHITE%
 ItemDisplay[hp2 CLVL<19]: %RED%-%WHITE%H2%RED%-%WHITE%
 ItemDisplay[hp3 CLVL<24]: %RED%-%WHITE%H3%RED%-%WHITE%
 ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%H4%RED%+%WHITE%
-ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+{%RED%''#Blame onion'' in General Chat.%NL%%TAN%if u Die.}%WHITE%
+ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+%WHITE%
 ItemDisplay[mp1 CLVL<14]: %BLUE%-%WHITE%M1%BLUE%-%WHITE%
 ItemDisplay[mp2 CLVL<19]: %BLUE%-%WHITE%M2%BLUE%-%WHITE%
 ItemDisplay[mp3 CLVL<24]: %BLUE%-%WHITE%M3%BLUE%-%WHITE%
@@ -1570,7 +1464,7 @@ ItemDisplay[GEM<4]:
 ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17)]: %DOT-60%%RUNENAME% Rune %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %DOT-62%%RED%*  %RUNENAME% Rune %GREEN%%RUNENUM%  %RED%*%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-62%%RED%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %RED%*%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%RED%*%ORANGE%*%WHITE%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %WHITE%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %PURPLE%*%RED%*%GREEN%*%CONTINUE%
 ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
 ItemDisplay[r01s]: %NAME%{%GREEN%1%NL%%TAN%All Sockets: %BLUE%+1 to Light Radius.%NL%%TAN%Armor, Helms, & Shields: %BLUE%+15 Defense.%NL%%TAN%Weapons: %BLUE%+50 to Attack Rating.}
 ItemDisplay[r02s]: %NAME%{%GREEN%2%NL%%TAN%Shields: %BLUE%7% Chance of Blocking.%NL%%TAN%Armor, & Helms: %BLUE%15% Slower Stamina Drain.%NL%+50 to Attack Rating Against Undead.%NL%%TAN%Weapons: %BLUE%+75% Damage to Undead,}
@@ -1624,22 +1518,22 @@ ItemDisplay[mbr]: %MAP-62%%ORANGE%%NAME%{%RED%to Make Pandemonium Talisman.%NL%%
 ItemDisplay[dhn]: %MAP-62%%ORANGE%%NAME%{%RED%to Make Pandemonium Talisman.%NL%%TAN%Cube Any 3 Organs + a Key:}
 ItemDisplay[bey]: %MAP-62%%ORANGE%%NAME%{%RED%to Make Pandemonium Talisman.%NL%%TAN%Cube Any 3 Organs + a Key:}
 ItemDisplay[std]: %MAP-62%%ORANGE%Standard of Po-Tay-Toes %TAN%x%WHITE%%QTY%{%BLUE% +20% Magic, & Gold Find.%NL%+20% Monster Density.%NL%+10% Experience.}
-ItemDisplay[ubtm]: %MAP-62%%GRAY%*%RED%*  %NAME%  %RED%*%GRAY%*%ORANGE%{%RED%to Open Uber Tristram.%NL%%TAN%Use at The Blood Fountain in Act 5:%NL%Requires Level 75.}
+ItemDisplay[ubtm]: %MAP-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%to Open Uber Tristram.%NL%%TAN%Use at The Blood Fountain in Act 5:%NL%Requires Level 75.}
 
 // Project Diablo 2 Items
 ItemDisplay[wss]: %MAP-62%%RED%*   %NAME%   %RED%*%PURPLE%{%BLUE%Unsock Item: 50%Mod, 25%Brick, 25%Sockets.%NL%Sock Item: 75%Mod, 25%Brick.%NL%Maps: 70%Mod, 30%Cnc.%NL%%TAN%Bows & Xbows: 1-4s.%NL%2h Weapons: 1-4s.%NL%1h Weapons: 1-4s.%NL%Armors: 1-3s.}
-ItemDisplay[lbox]: %BORDER-62%%PURPLE%*%RED%*%ORANGE%*%WHITE%*     %ORANGE%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     *%ORANGE%*%RED%*%PURPLE%*%ORANGE%{%RED%Dont Use Throw Weapons.%NL%%TAN%Bows & Xbows: 1-2s.%NL%2h Weapons: 1-2s.%NL%1h Weapons: 1-2s.%NL%Armors: 1-2s.}
+ItemDisplay[lbox]: %BORDER-62%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %ORANGE%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*%ORANGE%{%RED%Dont Use Throw Weapons.%NL%%TAN%Bows & Xbows: 1-2s.%NL%2h Weapons: 1-2s.%NL%1h Weapons: 1-2s.%NL%Armors: 1-2s.}
 ItemDisplay[imma]: %MAP-68%%ORANGE%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%Jewel, & White Map.%NL%%TAN%Imbue to Magic Map:}
 ItemDisplay[imra]: %MAP-68%%ORANGE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%Jewel, Thul+, & White Map.%NL%%TAN%Imbue to Rare Map:}
 ItemDisplay[rera]: %MAP-68%%ORANGE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%P%BLUE%Gem, Thul+, & Rare Map.%NL%%TAN%Reroll Rare Map:}
 ItemDisplay[scou]: %MAP-68%%ORANGE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%Hel, & Magic or Rare Map.%NL%%TAN%Purge Map:}
 ItemDisplay[upma]: %MAP-68%%ORANGE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%P%BLUE%Skull, Thul+, & Magic Map.%NL%%TAN%Upgrade Magic Map to Rare Map:}
 ItemDisplay[upmp]: %MAP-68%%ORANGE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Get a Higher Random [T].%NL%%TAN%3 Maps of The Same [T]:}
-ItemDisplay[scrb]: %MAP-62%%RED%*  %ORANGE%Horadrim Lunch Meat  %RED%*%ORANGE%{%RED%These Are Intended For Groups.%NL%%TAN%Any [T3] Map to Create a Group Dungeon [T4]:}
-ItemDisplay[dcho]: %MAP-0A%%PX-62%%RED%*  %NAME%  %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Uber Trist Bosses.}
-ItemDisplay[dcso]: %MAP-0A%%PX-62%%RED%*  %NAME%  %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Hell Diablo, & Baal.}
-ItemDisplay[dcbl]: %MAP-0A%%PX-62%%RED%*  %NAME%  %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Map Bosses.}
-ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%*  %NAME%  %RED%*%GRAY%*%ORANGE%{%RED%to Open Diablo Clone.%NL%%TAN%Use at The Blood Fountain in Act 5:%NL%Requires Level 75.}
+ItemDisplay[scrb]: %MAP-62%%RED%*   %ORANGE%Horadrim Lunch Meat   %RED%*%ORANGE%{%RED%These Are Intended For Groups.%NL%%TAN%Any [T3] Map to Create a Group Dungeon [T4]:}
+ItemDisplay[dcho]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Uber Trist Bosses.}
+ItemDisplay[dcso]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Hell Diablo, & Baal.}
+ItemDisplay[dcbl]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%*%ORANGE%{%RED%to Make Visson of Terror.%NL%%TAN%Black Soulstone, Prime Evil Soul, & Pure Demonic Essence:%NL%Drops From: %RED%Map Bosses.}
+ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%to Open Diablo Clone.%NL%%TAN%Use at The Blood Fountain in Act 5:%NL%Requires Level 75.}
 
 // Tier 1 Maps
 ItemDisplay[NMAG t11]: %WHITE%Ruins of Viz-Jun%CONTINUE%
@@ -1728,10 +1622,6 @@ ItemDisplay[MAG !ID !ETH (CIRC OR DRU OR BAR)]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[MAG !ID !ETH ELT CHEST]: %GRAY%* %NAME% %GRAY%*
 // Magic Shields
 ItemDisplay[MAG !ID !ETH (uit OR uow OR uts OR DIN OR NEC)]: %GRAY%* %NAME% %GRAY%*
-// Magic Gloves
-ItemDisplay[MAG !ID !ETH GLOVES]: %GRAY%* %NAME% %GRAY%*
-// Magic Boots
-ItemDisplay[MAG !ID !ETH BOOTS]: %GRAY%* %NAME% %GRAY%*
 // Magic Axes
 ItemDisplay[MAG !ID ETH (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
 // Magic Clubs
@@ -1754,16 +1644,14 @@ ItemDisplay[MAG !ID ETH (pik OR 9p9 OR 7p7)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME
 ItemDisplay[MAG !ID ETH (vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa)]: %BORDER-97%%BLUE%*%WHITE%*   %NAME%   %WHITE%*%BLUE%*
 // Magic Bows
 ItemDisplay[MAG !ID !ETH (lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw)]: %GRAY%* %NAME% %GRAY%*
-// Magic Corssbows
-ItemDisplay[MAG !ID !ETH (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx)]: %GRAY%* %NAME% %GRAY%*
 // Magic Staffs
-ItemDisplay[MAG !ID (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[MAG !ID ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %GRAY%* %NAME% %GRAY%*
 // Magic Wands
-ItemDisplay[MAG !ID WAND]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[MAG !ID ETH WAND]: %GRAY%* %NAME% %GRAY%*
 // Magic Scepters
-ItemDisplay[MAG !ID SCEPTER]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[MAG !ID ETH SCEPTER]: %GRAY%* %NAME% %GRAY%*
 // Magic Assassin Claws
-ItemDisplay[MAG !ID SIN]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[MAG !ID ETH SIN]: %GRAY%* %NAME% %GRAY%*
 // Magic Sorceress Orbs
 ItemDisplay[MAG !ID SOR]: %GRAY%* %NAME% %GRAY%*
 // Magic Amazon Weapons
@@ -1776,17 +1664,18 @@ ItemDisplay[MAG !ID (ILVL>86 OR CLVL>84)]:
 ItemDisplay[RARE !ID (jew OR amu OR rin)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Helms
 ItemDisplay[RARE !ID !ETH (CIRC OR DRU OR BAR)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
-ItemDisplay[RARE !ID !ETH HELM]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH HELM]: %GRAY%* %NAME% %GRAY%*
 // Rare Armors
-ItemDisplay[RARE !ID !ETH CHEST]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH CHEST]: %GRAY%* %NAME% %GRAY%*
 // Rare Shields
-ItemDisplay[RARE !ID !ETH SHIELD]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH (DIN OR NEC)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH SHIELD]: %GRAY%* %NAME% %GRAY%*
 // Rare Gloves
 ItemDisplay[RARE !ID !ETH GLOVES]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Boots
 ItemDisplay[RARE !ID !ETH BOOTS]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Belts
-ItemDisplay[RARE !ID !ETH BELT]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH BELT]: %GRAY%* %NAME% %GRAY%*
 // Rare Axes
 ItemDisplay[RARE !ID ETH (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Clubs
@@ -1810,7 +1699,7 @@ ItemDisplay[RARE !ID ETH (vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa)]: %BORDER-6D%%
 // Rare Bows
 ItemDisplay[RARE !ID !ETH (lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Corssbows
-ItemDisplay[RARE !ID !ETH (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
+ItemDisplay[RARE !ID !ETH (hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx)]: %GRAY%* %NAME% %GRAY%*
 // Rare Staffs
 ItemDisplay[RARE !ID (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%   %WHITE%*%YELLOW%*
 // Rare Wands
@@ -1827,122 +1716,32 @@ ItemDisplay[RARE !ID (am5 OR ama OR amf)]: %BORDER-6D%%YELLOW%*%WHITE%*   %NAME%
 // Rest of the Rare Items Are Hidden
 ItemDisplay[RARE !ID (ILVL>86 OR CLVL>84)]:
 
-// Set jewelry
-ItemDisplay[SET !ID (amu OR rin)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Helms
-ItemDisplay[SET !ID (urn OR xh9 OR xhm OR xhl OR xsk OR uh9 OR uhm)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Armors
-ItemDisplay[SET !ID (uul OR xar OR uar OR uld OR ult OR upl OR uth OR xul)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Shields
-ItemDisplay[SET !ID (paf OR uts OR kit)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Gloves
-ItemDisplay[SET !ID (xhg OR xvg OR ulg OR xmg)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Boots
-ItemDisplay[SET !ID (xtb OR xhb)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Belts
-ItemDisplay[SET !ID (zhb OR zvb OR zmb OR utc)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Circlets
-ItemDisplay[SET !ID (ci3)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Druid Pelts
-ItemDisplay[SET !ID (dr8)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Barbarian Helms
-ItemDisplay[SET !ID (ba5)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Necromancer Heads
-ItemDisplay[SET !ID (ne9)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Hammers
-ItemDisplay[SET !ID (7m7)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Swords
-ItemDisplay[SET !ID (7fb OR 7gd OR 7ls)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Scepters
-ItemDisplay[SET !ID (7ws)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Sorceress Orbs
-ItemDisplay[SET !ID (oba)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Set Amazon Weapons
-ItemDisplay[SET !ID (amc)]: %BORDER-84%%PURPLE%*%RED%*%GREEN%*%WHITE%*     %NAME%     %WHITE%*%GREEN%*%RED%*%PURPLE%*
-// Rest of the Set Items Are Still Shown
-ItemDisplay[SET !ID]: %NAME%
+// Good Sets
+ItemDisplay[SET !ID (amu OR rin OR 7fb OR 7gd OR uts OR uhm OR xhm OR dr8 OR xtb OR uul OR xar OR urn OR 7ws OR paf OR uar OR ci3 OR uld OR uth OR uh9 OR xul OR ne9 OR utc OR xmg)]: %BORDER-84%%PURPLE%*%RED%*%DARK_GREEN%*%GREEN%*     %NAME%     *%DARK_GREEN%*%RED%*%PURPLE%*
+// Ok Sets
+ItemDisplay[SET !ID (ulg OR 7ls OR upl OR xvg OR 7m7 OR amc OR xtg OR zvb OR xh9 OR 7qr OR xsk OR zmb)]: %MAP-84%%DARK_GREEN%*%GREEN%*%GRAY%*     %NAME%     %GRAY%*%GREEN%*%DARK_GREEN%*
+// Sets Worth Notifying
+ItemDisplay[SET !ID (kit OR xrs OR uui OR vbt OR 6cs OR ult OR xhl OR 9mt OR ba5 OR zhb OR xhg OR xhb OR ucl OR xmb OR oba)]: %DOT-84%%NAME%
+// Highlight All Sets For Low Lvl Characters
+ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
-// Unique Charms
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %BORDER-0D%%GRAY%*%RED%*  %NAME%  %RED%*%GRAY%*
-// Unique jewelry
-ItemDisplay[UNI !ID (amu OR rin OR jew)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Helms
-ItemDisplay[UNI !ID !ETH (xkp OR xhm OR xhl OR uap OR ulm OR uh9 OR uhm OR urn OR xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (xrn OR xh9 OR usk OR uhl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Armors
-ItemDisplay[UNI !ID !ETH (stu OR ltp OR aar OR gth OR xui OR xea OR xng OR xlt OR xld OR xth OR xtp OR xul OR uui OR upl OR uul OR xhn OR xpl OR utu OR uar OR uth OR xcl OR uld)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (xhn OR xpl OR utu OR uar OR uth OR uul OR uld)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Shields
-ItemDisplay[UNI !ID !ETH (xsh OR xow OR uit OR uow OR uts OR upk OR xpk OR xts OR uml OR ush)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Gloves
-ItemDisplay[UNI !ID !ETH (lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xhg OR umg OR uhg OR uvg OR xmg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (uvg)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Boots
-ItemDisplay[UNI !ID !ETH (vbt OR tbt OR hbt OR xvb OR xmb OR xtb OR lbt OR xlb OR xhb OR uvb OR utb OR umb OR mbt)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (lbt OR xlb OR xhb OR uvb OR utb OR umb)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Belts
-ItemDisplay[UNI !ID !ETH (tbl OR zvb OR ztb OR zhb OR ulc OR uvc OR zlb OR umc)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (zlb OR umc)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Circlets
-ItemDisplay[UNI !ID !ETH (ci2 OR ci3)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Druid Pelts
-ItemDisplay[UNI !ID !ETH (dra OR drb OR drd OR dre OR dr2)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Barbarian Helms
-ItemDisplay[UNI !ID !ETH (baa OR bac OR bae OR bad OR ba6)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Paladin Shields
-ItemDisplay[UNI !ID !ETH (pa9 OR pac OR pae OR pa3)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Necromancer Heads
-ItemDisplay[UNI !ID !ETH (nea OR nef OR nee OR ne6)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Axes
-ItemDisplay[UNI !ID !ETH (7wa OR 9ga OR 7bt OR 7ga OR 7gi OR 7mp OR 7ha)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (7wa OR 9ga OR 7bt OR 7ga OR 7gi OR 7mp OR 72a OR 7ha)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Maces
-ItemDisplay[UNI !ID !ETH (7fl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (7fl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Hammers
-ItemDisplay[UNI !ID !ETH (9wh OR 7wh OR 9gm OR 7m7 OR 7gm)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (mau OR 9wh OR 7wh OR 9gm OR 7m7 OR 7gm)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Swords
-ItemDisplay[UNI !ID !ETH (7cr OR 9sb OR 9ls OR gsd OR 7b7 OR 7gs OR 7gd OR 7bs OR 9gd)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (9bs OR 9sb OR 9ls OR gsd OR 7b7 OR 7gs OR 7gd OR 7bs OR 9gs OR 9gd)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Daggers
-ItemDisplay[UNI !ID !ETH (9kr OR 9bl OR 7dg OR 7kr)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (7bl OR 7kr)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Throwing Weapons
-ItemDisplay[UNI !ID !ETH 7b8]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (9tk OR 9ta OR 7b8 OR 7ta OR 7bk)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Javelins
-ItemDisplay[UNI !ID ETH (7s7 OR 7ts OR 7gl)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Spears
-ItemDisplay[UNI !ID !ETH (9sr OR 7p7 OR 7br)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (9sr OR 7p7 OR 7br)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Polearms
-ItemDisplay[UNI !ID !ETH (7wc OR 7s8 OR 7pa OR wsc OR 9wc OR 7o7)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (7wc OR 7s8 OR 7pa OR wsc OR 9wc OR 7o7)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Bows
-ItemDisplay[UNI !ID !ETH (lbb OR 8lw OR 6sw OR 6l7 OR 6lw OR 8cb)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Corssbows
-ItemDisplay[UNI !ID !ETH (8mx OR 8hx OR 8rx OR 6rx OR 6hx)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Staffs
-ItemDisplay[UNI !ID !ETH (8ws OR 6cs OR 6ws)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (8ls OR 8ws OR 6cs OR 6ws)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Wands
-ItemDisplay[UNI !ID !ETH (9gw OR 7gw OR 7bw OR 9bw OR 9yw)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (9gw OR 7gw OR 7bw OR 9bw OR 9yw)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Scepters
-ItemDisplay[UNI !ID !ETH (9ws OR 7sc OR 7ws)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (9ws OR 7sc OR 7ws)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Assassin Claws
-ItemDisplay[UNI !ID !ETH (9tw OR 7lw OR 7qr OR 9ar)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (7wb OR 7cs OR 9tw OR 7lw OR 7qr OR 9ar)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Sorceress Orbs
-ItemDisplay[UNI !ID !ETH (oba OR obc OR obf OR ob6)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (oba OR obc OR obf OR ob6)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Unique Amazon Weapons
-ItemDisplay[UNI !ID !ETH (am9 OR amf OR amd OR amb OR am5)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-ItemDisplay[UNI !ID ETH (am9 OR amf OR amd OR am5)]: %BORDER-0D%%PURPLE%*%RED%*%GOLD%*%WHITE%*     %NAME%     %WHITE%*%GOLD%*%RED%*%PURPLE%*
-// Rest of the Unique Items Are Still Shown
-ItemDisplay[UNI !ID]: %NAME%
+// Uniques Charms
+ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-68%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*
+// Rainbow Facet
+ItemDisplay[UNI !ID jew]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%Facet     %PURPLE%r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+// Good Uniques
+ItemDisplay[UNI !ID !ETH (amu OR rin OR xhm OR xh9 OR uap OR ulm OR uhm OR usk OR urn OR uh9 OR uhl OR ci3 OR baa OR bae OR dra OR dre OR dr2 OR xtp OR xld OR uld OR uul OR upl OR uar OR uui OR uth OR uit OR uts OR nea OR nee OR pa9 OR uvg OR umg OR uhg OR xvb OR xmb OR xtb OR xhb OR uvb OR utb OR zhb OR ulc OR uvc OR 7wa OR 7cr OR 7bs OR 6lw OR 8hx OR 8rx OR 6ws OR 7gw OR amf OR 7lw OR 7qr OR obf OR obc)]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
+ItemDisplay[UNI !ID ETH (xh9 OR usk OR uhl OR baa OR xhn OR uul OR uar OR uth OR uvg OR xhb OR uvb OR umb OR utb OR 7wa OR 7bt OR 7ga OR 7gi OR 9gm OR 7fl OR 7wh OR 7m7 OR 7gm OR 7gd OR 7b8 OR 7gl OR 7p7 OR 7s8 OR 6ws OR 7gw OR amf OR 7lw OR obf OR obc)]: %BORDER-68%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
+// Ok Uniques
+ItemDisplay[UNI !ID !ETH (xrn OR ci2 OR bac OR bad OR ba6 OR drb OR drd OR stu OR rng OR gth OR ful OR aar OR xui OR xea OR xcl OR xhn OR xpl OR xlt OR xth OR utu OR xpk OR xow OR xsh OR xts OR upk OR uow OR ush OR nef OR ne6 OR pac OR pae OR pa3 OR lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR xhg OR lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR umb OR uhb OR tbl OR zlb OR zvb OR ztb OR umc OR 9ga OR 7mp OR 7bt OR 7ga OR 7gi OR 9wh OR 9gm OR 7fl OR 7wh OR 7m7 OR 7gm OR gsd OR 9ls OR 7gd OR 9kr OR 7dg OR 7bk OR 7ta OR 7b8 OR 7ts OR 9sr OR 7br OR 7p7 OR 7o7 OR 7s8 OR 7pa OR 8cb OR 6sw OR 8mx OR 8ls OR 6cs OR 9bw OR 9gw OR 7bw OR 9ws OR 7sc OR 7ws OR amd OR ama OR am5 OR 9tw OR 9ar OR oba OR ob6)]: %MAP-68%%ORANGE%*%YELLOW%*%GRAY%*     %NAME%     %GRAY%*%YELLOW%*%ORANGE%*
+ItemDisplay[UNI !ID ETH (xrn OR xui OR xea OR xrs OR xpl OR xtp OR xth OR uui OR uow OR tgl OR 9ga OR 9gi OR 7ha OR 72a OR 7mp OR mau OR 9wh OR gsd OR 9ls OR 9gs OR 7gs OR 7dg OR 7kr OR 7bl OR 9tk OR 9ta OR 7bk OR 7ta OR 7s7 OR 7ts OR 9sr OR 7sr OR 7br OR 7o7 OR 7pa OR 7wc OR 8ls OR 6cs OR 9bw OR 9gw OR 7bw OR 9ws OR 7sc OR 7ws OR am9 OR amd OR ama OR am5 OR 7cs OR 9tw OR 9ar OR oba OR ob6)]: %MAP-68%%ORANGE%*%YELLOW%*%GRAY%*     %NAME%     %GRAY%*%YELLOW%*%ORANGE%*
+// Uniques Worth Notifying
+ItemDisplay[UNI !ID !ETH (xkp OR xhl OR xrs OR xul OR xtg OR 9sb OR 9fc OR 9gs OR 7gs OR 9di OR 9bl OR 7kr OR 7bk OR 7sr OR wsc OR 9wc OR 7wc OR lbb OR 8lw OR 6l7 OR 6hx OR 8ws OR bwn OR am7 OR amb OR am9 OR 7wb)]: %DOT-68%%NAME%
+ItemDisplay[UNI !ID ETH (xkp OR ci2 OR bac OR bad OR bae OR ba6 OR drb OR drd OR stu OR ful OR xld OR xlt OR xul OR utu OR 7ba OR 9sb OR 9fc OR 9di OR wsc OR 9wc OR 8ws OR bwn OR 7wb)]: %DOT-68%%NAME%
+// Blame Onion Uniques
+ItemDisplay[UNI !ID ETH (xhm OR uap OR ulm OR uhm OR ci3 OR dra OR dre OR dr2 OR upl OR uts OR nea OR nee OR pa9)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %WHITE%Eth %GOLD%Shako     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
+// Highlight All Uniques For Low Lvl Characters
+ItemDisplay[UNI !ID CLVL<80]: %PX-68%%NAME%
 
 // Magic Charms Magic Find
 ItemDisplay[MAG MFIND=1 (cm1 OR cm2 OR cm3 OR jew)]: %TAN%+1%DARK_GREEN%Mf %NAME%%CONTINUE%
