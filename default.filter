@@ -1461,10 +1461,11 @@ ItemDisplay[skzs]: %NAME%{%TAN%Shields: %BLUE%Attacker Takes Damage of 20.%NL%%T
 ItemDisplay[GEM<4]:
 
 // Runes
-ItemDisplay[(RUNE<15 OR RUNE=16 OR RUNE=17)]: %DOT-60%%RUNENAME% Rune %GREEN%%RUNENUM%%CONTINUE%
+ItemDisplay[RUNE<15 OR RUNE=16 OR RUNE=17]: %DOT-60%%RUNENAME% Rune %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %DOT-62%%RED%*  %RUNENAME% Rune %GREEN%%RUNENUM%  %RED%*%CONTINUE%
 ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-62%%RED%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %RED%*%CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %PURPLE%*%RED%*%GREEN%*%CONTINUE%
+ItemDisplay[RUNE>25 AND RUNE<32 OR RUNE>32]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*     %RUNENAME% Rune %GREEN%%RUNENUM%     %PURPLE%*%RED%*%GREEN%*%CONTINUE%
+ItemDisplay[RUNE=32]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*     %RUNENAME% Scam %GREEN%%RUNENUM%     %PURPLE%*%RED%*%GREEN%*%CONTINUE%
 ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
 ItemDisplay[r01s]: %NAME%{%GREEN%1%NL%%TAN%All Sockets: %BLUE%+1 to Light Radius.%NL%%TAN%Armor, Helms, & Shields: %BLUE%+15 Defense.%NL%%TAN%Weapons: %BLUE%+50 to Attack Rating.}
 ItemDisplay[r02s]: %NAME%{%GREEN%2%NL%%TAN%Shields: %BLUE%7% Chance of Blocking.%NL%%TAN%Armor, & Helms: %BLUE%15% Slower Stamina Drain.%NL%+50 to Attack Rating Against Undead.%NL%%TAN%Weapons: %BLUE%+75% Damage to Undead,}
