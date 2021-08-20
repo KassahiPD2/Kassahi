@@ -1288,7 +1288,7 @@ ItemDisplay[RW SHIELD SOCK=4 STAT333>27]: %NAME% %RED%Phoenix%CONTINUE%
 // Names of Runeword Weapons
 ItemDisplay[RW WEAPON SOCK=2 STAT135>49]: %NAME% %RED%Steel%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=2 SK37>2]: %NAME% %RED%Leaf%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=2 FRW>24]: %NAME% %RED%Zephyr%CONTINUE%
+ItemDisplay[RW WEAPON SOCK=2 AR=66]: %NAME% %RED%Zephyr%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=2 STAT136>24]: %NAME% %RED%Strength%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=2 FCR>19]: %NAME% %RED%White%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=2 STAT86=4]: %NAME% %RED%Wind%CONTINUE%
@@ -4989,19 +4989,19 @@ ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + Shael.
 ItemDisplay[MAG ID WEAPON ILVL>25]: %NAME%{%GRAY%Vpc: %TAN%P Sku + Shael.%NL%%PURPLE%Ctr: %TAN%P Ame + Tir. %BLUE%Hit: %TAN%P Sap + Tir.%NL%%RED%Bld: %TAN%P Rub + Ort. %YELLOW%Btf: %TAN%P Top + Shael.%NL%%ORANGE%+Jewel:}
 
 // Upgrading Recipe For Craft/Rare
-ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%TAN%Ral, Thul, & %ORANGE%P%TAN%Ame.}%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR]: %NAME%{%TAN%Ko, Pul, & %ORANGE%P%TAN%Ame.}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR]: %NAME%{%TAN%Ral, Thul, & %ORANGE%P%TAN%Ame:}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC ARMOR]: %NAME%{%TAN%Ko, Pul, & %ORANGE%P%TAN%Ame:}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE) ID ELT ARMOR]: %NAME%%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID NORM WEAPON]: %NAME%{%TAN%Ort, Amn, & %ORANGE%P%TAN%Sap.}%CONTINUE%
-ItemDisplay[(CRAFT OR RARE) ID EXC WEAPON]: %NAME%{%TAN%Fal, Um, & %ORANGE%P%TAN%Sap.}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID NORM WEAPON]: %NAME%{%TAN%Ort, Amn, & %ORANGE%P%TAN%Sap:}%CONTINUE%
+ItemDisplay[(CRAFT OR RARE) ID EXC WEAPON]: %NAME%{%TAN%Fal, Um, & %ORANGE%P%TAN%Sap:}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE) ID ELT WEAPON]: %NAME%%CONTINUE%
 
 // Upgrading Recipe For Set/Unique
-ItemDisplay[(SET OR UNI) ID NORM ARMOR]: %NAME%{%TAN%Tal, Shael, & %ORANGE%P%TAN%Dia.}%CONTINUE%
-ItemDisplay[(SET OR UNI) ID EXC ARMOR]: %NAME%{%TAN%Ko, Lem, & %ORANGE%P%TAN%Dia.}%CONTINUE%
+ItemDisplay[(SET OR UNI) ID NORM ARMOR]: %NAME%{%TAN%Tal, Shael, & %ORANGE%P%TAN%Dia:}%CONTINUE%
+ItemDisplay[(SET OR UNI) ID EXC ARMOR]: %NAME%{%TAN%Ko, Lem, & %ORANGE%P%TAN%Dia:}%CONTINUE%
 ItemDisplay[(SET OR UNI) ID ELT ARMOR]: %NAME%%CONTINUE%
-ItemDisplay[(SET OR UNI) ID NORM WEAPON]: %NAME%{%TAN%Ral, Sol, & %ORANGE%P%TAN%Eme.}%CONTINUE%
-ItemDisplay[(SET OR UNI) ID EXC WEAPON]: %NAME%{%TAN%Lum, Pul, & %ORANGE%P%TAN%Eme.}%CONTINUE%
+ItemDisplay[(SET OR UNI) ID NORM WEAPON]: %NAME%{%TAN%Ral, Sol, & %ORANGE%P%TAN%Eme:}%CONTINUE%
+ItemDisplay[(SET OR UNI) ID EXC WEAPON]: %NAME%{%TAN%Lum, Pul, & %ORANGE%P%TAN%Eme:}%CONTINUE%
 ItemDisplay[(SET OR UNI) ID ELT WEAPON]: %NAME%%CONTINUE%
 
 // Upgrading Crafted/Rare Helms
