@@ -5001,7 +5001,7 @@ ItemDisplay[(SET OR UNI) ID NORM ARMOR]: %NAME%{%TAN%Tal, Shael, & %ORANGE%P%TAN
 ItemDisplay[(SET OR UNI) ID EXC ARMOR]: %NAME%{%TAN%Ko, Lem, & %ORANGE%P%TAN%Dia.}%CONTINUE%
 ItemDisplay[(SET OR UNI) ID ELT ARMOR]: %NAME%%CONTINUE%
 ItemDisplay[(SET OR UNI) ID NORM WEAPON]: %NAME%{%TAN%Ral, Sol, & %ORANGE%P%TAN%Eme.}%CONTINUE%
-ItemDisplay[(SET OR UNI) ID EXC WEAPON]: %NAME%{%TAN%Lum, Pul, & %ORANGE%P%TAN%Eme%%.}%CONTINUE%
+ItemDisplay[(SET OR UNI) ID EXC WEAPON]: %NAME%{%TAN%Lum, Pul, & %ORANGE%P%TAN%Eme.}%CONTINUE%
 ItemDisplay[(SET OR UNI) ID ELT WEAPON]: %NAME%%CONTINUE%
 
 // Upgrading Crafted/Rare Helms
