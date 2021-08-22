@@ -1396,7 +1396,7 @@ ItemDisplay[isc CLVL<75]: %DARK_GREEN%*%RED%ID%DARK_GREEN%*
 ItemDisplay[isc CLVL>74]:
 ItemDisplay[ear]: %NAME%
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl OR vps OR wms)]:
-ItemDisplay[(key OR aqv OR cqv) CLVL>9]:
+ItemDisplay[(key OR aqv OR cqv) CLVL>4]:
 
 // Quest Items Act 1
 ItemDisplay[bks]: %MAP-58%Scroll of Inifuss{%TAN%Talk to Akara}
