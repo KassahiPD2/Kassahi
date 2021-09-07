@@ -788,6 +788,7 @@ ItemDisplay[SET ID (xmg OR umg) TABSK16>1 FCR>19 STAT332>9 STAT31>29 CRES>29]: %
 ItemDisplay[SET ID utc STAT31>74 LIFE>55 REPLIFE>9 MANA>24 STAT11>29 STAT153>0]: %GRAY%%NAME% %GREEN%Trang-Oul's Girth%CONTINUE%
 
 // Names of Unique Charms
+ItemDisplay[UNI cm1 LIFE=20]: %NAME%
 ItemDisplay[UNI cm1]: Annihilus%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=2]: Ama Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK1=2]: Sorc Torch%CONTINUE%
