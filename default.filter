@@ -1360,6 +1360,11 @@ ItemDisplay[ETH]: %WHITE%Eth %NAME%%CONTINUE%
 // Every Socketed Item
 ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%(%WHITE%%SOCKETS%%TAN%)%CONTINUE%
 
+//Show me price of every MAG or RARE weapon/armor after ID
+ItemDisplay[DIFF=0 ID PRICE>4999]: %NAME% %GRAY%(%WHITE%5%GOLD%K%GRAY%)%CONTINUE%
+ItemDisplay[DIFF=1 ID PRICE>29999]: %NAME% %GRAY%(%WHITE%30%GOLD%K%GRAY%)%CONTINUE%
+ItemDisplay[DIFF=2 ID PRICE>34999]: %NAME% %GRAY%(%WHITE%35%GOLD%k%GRAY%)%CONTINUE%
+
 // Quantitiy of Stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
 
