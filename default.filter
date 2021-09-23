@@ -1509,7 +1509,7 @@ ItemDisplay[r33s]: %NAME%{%GREEN%33%NL%%TAN%Any Item + %ORANGE%P%TAN%Skull: %RED
 ItemDisplay[RUNE>0]: %NAME%
 
 // Essences/Token
-ItemDisplay[tes]: %DOT-68%%BLUE%Andarial Essence %TAN%x%WHITE%%QTY%%BLUE%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Andarial.}
+ItemDisplay[tes]: %DOT-68%%BLUE%Andariel Essence %TAN%x%WHITE%%QTY%%BLUE%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Andarial.}
 ItemDisplay[ceh]: %DOT-68%%YELLOW%Mephisto Essence %TAN%x%WHITE%%QTY%%YELLOW%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Mephisto.}
 ItemDisplay[bet]: %DOT-68%%RED%Diablo Essence %TAN%x%WHITE%%QTY%%RED%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Diablo.}
 ItemDisplay[fed]: %DOT-68%%GREEN%Baal Essence %TAN%x%WHITE%%QTY%%GREEN%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Baal.}
