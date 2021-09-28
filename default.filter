@@ -623,7 +623,7 @@ ItemDisplay[SET ID amu FHR>9 STAT41>19 STAT238>0]: %GRAY%%NAME% %GREEN%Cathan's 
 ItemDisplay[SET ID rin STAT60>5 STAT34>1]: %GRAY%%NAME% %GREEN%Cathan's Seal%CONTINUE%
 ItemDisplay[SET ID (bst OR 8bs OR 6bs)]: %GRAY%%NAME% %GREEN%Cathan's Rule%CONTINUE%
 ItemDisplay[SET ID (chn OR xhn OR uhn) STAT31>14]: %GRAY%%NAME% %GREEN%Cathan's Mesh%CONTINUE%
-ItemDisplay[SET ID (msk OR xsk OR usk) MANA>19 STAT43>24]: %GRAY%%NAME% %GREEN%Cathan's Visage%CONTINUE%
+ItemDisplay[SET ID (msk OR xsk OR usk) STAT62>2 MANA>19 STAT43>24 !STAT31>44]: %GRAY%%NAME% %GREEN%Cathan's Visage%CONTINUE%
 
 // Names of Set Civerb's Vestments
 ItemDisplay[SET ID amu REPLIFE>9 STAT27>39]: %GRAY%%NAME% %GREEN%Civerb's Icon%CONTINUE%
