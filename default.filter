@@ -1627,6 +1627,31 @@ ItemDisplay[UNI !ID ETH (xhm OR uap OR ulm OR uhm OR ci3 OR dra OR dre OR dr2 OR
 // Highlight All Uniques For Low Lvl Characters
 ItemDisplay[UNI !ID CLVL<80]: %PX-68%%NAME%
 
+// Shopping Items
+ItemDisplay[WEAPON !UNI TABSK34>2]: %ORANGE%***%GREEN%***   %RED%Warcries Weapon   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Warcries Weapon   %ORANGE%***}
+ItemDisplay[SIN !UNI TABSK49>2]: %ORANGE%***%GREEN%***   %RED%Shadow Disciplines Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Shadow Disciplines Claw %ORANGE%***}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %ORANGE%***%GREEN%***   %RED%Venom Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Venom Claw   %ORANGE%***}
+ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %ORANGE%***%GREEN%***   %RED%Mind Blast Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Mind Blast Claw   %ORANGE%***}
+ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %ORANGE%***%GREEN%***   %RED%Martial Arts Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Claw   %ORANGE%***}
+ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %ORANGE%***%GREEN%***   %RED%Traps Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Traps Claw   %ORANGE%***}
+ItemDisplay[GLOVES !UNI TABSK0>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Amazon Bow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Amazon Bow Gloves   %ORANGE%***}
+ItemDisplay[GLOVES !UNI TABSK2>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Amazon Javelin Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Amazon Javelin Gloves   %ORANGE%***}
+ItemDisplay[GLOVES !UNI TABSK50>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Martial Arts Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Gloves   %ORANGE%***}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %ORANGE%***%GREEN%***   %RED%Holy Bolt Scepter   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Holy Bolt Scepter   %ORANGE%***}
+ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %ORANGE%***%GREEN%***   %RED%FoH Scepter   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%FoH Scepter   %ORANGE%***}
+ItemDisplay[SCEPTER !UNI ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %ORANGE%***%GREEN%***   %RED%Holy Shock Scepter   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Holy Shock Scepter   %ORANGE%***}
+ItemDisplay[WAND !UNI ((TABSK18>2 AND (SK70>1 OR SK75>1 OR SK80>1 OR SK85>1 OR SK90>1 OR SK94>1 OR SK95>1)) OR ((TABSK18>1 OR CLSK2>1) AND (SK70>2 OR SK75>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2)))]: %ORANGE%***%GREEN%***   %RED%Summoner Wand   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Summoner Wand   %ORANGE%***}
+ItemDisplay[NEC !UNI ((TABSK18>2 AND (SK70>1 OR SK75>1 OR SK80>1 OR SK85>1 OR SK90>1 OR SK94>1 OR SK95>1)) OR ((TABSK18>1 OR CLSK2>1) AND (SK70>2 OR SK75>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2)))]: %ORANGE%***%GREEN%***   %RED%Summoner Head   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Summoner Head   %ORANGE%***}
+ItemDisplay[WAND !UNI ((TABSK16>2 AND SK381>1) OR ((TABSK16>1 OR CLSK2>1) AND SK381>2))]: %ORANGE%***%GREEN%***   %RED%Dark Pact Wand   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Dark Pact Wand   %ORANGE%***}
+ItemDisplay[NEC !UNI ((TABSK16>2 AND SK381>1) OR ((TABSK16>1 OR CLSK2>1) AND SK381>2))]: %ORANGE%***%GREEN%***   %RED%Dark Pact Head   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Dark Pact Head   %ORANGE%***}
+ItemDisplay[WAND !UNI ((TABSK17>2 AND (SK92>1 OR SK83>1)) OR ((TABSK17>1 OR CLSK2>1) AND (SK92>2 OR SK83>2)))]: %ORANGE%***%GREEN%***   %RED%Posion Spells Wand   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Posion Spells Wand   %ORANGE%***}
+ItemDisplay[NEC !UNI ((TABSK17>2 AND (SK92>1 OR SK83>1)) OR ((TABSK17>1 OR CLSK2>1) AND (SK92>2 OR SK83>2)))]: %ORANGE%***%GREEN%***   %RED%Posion Spells Head   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Posion Spells Head   %ORANGE%***}
+ItemDisplay[WAND !UNI ((TABSK17>2 AND (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>1 OR CLSK2>1) AND (SK93>2 OR SK84>2 OR SK67>2)))]: %ORANGE%***%GREEN%***   %RED%Bone Spells Wand   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bone Spells Wand   %ORANGE%***}
+ItemDisplay[NEC !UNI ((TABSK17>2 AND (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>1 OR CLSK2>1) AND (SK93>2 OR SK84>2 OR SK67>2)))]: %ORANGE%***%GREEN%***   %RED%Bone Spells Head   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bone Spells Head   %ORANGE%***}
+ItemDisplay[STAFF !UNI CHSK54>0]: %ORANGE%***%GREEN%***   %RED%Teleport Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Teleport Charges   %ORANGE%***}
+ItemDisplay[WAND !UNI CHSK91>0]: %ORANGE%***%GREEN%***   %RED%Lower Resist Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Lower Resist Charges   %ORANGE%***}
+ItemDisplay[WEAPON !UNI CHSK82>0]: %ORANGE%***%GREEN%***   %RED%Life Tap Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Life Tap Charges   %ORANGE%***}
+
 // Stats For Charms/Jewels
 ItemDisplay[(MAG OR RARE OR UNI) (cm1 OR cm2 OR cm3 OR jew) (STAT87>0 OR MFIND>0 OR STAT91>-0 OR MAEK>0 OR STAT86>0 OR GFIND>0 OR STAT85>0 OR RES>0 OR FRES>0 OR LRES>0 OR CRES>0 OR PRES>0 OR STAT1>0 OR STAT3>0 OR MANA>0 OR LIFE>0 OR DEX>0 OR STR>0 OR STAT122>0 OR STAT121>0 OR AR>0 OR MAXDMG>0 OR MINDMG>0 OR FHR>0 OR FRW>0 OR STAT333>0 OR STAT334>0 OR STAT335>0 OR STAT336>0 OR STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR ED>0 OR IAS>0)]: %GRAY%] %NAME%%CONTINUE%
 
