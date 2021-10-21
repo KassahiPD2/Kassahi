@@ -1634,8 +1634,8 @@ ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK278>1)]: %ORANGE%***%GREEN%**
 ItemDisplay[SIN !UNI ((TABSK49>1 OR CLSK6>1) AND SK273>1)]: %ORANGE%***%GREEN%***   %RED%Mind Blast Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Mind Blast Claw   %ORANGE%***}
 ItemDisplay[SIN !UNI (TABSK50>2 OR ((TABSK50>1 OR CLSK6>1) AND (SK280>1 OR SK265>1)))]: %ORANGE%***%GREEN%***   %RED%Martial Arts Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Claw   %ORANGE%***}
 ItemDisplay[SIN !UNI (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK366>1 OR SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %ORANGE%***%GREEN%***   %RED%Traps Claw   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Traps Claw   %ORANGE%***}
-ItemDisplay[GLOVES !UNI TABSK0>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Amazon Bow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Amazon Bow Gloves   %ORANGE%***}
-ItemDisplay[GLOVES !UNI TABSK2>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Amazon Javelin Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Amazon Javelin Gloves   %ORANGE%***}
+ItemDisplay[GLOVES !UNI TABSK0>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Bow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bow Gloves   %ORANGE%***}
+ItemDisplay[GLOVES !UNI TABSK2>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Javelin Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Javelin Gloves   %ORANGE%***}
 ItemDisplay[GLOVES !UNI TABSK50>2 IAS>19]: %ORANGE%***%GREEN%***   %RED%Martial Arts Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Gloves   %ORANGE%***}
 ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %ORANGE%***%GREEN%***   %RED%Holy Bolt Scepter   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Holy Bolt Scepter   %ORANGE%***}
 ItemDisplay[SCEPTER !UNI ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %ORANGE%***%GREEN%***   %RED%FoH Scepter   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%FoH Scepter   %ORANGE%***}
