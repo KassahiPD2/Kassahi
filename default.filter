@@ -1314,6 +1314,9 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%
 // Every Ethereal Item
 ItemDisplay[ETH]: %WHITE%Eth %NAME%%CONTINUE%
 
+// Every ID'd Item
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew OR amu OR rin OR ARMOR OR WEAPON) ID !NMAG]: %DARK_GREEN%*%NAME%%CONTINUE%
+
 // Every Socketed Item
 ItemDisplay[STAT360>0]: %NAME%%RED%*%CONTINUE%
 
