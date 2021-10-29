@@ -1605,7 +1605,7 @@ ItemDisplay[SET !ID (amu OR rin OR 7fb OR 7gd OR uts OR uhm OR xhm OR dr8 OR xtb
 // Good Sets
 ItemDisplay[SET !ID (ulg OR 7ls OR upl OR xvg OR 7m7 OR amc OR xtg OR zvb OR xh9 OR 7qr OR xsk OR zmb)]: %MAP-84%%GRAY%*%DARK_GREEN%*%GREEN%*   %NAME%   *%DARK_GREEN%*%GRAY%*
 // Sets Worth Notifying
-ItemDisplay[SET !ID (kit OR xrs OR uui OR 6cs OR ult OR xhl OR 9mt OR ba5 OR zhb OR xhg OR xhb OR ucl OR xmb OR oba)]: %DOT-84%%GRAY%* %NAME% %GRAY%*
+ItemDisplay[SET !ID (kit OR xrs OR uui OR 6cs OR ult OR xhl OR 9mt OR ba5 OR zhb OR xhg OR xhb OR ucl OR xmb OR oba OR umc)]: %DOT-84%%GRAY%* %NAME% %GRAY%*
 // Highlight All Sets For Low Lvl Characters
 ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
