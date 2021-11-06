@@ -1662,7 +1662,7 @@ ItemDisplay[RARE t43]: %YELLOW%Plains of Torment%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%ORANGE%* %NAME% Dungeon %ORANGE%[T4]%CONTINUE%
 ItemDisplay[NMAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%WHITE%
 ItemDisplay[MAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%BLUE%
-ItemDisplay[RARE (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%YELLOW%
+ItemDisplay[RARE (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%TAN%6 %ORANGE%P%TAN%Skulls: %RED%to Reroll Dungeon.%NL%%WHITE%Area Level: 92}%YELLOW%
 
 // GG Magic
 ItemDisplay[MAG !ID ILVL>90 cm3]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME% %TAN%(%WHITE%91+%TAN%)   %PURPLE%*
