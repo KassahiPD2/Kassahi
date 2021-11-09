@@ -1436,17 +1436,19 @@ ItemDisplay[mp2 CLVL<19]: %BLUE%MP %WHITE%2
 ItemDisplay[mp3 CLVL<24]: %BLUE%MP %WHITE%3
 ItemDisplay[mp4 CLVL<59]: %BLUE%MP %WHITE%4
 ItemDisplay[mp5]: %BLUE%MP %WHITE%5
-ItemDisplay[yps]: %GREEN%* %WHITE%Anti
-ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
-ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
-ItemDisplay[tbk]: %BLUE%%NAME%
-ItemDisplay[ibk]: %RED%%NAME%
-ItemDisplay[tsc]: %DARK_GREEN%* %BLUE%TP
-ItemDisplay[isc CLVL<75]: %DARK_GREEN%* %RED%ID
-ItemDisplay[isc CLVL>74]:
-ItemDisplay[ear]: %NAME%
-ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl OR vps OR wms)]:
-ItemDisplay[(key OR aqv OR cqv) CLVL>4]:
+ItemDisplay[yps]: %GREEN%* %WHITE%Anti{%GRAY%(Time Stack).%NL%%WHITE%Gives +25 Psn Res For 30s.%NL%%TAN%Note: %WHITE%Instantly Cures Poison}
+ItemDisplay[vps CLVL<19]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack).%NL%%TAN%Note: %WHITE%Gives Infinite Stamina For 30s.}
+ItemDisplay[wms CLVL<19]: %GREEN%! %WHITE%Thaw{%GRAY%(Time Stack).%NL%%WHITE%Gives +25 Cold Res For 30s.%NL%%TAN%Note: %WHITE%Instantly Thaws Character}
+ItemDisplay[key CLVL<29]: %DARK_GREEN%! %WHITE%Key %TAN%x%WHITE%%QTY%
+ItemDisplay[ear]: %ORANGE%%NAME%
+ItemDisplay[tbk]: %BLUE%%NAME% %TAN%x%WHITE%%QTY%
+ItemDisplay[ibk]: %RED%%NAME% %TAN%x%WHITE%%QTY%{%TAN%Professional Tip: %WHITE%Let %ORANGE%Deckard Cain %WHITE%ID Ur Items.}
+ItemDisplay[tsc]: %DARK_GREEN%* %BLUE%TP{%RED%Warning: %WHITE%You will lose The Socketed Runes/Gems.%NL%%TAN%Cube: %WHITE%Socketed Item + %DARK_GREEN%* %BLUE%TP %WHITE%Scroll + %ORANGE%Hel Rune.}
+ItemDisplay[isc CLVL<75]: %DARK_GREEN%* %RED%ID{%TAN%Professional Tip: %WHITE%Let %ORANGE%Deckard Cain %WHITE%ID Ur Items.}
+ItemDisplay[isc CLVL>74]: {%TAN%Professional Tip: %WHITE%Let %ORANGE%Deckard Cain %WHITE%ID Ur Items.}
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4 OR vps OR wms OR key) CLVL>0]:
+ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
+ItemDisplay[NMAG (aqv OR cqv) CLVL>4]:
 
 // Quest Items Act 1
 ItemDisplay[bks]: %MAP-58%Scroll of Inifuss{%TAN%Talk to Akara}
@@ -1491,23 +1493,24 @@ ItemDisplay[(glrs OR glr OR gprs OR gpr)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(glws OR glw OR gpws OR gpw)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(skls OR skl OR skzs OR skz)]: %ORANGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(gzvs OR glys OR glbs OR glgs OR glrs OR glws OR skls)]: %DOT-20%%WHITE%Flawless %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl)]: %DOT-20%%WHITE%Flawless %NAME%
+ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl)]: %DOT-20%%WHITE%Flawless %NAME%%CONTINUE%
 ItemDisplay[(gpvs OR gpys OR gpbs OR gpgs OR gprs OR gpws OR skzs)]: %MAP-20%%WHITE%Perfect %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[(gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %MAP-20%%WHITE%Perfect %NAME%
-ItemDisplay[gzvs]: %NAME%{%TAN%Shields: %BLUE%+24 Defense.%NL%%TAN%Armor, & Helms: %BLUE%+8 to Strength.%NL%%TAN%Weapons: %BLUE%+100 to Attack Rating.}
-ItemDisplay[glws]: %NAME%{%TAN%Shields: %BLUE%All Resistances +14.%NL%%TAN%Armor, & Helms: %BLUE%+80 to Attack Attack.%NL%%TAN%Weapons: %BLUE%+54% Damage to Undead.}
-ItemDisplay[glgs]: %NAME%{%TAN%Shields: %BLUE%Poison Resist +28%.%NL%%TAN%Armor, & Helms: %BLUE%+8 to Dexterity.%NL%%TAN%Weapons: %BLUE%+60 Poison Damage Over 6 Seconds.}
-ItemDisplay[glrs]: %NAME%{%TAN%Shields: %BLUE%Fire Resist +28%.%NL%%TAN%Armor, & Helms: %BLUE%+31 to Life.%NL%%TAN%Weapons: %BLUE%Adds 10-16 Fire Damage.}
-ItemDisplay[glbs]: %NAME%{%TAN%Shields: %BLUE%Cold Resist +28%.%NL%%TAN%Armor, & Helms: %BLUE%+31 to Mana.%NL%%TAN%Weapons: %BLUE%Adds 6-10 Cold Damage.}
-ItemDisplay[glys]: %NAME%{%TAN%Shields: %BLUE%Lightning Resist +28%.%NL%%TAN%Armor, & Helms: %BLUE%20% Better Chance of Getting Magic Items.%NL%%TAN%Weapons: %BLUE%Adds 1-30 Lightning Damage.}
-ItemDisplay[skls]: %NAME%{%TAN%Shields: %BLUE%Attacker Takes Damage of 16.%NL%%TAN%Armor, & Helms: %BLUE%Regenerate Mana 12%, Replenish Life +4.%NL%%TAN%Weapons: %BLUE%3% Life Stolen Per Hit, 3% Mana Stolen Per Hit.}
-ItemDisplay[gpvs]: %NAME%{%TAN%Shields: %BLUE%+30 Defense.%NL%%TAN%Armor, & Helms: %BLUE%+10 to Strength.%NL%%TAN%Weapons: %BLUE%+150 to Attack Rating.}
-ItemDisplay[gpws]: %NAME%{%TAN%Shields: %BLUE%All Resistances +19.%NL%%TAN%Armor, & Helms: %BLUE%+100 to Attack Attack.%NL%%TAN%Weapons: %BLUE%+68% Damage to Undead.}
-ItemDisplay[gpgs]: %NAME%{%TAN%Shields: %BLUE%Poison Resist +40%.%NL%%TAN%Armor, & Helms: %BLUE%+10 to Dexterity.%NL%%TAN%Weapons: %BLUE%+100 Poison Damage Over 7 Seconds.}
-ItemDisplay[gprs]: %NAME%{%TAN%Shields: %BLUE%Fire Resist +40%.%NL%%TAN%Armor, & Helms: %BLUE%+38 to Life.%NL%%TAN%Weapons: %BLUE%Adds 15-20 Fire Damage.}
-ItemDisplay[gpbs]: %NAME%{%TAN%Shields: %BLUE%Cold Resist +40%.%NL%%TAN%Armor, & Helms: %BLUE%+38 to Mana.%NL%%TAN%Weapons: %BLUE%Adds 10-14 Cold Damage.}
-ItemDisplay[gpys]: %NAME%{%TAN%Shields: %BLUE%Lightning Resist +40%.%NL%%TAN%Armor, & Helms: %BLUE%24% Better Chance of Getting Magic Items.%NL%%TAN%Weapons: %BLUE%Adds 1-40 Lightning Damage.}
-ItemDisplay[skzs]: %NAME%{%TAN%Shields: %BLUE%Attacker Takes Damage of 20.%NL%%TAN%Armor, & Helms: %BLUE%Regenerate Mana 19%, Replenish Life +5.%NL%%TAN%Weapons: %BLUE%4% Life Stolen Per Hit, 3% Mana Stolen Per Hit.}
+ItemDisplay[(gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %MAP-20%%WHITE%Perfect %NAME%%CONTINUE%
+ItemDisplay[gzvs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%+24 Def.%NL%%TAN%Armor/Helm: %BLUE%+8 to Str.%NL%%TAN%Weapon: %BLUE%+100 to AR.}
+ItemDisplay[glws]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%All Res +14%.%NL%%TAN%Armor/Helm: %BLUE%+80 to AR.%NL%%TAN%Weapon: %BLUE%+54% Dmg vs Und.}
+ItemDisplay[glgs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%28% Psn Res.%NL%%TAN%Armor/Helm: %BLUE%+8 Dex.%NL%%TAN%Weapon: %BLUE%+60 Psn Dmg Over 6 Sec.}
+ItemDisplay[glrs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%28% Fire Res.%NL%%TAN%Armor/Helm: %BLUE%+31 to Life.%NL%%TAN%Weapon: %BLUE%10-16 Fire Dmg.}
+ItemDisplay[glbs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%28% Cold Res.%NL%%TAN%Armor/Helm: %BLUE%+31 to Mana.%NL%%TAN%Weapon: %BLUE%6-10 Cold Dmg.}
+ItemDisplay[glys]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%28% Light Res.%NL%%TAN%Armor/Helm: %BLUE%20% MF.%NL%%TAN%Weapon: %BLUE%1-30 Light Dmg.}
+ItemDisplay[skls]: %NAME%{%TAN%Cube: %WHITE%3x Flawless + %GRAY%Key %WHITE%= Perfect.%NL%%TAN%Shield: %BLUE%ATD +16.%NL%%TAN%Armor/Helm: %BLUE%Rep Life 4, Reg Mana 12%.%NL%%TAN%Weapon: %BLUE%3% Life, 3% Mana.}
+ItemDisplay[gpvs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%+30 Def.%NL%%TAN%Armor/Helm: %BLUE%+10 to Str.%NL%%TAN%Weapon: %BLUE%+150 to AR.}
+ItemDisplay[gpws]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%All Res +19%.%NL%%TAN%Armor/Helm: %BLUE%+100 to AR.%NL%%TAN%Weapon: %BLUE%+68% Dmg vs Und.}
+ItemDisplay[gpgs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%40% Psn Res.%NL%%TAN%Armor/Helm: %BLUE%+10 Dex.%NL%%TAN%Weapon: %BLUE%+100 Psn Dmg Over 7 Sec.}
+ItemDisplay[gprs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%40% Fire Res.%NL%%TAN%Armor/Helm: %BLUE%+38 to Life.%NL%%TAN%Weapon: %BLUE%15-20 Fire Dmg.}
+ItemDisplay[gpbs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%40% Cold Res.%NL%%TAN%Armor/Helm: %BLUE%+38 to Mana.%NL%%TAN%Weapon: %BLUE%10-14 Cold Dmg.}
+ItemDisplay[gpys]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%40% Light Res.%NL%%TAN%Armor/Helm: %BLUE%24% MF.%NL%%TAN%Weapon: %BLUE%1-40 Light Dmg.}
+ItemDisplay[skzs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems.%NL%%TAN%Shield: %BLUE%ATD +20.%NL%%TAN%Armor/Helm: %BLUE%Rep Life 5, Reg Mana 19%.%NL%%TAN%Weapon: %BLUE%4% Life, 3% Mana.}
+ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%{%TAN%Cube: %WHITE%Stack Gems.%NL%}
 ItemDisplay[GEM<4]:
 
 // Runes
@@ -1517,40 +1520,40 @@ ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-62%%RED%*     %RUNENAME% Rune %GRAY%[%GRE
 ItemDisplay[(RUNE>25 AND RUNE<32) OR (RUNE>32)]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %PURPLE%*%RED%*%GREEN%*%CONTINUE%
 ItemDisplay[RUNE=32]: %BORDER-62%%GREEN%*%RED%*%PURPLE%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %PURPLE%*%RED%*%GREEN%*%CONTINUE%
 ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[r01s]: %NAME%{%GREEN%1%NL%%TAN%All Sockets: %BLUE%+1 to Light Radius.%NL%%TAN%Armor, Helms, & Shields: %BLUE%+15 Defense.%NL%%TAN%Weapons: %BLUE%+50 to Attack Rating.}
-ItemDisplay[r02s]: %NAME%{%GREEN%2%NL%%TAN%Shields: %BLUE%7% Chance of Blocking.%NL%%TAN%Armor, & Helms: %BLUE%15% Slower Stamina Drain.%NL%+50 to Attack Rating Against Undead.%NL%%TAN%Weapons: %BLUE%+75% Damage to Undead,}
-ItemDisplay[r03s]: %NAME%{%GREEN%3%NL%%TAN%All Sockets: %BLUE%+2 to Mana After Each Kill.}
-ItemDisplay[r04s]: %NAME%{%GREEN%4%NL%%TAN%Armor, Helms, & Shields: %BLUE%+30 Defense vs. Missile.%NL%%TAN%Weapons: %BLUE%Knockback.}
-ItemDisplay[r05s]: %NAME%{%GREEN%5%NL%%TAN%Armor, Helms, & Shields: %BLUE%Regenerate Mana 15%.%NL%%TAN%Weapons: %BLUE%-25% Target Defense.}
-ItemDisplay[r06s]: %NAME%{%GREEN%6%NL%%TAN%Armor, Helms, & Shields: %BLUE%15% Damage Taken Gained as Mana When Hit.%NL%%TAN%Weapons: %BLUE%+9 to Maximum Damage.}
-ItemDisplay[r07s]: %NAME%{%GREEN%7%NL%%TAN%Shields: %BLUE%Poison Resist +35%.%NL%%TAN%Armor, & Helms: %BLUE%Poison Resist +30%.%NL%%TAN%Weapons: %BLUE%+75 Poison Damage Over 5 Seconds.}
-ItemDisplay[r08s]: %NAME%{%GREEN%8%NL%%TAN%Shields: %BLUE%Fire Resist +35%.%NL%%TAN%Armor, & Helms: %BLUE%Fire Resist +30%.%NL%%TAN%Weapons: %BLUE%Adds 5-30 Fire Damage.}
-ItemDisplay[r09s]: %NAME%{%GREEN%9%NL%%TAN%Shields: %BLUE%Lightning Resist +35%.%NL%%TAN%Armor, & Helms: %BLUE%Lightning Resist +30%.%NL%%TAN%Weapons: %BLUE%Adds 1-50 Lightning Damage.}
-ItemDisplay[r10s]: %NAME%{%GREEN%10%NL%%TAN%Shields: %BLUE%Cold Resist +35%.%NL%%TAN%Armor, & Helms: %BLUE%%BLUE%Cold Resist +30%.%NL%%TAN%Weapons: %BLUE%Adds 3-14 Cold Damage.}
-ItemDisplay[r11s]: %NAME%{%GREEN%11%NL%%TAN%Armor, Helms, & Shields: %BLUE%Attacker Takes Damage of 14.%NL%%TAN%Weapons: %BLUE%7% Life Stolen Per Hit.}
-ItemDisplay[r12s]: %NAME%{%GREEN%12%NL%%TAN%Armor, Helms, & Shields: %BLUE%Physical Damage Taken Reduced by 7.%NL%%TAN%Weapons: %BLUE%+9 to Mimimum Damage.}
-ItemDisplay[r13s]: %NAME%{%GREEN%13%NL%%TAN%Shields: %BLUE%+20% Faster Block Rate.%NL%%TAN%Armor, & Helms: %BLUE%+20% Faster Hit Recovery.%NL%%TAN%Weapons: %BLUE%+20% Increased Attack Speed.}
-ItemDisplay[r14s]: %NAME%{%GREEN%14%NL%%TAN%Armor, Helms, & Shields: %BLUE%Replenish Life +10.%NL%%TAN%Weapons: %BLUE%+25% Enhanced Damage.}
-ItemDisplay[r15s]: %NAME%{%GREEN%15%NL%%TAN%Armor, Helms, & Shields: %BLUE%Requirements -15%.%NL%%TAN%Weapons: %BLUE%Requirements -20%.}
-ItemDisplay[r16s]: %NAME%{%GREEN%16%NL%%TAN%All Sockets: %BLUE%+10 to Vitality.}
-ItemDisplay[r17s]: %NAME%{%GREEN%17%NL%%TAN%All Sockets: %BLUE%+10 to Energy.}
-ItemDisplay[r18s]: %NAME%{%GREEN%18%NL%%TAN%All Sockets: %BLUE%+10 to Dexterity.}
-ItemDisplay[r19s]: %NAME%{%GREEN%19%NL%%TAN%All Sockets: %BLUE%+10 to Strength.}
-ItemDisplay[r20s]: %NAME%{%GREEN%20%NL%%TAN%Armor, Helms, & Shields: %BLUE%50% Extra Gold From Monsters.%NL%%TAN%Weapons: %BLUE%75% Extra Gold From Monsters.}
-ItemDisplay[r21s]: %NAME%{%GREEN%21%NL%%TAN%Armor, Helms, & Shields: %BLUE%+30% Enhanced Defense.%NL%+100 to Attack Rating Against Demons.%NL%%TAN%Weapons: %BLUE%+75% Damage to Demons,}
-ItemDisplay[r22s]: %NAME%{%GREEN%22%NL%%TAN%Shields: %BLUE%All Resistances +22.%NL%%TAN%Armor, & Helms: %BLUE%All Resistances +15.%NL%%TAN%Weapons: %BLUE%25% Chance of Open Wounds.}
-ItemDisplay[r23s]: %NAME%{%GREEN%23%NL%%TAN%Armor, Helms, & Shields: %BLUE%Magic Damage Taken Reduced by 7.%NL%%TAN%Weapons: %BLUE%Prevent Monster Heal.}
-ItemDisplay[r24s]: %NAME%{%GREEN%24%NL%%TAN%Armor, Helms, & Shields: %BLUE%25% Better Chance of Getting Magic Items.%NL%%TAN%Weapons: %BLUE%30% Better Chance of Getting Magic Items.}
-ItemDisplay[r25s]: %NAME%{%GREEN%25%NL%%TAN%Armor, Helms, & Shields: %BLUE%+4% to Maximum Poison Resist.%NL%%TAN%Weapons: %BLUE%20% Bonus to Attack Rating.}
-ItemDisplay[r26s]: %NAME%{%GREEN%26%NL%%TAN%Armor, Helms, & Shields: %BLUE%+4% to Maximum Fire Resist.%NL%%TAN%Weapons: %BLUE%7% Mana Stolen Per Hit.}
-ItemDisplay[r27s]: %NAME%{%GREEN%27%NL%%TAN%Armor, Helms, & Shields: %BLUE%+4% to Maximum Cold Resist.%NL%%TAN%Weapons: %BLUE%+50% Enhanced Damage.}
-ItemDisplay[r28s]: %NAME%{%GREEN%28%NL%%TAN%Armor, Helms, & Shields: %BLUE%+4% to Maximum Lightning Resist.%NL%%TAN%Weapons: %BLUE%20% Deadly Strike}
-ItemDisplay[r29s]: %NAME%{%GREEN%29%NL%%TAN%Shields: %BLUE%+50 to Mana.%NL%%TAN%Armor, & Helms: %BLUE%Increase Maximum Mana 5%.%NL%%TAN%Weapons: %BLUE%+4 Life After Each Kill.}
-ItemDisplay[r30s]: %NAME%{%GREEN%30%NL%%TAN%Armor, Helms, & Shields: %BLUE%Physical Damage Taken Reduced by 4%.%NL%%TAN%Weapons: %BLUE%20% Chance of Crushing Blow.}
-ItemDisplay[r31s]: %NAME%{%GREEN%31%NL%%TAN%Shields: %BLUE%+50 to Life.%NL%%TAN%Armor, & Helms: %BLUE%Increase Maximum Life 5%.%NL%%TAN%Weapons: %BLUE%Ignore Target's Defense.}
-ItemDisplay[r32s]: %NAME%{%GREEN%32%NL%%TAN%Armor, Helms, & Shields: %BLUE%Cannot be Frozen.%NL%%TAN%Weapons: %BLUE%Freezes Target +3.}
-ItemDisplay[r33s]: %NAME%{%GREEN%33%NL%%TAN%Any Item + %ORANGE%P%TAN%Skull: %RED%to Fully Repair.%NL%%TAN%All Sockets: %BLUE%Indestructible.}
-ItemDisplay[RUNE>0]: %NAME%
+ItemDisplay[r01s]: %NAME%{%TAN%Cube: %WHITE%3x El + %GRAY%Key %WHITE%= Eld.%NL%%TAN%Armor/Helm/Shield: %BLUE%+15 Def.%NL%%TAN%Weapon: %BLUE%+50 AR.}
+ItemDisplay[r02s]: %NAME%{%TAN%Cube: %WHITE%3x Eld + %GRAY%Key %WHITE%= Tir.%NL%%TAN%Shield: %BLUE%7% Block Chance.%NL%%TAN%Armor/Helm: %BLUE%-15% Stamina Drain.%NL%%TAN%Weapon: %BLUE%+75% Dmg, +50 AR vs Und.}
+ItemDisplay[r03s]: %NAME%{%TAN%Cube: %WHITE%3x Tir + %GRAY%Key %WHITE%= Nef.%NL%%TAN%All Sockets: %BLUE%+2 to MPK.}
+ItemDisplay[r04s]: %NAME%{%TAN%Cube: %WHITE%3x Nef + %GRAY%Key %WHITE%= Eth.%NL%%TAN%Armor/Helm/Shield: %BLUE%+30 Def Vs. Missile.%NL%%TAN%Weapon: %BLUE%Knockback.}
+ItemDisplay[r05s]: %NAME%{%TAN%Cube: %WHITE%3x Eth + %GRAY%Key %WHITE%= Ith.%NL%%TAN%Armor/Helm/Shield: %BLUE%Reg Mana 15%.%NL%%TAN%Weapon: %BLUE%-25% Target Def.}
+ItemDisplay[r06s]: %NAME%{%TAN%Cube: %WHITE%3x Ith + %GRAY%Key %WHITE%= Tal.%NL%%TAN%Armor/Helm/Shield: %BLUE%15% Dmg to Mana.%NL%%TAN%Weapon: %BLUE%+9 to Max Dmg.}
+ItemDisplay[r07s]: %NAME%{%TAN%Cube: %WHITE%3x Tal + %GRAY%Key %WHITE%= Ral.%NL%%TAN%Shield: %BLUE%Psn Res +35%.%NL%%TAN%Armor/Helm: %BLUE%Psn Res +30%.%NL%%TAN%Weapon: %BLUE%+75 Psn Dmg Over 5 Sec.}
+ItemDisplay[r08s]: %NAME%{%TAN%Cube: %WHITE%3x Ral + %GRAY%Key %WHITE%= Ort.%NL%%TAN%Shield: %BLUE%Fire Res +35%.%NL%%TAN%Armor/Helm: %BLUE%Fire Res +30%.%NL%%TAN%Weapon: %BLUE%+5-30 Fire Dmg.}
+ItemDisplay[r09s]: %NAME%{%TAN%Cube: %WHITE%3x Ort + %GRAY%Key %WHITE%= Thul.%NL%%TAN%Shield: %BLUE%Light Res +35%.%NL%%TAN%Armor/Helm: %BLUE%Light Res +30%.%NL%%TAN%Weapon: %BLUE%+1-50 Light Dmg.}
+ItemDisplay[r10s]: %NAME%{%TAN%Cube: %WHITE%3x Thul + %GRAY%Key %WHITE%= Amn.%NL%%TAN%Shield: %BLUE%Cold Res +35%.%NL%%TAN%Armor/Helm: %BLUE%Cold Res +30%.%NL%%TAN%Weapon: %BLUE%+3-14 Cold Dmg.}
+ItemDisplay[r11s]: %NAME%{%TAN%Cube: %WHITE%3x Amn + %GRAY%Key %WHITE%= Sol.%NL%%TAN%Armor/Helm/Shield: %BLUE%ATD +14.%NL%%TAN%Weapon: %BLUE%7% Life.}
+ItemDisplay[r12s]: %NAME%{%TAN%Cube: %WHITE%3x Sol + %GRAY%Key %WHITE%= Shael.%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR By 7.%NL%%TAN%Weapon: %BLUE%+9 to Min Dmg.}
+ItemDisplay[r13s]: %NAME%{%TAN%Cube: %WHITE%3x Shael + %GRAY%Key %WHITE%= Dol.%NL%%TAN%Shield: %BLUE%20% FBR.%NL%%TAN%Armor/Helm: %BLUE%20% FHR.%NL%%TAN%Weapon: %BLUE%20% IAS.}
+ItemDisplay[r14s]: %NAME%{%TAN%Cube: %WHITE%3x Dol + %GRAY%Key %WHITE%= Hel.%NL%%TAN%Armor/Helm/Shield: %BLUE%Rep Life +10.%NL%%TAN%Weapon: %BLUE%25% ED.}
+ItemDisplay[r15s]: %NAME%{%TAN%Cube: %WHITE%3x Hel + %GRAY%Key %WHITE%= Jo.%NL%%TAN%Armor/Helm/Shield: %BLUE%Req -15%.%NL%%TAN%Weapon: %BLUE%Req -20%.}
+ItemDisplay[r16s]: %NAME%{%TAN%Cube: %WHITE%3x Jo + %GRAY%Key %WHITE%= Lum.%NL%%TAN%All Sockets: %BLUE%+10 to Vit.}
+ItemDisplay[r17s]: %NAME%{%TAN%Cube: %WHITE%3x Lum + %GRAY%Key %WHITE%= Ko.%NL%%TAN%All Sockets: %BLUE%+10 to Ene.}
+ItemDisplay[r18s]: %NAME%{%TAN%Cube: %WHITE%3x Ko + %GRAY%Key %WHITE%= Fal.%NL%%TAN%All Sockets: %BLUE%+10 to Dex.}
+ItemDisplay[r19s]: %NAME%{%TAN%Cube: %WHITE%3x Fal + %GRAY%Key %WHITE%= Lem.%NL%%TAN%All Sockets: %BLUE%+10 to Str.}
+ItemDisplay[r20s]: %NAME%{%TAN%Cube: %WHITE%3x Lem + %GRAY%Key %WHITE%= Pul.%NL%%TAN%Armor/Helm/Shield: %BLUE%50% GF.%NL%%TAN%Weapon: %BLUE%75% GF.}
+ItemDisplay[r21s]: %NAME%{%TAN%Cube: %WHITE%2x Pul + %GRAY%Key %WHITE%= Um.%NL%%TAN%Armor/Helm/Shield: %BLUE%30% ED.%NL%%TAN%Weapon: %BLUE%+75% Dmg, +100 AR Vs. Dem.}
+ItemDisplay[r22s]: %NAME%{%TAN%Cube: %WHITE%2x Um + %GRAY%Key %WHITE%= Mal.%NL%%TAN%Shield: %BLUE%All Res +22%.%NL%%TAN%Armor/Helm: %BLUE%All Res +15%.%NL%%TAN%Weapon: %BLUE%25% OW.}
+ItemDisplay[r23s]: %NAME%{%TAN%Cube: %WHITE%2x Mal + %GRAY%Key %WHITE%= Ist.%NL%%TAN%Armor/Helm/Shield: %BLUE%MDR By 7.%NL%%TAN%Weapon: %BLUE%PMH.}
+ItemDisplay[r24s]: %NAME%{%TAN%Cube: %WHITE%2x Ist + %GRAY%Key %WHITE%= Gul.%NL%%TAN%Armor/Helm/Shield: %BLUE%25% MF.%NL%%TAN%Weapon: %BLUE%30% MF.}
+ItemDisplay[r25s]: %NAME%{%TAN%Cube: %WHITE%2x Gul + %GRAY%Key %WHITE%= Vex.%NL%%TAN%Armor/Helm/Shield: %BLUE%+4% to Max Psn Res.%NL%%TAN%Weapon: %BLUE%+20% to AR.}
+ItemDisplay[r26s]: %NAME%{%TAN%Cube: %WHITE%2x Vex + %GRAY%Key %WHITE%= Ohm.%NL%%TAN%Armor/Helm/Shield: %BLUE%+4% to Max Fire Res.%NL%%TAN%Weapon: %BLUE%7% Mana.}
+ItemDisplay[r27s]: %NAME%{%TAN%Cube: %WHITE%2x Ohm + %GRAY%Key %WHITE%= Lo.%NL%%TAN%Armor/Helm/Shield: %BLUE%+4% to Max Cold Res.%NL%%TAN%Weapon: %BLUE%50% ED.}
+ItemDisplay[r28s]: %NAME%{%TAN%Cube: %WHITE%2x Lo + %GRAY%Key %WHITE%= Sur.%NL%%TAN%Armor/Helm/Shield: %BLUE%+4% to Max Light Res.%NL%%TAN%Weapon: %BLUE%20% DS.}
+ItemDisplay[r29s]: %NAME%{%TAN%Cube: %WHITE%2x Sur + %GRAY%Key %WHITE%= Ber.%NL%%TAN%Shield: %BLUE%+50 to Mana.%NL%%TAN%Armor/Helm: %BLUE%Max Mana 5%.%NL%%TAN%Weapon: %BLUE%+4 LPK.}
+ItemDisplay[r30s]: %NAME%{%TAN%Cube: %WHITE%2x Ber + %GRAY%Key %WHITE%= Jah.%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR by 4%.%NL%%TAN%Weapon: %BLUE%20% CB.}
+ItemDisplay[r31s]: %NAME%{%TAN%Cube: %WHITE%2x Jah + %GRAY%Key %WHITE%= Cham.%NL%%TAN%Shield: %BLUE%+50 to Life.%NL%%TAN%Armor/Helm: %BLUE%Max Life 5%.%NL%%TAN%Weapon: %BLUE%ITD.}
+ItemDisplay[r32s]: %NAME%{%TAN%Cube: %WHITE%2x Cham + %GRAY%Key %WHITE%= Zod.%NL%%TAN%Armor/Helm/Shield: %BLUE%CBF.%NL%%TAN%Weapon: %BLUE%Freezes Target +3.}
+ItemDisplay[r33s]: %NAME%{%TAN%Cube: %WHITE%Zod + %ORANGE%P%WHITE%Skull %RED%Repair Any Item.%NL%%TAN%All Sockets: %BLUE%Indestructible.}
+ItemDisplay[RUNE>0]: %NAME%{%TAN%Cube: %WHITE%Stack Runes.%NL%}
 
 // Essences/Token
 ItemDisplay[tes]: %DOT-68%%BLUE%Andariel Essence %TAN%x%WHITE%%QTY%%BLUE%{%TAN%Andarial, Mephisto, Diablo, & Baal: %RED%to Make a Token.%NL%%TAN%Drops from Nm, & Hell: %RED%Andarial.}
