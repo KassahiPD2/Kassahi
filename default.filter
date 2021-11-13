@@ -1582,7 +1582,7 @@ ItemDisplay[imra]: %MAP-68%%GOLD%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cub
 ItemDisplay[rera]: %MAP-68%%GOLD%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9.%NL%%TAN%Reroll: %WHITE%Rare Maps.}
 ItemDisplay[scou]: %MAP-68%%GOLD%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune.%NL%%TAN%Imbue: %WHITE%Magic/Rare Maps to White.}
 ItemDisplay[upma]: %MAP-68%%GOLD%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%P%WHITE%Skull + %ORANGE%Rune>9.%NL%%TAN%Imbue: %WHITE%Magic Maps to Rare.}
-ItemDisplay[upmp]: %MAP-68%%GOLD%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%3x %PURPLE%Maps %BLUE%of The Same %GRAY%[%TAN%T%GRAY%] %WHITE%+ %GOLD%Orb.%NL%%TAN%Upgrade: %WHITE%Maps For a Higher %GRAY%[%TAN%T%GRAY%].}
+ItemDisplay[upmp]: %MAP-68%%GOLD%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%3x %PURPLE%Maps %WHITE%of The Same %GRAY%[%TAN%T%GRAY%] %WHITE%+ %GOLD%Orb.%NL%%TAN%Upgrade: %WHITE%Maps For a Higher %GRAY%[%TAN%T%GRAY%].}
 ItemDisplay[scrb]: %MAP-62%%RED%*   %ORANGE%Horadrim Lunch Meat   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%These Are Intended For Groups.%NL%%TAN%Cube: %GRAY%[%RED%T3%GRAY%] %PURPLE%Map %WHITE%+ %ORANGE%Horadrim Lunch Meat.%NL%%TAN%Upgrade: %GRAY%[%RED%T3%GRAY%] %WHITE%Map to a %GRAY%[%ORANGE%T4%GRAY%] %WHITE%Dungeon.}
 ItemDisplay[dcho]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Make %ORANGE%Visson of Terror.%NL%%TAN%Cube: %BLUE%Dclone Mats%NL%%TAN%Drops Hell: %RED%Uber Tristram Bosses.}
 ItemDisplay[dcso]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Make %ORANGE%Visson of Terror.%NL%%TAN%Cube: %BLUE%Dclone Mats%NL%%TAN%Drops Hell: %RED%Diablo/Baal.}
@@ -2715,7 +2715,7 @@ ItemDisplay[MAG IAS=15 jew]: %WHITE%15%ORANGE%Ias%NAME%%CONTINUE%
 ItemDisplay[(MAG OR RARE OR UNI) (cm1 OR cm2 OR cm3 OR jew) (STAT87>0 OR MFIND>0 OR STAT91>-0 OR MAEK>0 OR STAT86>0 OR GFIND>0 OR STAT85>0 OR RES>0 OR FRES>0 OR LRES>0 OR CRES>0 OR PRES>0 OR STAT1>0 OR STAT3>0 OR MANA>0 OR LIFE>0 OR STAT1>0 OR DEX>0 OR STR>0 OR STAT122>0 OR STAT121>0 OR AR>0 OR MAXDMG>0 OR MINDMG>0 OR FHR>0 OR FRW>0 OR STAT333>0 OR STAT334>0 OR STAT335>0 OR STAT336>0 OR STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR ED>0 OR IAS>0)]: %GRAY%[%NAME%%CONTINUE%
 
 // Magic Grand Charms High-Lvl
-ItemDisplay[MAG cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%TAN%3 %ORANGE%P%TAN%Gems: %RED%to Reroll.}
+ItemDisplay[MAG cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%TAN%Cube: %PURPLE%Charm %WHITE%+ 3x %ORANGE%P%WHITE%Gems.%NL%%TAN%Reroll: %WHITE%Charm Stats.}
 
 ItemDisplay[(MAG OR CRAFT OR RARE) FRW=10]: %TAN%+10%DARK_GREEN%Frw %NAME%%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE) FRW=20]: %TAN%+20%DARK_GREEN%Frw %NAME%%CONTINUE%
