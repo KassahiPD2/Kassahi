@@ -643,17 +643,6 @@ ItemDisplay[CRAFT WEAPON STAT62>2 STAT121>74 STAT122>74]: %GRAY%Vampiric %ORANGE
 ItemDisplay[CRAFT WEAPON ED>49 MFIND>19 STAT89>0]: %YELLOW%Bountiful %ORANGE%%NAME%%CONTINUE%
 
 // Names of Set Amulets
-ItemDisplay[SET amu DTM>19 STAT89>2]: %NAME% %GREEN%Angelic Wings%CONTINUE%
-ItemDisplay[SET amu MANA>34 STAT27>19]: %NAME% %GREEN%Arcanna's Sign%CONTINUE%
-ItemDisplay[SET amu FHR>9 STAT41>19 STAT238>0]: %NAME% %GREEN%Cathan's Sigil%CONTINUE%
-ItemDisplay[SET amu REPLIFE>9 STAT27>39]: %NAME% %GREEN%Civerb's Icon%CONTINUE%
-ItemDisplay[SET amu STAT45>29 STAT110>74]: %NAME% %GREEN%Iratha's Collar%CONTINUE%
-ItemDisplay[SET amu STAT34>2 STAT35>1]: %NAME% %GREEN%Tancred's Weird%CONTINUE%
-ItemDisplay[SET amu LIFE>14 CRES>19]: %NAME% %GREEN%Vidala's Snare%CONTINUE%
-ItemDisplay[SET amu ALLSK>0 STAT43>17 STAT45>34 STAT78>23]: %NAME% %GREEN%Telling of Beads%CONTINUE%
-ItemDisplay[SET amu CLSK1>1 LIFE>39 MANA>31 LRES>32]: %NAME% %GREEN%Tal Rasha's Adjudication%CONTINUE%
-
-// Names of Set Amulets
 ItemDisplay[SET ID amu DTM>19 STAT89>2]: %GRAY%%NAME% %GREEN%Angelic Wings%CONTINUE%
 ItemDisplay[SET ID amu MANA>34 STAT27>19]: %GRAY%%NAME% %GREEN%Arcanna's Sign%CONTINUE%
 ItemDisplay[SET ID amu FHR>9 STAT41>19 STAT238>0]: %GRAY%%NAME% %GREEN%Cathan's Sigil%CONTINUE%
