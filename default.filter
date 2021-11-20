@@ -1656,6 +1656,10 @@ ItemDisplay[NMAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR
 ItemDisplay[MAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%BLUE%
 ItemDisplay[RARE (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%TAN%Cube: %PURPLE%Dungeon %WHITE%+ 6x %ORANGE%P%WHITE%Skulls.%NL%%TAN%Reroll: %WHITE%Dungeon Stats.%NL%Area Level: 92}%YELLOW%
 
+// Duel Arenas
+ItemDisplay[NMAG t62]: %WHITE%Moor Duel Arena%CONTINUE%
+ItemDisplay[NMAG (t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%TAN%Right Click: %RED%Opens a Duel Arena.}%WHITE%
+
 // GG Magic
 ItemDisplay[MAG !ID ILVL>90 cm3]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME% %TAN%(%WHITE%91+%TAN%)   %PURPLE%*
 ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew)]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME%   %PURPLE%*
