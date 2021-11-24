@@ -1390,7 +1390,7 @@ ItemDisplay[ETH]: %WHITE%Eth %NAME%%CONTINUE%
 // Every ID'd Item
 ItemDisplay[ID (MAG OR RARE)]: %DARK_GREEN%*%NAME%%CONTINUE%
 
-// Every Socketed Item
+// Every Slammed Item
 ItemDisplay[STAT360>0]: %NAME%%RED%*%CONTINUE%
 
 // Every Socketed Item
