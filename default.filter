@@ -1413,15 +1413,7 @@ ItemDisplay[DIFF=1 ID PRICE>29999 (WEAPON OR ARMOR) (MAG OR CRAFT OR RARE OR NMA
 ItemDisplay[DIFF=2 ID PRICE>34999 (WEAPON OR ARMOR) (MAG OR CRAFT OR RARE OR NMAG) !RW]: %NAME% %GRAY%(%WHITE%35%GOLD%k%GRAY%)%CONTINUE%
 
 // Gold
-ItemDisplay[GOLD<40]:
-ItemDisplay[GOLD<75 CLVL>9]:
-ItemDisplay[GOLD<150 CLVL>19]:
-ItemDisplay[GOLD<250 CLVL>29]:
-ItemDisplay[GOLD<350 CLVL>39]:
-ItemDisplay[GOLD<500 CLVL>49]:
-ItemDisplay[GOLD<1000 CLVL>59]:
-ItemDisplay[GOLD<3000 CLVL>69]:
-ItemDisplay[GOLD<5000 CLVL>79]:
+ItemDisplay[GOLD<5000]:
 
 // Rejuv/Health/Mana/Antidote Potions/Tome/Scroll/Ear
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%
