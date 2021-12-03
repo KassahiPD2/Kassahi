@@ -1672,7 +1672,7 @@ ItemDisplay[NMAG (t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR
 ItemDisplay[NMAG (t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%WHITE%Without Result in Perma Death.%NL%%TAN%Note: %RED%HC %WHITE%Can PVP in Duel Arenas}%WHITE%
 
 // GG Magic
-ItemDisplay[MAG !ID ILVL>90 cm3]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME% %TAN%(%WHITE%91+%TAN%)   %PURPLE%*
+ItemDisplay[MAG !ID ILVL>90 cm3]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME%   %PURPLE%* %TAN%(%WHITE%91+%TAN%)
 ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew)]: %DOT-9B%%BORDER-97%%PURPLE%*   %NAME%   %PURPLE%*
 // Good Magic
 ItemDisplay[MAG !ID !ETH (amu OR CIRC)]: %MAP-97%%BLUE%*   %NAME%   %BLUE%*
@@ -5806,8 +5806,8 @@ ItemDisplay[NMAG SOCK=6 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAM
 // Rest of The Bases Are Hidden
 ItemDisplay[NMAG !RW (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
-ItemDisplay[NMAG !RW NORM CLVL>49]: {%NAME%}
-ItemDisplay[NMAG !RW EXC CLVL>79]: {%NAME%}
+ItemDisplay[NMAG !RW NORM CLVL>44]: {%NAME%}
+ItemDisplay[NMAG !RW EXC CLVL>74]: {%NAME%}
 ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>84)]: {%NAME%}
 
 // Crafted Amulets
