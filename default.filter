@@ -968,7 +968,7 @@ ItemDisplay[UNI ID umg STAT62>1 STAT60>1 ED>89]: %GRAY%%NAME% %GOLD%Soul Drainer
 ItemDisplay[UNI ID (tgl OR xtg OR utg) FCR>19 ED>19 STAT31>19 STAT27>9]: %GRAY%%NAME% %GOLD%Magefist%CONTINUE%
 ItemDisplay[UNI ID (xtg OR utg) IAS>19 ED>149 STAT40>1 STAT118>0]: %GRAY%%NAME% %GOLD%Lava Gout%CONTINUE%
 ItemDisplay[UNI ID (hgl OR xhg OR uhg) STAT335>3 STAT333>3 ED>9 STAT31>19 STAT77>9]: %GRAY%%NAME% %GOLD%Frostburn%CONTINUE%
-ItemDisplay[UNI ID (xhg OR uhg) STAT333>4 ED>149 STAT143>4 STAT78>199]: %GRAY%%NAME% %GOLD%Hellmouth%CONTINUE%
+ItemDisplay[UNI ID (xhg OR uhg) STAT333>4 ED>149 STAT78>199]: %GRAY%%NAME% %GOLD%Hellmouth%CONTINUE%
 ItemDisplay[UNI ID uhg STAT136>9 STAT31>169 STR>14]: %GRAY%%NAME% %GOLD%Steelrend%CONTINUE%
 
 // Names of Unique Boots
