@@ -1598,7 +1598,7 @@ ItemDisplay[NMAG t13]: %WHITE%Bastion Keep%CONTINUE%
 ItemDisplay[MAG t13]: %BLUE%Bastion Keep%CONTINUE%
 ItemDisplay[RARE t13]: %YELLOW%Bastion Keep%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %MAP-80%%GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% Map %DARK_GREEN%*%CONTINUE%
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%RED%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 87}%WHITE%
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%BLUE%Talk to Anya.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 87}%WHITE%
 ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 87}%BLUE%
 ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 87}%YELLOW%
 
@@ -1619,7 +1619,7 @@ ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath%CONTINUE%
 ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath%CONTINUE%
 ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %MAP-80%%GRAY%[%PURPLE%T2%GRAY%] %NAME% Map %PURPLE%*%CONTINUE%
-ItemDisplay[NMAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%RED%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 88}%WHITE%
+ItemDisplay[NMAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%BLUE%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 88}%WHITE%
 ItemDisplay[MAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 88}%BLUE%
 ItemDisplay[RARE (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 88}%YELLOW%
 
@@ -1652,7 +1652,7 @@ ItemDisplay[NMAG t39]: %WHITE%Kehjistan Marketplace%CONTINUE%
 ItemDisplay[MAG t39]: %BLUE%Kehjistan Marketplace%CONTINUE%
 ItemDisplay[RARE t39]: %YELLOW%Kehjistan Marketplace%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %MAP-80%%GRAY%[%RED%T3%GRAY%] %NAME% Map %RED%*%CONTINUE%
-ItemDisplay[NMAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%RED%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 89}%WHITE%
+ItemDisplay[NMAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%BLUE%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 89}%WHITE%
 ItemDisplay[MAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 89}%BLUE%
 ItemDisplay[RARE (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9.%NL%%TAN%Note: %RED%Hell Ancients %WHITE%Required.%NL%Area Level: 89}%YELLOW%
 
