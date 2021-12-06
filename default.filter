@@ -1317,7 +1317,7 @@ ItemDisplay[RW CHEST SOCK=4 ALLSK>1]: %NAME% %TAN%Chains of Honor%CONTINUE%
 // Names of Runeword Shields
 ItemDisplay[RW SHIELD SOCK=2 STAT153>0]: %NAME% %TAN%Rhyme%CONTINUE%
 ItemDisplay[RW SHIELD SOCK=2 ALLSK>0]: %NAME% %TAN%Splendor%CONTINUE%
-ItemDisplay[RW SHIELD SOCK=3 DTM>9]: %NAME% %TAN%Ancients' Pledge%CONTINUE%
+ItemDisplay[RW SHIELD SOCK=3 DTM>9]: %NAME% %TAN%Ancient's Pledge%CONTINUE%
 ItemDisplay[RW SHIELD SOCK=3 DEX>19]: %NAME% %TAN%Sanctuary%CONTINUE%
 ItemDisplay[RW SHIELD SOCK=3 STAT32>229]: %NAME% %TAN%Dragon%CONTINUE%
 ItemDisplay[RW SHIELD SOCK=3 FHR>19]: %NAME% %TAN%Dream%CONTINUE%
@@ -5497,27 +5497,27 @@ ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 ILVL<41 ILVL>25 ame]: %NAME%{%TAN%World
 ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 ILVL>40 ame]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
 
 // Runewords For Helms
-ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir, Lore.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream, Ferocity.%NL%Radiance, Delirium,}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir: %ORANGE%Nef Tir. %WHITE%| %TAN%Lore: %ORANGE%Ort Sol.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream: %ORANGE%Io Jah Pul. %WHITE%| %TAN%Ferocity: %ORANGE%Zod Cham Shael.%NL%%TAN%Radiance: %ORANGE%Nef Sol Ith. %WHITE%| %TAN%Delirium: %ORANGE%Lem Ist Io.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Armors
-ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Stealth, Smoke, Prudence.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Duress, Rain, Dragon, Enigma.%NL%Enlightenment, Bone, Gloom,%NL%Wealth, Treachery, Principle,%NL%Myth, Peace, Lionheart,}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble, Chains of Honor.%NL%Fortitude, Stone,}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Prudence: %ORANGE%Mal Tir.%NL%%TAN%Stealth: %ORANGE%Tal Eth. %WHITE%| %TAN%Smoke: %ORANGE%Nef Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma: %ORANGE%Jah Ith Ber.%NL%%TAN%Rain: %ORANGE%Ort Mal Ith. %WHITE%| %TAN%Dragon: %ORANGE%Sur Lo Sol.%NL%%TAN%Gloom: %ORANGE%Fal Um Pul. %WHITE%| %TAN%Duress: %ORANGE%Shael Um Thul.%NL%%TAN%Enlightenment: %ORANGE%Pul Ral Sol. %WHITE%| %TAN%Bone: %ORANGE%Sol Um Um.%NL%%TAN%Treachery: %ORANGE%Shael Thul Lem. %WHITE%| %TAN%Principle: %ORANGE%Ral Gul Eld.%NL%%TAN%Lionheart: %ORANGE%Hel Lum Fal. %WHITE%| %TAN%Wealth: %ORANGE%Lem Ko Tir.%NL%%TAN%Myth: %ORANGE%Hel Amn Nef. %WHITE%| %TAN%Peace: %ORANGE%Shael Thul Amn.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble: %ORANGE%Ral Ohm Sur Eth. %WHITE%| %TAN%Chains of Honor: %ORANGE%Dol Um Ber Ist.%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo. %WHITE%| %TAN%Stone: %ORANGE%Shael Um Pul Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Shields
-ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme, Splendor.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon, Dream.%NL%Ancients Pledge, Sanctuary,}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Spirit, Phoenix, Exile.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme: %ORANGE%Shael Eth. %WHITE%| %TAN%Splendor: %ORANGE%Eth Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon: %ORANGE%Sur Lo Sol. %WHITE%| %TAN%Dream: %ORANGE%Io Jah Pul.%NL%%TAN%Ancient's Pledge: %ORANGE%Ral Ort Tal. %WHITE%| %TAN%Sanctuary: %ORANGE%Ko Ko Mal.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah.%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn. %WHITE%| %TAN%Exile: %ORANGE%Vex Ohm Ist Dol.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Weapons
-ItemDisplay[NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Steel, Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, Crescent Moon,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Phoenix, Hand of Justice.%NL%Kingslayer, Fortitude, Famine,%NL%Passion, Oath,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Grief, Eternity, Beast, Doom.%NL%Honor, Death, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying.%NL%Silence, Last Wish,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (9sp OR 7sp) !RW]: %NAME%{%TAN%Fury, Plague.%NL%Malice, Black, Venom,%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El.%NL%%TAN%Steel: %ORANGE%Tir El. %WHITE%| %TAN%Strength: %ORANGE%Amn Tir.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um.%NL%%TAN%Venom: %ORANGE%Tal Dol Mal. %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth.%NL%%TAN%Malice: %ORANGE%Ith El Eth. %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo.%NL%%TAN%Famine: %ORANGE%Fal Ohm Ort Jah. %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah.%NL%%TAN%Kingslayer: %ORANGE%Mal Um Gul Fal. %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo.%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem. %WHITE%| %TAN%Oath: %ORANGE%Shael Pul Mal Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham.%NL%%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur. %WHITE%| %TAN%Beast: %ORANGE%Ber Tir Um Mal Lum.%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm. %WHITE%| %TAN%Grief: %ORANGE%Eth Tir Lo Mal Ral.%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol. %WHITE%| %TAN%Death: %ORANGE%Hel El Vex Ort Gul.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth.%NL%%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex. %WHITE%| %TAN%Last Wish: %ORANGE%Jah Mal Jah Sur Jah Ber.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir. %WHITE%| %TAN%Wind: %ORANGE%Sur El.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (9sp OR 7sp) !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um.%NL%%TAN%Venom: %ORANGE%Tal Dol Mal. %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth.%NL%%TAN%Malice: %ORANGE%Ith El Eth. %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Steel, Strength, Wind.%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury, Plague.%NL%Malice, Black, Venom,%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Phoenix, Hand of Justice.%NL%Heart of the Oak, Fortitude,%NL%Voice of Reason, Passion, Oath,%NL%%NAME%}%CONTINUE%
@@ -5782,9 +5782,9 @@ ItemDisplay[NMAG SOCK=4 !INF !RW (wsp OR 9ws OR 7ws)]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW (wsp OR 9ws OR 7ws)]: %NAME%{%NAME%}
 
 // Claw Runeword Bases
-ItemDisplay[NMAG SOCK=0 !INF !RW (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275=3 OR SK280=3)]: %DOT-20%%PX-00%%NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=2 !INF !RW !ETH (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275=3 OR SK280=3)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=3 !INF !RW (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275=3 OR SK280=3)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=0 !INF !RW (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275>0 OR SK280=3)]: %DOT-20%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=2 !INF !RW !ETH (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275>0 OR SK280=3)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=3 !INF !RW (7ar OR 7xf OR 7qr) (SK252=3 OR SK255=3 OR SK257=3 OR SK260=3 OR SK265=3 OR SK266=3 OR SK270=3 OR SK275>0 OR SK280=3)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=0 !INF !RW (clw OR btl OR skr OR 9ar OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr) (SK261=3 OR SK262=3 OR SK265=3 OR SK270=3 OR SK271=3 OR SK272=3 OR SK276=3 OR SK277=3 OR SK278=3 OR SK280=3 OR SK366=3)]: %DOT-20%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=3 !INF !RW (clw OR btl OR skr OR 9ar OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr) (SK261=3 OR SK262=3 OR SK265=3 OR SK270=3 OR SK271=3 OR SK272=3 OR SK276=3 OR SK277=3 OR SK278=3 OR SK280=3 OR SK366=3)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 
