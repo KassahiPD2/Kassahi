@@ -1413,7 +1413,7 @@ ItemDisplay[DIFF=1 ID PRICE>29999 (WEAPON OR ARMOR) (MAG OR CRAFT OR RARE OR NMA
 ItemDisplay[DIFF=2 ID PRICE>34999 (WEAPON OR ARMOR) (MAG OR CRAFT OR RARE OR NMAG) !RW]: %NAME% %GRAY%(%WHITE%35%GOLD%k%GRAY%)%CONTINUE%
 
 // Gold
-ItemDisplay[GOLD<5000]:
+ItemDisplay[GOLD<9999]:
 
 // Rejuv/Health/Mana/Antidote Potions/Tome/Scroll/Ear
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%
@@ -5497,85 +5497,85 @@ ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 ILVL<41 ILVL>25 ame]: %NAME%{%TAN%World
 ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 ILVL>40 ame]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
 
 // Runewords For Helms
-ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir: %ORANGE%Nef Tir. %WHITE%| %TAN%Lore: %ORANGE%Ort Sol.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream: %ORANGE%Io Jah Pul. %WHITE%| %TAN%Ferocity: %ORANGE%Zod Cham Shael.%NL%%TAN%Radiance: %ORANGE%Nef Sol Ith. %WHITE%| %TAN%Delirium: %ORANGE%Lem Ist Io.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir: %ORANGE%Nef Tir %WHITE%| %TAN%Lore: %ORANGE%Ort Sol%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream: %ORANGE%Io Jah Pul %WHITE%| %TAN%Ferocity: %ORANGE%Zod Cham Shael%NL%%TAN%Radiance: %ORANGE%Nef Sol Ith %WHITE%| %TAN%Delirium: %ORANGE%Lem Ist Io%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Armors
-ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Prudence: %ORANGE%Mal Tir.%NL%%TAN%Stealth: %ORANGE%Tal Eth. %WHITE%| %TAN%Smoke: %ORANGE%Nef Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma: %ORANGE%Jah Ith Ber.%NL%%TAN%Rain: %ORANGE%Ort Mal Ith. %WHITE%| %TAN%Dragon: %ORANGE%Sur Lo Sol.%NL%%TAN%Gloom: %ORANGE%Fal Um Pul. %WHITE%| %TAN%Duress: %ORANGE%Shael Um Thul.%NL%%TAN%Enlightenment: %ORANGE%Pul Ral Sol. %WHITE%| %TAN%Bone: %ORANGE%Sol Um Um.%NL%%TAN%Treachery: %ORANGE%Shael Thul Lem. %WHITE%| %TAN%Principle: %ORANGE%Ral Gul Eld.%NL%%TAN%Lionheart: %ORANGE%Hel Lum Fal. %WHITE%| %TAN%Wealth: %ORANGE%Lem Ko Tir.%NL%%TAN%Myth: %ORANGE%Hel Amn Nef. %WHITE%| %TAN%Peace: %ORANGE%Shael Thul Amn.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble: %ORANGE%Ral Ohm Sur Eth. %WHITE%| %TAN%Chains of Honor: %ORANGE%Dol Um Ber Ist.%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo. %WHITE%| %TAN%Stone: %ORANGE%Shael Um Pul Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Prudence: %ORANGE%Mal Tir%NL%%TAN%Stealth: %ORANGE%Tal Eth %WHITE%| %TAN%Smoke: %ORANGE%Nef Lum%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma: %ORANGE%Jah Ith Ber%NL%%TAN%Rain: %ORANGE%Ort Mal Ith %WHITE%| %TAN%Dragon: %ORANGE%Sur Lo Sol%NL%%TAN%Gloom: %ORANGE%Fal Um Pul %WHITE%| %TAN%Duress: %ORANGE%Shael Um Thul%NL%%TAN%Enlightenment: %ORANGE%Pul Ral Sol %WHITE%| %TAN%Bone: %ORANGE%Sol Um Um%NL%%TAN%Treachery: %ORANGE%Shael Thul Lem %WHITE%| %TAN%Principle: %ORANGE%Ral Gul Eld%NL%%TAN%Lionheart: %ORANGE%Hel Lum Fal %WHITE%| %TAN%Wealth: %ORANGE%Lem Ko Tir%NL%%TAN%Myth: %ORANGE%Hel Amn Nef %WHITE%| %TAN%Peace: %ORANGE%Shael Thul Amn%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble: %ORANGE%Ral Ohm Sur Eth %WHITE%| %TAN%Chains of Honor: %ORANGE%Dol Um Ber Ist%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo %WHITE%| %TAN%Stone: %ORANGE%Shael Um Pul Lum%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Shields
-ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme: %ORANGE%Shael Eth. %WHITE%| %TAN%Splendor: %ORANGE%Eth Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon: %ORANGE%Sur Lo Sol. %WHITE%| %TAN%Dream: %ORANGE%Io Jah Pul.%NL%%TAN%Ancient's Pledge: %ORANGE%Ral Ort Tal. %WHITE%| %TAN%Sanctuary: %ORANGE%Ko Ko Mal.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah.%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn. %WHITE%| %TAN%Exile: %ORANGE%Vex Ohm Ist Dol.%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme: %ORANGE%Shael Eth %WHITE%| %TAN%Splendor: %ORANGE%Eth Lum%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon: %ORANGE%Sur Lo Sol %WHITE%| %TAN%Dream: %ORANGE%Io Jah Pul%NL%%TAN%Ancient's Pledge: %ORANGE%Ral Ort Tal %WHITE%| %TAN%Sanctuary: %ORANGE%Ko Ko Mal%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn %WHITE%| %TAN%Exile: %ORANGE%Vex Ohm Ist Dol%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
 
 // Runewords For Weapons
-ItemDisplay[NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El.%NL%%TAN%Steel: %ORANGE%Tir El. %WHITE%| %TAN%Strength: %ORANGE%Amn Tir.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um.%NL%%TAN%Venom: %ORANGE%Tal Dol Mal. %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth.%NL%%TAN%Malice: %ORANGE%Ith El Eth. %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo.%NL%%TAN%Famine: %ORANGE%Fal Ohm Ort Jah. %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah.%NL%%TAN%Kingslayer: %ORANGE%Mal Um Gul Fal. %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo.%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem. %WHITE%| %TAN%Oath: %ORANGE%Shael Pul Mal Lum.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham.%NL%%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur. %WHITE%| %TAN%Beast: %ORANGE%Ber Tir Um Mal Lum.%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm. %WHITE%| %TAN%Grief: %ORANGE%Eth Tir Lo Mal Ral.%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol. %WHITE%| %TAN%Death: %ORANGE%Hel El Vex Ort Gul.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth.%NL%%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex. %WHITE%| %TAN%Last Wish: %ORANGE%Jah Mal Jah Sur Jah Ber.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir. %WHITE%| %TAN%Wind: %ORANGE%Sur El.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (9sp OR 7sp) !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um.%NL%%TAN%Venom: %ORANGE%Tal Dol Mal. %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth.%NL%%TAN%Malice: %ORANGE%Ith El Eth. %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef.%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Steel, Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury, Plague.%NL%Malice, Black, Venom,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Phoenix, Hand of Justice.%NL%Heart of the Oak, Fortitude,%NL%Voice of Reason, Passion, Oath,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Honor, Call to Arms, Eternity.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, Black, Lawbringer,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Phoenix, Hand of Justice.%NL%Passion, Fortitude, Famine,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Eternity, Beast, Doom.%NL%Honor, Obedience, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Breath of the Dying.%NL%Silence, Last Wish,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SWORD !RW]: %NAME%{%TAN%Steel, Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SWORD !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Lawbringer, Crescent Moon,%NL%Malice, King's Grace,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SWORD !RW]: %NAME%{%TAN%Famine, Phoenix, Hand of Justice.%NL%Oath, Kingslayer, Fortitude,%NL%Spirit, Voice of Reason, Passion,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SWORD !RW]: %NAME%{%TAN%Grief, Eternity, Destruction, Doom.%NL%Honor, Death, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SWORD !RW]: %NAME%{%TAN%Breath of the Dying.%NL%Silence, Last Wish,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 DAGGER !THROWING !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 DAGGER !THROWING !RW]: %NAME%{%TAN%Fury, Plague.%NL%Malice, Venom,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 POLEARM !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 POLEARM !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, Crescent Moon,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 POLEARM !RW]: %NAME%{%TAN%Phoenix, Hand of Justice, Pride%NL%Rift, Fortitude, Infinity,%NL%Insight, Passion,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 POLEARM !RW]: %NAME%{%TAN%Eternity, Destruction, Doom.%NL%Honor, Obedience, Call to Arms%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 POLEARM !RW]: %NAME%{%TAN%Silence, Breath of the Dying.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, Crescent Moon,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Phoenix, Hand of Justice, Pride.%NL%Rift, Fortitude, Infinity,%NL%Insight, Passion,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Eternity, Destruction, Doom.%NL%Honor, Obedience, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Silence, Breath of the Dying.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 BOW !ZON !RW]: %NAME%{%TAN%Zephyr.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 BOW !ZON !RW]: %NAME%{%TAN%Venom, Plague.%NL%Edge, Melody, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 BOW !ZON !RW]: %NAME%{%TAN%Faith, Brand, Phoenix, Hand of Justice.%NL%Passion, Fortitude, Wrath, Ice,%NL%Harmony, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 BOW !ZON !RW]: %NAME%{%TAN%Call to Arms.}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 BOW !ZON !RW]: %NAME%{%TAN%Silence, Breath of the Dying.}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 XBOW !RW]: %NAME%{%TAN%Zephyr.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 XBOW !RW]: %NAME%{%TAN%Venom, Plague.%NL%Edge, Melody, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 XBOW !RW]: %NAME%{%TAN%Faith, Brand, Phoenix, Hand of Justice.%NL%Passion, Fortitude, Wrath, Ice,%NL%Harmony, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 XBOW !RW]: %NAME%{%TAN%Call to Arms.}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 XBOW !RW]: %NAME%{%TAN%Silence, Breath of the Dying.}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 STAFF !RW]: %NAME%{%TAN%Leaf, Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury, Plague.%NL%Malice, Venom,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 STAFF !RW]: %NAME%{%TAN%Infinity, Phoenix, Hand of Justice.%NL%Heart of the Oak, Fortitude,%NL%Spirit, Insight, Memory, Passion,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 STAFF !RW]: %NAME%{%TAN%Eternity, Doom.%NL%Honor, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%TAN%Silence, Breath of the Dying.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Unending Will.%NL%Strength, White,}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, King's Grace, Lawbringer,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Fortitude, Phoenix, Hand of Justice.%NL%Holy Thunder, Passion, Rift, Insight,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity, Beast.%NL%Honor, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Steel, Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Venom, Chaos, Fury, Plague.%NL%Black, Lawbringer, Crescent Moon,%NL%Malice, Pattern, King's Grace,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SOR !RW]: %NAME%{%TAN%Venom, Plague.}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 ZON BOW !RW]: %NAME%{%TAN%Zephyr.}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 ZON BOW !RW]: %NAME%{%TAN%Venom, Plague.%NL%Edge, Melody, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 ZON BOW !RW]: %NAME%{%TAN%Faith, Brand, Phoenix, Hand of Justice.%NL%Passion, Fortitude, Wrath, Ice,%NL%Harmony, Voice of Reason,}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 ZON BOW !RW]: %NAME%{%TAN%Call to Arms, Zenith.}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Strength, Wind.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Venom, Fury, Plague.%NL%Malice, Crescent Moon,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Phoenix, Hand of Justice, Pride.%NL%Rift, Fortitude, Infinity,%NL%Insight, Passion,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Eternity, Destruction, Doom.%NL%Honor, Obedience, Call to Arms,%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Silence, Breath of the Dying.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El%NL%%TAN%Steel: %ORANGE%Tir El %WHITE%| %TAN%Strength: %ORANGE%Amn Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Famine: %ORANGE%Fal Ohm Ort Jah %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Kingslayer: %ORANGE%Mal Um Gul Fal %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Oath: %ORANGE%Shael Pul Mal Lum%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur %WHITE%| %TAN%Beast: %ORANGE%Ber Tir Um Mal Lum%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Grief: %ORANGE%Eth Tir Lo Mal Ral%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Death: %ORANGE%Hel El Vex Ort Gul%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Last Wish: %ORANGE%Jah Mal Jah Sur Jah Ber%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (9sp OR 7sp) !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El%NL%%TAN%Steel: %ORANGE%Tir El %WHITE%| %TAN%Strength: %ORANGE%Amn Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Oath: %ORANGE%Shael Pul Mal Lum %WHITE%| %TAN%Heart of the Oak: %ORANGE%Ko Vex Pul Thul%NL%%TAN%Voice of Reason: %ORANGE%Lem Ko El Eld %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Fury: %ORANGE%Jah Gul Eth %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Lawbringer: %ORANGE%Amn Lem Ko %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Famine: %ORANGE%Fal Ohm Ort Jah %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Beast: %ORANGE%Ber Tir Um Mal Lum %WHITE%| %TAN%Doom %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Obedience %ORANGE%Hel Ko Thul Eth Fal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Last Wish: %ORANGE%Jah Mal Jah Sur Jah Ber%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SWORD !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El%NL%%TAN%Steel: %ORANGE%Tir El %WHITE%| %TAN%Strength: %ORANGE%Amn Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SWORD !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Lawbringer: %ORANGE%Amn Lem Ko %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%King's Grace %ORANGE%Amn Ral Thul%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SWORD !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Famine: %ORANGE%Fal Ohm Ort Jah %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Kingslayer: %ORANGE%Mal Um Gul Fal %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Oath: %ORANGE%Shael Pul Mal Lum%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn %WHITE%| %TAN%Voice of Reason: %ORANGE%Lem Ko El Eld%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 SWORD !RW]: %NAME%{%TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur %WHITE%| %TAN%Destruction: %ORANGE%Vex Lo Ber Jah Ko%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Grief: %ORANGE%Eth Tir Lo Mal Ral%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Death: %ORANGE%Hel El Vex Ort Gul%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 SWORD !RW]: %NAME%{%TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Last Wish: %ORANGE%Jah Mal Jah Sur Jah Ber%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 DAGGER !THROWING !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 DAGGER !THROWING !RW]: %NAME%{%TAN%Fury: %ORANGE%Jah Gul Eth %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 POLEARM !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 POLEARM !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 POLEARM !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo %WHITE%| %TAN%Pride: %ORANGE%Cham Sur Io Lo%NL%%TAN%Infinity: %ORANGE%Ber Mal Ber Ist %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Rift: %ORANGE%Hel Ko Lem Gul %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Insight: %ORANGE%Ral Tir Tal Sol %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 POLEARM !RW]: %NAME%{%TAN%Destruction: %ORANGE%Vex Lo Ber Jah Ko %WHITE%| %TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Obedience %ORANGE%Hel Ko Thul Eth Fal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 POLEARM !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo %WHITE%| %TAN%Pride: %ORANGE%Cham Sur Io Lo%NL%%TAN%Infinity: %ORANGE%Ber Mal Ber Ist %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Rift: %ORANGE%Hel Ko Lem Gul %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%Insight: %ORANGE%Ral Tir Tal Sol %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Destruction: %ORANGE%Vex Lo Ber Jah Ko %WHITE%| %TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Obedience %ORANGE%Hel Ko Thul Eth Fal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 BOW !ZON !RW]: %NAME%{%TAN%Zephyr: %ORANGE%Ort Eth%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 BOW !ZON !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Voice of Reason: %ORANGE%Lem Ko El Eld %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Edge: %ORANGE%Tir Tal Amn %WHITE%| %TAN%Melody: %ORANGE%Shael Ko Nef%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 BOW !ZON !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah %WHITE%| %TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Faith: %ORANGE%Ohm Jah Lem Eld %WHITE%| %TAN%Brand: %ORANGE%Jah Lo Mal Gul%NL%%TAN%Wrath: %ORANGE%Pul Lum Ber Mal %WHITE%| %TAN%Ice: %ORANGE%Amn Shael Jah Lo%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Harmony: %ORANGE%Tir Ith Sol Ko %WHITE%| %TAN%Voice of Reason: %ORANGE%Lem Ko El Eld%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 BOW !ZON !RW]: %NAME%{%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 BOW !ZON !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 XBOW !RW]: %NAME%{%TAN%Zephyr: %ORANGE%Ort Eth%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 XBOW !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Voice of Reason: %ORANGE%Lem Ko El Eld %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Edge: %ORANGE%Tir Tal Amn %WHITE%| %TAN%Melody: %ORANGE%Shael Ko Nef%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 XBOW !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah %WHITE%| %TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Faith: %ORANGE%Ohm Jah Lem Eld %WHITE%| %TAN%Brand: %ORANGE%Jah Lo Mal Gul%NL%%TAN%Wrath: %ORANGE%Pul Lum Ber Mal %WHITE%| %TAN%Ice: %ORANGE%Amn Shael Jah Lo%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Harmony: %ORANGE%Tir Ith Sol Ko %WHITE%| %TAN%Voice of Reason: %ORANGE%Lem Ko El Eld%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 XBOW !RW]: %NAME%{%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 XBOW !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 STAFF !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El%NL%%TAN%Leaf: %ORANGE%Tir Ral %WHITE%| %TAN%Strength: %ORANGE%Amn Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury: %ORANGE%Jah Gul Eth %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 STAFF !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Infinity: %ORANGE%Ber Mal Ber Ist %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Heart of the Oak: %ORANGE%Ko Vex Pul Thul %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Memory: %ORANGE%Lum Io Sol Eth %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Spirit: %ORANGE%Tal Thul Ort Amn %WHITE%| %TAN%Insight: %ORANGE%Ral Tir Tal Sol%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 STAFF !RW]: %NAME%{%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur %WHITE%| %TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Unending Will: %ORANGE%Cham Ohm%NL%%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%White: %ORANGE%Dol Io%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury: %ORANGE%Jah Gul Eth %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Lawbringer: %ORANGE%Amn Lem Ko %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%King's Grace %ORANGE%Amn Ral Thul%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Fortitude: %ORANGE%El Sol Dol Lo %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Rift: %ORANGE%Hel Ko Lem Gul %WHITE%| %TAN%Insight: %ORANGE%Ral Tir Tal Sol%NL%%TAN%Holy Thunder: %ORANGE%Eth Ral Ort Tal %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur %WHITE%| %TAN%Beast: %ORANGE%Ber Tir Um Mal Lum%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Wind: %ORANGE%Sur El%NL%%TAN%Steel: %ORANGE%Tir El %WHITE%| %TAN%Strength: %ORANGE%Amn Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury: %ORANGE%Jah Gul Eth %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Chaos: %ORANGE%Fal Ohm Um%NL%%TAN%Lawbringer: %ORANGE%Amn Lem Ko %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%King's Grace %ORANGE%Amn Ral Thul %WHITE%| %TAN%Black: %ORANGE%Thul Io Nef%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Pattern: %ORANGE%Tal Ort Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SOR !RW]: %NAME%{%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 ZON BOW !RW]: %NAME%{%TAN%Zephyr: %ORANGE%Ort Eth%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 ZON BOW !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Voice of Reason: %ORANGE%Lem Ko El Eld %WHITE%| %TAN%Venom: %ORANGE%Tal Dol Mal%NL%%TAN%Edge: %ORANGE%Tir Tal Amn %WHITE%| %TAN%Melody: %ORANGE%Shael Ko Nef%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 ZON BOW !RW]: %NAME%{%TAN%Phoenix: %ORANGE%Vex Vex Lo Jah %WHITE%| %TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo%NL%%TAN%Faith: %ORANGE%Ohm Jah Lem Eld %WHITE%| %TAN%Brand: %ORANGE%Jah Lo Mal Gul%NL%%TAN%Wrath: %ORANGE%Pul Lum Ber Mal %WHITE%| %TAN%Ice: %ORANGE%Amn Shael Jah Lo%NL%%TAN%Passion: %ORANGE%Dol Ort Eld Lem %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Harmony: %ORANGE%Tir Ith Sol Ko %WHITE%| %TAN%Voice of Reason: %ORANGE%Lem Ko El Eld%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 ZON BOW !RW]: %NAME%{%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Zenith: %ORANGE%Jah Zod Ort Thul Ral%NL%%TAN%Note: %WHITE%Possible Runewords.}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Strength: %ORANGE%Amn Tir %WHITE%| %TAN%Wind: %ORANGE%Sur El%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Plague: %ORANGE%Cham Fal Um%NL%%TAN%Venom: %ORANGE%Tal Dol Mal %WHITE%| %TAN%Fury: %ORANGE%Jah Gul Eth%NL%%TAN%Malice: %ORANGE%Ith El Eth %WHITE%| %TAN%Crescent Moon: %ORANGE%Shael Um Tir%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Hand of Justice: %ORANGE%Sur Cham Amn Lo %WHITE%| %TAN%Pride: %ORANGE%Cham Sur Io Lo%NL%%TAN%Infinity: %ORANGE%Ber Mal Ber Ist %WHITE%| %TAN%Phoenix: %ORANGE%Vex Vex Lo Jah%NL%%TAN%Rift: %ORANGE%Hel Ko Lem Gul %WHITE%| %TAN%Fortitude: %ORANGE%El Sol Dol Lo%NL%%TAN%Insight: %ORANGE%Ral Tir Tal Sol %WHITE%| %TAN%Passion: %ORANGE%Dol Ort Eld Lem%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Destruction: %ORANGE%Vex Lo Ber Jah Ko %WHITE%| %TAN%Doom: %ORANGE%Hel Ohm Um Lo Cham%NL%%TAN%Call to Arms: %ORANGE%Amn Ral Mal Ist Ohm %WHITE%| %TAN%Eternity: %ORANGE%Amn Ber Ist Sol Sur%NL%%TAN%Honor: %ORANGE%Amn El Ith Tir Sol %WHITE%| %TAN%Obedience %ORANGE%Hel Ko Thul Eth Fal%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Silence: %ORANGE%Dol Eld Hel Ist Tir Vex %WHITE%| %TAN%Breath of the Dying: %ORANGE%Vex Hel El Eld Zod Eth%NL%%TAN%Note: %WHITE%Possible Runewords.%NL%%NAME%}%CONTINUE%
 
 // Circlets Bases For Imbue Quest
 ItemDisplay[NMAG SOCK=0 !ETH ci3]: %DOT-20%%NAME% %TAN%(%GRAY%Imbue%TAN%)%WHITE%{%TAN%Charsi Quest: %WHITE%Can %YELLOW%Imbue %WHITE%an Item.%NL%%NAME%}
@@ -7730,21 +7730,21 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7mp]: %NAME%{%PURPLE%Wss: %TAN%Chance 
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) wax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9wa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7wa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) lax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9la]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7la]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) bax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9ba]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7ba]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) btx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9bt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7bt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) gax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9ga]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7ga]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) gix]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9gi]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7gi]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) lax]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Military Axe For %WHITE%5s %TAN%Chance.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9la]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7la]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) bax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9ba]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7ba]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) btx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9bt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7bt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) gax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9ga]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7ga]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) gix]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 9gi]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 7gi]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Clubs
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) clb]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Cudgel For %WHITE%3s %TAN%Chance.%NL%%NAME%}
@@ -7778,17 +7778,17 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9wh]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7wh]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7wh]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 mau]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 mau]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 mau]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9m9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9m9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9m9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7m7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7m7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7m7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 gma]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 gma]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 gma]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7gm]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Swords
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ssd]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Gladius For %WHITE%3s %TAN%Chance.%NL%%NAME%}
@@ -7849,17 +7849,17 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9b9]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7b7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7b7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 flb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 flb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 flb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7fb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 gsd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 gsd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 gsd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7gd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Daggers
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) dgr]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Poignard For %WHITE%2s %TAN%Chance.%NL%%NAME%}
@@ -7889,25 +7889,25 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9tr]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7tr]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7tr]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 brn]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 brn]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 brn]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7br]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 spt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 spt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 spt]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 9st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 9st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 9st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 7st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 7st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 7st]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[UNI 9st]: %NAME%{%TAN%Auto Rolls: %WHITE%3s.%NL%%NAME%}
 ItemDisplay[UNI 7st]: %NAME%{%TAN%Auto Rolls: %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 pik]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 pik]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 pik]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9p9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9p9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9p9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7p7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7p7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7p7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Polearms
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) bar]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Lochaber Axe For %WHITE%4s %TAN%Chance.%NL%%NAME%}
@@ -7921,30 +7921,30 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9vo]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7vo]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7vo]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 scy]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 scy]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 scy]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 pax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 pax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 pax]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 7pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 7pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 7pa]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[UNI 7pa]: %NAME%{%TAN%Auto Rolls: %WHITE%2-4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 hal]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 hal]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 hal]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9h9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9h9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9h9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7h7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7h7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7h7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 wsc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 wsc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 wsc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 9wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 9wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 7wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 7wc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Bows
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) sbw]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Edge Bow For %WHITE%4s %TAN%Chance.%NL%%NAME%}
@@ -7957,11 +7957,11 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8hb]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6hb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6hb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 lbw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lbw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lbw]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Shadow Bow For %WHITE%6s %TAN%Chance.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8lb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8lb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8lb]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Shadow Bow For %WHITE%6s %TAN%Chance.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6lb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6lb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6lb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 cbw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 cbw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8cb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
@@ -7969,31 +7969,31 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8cb]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6cb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6cb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 sbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 sbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 sbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 8s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 8s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 8s8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 6s7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 6s7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 6s7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NAME%}
 ItemDisplay[UNI 8s8]: %NAME%{%TAN%Auto Rolls: %WHITE%2-4s.%NL%%NAME%}
 ItemDisplay[UNI 6s7]: %NAME%{%TAN%Auto Rolls: %WHITE%2-4s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 lbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lbb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8l8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8l8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8l8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6l7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6l7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6l7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 swb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 swb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 swb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6sw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 lwb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lwb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 lwb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6lw]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Corssbows
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) lxb]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Arbalest For %WHITE%4s %TAN%Chance.%NL%%NAME%}
@@ -8006,18 +8006,18 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8mx]: %NAME%{%PURPLE%Wss: %TAN
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6mx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6mx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 hxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 hxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 hxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET) ILVL<26 6hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 6hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET) ILVL>25 6hx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NAME%}
 ItemDisplay[UNI 6hx]: %NAME%{%TAN%Auto Rolls: %WHITE%2-5s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 rxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 rxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 rxb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 8rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 8rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 6rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 6rx]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Staffs
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) sst]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Jo Staff For %WHITE%3s %TAN%Chance.%NL%%NAME%}
@@ -8032,9 +8032,9 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 6cs]: %NAME%{%PURPLE%Wss: %TAN%Chance 
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) bst]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 8bs]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 6bs]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) wst]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 8ws]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 6ws]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) wst]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 8ws]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) 6ws]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Wands
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) wnd]: %NAME%{%PURPLE%Wss: %TAN%Upgrade to Polished Wand For %WHITE%2s %TAN%Chance.%NL%%NAME%}
@@ -8125,29 +8125,29 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 obf]: %NAME%{%PURPLE%Wss: %TAN
 
 // The Number of Sockets Wss Can Give Crafted/Rare/Set/Unique Ama Weapons
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am1]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am1]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am1]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am6]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am6]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am6]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 amb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amb]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am2]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am2]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am2]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am7]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 amc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amc]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%5s.%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am3]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am3]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am3]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am8]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 amd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 amd]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am4]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am4]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am4]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 am9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NL%%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NL%%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 am9]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NL%%NAME%}
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL<26 ame]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%3s.%NAME%}
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 ame]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%4s.%NAME%}
+ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ILVL>25 ame]: %NAME%{%PURPLE%Wss: %TAN%Chance to Get %WHITE%6s.%NAME%}
 
 // Every Identified Item
 ItemDisplay[MAG ID]: %NAME%
