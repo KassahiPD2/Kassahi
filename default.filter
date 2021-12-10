@@ -1584,7 +1584,7 @@ ItemDisplay[dcho]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%OR
 ItemDisplay[dcso]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Make %ORANGE%Visson of Terror.%NL%%TAN%Cube: %BLUE%Dclone Mats%NL%%TAN%Drops Hell: %RED%Diablo/Baal.}
 ItemDisplay[dcbl]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Make %ORANGE%Visson of Terror.%NL%%TAN%Cube: %BLUE%Dclone Mats%NL%%TAN%Drops Hell: %RED%Map Bosses.}
 ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside.%NL%%BLUE%in Act 5 to Open %ORANGE%Diablo Clone.%NL%%TAN%Note: %BLUE%Use at The Blood Fountain%NL%%WHITE%Require Level: 75}
-ItemDisplay[rtmo]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[rtmo]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%We Still Dont Know How But as Soon as We Do i'll Add it in.%NL%%TAN%Note: %WHITE%Used For The %RED%New Uber Boss Rathma}
 ItemDisplay[rtma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside.%NL%%BLUE%in Act 5 to Open %ORANGE%Uber Rathma.%NL%%TAN%Note: %BLUE%Use at The Blood Fountain%NL%%WHITE%Require Level: 75}
 
 // Tier 1 Maps
