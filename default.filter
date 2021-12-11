@@ -1569,7 +1569,7 @@ ItemDisplay[ubtm]: %MAP-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%W
 // Project Diablo 2 Items
 ItemDisplay[rtp]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%TAN%Note: %WHITE%Gives You Infinite TPs}
 ItemDisplay[rid]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%TAN%Note: %WHITE%Gives You Infinite IDs}
-ItemDisplay[wss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Maps: %WHITE%70% %BLUE%Mod %WHITE%10% %BLUE%Brick%WHITE%/%BLUE%Reroll%WHITE%/%BLUE%Upgrade%NL%%TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick%NL%%TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25% %BLUE%Brick%WHITE%/%BLUE%Sockets %NL% %TAN%Armors: %ORANGE%1-3s %WHITE%| %TAN%1h Weapons: %ORANGE%1-4s %WHITE%| %TAN%2h Weapons: %ORANGE%1-6s %NL%%TAN%Note: %WHITE%Possible Corruptions.}
+ItemDisplay[wss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL% %TAN%Armors: %ORANGE%1-3s %WHITE%| %TAN%1h Weapons: %ORANGE%1-4s %WHITE%| %TAN%2h Weapons: %ORANGE%1-6s %NL%%TAN%Note: %WHITE%Possible Corruptions.}
 ItemDisplay[cwss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Note: %WHITE%80%Mod, 20%Brick.%NL%%TAN%Cube: %PURPLE%Twss %WHITE%+ %GOLD%Anni}
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%*%RED%*%ORANGE%*%GOLD%*     %ORANGE%Larzuk's Lunch Box     %GOLD%*%ORANGE%*%RED%*%PURPLE%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%Dont Use on Throw Weapons.%NL%%TAN%Armors: %ORANGE%1-2s %WHITE%| %TAN%1h Weapons: %ORANGE%1-2s %WHITE%| %TAN%2h Weapons: %ORANGE%2-4s%NL%%TAN%Note: %WHITE%Possible Sockets.}
 ItemDisplay[jewf]: %MAP-68%%GOLD%%NAME% %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel.%NL%%TAN%Note: %WHITE%Can Be Used For}
@@ -1585,6 +1585,7 @@ ItemDisplay[dcso]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%OR
 ItemDisplay[dcbl]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%BLUE%to Make %ORANGE%Visson of Terror.%NL%%TAN%Cube: %BLUE%Dclone Mats%NL%%TAN%Drops Hell: %RED%Map Bosses.}
 ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside.%NL%%BLUE%in Act 5 to Open %ORANGE%Diablo Clone.%NL%%TAN%Note: %BLUE%Use at The Blood Fountain%NL%%WHITE%Require Level: 75}
 ItemDisplay[rtmo]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%We Still Dont Know How But as Soon as We Do i'll Add it in.%NL%%TAN%Note: %WHITE%Used For The %RED%New Uber Boss Rathma}
+ItemDisplay[rtmv]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%We Still Dont Know How But as Soon as We Do i'll Add it in.%NL%%TAN%Note: %WHITE%Used For The %RED%New Uber Boss Rathma}
 ItemDisplay[rtma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside.%NL%%BLUE%in Act 5 to Open %ORANGE%Uber Rathma.%NL%%TAN%Note: %BLUE%Use at The Blood Fountain%NL%%WHITE%Require Level: 75}
 
 // Tier 1 Maps
