@@ -1570,7 +1570,7 @@ ItemDisplay[ubtm]: %MAP-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%W
 ItemDisplay[rtp]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%TAN%Note: %WHITE%Gives You Infinite TPs}
 ItemDisplay[rid]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%TAN%Note: %WHITE%Gives You Infinite IDs}
 ItemDisplay[wss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL% %TAN%Armors: %ORANGE%1-3s %WHITE%| %TAN%1h Weapons: %ORANGE%1-4s %WHITE%| %TAN%2h Weapons: %ORANGE%1-6s %NL%%TAN%Note: %WHITE%Possible Corruptions.}
-ItemDisplay[cwss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Note: %WHITE%80%Mod, 20%Brick.%NL%%TAN%Cube: %PURPLE%Twss %WHITE%+ %GOLD%Anni}
+ItemDisplay[cwss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%WHITE%100% %BLUE%Mod%NL%%TAN%Cube: %PURPLE%Twss %WHITE%+ %GOLD%Anni}
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%*%RED%*%ORANGE%*%GOLD%*     %ORANGE%Larzuk's Lunch Box     %GOLD%*%ORANGE%*%RED%*%PURPLE%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%Dont Use on Throw Weapons.%NL%%TAN%Armors: %ORANGE%1-2s %WHITE%| %TAN%1h Weapons: %ORANGE%1-2s %WHITE%| %TAN%2h Weapons: %ORANGE%2-4s%NL%%TAN%Note: %WHITE%Possible Sockets.}
 ItemDisplay[jewf]: %MAP-68%%GOLD%%NAME% %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel.%NL%%TAN%Note: %WHITE%Can Be Used For}
 ItemDisplay[imma]: %MAP-68%%GOLD%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %BLUE%Magic %PURPLE%Map.%NL%%TAN%Cube: %WHITE%White %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GOLD%Jewel Fragment}
