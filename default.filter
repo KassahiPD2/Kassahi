@@ -1546,7 +1546,7 @@ ItemDisplay[r29s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Sur %WHITE%+ %GRAY%Key %W
 ItemDisplay[r30s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ber %WHITE%+ %GRAY%Key %WHITE%= %ORANGE%Jah%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR by %WHITE%4%%NL%%TAN%Weapon: %WHITE%20% %BLUE%CB}
 ItemDisplay[r31s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Jah %WHITE%+ %GRAY%Key %WHITE%= %ORANGE%Cham%NL%%TAN%Shield: %WHITE%+50 %BLUE%to Life%NL%%TAN%Armor/Helm: %BLUE%Max Life %WHITE%5%%NL%%TAN%Weapon: %BLUE%ITD}
 ItemDisplay[r32s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Cham %WHITE%+ %GRAY%Key %WHITE%= %ORANGE%Zod%NL%%TAN%Armor/Helm/Shield: %BLUE%CBF%NL%%TAN%Weapon: %BLUE%Freezes Target %WHITE%+3}
-ItemDisplay[r33s]: %NAME%{%TAN%Cube: %ORANGE%Zod %WHITE%+ %ORANGE%P%WHITE%Skull %RED%Repair Any Item%NL%%TAN%All Sockets: %BLUE%Indestructible}
+ItemDisplay[r33s]: %NAME%{%TAN%Cube: %ORANGE%Zod %WHITE%+ P%ORANGE%Skull %RED%Repair Any Item%NL%%TAN%All Sockets: %BLUE%Indestructible}
 ItemDisplay[RUNE>0]: %NAME%{%TAN%Cube: %WHITE%Stack Runes%NL%}
 
 // Essences/Token
@@ -1576,10 +1576,10 @@ ItemDisplay[cwss]: %MAP-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%
 ItemDisplay[lbox]: %BORDER-62%%PURPLE%*%RED%*%ORANGE%*%GOLD%*     %ORANGE%Larzuk's Lunch Box     %GOLD%*%ORANGE%*%RED%*%PURPLE%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%Dont Use on Throw Weapons%NL%%TAN%Armors: %ORANGE%1-2s %WHITE%| %TAN%1h Weapons: %ORANGE%1-2s %WHITE%| %TAN%2h Weapons: %ORANGE%2-4s%NL%%TAN%Note: %WHITE%Possible Sockets}
 ItemDisplay[jewf]: %MAP-68%%GOLD%%NAME% %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%%TAN%Note: %WHITE%Can Be Used For}
 ItemDisplay[imma]: %MAP-68%%GOLD%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %BLUE%Magic %PURPLE%Map%NL%%TAN%Cube: %WHITE%White %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GOLD%Jewel Fragment}
-ItemDisplay[imra]: %MAP-68%%GOLD%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %WHITE%White %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GOLD%Jewel Fragment %WHITE%+ %ORANGE%Rune>9}
-ItemDisplay[rera]: %MAP-68%%GOLD%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Reroll a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %YELLOW%Rare %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9}
+ItemDisplay[imra]: %MAP-68%%GOLD%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %WHITE%White %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %GOLD%Jewel Fragment %WHITE%+ %ORANGE%Thul+}
+ItemDisplay[rera]: %MAP-68%%GOLD%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Reroll a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %YELLOW%Rare %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %WHITE%P%ORANGE%Gem %WHITE%+ %ORANGE%Thul+}
 ItemDisplay[scou]: %MAP-68%%GOLD%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Downgrade a %PURPLE%Map %WHITE%to White%NL%%TAN%Cube: %BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%Hel Rune}
-ItemDisplay[upma]: %MAP-68%%GOLD%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %BLUE%Magic %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ %ORANGE%P%WHITE%Skull + %ORANGE%Rune>9}
+ItemDisplay[upma]: %MAP-68%%GOLD%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %BLUE%Magic %PURPLE%Map %WHITE%+ %GOLD%Orb %WHITE%+ P%ORANGE%Skull %WHITE%+ %ORANGE%Thul+}
 ItemDisplay[upmp]: %MAP-68%%GOLD%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a Higher %GRAY%[%TAN%T%GRAY%]%NL%%TAN%Cube: %WHITE%3x %PURPLE%Maps %WHITE%of The Same %GRAY%[%TAN%T%GRAY%] %WHITE%+ %GOLD%Orb}
 ItemDisplay[scrb]: %MAP-62%%RED%*   %ORANGE%Horadrim Lunch Meat   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%These Are Intended For Groups%NL%to Upgrade a %GRAY%[%ORANGE%T4%GRAY%] %PURPLE%Dungeon%NL%%TAN%Cube: %GRAY%[%RED%T3%GRAY%] %WHITE%+ %ORANGE%Horadrim Lunch Meat}
 ItemDisplay[dcho]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Visson of Terror%NL%%TAN%Cube: %WHITE%1 of Each %ORANGE%Dclone Mats %WHITE%to Make a%NL%%TAN%Note: %WHITE%Drops From %RED%Hell Uber Tristram}
@@ -1602,8 +1602,8 @@ ItemDisplay[MAG t13]: %BLUE%Bastion Keep%CONTINUE%
 ItemDisplay[RARE t13]: %YELLOW%Bastion Keep%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %MAP-80%%GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% Map %DARK_GREEN%*%CONTINUE%
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%BLUE%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 87}%WHITE%
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 87}%BLUE%
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 87}%YELLOW%
+ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %WHITE%P%ORANGE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 87}%BLUE%
+ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %WHITE%P%ORANGE%Gem %WHITE%+ %ORANGE%Thul+%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 87}%YELLOW%
 
 // Tier 2 Maps
 ItemDisplay[NMAG t21]: %WHITE%Phlegethon%CONTINUE%
@@ -1623,8 +1623,8 @@ ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath%CONTINUE%
 ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %MAP-80%%GRAY%[%PURPLE%T2%GRAY%] %NAME% Map %PURPLE%*%CONTINUE%
 ItemDisplay[NMAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%BLUE%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 88}%WHITE%
-ItemDisplay[MAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 88}%BLUE%
-ItemDisplay[RARE (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 88}%YELLOW%
+ItemDisplay[MAG (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %WHITE%P%ORANGE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 88}%BLUE%
+ItemDisplay[RARE (t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %WHITE%P%ORANGE%Gem %WHITE%+ %ORANGE%Thul+%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 88}%YELLOW%
 
 // Tier 3 Maps
 ItemDisplay[NMAG t31]: %WHITE%River of Blood%CONTINUE%
@@ -1656,8 +1656,8 @@ ItemDisplay[MAG t39]: %BLUE%Kehjistan Marketplace%CONTINUE%
 ItemDisplay[RARE t39]: %YELLOW%Kehjistan Marketplace%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %MAP-80%%GRAY%[%RED%T3%GRAY%] %NAME% Map %RED%*%CONTINUE%
 ItemDisplay[NMAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%BLUE%Talk to Anya%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 89}%WHITE%
-ItemDisplay[MAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %ORANGE%P%WHITE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 89}%BLUE%
-ItemDisplay[RARE (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %ORANGE%P%WHITE%Gem + %ORANGE%Rune>9%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 89}%YELLOW%
+ItemDisplay[MAG (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ 3x %WHITE%P%ORANGE%Gems%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 89}%BLUE%
+ItemDisplay[RARE (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %NAME%{%TAN%Cube: %PURPLE%Map %WHITE%+ %GOLD%Horadrim Orb %WHITE%+ %WHITE%P%ORANGE%Gem %WHITE%+ %ORANGE%Thul+%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 89}%YELLOW%
 
 // Tier 4 Dungeons
 ItemDisplay[NMAG t41]: %WHITE%Cathedral of Light%CONTINUE%
@@ -1669,7 +1669,7 @@ ItemDisplay[RARE t42]: %YELLOW%Plains of Torment%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%GRAY%[%ORANGE%T4%GRAY%] %NAME% Dungeon %ORANGE%*%CONTINUE%
 ItemDisplay[NMAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%WHITE%
 ItemDisplay[MAG (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Area Level: 92}%BLUE%
-ItemDisplay[RARE (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%TAN%Cube: %PURPLE%Dungeon %WHITE%+ 6x %ORANGE%P%WHITE%Skulls%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 92}%YELLOW%
+ItemDisplay[RARE (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%TAN%Cube: %PURPLE%Dungeon %WHITE%+ 6x P%ORANGE%Skulls%NL%%TAN%Note: %RED%Hell Ancients%WHITE%/%RED%Baal %WHITE%+ Lvl 75+ Required%NL%Area Level: 92}%YELLOW%
 
 // Duel Arenas
 ItemDisplay[NMAG t61]: %WHITE%Desert Duel%CONTINUE%
@@ -2726,7 +2726,7 @@ ItemDisplay[MAG IAS=15 jew]: %WHITE%15%ORANGE%Ias%NAME%%CONTINUE%
 ItemDisplay[(MAG OR RARE OR UNI) (cm1 OR cm2 OR cm3 OR jew) (STAT87>0 OR MFIND>0 OR STAT91>-0 OR MAEK>0 OR STAT86>0 OR GFIND>0 OR STAT85>0 OR RES>0 OR FRES>0 OR LRES>0 OR CRES>0 OR PRES>0 OR STAT1>0 OR STAT3>0 OR MANA>0 OR LIFE>0 OR STAT1>0 OR DEX>0 OR STR>0 OR STAT122>0 OR STAT121>0 OR AR>0 OR MAXDMG>0 OR MINDMG>0 OR FHR>0 OR FRW>0 OR STAT333>0 OR STAT334>0 OR STAT335>0 OR STAT336>0 OR STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR TABSK32>0 OR TABSK33>0 OR TABSK34>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR TABSK16>0 OR TABSK17>0 OR TABSK18>0 OR TABSK8>0 OR TABSK9>0 OR TABSK10>0 OR TABSK48>0 OR TABSK49>0 OR TABSK50>0 OR TABSK0>0 OR TABSK1>0 OR TABSK2>0 OR ED>0 OR IAS>0)]: %GRAY%[%NAME%%CONTINUE%
 
 // Magic Grand Charms High-Lvl
-ItemDisplay[MAG cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%TAN%Cube: %PURPLE%Charm %WHITE%+ 3x %ORANGE%P%WHITE%Gems%NL%%TAN%Reroll: %WHITE%Charm Stats}
+ItemDisplay[MAG cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%TAN%Cube: %PURPLE%Charm %WHITE%+ 3x %WHITE%P%ORANGE%Gems%NL%%TAN%Reroll: %WHITE%Charm Stats}
 
 // Jewels
 ItemDisplay[(MAG OR RARE) jew]: %NAME%{%RED%Warning: %WHITE%You Will Lose The Stats%NL%%TAN%Cube: %WHITE%Jewel + %GRAY%Key %WHITE%= %GOLD%Jewel Fragments}
@@ -5812,32 +5812,32 @@ ItemDisplay[NMAG SOCK=5 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAM
 ItemDisplay[NMAG SOCK=6 !INF !RW ETH (amd OR ame) TABSK2=3]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 
 // Rest of The Bases Are Hidden
-ItemDisplay[NMAG !RW (GLOVES OR BOOTS OR BELT)]:
-ItemDisplay[NMAG !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
-ItemDisplay[NMAG !RW NORM CLVL>44]: {%NAME%}
-ItemDisplay[NMAG !RW EXC CLVL>74]: {%NAME%}
-ItemDisplay[NMAG !RW (ILVL>86 OR CLVL>79)]: {%NAME%}
+ItemDisplay[NMAG (WEAPON AND ARMOR) !RW (GLOVES OR BOOTS OR BELT)]:
+ItemDisplay[NMAG (WEAPON AND ARMOR) !RW (SOCK=1 OR INF) CLVL>9]: {%NAME%}
+ItemDisplay[NMAG (WEAPON AND ARMOR) !RW NORM CLVL>44]: {%NAME%}
+ItemDisplay[NMAG (WEAPON AND ARMOR) !RW EXC CLVL>74]: {%NAME%}
+ItemDisplay[NMAG (WEAPON AND ARMOR) !RW (ILVL>86 OR CLVL>79)]: {%NAME%}
 
 // Crafted Amulets
-ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=83]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=84]: %NAME% %TAN%(%WHITE%96+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=85]: %NAME% %TAN%(%WHITE%96+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=86]: %NAME% %TAN%(%WHITE%94+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=87]: %NAME% %TAN%(%WHITE%94+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=88]: %NAME% %TAN%(%WHITE%92+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=89]: %NAME% %TAN%(%WHITE%92+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=90]: %NAME% %TAN%(%WHITE%90+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=91]: %NAME% %TAN%(%WHITE%90+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=92]: %NAME% %TAN%(%WHITE%88+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=93]: %NAME% %TAN%(%WHITE%88+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=94]: %NAME% %TAN%(%WHITE%86+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=95]: %NAME% %TAN%(%WHITE%86+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=96]: %NAME% %TAN%(%WHITE%84+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=97]: %NAME% %TAN%(%WHITE%84+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=98]: %NAME% %TAN%(%WHITE%82+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL=99]: %NAME% %TAN%(%WHITE%82+%TAN%)%BLUE%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
-ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%PURPLE%Ctr: %TAN%P Ame + Ral. %GRAY%Vpc: %TAN%P Sku + Dol.%NL%%RED%Bld: %TAN%P Rub + Amn. %YELLOW%Btf: %TAN%P Top + Ko.%NL%%ORANGE%+Jewel:}
+ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=83]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=84]: %NAME% %TAN%(%WHITE%96+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=85]: %NAME% %TAN%(%WHITE%96+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=86]: %NAME% %TAN%(%WHITE%94+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=87]: %NAME% %TAN%(%WHITE%94+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=88]: %NAME% %TAN%(%WHITE%92+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=89]: %NAME% %TAN%(%WHITE%92+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=90]: %NAME% %TAN%(%WHITE%90+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=91]: %NAME% %TAN%(%WHITE%90+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=92]: %NAME% %TAN%(%WHITE%88+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=93]: %NAME% %TAN%(%WHITE%88+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=94]: %NAME% %TAN%(%WHITE%86+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=95]: %NAME% %TAN%(%WHITE%86+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=96]: %NAME% %TAN%(%WHITE%84+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=97]: %NAME% %TAN%(%WHITE%84+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=98]: %NAME% %TAN%(%WHITE%82+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL=99]: %NAME% %TAN%(%WHITE%82+%TAN%)%BLUE%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
+ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%WHITE%+ %GOLD%Jewel Fragments%NL%%GRAY%Vpc: %ORANGE%Dol %WHITE%+ P%ORANGE%Sku %WHITE%| %YELLOW%Btf: %ORANGE%Ko %WHITE%+ P%ORANGE%Top%NL%%BLUE%Hit: %ORANGE%Thul %WHITE%+ P%ORANGE%Sap %WHITE%| %GREEN%Sfy: %ORANGE%Thul %WHITE%+ P%ORANGE%Eme%NL%%RED%Bld: %ORANGE%Amn %WHITE%+ P%ORANGE%Rub %WHITE%| %PURPLE%Ctr: %ORANGE%Ral %WHITE%+ P%ORANGE%Ame%NL%%TAN%Note: %WHITE%Crafting Recipes}
 
 // Crafted Rings
 ItemDisplay[MAG ID rin ILVL=64]: %NAME% %TAN%(%WHITE%98+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
@@ -5865,7 +5865,9 @@ ItemDisplay[MAG ID rin ILVL=85]: %NAME% %TAN%(%WHITE%78+%TAN%)%BLUE%{%BLUE%Hit: 
 ItemDisplay[MAG ID rin ILVL=86]: %NAME% %TAN%(%WHITE%76+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
 ItemDisplay[MAG ID rin ILVL=87]: %NAME% %TAN%(%WHITE%76+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
 ItemDisplay[MAG ID rin ILVL=88]: %NAME% %TAN%(%WHITE%74+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+
 ItemDisplay[MAG ID rin ILVL=89]: %NAME% %TAN%(%WHITE%74+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
+
 ItemDisplay[MAG ID rin ILVL=90]: %NAME% %TAN%(%WHITE%72+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
 ItemDisplay[MAG ID rin ILVL=91]: %NAME% %TAN%(%WHITE%72+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
 ItemDisplay[MAG ID rin ILVL=92]: %NAME% %TAN%(%WHITE%70+%TAN%)%BLUE%{%BLUE%Hit: %TAN%P Sap + Amn. %GRAY%Vpc: %TAN%P Sku + Hel.%NL%%RED%Bld: %TAN%P Rub + Sol. %YELLOW%Btf: %TAN%P Top + Lum.%NL%%ORANGE%+Jewel:}
