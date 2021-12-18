@@ -1433,8 +1433,8 @@ ItemDisplay[vps CLVL<20]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack)%NL%%TAN%Note: 
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%TAN%Note: %WHITE%Gives Infinite Stamina For 30s}
 ItemDisplay[wms CLVL<20]: %GREEN%! %WHITE%Thaw{%GRAY%(Time Stack)%NL%%WHITE%Gives +25 Cold Res For 30s%NL%%TAN%Note: %WHITE%Instantly Thaws Character}
 ItemDisplay[wms CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%Gives +25 Cold Res For 30s%NL%%TAN%Note: %WHITE%Instantly Thaws Character}
-ItemDisplay[key CLVL<30]: %DARK_GREEN%! %WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%Then Click on %GRAY%(%RED%1.3  List of Public Filters%GRAY%)%NL%%WHITE%My Tag Name is on The Wiki %GRAY%(%RED%Item Filtering%GRAY%)%NL%%WHITE%Please Reach Out to Me in %ORANGE%Discord%NL%%TAN%Note: %WHITE%if You Have Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
-ItemDisplay[key CLVL>29]: {%WHITE%Then Click on %GRAY%(%RED%1.3  List of Public Filters%GRAY%)%NL%%WHITE%My Tag Name is on The Wiki %GRAY%(%RED%Item Filtering%GRAY%)%NL%%WHITE%Please Reach Out to Me in %ORANGE%Discord%NL%%TAN%Note: %WHITE%if You Have Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
+ItemDisplay[key CLVL<30]: %DARK_GREEN%! %WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%Then Click on %GRAY%(%RED%1.3  List of Public Filters%GRAY%)%NL%%WHITE%My Name Tag is on The Wiki %GRAY%(%RED%Item Filtering%GRAY%)%NL%%WHITE%Please Reach Out to Me in %ORANGE%Discord%NL%%TAN%Note: %WHITE%if You Have Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
+ItemDisplay[key CLVL>29]: {%WHITE%Then Click on %GRAY%(%RED%1.3  List of Public Filters%GRAY%)%NL%%WHITE%My Name Tag is on The Wiki %GRAY%(%RED%Item Filtering%GRAY%)%NL%%WHITE%Please Reach Out to Me in %ORANGE%Discord%NL%%TAN%Note: %WHITE%if You Have Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[tbk]: %BLUE%%NAME% %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%%NAME% %TAN%x%WHITE%%QTY%{%TAN%Professional Tip: %WHITE%Let %ORANGE%Deckard Cain %WHITE%ID Ur Items}
