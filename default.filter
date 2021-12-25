@@ -1281,7 +1281,7 @@ ItemDisplay[UNI ID (am7 OR amc) TABSK0>1 CLSK0>1 IAS>19 ED>199 STAT62>4 DEX>19 S
 ItemDisplay[UNI ID amd TABSK2>1 ED>329 STAT31>399 RES>29]: %GRAY%%NAME% %GOLD%Stoneraven%CONTINUE%
 ItemDisplay[UNI ID (am9 OR ame) TABSK2>1 CLSK0>1 IAS>29 ED>249 STAT60>4 STR>19 STAT3>19]: %GRAY%%NAME% %GOLD%Lycander's Flank%CONTINUE%
 ItemDisplay[UNI ID (am5 OR ama OR amf) IAS>39 ED>79 STAT218>0 STAT136>9 MFIND>24]: %GRAY%%NAME% %GOLD%True Silver%CONTINUE%
-ItemDisplay[UNI ID (ama OR amf) TABSK2>1 CLSK0>0 FRW>29 ED>149 STAT60>5 STR>19 DEX>19]: %GRAY%%NAME% %GOLD%Titan's Revenge%CONTINUE%
+ItemDisplay[UNI ID (ama OR amf) TABSK2>1 CLSK0>0 FRW>29 ED>149 STAT60>4 STR>19 DEX>19]: %GRAY%%NAME% %GOLD%Titan's Revenge%CONTINUE%
 ItemDisplay[UNI ID amf TABSK2>1 IAS>14 ED>199 STAT334>14 SK20>2]: %GRAY%%NAME% %GOLD%Thunderstroke%CONTINUE%
 
 // Names of Runeword Helms
@@ -1717,7 +1717,7 @@ ItemDisplay[UNI !ID ETH (xh9 OR usk OR uhl OR baa OR xhn OR uul OR uar OR uth OR
 ItemDisplay[UNI !ID !ETH (xrn OR bac OR bad OR ba6 OR drb OR drd OR stu OR rng OR gth OR ful OR aar OR xui OR xea OR xcl OR xhn OR xpl OR xlt OR xth OR utu OR xpk OR xow OR xsh OR xts OR upk OR uow OR ush OR nef OR ne6 OR pac OR pae OR lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xmg OR xhg OR lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR umb OR uhb OR tbl OR zlb OR zvb OR ztb OR umc OR 7bt OR 7ga OR 7gi OR 9wh OR 9gm OR 7fl OR 7wh OR 7m7 OR 7gm OR gsd OR 9ls OR 7gd OR 9kr OR 7dg OR 7bk OR 7ta OR 7b8 OR 7ts OR 7br OR 7p7 OR 7o7 OR 7s8 OR 7pa OR 6sw OR 8mx OR 8ls OR 6cs OR 9bw OR 9gw OR 7bw OR 9ws OR 7sc OR 7ws OR amd OR ama OR 9tw OR 9ar OR oba OR 9yw OR 6hx OR 7mt OR 7wc OR 9s8 OR 7ls)]: %MAP-68%%GRAY%*%GOLD%*%ORANGE%*   %NAME%   %ORANGE%*%GOLD%*%GRAY%*
 ItemDisplay[UNI !ID ETH (xrn OR xui OR xea OR xrs OR xpl OR xtp OR xth OR uui OR uow OR gth OR tgl OR 9ga OR 9gi OR 7ha OR 72a OR mau OR 9wh OR gsd OR 9ls OR 9gs OR 7gs OR 7dg OR 7kr OR 7bl OR 9tk OR 9ta OR 7bk OR 7ta OR 7s7 OR 7ts OR 9sr OR 7sr OR 7br OR 8ls OR 6cs OR 9bw OR 9gw OR 7bw OR 9ws OR 7sc OR 7ws OR am9 OR amd OR ama OR am5 OR 7cs OR 9tw OR 9ar OR oba OR 9yw OR zlb OR 7mt OR 7ls OR ba6 OR hgl OR xlb OR umc OR uvc OR pae OR xsh)]: %MAP-68%%GRAY%*%GOLD%*%ORANGE%*   %NAME%   %ORANGE%*%GOLD%*%GRAY%*
 // Uniques Worth Notifying
-ItemDisplay[UNI !ID !ETH (xkp OR xhl OR xrs OR xul OR xtg OR 9sb OR 9fc OR 9gs OR 7gs OR 9di OR 9bl OR 7kr OR 7bk OR 7sr OR 9wc OR lbb OR 8lw OR 6l7 OR 8ws OR bwn OR am7 OR amb OR am9 OR 7wb OR gix OR 9ga OR 7mp OR 9bt OR sbw OR 8cb OR 8s8 OR 7sm OR 9fb OR xar OR 9sr OR pa3 OR ltp OR am5 OR ob6 OR 9ba OR cst)]: %DOT-68%%GRAY%* %NAME% %GRAY%*
+ItemDisplay[UNI !ID !ETH (xkp OR xhl OR xrs OR xul OR xtg OR 9sb OR 9fc OR 9gs OR 7gs OR 9di OR 9bl OR 7kr OR 7bk OR 7sr OR 9wc OR lbb OR 8lw OR 6l7 OR 8ws OR bwn OR am7 OR amb OR am9 OR 7wb OR gix OR 9ga OR 7mp OR 9bt OR sbw OR 8cb OR 8s8 OR 7sm OR 9fb OR xar OR 9sr OR pa3 OR ltp OR am5 OR ob6 OR 9ba OR cst OR xit)]: %DOT-68%%GRAY%* %NAME% %GRAY%*
 ItemDisplay[UNI !ID ETH (xkp OR bac OR bad OR bae OR drb OR drd OR stu OR ful OR xld OR xlt OR xul OR utu OR 7ba OR 9sb OR 9fc OR 9di OR 9wc OR 8ws OR bwn OR 7wb OR gix OR 7mp OR 9bt OR 9bl OR 9m9 OR 9pa OR 9vo OR 7sm OR 9gd OR 9fb OR 7b7 OR ob6 OR 9ba OR cst)]: %DOT-68%%GRAY%* %NAME% %GRAY%*
 // Blame Onion Uniques
 ItemDisplay[UNI !ID ETH (xhm OR uap OR ulm OR uhm OR ci3 OR dra OR dre OR dr2 OR upl OR uts OR nea OR nee OR pa9 OR ci2 OR ulc OR utc OR uhn)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %GOLD%%NAME%     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
@@ -3987,125 +3987,26 @@ ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 (fla OR 9fl OR 7fl)]: %NAME%{%TAN%
 ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 (fla OR 9fl OR 7fl)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 (fla OR 9fl OR 7fl)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-5s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-5s.%NL%%TAN%Larzuk Quest: %RED%5s.%NL%%NAME%}%CONTINUE%
 
-// Hammers
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 whm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 whm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9wh]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9wh]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7wh]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7wh]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 mau]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 mau]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 mau]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9m9]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 9m9]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 9m9]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7m7]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 7m7]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 7m7]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 gma]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 gma]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 gma]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 9gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 9gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 7gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 7gm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
+// Possible Sockets For Non-Superior Hammers
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 (whm OR 9wh OR 7wh)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
 
-// Swords
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ssd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9ss]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7ss]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 scm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9sm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7sm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 sbr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9sb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7sb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 flc]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9fc]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7fc]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 crs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 crs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 crs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 9cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 9cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 7cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 7cr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 bsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 bsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9bs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9bs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7bs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7bs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 lsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 lsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9ls]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9ls]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7ls]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7ls]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 wsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9wd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7wd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 2hs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 92h]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 72h]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 clm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 clm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9cm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9cm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7cm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7cm]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 gis]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 gis]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9gs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9gs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7gs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7gs]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 bsw]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 bsw]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9b9]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9b9]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7b7]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7b7]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 flb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 flb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 flb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-5s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-5s.%NL%%TAN%Larzuk Quest: %RED%5s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 9fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 9fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-5s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-5s.%NL%%TAN%Larzuk Quest: %RED%5s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 7fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 7fb]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-5s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-5s.%NL%%TAN%Larzuk Quest: %RED%5s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 gsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 gsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 gsd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 9gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 9gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 7gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 7gd]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
+// Possible Sockets For Non-Superior Swords
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 (ssd OR scm OR sbr OR flc)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 (9ss OR 7ss OR 9sm OR 7sm OR 9sb OR 7fc OR wsd OR 9wd OR 7wd OR 2hs OR 92h OR 72h)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 (crs OR 9cr OR 7cr OR bsd OR 9bs OR 7bs OR lsd OR 9ls OR 7ls OR clm OR 9cm OR 7cm OR gis OR 9gs OR 7gs OR bsw OR 9b9 OR 7b7 OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 (bsd OR 9bs OR 7bs OR lsd OR 9ls OR 7ls OR clm OR 9cm OR 7cm OR gis OR 9gs OR 7gs OR bsw OR 9b9 OR 7b7)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<41 ILVL>25 (crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-4s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-4s.%NL%%TAN%Larzuk Quest: %RED%4s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 (flb OR 9fb OR 7fb)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-5s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-5s.%NL%%TAN%Larzuk Quest: %RED%5s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>40 (crs OR 9cr OR 7cr OR gsd OR 9gd OR 7gd)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-6s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-6s.%NL%%TAN%Larzuk Quest: %RED%6s.%NL%%NAME%}%CONTINUE%
 
-// Daggers
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 dgr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-1s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-1s.%NL%%TAN%Larzuk Quest: %RED%1s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9dg]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7dg]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 dir]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-1s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-1s.%NL%%TAN%Larzuk Quest: %RED%1s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9di]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7di]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 kri]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 kri]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 9kr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 9kr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 7kr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 7kr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 bld]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 9bl]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 7bl]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
+// Possible Sockets For Non-Superior Daggers
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 (dgr OR dir)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-1s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-1s.%NL%%TAN%Larzuk Quest: %RED%1s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 (9dg OR 7dg OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL<26 (kri OR 9kr OR 7kr)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-2s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-2s.%NL%%TAN%Larzuk Quest: %RED%2s.%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 ILVL>25 (kri OR 9kr OR 7kr)]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
 
 // Spears
 ItemDisplay[NMAG !INF !SUP !RW SOCK=0 spr]: %NAME%{%TAN%Worldstone Shard: %RED%Brick or 1-3s.%NL%%TAN%Ral, Amn, & %ORANGE%P%TAN%Amethyst: %RED%1-3s.%NL%%TAN%Larzuk Quest: %RED%3s.%NL%%NAME%}%CONTINUE%
