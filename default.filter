@@ -1584,7 +1584,7 @@ ItemDisplay[dcbl]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%OR
 ItemDisplay[dcma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside%NL%%WHITE%in Act 5 to Open %ORANGE%Diablo Clone%NL%%TAN%Note: %WHITE%Use at The %RED%Blood Fountainn}
 ItemDisplay[rtmo]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%PES %WHITE%+ %ORANGE%TOJ %WHITE%+ %ORANGE%SOTV %WHITE%+ %ORANGE%Torch %WHITE%to Make a%NL%%TAN%Note: %WHITE%Drops From %RED%Hell (Lvl 85+ Areas Undead Enemies)???}
 ItemDisplay[rtmv]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%PES %WHITE%+ %ORANGE%TOJ %WHITE%+ %ORANGE%SOTV %WHITE%+ %ORANGE%Torch %WHITE%to Make a%NL%%TAN%Note: %WHITE%Drops From %RED%Hell Mendeln Map Events}
-ItemDisplay[rtmf]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%*%ORANGE%{%WHITE%to Make a %ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%3x %ORANGE%ABF %WHITE%+ %ORANGE%Torch}
+ItemDisplay[rtmf]: %MAP-0A%%PX-62%%RED%*   %NAME%   %RED%*%ORANGE%{%WHITE%to Make a %ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF %WHITE%+ %ORANGE%Torch}
 ItemDisplay[rtma]: %MAP-0A%%PX-62%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%RED%Warning: %WHITE%U Cannot Make TPs Once You're Inside%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Rathma%NL%%TAN%Note: %WHITE%Use at The %RED%Blood Fountainn}
 
 // Tier 1 Maps
