@@ -1504,7 +1504,7 @@ ItemDisplay[gpgs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %
 ItemDisplay[gprs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %WHITE%40% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%15-20 %BLUE%Fire Dmg}
 ItemDisplay[gpbs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %WHITE%40% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%10-14 %BLUE%Cold Dmg}
 ItemDisplay[gpys]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %WHITE%40% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%24% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-40 %BLUE%Light Dmg}
-ItemDisplay[skzs]: %NAME%{%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
+ItemDisplay[skzs]: %NAME%{%TAN%Cube: %PURPLE%Dungeon %WHITE%+ 6x P%ORANGE%Skulls%NL%%NL%%TAN%Cube: %GRAY%Un%WHITE%stack Gems%NL%%TAN%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
 ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%{%TAN%Cube: %WHITE%Stack Gems%NL%}
 ItemDisplay[GEM<4]:
 
@@ -1677,7 +1677,6 @@ ItemDisplay[(NMAG OR MAG OR RARE) (t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36
 
 // Requirements/Immunities Tier 4 Dungeons
 ItemDisplay[(NMAG OR MAG OR RARE) (t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%TAN%Required: %WHITE%Lvl 75+ %RED%Hell Ancients%WHITE%/%RED%Baal%NL%%WHITE%Area Level: 92}%CONTINUE%
-ItemDisplay[RARE (t41 OR t42)]: %NAME%{%TAN%Cube: %PURPLE%Dungeon %WHITE%+ 6x P%ORANGE%Skulls%NL%%NAME%}%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) t41]: %NAME%{%RED%180 %WHITE%| %BLUE%120 %WHITE%| %GOLD%150%NL%%RED%100, %YELLOW%100 %WHITE%| %YELLOW%180, %BLUE%180 %WHITE%| %YELLOW%180, %GREEN%180%NL%%GOLD%180, %YELLOW%180, %GREEN%180 %WHITE%| %GOLD%180, %RED%180 %WHITE%| %ORANGE%180, %GREEN%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NL%%NAME%}%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE) t42]: %NAME%{%RED%180 %WHITE%| %BLUE%120 %WHITE%| %GOLD%150%NL%%YELLOW%180, %BLUE%180 %WHITE%| %YELLOW%180, %GREEN%180%NL%%GOLD%180, %RED%180 %WHITE%| %ORANGE%180, %GREEN%180 %WHITE%| %RED%180, %BLUE%180%NL%%WHITE%Possible %ORANGE%Immunities:%NL%%NL%%NAME%}%CONTINUE%
 // Tier 4 Dungeons
