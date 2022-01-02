@@ -826,6 +826,7 @@ ItemDisplay[SET ID (oba OR obf)]: %GRAY%%NAME% %GREEN%Tal Rasha's Lidless Eye%CO
 // Names of Set Amazon Weapons
 ItemDisplay[SET ID amc]: %GRAY%%NAME% %GREEN%M'avina's Caster%CONTINUE%
 
+// Names of Unique Charms
 ItemDisplay[UNI cm1]: Annihilus%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=2]: Ama Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK1=2]: Sorc Torch%CONTINUE%
