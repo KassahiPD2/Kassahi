@@ -1719,7 +1719,7 @@ ItemDisplay[RARE !ID ETH (clb OR 9cl OR 7cl OR STAFF OR WAND OR SCEPTER OR SIN O
 ItemDisplay[RARE !ID (ILVL>86 OR CLVL>79)]:
 
 // GG Sets
-ItemDisplay[SET !ID (amu OR rin OR 7fb OR 7gd OR uts OR uhm OR xhm OR dr8 OR xtb OR uul OR xar OR urn OR 7ws OR paf OR uar OR ci3 OR uld OR uth OR uh9 OR xul OR ne9 OR utc OR xmg)]: %BORDER-84%%PURPLE%*%RED%*%DARK_GREEN%*%GREEN%*     %NAME%     *%DARK_GREEN%*%RED%*%PURPLE%*
+ItemDisplay[SET !ID (amu OR rin OR 7fb OR 7gd OR uts OR uhm OR xhm OR dr8 OR xtb OR uul OR xar OR urn OR 7ws OR paf OR uar OR ci3 OR uld OR uth OR uh9 OR xul OR ne9 OR utc OR xmg)]: %DOT-84%%MAP-0A%%BORDER-9B%%PURPLE%*%RED%*%DARK_GREEN%*%GREEN%*     %NAME%     *%DARK_GREEN%*%RED%*%PURPLE%*
 // Good Sets
 ItemDisplay[SET !ID (ulg OR 7ls OR xvg OR 7m7 OR amc OR xtg OR zvb OR xh9 OR 7qr OR xsk OR zmb)]: %MAP-84%%GRAY%*%DARK_GREEN%*%GREEN%*   %NAME%   *%DARK_GREEN%*%GRAY%*
 // Sets Worth Notifying
