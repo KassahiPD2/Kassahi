@@ -1580,7 +1580,7 @@ ItemDisplay[jewf]: %MAP-68%%GOLD%%NAME% %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting
 ItemDisplay[imma]: %MAP-68%%GOLD%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %BLUE%Magic %PURPLE%Map%NL%%TAN%Cube: %WHITE%White %PURPLE%Map, %GOLD%Orb, JF}
 ItemDisplay[imra]: %MAP-68%%GOLD%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %WHITE%White %PURPLE%Map, %GOLD%Orb, JF, %ORANGE%Thul+}
 ItemDisplay[rera]: %MAP-68%%GOLD%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Reroll a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %YELLOW%Rare %PURPLE%Map, %GOLD%Orb, %WHITE%P%ORANGE%Gem, Thul+}
-ItemDisplay[scou]: %MAP-68%%GOLD%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Downgrade a %PURPLE%Map %WHITE%to White%NL%%TAN%Cube: %BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Map, %GOLD%Orb, %ORANGE%Hel Rune}
+ItemDisplay[scou]: %MAP-68%%GOLD%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Downgrade a %PURPLE%Map %WHITE%to White%NL%%TAN%Cube: %BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Map, %GOLD%Orb}
 ItemDisplay[upma]: %MAP-68%%GOLD%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a %YELLOW%Rare %PURPLE%Map%NL%%TAN%Cube: %BLUE%Magic %PURPLE%Map, %GOLD%Orb, P%ORANGE%Skull, Thul+}
 ItemDisplay[upmp]: %MAP-68%%GOLD%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%to Upgrade a Higher %GRAY%[%TAN%T%GRAY%]%NL%%TAN%Cube: %WHITE%3x %PURPLE%Maps %WHITE%of The Same %GRAY%[%TAN%T%GRAY%], %GOLD%Orb}
 ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%*   %ORANGE%Horadrim Lunch Meat   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%RED%Warning: %WHITE%These Are Intended For Groups%NL%%GRAY%[%ORANGE%T4%GRAY%] %PURPLE%Dungeon%NL%%TAN%Cube: %GRAY%[%RED%T3%GRAY%], %ORANGE%HLM %WHITE%to Upgrade a}
