@@ -4609,11 +4609,11 @@ ItemDisplay[NMAG !INF !RW !ETH PRICE>19999 DIFF=1 !(wsp OR 9ws OR 7ws) (clb OR 9
 ItemDisplay[NMAG !INF !RW !ETH PRICE>4999 DIFF=0 !(wsp OR 9ws OR 7ws) (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR sst OR 8ss OR 6ss OR WAND OR SCEPTER OR SIN OR SOR)]: %NAME% %GRAY%(%GOLD%$$$%GRAY%){%NAME%}
 
 // Rest of The Bases Are Hidden
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (GLOVES OR BOOTS OR BELT)]:
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (SOCK=1 OR INF) CLVL>9]: {%NAME%}
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) NORM CLVL>44]: {%NAME%}
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) EXC CLVL>74]: {%NAME%}
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (ILVL>86 OR CLVL>79)]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW OR jewf) (GLOVES OR BOOTS OR BELT)]:
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW OR jewf) (SOCK=1 OR INF) CLVL>9]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW OR jewf) NORM CLVL>44]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW OR jewf) EXC CLVL>74]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW OR jewf) (ILVL>86 OR CLVL>79)]: {%NAME%}
 
 // Notifyer For Upgrading Recipe For Craft/Rare/Set/Unique
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) ID (NORM OR EXC) ARMOR]: %NAME%{%TAN%Note: %WHITE%Upgrading Recipe%NAME%}%CONTINUE%
