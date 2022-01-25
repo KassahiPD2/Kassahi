@@ -2737,7 +2737,7 @@ ItemDisplay[(MAG OR RARE OR UNI) (cm1 OR cm2 OR cm3 OR jew) (STAT87>0 OR MFIND>0
 ItemDisplay[MAG cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%TAN%Cube: %PURPLE%Charm, %WHITE%3x %WHITE%P%ORANGE%Gems %WHITE%to Reroll}
 
 // Jewels
-ItemDisplay[(MAG OR RARE) jew]: %NAME%{%RED%Warning: %WHITE%You Will Lose The Stats%NL%%TAN%Cube: %WHITE%Jewel, %GRAY%Key %WHITE%= %GOLD%JF}
+ItemDisplay[(MAG OR RARE) jew]: %NAME%{%RED%Warning: %WHITE%You Will Lose The Stats%NL%%TAN%Cube: %WHITE%1-15 Jewels, %GRAY%Key %WHITE%= %GOLD%JF}
 
 ItemDisplay[(MAG OR CRAFT OR RARE) FRW=10]: %WHITE%10%ORANGE%Frw %NAME%%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE) FRW=20]: %WHITE%20%ORANGE%Frw %NAME%%CONTINUE%
