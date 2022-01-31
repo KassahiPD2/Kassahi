@@ -1626,9 +1626,9 @@ ItemDisplay[RARE t22]: %YELLOW%Torajan Jungle{%NAME%}%CONTINUE%
 ItemDisplay[NMAG t23]: %WHITE%Arreat Battlefield{%NAME%}%CONTINUE%
 ItemDisplay[MAG t23]: %BLUE%Arreat Battlefield{%NAME%}%CONTINUE%
 ItemDisplay[RARE t23]: %YELLOW%Arreat Battlefield{%NAME%}%CONTINUE%
-ItemDisplay[NMAG t24]: %WHITE%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
-ItemDisplay[MAG t24]: %BLUE%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
-ItemDisplay[RARE t24]: %YELLOW%Tomb of Zultan Kulle{%NAME%}%CONTINUE%
+ItemDisplay[NMAG t24]: %WHITE%Tomb of Zoltun Kulle{%NAME%}%CONTINUE%
+ItemDisplay[MAG t24]: %BLUE%Tomb of Zoltun Kulle{%NAME%}%CONTINUE%
+ItemDisplay[RARE t24]: %YELLOW%Tomb of Zoltun Kulle{%NAME%}%CONTINUE%
 ItemDisplay[NMAG t25]: %WHITE%Sewers of Harrogath{%NAME%}%CONTINUE%
 ItemDisplay[MAG t25]: %BLUE%Sewers of Harrogath{%NAME%}%CONTINUE%
 ItemDisplay[RARE t25]: %YELLOW%Sewers of Harrogath{%NAME%}%CONTINUE%
