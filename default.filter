@@ -1747,7 +1747,7 @@ ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 // Uniques Charms
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*
 // Rainbow Facet
-ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%Facet     %PURPLE%r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%R%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%Facet     %PURPLE%R%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
 // PD2 DClone/Dungeon/Rathma Bosses Uniques
 ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-00%%BORDER-0A%%GREEN%Holy Mother Fucker %PURPLE%*%RED%*%ORANGE%*%YELLOW%*  %NAME%  %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%Holy Mother Fucker
 // Blame Onion Uniques
