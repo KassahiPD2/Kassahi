@@ -5560,8 +5560,6 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL<26 (uui OR uea OR ula OR utu 
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL>25 (gth OR xth OR ful OR xul OR aar OR xar)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-3%TAN%)%NL%%NAME%}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL>25 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-3%TAN%)%NAME%}%CONTINUE%
 
-ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL>25 uar]: %NAME%{%RED%Ehvan You Pussy Slam it Already%NL%%NAME%}%CONTINUE%
-
 // Possible Sockets For Craft/Rare/Set/Unique Shields
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (buc OR xuc)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-1%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-1%TAN%)%NL%%NAME%}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (sml OR xml OR spk OR xpk OR bsh OR xsh)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-2%TAN%)%NL%%NAME%}%CONTINUE%
