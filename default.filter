@@ -5559,6 +5559,8 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (rng OR xng OR xcl OR brs OR xrs O
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL<26 (uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR gth OR xth OR uth OR ful OR xul OR uul OR aar OR xar OR uar)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-3%TAN%)%NL%%NAME%}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL>25 (gth OR xth OR ful OR xul OR aar OR xar)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-3%TAN%)%NL%%NAME%}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW ILVL>25 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-3%TAN%)%NAME%}%CONTINUE%
+// Ehvan You Pussy Slam it Already
+ItemDisplay[UNI uar]: %NAME%{%RED%Ehvan You %ORANGE%Pussy %RED%Slam it Already%NL%%NAME%}%CONTINUE%
 
 // Possible Sockets For Craft/Rare/Set/Unique Shields
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (buc OR xuc)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-1%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-1%TAN%)%NL%%NAME%}%CONTINUE%
@@ -5695,7 +5697,7 @@ ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (wnd OR 9wn OR ywn)]: %NAME%{%TAN%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (9yw OR bwn OR 9bw OR gwn OR 9gw)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-2%TAN%)%NL%%NAME%}%CONTINUE%
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW (7wn OR 7yw OR 7bw OR 7gw)]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-2%TAN%)%NAME%}%CONTINUE%
 // Garzilla's Little Love KEKW
-ItemDisplay[UNI !RW bwn]: %NAME%{%RED%Garzilla's Little Love %ORANGE%KEKW%NL%%NAME%}%CONTINUE%
+ItemDisplay[UNI bwn]: %NAME%{%RED%Garzilla's Little Love %ORANGE%KEKW%NL%%NAME%}%CONTINUE%
 
 // Possible Sockets For Craft/Rare/Set/Unique Scepters
 ItemDisplay[(CRAFT OR RARE OR SET OR UNI) !RW scp]: %NAME%{%TAN%LQ: (%WHITE%1%TAN%) %WHITE%| %ORANGE%LLB: %TAN%(%WHITE%1-2%TAN%) %WHITE%| %PURPLE%Wss: %TAN%(%WHITE%1-2%TAN%)%NL%%NAME%}%CONTINUE%
