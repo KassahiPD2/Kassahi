@@ -32,6 +32,7 @@ ItemDisplay[MAG cm3 !(TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK3
 ItemDisplay[(MAG OR RARE) jew]: Jewel%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI) amu]: Amulet%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI) rin]: Ring%CONTINUE%
+ItemDisplay[UNI ram]: Amulet%CONTINUE%
 
 // Names of Magic/Rare/Base Arrows/Bolts
 ItemDisplay[(MAG OR RARE) aqv]: Arrows%CONTINUE%
@@ -109,6 +110,7 @@ ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) uul]: Shadow Plate%CONT
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) aar]: Ancient Armor%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) xar]: Ornate Plate%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) uar]: Sacred Armor%CONTINUE%
+ItemDisplay[UNI rar]: Boneweave%CONTINUE%
 
 // Names of Magic/Crafted/Rare/Base Shields
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) buc]: Buckler%CONTINUE%
@@ -186,6 +188,7 @@ ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) utc]: Troll Belt%CONTIN
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) hbl]: Plated Belt%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) zhb]: War Belt%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) uhc]: Colossus Girdle%CONTINUE%
+ItemDisplay[UNI rbe]: Troll Belt%CONTINUE%
 
 // Names of Magic/Crafted/Rare/Base Circlets
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI OR NMAG) ci0]: Circlet%CONTINUE%
@@ -867,7 +870,7 @@ ItemDisplay[UNI ID amu FRW>29 IAS>19 STAT31>99 STAT32>99 DEX>24]: %GRAY%%NAME% %
 ItemDisplay[UNI ID amu ALLSK>0 STAT60>2 STAT32>9 STAT89>0]: %GRAY%%NAME% %GOLD%The Eye of Etlich%CONTINUE%
 ItemDisplay[UNI ID amu FCR>4 STAT119>29 STAT31>4 RES>4]: %GRAY%%NAME% %GOLD%The Mahim-Oak Curio%CONTINUE%
 ItemDisplay[UNI ID amu STAT333>5 REPLIFE>9 STAT143>4 STAT89>3]: %GRAY%%NAME% %GOLD%The Rising Sun%CONTINUE%
-ItemDisplay[UNI ID amu SOCK>0]: %GRAY%%NAME% %GOLD%The Third Eye%CONTINUE%
+ItemDisplay[UNI ID ram]: %GRAY%%NAME% %GOLD%The Third Eye%CONTINUE%
 
 // Names of Unique Rings
 ItemDisplay[UNI ID rin AR>49 STAT35>2 MAEK>0 STAT78>2 MFIND>14]: %GRAY%%NAME% %GOLD%Nagelring%CONTINUE%
@@ -925,7 +928,6 @@ ItemDisplay[UNI ID (brs OR xrs OR urs) ED>59 STAT46>14 PRES>44 STAT110>49 STAT89
 ItemDisplay[UNI ID (xrs OR urs) ED>159 STAT214>0 STR>14 STAT216>0 CRES>49 LRES>19 FRES>19 PRES>19 STAT153>0]: %GRAY%%NAME% %GOLD%Duriel's Shell%CONTINUE%
 ItemDisplay[UNI ID (chn OR xhn OR uhn) STAT330>4 ED>74 LRES>29 STAT128>19]: %GRAY%%NAME% %GOLD%Sparking Mail%CONTINUE%
 ItemDisplay[UNI ID (xhn OR uhn) ED>179 STAT32>249 LIFE>79 STAT36>19]: %GRAY%%NAME% %GOLD%Shaftstop%CONTINUE%
-ItemDisplay[UNI ID uhn SOCK>5]: %GRAY%%NAME% %GOLD%Cage of the Unsullied%CONTINUE%
 ItemDisplay[UNI ID (spl OR xpl OR upl) STAT134>0 ED>69 CRES>19 STAT35>1 STAT89>3]: %GRAY%%NAME% %GOLD%Iceblink%CONTINUE%
 ItemDisplay[UNI ID (xpl OR upl) ALLSK>0 ED>159 STAT35>9 STAT240>0 REPAIR>0]: %GRAY%%NAME% %GOLD%Skullder's Ire%CONTINUE%
 ItemDisplay[UNI ID upl ALLSK>0 FHR>29 ED>149 STAT223>0 STAT34>9]: %GRAY%%NAME% %GOLD%Arkaine's Valor%CONTINUE%
@@ -946,6 +948,7 @@ ItemDisplay[UNI ID (aar OR xar OR uar) ALLSK>0 FRW>24 STAT62>1 ED>99 STAT86>1 ST
 ItemDisplay[UNI ID (xar OR uar) ED>149 STR>7 STAT3>9 CRES>34]: %GRAY%%NAME% %GOLD%Corpsemourn%CONTINUE%
 ItemDisplay[UNI ID uar ALLSK>0 FHR>19 ED>169 STAT32>249 STR>19 STAT3>19 STAT11>39]: %GRAY%%NAME% %GOLD%Templar's Might%CONTINUE%
 ItemDisplay[UNI ID uar STAT152>0 FRW>44 STAT121>99 STAT122>99 ED>119 STR>19 RES>19 STAT153>0]: %GRAY%%NAME% %GOLD%Tyrael's Might%CONTINUE%
+ItemDisplay[UNI ID rar]: %GRAY%%NAME% %GOLD%Cage of the Unsullied%CONTINUE%
 
 // Names of Unique Shields
 ItemDisplay[UNI ID (buc OR xuc OR uuc) FBR>39 STAT20>19 ED>29 STAT31>29 STR>1 STAT3>9 STAT1>9]: %GRAY%%NAME% %GOLD%Pelta Lunata%CONTINUE%
@@ -1014,9 +1017,9 @@ ItemDisplay[UNI ID (zmb OR umc) FCR>9 STAT62>4 ED>119 STAT3>14 STAT77>14 STAT27>
 ItemDisplay[UNI ID umc FHR>9 ED>89 STAT3>29 REPLIFE>9 STAT11>99 STAT36>9]: %GRAY%%NAME% %GOLD%Verdungo's Hearty Cord%CONTINUE%
 ItemDisplay[UNI ID (tbl OR ztb OR utc) IAS>19 ED>39 STAT31>24 GFIND>49 MFIND>19 STAT89>1]: %GRAY%%NAME% %GOLD%Goldwrap%CONTINUE%
 ItemDisplay[UNI ID (ztb OR utc) ED>129 STAT44>4 CRES>19]: %GRAY%%NAME% %GOLD%Snowclash%CONTINUE%
-ItemDisplay[UNI ID utc SOCK>0]: %GRAY%%NAME% %GOLD%Band of Skulls%CONTINUE%
 ItemDisplay[UNI ID (hbl OR zhb OR uhc) FHR>19 ED>79 STAT31>29 STR>4 DEX>9 STAT34>3 STAT78>419]: %GRAY%%NAME% %GOLD%Bladebuckle%CONTINUE%
 ItemDisplay[UNI ID (zhb OR uhc) SK35>1 SK34>1 ED>159 STR>9 STAT3>9 STAT42>4 STAT145>4]: %GRAY%%NAME% %GOLD%Thundergod's Vigor%CONTINUE%
+ItemDisplay[UNI ID rbe]: %GRAY%%NAME% %GOLD%Band of Skulls%CONTINUE%
 
 // Names of Unique Circlets
 ItemDisplay[UNI ID (ci2 OR ci3) FHR>19 STAT335>4 STAT334>4 STAT333>4 STAT31>49 RES>24 STAT153>0]: %GRAY%%NAME% %GOLD%Kira's Guardian%CONTINUE%
