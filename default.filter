@@ -7069,13 +7069,13 @@ ItemDisplay[(MAG OR CRAFT OR RARE) ((CLSK0=2 AND TABSK2>1) OR (CLSK0=1 AND TABSK
 ItemDisplay[(MAG OR CRAFT OR RARE) ((CLSK0=2 AND TABSK2>1) OR (CLSK0=1 AND TABSK2>2) OR (TABSK2>3)) 2H ZON]: %ORANGE%***%GREEN%***   %RED%Javelin and Spear Spear   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Javelin and Spear Spear   %ORANGE%***%NL%%NAME%}%CONTINUE%
 
 // Teleport Charges
-ItemDisplay[STAFF (MAG OR RARE OR CRAFT) CHSK54>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Teleport Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Teleport Charges   %ORANGE%***}
+ItemDisplay[STAFF (MAG OR RARE OR CRAFT) (SUFFIX=532 OR SUFFIX=533) ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Teleport Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Teleport Charges   %ORANGE%***}
 
 // Lower Resist Charges
-ItemDisplay[WAND (MAG OR RARE OR CRAFT) CHSK91>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Lower Resist Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Lower Resist Charges   %ORANGE%***}
+ItemDisplay[WAND (MAG OR RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595) ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Lower Resist Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Lower Resist Charges   %ORANGE%***}
 
 // Life Tap Charges
-ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) CHSK82>0 ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Life Tap Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Life Tap Charges   %ORANGE%***}
+ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579) ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Life Tap Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Life Tap Charges   %ORANGE%***}
 
 // Catchall
 ItemDisplay[(MAG OR CRAFT OR RARE OR SET OR UNI) ID]: %NAME%{%NAME%}%WHITE%
