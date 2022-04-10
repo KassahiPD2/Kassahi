@@ -7592,7 +7592,7 @@ ItemDisplay[SET utb ID ASSASSIN]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 50 to 145
 ItemDisplay[SET uhb ID ASSASSIN]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 83 to 149}%CONTINUE%
 // RARE CRAFTING (INFO)
 ItemDisplay[RARE ID (ARMOR OR WEAPON) !(ELT (GLOVES OR BOOTS OR BELT)) ILVL>25]: %NAME%{%TAN%Rares Can Be Crafted With%NL%%NAME%}%CONTINUE%
-ItemDisplay[RARE ID ELT (GLOVES OR BOOTS OR BELT))  ILVL>25]: %NAME%{%TAN%Rares Can Be Crafted With%NAME%}%CONTINUE%
+ItemDisplay[RARE ID ELT (GLOVES OR BOOTS OR BELT) ILVL>25]: %NAME%{%TAN%Rares Can Be Crafted With%NAME%}%CONTINUE%
 ItemDisplay[RARE ID !(jew OR ARMOR OR WEAPON) ILVL>25]: %NAME%{%TAN%Rares Can Be Crafted With%NAME%}%CONTINUE%
 
 
