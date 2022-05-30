@@ -4919,7 +4919,7 @@ ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 
 // Ideal Class Item Crafting Bases (LLD)
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (spc OR 9sp OR clb OR 9cl) OR (ces OR 9cs)) MAG !ID ILVL>50]: %NAME%{%NAME%}
 // Ideal Ethereal Crafting Bases (LLD)
-ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %DOT-9A%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%PURPLE%LLD Crafting Base: %GRAY%Lvl %WHITE%30%NL%%NAME%}%CONTINUE%
+ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %DOT-9A%%NAME% %GRAY%(%PURPLE%LLD%GRAY%){%PURPLE%LLD Crafting Base: %GRAY%Lvl %WHITE%30%NL%%NAME%}
 // Ideal Ethereal Crafting Bases (Lower Difficulties / Item Levels) (LLD)
 ItemDisplay[(pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
 ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %DOT-9A%%NAME%
