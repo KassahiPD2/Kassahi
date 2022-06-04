@@ -118,7 +118,6 @@ ItemDisplay[!SET !UNI !RW uul]: Shadow Plate%CONTINUE%
 ItemDisplay[!SET !UNI !RW aar]: Ancient Armor%CONTINUE%
 ItemDisplay[!SET !UNI !RW xar]: Ornate Plate%CONTINUE%
 ItemDisplay[!SET !UNI !RW uar]: Sacred Armor%CONTINUE%
-ItemDisplay[UNI rar]: Boneweave%CONTINUE%
 // SHIELD'S NAME (BASE)
 ItemDisplay[!SET !UNI !RW buc]: Buckler%CONTINUE%
 ItemDisplay[!SET !UNI !RW xuc]: Defender%CONTINUE%
@@ -192,7 +191,6 @@ ItemDisplay[!SET !UNI !RW utc]: Troll Belt%CONTINUE%
 ItemDisplay[!SET !UNI !RW hbl]: Plated Belt%CONTINUE%
 ItemDisplay[!SET !UNI !RW zhb]: War Belt%CONTINUE%
 ItemDisplay[!SET !UNI !RW uhc]: Colossus Girdle%CONTINUE%
-ItemDisplay[UNI rbe]: Troll Belt%CONTINUE%
 // CIRCLET'S NAME (BASE)
 ItemDisplay[!SET !UNI !RW ci0]: Circlet%CONTINUE%
 ItemDisplay[!SET !UNI !RW ci1]: Coronet%CONTINUE%
@@ -3930,6 +3928,9 @@ ItemDisplay[UNI 6s7 STAT250>0]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None: %WHITE%
 ItemDisplay[UNI 6hx STAT363>3]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-5%TAN%)}
 ItemDisplay[UNI 7sc STAT139>14]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
 ItemDisplay[SET 7ws]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3-4%TAN%)}
+ItemDisplay[UNI ram]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1%TAN%)}
+ItemDisplay[UNI rbe]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1%TAN%)}
+ItemDisplay[UNI rar]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%6%TAN%)}
 // LARZUK'S POSSIBLE SOCKETS -NMAG (INFO)
 ItemDisplay[MAG (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%LQ: %WHITE%1%NAME%}%CONTINUE% // LQ Begin
 ItemDisplay[!NMAG !MAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%LQ: %WHITE%1%NAME%}%CONTINUE% // LQ Begin
