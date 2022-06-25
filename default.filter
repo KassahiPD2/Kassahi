@@ -3693,6 +3693,8 @@ ItemDisplay[RW CHEST SOCK=3 STAT240>0]: %NAME%{%WHITE%PvP Arena: %TAN%(%GRAY%Bli
 ItemDisplay[NMAG SOCK=0 !ETH ci3]: %NAME%{%WHITE%Charsi Quest: %TAN%(%WHITE%Can %YELLOW%Imbue %WHITE%an Item%TAN%)%NL%%NL%%NAME%}%CONTINUE%
 // CLUB'S COW (1-9 FILTER LEVEL)
 ItemDisplay[leg !RW]: %NAME%{%WHITE%in Act 1 to Open...%NL%%TAN%Cube: %BLUE%Tome of Town Portal, %WHITE%Wirt's Leg%NL%Wirt's Leg Can Be Used in All difficulties%NL%%NL%%NAME%}%CONTINUE%
+// DIADEM'S REROLL (1-9 FILTER LEVEL)
+ItemDisplay[RARE !ETH ci3]: %NAME%{%TAN%Tip: (%WHITE%6x %GRAY%O, %WHITE%to Reroll 2/20s infinitely%TAN%)%NL%%NAME%}%CONTINUE%
 // SMALL CHARM'S (LLD)
 ItemDisplay[cm1 !UNI ((MANA>9 OR RES>0 OR STAT214>14 OR MAXDMG>1 OR CRES>6 OR FRES>6 OR LRES>6 OR PRES>6) (LIFE>9 OR DEX>1 OR STR>1 OR FRW>0 OR FHR>0)) LVLREQ<31]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%PURPLE%LLD Usable: %TAN%(%GRAY%Lvl: %WHITE%30%TAN%)}
 ItemDisplay[cm1 !UNI LIFE>13 LVLREQ<31]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%PURPLE%LLD Usable: %TAN%(%GRAY%Lvl: %WHITE%30%TAN%)}
@@ -4247,73 +4249,46 @@ ItemDisplay[WAND (MAG OR RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595) ((NORM OR EXC
 // Life Tap Charges
 ItemDisplay[WEAPON (MAG OR RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579) ((NORM OR EXC) OR (SOCK=0 AND !THROWING) OR MAG)]: %ORANGE%***%GREEN%***   %RED%Life Tap Charges   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Life Tap Charges   %ORANGE%***%NL%%NAME%}
 // AMULET'S CRAFTING (INFO)
-ItemDisplay[MAG ID amu ILVL=82]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=83]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=84]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=85]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=86]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=87]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=88]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=89]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=90]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=91]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=92]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=93]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=94]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=95]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=96]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=97]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=98]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL=99]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%10, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%14, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%18, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%11, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%8, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%10, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+}%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=82 OR ILVL=83)]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=84 OR ILVL=85)]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=86 OR ILVL=87)]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=88 OR ILVL=89)]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=90 OR ILVL=91)]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=92 OR ILVL=93)]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=94 OR ILVL=95)]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=96 OR ILVL=97)]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu (ILVL=98 OR ILVL=99)]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems}%CONTINUE%
 // RING'S CRAFTING (INFO)
-ItemDisplay[MAG ID rin ILVL=64]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=65]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=66]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=67]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=68]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=69]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=70]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=71]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=72]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=73]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=74]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=75]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=76]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=77]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=78]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=79]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=80]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=81]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=82]: %NAME% %TAN%(%WHITE%80+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=83]: %NAME% %TAN%(%WHITE%80+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=84]: %NAME% %TAN%(%WHITE%78+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=85]: %NAME% %TAN%(%WHITE%78+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=86]: %NAME% %TAN%(%WHITE%76+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=87]: %NAME% %TAN%(%WHITE%76+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=88]: %NAME% %TAN%(%WHITE%74+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=89]: %NAME% %TAN%(%WHITE%74+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=90]: %NAME% %TAN%(%WHITE%72+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=91]: %NAME% %TAN%(%WHITE%72+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=92]: %NAME% %TAN%(%WHITE%70+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=93]: %NAME% %TAN%(%WHITE%70+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=94]: %NAME% %TAN%(%WHITE%68+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=95]: %NAME% %TAN%(%WHITE%68+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=96]: %NAME% %TAN%(%WHITE%66+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=97]: %NAME% %TAN%(%WHITE%66+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=98]: %NAME% %TAN%(%WHITE%64+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL=99]: %NAME% %TAN%(%WHITE%64+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%11, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%15, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%17, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%12, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%11, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%11, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+}%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=64 OR ILVL=65)]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=66 OR ILVL=67)]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=68 OR ILVL=69)]: %NAME% %TAN%(%WHITE%94+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=70 OR ILVL=71)]: %NAME% %TAN%(%WHITE%92+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=72 OR ILVL=73)]: %NAME% %TAN%(%WHITE%90+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=74 OR ILVL=75)]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=76 OR ILVL=77)]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=78 OR ILVL=79)]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=80 OR ILVL=81)]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=82 OR ILVL=83)]: %NAME% %TAN%(%WHITE%80+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=84 OR ILVL=85)]: %NAME% %TAN%(%WHITE%78+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=86 OR ILVL=87)]: %NAME% %TAN%(%WHITE%76+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=88 OR ILVL=89)]: %NAME% %TAN%(%WHITE%74+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=90 OR ILVL=91)]: %NAME% %TAN%(%WHITE%72+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=92 OR ILVL=93)]: %NAME% %TAN%(%WHITE%70+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=94 OR ILVL=95)]: %NAME% %TAN%(%WHITE%68+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=96 OR ILVL=97)]: %NAME% %TAN%(%WHITE%66+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin (ILVL=98 OR ILVL=99)]: %NAME% %TAN%(%WHITE%64+%TAN%)%CONTINUE%
+ItemDisplay[MAG ID rin ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems}%CONTINUE%
 // ITEM'S CRAFTING (INFO)
-ItemDisplay[MAG ID HELM ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%6, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%17, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%3, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%8, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%4, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%6, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID CHEST ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%5, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%3, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%2, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%10, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%7, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%4, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID SHIELD ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%4, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%12, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%14, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%6, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%5, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%5, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%8, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%16, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%15, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%4, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%9, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%9, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NAME%}%CONTINUE%
-ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%9, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%1, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%16, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%5, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%10, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%8, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NAME%}%CONTINUE%
-ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%7, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%2, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%1, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%7, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%6, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%7, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NAME%}%CONTINUE%
-ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Sfy: %TAN%(%GREEN%12, O%TAN%) %WHITE%Vpc: %TAN%(%GREEN%13, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%13, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%9, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%3, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%3, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !(BOW OR XBOW OR THROWING) ILVL>25]: %NAME%{%WHITE%Vpc: %TAN%(%GREEN%13, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%13, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%9, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%3, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%3, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID THROWING !(BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Vpc: %TAN%(%GREEN%13, %GRAY%O%TAN%) %WHITE%Btf: %TAN%(%GREEN%13, %YELLOW%O%TAN%)%NL%%WHITE%Bld: %TAN%(%GREEN%9, %RED%O%TAN%) %WHITE%Ctr: %TAN%(%GREEN%3, %PURPLE%O%TAN%) %WHITE%Hit: %TAN%(%GREEN%3, %BLUE%O%TAN%)%NL%%WHITE%Crafting Recipes: %TAN%(%GOLD%O%TAN%) %WHITE%+%NAME%}%CONTINUE%
+ItemDisplay[MAG ID HELM ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
+ItemDisplay[MAG ID CHEST ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
+ItemDisplay[MAG ID SHIELD ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
+ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
+ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
+ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
+ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
+ItemDisplay[MAG ID WEAPON !(BOW OR XBOW OR THROWING) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
+ItemDisplay[MAG ID THROWING !(BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
 // SET BOOT'S KICK DAMAGE (INFO)
 ItemDisplay[SET lbt ID]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 3 to 8}%CONTINUE%
 ItemDisplay[SET vbt ID]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 4 to 12}%CONTINUE%
@@ -4330,10 +4305,6 @@ ItemDisplay[SET uvb ID]: %NAME%{%WHITE%Kick Damage: 70 to 110}%CONTINUE%
 ItemDisplay[SET umb ID]: %NAME%{%WHITE%Kick Damage: 80 to 125}%CONTINUE%
 ItemDisplay[SET utb ID]: %NAME%{%WHITE%Kick Damage: 69 to 147}%CONTINUE%
 ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}%CONTINUE%
-// RARE CRAFTING (INFO)
-ItemDisplay[RARE ID (ARMOR OR WEAPON) !((ELT GLOVES) OR (ELT BOOTS) OR (ELT BELT) OR (ELT THROWING)) ILVL>25]: %NAME%{%GRAY%(Can Be Crafted With)%NL%%NAME%}%CONTINUE%
-ItemDisplay[RARE ID ((ELT GLOVES) OR (ELT BOOTS) OR (ELT BELT) OR (ELT THROWING)) ILVL>25]: %NAME%{%GRAY%(Can Be Crafted With)%NAME%}%CONTINUE%
-ItemDisplay[RARE ID !(jew OR aqv OR cqv OR CIRC OR ARMOR OR WEAPON) ILVL>25]: %NAME%{%GRAY%(Can Be Crafted With)%NAME%}%CONTINUE%
 
 
 
@@ -4429,14 +4400,14 @@ ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYP
 ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=4]: %NAME%%RED%o%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=5]: %NAME%%BLUE%o%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=6]: %NAME%%YELLOW%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=7]: %NAME%%GRAY%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=7]: %NAME%%GRAY%o]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=1]: %NAME%%PURPLE%O%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=2]: %NAME%%WHITE%O%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=3]: %NAME%%GREEN%O%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=4]: %NAME%%RED%O%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=5]: %NAME%%BLUE%O%GRAY%]%CONTINUE%
 ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=6]: %NAME%%YELLOW%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=7]: %NAME%%GRAY%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=7]: %NAME%%GRAY%O]%CONTINUE%
 ItemDisplay[(GEMLEVEL=4 OR GEMLEVEL=5)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
 ItemDisplay[gzvs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%+24 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+8 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+100 %BLUE%to AR}
 ItemDisplay[glws]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %BLUE%All Res %WHITE%+14%%NL%%TAN%Armor/Helm: %WHITE%+80 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+54% %BLUE%Dmg vs Und}
@@ -4445,13 +4416,13 @@ ItemDisplay[glrs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perf
 ItemDisplay[glbs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%28% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+31 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%6-10 %BLUE%Cold Dmg}
 ItemDisplay[glys]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%28% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%20% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-30 %BLUE%Light Dmg}
 ItemDisplay[skls]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %BLUE%ATD %WHITE%+16%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%4, %BLUE%Reg Mana %WHITE%12%%NL%%TAN%Weapon: %WHITE%3% %BLUE%Life, %WHITE%3% %BLUE%Mana}
-ItemDisplay[gpvs]: %NAME%{%TAN%Shield: %WHITE%+30 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+10 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+150 %BLUE%to AR}
+ItemDisplay[gpvs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%10%TAN%) %WHITE%Belt: %TAN%(%GREEN%6%TAN%) %WHITE%Weapon: %TAN%(%GREEN%3%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%7%TAN%) %WHITE%Shield: %TAN%(%GREEN%5%TAN%) %WHITE%Gloves: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%8%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%4%TAN%)%NL%%PURPLE%Caster %WHITE%Crafting Recipes: %TAN%(%PURPLE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%+30 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+10 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+150 %BLUE%to AR}
 ItemDisplay[gpws]: %NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+19%%NL%%TAN%Armor/Helm: %WHITE%+100 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+68% %BLUE%Dmg vs Und}
-ItemDisplay[gpgs]: %NAME%{%TAN%Shield: %WHITE%40% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+10%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+100 %BLUE%Psn Dmg Over %WHITE%7 %BLUE%Sec}
-ItemDisplay[gprs]: %NAME%{%TAN%Shield: %WHITE%40% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%15-20 %BLUE%Fire Dmg}
-ItemDisplay[gpbs]: %NAME%{%TAN%Shield: %WHITE%40% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%10-14 %BLUE%Cold Dmg}
-ItemDisplay[gpys]: %NAME%{%TAN%Shield: %WHITE%40% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%24% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-40 %BLUE%Light Dmg}
-ItemDisplay[skzs]: %NAME%{%TAN%Tip: %WHITE%Cube 6x %GRAY%O, %YELLOW%Rare Diadem, %WHITE%to Reroll%NL%%NL%%TAN%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
+ItemDisplay[gpgs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%9%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Bow%TAN%/%WHITE%Xbow: %TAN%(%GREEN%12%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%5%TAN%) %WHITE%Shield: %TAN%(%GREEN%4%TAN%) %WHITE%Gloves: %TAN%(%GREEN%8%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%10%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%6%TAN%)%NL%%GREEN%Safety %WHITE%Crafting Recipes: %TAN%(%GREEN%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+10%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+100 %BLUE%Psn Dmg Over %WHITE%7 %BLUE%Sec}
+ItemDisplay[gprs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%5%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Weapon: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%10%TAN%) %WHITE%Shield: %TAN%(%GREEN%6%TAN%) %WHITE%Gloves: %TAN%(%GREEN%4%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%11%TAN%) %WHITE%Ring: %TAN%(%GREEN%12%TAN%) %WHITE%Helm: %TAN%(%GREEN%8%TAN%)%NL%%RED%Blood %WHITE%Crafting Recipes: %TAN%(%RED%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%15-20 %BLUE%Fire Dmg}
+ItemDisplay[gpbs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%8%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Weapon: %TAN%(%GREEN%3%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%4%TAN%) %WHITE%Shield: %TAN%(%GREEN%5%TAN%) %WHITE%Gloves: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%10%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%6%TAN%)%NL%%BLUE%Hitpower %WHITE%Crafting Recipes: %TAN%(%BLUE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%10-14 %BLUE%Cold Dmg}
+ItemDisplay[gpys]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%16%TAN%) %WHITE%Belt: %TAN%(%GREEN%1%TAN%) %WHITE%Weapon: %TAN%(%GREEN%13%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%2%TAN%) %WHITE%Shield: %TAN%(%GREEN%14%TAN%) %WHITE%Gloves: %TAN%(%GREEN%15%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%18%TAN%) %WHITE%Ring: %TAN%(%GREEN%17%TAN%) %WHITE%Helm: %TAN%(%GREEN%1%TAN%)%NL%%YELLOW%Bountiful %WHITE%Crafting Recipes: %TAN%(%YELLOW%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%24% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-40 %BLUE%Light Dmg}
+ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%1%TAN%) %WHITE%Belt: %TAN%(%GREEN%2%TAN%) %WHITE%Weapon: %TAN%(%GREEN%13%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%3%TAN%) %WHITE%Shield: %TAN%(%GREEN%12%TAN%) %WHITE%Gloves: %TAN%(%GREEN%16%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%14%TAN%) %WHITE%Ring: %TAN%(%GREEN%15%TAN%) %WHITE%Helm: %TAN%(%GREEN%17%TAN%)%NL%%GRAY%Vampiric %WHITE%Crafting Recipes: %TAN%(%GRAY%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
 ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%
 ItemDisplay[GEM<4]:
 // RUNES
