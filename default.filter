@@ -4762,7 +4762,7 @@ ItemDisplay[NMAG SOCK=3 !INF !RW !ETH NEC (SK66=3 OR SK67=3 OR SK69=3 OR SK70=3 
 // AXE'S (NMAG)
 ItemDisplay[NMAG SOCK=0 !INF !RW !ETH ED>9 (7ha OR 7ax OR 72a OR 7wa)]: %DOT-20%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=0 !INF !RW !ETH (2ax OR 7ha OR 7ax OR 72a OR 7wa)]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=0 !INF !RW ETH (2ax OR 7ha OR 7ax OR 72a OR 7wa OR 7ba OR 7bt OR 7gi)]: %DOT-20%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=0 !INF !RW ETH (7ha OR 7ax OR 72a OR 7wa OR 7ba OR 7bt OR 7gi)]: %DOT-20%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW !ETH ED>9 (7ha OR 7ax OR 72a OR 7wa)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW !ETH (7ha OR 7ax OR 72a OR 7wa)]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW ETH (7ba OR 7bt OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
@@ -4772,7 +4772,7 @@ ItemDisplay[NMAG SOCK=4 !INF !RW !ETH (7ax OR 72a OR 7wa)]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW ETH (7ax OR 72a OR 7wa OR 7ba OR 7bt OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW !ETH ED>9 (72a OR 7wa)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW !ETH (2ax OR 72a OR 7wa)]: %NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=5 !INF !RW ETH (2ax OR 72a OR 7wa OR 7ba OR 7bt OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=5 !INF !RW ETH (72a OR 7wa OR 7ba OR 7bt OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=6 !INF !RW !ETH ED>9 (7wa OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=6 !INF !RW !ETH (7wa OR 7gi)]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=6 !INF !RW ETH (7wa OR 7gi)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
