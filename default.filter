@@ -3313,7 +3313,7 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Dominion: (%GREEN%32, 2
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) King's Grace: (%GREEN%11, 8, 10%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice: (%GREEN%29, 32, 11, 28%TAN%)%NL%Fortitude: (%GREEN%1, 12, 14, 28%TAN%) Phoenix: (%GREEN%26, 26, 28, 31%TAN%)%NL%Rift: (%GREEN%15, 18, 20, 25%TAN%) Insight: (%GREEN%8, 3, 7, 12%TAN%)%NL%Holy Thunder: (%GREEN%5, 8, 9, 7%TAN%) Passion: (%GREEN%14, 9, 2, 20%TAN%)%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL<9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Beast: (%GREEN%30, 3, 22, 23, 17%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL<9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Doom: (%GREEN%15, 27, 22, 28, 32%TAN%)%NL%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Beast: (%GREEN%30, 3, 22, 23, 17%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength: (%GREEN%11, 3%TAN%) Wind: (%GREEN%29, 1%TAN%)%NL%Steel: (%GREEN%3, 1%TAN%) Neophyte: (%GREEN%10, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury: (%GREEN%32, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Venom: (%GREEN%7, 14, 23%TAN%) Chaos: (%GREEN%19, 27, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Crescent Moon: (%GREEN%13, 22, 3%TAN%)%NL%King's Grace: (%GREEN%11, 8, 10%TAN%) Black: (%GREEN%10, 16, 4%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Pattern: (%GREEN%7, 9, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
@@ -3328,79 +3328,79 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Pride: (
 ItemDisplay[FILTLVL<9 NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Zenith: (%GREEN%31, 33, 9, 10, 8%TAN%)%NL%Destruction: (%GREEN%26, 28, 30, 31, 18%TAN%) Doom: (%GREEN%15, 27, 22, 28, 32%TAN%)%NL%Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%) Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Obedience: (%GREEN%15, 18, 10, 5, 19%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=6 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Silence: (%GREEN%14, 2, 15, 24, 3, 26%TAN%) Breath of the Dying: (%GREEN%26, 15, 1, 2, 33, 5%TAN%)%NAME%}%CONTINUE%
 // NMAG POSSIBLE RUNEWORDS (9 FILTER LEVEL)
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir, Lore %NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream, Ferocity%NL%Delirium, Flickering Flame%NL%Radiance, Wisdom%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%TAN%Nadir, Lore%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%TAN%Dream, Ferocity%NL%Delirium, Flickering Flame,%NL%Radiance, Wisdom,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 CHEST !RW]: %NAME%{%TAN%Prudence%NL%Stealth, Smoke%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma%NL%Rain, Dragon%NL%Gloom, Duress%NL%Enlightenment, Bone%NL%Treachery, Principle%NL%Lionheart, Wealth%NL%Myth, Peace%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble, Chains of Honor%NL%Stone, Fortitude%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 CHEST !RW]: %NAME%{%TAN%Enigma%NL%Rain, Dragon,%NL%Gloom, Duress,%NL%Enlightenment, Bone,%NL%Treachery, Principle,%NL%Lionheart, Wealth%NL%Myth, Peace,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 CHEST !RW]: %NAME%{%TAN%Bramble, Chains of Honor%NL%Stone, Fortitude,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SHIELD !RW]: %NAME%{%TAN%Rhyme, Splendor%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon, Dream%NL%Ancient's Pledge, Sanctuary%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Phoenix%NL%Spirit, Exile%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Plague,%NL%Venom, Fury%NL%Malice, Crescent Moon%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix%NL%Kingslayer, Fortitude%NL%Passion, Oath%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Doom%NL%Eternity, Beast%NL%Call to Arms, Grief%NL%Honor, Death%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Last Wish%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 (9cl OR 7cl OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury%NL%Malice, Black%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury, Plague%NL%Black, Venom%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Hand of Justice%NL%Fortitude, Phoenix%NL%Oath, Heart of the Oak%NL%Voice of Reason, Passion%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Eternity%NL%Honor, Call to Arms%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Strength, Wind%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Fury, Plague%NL%Lawbringer, Venom%NL%Malice, Black%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix%NL%Passion, Fortitude%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Beast, Doom%NL%Call to Arms, Eternity%NL%Honor, Obedience%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Last Wish%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 SWORD !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SWORD !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury%NL%Lawbringer, Crescent Moon%NL%Malice, King's Grace%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 SWORD !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix%NL%Kingslayer, Fortitude%NL%Passion, Oath%NL%Spirit, Voice of Reason%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 SWORD !RW]: %NAME%{%TAN%Doom%NL%Eternity, Destruction%NL%Call to Arms, Grief%NL%Honor, Death%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=6 SWORD !RW]: %NAME%{%TAN%Last Wish, Breath of the Dying%NL%Unbending Will, Silence%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SHIELD !RW]: %NAME%{%TAN%Dragon, Dream%NL%Ancient's Pledge, Sanctuary,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 SHIELD !RW]: %NAME%{%TAN%Phoenix%NL%Spirit, Exile,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 AXE !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 AXE !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Malice, Crescent Moon,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 AXE !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix,%NL%Kingslayer, Fortitude,%NL%Passion, Oath,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 AXE !RW]: %NAME%{%TAN%Doom%NL%Eternity, Beast,%NL%Call to Arms, Grief,%NL%Honor, Death,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Last Wish,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 (9cl OR 7cl OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Malice, Black,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury, Plague%NL%Black, Venom,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Hand of Justice%NL%Fortitude, Phoenix,%NL%Oath, Heart of the Oak,%NL%Voice of Reason, Passion,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Eternity%NL%Honor, Call to Arms,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Strength, Wind,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Fury, Plague%NL%Lawbringer, Venom,%NL%Malice, Black,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix,%NL%Passion, Fortitude,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Beast, Doom%NL%Call to Arms, Eternity,%NL%Honor, Obedience,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Last Wish,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 SWORD !RW]: %NAME%{%TAN%Wind%NL%Steel, Strength,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SWORD !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Lawbringer, Crescent Moon,%NL%Malice, King's Grace,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 SWORD !RW]: %NAME%{%TAN%Hand of Justice%NL%Famine, Phoenix,%NL%Kingslayer, Fortitude,%NL%Passion, Oath,%NL%Spirit, Voice of Reason,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 SWORD !RW]: %NAME%{%TAN%Doom%NL%Eternity, Destruction,%NL%Call to Arms, Grief,%NL%Honor, Death,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=6 SWORD !RW]: %NAME%{%TAN%Last Wish, Breath of the Dying%NL%Unbending Will, Silence,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 DAGGER !THROWING !RW]: %NAME%{%TAN%Strength, Wind%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 DAGGER !THROWING !RW]: %NAME%{%TAN%Fury, Plague%NL%Malice, Venom%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 DAGGER !THROWING !RW]: %NAME%{%TAN%Fury, Plague%NL%Malice, Venom,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Strength, Wind%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury%NL%Malice, Crescent Moon%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice%NL%Fortitude, Infinity%NL%Passion, Rift%NL%Insight, Rampage%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom%NL%Call to Arms, Eternity%NL%Honor, Obedience%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Malice, Crescent Moon,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice,%NL%Fortitude, Infinity,%NL%Passion, Rift,%NL%Insight, Rampage,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom,%NL%Call to Arms, Eternity,%NL%Honor, Obedience,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=6 SPEAR !THROWING !ZON !RW]: %NAME%{%TAN%Silence, Breath of the Dying%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 POLEARM !RW]: %NAME%{%TAN%Strength, Wind%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 POLEARM !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury%NL%Malice, Crescent Moon%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 POLEARM !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice%NL%Fortitude, Infinity%NL%Passion, Rift%NL%Insight, Rampage%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 POLEARM !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom%NL%Call to Arms, Eternity%NL%Honor, Obedience%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 POLEARM !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Malice, Crescent Moon,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 POLEARM !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice,%NL%Fortitude, Infinity,%NL%Passion, Rift,%NL%Insight, Rampage,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 POLEARM !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom,%NL%Call to Arms, Eternity,%NL%Honor, Obedience,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=6 POLEARM !RW]: %NAME%{%TAN%Silence, Breath of the Dying%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 BOW !ZON !RW]: %NAME%{%TAN%Zephyr%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 BOW !ZON !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 BOW !ZON !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Faith, Brand%NL%Wrath, Ice%NL%Passion, Fortitude%NL%Harmony, Voice of Reason%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 BOW !ZON !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 BOW !ZON !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 BOW !ZON !RW]: %NAME%{%TAN%Phoenix, Hand of Justice,%NL%Faith, Brand,%NL%Wrath, Ice,%NL%Passion, Fortitude,%NL%Harmony, Voice of Reason,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 BOW !ZON !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=6 BOW !ZON !RW]: %NAME%{%TAN%Silence, Breath of the Dying%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 XBOW !RW]: %NAME%{%TAN%Zephyr%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 XBOW !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 XBOW !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Faith, Brand%NL%Wrath, Ice%NL%Passion, Fortitude%NL%Harmony, Voice of Reason%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 XBOW !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 XBOW !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 XBOW !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Faith, Brand,%NL%Wrath, Ice,%NL%Passion, Fortitude,%NL%Harmony, Voice of Reason,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 XBOW !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=6 XBOW !RW]: %NAME%{%TAN%Silence, Breath of the Dying%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 STAFF !RW]: %NAME%{%TAN%Strength, Wind%NL%Leaf, Neophyte%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury, Plague%NL%Malice, Venom%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 STAFF !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Fortitude, Infinity%NL%Passion, Heart of the Oak%NL%Rampage, Memory%NL%Spirit, Insight%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 STAFF !RW]: %NAME%{%TAN%Eternity, Doom%NL%Honor, Call to Arms%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=6 STAFF !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Obsession%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Dominion%NL%Strength, White%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury, Plague%NL%Lawbringer, Venom%NL%Malice, King's Grace%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice%NL%Fortitude, Phoenix%NL%Rift, Insight%NL%Holy Thunder, Passion%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity, Beast%NL%Honor, Call to Arms%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength, Wind%NL%Steel, Neophyte%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury, Plague%NL%Venom, Chaos%NL%Lawbringer, Crescent Moon%NL%King's Grace, Black%NL%Malice, Pattern%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 STAFF !RW]: %NAME%{%TAN%Strength, Wind%NL%Leaf, Neophyte,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury, Plague%NL%Malice, Venom,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 STAFF !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Fortitude, Infinity,%NL%Passion, Heart of the Oak,%NL%Rampage, Memory,%NL%Spirit, Insight,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 STAFF !RW]: %NAME%{%TAN%Eternity, Doom%NL%Honor, Call to Arms,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=6 STAFF !RW]: %NAME%{%TAN%Breath of the Dying%NL%Silence, Obsession,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Dominion%NL%Strength, White,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury, Plague%NL%Lawbringer, Venom,%NL%Malice, King's Grace,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice%NL%Fortitude, Phoenix,%NL%Rift, Insight,%NL%Holy Thunder, Passion,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Doom%NL%Eternity, Beast,%NL%Honor, Call to Arms,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength, Wind%NL%Steel, Neophyte,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury, Plague%NL%Venom, Chaos,%NL%Lawbringer, Crescent Moon,%NL%King's Grace, Black,%NL%Malice, Pattern,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=3 SOR !RW]: %NAME%{%TAN%Venom, Plague%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 ZON BOW !RW]: %NAME%{%TAN%Zephyr%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 ZON BOW !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 ZON BOW !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Faith, Brand%NL%Wrath, Ice%NL%Passion, Fortitude%NL%Harmony, Voice of Reason%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 ZON BOW !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 ZON BOW !RW]: %NAME%{%TAN%Venom, Plague%NL%Edge, Melody,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 ZON BOW !RW]: %NAME%{%TAN%Phoenix, Hand of Justice%NL%Faith, Brand,%NL%Wrath, Ice,%NL%Passion, Fortitude,%NL%Harmony, Voice of Reason,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 ZON BOW !RW]: %NAME%{%TAN%Zenith%NL%Call to Arms, Mist,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Strength, Wind%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=3 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury%NL%Malice, Crescent Moon%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice%NL%Fortitude, Infinity%NL%Passion, Rift%NL%Insight, Rampage%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom%NL%Call to Arms, Eternity%NL%Honor, Obedience%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=3 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Plague%NL%Venom, Fury,%NL%Malice, Crescent Moon,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Pride%NL%Phoenix, Hand of Justice,%NL%Fortitude, Infinity,%NL%Passion, Rift,%NL%Insight, Rampage,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Zenith%NL%Destruction, Doom,%NL%Call to Arms, Eternity,%NL%Honor, Obedience,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=6 SPEAR ZON !THROWING !RW]: %NAME%{%TAN%Silence, Breath of the Dying%NAME%}%CONTINUE%
 // NMAG NOTIFYER POSSIBLE RUNEWORDS (1-9 FILTER LEVEL)
 ItemDisplay[NMAG !RW (SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%NL%%WHITE%Possible Runewords:}%CONTINUE%
