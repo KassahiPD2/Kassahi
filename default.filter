@@ -4269,7 +4269,6 @@ ItemDisplay[MAG ID amu (ILVL=92 OR ILVL=93)]: %NAME% %TAN%(%WHITE%88+%TAN%)%CONT
 ItemDisplay[MAG ID amu (ILVL=94 OR ILVL=95)]: %NAME% %TAN%(%WHITE%86+%TAN%)%CONTINUE%
 ItemDisplay[MAG ID amu (ILVL=96 OR ILVL=97)]: %NAME% %TAN%(%WHITE%84+%TAN%)%CONTINUE%
 ItemDisplay[MAG ID amu (ILVL=98 OR ILVL=99)]: %NAME% %TAN%(%WHITE%82+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID amu ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems}%CONTINUE%
 // RING'S CRAFTING (INFO)
 ItemDisplay[MAG ID rin (ILVL=64 OR ILVL=65)]: %NAME% %TAN%(%WHITE%98+%TAN%)%CONTINUE%
 ItemDisplay[MAG ID rin (ILVL=66 OR ILVL=67)]: %NAME% %TAN%(%WHITE%96+%TAN%)%CONTINUE%
@@ -4289,17 +4288,6 @@ ItemDisplay[MAG ID rin (ILVL=92 OR ILVL=93)]: %NAME% %TAN%(%WHITE%70+%TAN%)%CONT
 ItemDisplay[MAG ID rin (ILVL=94 OR ILVL=95)]: %NAME% %TAN%(%WHITE%68+%TAN%)%CONTINUE%
 ItemDisplay[MAG ID rin (ILVL=96 OR ILVL=97)]: %NAME% %TAN%(%WHITE%66+%TAN%)%CONTINUE%
 ItemDisplay[MAG ID rin (ILVL=98 OR ILVL=99)]: %NAME% %TAN%(%WHITE%64+%TAN%)%CONTINUE%
-ItemDisplay[MAG ID rin ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems}%CONTINUE%
-// ITEM'S CRAFTING (INFO)
-ItemDisplay[MAG ID HELM ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID CHEST ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID SHIELD ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID GLOVES ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
-ItemDisplay[MAG ID BOOTS ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
-ItemDisplay[MAG ID BELT ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
-ItemDisplay[MAG ID (BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID WEAPON !(BOW OR XBOW OR THROWING) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NL%%NAME%}%CONTINUE%
-ItemDisplay[MAG ID THROWING !(BOW OR XBOW) ILVL>25]: %NAME%{%WHITE%Crafting Recipes Are Now Moved to Perfect Gems%NAME%}%CONTINUE%
 // SET BOOT'S KICK DAMAGE (INFO)
 ItemDisplay[SET lbt ID]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 3 to 8}%CONTINUE%
 ItemDisplay[SET vbt ID]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 4 to 12}%CONTINUE%
