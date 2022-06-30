@@ -3313,7 +3313,7 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Dominion: (%GREEN%32, 2
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) King's Grace: (%GREEN%11, 8, 10%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice: (%GREEN%29, 32, 11, 28%TAN%)%NL%Fortitude: (%GREEN%1, 12, 14, 28%TAN%) Phoenix: (%GREEN%26, 26, 28, 31%TAN%)%NL%Rift: (%GREEN%15, 18, 20, 25%TAN%) Insight: (%GREEN%8, 3, 7, 12%TAN%)%NL%Holy Thunder: (%GREEN%5, 8, 9, 7%TAN%) Passion: (%GREEN%14, 9, 2, 20%TAN%)%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL<9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Doom: (%GREEN%15, 27, 22, 28, 32%TAN%)%NL%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Beast: (%GREEN%30, 3, 22, 23, 17%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL<9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Beast: (%GREEN%30, 3, 22, 23, 17%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength: (%GREEN%11, 3%TAN%) Wind: (%GREEN%29, 1%TAN%)%NL%Steel: (%GREEN%3, 1%TAN%) Neophyte: (%GREEN%10, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury: (%GREEN%32, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Venom: (%GREEN%7, 14, 23%TAN%) Chaos: (%GREEN%19, 27, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Crescent Moon: (%GREEN%13, 22, 3%TAN%)%NL%King's Grace: (%GREEN%11, 8, 10%TAN%) Black: (%GREEN%10, 16, 4%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Pattern: (%GREEN%7, 9, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
@@ -3388,7 +3388,7 @@ ItemDisplay[FILTLVL=9 NMAG SOCK=2 WAND !RW]: %NAME%{%TAN%Dominion%NL%Strength, W
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SCEPTER !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury, Plague%NL%Lawbringer, Venom,%NL%Malice, King's Grace,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice%NL%Fortitude, Phoenix,%NL%Rift, Insight,%NL%Holy Thunder, Passion,%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL=9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Doom%NL%Eternity, Beast,%NL%Honor, Call to Arms,%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL=9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity, Beast%NL%Honor, Call to Arms,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength, Wind%NL%Steel, Neophyte,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury, Plague%NL%Venom, Chaos,%NL%Lawbringer, Crescent Moon,%NL%King's Grace, Black,%NL%Malice, Pattern,%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL=9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind%NL%Neophyte, Strength,%NAME%}%CONTINUE%
