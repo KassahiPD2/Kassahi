@@ -4318,7 +4318,7 @@ ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}%CONTINUE%
 // GOLD
 ItemDisplay[GOLD<50]:
 ItemDisplay[GOLD<500 CLVL>17]:
-ItemDisplay[GOLD<2000 CLVL>79]:
+ItemDisplay[GOLD<1000 CLVL>79]:
 // POTIONS
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%{%TAN%Cube: %WHITE%3x %PURPLE%R %WHITE%35% = %PURPLE%Full %WHITE%Rejuv}
 ItemDisplay[rvl]: %PURPLE%Full %WHITE%Rejuv
