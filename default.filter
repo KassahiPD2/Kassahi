@@ -4499,9 +4499,9 @@ ItemDisplay[ubab]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%OR
 ItemDisplay[ubac]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%RED%T3%GRAY%]}
 ItemDisplay[uba]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%Relic of The Ancients   %RED%*%GRAY%*%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Ancients%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // DCLONE ITEMS
-ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Visson of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
-ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Visson of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Diablo%WHITE%/%RED%Baal}
-ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Visson of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Map Bosses}
+ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
+ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Diablo%WHITE%/%RED%Baal}
+ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Diablo Clone%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
