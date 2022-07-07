@@ -2978,11 +2978,16 @@ ItemDisplay[(MAG OR CRAFT OR RARE) STAT18>159 CHEST]: %ORANGE%***%GREEN%***   %R
 // Shields
 ItemDisplay[(MAG OR CRAFT OR RARE) STAT18>159 SHIELD]: %ORANGE%***%GREEN%***   %RED%High ED Shield   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%High ED Shield   %ORANGE%***%NL%%NAME%}
 // Gloves
-ItemDisplay[((MAG TABSK0>2) OR (CRAFT TABSK0>1) OR (RARE TABSK0>1)) IAS>19 GLOVES]: %ORANGE%***%GREEN%***   %RED%Bow and Crossbow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bow and Crossbow Gloves   %ORANGE%***%NAME%}
-ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) IAS>19 GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Gloves   %ORANGE%***%NAME%}
-ItemDisplay[((MAG TABSK2>2) OR (CRAFT TABSK2>1) OR (RARE TABSK2>1)) IAS>19 GLOVES]: %ORANGE%***%GREEN%***   %RED%Javelin and Spear Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Javelin and Spear Gloves   %ORANGE%***%NAME%}
-ItemDisplay[((MAG TABSK50>2) OR (CRAFT TABSK50>1) OR (RARE TABSK50>1)) IAS>19 GLOVES]: %ORANGE%***%GREEN%***   %RED%Martial Arts Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Gloves   %ORANGE%***%NAME%}
-ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) FCR>9 GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Caster Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Caster Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK0>2) OR (CRAFT TABSK0>1) OR (RARE TABSK0>1)) IAS>19 ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Bow and Crossbow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bow and Crossbow Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) IAS>19 ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK2>2) OR (CRAFT TABSK2>1) OR (RARE TABSK2>1)) IAS>19 ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Javelin and Spear Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Javelin and Spear Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK50>2) OR (CRAFT TABSK50>1) OR (RARE TABSK50>1)) IAS>19 ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Martial Arts Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) FCR>9 ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Caster Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Caster Gloves   %ORANGE%***%NAME%}
+ItemDisplay[((MAG TABSK0>2) OR (CRAFT TABSK0>1) OR (RARE TABSK0>1)) IAS>19 !ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Bow and Crossbow Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Bow and Crossbow Gloves   %ORANGE%***%NL%%NAME%}
+ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) IAS>19 !ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Gloves   %ORANGE%***%NL%%NAME%}
+ItemDisplay[((MAG TABSK2>2) OR (CRAFT TABSK2>1) OR (RARE TABSK2>1)) IAS>19 !ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Javelin and Spear Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Javelin and Spear Gloves   %ORANGE%***%NL%%NAME%}
+ItemDisplay[((MAG TABSK50>2) OR (CRAFT TABSK50>1) OR (RARE TABSK50>1)) IAS>19 !ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Martial Arts Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Martial Arts Gloves   %ORANGE%***%NL%%NAME%}
+ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) FCR>9 !ELT GLOVES]: %ORANGE%***%GREEN%***   %RED%Passive and Magic Caster Gloves   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Passive and Magic Caster Gloves   %ORANGE%***%NL%%NAME%}
 // Boots
 ItemDisplay[(CRAFT OR RARE) (FRES>9 AND LRES>9 AND CRES>9 AND PRES>9) FRW>19 BOOTS]: %ORANGE%***%GREEN%***   %RED%Quad Res Boots   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Quad Res Boots   %ORANGE%***}
 ItemDisplay[(CRAFT OR RARE) ((FRES>14 AND LRES>14 AND CRES>14) OR (FRES>14 AND LRES>14 AND PRES>14) OR (FRES>14 AND CRES>14 AND PRES>14) OR (LRES>14 AND CRES>14 AND PRES>14)) FRW>19 BOOTS]: %ORANGE%***%GREEN%***   %RED%Tri Res Boots   %GREEN%***%ORANGE%***{%ORANGE%***   %GREEN%Tri Res Boots   %ORANGE%***}
