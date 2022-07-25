@@ -2139,7 +2139,7 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=6 AXE !RW]: %NAME%{%TAN%Breath of the Dying: (%G
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 (9cl OR 7cl OR 9sp OR 7sp OR leg) !RW]: %NAME%{%TAN%Plague: (%GREEN%32, 19, 22%TAN%)%NL%Venom: (%GREEN%7, 14, 23%TAN%) Fury: (%GREEN%31, 25, 5%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Black: (%GREEN%10, 16, 4%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Steel: (%GREEN%3, 1%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL<9 NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury: (%GREEN%32, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Black: (%GREEN%10, 16, 4%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL<9 NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Black: (%GREEN%10, 16, 4%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Hand of Justice: (%GREEN%29, 32, 11, 28%TAN%)%NL%Fortitude: (%GREEN%1, 12, 14, 28%TAN%) Phoenix: (%GREEN%26, 26, 28, 31%TAN%)%NL%Oath: (%GREEN%13, 21, 23, 17%TAN%) Heart of the Oak: (%GREEN%18, 26, 21, 10%TAN%)%NL%Voice of Reason: (%GREEN%20, 18, 1, 2%TAN%) Passion: (%GREEN%14, 9, 2, 20%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%TAN%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%TAN%Strength: (%GREEN%11, 3%TAN%) Wind: (%GREEN%29, 1%TAN%)%NAME%}%CONTINUE%
@@ -2175,7 +2175,7 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=4 XBOW !RW]: %NAME%{%TAN%Phoenix: (%GREEN%26, 26
 ItemDisplay[FILTLVL<9 NMAG SOCK=5 XBOW !RW]: %NAME%{%TAN%Zenith: (%GREEN%31, 33, 9, 10, 8%TAN%)%NL%Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%) Mist: (%GREEN%32, 13, 25, 10, 6%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=6 XBOW !RW]: %NAME%{%TAN%Silence: (%GREEN%14, 2, 15, 24, 3, 26%TAN%) Breath of the Dying: (%GREEN%26, 15, 1, 2, 33, 5%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 STAFF !RW]: %NAME%{%TAN%Strength: (%GREEN%11, 3%TAN%) Wind: (%GREEN%29, 1%TAN%)%NL%Leaf: (%GREEN%3, 8%TAN%) Neophyte: (%GREEN%10, 3%TAN%)%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL<9 NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury: (%GREEN%32, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL<9 NMAG SOCK=3 STAFF !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Venom: (%GREEN%7, 14, 23%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=4 STAFF !RW]: %NAME%{%TAN%Phoenix: (%GREEN%26, 26, 28, 31%TAN%) Hand of Justice: (%GREEN%29, 32, 11, 28%TAN%)%NL%Fortitude: (%GREEN%1, 12, 14, 28%TAN%) Infinity: (%GREEN%30, 23, 30, 24%TAN%)%NL%Passion: (%GREEN%14, 9, 2, 20%TAN%) Heart of the Oak: (%GREEN%18, 26, 21, 10%TAN%)%NL%Rampage: (%GREEN%13, 1, 6, 5%TAN%) Memory: (%GREEN%17, 16, 12, 5%TAN%)%NL%Spirit: (%GREEN%7, 10, 9, 11%TAN%) Insight: (%GREEN%8, 3, 7, 12%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=5 STAFF !RW]: %NAME%{%TAN%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Doom: (%GREEN%15, 27, 22, 28, 32%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=6 STAFF !RW]: %NAME%{%TAN%Breath of the Dying: (%GREEN%26, 15, 1, 2, 33, 5%TAN%)%NL%Silence: (%GREEN%14, 2, 15, 24, 3, 26%TAN%) Obsession: (%GREEN%33, 24, 20, 17, 16, 4%TAN%)%NAME%}%CONTINUE%
@@ -2185,7 +2185,7 @@ ItemDisplay[FILTLVL<9 NMAG SOCK=3 SCEPTER !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25
 ItemDisplay[FILTLVL<9 NMAG SOCK=4 SCEPTER !RW]: %NAME%{%TAN%Hand of Justice: (%GREEN%29, 32, 11, 28%TAN%)%NL%Fortitude: (%GREEN%1, 12, 14, 28%TAN%) Phoenix: (%GREEN%26, 26, 28, 31%TAN%)%NL%Rift: (%GREEN%15, 18, 20, 25%TAN%) Insight: (%GREEN%8, 3, 7, 12%TAN%)%NL%Holy Thunder: (%GREEN%5, 8, 9, 7%TAN%) Passion: (%GREEN%14, 9, 2, 20%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=5 SCEPTER !RW]: %NAME%{%TAN%Eternity: (%GREEN%11, 30, 24, 12, 29%TAN%) Beast: (%GREEN%30, 3, 22, 23, 17%TAN%)%NL%Honor: (%GREEN%11, 1, 6, 3, 12%TAN%) Call to Arms: (%GREEN%11, 8, 23, 24, 27%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SIN !RW]: %NAME%{%TAN%Strength: (%GREEN%11, 3%TAN%) Wind: (%GREEN%29, 1%TAN%)%NL%Steel: (%GREEN%3, 1%TAN%) Neophyte: (%GREEN%10, 3%TAN%)%NAME%}%CONTINUE%
-ItemDisplay[FILTLVL<9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury: (%GREEN%32, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Venom: (%GREEN%7, 14, 23%TAN%) Chaos: (%GREEN%19, 27, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Crescent Moon: (%GREEN%13, 22, 3%TAN%)%NL%King's Grace: (%GREEN%11, 8, 10%TAN%) Black: (%GREEN%10, 16, 4%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Pattern: (%GREEN%7, 9, 3%TAN%)%NAME%}%CONTINUE%
+ItemDisplay[FILTLVL<9 NMAG SOCK=3 SIN !RW]: %NAME%{%TAN%Fury: (%GREEN%31, 25, 5%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NL%Venom: (%GREEN%7, 14, 23%TAN%) Chaos: (%GREEN%19, 27, 22%TAN%)%NL%Lawbringer: (%GREEN%11, 20, 18%TAN%) Crescent Moon: (%GREEN%13, 22, 3%TAN%)%NL%King's Grace: (%GREEN%11, 8, 10%TAN%) Black: (%GREEN%10, 16, 4%TAN%)%NL%Malice: (%GREEN%6, 1, 5%TAN%) Pattern: (%GREEN%7, 9, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 SOR !RW]: %NAME%{%TAN%Wind: (%GREEN%29, 1%TAN%)%NL%Neophyte: (%GREEN%10, 3%TAN%) Strength: (%GREEN%11, 3%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=3 SOR !RW]: %NAME%{%TAN%Venom: (%GREEN%7, 14, 23%TAN%) Plague: (%GREEN%32, 19, 22%TAN%)%NAME%}%CONTINUE%
 ItemDisplay[FILTLVL<9 NMAG SOCK=2 ZON BOW !RW]: %NAME%{%TAN%Zephyr: (%GREEN%9, 5%TAN%)%NAME%}%CONTINUE%
@@ -3582,7 +3582,7 @@ ItemDisplay[SET !ID !ETH (ulg OR xhm OR 7ls OR dr8 OR xtb OR urn OR paf OR uar O
 // SET DROPS (TIER 2)
 ItemDisplay[SET !ID !ETH (uui OR xrs OR ult OR xvg OR xhl OR upl OR 7m7 OR zvb OR xtg OR xh9 OR xsk)]: %PX-84%%DOT-0A%%RED%*%DARK_GREEN%*  %NAME%  %DARK_GREEN%*%RED%*
 // SET DROPS (TIER 1)
-ItemDisplay[SET !ID !ETH (kit OR xlb OR umc OR 6cs OR 9mt OR ba5 OR xhb OR zhb OR xhg OR ucl OR xmb OR zmb OR oba)]: %DOT-84%%GRAY%* %NAME% %GRAY%*
+ItemDisplay[SET !ID !ETH (kit OR xlb OR umc OR 6cs OR 9mt OR ba5 OR xhb OR zhb OR xhg OR ucl OR xmb OR zmb OR oba)]: %GRAY%* %NAME% %GRAY%*
 // SET DROPS (LLD)
 ItemDisplay[SET !ID !ETH (vbt OR vgl OR bwn OR xap OR mbl)]: %PX-84%%DOT-9B%%NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 // SET HIGH LIGHT (LOW LVL)
@@ -3698,7 +3698,7 @@ ItemDisplay[NMAG SOCK=0 !INF !RW ETH (7wh OR 7m7 OR 7gm)]: %DOT-20%%PX-00%%NAME%
 ItemDisplay[NMAG SOCK=2 !INF !RW !ETH ED>9 7wh]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW !ETH 7wh]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW ETH (7m7 OR 7gm)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=3 !INF !RW ETH (7wh OR 7m7 OR 7gm)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=3 !INF !RW ETH (7wh OR 7m7)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW !ETH ED>9 7wh]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW !ETH 7wh]: %NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW ETH (7wh OR 7gm)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
@@ -3739,7 +3739,7 @@ ItemDisplay[NMAG SOCK=6 !INF !RW ETH 7p7]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 // POLEARM'S (NMAG)
 ItemDisplay[NMAG SOCK=0 !INF !RW ETH (7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %DOT-20%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=2 !INF !RW ETH (7vo OR 7pa OR 7h7 OR 7wc)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
-ItemDisplay[NMAG SOCK=3 !INF !RW ETH (7o7 OR 7vo OR 7pa OR 7h7 OR 7wc)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
+ItemDisplay[NMAG SOCK=3 !INF !RW ETH (7o7 OR 7pa OR 7h7 OR 7wc)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW ETH (7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW ETH (7s8 OR 7pa OR 7h7 OR 7wc)]: %DOT-D6%%PX-00%%NAME%{%NAME%}
 // BOW'S (NMAG)
