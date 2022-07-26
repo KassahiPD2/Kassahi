@@ -2065,8 +2065,8 @@ ItemDisplay[NMAG !INF !SUP !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC
 ItemDisplay[NMAG !INF !SUP !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) ILVL>40 (msk OR xsk OR usk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3}%CONTINUE% // ILVL>40 Runes/Gems _3
 
 // NMAG LARZUK'S QUEST POSSIBLE SOCKETS (1-9 FILTER LEVEL)
-ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%TAN%(%GOLD%LQ:%WHITE%}%CONTINUE% // (INF OR SUP) LQ Begin
-ItemDisplay[NMAG !INF !SUP !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %GOLD%LQ:%WHITE%}%CONTINUE% // LQ Begin
+ItemDisplay[NMAG (INF OR SUP) !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%TAN%(%GOLD%Q:%WHITE%}%CONTINUE% // (INF OR SUP) LQ Begin
+ItemDisplay[NMAG !INF !SUP !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %GOLD%Q:%WHITE%}%CONTINUE% // LQ Begin
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) (9la OR 7la)]: %NAME%{%NAME%5}%CONTINUE% // LQ _5
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) (axe OR 9ax OR 7ax OR lax OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // LQ _4
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) (rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR lrg OR xrg OR urg OR upk OR kit OR xit OR ush OR tow OR xow OR gts OR xts OR ne6 OR neb OR ne7 OR neg OR ne8 OR ned OR ne9 OR nee OR nea OR nef OR 9ha OR 7ha OR 9cl OR 7cl OR 9sp OR 7sp OR leg OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR 9ss OR 7ss OR 9sm OR 7sm OR 9sb OR 7sb OR 7fc OR wsd OR 9wd OR 7wd OR 2hs OR 92h OR 72h OR 9fc OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR 6ss OR lst OR 8ls OR 6ls OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs)]: %NAME%{%NAME%3}%CONTINUE% // LQ _3
@@ -2092,7 +2092,7 @@ ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) ILVL>40 (msk OR xsk OR usk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3}%CONTINUE% // ILVL>40 LQ _3
 
 // NMAG WORLDSTONE SHARD POSSIBLE SOCKETS (1-9 FILTER LEVEL)
-ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %RED%Wss:%WHITE%}%CONTINUE% // Wss Begin
+ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %RED%C:%WHITE%}%CONTINUE% // Wss Begin
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) !(buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%1-}%CONTINUE% // Wss _1-
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) (9la OR 7la)]: %NAME%{%NAME%5}%CONTINUE% // Wss _5
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) (axe OR 9ax OR 7ax OR lax OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // Wss _4
@@ -2117,7 +2117,7 @@ ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) ILVL>40 (fla OR 9fl OR 7fl OR flb OR 9fb OR 7fb OR brn OR 9br OR 7br OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR lbw OR 8lb OR sbb OR 8s8 OR 6s7 OR swb OR 8sw OR 6sw OR rxb OR 8rx OR 6rx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)]: %NAME%{%NAME%5}%CONTINUE% // ILVL>40 Wss _5
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) ILVL>40 (uit OR uow OR uts)]: %NAME%{%NAME%4}%CONTINUE% // ILVL>40 Wss _4
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON) ILVL>40 (msk OR xsk OR usk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3}%CONTINUE% // ILVL>40 Wss _3
-ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%TAN%/%RED%Brick%TAN%)}%CONTINUE% // LQ/Wss/Runes/Gems End
+ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%TAN%/%RED%B%TAN%)}%CONTINUE% // LQ/Wss/Runes/Gems End
 
 // NMAG NOTIFYER POSSIBLE SOCKETS (1-9 FILTER LEVEL)
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%NL%%WHITE%Possible Sockets:}%CONTINUE%
@@ -2280,33 +2280,33 @@ ItemDisplay[NMAG !RW (SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) (HELM OR C
 // AUTOMATICALLY ROLLS OPEN SOCKETS (1-9 FILTER LEVEL)
 ItemDisplay[SET urn STAT234>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)}
 ItemDisplay[UNI urn STAT109>49]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
-ItemDisplay[UNI xng STAT363>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%131, %GRAY%Lvl:%WHITE%54%TAN%)}
+ItemDisplay[UNI xng STAT363>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%131, %GRAY%L:%WHITE%54%TAN%)}
 ItemDisplay[UNI ung STAT363>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)}
 ItemDisplay[SET ucl TABSK49>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
-ItemDisplay[UNI xul STAT121>159]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3-4%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%230, %GRAY%Lvl:%WHITE%64%TAN%)}
+ItemDisplay[UNI xul STAT121>159]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3-4%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%230, %GRAY%L:%WHITE%64%TAN%)}
 ItemDisplay[UNI uul STAT121>159]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3-4%TAN%)}
-ItemDisplay[SET xar CLSK3>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%140, %GRAY%Lvl:%WHITE%66%TAN%)}
+ItemDisplay[SET xar CLSK3>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%140, %GRAY%L:%WHITE%66%TAN%)}
 ItemDisplay[SET uar CLSK3>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)}
-ItemDisplay[UNI xml FBR>29 STAT20>24]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%100, %GRAY%Lvl:%WHITE%45%TAN%)}
+ItemDisplay[UNI xml FBR>29 STAT20>24]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%100, %GRAY%L:%WHITE%45%TAN%)}
 ItemDisplay[UNI uml FBR>29 STAT20>24]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)}
 ItemDisplay[UNI ush FRW>24]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None:%WHITE%-40, %GRAY%Immus:%WHITE%-20%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
-ItemDisplay[SET ba5]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%7, 13, %WHITE%O, %GRAY%Str:%WHITE%118%TAN%)}
-ItemDisplay[SET baa]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%196, %GRAY%Lvl:%WHITE%65%TAN%)}
+ItemDisplay[SET ba5]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%7, 13, %WHITE%O, %GRAY%S:%WHITE%118%TAN%)}
+ItemDisplay[SET baa]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%196, %GRAY%L:%WHITE%65%TAN%)}
 ItemDisplay[SET baf]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2%TAN%)}
 ItemDisplay[SET paf]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
-ItemDisplay[UNI ne6]: %NAME%{%WHITE%Aura: %TAN%(%GRAY%Speed:%WHITE%25-28-30%%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%1-2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%Str:%WHITE%77, %GRAY%Lvl:%WHITE%44%TAN%)}
+ItemDisplay[UNI ne6]: %NAME%{%WHITE%Aura: %TAN%(%GRAY%Speed:%WHITE%25-28-30%%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%1-2%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%18, 20, %WHITE%O, %GRAY%S:%WHITE%77, %GRAY%L:%WHITE%44%TAN%)}
 ItemDisplay[UNI neb]: %NAME%{%WHITE%Aura: %TAN%(%GRAY%Speed:%WHITE%25-28-30%%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%1-2%TAN%)}
 ItemDisplay[UNI 72a STAT44>4]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%4-5%TAN%)}
-ItemDisplay[SET 9mt]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%Str:%WHITE%153, %GRAY%Dex:%WHITE%44, %GRAY%Lvl:%WHITE%52%TAN%)}
+ItemDisplay[SET 9mt]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%S:%WHITE%153, %GRAY%D:%WHITE%44, %GRAY%L:%WHITE%52%TAN%)}
 ItemDisplay[SET 7mt]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-3%TAN%)}
 ItemDisplay[UNI 7sm STAT145>2]: %NAME%{%WHITE%Aura: %TAN%(%GRAY%Fire Dmg:%WHITE%10%%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%1-2%TAN%)}
-ItemDisplay[UNI 9fc STAT240>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%Str:%WHITE%142, %GRAY%Dex:%WHITE%105, %GRAY%Lvl:%WHITE%51%TAN%)}
+ItemDisplay[UNI 9fc STAT240>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%S:%WHITE%142, %GRAY%D:%WHITE%105, %GRAY%L:%WHITE%51%TAN%)}
 ItemDisplay[UNI 7fc STAT240>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)}
-ItemDisplay[UNI 9st REPAIR>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%Str:%WHITE%122, %GRAY%Dex:%WHITE%163, %GRAY%Lvl:%WHITE%62%TAN%)}
+ItemDisplay[UNI 9st REPAIR>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%S:%WHITE%122, %GRAY%D:%WHITE%163, %GRAY%L:%WHITE%62%TAN%)}
 ItemDisplay[UNI 7st REPAIR>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3%TAN%)}
 ItemDisplay[UNI 7o7 STAT117>0]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-4%TAN%)}
 ItemDisplay[UNI 7pa STAT124>249]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-4%TAN%)}
-ItemDisplay[UNI 8s8 STAT250>0]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None:%WHITE%-40, %GRAY%Immus:%WHITE%-20%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%Str:%WHITE%89, %GRAY%Dex:%WHITE%132, %GRAY%Lvl:%WHITE%54%TAN%)}
+ItemDisplay[UNI 8s8 STAT250>0]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None:%WHITE%-40, %GRAY%Immus:%WHITE%-20%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Up: %TAN%(%GREEN%17, 21, O, %GRAY%S:%WHITE%89, %GRAY%D:%WHITE%132, %GRAY%L:%WHITE%54%TAN%)}
 ItemDisplay[UNI 6s7 STAT250>0]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None:%WHITE%-40, %GRAY%Immus:%WHITE%-20%TAN%)%NL%%WHITE%Rolls OS: %TAN%(%WHITE%2-4%TAN%)}
 ItemDisplay[UNI 6hx STAT363>3]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-5%TAN%)}
 ItemDisplay[UNI 7sc STAT139>14]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
@@ -2316,12 +2316,12 @@ ItemDisplay[UNI rbe]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1%TAN%)}
 ItemDisplay[UNI rar]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%6%TAN%)}
 
 // LARZUK'S POSSIBLE SOCKETS -NMAG (1-9 FILTER LEVEL)
-ItemDisplay[MAG (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%LQ:%WHITE%1%NAME%}%CONTINUE% // LQ Begin
-ItemDisplay[!NMAG !MAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%LQ:%WHITE%1%NAME%}%CONTINUE% // LQ Begin
-ItemDisplay[!(THROWING OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn) MAG ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%LQ:%WHITE%2%NAME%}%CONTINUE% // LQ Begin
+ItemDisplay[MAG (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%Q:%WHITE%1%NAME%}%CONTINUE% // LQ Begin
+ItemDisplay[!NMAG !MAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%Q:%WHITE%1%NAME%}%CONTINUE% // LQ Begin
+ItemDisplay[!(THROWING OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn) MAG ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%Q:%WHITE%2%NAME%}%CONTINUE% // LQ Begin
 
 // LARZUK'S LUNCH BOX POSSIBLE SOCKETS -NMAG (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %GOLD%LLB:%WHITE%}%CONTINUE% // LLB Begin
+ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %GOLD%LB:%WHITE%}%CONTINUE% // LLB Begin
 ItemDisplay[!NMAG !THROWING ID (lax OR 9la OR 7la OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR bst OR 8bs OR 6cs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // LLB _4
 ItemDisplay[!NMAG !THROWING ID (2hs OR 92h OR 72h OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls)]: %NAME%{%NAME%3}%CONTINUE% // LLB _3
 ItemDisplay[!NMAG !THROWING ID (cap OR xap OR skp OR xkp OR hlm OR xlm OR fhl OR xhl OR bhm OR xh9 OR uap OR ukp OR ulm OR uhl OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR fld OR plt OR rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR sml OR xml OR spk OR xpk OR bsh OR xsh OR uuc OR uml OR lrg OR xrg OR kit OR xit OR tow OR xow OR gts OR xts OR urg OR upk OR ush OR pa1 OR pa6 OR pa2 OR pa7 OR pa3 OR pa8 OR pa4 OR pa9 OR pa5 OR paa OR pab OR pac OR pad OR pae OR paf OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR ne6 OR ne7 OR ne8 OR ne9 OR nea OR neb OR neg OR ned OR nee OR nef OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp OR mac OR 9ma OR mst OR 9mt OR 7ma OR 7mt OR ssd OR scm OR sbr OR flc OR 9ss OR 9sm OR 9sb OR 9fc OR wsd OR 9wd OR 7ss OR 7sm OR 7sb OR 7fc OR 7wd OR 9dg OR 9di OR bld OR 9bl OR 7dg OR 7di OR 7bl OR sst OR 9yw OR bwn OR 9bw OR gwn OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw OR scp OR 9sc OR gsc OR 9qs OR 7sc OR 7qs OR ktr OR wrb OR axf OR ces OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs OR ob1 OR ob6 OR ob2 OR ob7 OR ob3 OR ob8 OR ob4 OR ob9 OR obb OR obc OR obd OR obe OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%2}%CONTINUE% // LLB _2
@@ -2338,7 +2338,7 @@ ItemDisplay[!NMAG !THROWING ID ILVL>40 (gax OR 9ga OR gix OR 9gi OR 7ga OR 7gi O
 ItemDisplay[!NMAG !THROWING ID ILVL>40 (msk OR xsk OR ghm OR xhm OR crn OR xrn OR usk OR uh9 OR uhm OR urn OR ci2 OR ci3)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>40 LLB _2
 
 // WORLDSTONE SHARD POSSIBLE SOCKETS -NMAG (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %RED%Wss:%WHITE%}%CONTINUE% // Wss Begin
+ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %RED%C:%WHITE%}%CONTINUE% // Wss Begin
 ItemDisplay[!NMAG !THROWING ID (9la OR 7la)]: %NAME%{%NAME%5}%CONTINUE% // Wss _5
 ItemDisplay[!NMAG !THROWING ID (axe OR 9ax OR 7ax OR lax OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR bst OR 8bs OR 6cs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // Wss _4
 ItemDisplay[!NMAG !THROWING ID (rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR lrg OR xrg OR kit OR xit OR tow OR xow OR gts OR xts OR urg OR upk OR ush OR pa1 OR pa6 OR pa2 OR pa7 OR pa3 OR pa8 OR pa4 OR pa9 OR pa5 OR paa OR pab OR pac OR pad OR pae OR paf OR ne6 OR ne7 OR ne8 OR ne9 OR nea OR neb OR neg OR ned OR nee OR nef OR 9ha OR 7ha OR 9cl OR 9sp OR 7cl OR 7sp OR 9ma OR mst OR 9mt OR 7ma OR 7mt OR 9ss OR 9sm OR 9sb OR 9fc OR wsd OR 9wd OR 7ss OR 7sm OR 7sb OR 7fc OR 7wd OR 2hs OR 92h OR 72h OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls OR 9sc OR gsc OR 9qs OR 7sc OR 7qs OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%3}%CONTINUE% // Wss _3
@@ -2363,13 +2363,13 @@ ItemDisplay[!NMAG !THROWING ID ILVL>40 (msk OR xsk OR ghm OR xhm OR crn OR xrn O
 ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%TAN%)}%CONTINUE% // LQ/LLB/Wss End
 
 // ITEM'S POSSIBLE SOCKETS AFTER UPGRADING (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !MAG (bhm OR qui OR lea OR hla OR stu OR spk OR bsh OR ci0)]: %NAME%{%WHITE%After Up 2x: %TAN%(%RED%Wss:%ORANGE%3%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG (xh9 OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR xpk OR xsh OR ci1 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR clb OR spc OR mac OR ssd OR scm OR sbr OR flc OR scp OR ktr OR wrb OR axf OR ces)]: %NAME%{%WHITE%After Up: %TAN%(%RED%Wss:%ORANGE%3%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG lax]: %NAME%{%WHITE%After Up: %TAN%(%RED%Wss:%ORANGE%5%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG (buc OR wnd)]: %NAME%{%WHITE%After Up 2x: %TAN%(%GOLD%LLB:%ORANGE%2, %RED%Wss:%ORANGE%2%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG (xuc OR dgr OR dir OR 9wn OR ywn)]: %NAME%{%WHITE%After Up: %TAN%(%GOLD%LLB:%ORANGE%2, %RED%Wss:%ORANGE%2%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG sst]: %NAME%{%WHITE%After Up: %TAN%(%GOLD%LLB:%ORANGE%3, %RED%Wss:%ORANGE%3%TAN%)%NL%%NAME%}%CONTINUE%
-ItemDisplay[!NMAG !MAG (bar OR sbw OR lxb)]: %NAME%{%WHITE%After Up: %TAN%(%GOLD%LLB:%ORANGE%4, %RED%Wss:%ORANGE%4%TAN%)%NL%%NAME%}%CONTINUE%
+ItemDisplay[!NMAG !MAG (bhm OR qui OR lea OR hla OR stu OR spk OR bsh OR ci0)]: %NAME%{%NAME% %WHITE%2x Up: %TAN%(%RED%C:%ORANGE%3%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG (xh9 OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR xpk OR xsh OR ci1 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR clb OR spc OR mac OR ssd OR scm OR sbr OR flc OR scp OR ktr OR wrb OR axf OR ces)]: %NAME%{%NAME% %WHITE%Up: %TAN%(%RED%C:%ORANGE%3%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG lax]: %NAME%{%NAME% %WHITE%Up: %TAN%(%RED%C:%ORANGE%5%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG (buc OR wnd)]: %NAME%{%NAME% %WHITE%2x Up: %TAN%(%GOLD%LB:%ORANGE%2, %RED%C:%ORANGE%2%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG (xuc OR dgr OR dir OR 9wn OR ywn)]: %NAME%{%NAME% %WHITE%Up: %TAN%(%GOLD%LB:%ORANGE%2, %RED%C:%ORANGE%2%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG sst]: %NAME%{%NAME% %WHITE%Up: %TAN%(%GOLD%LB:%ORANGE%3, %RED%C:%ORANGE%3%TAN%)}%CONTINUE%
+ItemDisplay[!NMAG !MAG (bar OR sbw OR lxb)]: %NAME%{%NAME% %WHITE%Up: %TAN%(%GOLD%LB:%ORANGE%4, %RED%C:%ORANGE%4%TAN%)}%CONTINUE%
 
 // ARMOR'S UPGRADING RECIPE (1-9 FILTER LEVEL)
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR !(GLOVES OR BELT OR BOOTS)]: %NAME%{%NAME%%NL%%WHITE%Up: %TAN%(%GREEN%8, 10, %PURPLE%O}%CONTINUE%
@@ -2392,7 +2392,7 @@ ItemDisplay[(SET OR UNI) ID NORM THROWING]: %NAME%{%WHITE%Up: %TAN%(%GREEN%8, 12
 ItemDisplay[(SET OR UNI) ID EXC THROWING]: %NAME%{%WHITE%Up: %TAN%(%GREEN%17, 21, O}%CONTINUE%
 
 // STRENGTH UPGRADE REQUIREMENTS (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !MAG ID STAT91=0 !ELT (ARMOR OR WEAPON) !CIRC !SOR]: %NAME%{%NAME%, %GRAY%Str:%WHITE%}%CONTINUE% // Str Begin
+ItemDisplay[!NMAG !MAG ID STAT91=0 !ELT (ARMOR OR WEAPON) !CIRC !SOR]: %NAME%{%NAME%, %GRAY%S:%WHITE%}%CONTINUE% // Str Begin
 ItemDisplay[!NMAG !MAG ID STAT91=0 (xth OR xul OR xar OR xow OR xhb OR 9m9 OR 9gm OR 9vo) !(ETH (xth OR xhb))]: %NAME%{%NAME%2}%CONTINUE% // Str 2__
 ItemDisplay[!NMAG !MAG ID STAT91=0 (ghm OR crn OR xlm OR xhl OR xsk OR xh9 OR xhm OR xrn OR plt OR fld OR gth OR ful OR aar OR xtu OR xng OR xcl OR xhn OR xrs OR xpl OR xlt OR xld OR xtp OR tow OR gts OR xml OR xrg OR xpk OR xit OR xsh OR xts OR hgl OR xmg OR xtg OR xhg OR hbt OR xmb OR xtb OR hbl OR zmb OR ztb OR zhb OR dr8 OR dr9 OR dra OR ba4 OR ba5 OR ba6 OR ba7 OR ba8 OR ba9 OR baa OR pa5 OR pa7 OR pa8 OR pa9 OR paa OR nea OR wax OR btx OR gax OR gix OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9la OR 9ba OR 9bt OR 9ga OR 9gi OR whm OR mau OR gma OR 9sp OR 9ma OR 9mt OR 9fl OR 9wh OR lsd OR wsd OR gis OR bsw OR flb OR gsd OR 9ss OR 9sm OR 9sb OR 9fc OR 9bs OR 9wd OR 92h OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR 9pi OR 9s9 OR spt OR pik OR 9sr OR 9tr OR 9br OR 9st OR 9p9 OR pax OR hal OR wsc OR 9b7 OR 9s8 OR 9pa OR 9h9 OR 9wc OR 8cb OR 8lw OR hxb OR 8mx OR 8hx OR 8rx OR wsp OR 9sc OR 9qs OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR 9qr OR am7 OR am3 OR am4 OR am8 OR am9 OR ama OR (ETH (xth OR xhb))) !(ETH (crn OR xlm OR xsk OR xh9 OR fld OR xtp OR xml OR xsh OR xmg OR zmb OR dr8 OR ba4 OR ba6 OR pa7 OR nea OR btx OR whm OR lsd OR gis OR 9sb OR spt OR wsp OR 9qs OR 9wb OR 9xf OR am7 OR am3 OR ama))]: %NAME%{%NAME%1}%CONTINUE% // Str 1__
 ItemDisplay[!NMAG !MAG ID STAT91=0 ((!ETH (xhm OR chn OR spl OR xla OR xlt OR kit OR tbt OR xvb OR dr7 OR baa OR ne8 OR ne9 OR mpi OR bax OR 9la OR bsd OR clm OR 9ls OR 9b8 OR glv OR 9ja OR vou OR 9b7 OR lwb OR 8l8 OR 9ws OR 9ar)) OR (ETH (crn OR xlm OR xsk OR xh9 OR fld OR xth OR xtp OR xml OR xsh OR xmg OR xhb OR zmb OR dr8 OR ba4 OR ba6 OR pa7 OR nea OR btx OR whm OR lsd OR gis OR 9sb OR spt OR wsp OR 9qs OR 9wb OR 9xf OR am7 OR am3 OR ama)))]: %NAME%{%NAME%9}%CONTINUE% // Str _9_
@@ -2417,7 +2417,7 @@ ItemDisplay[!NMAG !MAG ID STAT91=0 (stu OR xtu OR xng OR lrg OR kit OR xtg OR xv
 ItemDisplay[!NMAG !MAG ID STAT91=0 (cap OR xap OR hla OR ful OR aar OR xul OR gts OR xml OR lgl OR vgl OR hgl OR xlg OR xvg OR lbt OR xlb OR lbl OR vbl OR hbl OR zlb OR zvb OR dr2 OR ne4 OR spc OR whm OR flc OR gsd OR 9ss OR ssp OR brn OR pik OR bar OR wsc OR 9vo OR lbb OR mxb OR hxb OR rxb OR 9cs)]: %NAME%{%NAME%0}%CONTINUE% // Str __0
 
 // DEXTERITY UPGRADE REQUIREMENTS (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !MAG ID STAT91=0 !ELT (hax OR mpi OR gax OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9ba OR 9bt OR 9ga OR 9gi OR fla OR 9cl OR 9ma OR 9mt OR 9fl OR (SWORD !ssd) OR (DAGGER !THROWING !dgr) OR THROWING OR (SPEAR !THROWING !spt) OR (POLEARM !bar !vou) OR BOW OR XBOW OR 8ls OR 8cs OR 8bs OR 9sc OR 9qs OR 9ws OR SIN OR ZON)]: %NAME%{%NAME%, %GRAY%Dex:%WHITE%}%CONTINUE%  // Dex Begin
+ItemDisplay[!NMAG !MAG ID STAT91=0 !ELT (hax OR mpi OR gax OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9ba OR 9bt OR 9ga OR 9gi OR fla OR 9cl OR 9ma OR 9mt OR 9fl OR (SWORD !ssd) OR (DAGGER !THROWING !dgr) OR THROWING OR (SPEAR !THROWING !spt) OR (POLEARM !bar !vou) OR BOW OR XBOW OR 8ls OR 8cs OR 8bs OR 9sc OR 9qs OR 9ws OR SIN OR ZON)]: %NAME%{%NAME%, %GRAY%D:%WHITE%}%CONTINUE%  // Dex Begin
 ItemDisplay[!NMAG !MAG ID STAT91=0 (gsd OR 9sb OR 9fc OR 9cr OR 9bs OR 9ls OR 9wd OR 92h OR 9cm OR 9b9 OR 9gd OR bal OR 9tk OR 9ta OR 9bk OR 9b8 OR tsp OR 9ja OR 9pi OR 9gl OR 9ts OR 9sr OR 9br OR 9st OR 9p9 OR wsc OR 9s8 OR 9pa OR 9wc OR swb OR lwb OR 8sb OR 8hb OR 8lb OR 8cb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 8lx OR 8mx OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR 9qr OR am2 OR am6 OR am7 OR am8 OR am9 OR am5 OR ama) !(ETH (9fc OR 9ls OR 92h OR 9cm OR 9b9 OR bal OR 9ta OR 9p9 OR 9pa OR swb OR 8cb OR 8mx OR 9wb OR 9xf OR am5))]: %NAME%{%NAME%1}%CONTINUE% // Dex 1__
 ItemDisplay[!NMAG !MAG ID STAT91=0 ((!ETH (flb OR 9sm OR 9fb OR bld OR 9di OR bkf OR 9s9 OR brn OR 9tr OR hal OR 9h9 OR lbb OR rxb OR 8rx OR 9ar OR am4)) OR (ETH (9fc OR 9ls OR 92h OR 9cm OR 9b9 OR bal OR 9ta OR 9p9 OR 9pa OR swb OR 8cb OR 8mx OR 9wb OR 9xf OR am5)))]: %NAME%{%NAME%9}%CONTINUE% // Dex _9_
 ItemDisplay[!NMAG !MAG ID STAT91=0 ((!ETH (9ax OR wsd OR 9ss OR 9gs OR kri OR 9kr OR tax OR pil OR ssp OR pik OR scy OR sbb OR 8lb OR hxb OR skr OR am6 OR am3)) OR (ETH (flb OR 9sm OR 9fb OR bld OR 9di OR bkf OR 9s9 OR brn OR 9tr OR hal OR 9h9 OR lbb OR rxb OR 8rx OR 9ar OR am4)))]: %NAME%{%NAME%8}%CONTINUE% // Dex _8_
@@ -2441,7 +2441,7 @@ ItemDisplay[!NMAG !MAG ID STAT91=0 (2hs OR gis OR 9tk OR hal OR 8l8 OR lxb OR am
 ItemDisplay[!NMAG !MAG ID STAT91=0 (mpi OR crs OR clm OR bsw OR gsd OR 92h OR 9gd OR tax OR ssp OR 9sr OR wsc OR 9wc OR sbb OR mxb OR hxb OR 9ws OR 9cs OR am2 OR am3)]: %NAME%{%NAME%0}%CONTINUE% // Dex __0
 
 // LEVEL UPGRADE REQUIREMENTS (1-9 FILTER LEVEL)
-ItemDisplay[!NMAG !MAG !RARE !CRAFT ID STAT91=0 !ELT (ARMOR OR WEAPON) !((SET STAT31>99 xhl) OR (STAT60>5 AND STAT62>5 xsk) OR (STAT117=1 mbl) OR (UNI ghm) OR (UNI crn) OR (plt OR ba5 OR wax OR gax OR whm OR bsw OR flb OR gsd OR bld OR 9ta OR pik OR pax OR hal OR wsc OR sbb OR lwb OR hxb OR rxb OR gwn) OR (UNI gth) OR (UNI ltp) OR (UNI ful) OR (UNI aar) OR (UNI gts) OR (UNI hgl) OR (UNI hbt) OR (UNI tbl) OR (UNI hbl) OR (UNI ci2) OR (UNI wsd) OR (UNI lbb) OR (UNI swb) OR (UNI wst) OR (SET vgl) OR (SET bwn))]: %NAME%{%NAME%, %GRAY%Lvl:%WHITE%}%CONTINUE%  // Lvl Begin
+ItemDisplay[!NMAG !MAG !RARE !CRAFT ID STAT91=0 !ELT (ARMOR OR WEAPON) !((SET STAT31>99 xhl) OR (STAT60>5 AND STAT62>5 xsk) OR (STAT117=1 mbl) OR (UNI ghm) OR (UNI crn) OR (plt OR ba5 OR wax OR gax OR whm OR bsw OR flb OR gsd OR bld OR 9ta OR pik OR pax OR hal OR wsc OR sbb OR lwb OR hxb OR rxb OR gwn) OR (UNI gth) OR (UNI ltp) OR (UNI ful) OR (UNI aar) OR (UNI gts) OR (UNI hgl) OR (UNI hbt) OR (UNI tbl) OR (UNI hbl) OR (UNI ci2) OR (UNI wsd) OR (UNI lbb) OR (UNI swb) OR (UNI wst) OR (SET vgl) OR (SET bwn))]: %NAME%{%NAME%, %GRAY%L:%WHITE%}%CONTINUE%  // Lvl Begin
 ItemDisplay[!NMAG !MAG !RARE !CRAFT ID STAT91=0 ((xh9 OR xrn OR xld OR xth OR xtp OR xul OR xar OR xts OR xhg OR xtb OR xhb OR ztb OR zhb OR dra OR baa OR pa9 OR ne9 OR nea OR 9wa OR 9ga OR 9gi OR 9wh OR 9gm OR 9ls OR 9wd OR 9fb OR 9gd OR 9kr OR 9bl OR 9st OR 9p9 OR 9h9 OR 9wc OR 8sw OR 8lw OR 8rx OR 8bs OR 8ws OR 9gw OR 9ws OR 9tw OR oba OR am9) OR (SET ci2))]: %NAME%{%NAME%6}%CONTINUE% // Lvl 6_
 ItemDisplay[!NMAG !MAG !RARE !CRAFT ID STAT91=0 (xlm OR xsk OR xhm OR xea OR xla OR xtu OR xng OR xcl OR xrs OR xpl OR xlt OR xpk OR xit OR xsh OR xow OR xmg OR xtg OR xmb OR zvb OR zmb OR ci1 OR dr7 OR dr8 OR pa8 OR 92a OR 9mp OR 9bt OR 9mt OR 9fl OR 9m9 OR 9fc OR 9cr OR 9bs OR 9gs OR 9b9 OR 9di OR 9br OR 9s8 OR 9pa OR 8cb OR 8s8 OR 8l8 OR 8mx OR 8hx OR 8cs OR 9bw OR 9qs OR am7) !(STAT60>5 AND STAT62>5 xsk)]: %NAME%{%NAME%5}%CONTINUE% // Lvl 5_
 ItemDisplay[!NMAG !MAG !RARE !CRAFT ID STAT91=0 (xap OR xkp OR xhl OR xui OR xhn OR xuc OR xml OR xrg OR xlg OR xvg OR xlb OR xvb OR zlb OR ba6 OR ne6 OR 9ha OR 9ax OR 9la OR 9ba OR 9sp OR 9ma OR 9ss OR 9sm OR 9sb OR 92h OR 9cm OR 9dg OR 9tk OR 9sr OR 9tr OR 9b7 OR 9vo OR 8sb OR 8hb OR 8lb OR 8lx OR 8ss OR 8ls OR 9wn OR 9yw OR 9sc OR 9ar OR ob6 OR ama) !(SET STAT31>99 xhl)]: %NAME%{%NAME%4}%CONTINUE% // Lvl 4_
