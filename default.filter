@@ -3462,7 +3462,7 @@ ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%OR
 ItemDisplay[rtmv]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Mendeln Map Events}
 ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtma]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Rathma%NL%%WHITE%Use at The %RED%Blood Fountainn}
-ItemDisplay[cwss]: %MAP-0A%%RED%*   %PURPLE%Tainted Worldstone Shard   %RED%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
+ItemDisplay[cwss]: %MAP-0A%%PURPLE%*   %RED%Tainted Worldstone Shard   %PURPLE%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[rtp]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%WHITE%Gives You Infinite %RED%IDs}
 // PROJECT DIABLO 2 ITEMS
