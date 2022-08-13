@@ -1,11 +1,11 @@
 ItemDisplayFilterName[]: Kassahi's Filter (S5)
 ItemDisplayFilterName[]: Highlight (F-Gems/Low Runes)
-ItemDisplayFilterName[]: Hide (HP 5/MP 5/R 35/Anti/TP)
+ItemDisplayFilterName[]: Hide (HP 5/MP 5/R 35/TP)
+ItemDisplayFilterName[]: Hide (HP 5/R 35/TP)
+ItemDisplayFilterName[]: Unused
+ItemDisplayFilterName[]: Unused
+ItemDisplayFilterName[]: Unused
 ItemDisplayFilterName[]: (LLD) on Magic Class Items
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Unused
 ItemDisplayFilterName[]: Possible Runewords (No Numbers)
 
 
@@ -2676,7 +2676,7 @@ ItemDisplay[RARE LVLREQ<31 (CRES>24 OR FRES>24 OR LRES>24) (STAT214>34 OR RES>9 
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (STAT214>34 OR RES>9 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%NAME%%NL%%PURPLE%LLD Usable: %TAN%(%GRAY%Lvl: %WHITE%30%TAN%)}
 
 // Ideal Class Item Crafting Bases (LLD)
-ItemDisplay[FILTLVL=4 ((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (clb OR 9cl OR spc OR 9sp) OR (ces OR 9cs)) MAG !ID ILVL>50]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
+ItemDisplay[FILTLVL=8 ((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (clb OR 9cl OR spc OR 9sp) OR (ces OR 9cs)) MAG !ID ILVL>50]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 // Ideal Ethereal Crafting Bases (LLD)
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 
@@ -3271,14 +3271,14 @@ ItemDisplay[GOLD<50]:
 ItemDisplay[GOLD<500 CLVL>17]:
 ItemDisplay[GOLD<1100 CLVL>79]:
 // POTIONS
-ItemDisplay[FILTLVL=3 rvs]:
+ItemDisplay[(FILTLVL=3 OR FILTLVL=4) rvs]:
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%{%TAN%Cube: %WHITE%3x %PURPLE%R %WHITE%35% = %PURPLE%Full %WHITE%Rejuv}
 ItemDisplay[rvl]: %PURPLE%Full %WHITE%Rejuv
 ItemDisplay[hp1 CLVL<10]: %RED%HP %WHITE%1
 ItemDisplay[hp2 CLVL<20]: %RED%HP %WHITE%2
 ItemDisplay[hp3 CLVL<24]: %RED%HP %WHITE%3
 ItemDisplay[hp4 CLVL<59]: %RED%HP %WHITE%4
-ItemDisplay[FILTLVL=3 hp5]:
+ItemDisplay[(FILTLVL=3 OR FILTLVL=4) hp5]:
 ItemDisplay[hp5]: %RED%HP %WHITE%5
 ItemDisplay[mp1 CLVL<10]: %BLUE%MP %WHITE%1
 ItemDisplay[mp2 CLVL<20]: %BLUE%MP %WHITE%2
@@ -3288,13 +3288,12 @@ ItemDisplay[FILTLVL=3 mp5]:
 ItemDisplay[mp5]: %BLUE%MP %WHITE%5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
-ItemDisplay[FILTLVL=3 yps]:
 ItemDisplay[yps]: %GREEN%* %WHITE%Anti{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[wms CLVL<20]: %GREEN%! %WHITE%Thaw{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[wms CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[FILTLVL=3 tsc]:
+ItemDisplay[(FILTLVL=3 OR FILTLVL=4) tsc]:
 ItemDisplay[tsc]: %DARK_GREEN%* %BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube: %WHITE%Socketed Item, %DARK_GREEN%* %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[isc CLVL<75]: %DARK_GREEN%* %RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
