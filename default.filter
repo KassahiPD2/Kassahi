@@ -2325,9 +2325,6 @@ ItemDisplay[UNI 6s7 STAT250>0]: %NAME%{%WHITE%Ctc Amp: %TAN%(%GRAY%None:%WHITE%-
 ItemDisplay[UNI 6hx STAT363>3]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%2-5%TAN%)}
 ItemDisplay[UNI 7sc STAT139>14]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1-3%TAN%)}
 ItemDisplay[SET 7ws]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%3-4%TAN%)}
-ItemDisplay[UNI ram]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1%TAN%)}
-ItemDisplay[UNI rbe]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%1%TAN%)}
-ItemDisplay[UNI rar]: %NAME%{%WHITE%Rolls OS: %TAN%(%WHITE%6%TAN%)}
 
 // LARZUK'S POSSIBLE SOCKETS -NMAG (1-9 FILTER LEVEL)
 ItemDisplay[MAG (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TAN%(%GOLD%Q:%WHITE%1%NAME%}%CONTINUE% // LQ Begin
