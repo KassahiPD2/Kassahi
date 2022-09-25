@@ -4278,8 +4278,8 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=6) !INF !RW ETH ED>9 6ws]: %PX-00%%DOT-D6%%NAME
 ItemDisplay[NMAG (SOCK=0 OR SOCK=2) !INF !RW !ETH ED>9 (7qs OR 7ws)]: %PX-00%%DOT-D6%%NAME% %RED%*{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (7qs OR 7ws)]: %PX-00%%DOT-D6%%NAME% %RED%*{%NAME%}
 // ASSASSIN'S (NMAG)
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (7ar OR 7xf OR 7qr OR 7lw)]: %PX-00%%DOT-D6%%NAME% %RED%*{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH (7ar OR 7xf OR 7qr OR 7lw)]: %PX-00%%DOT-D6%%NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (7ar OR 7xf OR 7qr)]: %PX-00%%DOT-D6%%NAME% %RED%*{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH (7ar OR 7xf OR 7qr)]: %PX-00%%DOT-D6%%NAME%{%NAME%}
 
 // SPIRIT SWORD'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW ILVL>25 ILVL<41 (bsd OR lsd OR crs)]: %DOT-00%%MAP-D6%%NAME% %GRAY%(%GREEN%Spirit%GRAY%){%NAME%}
