@@ -3244,9 +3244,9 @@ ItemDisplay[FILTLVL=8 ((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR 
 ItemDisplay[((gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) OR (pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama)) ETH MAG !ID ILVL>65]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 
 // Ideal Ethereal Crafting Bases (Lower Difficulties / Item Levels) (LLD)
-ItemDisplay[(pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69 DIFF<2]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
-ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69 DIFF<2]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
-ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69 DIFF<2]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
+ItemDisplay[(pil OR 9pi OR ssp OR 9s9 OR glv OR 9gl OR tsp OR 9ts OR am5 OR ama) MAG ETH !ID CLVL>69]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
+ItemDisplay[(wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs) MAG ETH !ID CLVL>69]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
+ItemDisplay[(gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc) MAG ETH !ID CLVL>69]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 
 // (Class Item & Weapon) Ideal Crafting Base Descriptions (LLD)
 ItemDisplay[((BAR !ETH !ELT !(ba9 OR baa)) OR (DRU !ETH !ELT !(dr9 OR dra)) OR (NEC !ETH !ELT !(ne8 OR ne9 OR nea)) OR (DIN !ETH !ELT !(pa3 OR pa4 OR pa8 OR pa9 OR paa)) OR (SOR !ELT !(ob9 OR oba)) OR (am1 OR am6) OR (clb OR 9cl OR spc OR 9sp) OR (ces OR 9cs)) MAG ID ILVL>50]: %NAME% %GRAY%(%PURPLE%LLD%GRAY%){%PURPLE%LLD Crafting: %TAN%(%GRAY%L:%WHITE%30%TAN%)%NL%%NAME%}%CONTINUE%
