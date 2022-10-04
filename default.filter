@@ -3,8 +3,8 @@ ItemDisplayFilterName[]: Hide Non Eth Bases <10 ED -a Few, on lvl 2-9
 ItemDisplayFilterName[]: Hide HP 5/R 35/TP, on Lvl 3-8
 ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 4
 ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Unused
+ItemDisplayFilterName[]: Hide MP 5, on Lvl 6-8
+ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 7
 ItemDisplayFilterName[]: Unused
 ItemDisplayFilterName[]: Shows LLD on Mag/Rare Items, on Lvl 9
 
@@ -3806,10 +3806,11 @@ ItemDisplay[mp1 CLVL<10]: %BLUE%MP %WHITE%1
 ItemDisplay[mp2 CLVL<20]: %BLUE%MP %WHITE%2
 ItemDisplay[mp3 CLVL<24]: %BLUE%MP %WHITE%3
 ItemDisplay[mp4 CLVL<59]: %BLUE%MP %WHITE%4
+ItemDisplay[(FILTLVL>5 AND FILTLVL<9) mp5]:
 ItemDisplay[mp5]: %BLUE%MP %WHITE%5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
-ItemDisplay[yps]: %GREEN%* %WHITE%Anti %GRAY%(READ!){%GRAY%(READ!) will stay on for a few days%NL%%WHITE%so i Would Like Some FeedBack & thoughts on it%NL% i Have Already Made a Few in This Version,%NL%Hey Guys, im Working on Strict Filter Levels Atm,%NL%%NL%%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+ItemDisplay[yps]: %GREEN%* %WHITE%Anti %GRAY%(Update){%TAN%u guys like this way of updates? DM me in dis%NL%%WHITE%added 2 new filter lvls (6/7) they hide (MP 5)%NL%%GRAY%(i made a new highlight for HRs (vex+) so its not almost identical to Krys HRs)%NL%%WHITE%as well as added a new highlight for ist+%NL%but added highlights with a orange star for some lower runes used in crafting for each class now%NL%i have removed highlights from under thul again%NL%%NL%%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[wms CLVL<20]: %GREEN%! %WHITE%Thaw{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
@@ -3898,13 +3899,24 @@ ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%1%TAN%) %WHITE%Belt: %TAN%(
 ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%
 ItemDisplay[GEM<4]:
 // RUNES
-ItemDisplay[RUNE>0 OR RUNE<10]: %DOT-0A%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[RUNE>9 OR RUNE=16 OR RUNE=17]: %DOT-0A%%RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[RUNE=15 OR RUNE=18 OR RUNE=19]: %DOT-0A%%RED%*  %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]  %RED%*%CONTINUE%
-ItemDisplay[RUNE>19 AND RUNE<26]: %MAP-0A%%RED%*     %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]     %RED%*%CONTINUE%
-ItemDisplay[(RUNE>25 AND RUNE<32) OR (RUNE>32)]: %DOT-60%%BORDER-0A%%GREEN%*%RED%*%PURPLE%*          %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %PURPLE%*%RED%*%GREEN%*%CONTINUE%
-ItemDisplay[RUNE=32]: %DOT-60%%BORDER-0A%%GREEN%*%RED%*%PURPLE%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %PURPLE%*%RED%*%GREEN%*%CONTINUE%
-ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
+ItemDisplay[RUNE>0]: %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%CONTINUE%
+ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
+ItemDisplay[DRUID (r03s OR r04s OR r06s OR r08s OR r09s OR r03 OR r04 OR r06 OR r08 OR r09)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[BARBARIAN (r03s OR r09s OR r17s OR r03 OR r09 OR r17)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[PALADIN (r08s OR r08)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[NECROMANCER (r03s OR r04s OR r05s OR r08s OR r11s OR r12s OR r03 OR r04 OR r05 OR r08 OR r11 OR r12)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[ASSASSIN (r03s OR r09s OR r11s OR r03 OR r09 OR r11)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[SORCERESS (r08s OR r08)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[AMAZON (r03s OR r09s OR r12s OR r03 OR r09 OR r12)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
+ItemDisplay[(r10s OR r11s OR r12s OR r13s OR r14s OR r16s OR r17s OR r10 OR r11 OR r12 OR r13 OR r14 OR r16 OR r17)]: %DOT-0A%%NAME%%CONTINUE%
+ItemDisplay[(r15s OR r18s OR r19s OR r20s OR r15 OR r18 OR r19 OR r20)]: %DOT-0A%%RED%*  %NAME%  %RED%*%CONTINUE%
+ItemDisplay[(r21s OR r22s OR r23s OR r21 OR r22 OR r23)]: %MAP-0A%%RED%*   %NAME%   %RED%*%CONTINUE%
+ItemDisplay[(r24s OR r25s OR r24 OR r25)]: %PX-60%%DOT-00%%MAP-0A%%PURPLE%*%RED%*     %NAME%     %RED%*%PURPLE%*%CONTINUE%
+ItemDisplay[(r26s OR r27s OR r29s OR r30s OR r31s OR r33s OR r26 OR r27 OR r29 OR r30 OR r31 OR r33)]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %NAME%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r28s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME%L Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r28]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME%L Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r32s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r32]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r01s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%El, %GRAY%Key %WHITE%= %ORANGE%Eld%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+15 %BLUE%Def%NL%%TAN%Weapon: %WHITE%+50 %BLUE%AR}
 ItemDisplay[r02s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Eld, %GRAY%Key %WHITE%= %ORANGE%Tir%NL%%NL%%TAN%Shield: %WHITE%7% %BLUE%Block Chance%NL%%TAN%Armor/Helm: %WHITE%-15% %BLUE%Stamina Drain%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+50 %BLUE%AR vs Und}
 ItemDisplay[r03s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Tir, %GRAY%Key %WHITE%= %ORANGE%Nef%NL%%NL%%TAN%All Sockets: %WHITE%+2 %BLUE%to MPK}
@@ -4139,8 +4151,8 @@ ItemDisplay[FILTLVL=9 (MAG OR RARE) !ID ETH CLVL>69 (gax OR 9ga OR gix OR 9gi OR
 // MAGIC/RARE ITEM'S (CLASS)
 ItemDisplay[MAG !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (SORCERESS (SOR OR STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf))))]: %PX-20%%DOT-97%%WHITE%*  %NAME%  %WHITE%*
 ItemDisplay[RARE !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN SIN) OR (SORCERESS (SOR OR STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf))))]: %PX-20%%DOT-6D%%WHITE%*  %NAME%  %WHITE%*
-ItemDisplay[!FILTLVL=4 MAG !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %GRAY%* %NAME% %GRAY%*
-ItemDisplay[!FILTLVL=4 RARE !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR aqv OR cqv)]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) MAG !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) RARE !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR aqv OR cqv)]: %GRAY%* %NAME% %GRAY%*
 // MAGIC/RARE ITEM'S
 ItemDisplay[MAG !ID !ETH AMAZON (am2 OR am7 OR amc)]: %PX-60%%DOT-00%%MAP-97%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[RARE !ID !ETH AMAZON (am2 OR am7 OR amc OR aqv OR cqv)]: %PX-60%%DOT-00%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
