@@ -3,7 +3,7 @@ ItemDisplayFilterName[]: Hide Non Eth Bases <10 ED -a Few, on lvl 2-9
 ItemDisplayFilterName[]: Hide HP 5/R 35/TP, on Lvl 3-8
 ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 4
 ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Hide MP 5, on Lvl 6-8
+ItemDisplayFilterName[]: Hide MP 5/Anti, on Lvl 6-8
 ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 7
 ItemDisplayFilterName[]: Unused
 ItemDisplayFilterName[]: Shows LLD on Mag/Rare Items, on Lvl 9
@@ -3810,6 +3810,7 @@ ItemDisplay[(FILTLVL>5 AND FILTLVL<9) mp5]:
 ItemDisplay[mp5]: %BLUE%MP %WHITE%5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
+ItemDisplay[(FILTLVL>5 AND FILTLVL<9) yps]:
 ItemDisplay[yps]: %GREEN%* %WHITE%Anti{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
