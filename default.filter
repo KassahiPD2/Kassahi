@@ -4023,7 +4023,7 @@ ItemDisplay[((MAG TABSK1>2) OR (RARE TABSK1>1)) IAS>19 (aqv OR cqv)]: %DOT-0A%%N
 // HIGHLIGHTING ARMOR'S (GG'S)
 ItemDisplay[(MAG OR RARE) STAT18>159 CHEST]: %DOT-0A%%NAME%{%RED%***%ORANGE%***   %GREEN%High Enhanced Damage   %ORANGE%***%RED%***%NL%%NAME%}
 // HIGHLIGHTING SHIELD'S (GG'S)
-ItemDisplay[(MAG OR RARE) STAT18>159 !NEC SHIELD]: %DOT-0A%%NAME%{%RED%***%ORANGE%***   %GREEN%High Enhanced Damage   %ORANGE%***%RED%***%NL%%NAME%}
+ItemDisplay[(MAG OR RARE) STAT18>159 (SHIELD !NEC)]: %DOT-0A%%NAME%{%RED%***%ORANGE%***   %GREEN%High Enhanced Damage   %ORANGE%***%RED%***%NL%%NAME%}
 // HIGHLIGHTING GLOVE'S (GG'S)
 ItemDisplay[((MAG TABSK0>2) OR (CRAFT TABSK0>1) OR (RARE TABSK0>1)) IAS>19 ELT GLOVES]: %DOT-0A%%NAME%{%RED%***%ORANGE%***   %GREEN%Bow & Crossbow   %ORANGE%***%RED%***%NAME%}
 ItemDisplay[((MAG TABSK1>2) OR (CRAFT TABSK1>1) OR (RARE TABSK1>1)) (FCR>9 OR IAS>19) ELT GLOVES]: %DOT-0A%%NAME%{%RED%***%ORANGE%***   %GREEN%Passive & Magic   %ORANGE%***%RED%***%NAME%}
