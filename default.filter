@@ -665,8 +665,9 @@ ItemDisplay[(FILTLVL>5 FILTLVL<9) mp5]:
 ItemDisplay[mp5]: %BLUE%MP %WHITE%5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
+ItemDisplay[(FILTLVL>5 FILTLVL<9) (MAPID=161 OR MAPID=162 OR MAPID=163) yps]: %GREEN%* %WHITE%Anti{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[(FILTLVL>5 FILTLVL<9) yps]:
-ItemDisplay[yps]: %GREEN%* %WHITE%Anti{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+
 ItemDisplay[vps CLVL<20]: %GREEN%! %WHITE%Stam{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[wms CLVL<20]: %GREEN%! %WHITE%Thaw{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
