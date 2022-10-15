@@ -1015,24 +1015,24 @@ ItemDisplay[FILTLVL=9 (MAG OR RARE) !ID ETH CLVL>69 (pil OR 9pi OR ssp OR 9s9 OR
 ItemDisplay[FILTLVL=9 (MAG OR RARE) !ID ETH CLVL>69 (wax OR whm OR lsd OR wsd OR kri OR bld OR wsp OR wrb OR ces OR 9wa OR 9wh OR 9ls OR 9wd OR 9kr OR 9bl OR 9ws OR 9wb OR 9cs)]: %DOT-9B%%NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 ItemDisplay[FILTLVL=9 (MAG OR RARE) !ID ETH CLVL>69 (gax OR 9ga OR gix OR 9gi OR mau OR 9m9 OR gma OR 9gm OR flb OR 9fb OR gsd OR 9gd OR pik OR 9p9 OR wsc OR 9wc)]: %DOT-9B%%NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 
-// MAGIC/RARE ITEM'S
+// MAGIC/RARE (GOOD)
 ItemDisplay[MAG !ID !ETH AMAZON (am2 OR am7 OR amc)]: %PX-60%%DOT-00%%MAP-97%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[RARE !ID !ETH AMAZON (am2 OR am7 OR amc OR aqv OR cqv)]: %PX-60%%DOT-00%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[(MAG OR RARE) !ID ETH BARBARIAN (tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-00%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
-ItemDisplay[RARE !ID !ETH !(DRU OR BAR OR DIN OR NEC) (HELM OR CHEST OR SHIELD OR BELT)]: %NAME%
-ItemDisplay[RARE !ID !ETH !ZON (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw OR THROWING)]: %NAME%
-ItemDisplay[(MAG OR RARE) !ID ETH !ZON (GLOVES OR BELT OR axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR THROWING)]: %ORANGE%* %NAME% %ORANGE%*
-// MAGIC/RARE (GOOD)
 ItemDisplay[MAG !ID !ETH (jew OR CIRC)]: %DOT-20%%MAP-00%%BORDER-97%%BLUE%*%WHITE%*     %NAME%     %WHITE%*%BLUE%*
 ItemDisplay[MAG !ID ILVL>90 cm3]: %PX-9B%%DOT-00%%MAP-97%%PURPLE%*   %NAME%   %PURPLE%* %TAN%(%WHITE%91+%TAN%)
 ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-00%%MAP-97%%PURPLE%*   %NAME%   %PURPLE%*
 ItemDisplay[RARE !ID !ETH (jew OR amu OR rin OR CIRC)]: %DOT-20%%MAP-00%%BORDER-6D%%YELLOW%*%WHITE%*     %NAME%     %WHITE%*%YELLOW%*
 ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-9B%%DOT-00%%MAP-6D%%PURPLE%*   %NAME%   %PURPLE%*
 // MAGIC/RARE ITEM'S (CLASS)
-ItemDisplay[MAG !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN (ETH SIN)) OR (SORCERESS (SOR OR ETH STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf))))]: %PX-20%%DOT-97%%WHITE%*  %NAME%  %WHITE%*
+ItemDisplay[MAG !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN (ETH SIN)) OR (SORCERESS (SOR OR (ETH STAFF))) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf))))]: %PX-20%%DOT-97%%WHITE%*  %NAME%  %WHITE%*
 ItemDisplay[RARE !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN SIN) OR (SORCERESS (SOR OR STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf))))]: %PX-20%%DOT-6D%%WHITE%*  %NAME%  %WHITE%*
-ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) MAG !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR ETH SIN OR SOR OR ETH STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR am2 OR am7 OR amc)]: %GRAY%* %NAME% %GRAY%*
+ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) MAG !ID ((DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR (ETH SIN) OR SOR OR (ETH STAFF) OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR am2 OR am7 OR amc))]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) RARE !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR am2 OR am7 OR amc OR aqv OR cqv)]: %GRAY%* %NAME% %GRAY%*
+// MAGIC/RARE ITEM'S
+ItemDisplay[RARE !ID !ETH !(DRU OR BAR OR DIN OR NEC) (HELM OR CHEST OR SHIELD OR BELT)]: %NAME%
+ItemDisplay[RARE !ID !ETH !ZON (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw OR THROWING)]: %NAME%
+ItemDisplay[(MAG OR RARE) !ID ETH !ZON (GLOVES OR BELT OR axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR THROWING)]: %ORANGE%* %NAME% %ORANGE%*
 
 // AMULET'S CRAFTING (CLVL)
 ItemDisplay[MAG !ID amu (ILVL=82 OR ILVL=83)]: %NAME% %TAN%(%ORANGE%C:%WHITE%98+%TAN%)
