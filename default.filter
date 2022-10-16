@@ -3,7 +3,7 @@ ItemDisplayFilterName[]: Hide Non Eth Bases <10 ED -a Few, on lvl 2-9
 ItemDisplayFilterName[]: Hide HP 5/R 35/TP, on Lvl 3-8
 ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 4
 ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Hide MP 5/Anti (-Anti at Rathma), on Lvl 6-8
+ItemDisplayFilterName[]: Hide MP 5/Anti (+Anti at Rathma), on Lvl 6-8
 ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 7
 ItemDisplayFilterName[]: Unused
 ItemDisplayFilterName[]: Shows LLD on Mag/Rare Items, on Lvl 9
@@ -3663,7 +3663,7 @@ ItemDisplay[ETH WEAPON !WAND !SOR]: %NAME%{%NAME%%TAN%)}%CONTINUE% // Avg Dmg En
 
 // VALUABLE HELMET'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 xhm]: %PX-84%%DOT-00%%MAP-D6%%NAME% %GRAY%(%GREEN%Ferocity%GRAY%){%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU ((SK229=3 AND SK244=3) AND (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0) OR (SK248=3 AND SK223=3 AND SK224=3) OR (SK233=3 AND SK242=3 AND SK224=3))]: %PX-84%%DOT-00%%MAP-D6%%NAME% %GRAY%(%GREEN%Ferocity%GRAY%){%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU ((SK229=3 AND SK244=3) AND (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0) OR (SK248=3 AND SK223=3 AND SK224=3) OR (SK233=3 AND SK242=3 AND SK224=3))]: %PX-84%%DOT-00%%MAP-D6%%NAME% %GRAY%(%GREEN%Flickering Flame%GRAY%){%NAME%}
 // VALUABLE CLUB'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) (9cl OR 7cl OR 9sp OR 7sp OR leg) ((SK229=3 AND SK244=3) AND (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0) OR (SK240=3) AND (SK245>1 OR SK250>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0) OR (SK243=3) AND (SK226>0 OR SK231>0 OR SK241>0 OR SK247>0) OR (SK221=3 AND SK247=3) AND (SK227>1 OR SK237>1 OR SK236>1))]: %PX-84%%DOT-00%%MAP-D6%%NAME% %GRAY%(%GREEN%Plague%GRAY%){%NAME%}
 // VALUABLE STAFF'S (NMAG)
