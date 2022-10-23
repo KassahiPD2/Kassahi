@@ -52,7 +52,7 @@ ItemDisplay[UNI cm2 CLSK3=2]: Pala Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK4=2]: Barb Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK5=2]: Dudu Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK6=2]: Sin Torch%CONTINUE%
-ItemDisplay[UNI cm3]: Gheed's Fortune%CONTINUE%
+ItemDisplay[UNI cm3]: Sundered Fortune%CONTINUE%
 // JEWELRY'S NAME (BASE)
 ItemDisplay[(MAG OR RARE) jew]: Jewel%CONTINUE%
 ItemDisplay[UNI jew]: Rainbow Facet%CONTINUE%
@@ -970,7 +970,8 @@ ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)
 
 
 // UNIQUE DROPS (CHARMS)
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*
+ItemDisplay[UNI !ID (cm1 OR cm2)]: %DOT-0D%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*
+ItemDisplay[UNI !ID cm3]: %DOT-0D%%GRAY%*%RED%*   %GOLD%Sunder Charm   %RED%*%GRAY%*
 // UNIQUE DROPS (RAINBOW FACET)
 ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%R%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %GOLD%Facet     %PURPLE%R%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
 // UNIQUE DROPS (DCLONE & RATHMA)
@@ -3218,6 +3219,8 @@ ItemDisplay[RARE !ETH ci3]: %NAME%{%WHITE%Tip:%TAN%(%WHITE%6x %GRAY%O, %WHITE%to
 ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%WHITE%Cube:%TAN%(%PURPLE%Charm, %WHITE%3x %WHITE%P-%ORANGE%Gems, %WHITE%to Reroll%TAN%)}%CONTINUE%
 // JEWEL'S
 ItemDisplay[(MAG OR RARE) jew]: %NAME%{%GRAY%(You Will Lose The Stats)%NL%%WHITE%Cube:%TAN%(%WHITE%1-15 Jewels, %GRAY%Key %WHITE%= %GOLD%O%TAN%)}%CONTINUE%
+// JEWEL'S
+ItemDisplay[UNI cm3]: %NAME%{%RED%im 69% Sure They Will Work... Maybe ?!?!?%NL%%BLUE%Monster Magic Immunity is Sundered, Magic Resist -45 to 65%%NL%Monster Physical Immunity is Sundered, Damage Increased by 10 to 30%%NL%Monster Poison Immunity is Sundered, Poison Resist -70 to 90%%NL%Monster Cold Immunity is Sundered, Cold Resist -70 to 90%%NL%Monster Lightning Immunity is Sundered, Lightning Resist -70 to 90%%NL%Monster Fire Immunity is Sundered, Fire Resist -70 to 90%}%CONTINUE%
 
 // ARMOR'S UPGRADING RECIPE
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR !GLOVES !BELT !BOOTS]: %NAME%{%NAME%%NL%%WHITE%Up:%TAN%(%GREEN%8, 10, %PURPLE%O}%CONTINUE%
