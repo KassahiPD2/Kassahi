@@ -3343,154 +3343,14 @@ ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON
 ItemDisplay[NMAG !RW SOCK=0 !THROWING (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%TAN%/%RED%B%TAN%)}%CONTINUE% // LQ/Wss/Runes/Gems End
 // WEAPON'S SPEED/RANGE
 ItemDisplay[WEAPON !RW !((WAND OR SOR) OR (ELT THROWING) OR (NMAG THROWING) OR (MAG THROWING))]: %NAME%{%NAME%%NL%}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%%WHITE%Base:%TAN%(%GRAY%Sp:%WHITE%%WPNSPD%, %GRAY%R:%WHITE%%RANGE%,}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%WHITE%Base:%TAN%(%GRAY%Sp:%WHITE%%WPNSPD%}%CONTINUE%
-// NON-ETH WEAPON'S AVG DMG (BARBARIAN)
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN]: %NAME%{%NAME% %GRAY%AD:%DARK_GREEN%1H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (7fb)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (7cm OR 7gs OR 7gd)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (72h OR 9b9 OR 7b7 OR 9gd)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (9cm OR 9gs OR 9fb)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (92h)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (bsw OR flb OR gsd)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (72h OR gis OR 7b7 OR 9fb)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (clm)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg __8
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (7gs OR gsd OR 7gd)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (2hs)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (92h)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (7cm OR 9gs OR bsw OR 9gd)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (flb)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg __2
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (9cm OR 9b9 OR 7fb)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// NON-ETH WEAPON'S AVG DMG WITH (,5 BARBARIAN)
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN (2hs OR 92h OR clm OR 9cm OR gis OR 9gs OR 7gs OR 9fb OR 7fb)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5
-ItemDisplay[!ETH WEAPON 2H SWORD BARBARIAN]: %NAME%{%NAME%%TAN%/%DARK_GREEN%2H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-// ETH WEAPON'S AVG DMG (BARBARIAN)
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN]: %NAME%{%NAME% %GRAY%AD:%DARK_GREEN%1H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (7gs OR 7fb)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg _7_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (72h OR 7cm OR 7b7 OR 7gd)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9gd)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9gs OR 9b9 OR 9fb)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (92h OR 9cm)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (gsd)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (clm OR gis OR bsw OR flb)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9b9 OR 9fb OR 7gd)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9cm)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg __7
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (2hs OR 7cm)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (bsw OR 7fb)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (flb)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9gd)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (72h OR gis OR 9gs OR 7b7)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg __1
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (92h OR clm OR 7gs OR gsd)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// ETH WEAPON'S AVG DMG WITH (,5 BARBARIAN)
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN (9cm OR gis OR bsw OR 9b9 OR 9gd)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5
-ItemDisplay[ETH WEAPON 2H SWORD BARBARIAN]: %NAME%{%NAME%%TAN%/%DARK_GREEN%2H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-// NON-ETH THROWING WEAPON'S AVG DMG 
-ItemDisplay[!ETH WEAPON THROWING !(7tk OR 7bk OR 7b8)]: %NAME%{%NAME% %GRAY%AD:%DARK_GREEN%Th:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[!ETH WEAPON (7tk OR 7bk OR 7b8)]: %NAME%{%NAME% %GRAY%AD:%TAN%(%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[!ETH WEAPON THROWING (amf)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[!ETH WEAPON THROWING (7s7 OR 7gl)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[!ETH WEAPON THROWING (7ta OR 7ja OR 7pi OR 9s9 OR 9gl OR 9ts OR 7ts OR ama)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[!ETH WEAPON THROWING (7tk OR 9ta OR 7bk OR 9pi)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[!ETH WEAPON THROWING (9tk OR 9bk OR 9b8 OR 9ja OR tsp)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[!ETH WEAPON THROWING (bal OR pil OR ssp OR glv OR am5)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[!ETH WEAPON THROWING (9b8 OR 9ja OR glv)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[!ETH WEAPON THROWING (7tk OR bkf OR jav OR 7pi OR 9gl)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg __8
-ItemDisplay[!ETH WEAPON THROWING (tax OR ama)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg __7
-ItemDisplay[!ETH WEAPON THROWING (ssp OR 9s9)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[!ETH WEAPON THROWING (9bk)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[!ETH WEAPON THROWING (tkf OR 9pi OR 7gl OR 7ts OR am5)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[!ETH WEAPON THROWING (bal OR pil OR amf)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[!ETH WEAPON THROWING (9tk)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg __2
-ItemDisplay[!ETH WEAPON THROWING (9ta OR 7bk OR 7ja OR 7s7 OR tsp OR 9ts)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg __1
-ItemDisplay[!ETH WEAPON THROWING (7ta)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// NON-ETH THROWING WEAPON'S AVG DMG WITH (,5)
-ItemDisplay[!ETH WEAPON THROWING (tkf OR 7tk OR tax OR 9ta OR 7ta OR bkf OR 9bk OR bal OR 7ja OR pil OR 9pi OR 9gl OR amf)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5
-ItemDisplay[!ETH WEAPON THROWING !(7tk OR 7bk OR 7b8)]: %NAME%{%NAME%%TAN%/%DARK_GREEN%1H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-// ETH THROWING WEAPON'S AVG DMG 
-ItemDisplay[ETH WEAPON THROWING !(7tk OR 7ta OR 7bk OR 7b8)]: %NAME%{%NAME% %GRAY%AD:%DARK_GREEN%Th:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[ETH WEAPON (7tk OR 7ta OR 7bk OR 7b8)]: %NAME%{%NAME% %GRAY%AD:%TAN%(%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[ETH WEAPON THROWING (amf)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg _7_
-ItemDisplay[ETH WEAPON THROWING (7s7 OR 9gl OR 7gl)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[ETH WEAPON THROWING (7ja OR 7pi OR 9s9 OR 9ts OR 7ts OR ama)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[ETH WEAPON THROWING (9pi)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[ETH WEAPON THROWING (9ta OR 9bk OR 9b8 OR 9ja)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[ETH WEAPON THROWING (9tk OR glv OR tsp)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[ETH WEAPON THROWING (bkf OR bal OR pil OR ssp OR am5)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[ETH WEAPON THROWING (tax OR jav OR 7pi OR ssp OR amf)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[ETH WEAPON THROWING (9ta)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg __8
-ItemDisplay[ETH WEAPON THROWING (9tk OR 9s9 OR 7gl OR am5 OR ama)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg __7
-ItemDisplay[ETH WEAPON THROWING (bal OR 9b8 OR 9ja OR pil OR tsp)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[ETH WEAPON THROWING (tkf)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[ETH WEAPON THROWING (7ts)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[ETH WEAPON THROWING (7s7 OR glv)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[ETH WEAPON THROWING (9pi)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg __2
-ItemDisplay[ETH WEAPON THROWING (9bk OR 7ja)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg __1
-ItemDisplay[ETH WEAPON THROWING (bkf OR 9gl OR 9ts)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// ETH THROWING WEAPON'S AVG DMG WITH (,5)
-ItemDisplay[ETH WEAPON THROWING (9ta OR bal OR jav OR 7ja OR pil OR 9pi OR ssp OR 7s7 OR glv OR 9ts OR ama)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5
-ItemDisplay[ETH WEAPON THROWING !(7tk OR 7ta OR 7bk OR 7b8)]: %NAME%{%NAME%%TAN%/%DARK_GREEN%1H:%WHITE%}%CONTINUE% // Avg Dmg Begin
-// NON-ETH WEAPON'S AVG DMG
-ItemDisplay[!ETH WEAPON !BARBARIAN !THROWING !WAND !SOR]: %NAME%{%NAME% %GRAY%AD:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[!ETH WEAPON (7ba OR 7bt OR 7gi OR 7m7 OR 9gm OR 7gm OR 7cm OR 7gs OR 7fb OR 7gd OR 7tr OR 7st OR 7p7 OR 7o7 OR 7vo OR 7pa OR 7h7 OR 6ls OR 6cs OR 6bs OR 6ws OR am9 OR ame)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg 1__
-ItemDisplay[!ETH WEAPON (7la OR 7ga OR 9gi OR 9m9 OR 72h OR 7b7 OR 9gd OR 7sr OR 9p9 OR 7s8 OR 7wc OR 6ss OR amd)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg _9_
-ItemDisplay[!ETH WEAPON (7br OR 6hx)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg _8_
-ItemDisplay[!ETH WEAPON (9b9 OR 9pa OR 9h9 OR 9wc OR 6mx)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg _7_
-ItemDisplay[!ETH WEAPON (7ax OR 72a OR 9bt OR 9ga OR 7ma OR 7mt OR 7wh OR 7fc OR 9cm OR 9st OR 6lx OR 8hx OR 7qs OR 7ar OR 7xf OR 7qr OR am8)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[!ETH WEAPON (7ha OR 7wa OR 9ba OR 7sp OR 7fl OR 7ss OR 7bs OR 7ls OR 7wd OR 9gs OR 9fb OR 7di OR 7bl OR 6rx OR 8ws OR 7sc OR 7ws OR 7wb OR 7lw OR amc OR amf)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[!ETH WEAPON (7mp OR 9wa OR 9la OR 7cl OR 9wh OR gma OR 7sm OR 7sb OR 7cr OR 9wd OR 92h OR 7dg OR 7kr OR 9bl OR 7ta OR 7s7 OR 9br OR 9b7 OR 9vo OR 9s8 OR 6sb OR 6lb OR 6s7 OR 6l7 OR 6sw OR 6lw OR 8mx OR 7cs OR clw OR 7tw OR 9qr OR amb OR am4)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[!ETH WEAPON (9ax OR 92a OR 9mp OR gix OR 9mt OR 9fl OR mau OR 7gm OR 9fc OR 9cr OR 9bs OR 9ls OR gsd OR 9kr OR 7b8 OR 7ja OR 7pi OR 9gl OR 7gl OR 9ts OR 7ts OR 9sr OR 9tr OR pik OR 7p7 OR 6hb OR 6cb OR 8l8 OR 8sw OR 8lw OR 8rx OR 8cs OR 8bs OR 9qs OR 9ws OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR am7 OR ama)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[!ETH WEAPON (9ha OR btx OR 9cl OR 9sp OR 9ma OR whm OR 9ss OR 9sm OR 9sb OR clm OR bsw OR 9di OR 9ta OR 9b8 OR 9pi OR 9s9 OR pax OR hal OR wsc OR 8hb OR 8lb OR 8cb OR 8s8 OR 8lx OR hxb OR 8ls OR wst OR 9sc OR 9ar OR am6 OR am3)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[!ETH WEAPON (wax OR bax OR 7bt OR gax OR 7gi OR mst OR fla OR 7m7 OR flc OR crs OR bsd OR lsd OR wsd OR 2hs OR gis OR flb OR 7fb OR 9dg OR 9tk OR 9bk OR 9ja OR glv OR tsp OR tri OR brn OR spt OR bar OR vou OR 7vo OR scy OR 7pa OR 8sb OR lbb OR swb OR lwb OR mxb OR rxb OR 8ss OR 6ls OR 6ws OR gsc OR wsp OR axf OR ces OR btl OR skr OR am1 OR am2 OR ame OR am5)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[!ETH WEAPON (7ba OR 9gm OR 7cm OR 7gs OR 7gd OR 7tr OR 7st OR 7o7 OR 7h7 OR 6cs OR 6bs OR am9)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg _0_
-ItemDisplay[!ETH WEAPON (7ha OR 2ax OR mpi OR 7mp OR 7wa OR lax OR gax OR 7cl OR 7sp OR 9wh OR 7wh OR 7gs OR flb OR 9fb OR bld OR 9bk OR 7ja OR 7pi OR 7gl OR spr OR spt OR sbb OR lxb OR 8lx OR 6lx OR 6mx OR 8ss OR bst OR 8ws OR 7cs OR clw)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[!ETH WEAPON (7ba OR gma OR 7sb OR gis OR 7gd OR 7s7 OR 9tr OR 7tr OR 7st OR pik OR 9p9 OR 7o7 OR 9vo OR pax OR 9pa OR hal OR 7h7 OR 6cb OR 8s8 OR cst OR 6cs OR 6bs OR scp OR wrb OR 9lw OR am6 OR ama)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg __8
-ItemDisplay[!ETH WEAPON (axe OR 9bt OR 9sp OR 9ma OR 9mt OR 7fl OR whm OR 9ls OR 9dg OR bal OR ssp OR 6hb OR lbw OR cbw OR 6l7 OR 6lw OR 7sc OR am7 OR amd)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg __7
-ItemDisplay[!ETH WEAPON (92a OR wax OR 7bt OR 7ga OR spc OR mac OR mau OR 7ss OR 9fc OR 7bs OR 7wd OR 7b7 OR dir OR 9di OR kri OR 9tk OR 9b8 OR pil OR 7sr OR 9b7 OR 7wc OR 8sb OR hxb OR 6hx OR 8rx OR 6ss OR 9sc OR 9qs OR ktr OR 7xf OR 7tw)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[!ETH WEAPON (7gi OR 7sm OR sbr OR 9sb OR 9bs OR 92h OR 9gs OR tax OR 9ja OR 7s8 OR wsc OR 8lb OR 6lb OR 8lw OR mxb OR lst OR 8ls OR wsp OR 9ws OR 9ar OR 9tw OR am2 OR leg)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[!ETH WEAPON (hax OR 9mp OR bax OR 9fl OR 7m7 OR ssd OR scm OR 9cr OR wsd OR bsw OR bkf OR 9sr OR bar OR scy OR 9s8 OR 7pa OR 6sb OR hbw OR 8cb OR 6s7 OR 8l8 OR 6sw OR 8mx OR 6rx OR 6ls OR 8bs OR 6ws OR 7wb OR 9cs OR skr OR ame)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[!ETH WEAPON (9wa OR gix OR clb OR 9gm OR 7gm OR flc OR 7fb OR gsd OR 7b8 OR jav OR 9pi OR 7br OR 9st OR vou OR 7vo OR lwb OR rxb OR sst OR gsc OR 9wb OR btl OR 9qr OR am3 OR amf)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[!ETH WEAPON (9ha OR 72a OR 7la OR btx OR 9gi OR 7mt OR fla OR 9ss OR 2hs OR 9cm OR 7cm OR 9b9 OR dgr OR 7dg OR 7di OR 7kr OR tkf OR 9gl OR tri OR brn OR 7p7 OR 9wc OR sbw OR lbb OR 8sw OR 8hx OR 7qs OR 7ar OR 9xf OR ces OR 7qr OR amc OR am4)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg __2
-ItemDisplay[!ETH WEAPON (7ax OR 9la OR 9ga OR 7ma OR mst OR 9m9 OR 9sm OR 7cr OR lsd OR 7ls OR clm OR 9gd OR 9kr OR 7ta OR glv OR 7ts OR 7lw OR am1 OR am8 OR am5)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg __1
-ItemDisplay[!ETH WEAPON (9ax OR 9ba OR 9cl OR 7fc OR crs OR bsd OR 9wd OR 72h OR 9bl OR 7bl OR 9ta OR 9s9 OR tsp OR 9ts OR 9br OR 9h9 OR 8hb OR swb OR 8cs OR wst OR 7ws OR axf OR amb OR am9)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// NON-ETH WEAPON'S AVG DMG WITH (,5)
-ItemDisplay[!ETH WEAPON (hax OR 9ha OR 7ha OR axe OR 9ax OR 9mp OR 9wa OR 7wa OR lax OR 7la OR gax OR 9ga OR gix OR clb OR spc OR mac OR 9ma OR mst OR 7mt OR fla OR 9wh OR 7wh OR mau OR 9gm OR ssd OR 7ss OR 7sm OR sbr OR 9sb OR 7sb OR 9fc OR 9cr OR 7cr OR bsd OR 9bs OR 7wd OR 2hs OR 72h OR clm OR 9cm OR gis OR 9gs OR 7b7 OR flb OR 7fb OR gsd OR 9gd OR 7gd OR dgr OR 9dg OR kri OR bld OR tkf OR tax OR bkf OR bal OR 9b8 OR 7b8 OR 9ja OR pil OR ssp OR 7gl OR 9sr OR 7sr OR 9tr)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5 NR 1
-ItemDisplay[!ETH WEAPON (9br OR 7br OR 7st OR pik OR vou OR 7vo OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 7h7 OR wsc OR sbw OR 8sb OR 6sb OR 6hb OR lbw OR 8lb OR 8cb OR 6cb OR 8s8 OR lbb OR 8l8 OR 6l7 OR 8sw OR 8lw OR 6lw OR lxb OR 6lx OR 6mx OR hxb OR 8hx OR rxb OR 6rx OR 8ss OR 8cs OR bst OR 8bs OR 8ws OR scp OR 9sc OR 7sc OR wsp OR ktr OR 7ar OR 7wb OR 9xf OR 7xf OR ces OR 9cs OR 7lw OR 7tw OR skr OR 7qr OR am6 OR amb OR am2 OR am7 OR am8 OR amd OR am4 OR ame OR ama)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5 NR 2
-ItemDisplay[!ETH WEAPON !WAND !SOR]: %NAME%{%NAME%%TAN%)}%CONTINUE% // Avg Dmg End
-// ETH WEAPON'S AVG DMG
-ItemDisplay[ETH WEAPON !BARBARIAN !THROWING !WAND !SOR]: %NAME%{%NAME% %GRAY%AD:%WHITE%}%CONTINUE% // Avg Dmg Begin
-ItemDisplay[ETH WEAPON (7la OR 7ba OR 7bt OR 7ga OR 9gi OR 7gi OR 9m9 OR 7m7 OR 9gm OR 7gm OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 9gd OR 7gd OR 7sr OR 7tr OR 7br OR 7st OR 9p9 OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc OR 6ss OR 6ls OR 6cs OR 6bs OR 6ws OR amd OR am9 OR ame)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg 1__
-ItemDisplay[ETH WEAPON (9pa OR 9wc)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg _9_
-ItemDisplay[ETH WEAPON (9bt OR 7wh OR 9b9 OR 9h9 OR 7xf)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg _8_
-ItemDisplay[ETH WEAPON (7ha OR 7ax OR 72a OR 7wa OR 9ga OR 7sp OR 7ma OR 7mt OR 7fl OR 7ss OR 7fc OR 7wd OR 9cm OR 9fb OR 9st OR 8ws OR 7sc OR 7qs OR 7ar OR 7qr OR am8)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg _7_
-ItemDisplay[ETH WEAPON (7mp OR 9ba OR 7cl OR 9wh OR 7gm OR 7sb OR 7bs OR 7ls OR 9gs OR 7di OR 7bl OR 7p7 OR 9vo OR 7ws OR 7wb OR 7cs OR 7lw OR amf)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg _6_
-ItemDisplay[ETH WEAPON (9wa OR 9la OR gma OR 7sm OR 92h OR 7dg OR 7kr OR 9bl OR 7ta OR 7s7 OR 9br OR 9b7 OR 9s8 OR 7tw OR 9qr OR am4)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg _5_
-ItemDisplay[ETH WEAPON (92a OR 9mp OR 7bt OR gix OR 7gi OR 9mt OR 9fl OR mau OR 7m7 OR 9fc OR 9cr OR 9bs OR 9ls OR 9wd OR 7fb OR gsd OR 7tk OR 7b8 OR 7ja OR 7pi OR 9gl OR 7gl OR 9sr OR 9tr OR pik OR 7vo OR 7pa OR 6ls OR 8bs OR 6ws OR 9qs OR 9ws OR 9wb OR 9xf OR 9cs OR 9lw OR 9tw OR ame OR ama)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg _4_
-ItemDisplay[ETH WEAPON (9ax OR 7ba OR 9sp OR 9ma OR whm OR 9sb OR 7gs OR bsw OR 7gd OR 9di OR 9kr OR 7bk OR 9b8 OR 9s9 OR 9ts OR 7ts OR 7tr OR 7st OR 7o7 OR pax OR hal OR 7h7 OR wsc OR 8ls OR 8cs OR 6cs OR 6bs OR 9sc OR 9ar)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg _3_
-ItemDisplay[ETH WEAPON (9ha OR wax OR btx OR gax OR 9cl OR 9gm OR 9ss OR 9sm OR clm OR 7cm OR gis OR 7b7 OR flb OR 9dg OR 9tk OR 9ta OR 9bk OR 9pi OR 7sr OR spt OR 9p9 OR 8ss OR wst OR am3 OR amd OR am9 OR ame)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg _2_
-ItemDisplay[ETH WEAPON (2ax OR mpi OR lax OR 7la OR bax OR 7ga OR 9gi OR mst OR fla OR 9m9 OR flc OR crs OR bsd OR lsd OR wsd OR 2hs OR 72h OR 9gd OR bld OR 9ja OR glv OR tsp OR spr OR tri OR brn OR bar OR vou OR scy OR 7s8 OR 7wc OR 6ss OR cst OR bst OR scp OR gsc OR wsp OR axf OR ces OR clw OR btl OR skr OR am5)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg _1_
-ItemDisplay[ETH WEAPON (7br)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg _0_
-ItemDisplay[ETH WEAPON (axe OR 7ga OR gma OR 9gm OR 7bs OR 9wd OR 9gs OR 9b9 OR 9ja OR 7s7 OR 7gl OR 7s8 OR 7wc OR 6ss OR wsp OR wrb)]: %NAME%{%NAME%9}%CONTINUE% // Avg Dmg __9
-ItemDisplay[ETH WEAPON (mst OR 7bk OR bal OR 7pi OR ssp OR 7ts OR am3)]: %NAME%{%NAME%8}%CONTINUE% // Avg Dmg __8
-ItemDisplay[ETH WEAPON (9ha OR 9ax OR bax OR btx OR spc OR mac OR 7mt OR 9ss OR wsd OR 9cm OR 7cm OR kri OR 9kr OR 7tk OR 7ja OR pil OR 9pi OR 9ts OR 9tr OR 9st OR pik OR bar OR scy OR 9pa OR 9h9 OR 8cs OR 7qs OR ktr OR 7ar OR 7wb OR 7tw OR skr OR 7qr OR ama)]: %NAME%{%NAME%7}%CONTINUE% // Avg Dmg __7
-ItemDisplay[ETH WEAPON (72a OR 9ga OR 7ma OR 7wh OR 9sm OR 7sm OR sbr OR 9ls OR 92h OR clm OR dir OR tax OR 9b7 OR vou OR lst OR gsc OR 9lw OR am8 OR amf)]: %NAME%{%NAME%6}%CONTINUE% // Avg Dmg __6
-ItemDisplay[ETH WEAPON (hax OR 7ax OR 7la OR 9mt OR fla OR mau OR 7gm OR ssd OR flc OR 9fc OR 2hs OR 7gs OR 7gd OR bkf OR 7tr OR 7st OR 9s8 OR pax OR hal OR 7h7 OR 6cs OR wst OR 9qs OR ces OR clw OR btl OR am9)]: %NAME%{%NAME%5}%CONTINUE% // Avg Dmg __5
-ItemDisplay[ETH WEAPON (7ha OR 92a OR 9wa OR 7ba OR 7bt OR 9gi OR clb OR 9cl OR scm OR 7fc OR 9bs OR 9gd OR 7di OR 9ta OR tri OR brn OR 7br OR 7p7 OR 7o7 OR 6bs OR 8ws)]: %NAME%{%NAME%4}%CONTINUE% // Avg Dmg __4
-ItemDisplay[ETH WEAPON (7wa OR 9bt OR gax OR 7gi OR 9sp OR 7sp OR 9ma OR whm OR lsd OR 7ls OR flb OR dgr OR 9bk OR jav OR spt OR sst OR 8ss OR 9ws OR 7lw OR 9qr OR am5)]: %NAME%{%NAME%3}%CONTINUE% // Avg Dmg __3
-ItemDisplay[ETH WEAPON (9mp OR 9ba OR 9fl OR 9m9 OR 7m7 OR 9cr OR bsd OR 72h OR gis OR 9fb OR 7dg OR 9di OR 7bl OR tkf OR 9b8 OR glv OR 9sr OR 7pa OR 6ls OR 8bs OR 6ws OR 9sc OR 7ws OR 7xf OR 9cs OR 9tw OR am4)]: %NAME%{%NAME%2}%CONTINUE% // Avg Dmg __2
-ItemDisplay[ETH WEAPON (7mp OR lax OR gix OR 7cl OR 7fl OR 9wh OR crs OR 7fb OR gsd OR 9dg OR 7kr OR bld OR 7b8 OR 9s9 OR tsp OR 9p9 OR 7vo OR wsc OR 8ls OR bst OR 7sc OR 9wb OR axf OR amd)]: %NAME%{%NAME%1}%CONTINUE% // Avg Dmg __1
-ItemDisplay[ETH WEAPON (2ax OR mpi OR wax OR 9la OR 7ss OR 9sb OR 7sb OR 7wd OR bsw OR 7b7 OR 9bl OR 9tk OR 7ta OR 9gl OR spr OR 7sr OR 9br OR 9vo OR 9wc OR cst OR scp OR 9ar OR 9xf OR 7cs)]: %NAME%{%NAME%0}%CONTINUE% // Avg Dmg __0
-// ETH WEAPON'S AVG DMG WITH (,5)
-ItemDisplay[ETH WEAPON (9ha OR 9ax OR 7ax OR 92a OR 72a OR mpi OR 9mp OR 7wa OR 7ba OR btx OR gax OR 9ga OR 7ga OR 9gi OR 9cl OR spc OR 9sp OR mac OR 9ma OR 7mt OR fla OR whm OR 9wh OR 7wh OR 9m9 OR 7m7 OR gma OR 9ss OR scm OR sbr OR crs OR 9cr OR bsd OR 7bs OR 7ls OR wsd OR 72h OR 9cm OR 7cm OR gis OR 9b9 OR flb OR 9fb OR 7fb OR 7dg OR dir OR kri OR 9kr OR 7kr OR bld OR 7bl OR tkf OR 7tk OR tax OR bkf)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5 NR 1
-ItemDisplay[ETH WEAPON (9bk OR bal OR 9b8 OR 7b8 OR 7ja OR pil OR 9pi OR 7pi OR ssp OR glv OR tsp OR 9ts OR spr OR 9sr OR 9tr OR 9st OR pik OR 9p9 OR 9b7 OR scy OR 9pa OR 7pa OR wsc OR 7wc OR 8ss OR 6ss OR 8cs OR 8bs OR 6ws OR 9sc OR 7qs OR 9ws OR ktr OR 9ar OR 7ar OR wrb OR 7wb OR axf OR 7xf OR 9cs OR 9lw OR 7lw OR btl OR 9tw OR 7tw OR skr OR 9qr OR 7qr OR am3 OR amd OR am4 OR ame OR am5 OR ama)]: %NAME%{%NAME%,5}%CONTINUE% // Avg Dmg ,5 NR 2
-ItemDisplay[ETH WEAPON !WAND !SOR]: %NAME%{%NAME%%TAN%)}%CONTINUE% // Avg Dmg End
-
+ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%%WHITE%Base:%TAN%(%GRAY%Sp:%WHITE%%WPNSPD%, %GRAY%R:%WHITE%%RANGE%%TAN%)}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%WHITE%Base:%TAN%(%GRAY%Sp:%WHITE%%WPNSPD%%TAN%)}%CONTINUE%
 
 
 
 
 
 //------------------------------NMAG_ITEM_NOTIFICATIONS------------------------------
-
 
 
 
@@ -3624,9 +3484,7 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW (ob5 OR oba OR obf) (SK36=3 OR SK38
 
 
 
-
 //------------------------------NOTABLE_IDED_DESCRIPTIONS_AND_NOTIFICATIONS------------------------------
-
 
 
 
