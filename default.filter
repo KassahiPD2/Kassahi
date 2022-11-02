@@ -4070,6 +4070,9 @@ ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}
 
 
 
+// FIXES ITEMS NAMES
+ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
+ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 // HIDE THE REST (RARE)
 ItemDisplay[RARE !ID (ILVL>86 OR CLVL>79)]: {%NAME%}
 // HIDE THE REST (MAGIC)
