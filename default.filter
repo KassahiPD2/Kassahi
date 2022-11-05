@@ -764,7 +764,7 @@ ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%1%TAN%) %WHITE%Belt: %TAN%(
 ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%
 // RUNES
 ItemDisplay[RUNE>0]: %RUNENAME% Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]%CONTINUE%
-ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r31s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
+ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r31s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
 ItemDisplay[DRUID (r03s OR r04s OR r06s OR r08s OR r09s OR r03 OR r04 OR r06 OR r08 OR r09)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
 ItemDisplay[BARBARIAN (r03s OR r09s OR r17s OR r03 OR r09 OR r17)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
 ItemDisplay[PALADIN (r08s OR r08)]: %DOT-0A%%NAME% %ORANGE%*%CONTINUE%
@@ -776,9 +776,11 @@ ItemDisplay[(r10s OR r11s OR r12s OR r13s OR r14s OR r16s OR r17s OR r10 OR r11 
 ItemDisplay[(r15s OR r18s OR r19s OR r20s OR r15 OR r18 OR r19 OR r20)]: %DOT-0A%%RED%*  %NAME%  %RED%*%CONTINUE%
 ItemDisplay[(r21s OR r22s OR r23s OR r21 OR r22 OR r23)]: %MAP-0A%%RED%*   %NAME%   %RED%*%CONTINUE%
 ItemDisplay[(r24s OR r25s OR r24 OR r25)]: %PX-60%%DOT-00%%MAP-0A%%PURPLE%*%RED%*     %NAME%     %RED%*%PURPLE%*%CONTINUE%
-ItemDisplay[(r26s OR r27s OR r29s OR r30s OR r31s OR r33s OR r26 OR r27 OR r29 OR r30 OR r31 OR r33)]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %NAME%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[(r26s OR r27s OR r30s OR r31s OR r33s OR r26 OR r27 OR r30 OR r31 OR r33)]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %NAME%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r28s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME%L Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r28]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME%L Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r29s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %ORANGE%Sus Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
+ItemDisplay[r29]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %ORANGE%Sus Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r30s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %ORANGE%Beer Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r30]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %ORANGE%Beer Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r32s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
@@ -4070,9 +4072,6 @@ ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}
 
 
 
-// FIXES ITEMS NAMES
-ItemDisplay[SET OR UNI OR CRAFT OR RW]: %NAME%{%NAME%}
-ItemDisplay[(MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%{%NAME%}
 // HIDE THE REST (RARE)
 ItemDisplay[RARE !ID (ILVL>86 OR CLVL>79)]: {%NAME%}
 // HIDE THE REST (MAGIC)
