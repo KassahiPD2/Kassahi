@@ -989,7 +989,7 @@ ItemDisplay[UNI !ID ETH (gix OR 9bt OR 9ga OR 9gi OR 72a OR 7bt OR 9wh OR 7mt OR
 ItemDisplay[UNI !ID !ETH (9ba OR 9ga OR 7ba OR 7cl OR 7sp OR 7mt OR 9fc OR 9bs OR 7sm OR 7gs OR 9di OR 9bl OR 7dg OR 7kr OR 7ta OR 7s7 OR 9sr OR 7sr OR 7o7 OR am7 OR am5 OR 7wb OR ob6 OR skp OR xkp OR xpk OR pa3)]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[UNI !ID ETH (9ba OR 7ba OR 7cl OR 7sp OR 9fc OR 7sm OR 9di OR 9bl OR 7dg OR ob6 OR skp OR xkp OR dr2 OR rng OR brs OR ltp OR xng OR xcl OR xrs OR xld OR xar OR lgl OR hgl OR xlg OR xmg OR xtg OR xhg OR ulb OR zvb OR ztb)]: %GRAY%* %NAME% %GRAY%*
 // UNIQUE DROPS (LLD)
-ItemDisplay[UNI !ID !ETH ((flb ILVL>40) OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR (kri ILVL>25) OR (crn ILVL>40) OR (ghm ILVL>40) OR (lbb ILVL>40) OR (cst OR bld OR xap OR bhm OR bwn OR cap OR gth OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt))]: %PX-0D%%DOT-9B%%NAME% %PURPLE%*
+ItemDisplay[UNI !ID !ETH ((flb ILVL>40) OR (swb ILVL>40) OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR (kri ILVL>25) OR (crn ILVL>40) OR (ghm ILVL>40) OR (lbb ILVL>40) OR (cst OR bld OR xap OR bhm OR bwn OR cap OR gth OR aar OR fld OR stu OR scl OR brs OR spl OR xui OR xuc OR kit OR vgl OR mbt))]: %PX-0D%%DOT-9B%%NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 // UNIQUE HIGH LIGHT (LOW LVL)
 ItemDisplay[UNI !ID CLVL<79]: %DOT-0D%%NAME%
 
@@ -1002,7 +1002,7 @@ ItemDisplay[SET !ID !ETH (7fb OR 7gd OR umc OR xhm OR xvg OR upl OR 7ls OR 9mt O
 // SET DROPS (NOTABLE)
 ItemDisplay[SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb)]: %GRAY%* %NAME% %GRAY%*
 // SET DROPS (LLD)
-ItemDisplay[SET !ID !ETH (vbt OR vgl OR bwn OR xap OR mbl OR mgl OR lbl OR lsd OR lgl)]: %PX-84%%DOT-9B%%NAME% %PURPLE%*
+ItemDisplay[SET !ID !ETH (vbt OR vgl OR bwn OR xap OR mbl OR mgl OR lbl OR lsd OR lgl)]: %PX-84%%DOT-9B%%NAME% %GRAY%(%PURPLE%LLD%GRAY%)
 // SET HIGH LIGHT (LOW LVL)
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
