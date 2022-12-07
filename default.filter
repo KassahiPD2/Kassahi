@@ -830,10 +830,10 @@ ItemDisplay[r33s]: %NAME%{%TAN%Cube: %ORANGE%Zod, P%ORANGE%Skull %WHITE%to Repai
 
 
 // ESSENCES & TOKEN
-ItemDisplay[tes]: %DOT-0A%%NAME% %TAN%x%WHITE%%QTY%%BLUE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Andy %WHITE%& %RED%Duriel}
-ItemDisplay[ceh]: %DOT-0A%%NAME% %TAN%x%WHITE%%QTY%%YELLOW%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Mephisto}
-ItemDisplay[bet]: %DOT-0A%%NAME% %TAN%x%WHITE%%QTY%%RED%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Diablo}
-ItemDisplay[fed]: %DOT-0A%%NAME% %TAN%x%WHITE%%QTY%%GREEN%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Baal}
+ItemDisplay[tes]: %DOT-0A%%BLUE%%NAME% %TAN%x%WHITE%%QTY%%BLUE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Andy %WHITE%& %RED%Duriel}
+ItemDisplay[ceh]: %DOT-0A%%YELLOW%%NAME% %TAN%x%WHITE%%QTY%%YELLOW%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Mephisto}
+ItemDisplay[bet]: %DOT-0A%%RED%%NAME% %TAN%x%WHITE%%QTY%%RED%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Diablo}
+ItemDisplay[fed]: %DOT-0A%%GREEN%%NAME% %TAN%x%WHITE%%QTY%%GREEN%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Baal}
 ItemDisplay[toa]: %MAP-0A%%ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever You Are is The Entry Point.}
 // MINI UBER KEYS
 ItemDisplay[pk1]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Countess%WHITE%/%RED%Blood Raven}
@@ -846,28 +846,28 @@ ItemDisplay[bey]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Pand
 ItemDisplay[ubtm]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Tristram%NL%%WHITE%Use at The %RED%Blood Fountain}
 ItemDisplay[std]: %DOT-0A%%ORANGE%Standard of Po-Tay-Toes %TAN%x%WHITE%%QTY%{%GRAY%(%WHITE%+20% %BLUE%Dens%WHITE%/%BLUE%MF%WHITE%/%BLUE%GF, %WHITE%+10%%BLUE% Exp%GRAY%)%NL%%TAN%Cube: %WHITE%Any %PURPLE%Map, %ORANGE%Standard %WHITE%to Gain%NL%%TAN%Drops From: %RED%Hell Ubers}
 // UBER ANCIENTS
-ItemDisplay[ubaa]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%DARK_GREEN%T1%GRAY%]}
-ItemDisplay[ubab]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%PURPLE%T2%GRAY%]}
-ItemDisplay[ubac]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%RED%T3%GRAY%]}
+ItemDisplay[ubaa]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%DARK_GREEN%T1%GRAY%]}
+ItemDisplay[ubab]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%PURPLE%T2%GRAY%]}
+ItemDisplay[ubac]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %GRAY%[%RED%T3%GRAY%]}
 ItemDisplay[uba]: %MAP-0A%%GRAY%*%RED%*   %ORANGE%Relic of The Ancients   %RED%*%GRAY%*%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Ancients%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // DCLONE ITEMS
-ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
-ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Diablo%WHITE%/%RED%Baal}
-ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Map Bosses}
+ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
+ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Diablo%WHITE%/%RED%Baal}
+ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make a%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Diablo Clone%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // RATHMA ITEMS
-ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
-ItemDisplay[rtmv]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Mendeln Map Events}
-ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%*   %NAME%   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
+ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
+ItemDisplay[rtmv]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Mendeln Map Events}
+ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%*   %NAME% %TAN%x%WHITE%%QTY%   %RED%*{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make a%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtma]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Rathma%NL%%WHITE%Use at The %RED%Blood Fountainn}
-ItemDisplay[cwss]: %MAP-0A%%PURPLE%*   %RED%Tainted Worldstone Shard   %PURPLE%* %TAN%x%WHITE%%QTY%%PURPLE%{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
+ItemDisplay[cwss]: %MAP-0A%%PURPLE%*   %RED%Tainted Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%*{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[rtp]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %MAP-0A%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*%GOLD%{%WHITE%Gives You Infinite %RED%IDs}
 // PROJECT DIABLO 2 ITEMS
-ItemDisplay[wss]: %MAP-0A%%PURPLE%*   %RED%Worldstone Shard   %PURPLE%* %TAN%x%WHITE%%QTY%%PURPLE%{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Arm: %TAN%(%WHITE%1-3%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-4%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%1-6%TAN%)%NL%%WHITE%Possible Corruptions:}
-ItemDisplay[lbox]: %DOT-0D%%MAP-00%%BORDER-0A%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%Larzuk's Lunch Box     %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
-ItemDisplay[lpp]: %MAP-0A%%RED%*   %GOLD%Larzuk's Bermuda Piece   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
-ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%All Sockets: %TAN%(%WHITE%1%TAN%)%NL%%WHITE%Possible Sockets:}
+ItemDisplay[wss]: %MAP-0A%%PURPLE%*   %RED%Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%*{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Arm: %TAN%(%WHITE%1-3%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-4%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%1-6%TAN%)%NL%%WHITE%Possible Corruptions:}
+ItemDisplay[lbox]: %DOT-0D%%MAP-00%%BORDER-0A%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %GOLD%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*{%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
+ItemDisplay[lpp]: %MAP-0A%%RED%*   %GOLD%Larzuk's Bermuda Piece %TAN%x%WHITE%%QTY%   %RED%*{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
+ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: %TAN%(%WHITE%1%TAN%)%NL%%WHITE%Possible Sockets:}
 ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GRAY%[%GOLD%O%GRAY%] %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}
 ItemDisplay[imma]: %MAP-68%%WHITE%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%White %PURPLE%Map, %WHITE%Orb, %GOLD%O%TAN%)%NL%%WHITE%Upgrade a %BLUE%Magic %PURPLE%Map}
 ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%White %PURPLE%Map, %WHITE%Orb, %GOLD%O, %GREEN%10+%TAN%)%NL%%WHITE%Upgrade a %YELLOW%Rare %PURPLE%Map}
@@ -876,7 +876,7 @@ ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{
 ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%BLUE%Magic %PURPLE%Map, %WHITE%Orb, %GRAY%O, %GREEN%10+%TAN%)%NL%%WHITE%Upgrade a %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%3x %PURPLE%Maps %WHITE%Same %GRAY%[%TAN%T%GRAY%], %WHITE%Orb%TAN%)%NL%%WHITE%Upgrade a %PURPLE%Map %GRAY%[%TAN%T%GRAY%]}
 ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
-ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%*   %GOLD%Horadrim Lunch Meat   %RED%* %TAN%x%WHITE%%QTY%%ORANGE%{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %TAN%(%GRAY%[%RED%T3%GRAY%], %GOLD%HLM%TAN%)%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
+ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%*   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%*{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %TAN%(%GRAY%[%RED%T3%GRAY%], %GOLD%HLM%TAN%)%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
 ItemDisplay[lsvl]: %DOT-0D%%MAP-00%%BORDER-0A%%GREEN%Holy Mother %PURPLE%*%RED%*%ORANGE%*%YELLOW%*  %ORANGE%Vial of Lightsong  %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%Holy Mother{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[llmr]: %DOT-0D%%MAP-00%%BORDER-0A%%GREEN%Holy Mother %PURPLE%*%RED%*%ORANGE%*%YELLOW%*  %ORANGE%Lilith's Mirror  %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%Holy Mother{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %DOT-0D%%MAP-00%%BORDER-0A%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %ORANGE%Skeleton Key     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*{%GRAY%(Unlimited Use)%NL%%TAN%Drops From: %RED%Anywhere}
@@ -1026,8 +1026,8 @@ ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-00%%MAP-97%%PURPLE%*   %NA
 ItemDisplay[RARE !ID !ETH (jew OR amu OR rin OR CIRC)]: %DOT-20%%MAP-00%%BORDER-6D%%YELLOW%*%WHITE%*     %NAME%     %WHITE%*%YELLOW%*
 ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-9B%%DOT-00%%MAP-6D%%PURPLE%*   %NAME%   %PURPLE%*
 // MAGIC/RARE ITEM'S (CLASS)
-ItemDisplay[MAG !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN (ETH SIN)) OR (SORCERESS (SOR OR (ETH STAFF))) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR hxb OR 8hx OR 6hx))))]: %PX-20%%DOT-97%%WHITE%*  %NAME%  %WHITE%*
-ItemDisplay[RARE !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN SIN) OR (SORCERESS (SOR OR STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR hxb OR 8hx OR 6hx))))]: %PX-20%%DOT-6D%%WHITE%*  %NAME%  %WHITE%*
+ItemDisplay[MAG !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN (ETH SIN)) OR (SORCERESS (SOR OR (ETH STAFF))) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR hxb OR 8hx OR 6hx))))]: %DOT-97%%ORANGE%* %NAME% %ORANGE%*
+ItemDisplay[RARE !ID ((DRUID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)) OR (BARBARIAN BAR) OR (PALADIN (DIN OR SCEPTER)) OR (NECROMANCER (NEC OR WAND)) OR (ASSASSIN SIN) OR (SORCERESS (SOR OR STAFF)) OR ((AMAZON (am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR hxb OR 8hx OR 6hx))))]: %DOT-6D%%ORANGE%* %NAME% %ORANGE%*
 ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) MAG !ID ((DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR (ETH SIN) OR SOR OR (ETH STAFF) OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR am2 OR am7 OR amc OR hxb OR 8hx OR 6hx))]: %GRAY%* %NAME% %GRAY%*
 ItemDisplay[!(FILTLVL=4 OR FILTLVL=7) RARE !ID (DRU OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR SOR OR STAFF OR am1 OR am6 OR amb OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf OR am2 OR am7 OR amc OR aqv OR cqv OR hxb OR 8hx OR 6hx)]: %GRAY%* %NAME% %GRAY%*
 // MAGIC/RARE ITEM'S
