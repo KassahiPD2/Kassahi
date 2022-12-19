@@ -785,39 +785,40 @@ ItemDisplay[r30s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          
 ItemDisplay[r30]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %ORANGE%Beer Rune %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r32s]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%] %TAN%x%WHITE%%QTY%          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
 ItemDisplay[r32]: %DOT-60%%MAP-00%%BORDER-0A%%RED%*%ORANGE%*%YELLOW%*          %RUNENAME% Scam %GRAY%[%GREEN%%RUNENUM%%GRAY%]          %YELLOW%*%ORANGE%*%RED%*%CONTINUE%
-ItemDisplay[r01s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%El, %GRAY%Key %WHITE%= %ORANGE%Eld%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+15 %BLUE%Def%NL%%TAN%Weapon: %WHITE%+50 %BLUE%AR}
-ItemDisplay[r02s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Eld, %GRAY%Key %WHITE%= %ORANGE%Tir%NL%%NL%%TAN%Shield: %WHITE%7% %BLUE%Block Chance%NL%%TAN%Armor/Helm: %WHITE%-15% %BLUE%Stamina Drain%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+50 %BLUE%AR vs Und}
-ItemDisplay[r03s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Tir, %GRAY%Key %WHITE%= %ORANGE%Nef%NL%%NL%%TAN%All Sockets: %WHITE%+2 %BLUE%to MPK}
-ItemDisplay[r04s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Nef, %GRAY%Key %WHITE%= %ORANGE%Eth%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+30 %BLUE%Def Vs Missile%NL%%TAN%Weapon: %BLUE%Knockback}
-ItemDisplay[r05s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Eth, %GRAY%Key %WHITE%= %ORANGE%Ith%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Reg Mana %WHITE%15%%NL%%TAN%Weapon: %WHITE%-25% %BLUE%Target Def}
-ItemDisplay[r06s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ith, %GRAY%Key %WHITE%= %ORANGE%Tal%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%15% %BLUE%Dmg to Mana%NL%%TAN%Weapon: %WHITE%+9 %BLUE%to Max Dmg}
-ItemDisplay[r07s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Tal, %GRAY%Key %WHITE%= %ORANGE%Ral%NL%%NL%%TAN%Shield: %BLUE%Psn Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Psn Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+75 %BLUE%Psn Dmg Over %WHITE%5 %BLUE%Sec}
-ItemDisplay[r08s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ral, %GRAY%Key %WHITE%= %ORANGE%Ort%NL%%NL%%TAN%Cube: %ORANGE%Ral %WHITE%to Repair an Armor%NL%%TAN%Shield: %BLUE%Fire Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Fire Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+5-30 %BLUE%Fire Dmg}
-ItemDisplay[r09s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ort, %GRAY%Key %WHITE%= %ORANGE%Thul%NL%%NL%%TAN%Cube: %ORANGE%Ort %WHITE%to Repair an Weapon%NL%%TAN%Shield: %BLUE%Light Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Light Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+1-50 %BLUE%Light Dmg}
-ItemDisplay[r10s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Thul, %GRAY%Key %WHITE%= %ORANGE%Amn%NL%%NL%%TAN%Shield: %BLUE%Cold Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Cold Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+3-14 %BLUE%Cold Dmg}
-ItemDisplay[r11s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Amn, %GRAY%Key %WHITE%= %ORANGE%Sol%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%ATD %WHITE%+14%NL%%TAN%Weapon: %WHITE%7% %BLUE%Life}
-ItemDisplay[r12s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Sol, %GRAY%Key %WHITE%= %ORANGE%Shael%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR By %WHITE%7%NL%%TAN%Weapon: %WHITE%+9 %BLUE%to Min Dmg}
-ItemDisplay[r13s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Shael, %GRAY%Key %WHITE%= %ORANGE%Dol%NL%%NL%%TAN%Shield: %WHITE%20% %BLUE%FBR%NL%%TAN%Armor/Helm: %WHITE%20% %BLUE%FHR%NL%%TAN%Weapon: %WHITE%20% %BLUE%IAS}
-ItemDisplay[r14s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Dol, %GRAY%Key %WHITE%= %ORANGE%Hel%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Rep Life %WHITE%+10%NL%%TAN%Weapon: %WHITE%20% %BLUE%ED}
-ItemDisplay[r15s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Hel, %GRAY%Key %WHITE%= %ORANGE%Jo%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Req %WHITE%-15%%NL%%TAN%Weapon: %BLUE%Req %WHITE%-20%}
-ItemDisplay[r16s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Jo, %GRAY%Key %WHITE%= %ORANGE%Lum%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Vit}
-ItemDisplay[r17s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Lum, %GRAY%Key %WHITE%= %ORANGE%Ko%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Ene}
-ItemDisplay[r18s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ko, %GRAY%Key %WHITE%= %ORANGE%Fal%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex}
-ItemDisplay[r19s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Fal, %GRAY%Key %WHITE%= %ORANGE%Lem%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Str}
-ItemDisplay[r20s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Lem, %GRAY%Key %WHITE%= %ORANGE%Pul%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF}
-ItemDisplay[r21s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Pul, %GRAY%Key %WHITE%= %ORANGE%Um%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem}
-ItemDisplay[r22s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Um, %GRAY%Key %WHITE%= %ORANGE%Mal%NL%%NL%%TAN%Shield: %BLUE%All Res %WHITE%+22%%NL%%TAN%Armor/Helm: %BLUE%All Res %WHITE%+15%%NL%%TAN%Weapon: %WHITE%25% %BLUE%OW}
-ItemDisplay[r23s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Mal, %GRAY%Key %WHITE%= %ORANGE%Ist%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%MDR By %WHITE%7%NL%%TAN%Weapon: %BLUE%PMH}
-ItemDisplay[r24s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ist, %GRAY%Key %WHITE%= %ORANGE%Gul%NL%%NL%%TAN%All Sockets: %WHITE%30% %BLUE%MF}
-ItemDisplay[r25s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Gul, %GRAY%Key %WHITE%= %ORANGE%Vex%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Psn Res%NL%%TAN%Weapon: %WHITE%+20% %BLUE%to AR}
-ItemDisplay[r26s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Vex, %GRAY%Key %WHITE%= %ORANGE%Ohm%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Fire Res%NL%%TAN%Weapon: %WHITE%7% %BLUE%Mana}
-ItemDisplay[r27s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ohm, %GRAY%Key %WHITE%= %ORANGE%Lo%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Cold Res%NL%%TAN%Weapon: %WHITE%40% %BLUE%ED}
-ItemDisplay[r28s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Lo, %GRAY%Key %WHITE%= %ORANGE%Sur%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Light Res%NL%%TAN%Weapon: %WHITE%20% %BLUE%DS}
-ItemDisplay[r29s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Sur, %GRAY%Key %WHITE%= %ORANGE%Ber%NL%%NL%%TAN%Shield: %WHITE%+50 %BLUE%to Mana%NL%%TAN%Armor/Helm: %BLUE%Max Mana %WHITE%5%%NL%%TAN%Weapon: %WHITE%+4 %BLUE%LPK}
-ItemDisplay[r30s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ber, %GRAY%Key %WHITE%= %ORANGE%Jah%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR by %WHITE%5%%NL%%TAN%Weapon: %WHITE%20% %BLUE%CB}
-ItemDisplay[r31s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Jah, %GRAY%Key %WHITE%= %ORANGE%Cham%NL%%NL%%TAN%Shield: %WHITE%+75 %BLUE%to Life%NL%%TAN%Armor/Helm: %BLUE%Max Life %WHITE%5%%NL%%TAN%Weapon: %BLUE%ITD}
-ItemDisplay[r32s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Cham, %GRAY%Key %WHITE%= %ORANGE%Zod%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%CBF%NL%%TAN%Weapon: %BLUE%Freezes Target %WHITE%+3}
-ItemDisplay[r33s]: %NAME%{%TAN%Cube: %ORANGE%Zod, P%ORANGE%Skull %WHITE%to Repair %RED%Any Item%NL%%NL%%TAN%All Sockets: %BLUE%Indestructible}
+ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]: %NAME%{%NL%%GRAY%They Have Nothing to do With Rune Values%NL%Those Rune Names Are Purely For Fun,%NL%Alright u Pleb, Listen up Here,}%CONTINUE%
+ItemDisplay[r01s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%El, %GRAY%Key %WHITE%= %ORANGE%Eld%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+15 %BLUE%Def%NL%%TAN%Weapon: %WHITE%+50 %BLUE%AR%NL%%NAME%}
+ItemDisplay[r02s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Eld, %GRAY%Key %WHITE%= %ORANGE%Tir%NL%%NL%%TAN%Shield: %WHITE%7% %BLUE%Block Chance%NL%%TAN%Armor/Helm: %WHITE%-15% %BLUE%Stamina Drain%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+50 %BLUE%AR vs Und%NL%%NAME%}
+ItemDisplay[r03s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Tir, %GRAY%Key %WHITE%= %ORANGE%Nef%NL%%NL%%TAN%All Sockets: %WHITE%+2 %BLUE%to MPK%NL%%NAME%}
+ItemDisplay[r04s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Nef, %GRAY%Key %WHITE%= %ORANGE%Eth%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+30 %BLUE%Def Vs Missile%NL%%TAN%Weapon: %BLUE%Knockback%NL%%NAME%}
+ItemDisplay[r05s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Eth, %GRAY%Key %WHITE%= %ORANGE%Ith%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Reg Mana %WHITE%15%%NL%%TAN%Weapon: %WHITE%-25% %BLUE%Target Def%NL%%NAME%}
+ItemDisplay[r06s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ith, %GRAY%Key %WHITE%= %ORANGE%Tal%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%15% %BLUE%Dmg to Mana%NL%%TAN%Weapon: %WHITE%+9 %BLUE%to Max Dmg%NL%%NAME%}
+ItemDisplay[r07s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Tal, %GRAY%Key %WHITE%= %ORANGE%Ral%NL%%NL%%TAN%Shield: %BLUE%Psn Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Psn Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+75 %BLUE%Psn Dmg Over %WHITE%5 %BLUE%Sec%NL%%NAME%}
+ItemDisplay[r08s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ral, %GRAY%Key %WHITE%= %ORANGE%Ort%NL%%NL%%TAN%Cube: %ORANGE%Ral %WHITE%to Repair an Armor%NL%%TAN%Shield: %BLUE%Fire Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Fire Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+5-30 %BLUE%Fire Dmg%NL%%NAME%}
+ItemDisplay[r09s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ort, %GRAY%Key %WHITE%= %ORANGE%Thul%NL%%NL%%TAN%Cube: %ORANGE%Ort %WHITE%to Repair an Weapon%NL%%TAN%Shield: %BLUE%Light Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Light Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+1-50 %BLUE%Light Dmg%NL%%NAME%}
+ItemDisplay[r10s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Thul, %GRAY%Key %WHITE%= %ORANGE%Amn%NL%%NL%%TAN%Shield: %BLUE%Cold Res %WHITE%+35%%NL%%TAN%Armor/Helm: %BLUE%Cold Res %WHITE%+30%%NL%%TAN%Weapon: %WHITE%+3-14 %BLUE%Cold Dmg%NL%%NAME%}
+ItemDisplay[r11s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Amn, %GRAY%Key %WHITE%= %ORANGE%Sol%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%ATD %WHITE%+14%NL%%TAN%Weapon: %WHITE%7% %BLUE%Life%NL%%NAME%}
+ItemDisplay[r12s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Sol, %GRAY%Key %WHITE%= %ORANGE%Shael%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR By %WHITE%7%NL%%TAN%Weapon: %WHITE%+9 %BLUE%to Min Dmg%NL%%NAME%}
+ItemDisplay[r13s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Shael, %GRAY%Key %WHITE%= %ORANGE%Dol%NL%%NL%%TAN%Shield: %WHITE%20% %BLUE%FBR%NL%%TAN%Armor/Helm: %WHITE%20% %BLUE%FHR%NL%%TAN%Weapon: %WHITE%20% %BLUE%IAS%NL%%NAME%}
+ItemDisplay[r14s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Dol, %GRAY%Key %WHITE%= %ORANGE%Hel%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Rep Life %WHITE%+10%NL%%TAN%Weapon: %WHITE%20% %BLUE%ED%NL%%NAME%}
+ItemDisplay[r15s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Hel, %GRAY%Key %WHITE%= %ORANGE%Jo%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%Req %WHITE%-15%%NL%%TAN%Weapon: %BLUE%Req %WHITE%-20%%NL%%NAME%}
+ItemDisplay[r16s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Jo, %GRAY%Key %WHITE%= %ORANGE%Lum%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Vit%NL%%NAME%}
+ItemDisplay[r17s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Lum, %GRAY%Key %WHITE%= %ORANGE%Ko%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Ene%NL%%NAME%}
+ItemDisplay[r18s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Ko, %GRAY%Key %WHITE%= %ORANGE%Fal%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex%NL%%NAME%}
+ItemDisplay[r19s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Fal, %GRAY%Key %WHITE%= %ORANGE%Lem%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Str%NL%%NAME%}
+ItemDisplay[r20s]: %NAME%{%TAN%Cube: %WHITE%3x %ORANGE%Lem, %GRAY%Key %WHITE%= %ORANGE%Pul%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF%NL%%NAME%}
+ItemDisplay[r21s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Pul, %GRAY%Key %WHITE%= %ORANGE%Um%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem%NL%%NAME%}
+ItemDisplay[r22s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Um, %GRAY%Key %WHITE%= %ORANGE%Mal%NL%%NL%%TAN%Shield: %BLUE%All Res %WHITE%+22%%NL%%TAN%Armor/Helm: %BLUE%All Res %WHITE%+15%%NL%%TAN%Weapon: %WHITE%25% %BLUE%OW%NL%%NAME%}
+ItemDisplay[r23s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Mal, %GRAY%Key %WHITE%= %ORANGE%Ist%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%MDR By %WHITE%7%NL%%TAN%Weapon: %BLUE%PMH%NL%%NAME%}
+ItemDisplay[r24s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ist, %GRAY%Key %WHITE%= %ORANGE%Gul%NL%%NL%%TAN%All Sockets: %WHITE%30% %BLUE%MF%NL%%NAME%}
+ItemDisplay[r25s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Gul, %GRAY%Key %WHITE%= %ORANGE%Vex%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Psn Res%NL%%TAN%Weapon: %WHITE%+20% %BLUE%to AR%NL%%NAME%}
+ItemDisplay[r26s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Vex, %GRAY%Key %WHITE%= %ORANGE%Ohm%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Fire Res%NL%%TAN%Weapon: %WHITE%7% %BLUE%Mana%NL%%NAME%}
+ItemDisplay[r27s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ohm, %GRAY%Key %WHITE%= %ORANGE%Lo%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Cold Res%NL%%TAN%Weapon: %WHITE%40% %BLUE%ED%NL%%NAME%}
+ItemDisplay[r28s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Lo, %GRAY%Key %WHITE%= %ORANGE%Sur%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Light Res%NL%%TAN%Weapon: %WHITE%20% %BLUE%DS%NL%%NAME%}
+ItemDisplay[r29s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Sur, %GRAY%Key %WHITE%= %ORANGE%Ber%NL%%NL%%TAN%Shield: %WHITE%+50 %BLUE%to Mana%NL%%TAN%Armor/Helm: %BLUE%Max Mana %WHITE%5%%NL%%TAN%Weapon: %WHITE%+4 %BLUE%LPK%NL%%NAME%}
+ItemDisplay[r30s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Ber, %GRAY%Key %WHITE%= %ORANGE%Jah%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%PDR by %WHITE%5%%NL%%TAN%Weapon: %WHITE%20% %BLUE%CB%NL%%NAME%}
+ItemDisplay[r31s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Jah, %GRAY%Key %WHITE%= %ORANGE%Cham%NL%%NL%%TAN%Shield: %WHITE%+75 %BLUE%to Life%NL%%TAN%Armor/Helm: %BLUE%Max Life %WHITE%5%%NL%%TAN%Weapon: %BLUE%ITD%NL%%NAME%}
+ItemDisplay[r32s]: %NAME%{%TAN%Cube: %WHITE%2x %ORANGE%Cham, %GRAY%Key %WHITE%= %ORANGE%Zod%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%CBF%NL%%TAN%Weapon: %BLUE%Freezes Target %WHITE%+3%NL%%NAME%}
+ItemDisplay[r33s]: %NAME%{%TAN%Cube: %ORANGE%Zod, P%ORANGE%Skull %WHITE%to Repair %RED%Any Item%NL%%NL%%TAN%All Sockets: %BLUE%Indestructible%NL%%NAME%}
 
 
 
