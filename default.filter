@@ -722,23 +722,23 @@ ItemDisplay[(gcr OR gfr OR gsr) CLVL<24]: %RED%%NAME%
 ItemDisplay[(gcw OR gfw OR gsw) CLVL<24]: %NAME%
 ItemDisplay[(skc OR skf OR sku) CLVL<24]: %GRAY%%NAME%
 ItemDisplay[(gcv OR gfv OR gsv OR gcy OR gfy OR gsy OR gcb OR gfb OR gsb OR gcg OR gfg OR gsg OR gcr OR gfr OR gsr OR gcw OR gfw OR gsw OR skc OR skf OR sku) CLVL>24]:
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl)]: %WHITE%F-%ORANGE%%GEMTYPE% %GRAY%[%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz)]: %MAP-20%%WHITE%P-%ORANGE%%GEMTYPE% %GRAY%[%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=1]: %NAME%%PURPLE%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=2]: %NAME%%WHITE%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=3]: %NAME%%GREEN%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=4]: %NAME%%RED%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=5]: %NAME%%BLUE%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=6]: %NAME%%YELLOW%o%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=7]: %NAME%%GRAY%o]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=1]: %NAME%%PURPLE%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=2]: %NAME%%WHITE%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=3]: %NAME%%GREEN%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=4]: %NAME%%RED%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=5]: %NAME%%BLUE%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=6]: %NAME%%YELLOW%O%GRAY%]%CONTINUE%
-ItemDisplay[(GEMLEVEL=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=7]: %NAME%%GRAY%O]%CONTINUE%
-ItemDisplay[(GEMLEVEL=4 OR GEMLEVEL=5)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl)]: %WHITE%F-%ORANGE%%GEMTYPE% %GRAY%[%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz)]: %MAP-20%%WHITE%P-%ORANGE%%GEMTYPE% %GRAY%[%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=1]: %NAME%%PURPLE%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=2]: %NAME%%WHITE%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=3]: %NAME%%GREEN%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=4]: %NAME%%RED%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=5]: %NAME%%BLUE%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=6]: %NAME%%YELLOW%o%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=4 OR gzv OR glw OR glg OR glr OR glb OR gly OR skl) GEMTYPE=7]: %NAME%%GRAY%o]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=1]: %NAME%%PURPLE%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=2]: %NAME%%WHITE%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=3]: %NAME%%GREEN%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=4]: %NAME%%RED%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=5]: %NAME%%BLUE%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=6]: %NAME%%YELLOW%O%GRAY%]%CONTINUE%
+ItemDisplay[(GEM=5 OR gpv OR gpw OR gpg OR gpr OR gpb OR gpy OR skz) GEMTYPE=7]: %NAME%%GRAY%O]%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
 ItemDisplay[gzvs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%+24 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+8 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+100 %BLUE%to AR}
 ItemDisplay[glws]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %BLUE%All Res %WHITE%+14%%NL%%TAN%Armor/Helm: %WHITE%+80 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+54% %BLUE%Dmg vs Und}
 ItemDisplay[glgs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%28% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+8%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+60 %BLUE%Psn Dmg Over %WHITE%6 %BLUE%Sec}
