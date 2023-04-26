@@ -638,7 +638,7 @@ ItemDisplay[SOCK>0 !RW]: %NAME% %TAN%(%WHITE%%SOCKETS%%TAN%){%NAME%}%CONTINUE%
 // GOLD
 ItemDisplay[GOLD<50]:
 ItemDisplay[GOLD<500 CLVL>17]:
-ItemDisplay[GOLD<1100 CLVL>79]:
+ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
 ItemDisplay[(FILTLVL>2 FILTLVL<9) rvs]:
 ItemDisplay[rvs]: %PURPLE%R %WHITE%35%{%TAN%Cube: %WHITE%3x %PURPLE%R %WHITE%35% = %PURPLE%Full %WHITE%Rejuv}
