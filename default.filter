@@ -809,7 +809,7 @@ ItemDisplay[r28s]: %NAME%{%TAN%Armor/Helm/Shield: %WHITE%+4% %BLUE%to Max Light 
 ItemDisplay[r29s]: %NAME%{%TAN%Shield: %WHITE%+50 %BLUE%to Mana%NL%%TAN%Armor/Helm: %BLUE%Max Mana %WHITE%5%%NL%%TAN%Weapon: %WHITE%+4 %BLUE%LPK%NAME%}
 ItemDisplay[r30s]: %NAME%{%TAN%Armor/Helm/Shield: %BLUE%PDR by %WHITE%5%%NL%%TAN%Weapon: %WHITE%20% %BLUE%CB%NAME%}
 ItemDisplay[r31s]: %NAME%{%TAN%Shield: %WHITE%+75 %BLUE%to Life%NL%%TAN%Armor/Helm: %BLUE%Max Life %WHITE%5%%NL%%TAN%Weapon: %BLUE%ITD%NAME%}
-ItemDisplay[r32s]: %NAME%{%TAN%Armor/Helm/Shield: %BLUE%CBF%NL%%TAN%Weapon: %BLUE%Freezes Target %WHITE%+3%NAME%}
+ItemDisplay[r32s]: %NAME%{%RED%(Cham Scam is Just a Joke Name)%NL%%NL%%TAN%Armor/Helm/Shield: %BLUE%CBF%NL%%TAN%Weapon: %BLUE%Freezes Target %WHITE%+3%NAME%}
 ItemDisplay[r33s]: %NAME%{%TAN%All Sockets: %BLUE%Indestructible%NAME%}
 
 
