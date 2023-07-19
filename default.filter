@@ -1,12 +1,12 @@
 ItemDisplayFilterName[]: Standard Potato Filter (S7)
-ItemDisplayFilterName[]: Hide Non Eth Bases <10 ED -a Few, on lvl 2-9
-ItemDisplayFilterName[]: Hide HP 5/R 35/TP, on Lvl 3-8
-ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 4
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Hide MP 5/Anti (+Anti at Rathma), on Lvl 6-8
-ItemDisplayFilterName[]: Hide Mag/Rare Class Items -Ur Char, on Lvl 7
-ItemDisplayFilterName[]: Unused
-ItemDisplayFilterName[]: Shows LLD on Mag/Rare Items, on Lvl 9
+ItemDisplayFilterName[]: Lvl: 2-9 Hide Non Eth Bases <10 ED, (-a Few)
+ItemDisplayFilterName[]: Lvl: 3-8 Hide HP 5/R 35/TP
+ItemDisplayFilterName[]: Lvl: 4 Hide Mag/Rare Class Items, (-Ur Char)
+ItemDisplayFilterName[]: (Does Nothing For Now)
+ItemDisplayFilterName[]: Lvl: 6-8 Hide MP 5/Anti, (+Anti at Rathma)
+ItemDisplayFilterName[]: Lvl: 7 Hide Mag/Rare Class Items (-Ur Char)
+ItemDisplayFilterName[]: (Does Nothing For Now)
+ItemDisplayFilterName[]: Lvl: 9 Shows LLD on Mag/Rare Items, (Ignores Other Lvls)
 
 
 
