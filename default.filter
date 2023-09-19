@@ -1952,7 +1952,7 @@ ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%GOLD%Breath of the Dying: %GREEN%26, 1
 ItemDisplay[NMAG SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR leg) !RW]: %NAME%{%GOLD%Wind: %GREEN%29, 1%NL%%GOLD%Neophyte: %GREEN%10, 3 %GOLD%Strength: %GREEN%11, 3%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=3 (9cl OR 7cl OR 9sp OR 7sp OR leg) !RW]: %NAME%{%GOLD%Plague: %GREEN%32, 19, 22%NL%%GOLD%Venom: %GREEN%7, 14, 23 %GOLD%Fury: %GREEN%31, 25, 5%NL%%GOLD%Malice: %GREEN%6, 1, 5 %GOLD%Black: %GREEN%10, 16, 4%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%GOLD%Wind: %GREEN%29, 1%NL%%GOLD%Steel: %GREEN%3, 1 %GOLD%Strength: %GREEN%11, 3%NL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%GOLD%Fury: %GREEN%31, 25, 5 %GOLD%Plague: %GREEN%32, 19, 22%NL%%GOLD%Black: %GREEN%10, 16, 4 %GOLD%Venom: %GREEN%7, 14, 23%NL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) !RW]: %NAME%{%GOLD%Plague: %GREEN%32, 19, 22%NL%%GOLD%Venom: %GREEN%7, 14, 23 %GOLD%Fury: %GREEN%31, 25, 5%NL%%GOLD%Malice: %GREEN%6, 1, 5 %GOLD%Black: %GREEN%10, 16, 4%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=4 (fla OR 9fl OR 7fl) !RW]: %NAME%{%GOLD%Hand of Justice: %GREEN%29, 32, 11, 28%NL%%GOLD%Fortitude: %GREEN%1, 12, 14, 28 %GOLD%Phoenix: %GREEN%26, 26, 28, 31%NL%%GOLD%Oath: %GREEN%13, 21, 23, 17 %GOLD%Heart of the Oak: %GREEN%18, 26, 21, 10%NL%%GOLD%Voice of Reason: %GREEN%20, 18, 1, 2 %GOLD%Passion: %GREEN%14, 9, 2, 20%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 (fla OR 9fl OR 7fl) !RW]: %NAME%{%GOLD%Eternity: %GREEN%11, 30, 24, 12, 29%NL%%GOLD%Honor: %GREEN%11, 1, 6, 3, 12 %GOLD%Call to Arms: %GREEN%11, 8, 23, 24, 27%NL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) !RW]: %NAME%{%GOLD%Strength: %GREEN%11, 3 %GOLD%Wind: %GREEN%29, 1%NL%%NAME%}%CONTINUE%
@@ -2114,91 +2114,87 @@ ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%WHITE%Base: %GRAY%Sp:%WHITE%%WP
 // PRICE FOR ITEM'S
 ItemDisplay[!SHOP !EQUIPPED !RW]: %NAME%{%DARK_GREEN%$%PRICE%%NL%%NAME%}%CONTINUE%
 
-
-
-
-
-
-// Alternative Rules - Set Bonuses                                                  ...TODO: Show set bonuses for upgraded versions too, same-base items that I've verified to have no overlap with the below conditions: boots, belts, gloves, weapons, shields, circlets, mask line; items that may cause issues: cap line, bone helm line
+// SET BOUNSE'S
 ItemDisplay[FILTLVL=1 SET ID !EQUIPPED ((STAT486=0 (NORM OR EXC) !(SOR OR WAND)) OR (SOCK=0 STAT360=0 STAT486=0 (HELM OR CIRC OR CHEST OR SHIELD OR WEAPON)) OR (WEAPON !(WAND OR SOR))) (rin OR amu OR cap OR skp OR hlm OR fhl OR msk OR bhm OR ghm OR crn OR xap OR xhl OR xsk OR xh9 OR xhm OR xrn OR uh9 OR uhm OR urn OR qui OR lea OR stu OR rng OR chn OR brs OR spl OR gth OR ltp OR ful OR aar OR xcl OR xrs OR xul OR xar OR uui OR ucl OR upl OR ult OR uld OR uth OR uul OR uar OR buc OR sml OR lrg OR kit OR tow OR gts OR xml OR uts OR lgl OR vgl OR mgl OR tgl OR hgl OR xvg OR xmg OR xtg OR xhg OR ulg OR lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xmb OR xtb OR xhb OR zmb OR ztb OR zhb OR lbl OR vbl OR mbl OR tbl OR hbl OR zvb OR zmb OR ztb OR zhb OR umc OR utc OR ci0 OR ci3 OR dr8 OR ba5 OR paf OR ne9 OR 2ax OR mpi OR 9mt OR 7ma OR 7m7 OR sbr OR bsd OR lsd OR wsd OR 7ls OR 7fb OR 7gd OR dgr OR 9vo OR lbb OR swb OR bst OR wst OR 6cs OR bwn OR gsc OR wsp OR 7ws OR 7qr OR oba OR amc)]:  %NAME%{%NL%%NAME%}%CONTINUE%    // Adds new line for items that already have something in their description (items with description lines for upgrade recipes, max corruptable sockets, or weapon speed)  ...the huge list of item codes is a list of all set item bases - this rule currently only applies to bases which have set items by default, since set bonuses aren't currently shown for upgraded versions
-// ... Common Sets
-ItemDisplay[SET ID !EQUIPPED ((qui !STAT122>199) OR vbl OR (tgl STAT118=0 STAT153=0) OR swb)]: %NAME%{%NL%%NL%%GRAY%[F]: %GOLD%Cbf, +30% Pierce, 6-14 Cold Dmg%NL%%GRAY%[3]: %GOLD%+50 to Life%NL%%GRAY%[2]: %GOLD%+5 to Str%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Arctic Gear
-ItemDisplay[SET ID !EQUIPPED qui !STAT122>199]:   %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +15%%NL%%GRAY%[2]: %GREEN%+[3-297] Def (+3 Per Char Lvl)%NAME%}%CONTINUE%         // Arctic Furs
-ItemDisplay[SET ID !EQUIPPED vbl]:        %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +10%%NL%%GRAY%[2]: %GREEN%40% Mf%NAME%}%CONTINUE%          // Arctic Binding
-ItemDisplay[SET ID !EQUIPPED tgl STAT118=0 STAT153=0]:  %NAME%{%NL%%GRAY%[3]: %GREEN%+10 to Dex%NL%%GRAY%[2]: %GREEN%+50 to Ar, %GREEN%+25% Pierce%NAME%}%CONTINUE%    // Arctic Mitts
-ItemDisplay[SET ID !EQUIPPED swb]:        %NAME%{%NL%%GRAY%[3]: %GREEN%20-30 Cold Dmg%NL%%GRAY%[2]: %GREEN%+[8-792] to Ar (+8 Per Char Lvl)%NAME%}%CONTINUE%      // Arctic Horn
-
-ItemDisplay[SET ID !EQUIPPED ((mbt STAT39>24) OR (mbl LIFE=20) OR buc)]: %NAME%{%NL%%NL%%GRAY%[F]: %GOLD%Cbf, Light Res +25%, +5 to Max Dmg%NL%%GRAY%[2]: %GOLD%Atd of 9%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Hsarus' Defense
-ItemDisplay[SET ID !EQUIPPED mbt STAT39>24]:      %NAME%{%NL%%GRAY%[2]: %GREEN%+[10-990] to Ar (+10 Per Char Lvl)%NAME%}%CONTINUE%               // Hsarus' Iron Heel
-ItemDisplay[SET ID !EQUIPPED mbl LIFE=20]:      %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-247] Def (+2.5 Per Char Lvl)%NAME%}%CONTINUE%                  // Hsarus' Iron Stay
-ItemDisplay[SET ID !EQUIPPED buc]:        %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-247] Def (+2.5 Per Char Lvl)%NAME%}%CONTINUE%                  // Hsarus' Iron Fist
-
-ItemDisplay[SET ID !EQUIPPED (hlm OR (spl CLSK4=1) OR 2ax)]: %NAME%{%NL%%NL%%GOLD%Psn Reduced by 75%, 13-17 Psn Dmg Over 3 Sec%NL%%GRAY%[F]: %GOLD%+75 Def, +20% Frw, +1 to Barb Sks%NL%%GRAY%[2]: %GOLD%+50 to Life%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Berserker's Arsenal
-ItemDisplay[SET ID !EQUIPPED hlm]:        %NAME%{%NL%%NL%%GRAY%[F]: %GREEN%+1 to Barb Sks%NL% %GRAY%[2]: %GREEN%+[8-792] to Ar (+8 Per Char Lvl)%NAME%}%CONTINUE%        // Berserker's Headgear
-ItemDisplay[SET ID !EQUIPPED spl CLSK4=1]:      %NAME%{%NL%%NL%%GRAY%[F]: %GREEN%+[3-346]% Emax Dmg (+3.5% Per Char Lvl)%NL%%GRAY%[2]: %GREEN%+[4-445] Def (+4.5 Per Char Lvl)%NAME%}%CONTINUE%// Berserker's Hauberk
-ItemDisplay[SET ID !EQUIPPED 2ax]:        %NAME%{%NL%%NL%%GRAY%[F]: %GREEN%+1 to Barb Sks%NL%%GRAY%[2]: %GREEN%+50% Ed%NAME%}%CONTINUE%              // Berserker's Hatchet
-
-ItemDisplay[SET ID !EQUIPPED ((mgl !FCR>19) OR (sml STAT110>74) OR (lsd !(STAT152>0 STAT121>317)))]: %NAME%{%NL%%GOLD%+50 Def %GRAY%[2]%NL%%GOLD%+50 Def%NL%+35% Cb%NL%6% Ml%NL%+20% Ias%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Cleglaw's Brace
-ItemDisplay[SET ID !EQUIPPED mgl !FCR>19]:      %NAME%{%NL%%GREEN%+[10-990] to Ar (+10 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%               // Cleglaw's Pincers
-ItemDisplay[SET ID !EQUIPPED sml STAT110>74]:     %NAME%{%NL%%GREEN%All Res +15 %GRAY%[2]%NAME%}%CONTINUE%                        // Cleglaw's Claw
-ItemDisplay[SET ID !EQUIPPED lsd !(STAT152>0 STAT121>317)]: %NAME%{%NL%%GREEN%+[1-123] to Max Dmg (+1.25 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%               // Cleglaw's Tooth
-
-ItemDisplay[SET ID !EQUIPPED ((cap RES>9 DTM>19 STAT214=0 !(ALLSK>0 STAT153>0 DTM>34 STAT78>9)) OR (tbl LIFE=20) OR dgr)]: %NAME%{%NL%%GOLD%+3 to Mpk %GRAY%<2>%NL%%GOLD%6% Ml%NL%+12 Psn Dmg Over 2 Sec%NL%20% Bonus to Ar%NL%+20% Fhr %GRAY%[2]%NL%%GOLD%+1 to Necro Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Infernal Tools
-ItemDisplay[SET ID !EQUIPPED cap RES>9 DTM>19 STAT214=0]: %NAME%{%NL%%GREEN%+[4-396] Def (+4 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%                    // Infernal Cranium
-ItemDisplay[SET ID !EQUIPPED tbl LIFE=20]:      %NAME%{%NL%%GREEN%Psn Res +45% %GRAY%[2]%NL%%GREEN%Cbf%NAME%}%CONTINUE%                  // Infernal Sign
-ItemDisplay[SET ID !EQUIPPED dgr]:        %NAME%{%NL%%GREEN%+[10-990] to Ar (+10 Per Char Lvl) %GRAY%[2]%NL%%GREEN%+2 to Poison Strike%NAME%}%CONTINUE%         // Infernal Spike
-
-ItemDisplay[SET ID !EQUIPPED (lbl OR (lgl !STAT39>29) OR wsd)]: %NAME%{%NL%%GOLD%All Res +25%NL%8% Ll %GRAY%[2]%NL%%GOLD%40% Bonus to Ar%NL%+10 to Min Dmg%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Death's Disguise
-ItemDisplay[SET ID !EQUIPPED lbl]:        %NAME%{%NL%%GREEN%All Res +15 %GRAY%[2]%NAME%}%CONTINUE%                        // Death's Guard
-ItemDisplay[SET ID !EQUIPPED lgl !STAT39>29]:     %NAME%{%NL%%GREEN%+30% Ias %GRAY%[2]%NL%%GREEN%+[0-49] to Max Dmg (+0.5 Per Char Lvl)%NAME%}%CONTINUE%       // Death's Hand
-ItemDisplay[SET ID !EQUIPPED wsd]:        %NAME%{%NL%%GREEN%25-75 Cold Dmg %GRAY%[2]%NL%%GREEN%15% Reanimate as: Returned%NAME%}%CONTINUE%              // Death's Touch
-
-ItemDisplay[SET ID !EQUIPPED ((ghm STAT136=0 !(STR>9 DEX>9 FHR>23 ALLSK>0)) OR (gth !STAT91<-59) OR (hbt !AR>89) OR (hbl LIFE=20) OR (hgl !DEX>19) OR tow)]: %NAME%{%NL%%GOLD%Atd of 12%NL%Pdr by 7%NL%Fire Res +12%%NL%+20 to Mana%NL%+100 Def %GRAY%[3]%NL%%GOLD%10% Ll %GRAY%[2]%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Sigon's Complete Steel
-ItemDisplay[SET ID !EQUIPPED ghm STAT136=0 !(STR>9 DEX>9)]: %NAME%{%NL%%GREEN%+[8-792] to Ar (+8 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%                 // Sigon's Visor
-ItemDisplay[SET ID !EQUIPPED gth !STAT91<-59]:    %NAME%{%NL%%GREEN%Atd of 20 %GRAY%[2]%NAME%}%CONTINUE%                      // Sigon's Shelter
-ItemDisplay[SET ID !EQUIPPED hbt !AR>89]:     %NAME%{%NL%%GREEN%+50 to Ar %GRAY%[2]%NL%%GREEN%50% Mf %GRAY%[3]%NAME%}%CONTINUE%          // Sigon's Sabot
-ItemDisplay[SET ID !EQUIPPED hbl LIFE=20]:      %NAME%{%NL%%GREEN%+[2-198] Def (+2 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%                    // Sigon's Wrap
-ItemDisplay[SET ID !EQUIPPED hgl !DEX>19]:      %NAME%{%NL%%GREEN%+30% Ias %GRAY%[2]%NAME%}%CONTINUE%                      // Sigon's Gage
-//ItemDisplay[SET ID !EQUIPPED tow]:        %NAME%{%NAME%}%CONTINUE%                                  // Sigon's Guard
-
-ItemDisplay[SET ID !EQUIPPED ((fhl DEX>5 !(REPLIFE>14 ALLSK>0 STAT39>14 STAT41>14)) OR (brs !STAT32>199) OR (gts STAT238>0) OR bsd)]: %NAME%{%NL%%GOLD%All Res +10%NL%+10 to Dex %GRAY%[3]%NL%%GOLD%+10 to Str %GRAY%[2]%NL%%GOLD%5% Ll%NL%35% Bonus to Ar%NL%30% Chance of Blocking%NL%+20% Frw%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Isenhart's Armory
-ItemDisplay[SET ID !EQUIPPED fhl DEX>5 !(REPLIFE>14)]:  %NAME%{%NL%%GREEN%Light Res +[1-99]% (+1% Per Char Lvl) %GRAY%[3]%NAME%}%CONTINUE%                // Isenhart's Horns
-ItemDisplay[SET ID !EQUIPPED brs !STAT32>199]:    %NAME%{%NL%%GREEN%+[2-198] Def (+2 Per Char Lvl) %GRAY%[2]%NL%%GREEN%Cold Res +[1-99]% (+1% Per Char Lvl) %GRAY%[3]%NAME%}%CONTINUE% // Isenhart's Case
-ItemDisplay[SET ID !EQUIPPED gts STAT238>0]:      %NAME%{%NL%%GREEN%Fire Res +[1-99]% (+1% Per Char Lvl) %GRAY%[3]%NAME%}%CONTINUE%                 // Isenhart's Parry
-ItemDisplay[SET ID !EQUIPPED bsd]:        %NAME%{%NL%%GREEN%+[5-495] to Max Light Dmg (+5 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%              // Isenhart's Lightbrand
-
-ItemDisplay[SET ID !EQUIPPED (lrg OR gsc OR (amu STAT27=40))]: %NAME%{%NL%%GOLD%Fire Res +25% %GRAY%[2]%NL%%GOLD%Light Res +25%%NL%+15 to Str%NL%+200% Dmg to Undead%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Civerb's Vestments
-ItemDisplay[SET ID !EQUIPPED lrg]:        %NAME%{%NL%%GREEN%+22 to Mana %GRAY%[2*]%NL%%GREEN%Psn Res +26% %GRAY%[2*]%NAME%}%CONTINUE%               // Civerb's Ward
-//ItemDisplay[SET ID !EQUIPPED gsc]:        %NAME%{%NAME%}%CONTINUE%                                  // Civerb's Cudgel
-ItemDisplay[SET ID !EQUIPPED amu STAT27=40]:      %NAME%{%NL%%GREEN%Cold Res +25% %GRAY%[2]%NL%%GREEN%Pdr by 10%%NAME%}%CONTINUE%              // Civerb's Icon
-
-ItemDisplay[SET ID !EQUIPPED ((msk !STAT60>5) OR chn OR bst OR (amu FHR>9 STAT41>19) OR (rin STAT60>5 STAT34>1))]: %NAME%{%NL%%GOLD%Mdr by 3%NL%All Res +25%NL%+20 to Mana%NL%15-20 Fire Dmg %GRAY%[2]%NL%%GOLD%+60 to Ar%NL%+10% Fcr%NL%+2 to Traps%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Cathan's Traps
-ItemDisplay[SET ID !EQUIPPED msk !STAT60>5]:      %NAME%{%NL%%GREEN%+[2-198] Def (+2 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%                    // Cathan's Visage
-ItemDisplay[SET ID !EQUIPPED chn]:        %NAME%{%NL%%GREEN%Atd of [1-99] (1 Per Char Lvl) %GRAY%[2]%NL%%GREEN%Fire Res +30% %GRAY%[3]%NAME%}%CONTINUE%     // Cathan's Mesh
-ItemDisplay[SET ID !EQUIPPED bst]:        %NAME%{%NL%%GREEN%+50 to Mana %GRAY%[2]%NL%%GREEN%All Res +10 %GRAY%[3]%NL%%GREEN%-35% Target Def %GRAY%[4]%NL%%GREEN%+40% Ias%NAME%}%CONTINUE%  // Cathan's Rule
-ItemDisplay[SET ID !EQUIPPED amu FHR>9 STAT41>19]:    %NAME%{%NL%%GREEN%+50 to Ar %GRAY%[2]%NL%%GREEN%25% Mf %GRAY%[3]%NAME%}%CONTINUE%          // Cathan's Sigil
-ItemDisplay[SET ID !EQUIPPED rin STAT60>5 STAT34>1]:    %NAME%{%NL%%GREEN%+10 to Str %GRAY%[2]%NL%%GREEN%+10 to Max Dmg %GRAY%[4]%NAME%}%CONTINUE%                // Cathan's Seal
-
-ItemDisplay[SET ID !EQUIPPED (rng OR sbr OR (amu STAT89=3) OR (rin REPLIFE=6))]: %NAME%{%NL%%GOLD%40% Mf%NL%Cbf%NL%All Res +25%NL%Regen Mana 8%%NL%+50 to Mana %GRAY%[3]%NL%%GOLD%+10 to Dex %GRAY%[2]%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Angelic Raiment
-ItemDisplay[SET ID !EQUIPPED rng]:        %NAME%{%NL%%GREEN%+150 Def %GRAY%[2]%NL%%GREEN%Fire Res +50% %GRAY%[3]%NAME%}%CONTINUE%                // Angelic Mantle
-ItemDisplay[SET ID !EQUIPPED sbr]:        %NAME%{%NL%%GREEN%+75% Ed %GRAY%[2]%NL%%GREEN%+30% Ias %GRAY%[3]%NL%%GREEN%10% Ctc: Lvl 1 Fist of The Heavens on Striking%NAME%}%CONTINUE%  // Angelic Sickle
-ItemDisplay[SET ID !EQUIPPED amu STAT89=3]:     %NAME%{%NL%%GREEN%+75 to Life %GRAY%[2]%NL%%GREEN%+1 to All Sks %GRAY%[3]%NAME%}%CONTINUE%                 // Angelic Wings
-ItemDisplay[SET ID !EQUIPPED rin REPLIFE=6]:      %NAME%{%NL%%GREEN%+[12-1188] to Ar (+12 Per Char Lvl) %GRAY%[2]%NL%%GREEN%50% Mf %GRAY%[3]%NAME%}%CONTINUE% // Angelic Halo
-
-ItemDisplay[SET ID !EQUIPPED (lea OR (tbt !STAT39>39) OR lbb OR (amu STAT156>29))]: %NAME%{%NL%%GOLD%+15 to Dex %GRAY%[3]%NL%%GOLD%+10 to Str%NL%Freezes target%NL%15-20 Cold Dmg%NL%+75 to Ar %GRAY%[2]%NL%%GOLD%+30% Pierce%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Vidala's Rig
-ItemDisplay[SET ID !EQUIPPED lea]:        %NAME%{%NL%%GREEN%Fire Res +24% %GRAY%[2]%NL%%GREEN%+[2-247] Def (+2.5 Per Char Lvl) %GRAY%[3]%NAME%}%CONTINUE%         // Vidala's Ambush
-ItemDisplay[SET ID !EQUIPPED tbt !STAT39>39]:     %NAME%{%NL%%GREEN%All Res +8 %GRAY%[2]%NAME%}%CONTINUE%                         // Vidala's Fetlock
-ItemDisplay[SET ID !EQUIPPED lbb]:        %NAME%{%NL%%GREEN%+[8-792] to Ar (+8 Per Char Lvl) %GRAY%[2]%NL%%GREEN%+20% Ias %GRAY%<3>%NL%%GREEN%+[2-198] to Dex (+2 Per Char Lvl)%NAME%}%CONTINUE%  // Vidala's Barb
-ItemDisplay[SET ID !EQUIPPED amu STAT156>29]: %NAME%{%NL%%GREEN%50% Mf %GRAY%[2]%NAME%}%CONTINUE%                       // Vidala's Snare
-
-ItemDisplay[SET ID !EQUIPPED (skp OR ltp OR wst OR (amu STAT27=20))]: %NAME%{%NL%%GOLD%+25 to Mana %GRAY%[2]%NL%%GOLD%+25 to Mana%NL%+50 to Life %GRAY%[3]%NL%%GOLD%5% Ml%NL%+30% Fcr%NL%+1 to All Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Arcanna's Tricks
-ItemDisplay[SET ID !EQUIPPED skp]:        %NAME%{%NL%%GREEN%+[3-297] Def (+3 Per Char Lvl) %GRAY%[2]%NL%%GREEN%Light Res +25% %GRAY%[3]%NAME%}%CONTINUE%        // Arcanna's Head
-ItemDisplay[SET ID !EQUIPPED ltp]:        %NAME%{%NL%%GREEN%+100 Def %GRAY%[2]%NL%%GREEN%+20 to Ene %GRAY%[3]%NL%%GREEN%Regen Mana 20%%NAME%}%CONTINUE%         // Arcanna's Flesh
-ItemDisplay[SET ID !EQUIPPED wst]:        %NAME%{%NL%%GREEN%+75 to Mana %GRAY%[2]%NL%%GREEN%Regen Mana 20% %GRAY%[3]%NL%%GREEN%+40% Ias%NAME%}%CONTINUE%        // Arcanna's Deathwand
-ItemDisplay[SET ID !EQUIPPED amu STAT27=20]:      %NAME%{%NL%%GREEN%50% Mf %GRAY%[2]%NL%%GREEN%Fire Res +30% %GRAY%[3]%NAME%}%CONTINUE%          // Arcanna's Sign
+// ARCTIC'S SET
+ItemDisplay[SET ID !EQUIPPED ((qui !STAT122>199) OR vbl OR (tgl STAT118=0 STAT153=0) OR swb)]: %NAME%{%NL%%NL%%GOLD%6-14 Cold Dmg%NL%%GRAY%[F]: %GOLD%Cbf, +30% Pierce,%NL%%GRAY%[3]: %GOLD%+50 Life%NL%%GRAY%[2]: %GOLD%+5 Str%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED qui !STAT122>199]: %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +15%%NL%%GRAY%[2]: %GREEN%+[3-297] Def (+3 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED vbl]: %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +10%%NL%%GRAY%[2]: %GREEN%40% Mf%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED tgl STAT118=0 STAT153=0]: %NAME%{%NL%%GRAY%[3]: %GREEN%+10 Dex%NL%%GRAY%[2]: %GREEN%+50 Ar, %GREEN%+25% Pierce%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED swb]: %NAME%{%NL%%GRAY%[3]: %GREEN%20-30 Cold Dmg%NL%%GRAY%[2]: %GREEN%+[8-792] Ar (+8 Pcl)%NAME%}%CONTINUE%
+// HSARUS' SET
+ItemDisplay[SET ID !EQUIPPED ((mbt STAT39>24) OR (mbl LIFE=20) OR buc)]: %NAME%{%NL%%NL%%GOLD%Light Res +25%%NL%%GRAY%[F]: %GOLD%Cbf, +5 Max Dmg,%NL%%GRAY%[2]: %GOLD%Atd of 9%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED mbt STAT39>24]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[10-990] Ar (+10 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED mbl LIFE=20]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-247] Def (+2.5 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED buc]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-247] Def (+2.5 Pcl)%NAME%}%CONTINUE%
+// BERSERKER'S SET
+ItemDisplay[SET ID !EQUIPPED (hlm OR (spl CLSK4=1) OR 2ax)]: %NAME%{%NL%%NL%%GOLD%13-17 Psn Dmg Over 3 Sec%NL%+20% Frw, Psn Reduced by 75%,%NL%%GRAY%[F]: %GOLD%+1 Barb Skills, +75 Def,%NL%%GRAY%[2]: %GOLD%+50 Life%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED hlm]: %NAME%{%NL%%GRAY%[F]: %GREEN%+1 Barb Skills%NL% %GRAY%[2]: %GREEN%+[8-792] Ar (+8 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED spl CLSK4=1]: %NAME%{%NL%%GRAY%[F]: %GREEN%+[3-346]% Emax Dmg (+3.5% Pcl)%NL%%GRAY%[2]: %GREEN%+[4-445] Def (+4.5 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED 2ax]: %NAME%{%NL%%GRAY%[F]: %GREEN%+1 Barb Skills%NL%%GRAY%[2]: %GREEN%+50% Ed%NAME%}%CONTINUE%
+// CLEGLAW'S SET
+ItemDisplay[SET ID !EQUIPPED ((mgl !FCR>19) OR (sml STAT110>74) OR (lsd !(STAT152>0 STAT121>317)))]: %NAME%{%NL%%NL%%GOLD%6% Ml, +50 Def%NL%%GRAY%[F]: %GOLD%+20% Ias, +35% Cb,%NL%%GRAY%[2]: %GOLD%+50 Def%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED mgl !FCR>19]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[10-990] Ar (+10 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED sml STAT110>74]: %NAME%{%NL%%GRAY%[2]: %GREEN%All Res +15%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lsd !(STAT152>0 STAT121>317)]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[1-123] Max Dmg (+1.25 Pcl)%NAME%}%CONTINUE%
+// INFERNAL'S SET
+ItemDisplay[SET ID !EQUIPPED ((cap RES>9 DTM>19 STAT214=0 !(ALLSK>0 STAT153>0 DTM>34 STAT78>9)) OR (tbl LIFE=20) OR dgr)]: %NAME%{%NL%%NL%%GOLD%6% Ml, +12 Psn Dmg Over 2 Sec%NL%%GRAY%[F]: %GOLD%+1 Necro Skills, 20% Bonus Ar,%NL%%GRAY%[2]: %GOLD%+20% Fhr, +3 Mpk%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED cap RES>9 DTM>19 STAT214=0]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[4-396] Def (+4 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED tbl LIFE=20]: %NAME%{%NL%%GRAY%[F]: %GREEN%Cbf%NL%%GRAY%[2]: %GREEN%Psn Res +45%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED dgr]: %NAME%{%NL%%GRAY%[F]: %GREEN%+2 Poison Strike%NL%%GRAY%[2]: %GREEN%+[10-990] Ar (+10 Pcl)%NAME%}%CONTINUE%
+// DEATH'S SET
+ItemDisplay[SET ID !EQUIPPED (lbl OR (lgl !STAT39>29) OR wsd)]: %NAME%{%NL%%NL%%GOLD%40% Bonus Ar%NL%%GRAY%[F]: %GOLD%+10 Min Dmg, All Res +25,%NL%%GRAY%[2]: %GOLD%8% Ll%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lbl]: %NAME%{%NL%%GRAY%[2]: %GREEN%All Res +15%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lgl !STAT39>29]: %NAME%{%NL%%GRAY%[F]: %GREEN%+[0-49] Max Dmg (+0.5 Pcl)%NL%%GRAY%[2]: %GREEN%+30% Ias%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED wsd]: %NAME%{%NL%%GRAY%[F]: %GREEN%15% Reanimate as: Returned%NL%%GRAY%[2]: %GREEN%25-75 Cold Dmg%NAME%}%CONTINUE%
+// SIGON'S SET
+ItemDisplay[SET ID !EQUIPPED ((ghm STAT136=0 !(STR>9 DEX>9 FHR>23 ALLSK>0)) OR (gth !STAT91<-59) OR (hbt !AR>89) OR (hbl LIFE=20) OR (hgl !DEX>19) OR tow)]: %NAME%{%NL%%NL%%GOLD%+20 to Mana, Atd of 12%NL%%GRAY%[F]: %GOLD%Fire Res +12%, Pdr by 7,%NL%%GRAY%[3]: %GOLD%+100 Def%NL%%GRAY%[2]: %GOLD%10% Ll%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED ghm STAT136=0 !(STR>9 DEX>9)]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[8-792] Ar (+8 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED gth !STAT91<-59]: %NAME%{%NL%%GRAY%[2]: %GREEN%Atd of 20%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED hbt !AR>89]: %NAME%{%NL%%GRAY%[3]: %GREEN%50% Mf%NL%%GRAY%[2]: %GREEN%+50 Ar%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED hbl LIFE=20]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-198] Def (+2 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED hgl !DEX>19]: %NAME%{%NL%%GRAY%[2]: %GREEN%+30% Ias%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED tow]: %NAME%{%NAME%}%CONTINUE%
+// ISENHART'S SET
+ItemDisplay[SET ID !EQUIPPED ((fhl DEX>5 !(REPLIFE>14 ALLSK>0 STAT39>14 STAT41>14)) OR (brs !STAT32>199) OR (gts STAT238>0) OR bsd)]: %NAME%{%NL%%NL%%GOLD%35% Bonus Ar, 30% Blocking%NL%%GRAY%[F]: %GOLD%+20% Frw, 5% Ll, All Res +10,%NL%%GRAY%[3]: %GOLD%+10 Dex%NL%%GRAY%[2]: %GOLD%+10 Str%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED fhl DEX>5 !(REPLIFE>14)]: %NAME%{%NL%%GRAY%[3]: %GREEN%Light Res +[1-99]% (+1% Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED brs !STAT32>199]: %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +[1-99]% (+1% Pcl)%NL%%GRAY%[2]: %GREEN%+[2-198] Def (+2 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED gts STAT238>0]: %NAME%{%NL%%GRAY%[3]: %GREEN%Fire Res +[1-99]% (+1% Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED bsd]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[5-495] Max Light Dmg (+5 Pcl)%NAME%}%CONTINUE%
+// CIVERB'S SET
+ItemDisplay[SET ID !EQUIPPED gsc]: %NAME%{%NL%%GOLD%+200% Undead Dmg%NL%%GRAY%[F]: %GOLD%+15 Str, Light Res +25%%NL%%GRAY%[2]: %GOLD%Fire Res +25%%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED (lrg OR (amu STAT27=40))]: %NAME%{%NL%%NL%%GOLD%+200% Undead Dmg%NL%%GRAY%[F]: %GOLD%+15 Str, Light Res +25%%NL%%GRAY%[2]: %GOLD%Fire Res +25%%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lrg]: %NAME%{%NL%%GRAY%[Amu]: %GREEN%+22 Mana%NL%%GRAY%[Wea]: %GREEN%Psn Res +26%%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED gsc]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu STAT27=40]: %NAME%{%NL%%GRAY%[F]: %GREEN%Pdr by 10%%NL%%GRAY%[2]: %GREEN%Cold Res +25%%NAME%}%CONTINUE%
+// CATHAN'S SET
+ItemDisplay[SET ID !EQUIPPED ((msk !STAT60>5) OR chn OR bst OR (amu FHR>9 STAT41>19) OR (rin STAT60>5 STAT34>1))]: %NAME%{%NL%%NL%%GOLD%All Res +25, +20 Mana, Mdr by 3%NL%%GRAY%[F]: %GOLD%+2 Traps, +10% Fcr, +60 Ar,%NL%%GRAY%[2]: %GOLD%15-20 Fire Dmg%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED msk !STAT60>5]: %NAME%{%NL%%GRAY%[2]: %GREEN%+[2-198] Def (+2 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED chn]: %NAME%{%NL%%GRAY%[3]: %GREEN%Fire Res +30%%NL%%GRAY%[2]: %GREEN%Atd of [1-99] (1 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED bst]: %NAME%{%NL%%GRAY%[F]: %GREEN%+40% Ias%NL%%GRAY%[4]: %GREEN%-35% Target Def%NL%%GRAY%[3]: %GREEN%All Res +10%NL%%GRAY%[2]: %GREEN%+50 Mana%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu FHR>9 STAT41>19]: %NAME%{%NL%%GRAY%[3]: %GREEN%25% Mf%NL%%GRAY%[2]: %GREEN%+50 Ar%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED rin STAT60>5 STAT34>1]: %NAME%{%NL%%GRAY%[4]: %GREEN%+10 Max Dmg%NL%%GRAY%[2]: %GREEN%+10 Str%NAME%}%CONTINUE%
+// ANGELIC'S SET
+ItemDisplay[SET ID !EQUIPPED (rng OR sbr OR (amu STAT89=3) OR (rin REPLIFE=6))]: %NAME%{%NL%%NL%%GOLD%40% Mf, Regen Mana 8%%NL%%GRAY%[F]: %GOLD%Cbf, All Res +25,%NL%%GRAY%[3]: %GOLD%+50 Mana%NL%%GRAY%[2]: %GOLD%+10 Dex%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED rng]: %NAME%{%NL%%GRAY%[3]: %GREEN%Fire Res +50%%NL%%GRAY%[2]: %GREEN%+150 Def%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED sbr]: %NAME%{%NL%%GRAY%[F]: %GREEN%10% Ctc: Lvl 1 Foh on Striking%NL%%GRAY%[3]: %GREEN%+30% Ias%NL%%GRAY%[2]: %GREEN%+75% Ed%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu STAT89=3]: %NAME%{%NL%%GRAY%[3]: %GREEN%+1 All Skills%NL%%GRAY%[2]: %GREEN%+75 Life%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED rin REPLIFE=6]: %NAME%{%NL%%GRAY%[3]: %GREEN%50% Mf%NL%%GRAY%[2]: %GREEN%+[12-1188] Ar (+12 Pcl)%NAME%}%CONTINUE%
+// VIDALA'S SET
+ItemDisplay[SET ID !EQUIPPED (lea OR (tbt !STAT39>39) OR lbb OR (amu STAT156>29))]: %NAME%{%NL%%NL%%GOLD%+30% Pierce, 15-20 Cold Dmg%NL%%GRAY%[F]: %GOLD%+10 Str, Freezes target,%NL%%GRAY%[3]: %GOLD%+15 Dex%NL%%GRAY%[2]: %GOLD%+75 Ar%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lea]: %NAME%{%NL%%GRAY%[3]: %GREEN%+[2-247] Def (+2.5 Pcl)%NL%%GRAY%[2]: %GREEN%Fire Res +24%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED tbt !STAT39>39]: %NAME%{%NL%%GRAY%[2]: %GREEN%All Res +8%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED lbb]: %NAME%{%NL%%GRAY%[F]: %GREEN%+[2-198] Dex (+2 Pcl)%NL%%GRAY%[3]: %GREEN%+20% Ias%NL%%GRAY%[2]: %GREEN%+[8-792] Ar (+8 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu STAT156>29]: %NAME%{%NL%%GRAY%[2]: %GREEN%50% Mf%NAME%}%CONTINUE%
+// ARCANNA'S SET
+ItemDisplay[SET ID !EQUIPPED (skp OR ltp OR wst OR (amu STAT27=20))]: %NAME%{%NL%%NL%%GOLD%5% Ml, +25 Mana%NL%%GRAY%[F]: %GOLD%+1 All Skills, +30% Fcr,%NL%%GRAY%[3]: %GOLD%+50 Life%NL%%GRAY%[2]: %GOLD%+25 Mana%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED skp]: %NAME%{%NL%%GRAY%[3]: %GREEN%Light Res +25%%NL%%GRAY%[2]: %GREEN%+[3-297] Def (+3 Pcl)%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED ltp]: %NAME%{%NL%%GRAY%[F]: %GREEN%Regen Mana 20%%NL%%GRAY%[3]: %GREEN%+20 Energy%NL%%GRAY%[2]: %GREEN%+100 Def%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED wst]: %NAME%{%NL%%GRAY%[F]: %GREEN%+40% Ias%NL%%GRAY%[3]: %GREEN%Regen Mana 20%%NL%%GRAY%[2]: %GREEN%+75 Mana%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu STAT27=20]: %NAME%{%NL%%GRAY%[3]: %GREEN%Fire Res +30%%NL%%GRAY%[2]: %GREEN%50% Mf%NAME%}%CONTINUE%
 
 ItemDisplay[SET ID !EQUIPPED ((crn STAT39>29 STAT41>29) OR (tbl !LIFE=20) OR (tgl STAT118>0) OR (amu STAT110>24))]: %NAME%{%NL%%GOLD%All Res +20%NL%+2% to Max Fire Res%NL%+2% to Max Light Res%NL%+2% to Max Cold Res%NL%+2% to Max Psn Res%NL%+15 to Dex%NL%+50 Def %GRAY%[2]%NL%%GOLD%+20% Frw %GRAY%[3]%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Iratha's Finery
-ItemDisplay[SET ID !EQUIPPED crn STAT39>29 STAT41>29]:  %NAME%{%NL%%GREEN%+[2-198] Def (+2 Per Char Lvl) %GRAY%[2]%NL%%GREEN%+1 to Amazon Sks %GRAY%[3]%NAME%}%CONTINUE%        // Iratha's Coil
+ItemDisplay[SET ID !EQUIPPED crn STAT39>29 STAT41>29]:  %NAME%{%NL%%GREEN%+[2-198] Def (+2 Pcl) %GRAY%[2]%NL%%GREEN%+1 to Amazon Sks %GRAY%[3]%NAME%}%CONTINUE%        // Iratha's Coil
 ItemDisplay[SET ID !EQUIPPED tbl !LIFE=20]:     %NAME%{%NL%%GREEN%+10 to Dex %GRAY%[2]%NL%%GREEN%+10 to Max Dmg %GRAY%[3]%NAME%}%CONTINUE%               // Iratha's Cord
 ItemDisplay[SET ID !EQUIPPED tgl STAT118>0]:      %NAME%{%NL%%GREEN%+20% Ias %GRAY%[2]%NAME%}%CONTINUE%                      // Iratha's Cuff
 ItemDisplay[SET ID !EQUIPPED amu STAT110>24]:     %NAME%{%NL%%GREEN%All Res +10 %GRAY%[2]%NL%%GREEN%+1 to Amazon Sks %GRAY%[3]%NAME%}%CONTINUE%              // Iratha's Collar
@@ -2209,9 +2205,9 @@ ItemDisplay[SET ID !EQUIPPED aar CLSK3=0 TABSK32=0]:    %NAME%{%NL%%GREEN%+100% 
 ItemDisplay[SET ID !EQUIPPED kit]:        %NAME%{%NL%%GREEN%25% Ctc: Lvl 6 Frost Nova When Struck %GRAY%[2]%NL%%GREEN%+50% Edef %GRAY%[3]%NAME%}%CONTINUE%      // Milabrega's Orb
 ItemDisplay[SET ID !EQUIPPED wsp CLSK3=1]:      %NAME%{%NL%%GREEN%12% Ctc: Lvl 6 Frost Nova on Striking %GRAY%[3]%NAME%}%CONTINUE%                  // Milabrega's Rod
 
-ItemDisplay[SET ID !EQUIPPED ((bhm !MANA>149 !(DEX>19 STR>9 STAT35>2)) OR (ful TABSK18=0 TABSK41=0) OR (lbt STAT36>4) OR mpi OR (amu STAT34>2))]: %NAME%{%NL%%GOLD%75% Gf%NL%All Res +10%NL%Slows Target by 35%%NL%5% Ll %GRAY%[3]%NL%%GOLD%+[0-74] to Max Light Dmg (+0.75 Per Char Lvl)%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Tancred's Battlegear
+ItemDisplay[SET ID !EQUIPPED ((bhm !MANA>149 !(DEX>19 STR>9 STAT35>2)) OR (ful TABSK18=0 TABSK41=0) OR (lbt STAT36>4) OR mpi OR (amu STAT34>2))]: %NAME%{%NL%%GOLD%75% Gf%NL%All Res +10%NL%Slows Target by 35%%NL%5% Ll %GRAY%[3]%NL%%GOLD%+[0-74] to Max Light Dmg (+0.75 Pcl)%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Tancred's Battlegear
 ItemDisplay[SET ID !EQUIPPED bhm !MANA>149 !(DEX>19 STR>9)]:  %NAME%{%NL%%GREEN%All Res +10 %GRAY%[2]%NAME%}%CONTINUE%                        // Tancred's Skull
-ItemDisplay[SET ID !EQUIPPED ful TABSK18=0 TABSK41=0]:  %NAME%{%NL%%GREEN%+[6-594] Def (+6 Per Char Lvl) %GRAY%[2]%NAME%}%CONTINUE%                    // Tancred's Spine
+ItemDisplay[SET ID !EQUIPPED ful TABSK18=0 TABSK41=0]:  %NAME%{%NL%%GREEN%+[6-594] Def (+6 Pcl) %GRAY%[2]%NAME%}%CONTINUE%                    // Tancred's Spine
 ItemDisplay[SET ID !EQUIPPED lbt STAT36>4]:     %NAME%{%NL%%GREEN%+30% Frw %GRAY%[2]%NL%%GREEN%+10 to Str %GRAY%[3]%NAME%}%CONTINUE%               // Tancred's Hobnails
 ItemDisplay[SET ID !EQUIPPED mpi]:        %NAME%{%NL%%GREEN%+20% Ias %GRAY%<2>%NL%%GREEN%20% Ctc: Lvl 12 Charged Bolt on Attack %GRAY%[3]%NAME%}%CONTINUE%     // Tancred's Crowbill
 ItemDisplay[SET ID !EQUIPPED amu STAT34>2]:     %NAME%{%NL%%GREEN%78% Mf %GRAY%[2]%NL%%GREEN%+160 to Ar %GRAY%[3]%NAME%}%CONTINUE%         // Tancred's Weird
