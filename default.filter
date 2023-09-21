@@ -1,10 +1,10 @@
 ItemDisplayFilterName[]: Standard Potato Filter (S8)
-ItemDisplayFilterName[]: Lvl: 2-9 Hide Non Eth Bases <10 ED, (-a Few)
-ItemDisplayFilterName[]: Lvl: 3-8 Hide HP 5/R 35/TP/Th Pots
-ItemDisplayFilterName[]: Lvl: 4 Hide Mag/Rare Class Items, (-Ur Char)
+ItemDisplayFilterName[]: Lvl 2-9 Hide: Non Eth Bases <10 ED, (-a Few)
+ItemDisplayFilterName[]: Lvl 3-8 Hide: Tp, Hp, 35, Thr, Tha, (Pots)
+ItemDisplayFilterName[]: Lvl 4 Hide: Mag & Rare Class Items, (-Ur Char)
 ItemDisplayFilterName[]: (Does Nothing For Now)
-ItemDisplayFilterName[]: Lvl: 6-8 Hide MP 5/Anti, (+Anti at Rathma)
-ItemDisplayFilterName[]: Lvl: 7 Hide Mag/Rare Class Items (-Ur Char)
+ItemDisplayFilterName[]: Lvl 6-8 Hide: Mp, Anti, (Pots, +Anti at Rathma)
+ItemDisplayFilterName[]: Lvl 7 Hide: Mag & Rare Class Items, (-Ur Char)
 ItemDisplayFilterName[]: (Does Nothing For Now)
 ItemDisplayFilterName[]: (Does Nothing For Now)
 
@@ -1202,8 +1202,8 @@ ItemDisplay[(FILTLVL>5 FILTLVL<9) yps]:
 ItemDisplay[yps]: %GREEN%+%WHITE%A%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %GREEN%+%WHITE%S%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
-ItemDisplay[wms CLVL<20]: %GREEN%+%WHITE%T%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[wms CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[FILTLVL>2 wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[wms]: %YELLOW%+%WHITE%T%YELLOW%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[(FILTLVL>2 FILTLVL<9) tsc]:
 ItemDisplay[tsc]: %DARK_GREEN%+%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%* %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
@@ -2283,13 +2283,13 @@ ItemDisplay[SET ID !EQUIPPED xhb AR>89]: %NAME%{%NL%%GRAY%[5]: %GREEN%Half Freez
 ItemDisplay[SET ID !EQUIPPED zhb STAT41>25]: %NAME%{%NL%%GRAY%[F]: %GREEN%+2 to Masteries%NL%%GRAY%[5]: %GREEN%Pdr by 20%%NL%%GRAY%[4]: %GREEN%+100% Enhanced def%NL%%GRAY%[3]: %GREEN%+25% Fhr%NL%%GRAY%[2]: %GREEN%+105 Def%NAME%}%CONTINUE%
 ItemDisplay[SET ID !EQUIPPED xhg DEX>19]: %NAME%{%NL%%GRAY%[F]: %GREEN%Freezes target +2%NL%%GRAY%[5]: %GREEN%10% Ml%NL%%GRAY%[4]: %GREEN%10% Ll%NL%%GRAY%[3]: %GREEN%+120 Def%NL%%GRAY%[2]: %GREEN%+25% Ias%NAME%}%CONTINUE%
 ItemDisplay[SET ID !EQUIPPED 7m7]: %NAME%{%NL%%GRAY%[F]: %GREEN%250-361 Magic Dmg%NL%%GRAY%[5]: %GREEN%+682 Psn Dmg Over 2 Sec%NL%%GRAY%[4]: %GREEN%127-364 Cold Dmg%NL%%GRAY%[3]: %GREEN%7-477 Light Dmg%NL%%GRAY%[2]: %GREEN%211-397 Fire Dmg%NAME%}%CONTINUE%
-
-ItemDisplay[SET ID !EQUIPPED ((ci3 FCR=0) OR uld OR (zvb FRW>19) OR (xtg STAT153>0) OR amc)]: %NAME%{%NL%%GOLD%100% Mf%NL%All Res +50%NL%+30 to Dex %GRAY%[3]%NL%%GOLD%+20 to Str %GRAY%[2]%NL%%GOLD%+100 Def%NL%+100 to Ar%NL%+2 to Amazon Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // M'avina's Battle Hymn
-ItemDisplay[SET ID !EQUIPPED ci3 FCR=0]:      %NAME%{%NL%%GREEN%+1 to All Sks %GRAY%[2]%NL%%GREEN%+50% Bonus to Ar %GRAY%[3]%NL%%GREEN%All Res +25 %GRAY%[4]%NL%%GREEN%+15% to Fire Skill Dmg%NAME%}%CONTINUE% // M'avina's True Sight
-ItemDisplay[SET ID !EQUIPPED uld]:        %NAME%{%NL%%GREEN%+30% Frw %GRAY%[2]%NL%%GREEN%+30% Fhr %GRAY%[3]%NAME%}%CONTINUE%              // M'avina's Embrace
-ItemDisplay[SET ID !EQUIPPED zvb FRW>19]:     %NAME%{%NL%%GREEN%All Res +25 %GRAY%[4]%NAME%}%CONTINUE%                        // M'avina's Tenet
-ItemDisplay[SET ID !EQUIPPED xtg STAT153>0]:      %NAME%{%NL%%GREEN%131-252 Cold Dmg %GRAY%[4]%NL%%GREEN%+15% to Cold Skill Dmg%NAME%}%CONTINUE%             // M'avina's Icy Clutch
-ItemDisplay[SET ID !EQUIPPED amc]:        %NAME%{%NL%%GREEN%228-754 Magic Dmg %GRAY%[2]%NL%%GREEN%10% Ctc: Lvl 25 Nova on Striking %GRAY%[3]%NL%%GREEN%+2 to Bow & Crossbow Sks %GRAY%[4]%NAME%}%CONTINUE% // M'avina's Caster
+// M'AVINA'S SET
+ItemDisplay[SET ID !EQUIPPED ((ci3 FCR=0) OR uld OR (zvb FRW>19) OR (xtg STAT153>0) OR amc)]: %NAME%{%NL%%GOLD%100% Mf, +100 Ar, +100 Def%NL%%GRAY%[F]: %GOLD%+2 Amazon Skills, All Res +50%,%NL%%GRAY%[3]: %GOLD%+30 Dex%NL%%GRAY%[2]: %GOLD%+20 Str%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED ci3 FCR=0]: %NAME%{%NL%%GRAY%[F]: %GREEN%+15% Fire Skill Dmg%NL%%GRAY%[4]: %GREEN%All Res +25%%NL%%GRAY%[3]: %GREEN%+50% Bonus Ar%NL%%GRAY%[2]: %GREEN%+1 All Skills%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED uld]: %NAME%{%NL%%GRAY%[3]: %GREEN%+30% Fhr%NL%%GRAY%[2]: %GREEN%+30% Frw%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED zvb FRW>19]: %NAME%{%NL%%GRAY%[4]: %GREEN%All Res +25%%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED xtg STAT153>0]: %NAME%{%NL%%GRAY%[F]: %GREEN%+15% Cold Skill Dmg%NL%%GRAY%[4]: %GREEN%131-252 Cold Dmg%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amc]: %NAME%{%NL%%GRAY%[4]: %GREEN%+2 to Bow & Crossbow Skills%NL%%GRAY%[3]: %GREEN%10% Ctc: Lvl 25 Nova on Striking%NL%%GRAY%[2]: %GREEN%228-754 Magic Dmg%NL%%NAME%}%CONTINUE%
 
 ItemDisplay[SET ID !EQUIPPED ((xh9 DEX>19 STR>9 STAT35>2) OR (ucl TABSK49>1) OR (xmb !STAT39>24) OR 7qr)]: %NAME%{%NL%%GOLD%Mdr by 15 %GRAY%[2]%NL%%GOLD%Pdr by 20%%NL%All Res +50%NL%+200 Def %GRAY%[3]%NL%%GOLD%+150 Def%NL%10% Ll%NL%10% Ml%NL%+3 to Assassin Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Natalya's Odium
 //ItemDisplay[SET ID !EQUIPPED xh9 DEX>19 STR>9 STAT35>2]:  %NAME%{%NAME%}%CONTINUE%                                  // Natalya's Totem
