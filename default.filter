@@ -2290,35 +2290,26 @@ ItemDisplay[SET ID !EQUIPPED uld]: %NAME%{%NL%%GRAY%[3]: %GREEN%+30% Fhr%NL%%GRA
 ItemDisplay[SET ID !EQUIPPED zvb FRW>19]: %NAME%{%NL%%GRAY%[4]: %GREEN%All Res +25%%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID !EQUIPPED xtg STAT153>0]: %NAME%{%NL%%GRAY%[F]: %GREEN%+15% Cold Skill Dmg%NL%%GRAY%[4]: %GREEN%131-252 Cold Dmg%NL%%NAME%}%CONTINUE%
 ItemDisplay[SET ID !EQUIPPED amc]: %NAME%{%NL%%GRAY%[4]: %GREEN%+2 to Bow & Crossbow Skills%NL%%GRAY%[3]: %GREEN%10% Ctc: Lvl 25 Nova on Striking%NL%%GRAY%[2]: %GREEN%228-754 Magic Dmg%NL%%NAME%}%CONTINUE%
-
-ItemDisplay[SET ID !EQUIPPED ((xh9 DEX>19 STR>9 STAT35>2) OR (ucl TABSK49>1) OR (xmb !STAT39>24) OR 7qr)]: %NAME%{%NL%%GOLD%Mdr by 15 %GRAY%[2]%NL%%GOLD%Pdr by 20%%NL%All Res +50%NL%+200 Def %GRAY%[3]%NL%%GOLD%+150 Def%NL%10% Ll%NL%10% Ml%NL%+3 to Assassin Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%  // Natalya's Odium
-//ItemDisplay[SET ID !EQUIPPED xh9 DEX>19 STR>9 STAT35>2]:  %NAME%{%NAME%}%CONTINUE%                                  // Natalya's Totem
-//ItemDisplay[SET ID !EQUIPPED ucl TABSK49>1]:    %NAME%{%NAME%}%CONTINUE%                                  // Natalya's Shadow
-ItemDisplay[SET ID !EQUIPPED xmb !STAT39>24]:     %NAME%{%NL%%GREEN%+30 Kick Dmg %GRAY%[3]%NAME%}%CONTINUE%                          // Natalya's Soul
-ItemDisplay[SET ID !EQUIPPED 7qr]:        %NAME%{%NL%%GREEN%Ignore Target's Def %GRAY%[3]%NAME%}%CONTINUE%                        // Natalya's Mark
-
-ItemDisplay[SET ID !EQUIPPED ((xsk STAT60>5) OR (uth STAT91<-59) OR (zmb DTM=37) OR oba OR (amu CLSK1=2))]: %NAME%{%NL%%GOLD%40% Mf %GRAY%<3>%NL%%GOLD%All Res +50%NL%Replenish Life +10 %GRAY%[2]%NL%%GOLD%+150 to Life%NL%+50 Def vs. Missile%NL%+150 Def%NL%+25% Fhr %GRAY%[4]%NL%%GOLD%+3 to Sorceress Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Tal Rasha's Wrappings
-//ItemDisplay[SET ID !EQUIPPED xsk STAT60>5]:     %NAME%{%NAME%}%CONTINUE%                                  // Tal Rasha's Horadric Crest
-ItemDisplay[SET ID !EQUIPPED uth STAT91<-59]:     %NAME%{%NL%%GREEN%+10% Fcr %GRAY%[2]%NAME%}%CONTINUE%                        // Tal Rasha's Guardianship
-ItemDisplay[SET ID !EQUIPPED zmb DTM=37]:     %NAME%{%NL%%GREEN%+60 Def %GRAY%[2]%NL%%GREEN%+10% Fcr %GRAY%[3]%NAME%}%CONTINUE%                // Tal Rasha's Fine-Spun Cloth
-ItemDisplay[SET ID !EQUIPPED oba]:        %NAME%{%NL%%GREEN%+1 to Sorceress Sks %GRAY%[2]%NL%%GREEN%-15% to Enemy Fire Res %GRAY%[3]%NL%%GREEN%-15% to Enemy Light Res %GRAY%[4]%NL%%GREEN%+15% to Cold Skill Dmg%NAME%}%CONTINUE%  // Tal Rasha's Lidless Eye
-ItemDisplay[SET ID !EQUIPPED amu CLSK1=2]:      %NAME%{%NL%%GREEN%+10% Fcr %GRAY%[4]%NAME%}%CONTINUE%                        // Tal Rasha's Adjudication
-
-ItemDisplay[SET ID !EQUIPPED ((uh9 MANA>149) OR (xul TABSK18>1) OR ne9 OR (utc STAT153>0) OR (xmg FCR>19))]: %NAME%{%NL%%GOLD%All Res +50%NL%Regen Mana 20% %GRAY%[2]%NL%%GOLD%Regen Mana 15% %GRAY%[3]%NL%%GOLD%Regen Mana 15%%NL%+100 to Mana%NL%Replenish Life +10%NL%+18 to Fire Ball %GRAY%[2]%NL%%GOLD%+10 to Fire Ball %GRAY%[4]%NL%%GOLD%+26 to Fire Wall %GRAY%[3]%NL%%GOLD%20% Ll%NL%+3 to Necromancer Sks%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE% // Trang-Oul's Avatar
-//ItemDisplay[SET ID !EQUIPPED uh9 MANA>149]:     %NAME%{%NAME%}%CONTINUE%                                  // Trang-Oul's Guise
-ItemDisplay[SET ID !EQUIPPED xul TABSK18>1]:      %NAME%{%NL%%GREEN%Light Res +50% %GRAY%[3]%NL%%GREEN%Pdr by 25%%NAME%}%CONTINUE%           // Trang-Oul's Scales
-ItemDisplay[SET ID !EQUIPPED ne9]:        %NAME%{%NL%%GREEN%-25% to Enemy Psn Res %GRAY%[3]%NL%%GREEN%+30% Fcr %GRAY%[4]%NAME%}%CONTINUE%            // Trang-Oul's Wing
-ItemDisplay[SET ID !EQUIPPED utc STAT153>0]:      %NAME%{%NL%%GREEN%Cold Res +40% %GRAY%[3]%NAME%}%CONTINUE%                         // Trang-Oul's Girth
-ItemDisplay[SET ID !EQUIPPED xmg FCR>19]:     %NAME%{%NL%%GREEN%+20 to Meteor %GRAY%[4]%NAME%}%CONTINUE%                          // Trang-Oul's Claws
-
-
-
-
-
-
-
-
-
+// NATALYA'S SET
+ItemDisplay[SET ID !EQUIPPED ((xh9 DEX>19 STR>9 STAT35>2) OR (ucl TABSK49>1) OR (xmb !STAT39>24) OR 7qr)]: %NAME%{%NL%%GOLD%10% Ll, 10% Ml, +150 Def%NL%Pdr by 20%, All Res +50%,%NL%%GRAY%[F]: %GOLD%+3 Assassin Skills,%NL%%GRAY%[3]: %GOLD%+200 Def%NL%%GRAY%[2]: %GOLD%Mdr by 15%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED xh9 DEX>19 STR>9 STAT35>2]: %NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED ucl TABSK49>1]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED xmb !STAT39>24]: %NAME%{%NL%%GRAY%[3]: %GREEN%+30 Kick Dmg%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED 7qr]: %NAME%{%NL%%GRAY%[3]: %GREEN%Ignore Target's Def%NL%%NAME%}%CONTINUE%
+// TAL RASHA'S SET
+ItemDisplay[SET ID !EQUIPPED ((xsk STAT60>5) OR (uth STAT91<-59) OR (zmb DTM=37) OR oba OR (amu CLSK1=2))]: %NAME%{%NL%%GOLD%+50 Def vs. Missile, +150 Def%NL%All Res +50%, +150 Life,%NL%%GRAY%[F]: %GOLD%+3 Sorceress Skills%NL%%GRAY%[4]: %GOLD%+25% Fhr%NL%%GRAY%[3]: %GOLD%40% Mf%NL%%GRAY%[2]: %GOLD%Replenish Life +10%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED xsk STAT60>5]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED uth STAT91<-59]: %NAME%{%NL%%GRAY%[2]: %GREEN%+10% Fcr%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED zmb DTM=37]: %NAME%{%NL%%GRAY%[3]: %GREEN%+10% Fcr%NL%%GRAY%[2]: %GREEN%+60 Def%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED oba]: %NAME%{%NL%%GRAY%[F]: %GREEN%+15% Cold Skill Dmg%NL%%GRAY%[4]: %GREEN%-15% Enemy Light Res%NL%%GRAY%[3]: %GREEN%-15% Enemy Fire Res%NL%%GRAY%[2]: %GREEN%+1 Sorceress Skills%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED amu CLSK1=2]: %NAME%{%NL%%GRAY%[4]: %GREEN%+10% Fcr%NL%%NAME%}%CONTINUE%
+// TRANG-OUL'S SET
+ItemDisplay[SET ID !EQUIPPED ((uh9 MANA>149) OR (xul TABSK18>1) OR ne9 OR (utc STAT153>0) OR (xmg FCR>19))]: %NAME%{%NL%%GOLD%Replenish Life +10%NL%20% Ll, Regen Mana 15%,%NL%All Res +50%, +100 Mana,%NL%%GRAY%[F]: %GOLD%+3 Necromancer Skills,%NL%%GRAY%[4]: %GOLD%+10 Fire Ball%NL%%GRAY%[3]: %GOLD%+26 Fire Wall, Regen Mana 15%%NL%%GRAY%[2]: %GOLD%+18 Fire Ball, Regen Mana 20%%NL%%WHITE%Set Bonuses:%NL%%NAME%}%CONTINUE%
+//ItemDisplay[SET ID !EQUIPPED uh9 MANA>149]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED xul TABSK18>1]: %NAME%{%NL%%GRAY%[F]: %GREEN%Pdr by 25%%NL%%GRAY%[3]: %GREEN%Light Res +50%%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED ne9]: %NAME%{%NL%%GRAY%[4]: %GREEN%+30% Fcr%NL%%GRAY%[3]: %GREEN%-25% Enemy Psn Res%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED utc STAT153>0]: %NAME%{%NL%%GRAY%[3]: %GREEN%Cold Res +40%%NL%%NAME%}%CONTINUE%
+ItemDisplay[SET ID !EQUIPPED xmg FCR>19]: %NAME%{%NL%%GRAY%[4]: %GREEN%+20 to Meteor%NL%%NAME%}%CONTINUE%
 
 // SET BOOT'S KICK DAMAGE (INFO)
 ItemDisplay[SET lbt ID]: %NAME%{%NAME%%NL%%WHITE%Kick Damage: 3 to 8}
