@@ -1183,18 +1183,18 @@ ItemDisplay[GOLD<4999 CLVL>79]:
 ItemDisplay[(FILTLVL>2 FILTLVL<9) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%%PURPLE%+
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+
-ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%I%RED%+
-ItemDisplay[hp2 CLVL<20]: %RED%+%WHITE%II%RED%+
-ItemDisplay[hp3 CLVL<24]: %RED%+%WHITE%III%RED%+
-ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%IV%RED%+
+ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%HI%RED%+
+ItemDisplay[hp2 CLVL<20]: %RED%+%WHITE%HII%RED%+
+ItemDisplay[hp3 CLVL<24]: %RED%+%WHITE%HIII%RED%+
+ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%HIV%RED%+
 ItemDisplay[(FILTLVL>2 FILTLVL<9) hp5]:
-ItemDisplay[hp5]: %RED%+%WHITE%V%RED%+
-ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%I%BLUE%+
-ItemDisplay[mp2 CLVL<20]: %BLUE%+%WHITE%II%BLUE%+
-ItemDisplay[mp3 CLVL<24]: %BLUE%+%WHITE%III%BLUE%+
-ItemDisplay[mp4 CLVL<59]: %BLUE%+%WHITE%IV%BLUE%+
+ItemDisplay[hp5]: %RED%+%WHITE%HV%RED%+
+ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%MI%BLUE%+
+ItemDisplay[mp2 CLVL<20]: %BLUE%+%WHITE%MII%BLUE%+
+ItemDisplay[mp3 CLVL<24]: %BLUE%+%WHITE%MIII%BLUE%+
+ItemDisplay[mp4 CLVL<59]: %BLUE%+%WHITE%MIV%BLUE%+
 ItemDisplay[(FILTLVL>5 FILTLVL<9) mp5]:
-ItemDisplay[mp5]: %BLUE%+%WHITE%V%BLUE%+
+ItemDisplay[mp5]: %BLUE%+%WHITE%MV%BLUE%+
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
 ItemDisplay[(FILTLVL>5 FILTLVL<9) (MAPID>160 MAPID<164) yps]: %GREEN%+%WHITE%A%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
