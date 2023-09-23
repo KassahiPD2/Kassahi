@@ -1183,18 +1183,18 @@ ItemDisplay[GOLD<4999 CLVL>79]:
 ItemDisplay[(FILTLVL>2 FILTLVL<9) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%%PURPLE%+
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+
-ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%HI%RED%+
-ItemDisplay[hp2 CLVL<20]: %RED%+%WHITE%HII%RED%+
-ItemDisplay[hp3 CLVL<24]: %RED%+%WHITE%HIII%RED%+
-ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%HIV%RED%+
+ItemDisplay[hp1 CLVL<10]: %RED%+%WHITE%H1%RED%+
+ItemDisplay[hp2 CLVL<20]: %RED%+%WHITE%H2%RED%+
+ItemDisplay[hp3 CLVL<24]: %RED%+%WHITE%H3%RED%+
+ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%H4%RED%+
 ItemDisplay[(FILTLVL>2 FILTLVL<9) hp5]:
-ItemDisplay[hp5]: %RED%+%WHITE%HV%RED%+
-ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%MI%BLUE%+
-ItemDisplay[mp2 CLVL<20]: %BLUE%+%WHITE%MII%BLUE%+
-ItemDisplay[mp3 CLVL<24]: %BLUE%+%WHITE%MIII%BLUE%+
-ItemDisplay[mp4 CLVL<59]: %BLUE%+%WHITE%MIV%BLUE%+
+ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+
+ItemDisplay[mp1 CLVL<10]: %BLUE%+%WHITE%M1%BLUE%+
+ItemDisplay[mp2 CLVL<20]: %BLUE%+%WHITE%M2%BLUE%+
+ItemDisplay[mp3 CLVL<24]: %BLUE%+%WHITE%M3%BLUE%+
+ItemDisplay[mp4 CLVL<59]: %BLUE%+%WHITE%M4%BLUE%+
 ItemDisplay[(FILTLVL>5 FILTLVL<9) mp5]:
-ItemDisplay[mp5]: %BLUE%+%WHITE%MV%BLUE%+
+ItemDisplay[mp5]: %BLUE%+%WHITE%M5%BLUE%+
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
 ItemDisplay[(FILTLVL>5 FILTLVL<9) (MAPID>160 MAPID<164) yps]: %GREEN%+%WHITE%A%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
@@ -1213,19 +1213,19 @@ ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%GRAY%(And Yeah i Made it on Purpose)%NL%%WHITE%My Name Tag is %RED%Kassahi#6969%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
 ItemDisplay[key CLVL>29]: {%GRAY%(And Yeah i Made it on Purpose)%NL%%WHITE%My Name Tag is %RED%Kassahi#6969%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
 ItemDisplay[ear]: %ORANGE%%NAME%
-ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%Fire 1
-ItemDisplay[tpfm CLVL<20]: %RED%+%WHITE%Fire 2
-ItemDisplay[tpgs CLVL<10]: %GREEN%+%WHITE%Poison 1
-ItemDisplay[tpgm CLVL<20]: %GREEN%+%WHITE%Poison 2
-ItemDisplay[tpcs CLVL<10]: %BLUE%+%WHITE%Cold 1
-ItemDisplay[tpcm CLVL<20]: %BLUE%+%WHITE%Cold 2
-ItemDisplay[tpls CLVL<10]: %YELLOW%+%WHITE%Light 1
-ItemDisplay[tplm CLVL<20]: %YELLOW%+%WHITE%Light 2
+ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%F 1
+ItemDisplay[tpfm CLVL<20]: %RED%+%WHITE%F 2
+ItemDisplay[tpgs CLVL<10]: %GREEN%+%WHITE%P 1
+ItemDisplay[tpgm CLVL<20]: %GREEN%+%WHITE%P 2
+ItemDisplay[tpcs CLVL<10]: %BLUE%+%WHITE%C 1
+ItemDisplay[tpcm CLVL<20]: %BLUE%+%WHITE%C 2
+ItemDisplay[tpls CLVL<10]: %YELLOW%+%WHITE%L 1
+ItemDisplay[tplm CLVL<20]: %YELLOW%+%WHITE%L 2
 ItemDisplay[FILTLVL>2 (tpfl OR tpgl OR tpcl OR tpll)]:
-ItemDisplay[tpfl]: %RED%+%WHITE%Fire 3
-ItemDisplay[tpgl]: %GREEN%+%WHITE%Poison 3
-ItemDisplay[tpcl]: %BLUE%+%WHITE%Cold 3
-ItemDisplay[tpll]: %YELLOW%+%WHITE%Light 3
+ItemDisplay[tpfl]: %RED%+%WHITE%F 3
+ItemDisplay[tpgl]: %GREEN%+%WHITE%P 3
+ItemDisplay[tpcl]: %BLUE%+%WHITE%C 3
+ItemDisplay[tpll]: %YELLOW%+%WHITE%L 3
 ItemDisplay[(tpfs OR tpfm OR tpgs OR tpgm OR tpcs OR tpcm OR tpls OR tplm) CLVL>0]:
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
 ItemDisplay[pvpp]: %ORANGE%%NAME%
