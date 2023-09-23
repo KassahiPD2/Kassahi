@@ -602,8 +602,7 @@ ItemDisplay[NMAG !ID (WEAPON OR ARMOR OR amu OR rin)]: %NAME%
 
 // JEWELRY'S NAME (UNI)
 ItemDisplay[UNI !ID jew]: KappaPride%CONTINUE%
-
-
+ItemDisplay[UNI !ID rin]: My... PRECIOUS!!!%CONTINUE%
 // HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI !ID xap]: Peasant Crown%CONTINUE%
@@ -1544,6 +1543,10 @@ ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%*%RED%*   %NAME%   %RED%*%GRAY%*
 // UNIQUE DROPS (RAINBOW FACET)
 ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%R%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %NAME%     %PURPLE%R%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+
+// UNIQUE DROPS (RING)
+ItemDisplay[UNI !ID !ETH rin]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%*%RED%*%ORANGE%*%YELLOW%*     %NAME%     %YELLOW%*%ORANGE%*%RED%*%PURPLE%*
+
 // UNIQUE DROPS (DCLONE & RATHMA)
 ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%*%RED%*%ORANGE%*%YELLOW%*  %NAME%  %YELLOW%*%ORANGE%*%RED%*%PURPLE%* %GREEN%Holy Mother
 // UNIQUE DROPS (BLAME ONION)
@@ -4061,11 +4064,11 @@ ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7
 
 
 // LIFE STOLEN PER HIT
-ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT60>0]: %RED%Ll%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR WAND) STAT60>0]: %RED%Ll%NAME%{%NAME%}%CONTINUE%
 // MANA STOLEN PER HIT
-ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT62>0]: %BLUE%Ml%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR WAND) STAT62>0]: %BLUE%Ml%NAME%{%NAME%}%CONTINUE%
 // DEADLY STRIKE
-ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT141>0]: %TAN%Ds%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR WAND) STAT141>0]: %TAN%Ds%NAME%{%NAME%}%CONTINUE%
 
 
 
