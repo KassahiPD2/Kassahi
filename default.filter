@@ -1424,7 +1424,7 @@ ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%*%RED%*%ORANGE%*%YELLOW%* 
 ItemDisplay[lpp]: %MAP-0A%%RED%*   %GOLD%Larzuk's Bermuda Piece %TAN%x%WHITE%%QTY%   %RED%*{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
 ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: %TAN%(%WHITE%1%TAN%)%NL%%WHITE%Possible Sockets:}
 ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GRAY%[%GOLD%O%GRAY%] %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}
-ItemDisplay[imma]: %MAP-68%%WHITE%Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Arcane Orb, %GOLD%O%TAN%)%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
+ItemDisplay[imma]: {%WHITE%Cube: %TAN%(%WHITE%Arcane Orb, %GOLD%O%TAN%)%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
 ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Zakarum Orb, %GOLD%O, %GREEN%10+%TAN%)%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[rera]: %MAP-68%%WHITE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Horadrim Orb, %WHITE%P-%ORANGE%Gem, %GREEN%10+%TAN%)%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Maps, %WHITE%Orb%TAN%)%NL%%WHITE%Downgrade %PURPLE%Maps %WHITE%to White}
@@ -2115,7 +2115,7 @@ ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%%WHITE%Base: %GR
 ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%WHITE%Base: %GRAY%Sp:%WHITE%%WPNSPD%}%CONTINUE%
 
 // PRICE FOR ITEM'S
-ItemDisplay[!SHOP !EQUIPPED !RW]: %NAME%{%DARK_GREEN%$%PRICE%%NL%%NAME%}%CONTINUE%
+ItemDisplay[!SHOP !EQUIPPED !RW !(cm1 OR cm2 OR cm3 OR UNI OR SET)]: %NAME%{%DARK_GREEN%$%PRICE%%NL%%NAME%}%CONTINUE%
 
 // SET BOUNSE'S
 ItemDisplay[FILTLVL=1 SET ID !EQUIPPED ((STAT486=0 (NORM OR EXC) !(SOR OR WAND)) OR (SOCK=0 STAT360=0 STAT486=0 (HELM OR CIRC OR CHEST OR SHIELD OR WEAPON)) OR (WEAPON !(WAND OR SOR))) (rin OR amu OR cap OR skp OR hlm OR fhl OR msk OR bhm OR ghm OR crn OR xap OR xhl OR xsk OR xh9 OR xhm OR xrn OR uh9 OR uhm OR urn OR qui OR lea OR stu OR rng OR chn OR brs OR spl OR gth OR ltp OR ful OR aar OR xcl OR xrs OR xul OR xar OR uui OR ucl OR upl OR ult OR uld OR uth OR uul OR uar OR buc OR sml OR lrg OR kit OR tow OR gts OR xml OR uts OR lgl OR vgl OR mgl OR tgl OR hgl OR xvg OR xmg OR xtg OR xhg OR ulg OR lbt OR vbt OR mbt OR tbt OR hbt OR xlb OR xmb OR xtb OR xhb OR zmb OR ztb OR zhb OR lbl OR vbl OR mbl OR tbl OR hbl OR zvb OR zmb OR ztb OR zhb OR umc OR utc OR ci0 OR ci3 OR dr8 OR ba5 OR paf OR ne9 OR 2ax OR mpi OR 9mt OR 7ma OR 7m7 OR sbr OR bsd OR lsd OR wsd OR 7ls OR 7fb OR 7gd OR dgr OR 9vo OR lbb OR swb OR bst OR wst OR 6cs OR bwn OR gsc OR wsp OR 7ws OR 7qr OR oba OR amc)]:  %NAME%{%NL%%NAME%}%CONTINUE%    // Adds new line for items that already have something in their description (items with description lines for upgrade recipes, max corruptable sockets, or weapon speed)  ...the huge list of item codes is a list of all set item bases - this rule currently only applies to bases which have set items by default, since set bonuses aren't currently shown for upgraded versions
