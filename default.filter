@@ -1582,7 +1582,8 @@ ItemDisplay[SET !ID !ETH (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt O
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
 // MAGIC/RARE (GOOD)
-ItemDisplay[(MAG OR RARE) !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-97%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
+ItemDisplay[MAG !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-97%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
+ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[RARE !ID !ETH AMAZON (aqv OR cqv)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[(MAG OR RARE) !ID ETH BARBARIAN (tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[MAG !ID !ETH (jew OR CIRC)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%*%WHITE%*     %NAME%     %WHITE%*%BLUE%*
