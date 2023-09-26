@@ -1587,7 +1587,7 @@ ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%OR
 ItemDisplay[RARE !ID !ETH AMAZON (aqv OR cqv)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[(MAG OR RARE) !ID ETH BARBARIAN (tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%*%ORANGE%*  %NAME%  %ORANGE%*%RED%*
 ItemDisplay[MAG !ID !ETH (jew OR CIRC)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%*%WHITE%*     %NAME%     %WHITE%*%BLUE%*
-ItemDisplay[MAG !ID ILVL>90 cm3]: %PX-9B%%DOT-21%%MAP-97%%PURPLE%*   %NAME%   %PURPLE%* %TAN%(%WHITE%91+%TAN%)
+ItemDisplay[MAG !ID ILVL>90 cm3]: %PX-9B%%DOT-21%%MAP-97%%PURPLE%*   %NAME% %WHITE%91+   %PURPLE%*
 ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-21%%MAP-97%%PURPLE%*   %NAME%   %PURPLE%*
 ItemDisplay[RARE !ID !ETH (jew OR amu OR rin OR CIRC)]: %DOT-20%%MAP-21%%BORDER-6D%%YELLOW%*%WHITE%*     %NAME%     %WHITE%*%YELLOW%*
 ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-9B%%DOT-21%%MAP-6D%%PURPLE%*   %NAME%   %PURPLE%*
@@ -1810,7 +1810,7 @@ ItemDisplay[leg !RW]: %NAME%{%GRAY%(Wirt's Leg Can Be Used in All difficulties)%
 // DIADEM'S REROLL
 ItemDisplay[RARE !ETH ci3]: %NAME%{%WHITE%Tip: %WHITE%6x %GRAY%O, %WHITE%to Reroll 2/20s infinitely%NL%%NAME%}%CONTINUE%
 // GRAND CHARM'S HIGH-LVL
-ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %TAN%(%WHITE%91+%TAN%)%BLUE%{%WHITE%Cube: %PURPLE%Charm, %WHITE%3x %WHITE%P-%ORANGE%Gems, %WHITE%to Reroll}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%91+{%WHITE%Cube: %PURPLE%Charm, %WHITE%3x %WHITE%P-%ORANGE%Gems, %WHITE%to Reroll}%CONTINUE%
 // JEWEL'S
 ItemDisplay[(MAG OR RARE) jew]: %NAME%{%GRAY%(You Will Lose The Stats)%NL%%WHITE%Cube: %WHITE%1-15 Jewels, %GRAY%Key %WHITE%= %GOLD%O}%CONTINUE%
 
