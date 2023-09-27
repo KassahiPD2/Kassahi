@@ -3962,7 +3962,7 @@ ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) STAT86>0]: %RED%L
 
 
 // IGNORE TARGET'S DEFENSE
-ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) STAT115>0]: %RED%Lpk%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) STAT115>0]: %RED%Itd%NAME%{%NAME%}%CONTINUE%
 
 
 
