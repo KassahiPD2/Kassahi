@@ -4004,6 +4004,11 @@ ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7
 // LIFE
 ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) STAT7>0]: %RED%Lif%NAME%{%NAME%}%CONTINUE%
 
+// KNOCKBACK
+ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT81>0]: %BLUE%Kb%NAME%{%NAME%}%CONTINUE%
+
+
+
 // OPEN WOUNDS
 ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT135>0]: %TAN%Ow%NAME%{%NAME%}%CONTINUE%
 
@@ -4021,8 +4026,6 @@ ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) DEX>0]: %DARK_GRE
 // STRENGTH
 ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew) STR>0]: %DARK_GREEN%Str%NAME%{%NAME%}%CONTINUE%
 
-// KNOCKBACK
-ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) STAT81>0]: %BLUE%Kb%NAME%{%NAME%}%CONTINUE%
 
 // LIFE STOLEN PER HIT
 ItemDisplay[(MAG OR CRAFT OR RARE) !(cm1 OR cm2 OR cm3 OR jew OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR WAND) STAT60>0]: %RED%Ll%NAME%{%NAME%}%CONTINUE%
