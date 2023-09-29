@@ -602,7 +602,7 @@ ItemDisplay[NMAG !ID (WEAPON OR ARMOR OR amu OR rin)]: %NAME%
 
 // JEWELRY'S NAME (UNI)
 ItemDisplay[UNI !ID jew]: KappaPride%CONTINUE%
-ItemDisplay[UNI !ID rin]: My... PRECIOUS!!!%CONTINUE%
+ItemDisplay[UNI !ID rin]: My... Precious!!!%CONTINUE%
 // HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI !ID xap]: Peasant Crown%CONTINUE%
