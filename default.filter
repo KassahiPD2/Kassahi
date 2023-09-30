@@ -1406,7 +1406,7 @@ ItemDisplay[ubac]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%O
 ItemDisplay[uba]: %MAP-0A%%GRAY%+%RED%+   %ORANGE%Relic of The Ancients   %RED%+%GRAY%+%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Ancients%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // DCLONE ITEMS
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
-ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Diablo%WHITE%/%RED%Baal}
+ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
 ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 3: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 2: Cube (Vex-sur) Increase Dclone's Difficulty (Can Drop Items)%NL%%WHITE%Tier 1: No Dclone Items Will Drop}
 // RATHMA ITEMS
