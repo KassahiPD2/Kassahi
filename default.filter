@@ -2,10 +2,10 @@ ItemDisplayFilterName[]: Standard Potato Filter (S8)
 ItemDisplayFilterName[]: Lvl 2-9 Hide: Non Eth Bases <10 ED, (-a Few)
 ItemDisplayFilterName[]: Lvl 3-8 Hide: Tp, Hp, 35, Thr, Tha, (Pots)
 ItemDisplayFilterName[]: Lvl 4 Hide: Mag & Rare Class Items, (-Ur Char)
-ItemDisplayFilterName[]: (Does Nothing For Now)
+ItemDisplayFilterName[]: Lvl 5 Hide: Mag Rings, Amulets,
 ItemDisplayFilterName[]: Lvl 6-8 Hide: Mp, Anti, (Pots, +Anti at Rathma)
 ItemDisplayFilterName[]: Lvl 7 Hide: Mag & Rare Class Items, (-Ur Char)
-ItemDisplayFilterName[]: (Does Nothing For Now)
+ItemDisplayFilterName[]: Lvl 8 Hide: Mag Rings, Amulets,
 ItemDisplayFilterName[]: (Does Nothing For Now)
 
 
@@ -1209,8 +1209,9 @@ ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
-ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%GRAY%(And Yeah i Made it on Purpose)%NL%%WHITE%My Name Tag is %RED%Kassahi#6969%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
-ItemDisplay[key CLVL>29]: {%GRAY%(And Yeah i Made it on Purpose)%NL%%WHITE%My Name Tag is %RED%Kassahi#6969%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}
+ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
+ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
+ItemDisplay[key SHOP]: {%RED%PS, Good Luck Grinding%NL%%Orange%& Maybe Some Other Ideas to What Dis Levels Can be Used For%NL%so if Ppl Want Amulets on Dis Levels Let me Know%NL%im Still Debating on Hiding The Amulets or Not%NL%it Hides Magic Rings & Amulets For Now%NL%its an Extension of Filter Lvl 4 & 7%NL%Added 2 New Filter Lvls, Number 5 & 8%NL%%NL%%NAME%}
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%F1
 ItemDisplay[tpfm CLVL<20]: %RED%+%WHITE%F2
@@ -1563,10 +1564,8 @@ ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+
 // UNIQUE DROPS (RAINBOW FACET)
 ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%R%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %NAME%     %PURPLE%R%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
-
 // UNIQUE DROPS (RING)
 ItemDisplay[UNI !ID !ETH rin]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
-
 // UNIQUE DROPS (DCLONE & RATHMA)
 ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %NAME%  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother
 // UNIQUE DROPS (BLAME ONION)
@@ -1655,7 +1654,9 @@ ItemDisplay[MAG rin (ILVL=92 OR ILVL=93)]: %NAME% %ORANGE%C: %WHITE%70+%CONTINUE
 ItemDisplay[MAG rin (ILVL=94 OR ILVL=95)]: %NAME% %ORANGE%C: %WHITE%68+%CONTINUE%
 ItemDisplay[MAG rin (ILVL=96 OR ILVL=97)]: %NAME% %ORANGE%C: %WHITE%66+%CONTINUE%
 ItemDisplay[MAG rin (ILVL=98 OR ILVL=99)]: %NAME% %ORANGE%C: %WHITE%64+%CONTINUE%
+ItemDisplay[(FILTLVL=5 OR FILTLVL=8) MAG !ID (amu OR rin)]:
 ItemDisplay[MAG !ID (amu OR rin)]: %NAME%
+
 
 
 
