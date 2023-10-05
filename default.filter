@@ -1601,8 +1601,8 @@ ItemDisplay[SET !ID !ETH (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt O
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
 // MAGIC/RARE (GOOD)
-ItemDisplay[MAG !ID !ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
-ItemDisplay[RARE !ID !ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[MAG !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[RARE !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[MAG !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[RARE !ID !ETH AMAZON (aqv OR cqv)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
