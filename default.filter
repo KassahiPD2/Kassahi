@@ -1621,10 +1621,10 @@ ItemDisplay[SET !ID !ETH (cap OR dgr OR mbl OR mbt OR lsd OR lbl OR ghm OR hbt O
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
 // MAGIC/RARE (GOOD)
-ItemDisplay[MAG !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
-ItemDisplay[RARE !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[MAG !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[RARE !ID !ETH (am2 OR am7 OR amc)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[MAG !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[RARE !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[RARE !ID !ETH AMAZON (aqv OR cqv)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[(MAG OR RARE) !ID ETH BARBARIAN (tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[MAG !ID !ETH (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%+%BLUE%+%WHITE%+     %NAME%     %WHITE%+%BLUE%+%PURPLE%+
@@ -2391,6 +2391,7 @@ ItemDisplay[UNI cm3]: %NAME%{+69 to Niko Niko Nii Skills}
 
 
 // HIGHLIGHTING JEWEL'S (GG'S)
+ItemDisplay[MAG (ED>29 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG ED>29 (MAXDMG>7 OR MINDMG>7) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min-Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG ED=40 jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG MAXDMG>21 jew]: %DOT-0A%%ORANGE%[%GREEN%High Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
