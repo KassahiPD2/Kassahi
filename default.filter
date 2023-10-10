@@ -2378,7 +2378,7 @@ ItemDisplay[SET utb ID]: %NAME%{%WHITE%Kick Damage: 69 to 147}
 ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}
 
 // SUNDERED FORTUNE
-ItemDisplay[UNI cm3]: %NAME%{+69 to Niko Niko Nii Skills}
+ItemDisplay[UNI cm3]: %NAME%{+69 to Niko Niko Nii Skills%NAME%}%CONTINUE%
 
 
 
