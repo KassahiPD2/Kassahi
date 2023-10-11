@@ -1,11 +1,11 @@
-ItemDisplayFilterName[]: Standard Potato Filter (S8)
-ItemDisplayFilterName[]: Lvl 2-9 Hide: Non Eth Bases <10 ED, (-a Few)
-ItemDisplayFilterName[]: Lvl 3-8 Hide: Tp, Hp, 35, Thr, Tha,
-ItemDisplayFilterName[]: Lvl 4-5 Hide: Mag & Rare Class Items, (-Ur Char)
-ItemDisplayFilterName[]: Lvl 5 Hide: Mag Rings, Amulets,
-ItemDisplayFilterName[]: Lvl 6-8 Hide: Mp, Anti, (+Anti at Rathma/a Few Maps)
-ItemDisplayFilterName[]: Lvl 7-8 Hide: Mag & Rare Class Items, (-Ur Char)
-ItemDisplayFilterName[]: Lvl 8 Hide: Mag Rings, Amulets,
+ItemDisplayFilterName[]: Early Season (Season 8)
+ItemDisplayFilterName[]: Ext of 1 Hide: Non Eth Bases <10Ed.
+ItemDisplayFilterName[]: Ext of 2 Hide: +Tp, +H5, +35, +T.
+ItemDisplayFilterName[]: Ext of 3 Hide: Mag/Rare Class Items, -Ur Char.
+ItemDisplayFilterName[]: Ext of 4 Hide: Mag Rings, Amulets.
+ItemDisplayFilterName[]: Ext of 3 Hide: +M5, +A, -Rathma/a Few Maps.
+ItemDisplayFilterName[]: Ext of 6 Hide: Mag/Rare Class Items, -Ur Char.
+ItemDisplayFilterName[]: Ext of 7 Hide: Mag Rings, Amulets.
 ItemDisplayFilterName[]: (Does Nothing For Now)
 
 
@@ -1200,10 +1200,10 @@ ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 ItemDisplay[(FILTLVL>5 FILTLVL<9) ((MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158)) yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[(FILTLVL>5 FILTLVL<9) yps]:
 ItemDisplay[yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
-ItemDisplay[vps CLVL<20]: %GREEN%+%WHITE%S%GREEN%+{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
+ItemDisplay[vps CLVL<20]: %Sage%+%WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[FILTLVL>2 wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[wms]: %YELLOW%+%WHITE%T%YELLOW%+{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[wms]: %YELLOW%+%WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[(FILTLVL>2 FILTLVL<9) tsc]:
 ItemDisplay[tsc]: %DARK_GREEN%+%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
@@ -1301,13 +1301,13 @@ ItemDisplay[glrs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perf
 ItemDisplay[glbs]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%28% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+31 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%6-10 %BLUE%Cold Dmg}
 ItemDisplay[glys]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %WHITE%28% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%20% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-30 %BLUE%Light Dmg}
 ItemDisplay[skls]: %NAME%{%TAN%Cube: %WHITE%3x Flawless, %GRAY%Key %WHITE%= Perfect%NL%%NL%%TAN%Shield: %BLUE%ATD %WHITE%+16%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%4, %BLUE%Reg Mana %WHITE%12%%NL%%TAN%Weapon: %WHITE%3% %BLUE%Life, %WHITE%3% %BLUE%Mana}
-ItemDisplay[gpvs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%10%TAN%) %WHITE%Belt: %TAN%(%GREEN%6%TAN%) %WHITE%Weapon: %TAN%(%GREEN%3%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%7%TAN%) %WHITE%Shield: %TAN%(%GREEN%5%TAN%) %WHITE%Gloves: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%8%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%4%TAN%)%NL%%PURPLE%Caster %WHITE%Crafting Recipes: %TAN%(%PURPLE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%+30 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+10 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+150 %BLUE%to AR}
+ItemDisplay[gpvs]: %NAME%{%WHITE%Boots: %GREEN%10 %WHITE%Belt: %GREEN%6 %WHITE%Weapon: %GREEN%3%NL%%WHITE%Chest: %GREEN%7 %WHITE%Shield: %GREEN%5 %WHITE%Gloves: %GREEN%9%NL%%WHITE%Amulet: %GREEN%8 %WHITE%Ring: %GREEN%11 %WHITE%Helm: %GREEN%4%NL%%PURPLE%Caster %WHITE%Crafting Recipes: %PURPLE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %WHITE%+30 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+10 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+150 %BLUE%to AR}
 ItemDisplay[gpws]: %NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+19%%NL%%TAN%Armor/Helm: %WHITE%+100 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+68% %BLUE%Dmg vs Und}
-ItemDisplay[gpgs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%9%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Bow%TAN%/%WHITE%Xbow: %TAN%(%GREEN%12%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%5%TAN%) %WHITE%Shield: %TAN%(%GREEN%4%TAN%) %WHITE%Gloves: %TAN%(%GREEN%8%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%10%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%6%TAN%)%NL%%GREEN%Safety %WHITE%Crafting Recipes: %TAN%(%GREEN%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+10%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+100 %BLUE%Psn Dmg Over %WHITE%7 %BLUE%Sec}
-ItemDisplay[gprs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%5%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Weapon: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%10%TAN%) %WHITE%Shield: %TAN%(%GREEN%6%TAN%) %WHITE%Gloves: %TAN%(%GREEN%4%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%11%TAN%) %WHITE%Ring: %TAN%(%GREEN%12%TAN%) %WHITE%Helm: %TAN%(%GREEN%8%TAN%)%NL%%RED%Blood %WHITE%Crafting Recipes: %TAN%(%RED%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%15-20 %BLUE%Fire Dmg}
-ItemDisplay[gpbs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%8%TAN%) %WHITE%Belt: %TAN%(%GREEN%7%TAN%) %WHITE%Weapon: %TAN%(%GREEN%3%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%4%TAN%) %WHITE%Shield: %TAN%(%GREEN%5%TAN%) %WHITE%Gloves: %TAN%(%GREEN%9%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%10%TAN%) %WHITE%Ring: %TAN%(%GREEN%11%TAN%) %WHITE%Helm: %TAN%(%GREEN%6%TAN%)%NL%%BLUE%Hitpower %WHITE%Crafting Recipes: %TAN%(%BLUE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%10-14 %BLUE%Cold Dmg}
-ItemDisplay[gpys]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%16%TAN%) %WHITE%Belt: %TAN%(%GREEN%1%TAN%) %WHITE%Weapon: %TAN%(%GREEN%13%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%2%TAN%) %WHITE%Shield: %TAN%(%GREEN%14%TAN%) %WHITE%Gloves: %TAN%(%GREEN%15%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%18%TAN%) %WHITE%Ring: %TAN%(%GREEN%17%TAN%) %WHITE%Helm: %TAN%(%GREEN%3%TAN%)%NL%%YELLOW%Bountiful %WHITE%Crafting Recipes: %TAN%(%YELLOW%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %WHITE%40% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%24% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-40 %BLUE%Light Dmg}
-ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %TAN%(%GREEN%1%TAN%) %WHITE%Belt: %TAN%(%GREEN%2%TAN%) %WHITE%Weapon: %TAN%(%GREEN%13%TAN%)%NL%%WHITE%Chest: %TAN%(%GREEN%3%TAN%) %WHITE%Shield: %TAN%(%GREEN%12%TAN%) %WHITE%Gloves: %TAN%(%GREEN%16%TAN%)%NL%%WHITE%Amulet: %TAN%(%GREEN%14%TAN%) %WHITE%Ring: %TAN%(%GREEN%15%TAN%) %WHITE%Helm: %TAN%(%GREEN%17%TAN%)%NL%%GRAY%Vampiric %WHITE%Crafting Recipes: %TAN%(%GRAY%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%TAN%)%NL%%NL%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
+ItemDisplay[gpgs]: %NAME%{%WHITE%Boots: %GREEN%9 %WHITE%Belt: %GREEN%7 %WHITE%Bow%TAN%/%WHITE%Xbow: %GREEN%12%NL%%WHITE%Chest: %GREEN%5 %WHITE%Shield: %GREEN%4 %WHITE%Gloves: %GREEN%8%NL%%WHITE%Amulet: %GREEN%10 %WHITE%Ring: %GREEN%11 %WHITE%Helm: %GREEN%6%NL%%GREEN%Safety %WHITE%Crafting Recipes: %GREEN%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %WHITE%40% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+10%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+100 %BLUE%Psn Dmg Over %WHITE%7 %BLUE%Sec}
+ItemDisplay[gprs]: %NAME%{%WHITE%Boots: %GREEN%5 %WHITE%Belt: %GREEN%7 %WHITE%Weapon: %GREEN%9%NL%%WHITE%Chest: %GREEN%10 %WHITE%Shield: %GREEN%6 %WHITE%Gloves: %GREEN%4%NL%%WHITE%Amulet: %GREEN%11 %WHITE%Ring: %GREEN%12 %WHITE%Helm: %GREEN%8%NL%%RED%Blood %WHITE%Crafting Recipes: %RED%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %WHITE%40% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%15-20 %BLUE%Fire Dmg}
+ItemDisplay[gpbs]: %NAME%{%WHITE%Boots: %GREEN%8 %WHITE%Belt: %GREEN%7 %WHITE%Weapon: %GREEN%3%NL%%WHITE%Chest: %GREEN%4 %WHITE%Shield: %GREEN%5 %WHITE%Gloves: %GREEN%9%NL%%WHITE%Amulet: %GREEN%10 %WHITE%Ring: %GREEN%11 %WHITE%Helm: %GREEN%6%NL%%BLUE%Hitpower %WHITE%Crafting Recipes: %BLUE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %WHITE%40% %BLUE%Cold Res%NL%%TAN%Armor/Helm: %WHITE%+38 %BLUE%to Mana%NL%%TAN%Weapon: %WHITE%10-14 %BLUE%Cold Dmg}
+ItemDisplay[gpys]: %NAME%{%WHITE%Boots: %GREEN%16 %WHITE%Belt: %GREEN%1 %WHITE%Weapon: %GREEN%13%NL%%WHITE%Chest: %GREEN%2 %WHITE%Shield: %GREEN%14 %WHITE%Gloves: %GREEN%15%NL%%WHITE%Amulet: %GREEN%18 %WHITE%Ring: %GREEN%17 %WHITE%Helm: %GREEN%3%NL%%YELLOW%Bountiful %WHITE%Crafting Recipes: %YELLOW%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %WHITE%40% %BLUE%Light Res%NL%%TAN%Armor/Helm: %WHITE%24% %BLUE%MF%NL%%TAN%Weapon: %WHITE%1-40 %BLUE%Light Dmg}
+ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %GREEN%1 %WHITE%Belt: %GREEN%2 %WHITE%Weapon: %GREEN%13%NL%%WHITE%Chest: %GREEN%3 %WHITE%Shield: %GREEN%12 %WHITE%Gloves: %GREEN%16%NL%%WHITE%Amulet: %GREEN%14 %WHITE%Ring: %GREEN%15 %WHITE%Helm: %GREEN%17%NL%%GRAY%Vampiric %WHITE%Crafting Recipes: %GRAY%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%%NL%Shield: %BLUE%ATD %WHITE%+20%NL%%TAN%Armor/Helm: %BLUE%Rep Life %WHITE%5, %BLUE%Reg Mana %WHITE%19%%NL%%TAN%Weapon: %WHITE%4% %BLUE%Life, %WHITE%3% %BLUE%Mana}
 ItemDisplay[(gzv OR gly OR glb OR glg OR glr OR glw OR skl OR gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz)]: %NAME%
 // RUNES
 ItemDisplay[RUNE>0]: %RUNENAME% Rune %GREEN%%RUNENUM%%CONTINUE%
@@ -1420,23 +1420,23 @@ ItemDisplay[cwss]: %MAP-0A%%PURPLE%+   %RED%Tainted Worldstone Shard %TAN%x%WHIT
 ItemDisplay[rtp]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%GOLD%{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%GOLD%{%WHITE%Gives You Infinite %RED%IDs}
 // PROJECT DIABLO 2 ITEMS
-ItemDisplay[wss]: %MAP-0A%%Coral%+   %RED%Worldstone Shard %TAN%x%WHITE%%QTY%   %Coral%+{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Arm: %TAN%(%WHITE%1-3%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-4%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%1-6%TAN%)%NL%%WHITE%Possible Corruptions:}
-ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %GOLD%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
-ItemDisplay[lpp]: %MAP-0A%%RED%+   %GOLD%Larzuk's Bermuda Piece %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Arm: %TAN%(%WHITE%1-2%TAN%) %WHITE%1h Wea: %TAN%(%WHITE%1-2%TAN%) %WHITE%2h Wea: %TAN%(%WHITE%2-4%TAN%)%NL%%WHITE%Possible Sockets:}
-ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: %TAN%(%WHITE%1%TAN%)%NL%%WHITE%Possible Sockets:}
-ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GRAY%[%GOLD%O%GRAY%] %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}
-ItemDisplay[imma]: {%WHITE%Cube: %TAN%(%WHITE%Arcane Orb, %GOLD%O%TAN%)%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
-ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Zakarum Orb, %GOLD%O, %GREEN%10+%TAN%)%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[rera]: %MAP-68%%WHITE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Horadrim Orb, %WHITE%P-%ORANGE%Gem, %GREEN%10+%TAN%)%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Maps, %WHITE%Orb%TAN%)%NL%%WHITE%Downgrade %PURPLE%Maps %WHITE%to White}
-ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%Angelic Orb, %GRAY%O, %GREEN%10+%TAN%)%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %TAN%(%WHITE%3x %PURPLE%Maps %WHITE%Same %GRAY%[%TAN%T%GRAY%], %WHITE%Orb%TAN%)%NL%%WHITE%Upgrade a %PURPLE%Map %GRAY%[%TAN%T%GRAY%]}
-ItemDisplay[irma]: %MAP-68%%GOLD%Infused Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %TAN%(%GOLD%Infused Arcane Orb, %PURPLE%Map%TAN%)%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
-ItemDisplay[irra]: %MAP-68%%GOLD%Infused Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %TAN%(%GOLD%Infused Zakarum Orb, %PURPLE%Map%TAN%)%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadric Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %TAN%(%GOLD%Infused Horadric Orb, %PURPLE%Map%TAN%)%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %TAN%(%GOLD%Infused Angelic Orb, %PURPLE%Map%TAN%)%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[wss]: %MAP-0A%%Coral%+   %RED%Worldstone Shard %TAN%x%WHITE%%QTY%   %Coral%+{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Armor: 1-3, 1h Weapon: 1-4, 2h Weapon: 1-6%NL%%WHITE%Possible Corruptions:}
+ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %GOLD%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}
+ItemDisplay[lpp]: %MAP-0A%%RED%+   %GOLD%Larzuk's Bermuda Piece %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}
+ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: 1%NL%%WHITE%Possible Sockets:}
+ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GOLD%O %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}
+ItemDisplay[imma]: {%WHITE%Cube: Arcane Orb, %GOLD%O%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
+ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Zakarum Orb, %GOLD%O, %GREEN%10+%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[rera]: %MAP-68%%WHITE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Horadrim Orb, %WHITE%P-%ORANGE%Gem, %GREEN%10+%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Maps, %WHITE%Orb%NL%%WHITE%Downgrade %PURPLE%Maps %WHITE%to White}
+ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Angelic Orb, %GRAY%O, %GREEN%10+%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%3x %PURPLE%Maps %WHITE%Same %GRAY%[%TAN%T%GRAY%], %WHITE%Orb%NL%%WHITE%Upgrade a %PURPLE%Map %GRAY%[%TAN%T%GRAY%]}
+ItemDisplay[irma]: %MAP-68%%GOLD%Infused Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Arcane Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
+ItemDisplay[irra]: %MAP-68%%GOLD%Infused Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Zakarum Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadric Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Horadric Orb, %PURPLE%Map%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Angelic Orb, %PURPLE%Map%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
-ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%+   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %TAN%(%GRAY%[%RED%T3%GRAY%], %GOLD%HLM%TAN%)%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
+ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%+   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %GRAY%[%RED%T3%GRAY%], %GOLD%HLM%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
 ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Vial of Lightsong  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Lilith's Mirror  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %ORANGE%Skeleton Key     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%(Unlimited Use)%NL%%TAN%Drops From: %RED%Anywhere}
@@ -1473,17 +1473,17 @@ ItemDisplay[t53]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:75 %BLUE%C:65 %
 // GOOD STAT/MOB'S ON MAP'S
 ItemDisplay[STAT372>0]: %NAME%{%Teal%%STAT372%% Dens%NL%%NAME%}%CONTINUE%
 ItemDisplay[(STAT452>0 OR STAT457>0 OR STAT494>0 OR STAT495>0 OR STAT496>0 OR STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %NAME%{%NL%%NAME%}%CONTINUE%
-ItemDisplay[STAT452>0]: %NAME%{%STAT452%%Ias/Fcr%NAME%}%CONTINUE%
+ItemDisplay[STAT452>0]: %NAME%{%STAT452%% Ias/Fcr%NAME%}%CONTINUE%
 ItemDisplay[STAT452>0 (STAT457>0 OR STAT494>0 OR STAT495>0 OR STAT496>0 OR STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
-ItemDisplay[STAT457>0]: %NAME%{%STAT457%%Velocity%NAME%}%CONTINUE%
+ItemDisplay[STAT457>0]: %NAME%{%STAT457%% Velocity%NAME%}%CONTINUE%
 ItemDisplay[STAT457>0 (STAT494>0 OR STAT495>0 OR STAT496>0 OR STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
-ItemDisplay[STAT494>0]: %NAME%{%STAT494%%Jewel%NAME%}%CONTINUE%
+ItemDisplay[STAT494>0]: %NAME%{%STAT494%% Jewel%NAME%}%CONTINUE%
 ItemDisplay[STAT494>0 (STAT495>0 OR STAT496>0 OR STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
-ItemDisplay[STAT495>0]: %NAME%{%STAT495%%Weapon%NAME%}%CONTINUE%
+ItemDisplay[STAT495>0]: %NAME%{%STAT495%% Weapon%NAME%}%CONTINUE%
 ItemDisplay[STAT495>0 (STAT496>0 OR STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
-ItemDisplay[STAT496>0]: %NAME%{%STAT496%%Armor%NAME%}%CONTINUE%
+ItemDisplay[STAT496>0]: %NAME%{%STAT496%% Armor%NAME%}%CONTINUE%
 ItemDisplay[STAT496>0 (STAT502>0 OR STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
-ItemDisplay[STAT502>0]: %NAME%{%STAT502%%Charm%NAME%}%CONTINUE%
+ItemDisplay[STAT502>0]: %NAME%{%STAT502%% Charm%NAME%}%CONTINUE%
 ItemDisplay[STAT502>0 (STAT498>0 OR STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
 ItemDisplay[STAT498>0]: %NAME%{Boss%NAME%}%CONTINUE%
 ItemDisplay[STAT498>0 (STAT440>0 OR STAT442>0 OR STAT471>0)]: %CONTINUE% %NAME%{, %NAME%}
@@ -4929,6 +4929,7 @@ ItemDisplay[leg]: %NAME%{%NAME%}
 // HELMET'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH ED>9 (usk OR uh9 OR xhm OR ci3)]: %PX-21%%DOT-D6%%NAME% %BLUE%+{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH (usk OR uh9 OR xhm OR ci3)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH (usk OR uh9 OR ci3 OR uhm OR urn)]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (usk OR uh9 OR ci3 OR uhm OR urn)]: %PX-21%%DOT-D6%%NAME% %BLUE%+{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU (SK221=3 OR SK222=3 OR SK223=3 OR SK224=3 OR SK225=3 OR SK226=3 OR SK227=3 OR SK228=3 OR SK229=3 OR SK230=3 OR SK231=3 OR SK232=3 OR SK233=3 OR SK234=3 OR SK235=3 OR SK236=3 OR SK237=3 OR SK238=3 OR SK239=3 OR SK240=3 OR SK241=3 OR SK242=3 OR SK243=3 OR SK244=3 OR SK245=3 OR SK246=3 OR SK247=3 OR SK248=3 OR SK249=3 OR SK250=3 OR SK370=3)]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW BAR (SK126=3 OR SK128=3 OR SK133=3 OR SK134=3 OR SK135=3 OR SK137=3 OR SK139=3 OR SK140=3 OR SK142=3 OR SK143=3 OR SK144=3 OR SK146=3 OR SK147=3 OR SK149=3 OR SK150=3 OR SK151=3 OR SK152=3 OR SK154=3 OR SK155=3)]: %NAME%{%NAME%}
@@ -5027,7 +5028,7 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW SIN !(ktr OR wrb OR axf OR ces) (SK
 // SORCERESS ORB'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW (ob5 OR oba OR obf) (SK36=3 OR SK38=3 OR SK39=3 OR SK40=3 OR SK41=3 OR SK43=3 OR SK44=3 OR SK45=3 OR SK46=3 OR SK47=3 OR SK48=3 OR SK49=3 OR SK50=3 OR SK51=3 OR SK52=3 OR SK53=3 OR SK55=3 OR SK56=3 OR SK57=3 OR SK58=3 OR SK59=3 OR SK60=3 OR SK61=3 OR SK62=3 OR SK63=3 OR SK64=3 OR SK65=3 OR SK369=3 OR SK376=3 OR SK383=3)]: %NAME%{%NAME%}
 // GOLD BASE'S (NMAG)
-ItemDisplay[NMAG DIFF=2 !RW (WEAPON OR DRU OR BAR OR NEC) !(wst OR 8ws OR 6ws OR wsp OR 9ws OR 7ws) PRICE>34999]: %Dark_Green%+%White%$%Dark_Green%+{%NAME%}
+ItemDisplay[NMAG DIFF=2 !RW (WEAPON OR DRU OR BAR OR NEC) !(wst OR 8ws OR 6ws OR wsp OR 9ws OR 7ws) PRICE>34999]: %Orange%+%White%${%NAME%}
 
 
 
