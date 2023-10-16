@@ -1646,6 +1646,7 @@ ItemDisplay[RARE !ID !ETH !ZON (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR
 ItemDisplay[(MAG OR RARE) !ID ETH !ZON (GLOVES OR BELT OR axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR crs OR 9cr OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7 OR THROWING)]: %ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[(MAG OR RARE) !ID !ETH (tax OR 9ta OR 7ta)]: %NAME%
 ItemDisplay[(MAG OR RARE) !ID (dir OR 9di OR 7di)]: %NAME%
+ItemDisplay[FILTLVL<2 MAG !ID aqv]: %NAME%
 ItemDisplay[FILTLVL<2 MAG !ID !ETH ((7ax OR 72a OR 7wa OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR 7wh OR 7m7 OR 7gm OR 7cr OR 7bs OR 7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) OR (EXC CHEST))]: %NAME%
 
 // AMULET'S CRAFTING (CLVL)
