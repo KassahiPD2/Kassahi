@@ -2564,7 +2564,9 @@ ItemDisplay[NMAG !ID SHOP gwn]: %NAME%%NL%%NL%%GOLD%Death's Web%NL%Blackhand Key
 
 // HIGHLIGHTING JEWEL'S (GG'S)
 ItemDisplay[MAG (ED>29 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED>29 (MAXDMG>7 OR MINDMG>7) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min-Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[MAG ED>29 (MAXDMG>7 MINDMG>7) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min-Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[MAG ED>29 MINDMG>9 jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[MAG ED>29 MAXDMG>9 jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG ED=40 jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG MAXDMG>21 jew]: %DOT-0A%%ORANGE%[%GREEN%High Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG MINDMG>17 jew]: %DOT-0A%%ORANGE%[%GREEN%High Min Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
