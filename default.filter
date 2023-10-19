@@ -1390,13 +1390,13 @@ ItemDisplay[bet]: %DOT-0A%%RED%%NAME% %TAN%x%WHITE%%QTY%%RED%{%TAN%Cube: %WHITE%
 ItemDisplay[fed]: %DOT-0A%%GREEN%%NAME% %TAN%x%WHITE%%QTY%%GREEN%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Baal}
 ItemDisplay[toa]: %MAP-0A%%ORANGE%Token of Absolution{%GOLD%Right click to Respec%NL%%NL%%TAN%Wherever You Are is The Entry Point.}
 // MINI UBER KEYS
-ItemDisplay[pk1]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Countess%WHITE%/%RED%Blood Raven}
-ItemDisplay[pk2]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Summoner%WHITE%/%RED%Bloodwitch the Wild}
-ItemDisplay[pk3]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Nihlathak%WHITE%/%RED%Izual}
+ItemDisplay[pk1]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Countess%WHITE%/%RED%Blood Raven}
+ItemDisplay[pk2]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Summoner%WHITE%/%RED%Bloodwitch the Wild}
+ItemDisplay[pk3]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%TAN%Cube: %WHITE%1 of Each %ORANGE%Keys %WHITE%to Open %ORANGE%Mini Ubers%NL%%TAN%Drops From: %RED%Hell Nihlathak%WHITE%/%RED%Izual}
 // ORGAN & UBER ITEMS
-ItemDisplay[mbr]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Izual %GRAY%(%RED%Mini Uber%GRAY%)}
-ItemDisplay[dhn]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Lilith %GRAY%(%RED%Mini Uber%GRAY%)}
-ItemDisplay[bey]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE%{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Duriel %GRAY%(%RED%Mini Uber%GRAY%)}
+ItemDisplay[mbr]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Izual %GRAY%(%RED%Mini Uber%GRAY%)}
+ItemDisplay[dhn]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Lilith %GRAY%(%RED%Mini Uber%GRAY%)}
+ItemDisplay[bey]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%+{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Duriel %GRAY%(%RED%Mini Uber%GRAY%)}
 ItemDisplay[ubtm]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Tristram%NL%%WHITE%Use at The %RED%Blood Fountain}
 ItemDisplay[std]: %DOT-0A%%ORANGE%Standard of Po-Tay-Toes %TAN%x%WHITE%%QTY%{%GRAY%(%WHITE%+20% %BLUE%Dens%WHITE%/%BLUE%MF%WHITE%/%BLUE%GF, %WHITE%+10%%BLUE% Exp%GRAY%)%NL%%TAN%Cube: %WHITE%Any %PURPLE%Map, %ORANGE%Standard %WHITE%to Gain%NL%%TAN%Drops From: %RED%Hell Ubers}
 ItemDisplay[UNI cm2]: %NAME%%CONTINUE%{%WHITE%Make Hellfire Ashes%NL%%TAN%Cube: %WHITE%Torch, Key, to}
@@ -1408,7 +1408,7 @@ ItemDisplay[uba]: %MAP-0A%%GRAY%+%RED%+   %ORANGE%Relic of The Ancients   %RED%+
 // DCLONE ITEMS
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
 ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
-ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
+ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%+   %Orange%Pure Demon Dust %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 2: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 1: Cube (Vex-sur) Increase Dclone's Difficulty (Can Drop Items)%NL%%WHITE%Tier 0: No Dclone Items Will Drop}
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Undead Enemies}
