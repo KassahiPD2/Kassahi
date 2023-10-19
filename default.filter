@@ -1408,7 +1408,7 @@ ItemDisplay[uba]: %MAP-0A%%GRAY%+%RED%+   %ORANGE%Relic of The Ancients   %RED%+
 // DCLONE ITEMS
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
 ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
-ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%+   %Orange%Pure Demon Dust %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
+ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%+   %Orange%Pure Daemoth Dust %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 2: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 1: Cube (Vex-sur) Increase Dclone's Difficulty (Can Drop Items)%NL%%WHITE%Tier 0: No Dclone Items Will Drop}
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Undead Enemies}
