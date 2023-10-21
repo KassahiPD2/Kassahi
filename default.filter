@@ -1859,8 +1859,6 @@ ItemDisplay[leg !RW]: %NAME%{%GRAY%(Wirt's Leg Can Be Used in All difficulties)%
 ItemDisplay[RARE !ETH ci3]: %NAME%{%WHITE%Tip: %WHITE%6x %GRAY%O, %WHITE%to Reroll 2/20s infinitely%NL%%NAME%}%CONTINUE%
 // GRAND CHARM'S HIGH-LVL
 ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%91+{%WHITE%Cube: %PURPLE%Charm, %WHITE%3x %WHITE%P-%ORANGE%Gems, %WHITE%to Reroll}%CONTINUE%
-// JEWEL'S
-ItemDisplay[(MAG OR RARE) jew]: %NAME%{%GRAY%(You Will Lose The Stats)%NL%%WHITE%Cube: %WHITE%1-15 Jewels, %GRAY%Key %WHITE%= %GOLD%O}%CONTINUE%
 
 // ARMOR'S UPGRADING RECIPE
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR !GLOVES !BELT !BOOTS]: %NAME%{%NAME%%NL%%WHITE%Up: %GREEN%8, 10, %PURPLE%O}%CONTINUE%
@@ -2561,6 +2559,12 @@ ItemDisplay[NMAG !ID SHOP gwn]: %NAME%%NL%%NL%%GOLD%Death's Web%NL%Blackhand Key
 
 
 
+
+// MIRRORED ITEM'S
+ItemDisplay[STAT477=4 (ARMOR OR WEAPON)]: %DOT-0A%%MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%Black%White%]{%Purple%+++%White%+++ %Orange%Black %White%+++%Purple%+++%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT477=21 (ARMOR OR WEAPON)]: %DOT-0A%%MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%White%White%]{%Purple%+++%White%+++ %Orange%White %White%+++%Purple%+++%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT477=4 jew]: %MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%Black%White%]{%Purple%+++%White%+++ %Orange%Black %White%+++%Purple%+++}%CONTINUE%
+ItemDisplay[STAT477=21 jew]: %MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%White%White%]{%Purple%+++%White%+++ %Orange%White %White%+++%Purple%+++}%CONTINUE%
 
 // HIGHLIGHTING JEWEL'S (GG'S)
 ItemDisplay[MAG (ED>29 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
