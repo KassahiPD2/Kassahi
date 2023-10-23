@@ -1524,53 +1524,51 @@ ItemDisplay[(((STAT434>0 STAT432>0 STAT433>0) OR (STAT434>0 STAT432>0 STAT435>0)
 // DUEL ARENAS (INFO)
 ItemDisplay[NMAG (t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED%HC %WHITE%Can PVP in Duel Arenas}%CONTINUE%
 // MAP'S NAME
-ItemDisplay[t11]: Ruins of Viz-Jun{%NAME%}%CONTINUE%
-ItemDisplay[t12]: Horazon's Memory{%NAME%}%CONTINUE%
-ItemDisplay[t13]: Bastion Keep{%NAME%}%CONTINUE%
-ItemDisplay[t14]: Sanatorium{%NAME%}%CONTINUE%
-ItemDisplay[t15]: Royal Crypts{%NAME%}%CONTINUE%
-ItemDisplay[t16]: Ruined Cistern{%NAME%}%CONTINUE%
-ItemDisplay[t21]: Phlegethon{%NAME%}%CONTINUE%
-ItemDisplay[t22]: Torajan Jungle{%NAME%}%CONTINUE%
-ItemDisplay[t23]: Arreat Battlefield{%NAME%}%CONTINUE%
-ItemDisplay[t24]: Tomb of Zoltun Kulle{%NAME%}%CONTINUE%
-ItemDisplay[t25]: Sewers of Harrogath{%NAME%}%CONTINUE%
-ItemDisplay[t26]: Shadows of Westmarch{%NAME%}%CONTINUE%
-ItemDisplay[t31]: River of Blood{%NAME%}%CONTINUE%
-ItemDisplay[t32]: Throne of Insanity{%NAME%}%CONTINUE%
-ItemDisplay[t33]: Lost Temple{%NAME%}%CONTINUE%
-ItemDisplay[t34]: Ancestral Trial{%NAME%}%CONTINUE%
-ItemDisplay[t35]: Blood Moon{%NAME%}%CONTINUE%
-ItemDisplay[t36]: Fall of Caldeum{%NAME%}%CONTINUE%
-ItemDisplay[t37]: Pandemonium Citadel{%NAME%}%CONTINUE%
-ItemDisplay[t38]: Canyon of Sescheron{%NAME%}%CONTINUE%
-ItemDisplay[t39]: Kehjistan Marketplace{%NAME%}%CONTINUE%
-ItemDisplay[t3a]: Ashen Plains{%NAME%}%CONTINUE%
-ItemDisplay[t41]: Cathedral of Light{%NAME%}%CONTINUE%
-ItemDisplay[t42]: Plains of Torment{%NAME%}%CONTINUE%
-ItemDisplay[t43]: Sanctuary of Sin{%NAME%}%CONTINUE%
-ItemDisplay[t51]: Zhar's Sanctum{%NAME%}%CONTINUE%
-ItemDisplay[t52]: Warlord of Blood{%NAME%}%CONTINUE%
-ItemDisplay[t53]: Fallen Gardens{%NAME%}%CONTINUE%
+ItemDisplay[t11]: Ruins of Viz-Jun Map{%NAME%}%CONTINUE%
+ItemDisplay[t12]: Horazon's Memory Map{%NAME%}%CONTINUE%
+ItemDisplay[t13]: Bastion Keep Map{%NAME%}%CONTINUE%
+ItemDisplay[t14]: Sanatorium Map{%NAME%}%CONTINUE%
+ItemDisplay[t15]: Royal Crypts Map{%NAME%}%CONTINUE%
+ItemDisplay[t16]: Ruined Cistern Map{%NAME%}%CONTINUE%
+ItemDisplay[t21]: Phlegethon Map{%NAME%}%CONTINUE%
+ItemDisplay[t22]: Torajan Jungle Map{%NAME%}%CONTINUE%
+ItemDisplay[t23]: Arreat Battlefield Map{%NAME%}%CONTINUE%
+ItemDisplay[t24]: Tomb of Zoltun Kulle Map{%NAME%}%CONTINUE%
+ItemDisplay[t25]: Sewers of Harrogath Map{%NAME%}%CONTINUE%
+ItemDisplay[t26]: Shadows of Westmarch Map{%NAME%}%CONTINUE%
+ItemDisplay[t31]: River of Blood Map{%NAME%}%CONTINUE%
+ItemDisplay[t32]: Throne of Insanity Map{%NAME%}%CONTINUE%
+ItemDisplay[t33]: Lost Temple Map{%NAME%}%CONTINUE%
+ItemDisplay[t34]: Ancestral Trial Map{%NAME%}%CONTINUE%
+ItemDisplay[t35]: Blood Moon Map{%NAME%}%CONTINUE%
+ItemDisplay[t36]: Fall of Caldeum Map{%NAME%}%CONTINUE%
+ItemDisplay[t37]: Pandemonium Citadel Map{%NAME%}%CONTINUE%
+ItemDisplay[t38]: Canyon of Sescheron Map{%NAME%}%CONTINUE%
+ItemDisplay[t39]: Kehjistan Marketplace Map{%NAME%}%CONTINUE%
+ItemDisplay[t3a]: Ashen Plains Map{%NAME%}%CONTINUE%
+ItemDisplay[t41]: Cathedral of Light Dungeon{%NAME%}%CONTINUE%
+ItemDisplay[t42]: Plains of Torment Dungeon{%NAME%}%CONTINUE%
+ItemDisplay[t43]: Sanctuary of Sin Dungeon{%NAME%}%CONTINUE%
+ItemDisplay[t51]: Zhar's Sanctum Map{%NAME%}%CONTINUE%
+ItemDisplay[t52]: Warlord of Blood Map{%NAME%}%CONTINUE%
+ItemDisplay[t53]: Fallen Gardens Map{%NAME%}%CONTINUE%
 // DUEL ARENAS
-ItemDisplay[t61]: Desert Duel{%NAME%}%CONTINUE%
-ItemDisplay[t62]: Moor Duel{%NAME%}%CONTINUE%
+ItemDisplay[t61]: Desert Duel Arena{%NAME%}%CONTINUE%
+ItemDisplay[t62]: Moor Duel Arena{%NAME%}%CONTINUE%
 // COLORS FOR MAPS
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69 OR t3a)]: %WHITE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69 OR t3a)]: %BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69 OR t3a)]: %YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI (t51 OR t52 OR t53)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 // TIERS FOR MAPS
-ItemDisplay[NMAG (t22 OR t12 OR t13 OR t23 OR t21 OR t16 OR t33)]: %MAP-80%%GRAY%[%ORANGE%T1%GRAY%] %NAME% Map %TAN%x%WHITE%%QTY% %ORANGE%+{%NAME%}
-ItemDisplay[NMAG (t15 OR t11 OR t14 OR t34 OR t36 OR t26)]: %MAP-80%%GRAY%[%ORANGE%T2%GRAY%] %NAME% Map %TAN%x%WHITE%%QTY% %ORANGE%+{%NAME%}
-ItemDisplay[NMAG (t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-80%%GRAY%[%ORANGE%T3%GRAY%] %NAME% Map %TAN%x%WHITE%%QTY% %ORANGE%+{%NAME%}
-ItemDisplay[(MAG OR RARE) (t22 OR t12 OR t13 OR t23 OR t21 OR t16 OR t33)]: %MAP-80%%GRAY%[%ORANGE%T1%GRAY%] %NAME% Map %ORANGE%+{%NAME%}
-ItemDisplay[(MAG OR RARE) (t15 OR t11 OR t14 OR t34 OR t36 OR t26)]: %MAP-80%%GRAY%[%ORANGE%T2%GRAY%] %NAME% Map %ORANGE%+{%NAME%}
-ItemDisplay[(MAG OR RARE) (t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-80%%GRAY%[%ORANGE%T3%GRAY%] %NAME% Map %ORANGE%+{%NAME%}
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%GRAY%[%ORANGE%T4%GRAY%] %NAME% Dungeon %ORANGE%+{%NAME%}
-ItemDisplay[t53]: %MAP-80%%GRAY%[%RED%T2%GRAY%] %NAME% Map %RED%+{%NAME%}
-ItemDisplay[(t51 OR t52)]: %MAP-80%%GRAY%[%RED%T3%GRAY%] %NAME% Map %RED%+{%NAME%}
-ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %DOT-80%%NAME% Arena %TAN%+{%NAME%}
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a)]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+ItemDisplay[(t22 OR t12 OR t13 OR t23 OR t21 OR t16 OR t33)]: %MAP-80%%ORANGE%T1 %NAME% %ORANGE%+{%NAME%}
+ItemDisplay[(t15 OR t11 OR t14 OR t34 OR t36 OR t26)]: %MAP-80%%ORANGE%T2 %NAME% %ORANGE%+{%NAME%}
+ItemDisplay[(t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-80%%ORANGE%T3 %NAME% %ORANGE%+{%NAME%}
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%+{%NAME%}
+ItemDisplay[t53]: %MAP-80%%RED%T2 %NAME% %RED%+{%NAME%}
+ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%T3 %NAME% %RED%+{%NAME%}
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %DOT-80%%NAME% %TAN%+{%NAME%}
 
 
 
