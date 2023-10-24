@@ -2565,7 +2565,7 @@ ItemDisplay[STAT477=4 jew]: %MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%Black%Whit
 ItemDisplay[STAT477=21 jew]: %MAP-9B%%BORDER-1F%%NAME% %White%[%Orange%White%White%]{%Purple%+++%White%+++ %Orange%White %White%+++%Purple%+++}%CONTINUE%
 
 // HIGHLIGHTING JEWEL'S (GG'S)
-ItemDisplay[MAG (STAT501>99 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ow, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ow, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[MAG (STAT501>119 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ow, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ow, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG (ED>29 IAS>0) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Ias%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG ED>29 (MAXDMG>7 MINDMG>7) jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min-Max Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[MAG ED>29 MINDMG>9 jew]: %DOT-0A%%ORANGE%[%GREEN%High Ed, Min Dmg%ORANGE%]%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%High Ed, Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
