@@ -1160,10 +1160,81 @@ ItemDisplay[SUP WEAPON ED<1]: %RED%Sup %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[INF ID !(rin OR amu)]: %GRAY%Shit %NAME%{%NAME%}%CONTINUE%
 // ETHEREAL (ITEMS)
 ItemDisplay[ETH]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
-// SLAMMED (ITEMS)
-ItemDisplay[STAT360>0]: %NAME%%RED%*{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
+// SLAMMED (ITEMS)
+ItemDisplay[STAT360>0]: %NAME%%RED%{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=2]: %NAME% [Ed]{%NAME%}%CONTINUE%
+ItemDisplay[(STAT360=3 OR STAT360=18)]: %NAME% [Ar]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=4]: %NAME% [Lah]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=5]: %NAME% [Ar/Ed Dem]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=6]: %NAME% [-Req]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=7]: %NAME% [Mf]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=8]: %NAME% [Lpk]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=9]: %NAME% [Mpk]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=10]: %NAME% [Max Mana]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=12]: %NAME% [-Fres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=13]: %NAME% [-Lres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=14]: %NAME% [-Cres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=15]: %NAME% [-Pres]{%NAME%}%CONTINUE%
+ItemDisplay[(STAT360=16 OR STAT360=42)]: %NAME% [Fcr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=17]: %NAME% [Ll/Ed]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=19]: %NAME% [Ds]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=20]: %NAME% [Ias]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=21]: %NAME% [Cb]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=22]: %NAME% [Ias/Ed]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=23]: %NAME% [Ias/Cb]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=24]: %NAME% [Itd/Ed]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=25]: %NAME% [Ds/Ed]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=26]: %NAME% [Ar/Ed]{%NAME%}%CONTINUE%
+ItemDisplay[(STAT360=27 OR STAT360=50)]: %NAME% [All Sk]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=28]: %NAME% [Fm/Fcr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=29]: %NAME% [Cm/Fcr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=30]: %NAME% [Lm/Fcr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=31]: %NAME% [Pm/Fcr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=33]: %NAME% [Edef]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=34]: %NAME% [Rep Life]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=35]: %NAME% [Fhr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=35]: %NAME% [Fhr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=36]: %NAME% [Fres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=37]: %NAME% [Cres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=38]: %NAME% [Lres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=39]: %NAME% [Pres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=40]: %NAME% [Mrb]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=41]: %NAME% [Thorns]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=43]: %NAME% [Enh Life]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=44]: %NAME% [Frw]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=45]: %NAME% [Cbf]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=46]: %NAME% [Pdr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=47]: %NAME% [Mdr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=48]: %NAME% [Ind/Edef]{%NAME%}%CONTINUE%
+ItemDisplay[(STAT360=49 OR STAT360=62)]: %NAME% [Cur Res]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=51]: %NAME% [All Res]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=52]: %NAME% [Pdr%]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=53]: %NAME% [Max Fres/Fres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=54]: %NAME% [Max Cres/Cres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=55]: %NAME% [Max Lres/Lres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=56]: %NAME% [Max Pres/Pres]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=57]: %NAME% [Ll]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=58]: %NAME% [Ml]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=59]: %NAME% [Ar/Radius]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=60]: %NAME% [Gf]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=61]: %NAME% [Max Life]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=63]: %NAME% [Pie]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=64]: %NAME% [Fb]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=65]: %NAME% [All att]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=66]: %NAME% [-Td]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=66]: %NAME% [-Td]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=67]: %NAME% [Ibr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=68]: %NAME% [Str]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=69]: %NAME% [Dex]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=70]: %NAME% [Vit]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=71]: %NAME% [Ene]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=72]: %NAME% [Max All Res]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=73]: %NAME% [Fb/Ibr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=74]: %NAME% [Min Dmg]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=75]: %NAME% [Max Dmg]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360>0]: %NAME%*{%NAME%}%CONTINUE%
 
 
 
@@ -1212,7 +1283,7 @@ ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
-ItemDisplay[key SHOP]: {%RED%Good Luck Grinding%NL%%Orange%Note: This Does Not Include Specific Highlighted Bases%NL%no Longer Are Shown on Those Lvls%NL%i Have Done so a Lot of The +3 Bases%GREEN%%NL%Date 22/10/23, Filter Lvls 5 & 8 News:%NL%%NL%%NAME%}
+ItemDisplay[key SHOP]: {%RED%Good Luck Grinding%NL%%Orange%And The Qol Has Something to With Slammed Items ;P%NL%Rmoved +3 Amazon Bases From Lvl 5 & 8,%NL%%GREEN%Date 25/10/23, Small Filter Lvls 5 & 8 + a New Little Qol News:%NL%%NL%%NAME%}
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%F1
 ItemDisplay[tpfm CLVL<20]: %RED%+%WHITE%F2
@@ -5168,12 +5239,12 @@ ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH (amd OR ame) TABSK2=
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH ED>9 (amd OR ame) TABSK2=3]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (amd OR ame) TABSK2=3]: %NAME%{%NAME%}
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=8) NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (amd OR ame) TABSK2=3]: %NAME%{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=6) !INF !RW ETH ED>9 (amd OR ame) TABSK2=3]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=6) !INF !RW ETH (amd OR ame) TABSK2=3]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 // BOW'S/XBOW'S/AMAZON BOW'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW !ETH ED>9 ((6mx OR 6hx OR 6rx) OR ((amb OR amc) TABSK0=3))]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (amb OR amc) TABSK0=3]: %NAME%{%NAME%}
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=8)NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (amb OR amc) TABSK0=3]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW !ETH (6mx OR 6hx OR 6rx)]: %NAME%{%NAME%}
 // STAFF'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=2 OR SOCK=4 OR SOCK=6) !INF !RW ETH ED>9 (6ls OR 6ws)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
