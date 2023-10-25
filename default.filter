@@ -1221,7 +1221,7 @@ ItemDisplay[STAT360=59]: %NAME% [Ar/Radius]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=60]: %NAME% [Gf]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=61]: %NAME% [Max Life]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=63]: %NAME% [Pie]{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=64]: %NAME% [Fb]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=64]: %NAME% [Fbr]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=65]: %NAME% [All att]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=66]: %NAME% [-Td]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=66]: %NAME% [-Td]{%NAME%}%CONTINUE%
@@ -1231,7 +1231,7 @@ ItemDisplay[STAT360=69]: %NAME% [Dex]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=70]: %NAME% [Vit]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=71]: %NAME% [Ene]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=72]: %NAME% [Max All Res]{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=73]: %NAME% [Fb/Ibr]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=73]: %NAME% [Fbr/Ibr]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=74]: %NAME% [Min Dmg]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=75]: %NAME% [Max Dmg]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360>0]: %NAME%*{%NAME%}%CONTINUE%
