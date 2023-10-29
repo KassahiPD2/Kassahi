@@ -1195,7 +1195,6 @@ ItemDisplay[STAT360=31]: %NAME% [Pm/Fcr]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=33]: %NAME% [Edef]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=34]: %NAME% [Rep Life]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=35]: %NAME% [Fhr]{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=35]: %NAME% [Fhr]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=36]: %NAME% [Fres]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=37]: %NAME% [Cres]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=38]: %NAME% [Lres]{%NAME%}%CONTINUE%
@@ -1219,7 +1218,7 @@ ItemDisplay[STAT360=57]: %NAME% [Ll]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=58]: %NAME% [Ml]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=59]: %NAME% [Ar/Rad]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=60]: %NAME% [Gf]{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=61]: %NAME% [Max Life]{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=61]: %NAME% [Life]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=63]: %NAME% [Pie]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=64]: %NAME% [Fbr]{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=65]: %NAME% [All Att]{%NAME%}%CONTINUE%
@@ -1489,8 +1488,8 @@ ItemDisplay[cm2f]: %PX-60%%MAP-0A%%RED%+   %ORANGE%Bonfire Lit %TAN%x%WHITE%%QTY
 ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtma]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 2: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 1: Cube (Vex-sur) Increase Rathma's Difficulty (Can Drop Items)%NL%%WHITE%Tier 0: No Rathma Items Will Drop}
 ItemDisplay[cwss]: %MAP-0A%%PURPLE%+   %RED%Tainted Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%+{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
-ItemDisplay[rtp]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%GOLD%{%WHITE%Gives You Infinite %BLUE%TPs}
-ItemDisplay[rid]: %MAP-0A%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+%GOLD%{%WHITE%Gives You Infinite %RED%IDs}
+ItemDisplay[rtp]: %MAP-0A%%Teal%+%Blue%+%White%+   %NAME%   %White%+%Blue%+%Teal%+%GOLD%{%WHITE%Gives You Infinite %BLUE%TPs}
+ItemDisplay[rid]: %MAP-0A%%Coral%+%Red%+%White%+   %NAME%   %White%+%Red%+%Coral%+{%WHITE%Gives You Infinite %RED%IDs}
 // PROJECT DIABLO 2 ITEMS
 ItemDisplay[wss]: %MAP-0A%%Coral%+   %RED%Worldstone Shard %TAN%x%WHITE%%QTY%   %Coral%+{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Armor: 1-3, 1h Weapon: 1-4, 2h Weapon: 1-6%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %GOLD%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}
@@ -1509,8 +1508,8 @@ ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadric Orb %TAN%x%WHITE%%QTY%%ORANGE%
 ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Angelic Orb, %PURPLE%Map%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
 ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%+   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %GRAY%[%RED%T3%GRAY%], %GOLD%HLM%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
-ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Vial of Lightsong  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Lilith's Mirror  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%Red%++++++%White%++++++  %ORANGE%Vial of Lightsong  %White%++++++%Red%++++++{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%Purple%++++++%White%++++++  %ORANGE%Lilith's Mirror  %White%++++++%Purple%++++++{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %ORANGE%Skeleton Key     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%(Unlimited Use)%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[iwss]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%TAN%Ads: %WHITE%Area Contains a Random Event to Maps%NL%%TAN%Drops From: %RED%An Altar of the Catalyst Event}
 // MAP RES/IMMUNES
@@ -1655,7 +1654,7 @@ ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)
 // UNIQUE DROPS (CHARMS)
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%+%RED%+   %NAME%   %RED%+%GRAY%+
 // UNIQUE DROPS (RAINBOW FACET)
-ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%RED%R%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w     %NAME%     %PURPLE%R%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w
+ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // UNIQUE DROPS (RING)
 ItemDisplay[UNI !ID !ETH rin]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // UNIQUE DROPS (DCLONE & RATHMA)
