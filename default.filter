@@ -3184,9 +3184,9 @@ ItemDisplay[MAG SHOP ((CLSK6=2 SK279>0) OR (CLSK6=1 SK279>1) OR (TABSK49=2 SK279
 ItemDisplay[MAG SHOP ((CLSK6=2 SK280>0) OR (CLSK6=1 SK280>1) OR (TABSK50=2 SK280>0) OR (TABSK50=1 SK280>1) OR (SK280=3) OR (CLSK6>0 SK280>0 (IAS>19)) OR (TABSK50>0 SK280>0 (IAS>19)) OR (SK280>1 IAS>19))]: %NAME%{%Orange%+++%Red%+++ %Green%Phoenix Strike %Red%+++%Orange%+++%NL%%NAME%}%CONTINUE%
 ItemDisplay[MAG SHOP ((CLSK6=2 SK366>0) OR (CLSK6=1 SK366>1) OR (TABSK48=2 SK366>0) OR (TABSK48=1 SK366>1) OR (SK366=3) OR (CLSK6>0 SK366>0 (IAS>19)) OR (TABSK48>0 SK366>0 (IAS>19)) OR (SK366>1 IAS>19))]: %NAME%{%Orange%+++%Red%+++ %Green%Lightning Sentry %Red%+++%Orange%+++%NL%%NAME%}
 ItemDisplay[MAG SHOP (CLSK6=2 IAS>19)]: %NAME%{%Orange%+++%Red%+++ %Green%Sin, Ias %Red%+++%Orange%+++%NL%%NAME%}
-ItemDisplay[MAG SHOP ((TABSK48=3) OR (TABSK48>1 IAS>19)))]: %NAME%{%Orange%+++%Red%+++ %Green%Traps %Red%+++%Orange%+++%NL%%NAME%}
-ItemDisplay[MAG SHOP ((TABSK49=3) OR (TABSK48>1 IAS>19)))]: %NAME%{%Orange%+++%Red%+++ %Green%Shadow %Red%+++%Orange%+++%NL%%NAME%}
-ItemDisplay[MAG SHOP ((TABSK50=3) OR (TABSK48>1 IAS>19)))]: %NAME%{%Orange%+++%Red%+++ %Green%Martial Arts %Red%+++%Orange%+++%NL%%NAME%}
+ItemDisplay[MAG SHOP ((TABSK48=3) OR (TABSK48>1 IAS>19))]: %NAME%{%Orange%+++%Red%+++ %Green%Traps %Red%+++%Orange%+++%NL%%NAME%}
+ItemDisplay[MAG SHOP ((TABSK49=3) OR (TABSK48>1 IAS>19))]: %NAME%{%Orange%+++%Red%+++ %Green%Shadow %Red%+++%Orange%+++%NL%%NAME%}
+ItemDisplay[MAG SHOP ((TABSK50=3) OR (TABSK48>1 IAS>19))]: %NAME%{%Orange%+++%Red%+++ %Green%Martial Arts %Red%+++%Orange%+++%NL%%NAME%}
 // HIGHLIGHTING WARCRIES WEAPON'S (SHOP)
 ItemDisplay[(MAG OR RARE OR CRAFT) SHOP TABSK34>2 WEAPON !THROWING]: %NAME%{%Orange%+++%Red%+++ %Green%Warcries %Red%+++%Orange%+++%NL%%NAME%}
 ItemDisplay[(MAG OR RARE OR CRAFT) SHOP TABSK34>2 THROWING]: %NAME%{%Orange%+++%Red%+++ %Green%Warcries %Red%+++%Orange%+++%NL%%NAME%}
