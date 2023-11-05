@@ -1660,7 +1660,7 @@ ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%PURPLE%+%RED%+%ORANGE%+%YE
 // UNIQUE DROPS (RING)
 ItemDisplay[UNI !ID !ETH rin]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // UNIQUE DROPS (DCLONE & RATHMA)
-ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %NAME%  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Holy Mother
+ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%SAGE%+%GREEN%+%DARK_GREEN%+%TEAL%+%BLUE%+%PURPLE%+%RED%+%ORANGE%+%TAN%+%YELLOW%+%WHITE%+  %NAME%  %WHITE%+%YELLOW%+%TAN%+%ORANGE%+%RED%+%PURPLE%+%BLUE%+%TEAL%+%DARK_GREEN%+%GREEN%+%SAGE%+
 // UNIQUE DROPS (BLAME ONION)
 ItemDisplay[UNI !ID ETH (uap OR ulm OR usk OR ci2 OR ci3 OR dra OR dre OR drd OR xui OR xea OR xth OR xtp OR uui OR upl OR xsh OR xow OR uow OR uts OR nea OR nee OR nef OR ned OR pa9 OR pae OR tgl OR xvg OR uvg OR umg OR utg OR uhg OR xmb OR uhb OR zlb OR zhb OR ulc OR uvc OR umc)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %NAME%     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
 // UNIQUE DROPS (7+)
