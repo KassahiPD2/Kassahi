@@ -601,7 +601,7 @@ ItemDisplay[CRAFT ((amu STAT3>9 MFIND>19 STAT89>0) OR (rin STAT3>4 MFIND>9 STAT8
 ItemDisplay[NMAG !ID (WEAPON OR ARMOR OR amu OR rin)]: %NAME%%CONTINUE%
 
 // JEWELRY'S NAME (UNI)
-ItemDisplay[UNI !ID jew]: KappaPride%CONTINUE%
+ItemDisplay[UNI !ID jew]: %WHITE%K%YELLOW%a%ORANGE%p%RED%p%PURPLE%a%BLUE%P%TEAL%r%DARK_GREEN%i%GREEN%d%SAGE%e%CONTINUE%
 ItemDisplay[UNI !ID rin]: My... Precious!!!%CONTINUE%
 // HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
