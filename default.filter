@@ -603,6 +603,7 @@ ItemDisplay[NMAG !ID (WEAPON OR ARMOR OR amu OR rin)]: %NAME%%CONTINUE%
 // JEWELRY'S NAME (UNI)
 ItemDisplay[UNI !ID jew]: %WHITE%K%YELLOW%a%ORANGE%p%RED%p%PURPLE%a%BLUE%P%TEAL%r%DARK_GREEN%i%GREEN%d%SAGE%e%CONTINUE%
 ItemDisplay[UNI !ID rin]: My... Precious!!!%CONTINUE%
+ItemDisplay[UNI !ID amu]: Medallion%CONTINUE%
 // HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI !ID xap]: Peasant Crown%CONTINUE%
@@ -1508,8 +1509,8 @@ ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadric Orb %TAN%x%WHITE%%QTY%%ORANGE%
 ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Angelic Orb, %PURPLE%Map%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
 ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%+   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %GRAY%[%RED%T3%GRAY%], %GOLD%HLM%NL%%WHITE%Upgrade a %GRAY%[%RED%T3%GRAY%] %WHITE%to a %GRAY%[%ORANGE%T4%GRAY%]}
-ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%++++++%WHITE%++++++  %ORANGE%Vial of Lightsong  %WHITE%++++++%RED%++++++{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%++++++%WHITE%++++++  %ORANGE%Lilith's Mirror  %WHITE%++++++%PURPLE%++++++{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Vial of Lightsong  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Choo Choo{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Lilith's Mirror  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Choo Choo{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %ORANGE%Skeleton Key     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%(Unlimited Use)%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[iwss]: %PX-60%%MAP-0A%%RED%+   %NAME% %TAN%x%WHITE%%QTY%   %RED%+{%TAN%Ads: %WHITE%Area Contains a Random Event to Maps%NL%%TAN%Drops From: %RED%An Altar of the Catalyst Event}
 // MAP RES/IMMUNES
@@ -1639,8 +1640,8 @@ ItemDisplay[(t22 OR t12 OR t13 OR t23 OR t21 OR t16 OR t33)]: %MAP-80%%TEAL%T1 %
 ItemDisplay[(t15 OR t11 OR t14 OR t34 OR t36 OR t26)]: %MAP-80%%TEAL%T2 %NAME% %TEAL%+{%NAME%}
 ItemDisplay[(t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-9F%%TEAL%T3 %NAME% %TEAL%+{%NAME%}
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%+{%NAME%}
-ItemDisplay[t53]: %MAP-80%%RED%T2 %NAME% %RED%+{%NAME%}
-ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%T3 %NAME% %RED%+{%NAME%}
+ItemDisplay[t53]: %MAP-80%%RED%T2 %NAME% %RED%+%ORANGE%+%RED%+{%NAME%}
+ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%T3 %NAME% %RED%+%ORANGE%+%RED%+{%NAME%}
 ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %DOT-80%%NAME% %TAN%+{%NAME%}
 
 
@@ -1660,7 +1661,7 @@ ItemDisplay[UNI !ID jew]: %DOT-0D%%MAP-0A%%BORDER-9B%%PURPLE%+%RED%+%ORANGE%+%YE
 // UNIQUE DROPS (RING)
 ItemDisplay[UNI !ID !ETH rin]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // UNIQUE DROPS (DCLONE & RATHMA)
-ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%SAGE%+%GREEN%+%DARK_GREEN%+%TEAL%+%BLUE%+%PURPLE%+%RED%+%ORANGE%+%TAN%+%YELLOW%+%WHITE%+  %NAME%  %WHITE%+%YELLOW%+%TAN%+%ORANGE%+%RED%+%PURPLE%+%BLUE%+%TEAL%+%DARK_GREEN%+%GREEN%+%SAGE%+
+ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Holy Mother %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %NAME%  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Choo Choo
 // UNIQUE DROPS (BLAME ONION)
 ItemDisplay[UNI !ID ETH (uap OR ulm OR usk OR ci2 OR ci3 OR dra OR dre OR drd OR xui OR xea OR xth OR xtp OR uui OR upl OR xsh OR xow OR uow OR uts OR nea OR nee OR nef OR ned OR pa9 OR pae OR tgl OR xvg OR uvg OR umg OR utg OR uhg OR xmb OR uhb OR zlb OR zhb OR ulc OR uvc OR umc)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %NAME%     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
 // UNIQUE DROPS (7+)
