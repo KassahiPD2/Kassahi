@@ -1286,7 +1286,7 @@ ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
-ItemDisplay[key SHOP]: {%RED%Good Luck Grinding%NL%%ORANGE%Suwayyah, War Fist, And Scissors Suwayyah to All Chars%NL%And Added The Eth Magic & Rare Families of%NL%%GREEN%Ama: All Spears & Javelins%NL%Sorc: All Orbs & Staffs That Were Shown%NL%Barb: All Helmets%NL%Pala: All Shields & Scepters%NL%Dudu: All Clubs%NL%%ORANGE%bc They Are Somewhat Niche,%NL%For The First Filter Lvl Only Early Season (Season 8)%NL%The Following Class Items Have Been Made to be Shown%NL%%GREEN%Date 08/11/23, New Update For Magic/Rare Class Items:%NL%%NL%%NAME%}
+ItemDisplay[key SHOP]: {%RED%Good Luck Grinding%NL%%ORANGE%its The Same Filter as The Default i Have Renamed Meme.Filter Now%NL%%GREEN%Date 11/11/23, New Meme Hype Filter Add:%NL%%NL%%NAME%}
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%F1
 ItemDisplay[tpfm CLVL<20]: %RED%+%WHITE%F2
