@@ -1684,11 +1684,11 @@ ItemDisplay[UNI !ID !ETH (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40)
 ItemDisplay[UNI !ID CLVL<79]: %DOT-0D%%NAME%
 
 // SET DROPS (7+)
-ItemDisplay[SET !ID !ETH (rin OR uhm OR xul)]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%XX%RED%XX%DARK_GREEN%XX%GREEN%XX     %NAME%     %GREEN%XX%DARK_GREEN%XX%RED%XX%PURPLE%XX
+ItemDisplay[SET !ID !ETH (rin OR uhm OR xul)]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%X%RED%X%DARK_GREEN%X%GREEN%X     %NAME%     %GREEN%X%DARK_GREEN%X%RED%X%PURPLE%X
 // SET DROPS (3-6.9)
-ItemDisplay[SET !ID !ETH (amu OR ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%XX%RED%XX%DARK_GREEN%XX    %NAME%    %DARK_GREEN%XX%RED%XX%PURPLE%XX
+ItemDisplay[SET !ID !ETH (amu OR ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%X%RED%X%DARK_GREEN%X    %NAME%    %DARK_GREEN%X%RED%X%PURPLE%X
 // SET DROPS (0.5-2.9)
-ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR xvg OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc)]: %PX-84%%DOT-0A%%RED%XX%DARK_GREEN%XX  %NAME%  %DARK_GREEN%XX%RED%XX
+ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR xvg OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc)]: %PX-84%%DOT-0A%%RED%X%DARK_GREEN%X  %NAME%  %DARK_GREEN%X%RED%X
 // SET DROPS (NOTABLE)
 ItemDisplay[SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk)]: %GRAY%X %NAME% %GRAY%X
 // SET DROPS (LLD)
