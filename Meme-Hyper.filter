@@ -1271,7 +1271,7 @@ ItemDisplay[(FILTLVL>5 FILTLVL<9) mp5]:
 ItemDisplay[mp5]: %BLUE%+%WHITE%M5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
-ItemDisplay[(FILTLVL>5 FILTLVL<9) ((MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158)) yps]: %GREEN%X%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+ItemDisplay[(FILTLVL>5 FILTLVL<9) ((MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158)) yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[(FILTLVL>5 FILTLVL<9) yps]:
 ItemDisplay[yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %SAGE%+%WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
@@ -1284,7 +1284,7 @@ ItemDisplay[isc CLVL<75]: %DARK_GREEN%X%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
-ItemDisplay[key CLVL<30]: %DARK_GREEN%X%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
+ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[tpfs CLVL<10]: %RED%+%WHITE%F1
