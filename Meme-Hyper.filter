@@ -1280,7 +1280,7 @@ ItemDisplay[FILTLVL>2 wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%N
 ItemDisplay[wms]: %YELLOW%+%WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[(FILTLVL>2 FILTLVL<9) tsc]:
 ItemDisplay[tsc]: %DARK_GREEN%+%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
-ItemDisplay[isc CLVL<75]: %DARK_GREEN%X%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
