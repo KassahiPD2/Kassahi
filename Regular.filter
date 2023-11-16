@@ -2773,8 +2773,8 @@ ItemDisplay[((MAG TABSK50=3) OR (RARE TABSK50=2)) AND (FCR>19 OR FRW>19) CIRC]: 
 // HIGHLIGHTING HIGH ED WEAPON'S (GG'S)
 ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 IAS>29 WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Ias%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 STAT141>0 WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Deadly Strike%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Deadly Strike %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 FOOLS WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Fools%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Fools %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 REPAIR WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Repair%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Repair %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 FOOLS>0 WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Fools%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Fools %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[(MAG OR RARE OR CRAFT) ED>299 STAT252>0 WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Repair%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Repair %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[(MAG OR RARE OR CRAFT) (ED>299 (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)) WEAPON]: %DOT-0A%%GREEN%Enhanced Damage, Amplify%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage, Amplify %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[(MAG OR RARE OR CRAFT) ED>399 WEAPON]: %DOT-0A%%GREEN%Enhanced Damage%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Enhanced Damage %RED%+++%ORANGE%+++%NL%%NAME%}
 // HIGHLIGHTING DRUID PELT'S/CULB'S (GG'S)
