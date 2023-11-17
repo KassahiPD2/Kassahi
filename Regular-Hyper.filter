@@ -1685,7 +1685,7 @@ ItemDisplay[UNI !ID CLVL<79]: %DOT-0D%%NAME%
 // SET DROPS (7+)
 ItemDisplay[SET !ID !ETH (uhm OR xul)]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%x%RED%x%DARK_GREEN%x%GREEN%x     %NAME%     %GREEN%x%DARK_GREEN%x%RED%x%PURPLE%x
 // SET DROPS (3-6.9)
-ItemDisplay[SET !ID !ETH (ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws OR rin)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%X%RED%x%DARK_GREEN%x    %NAME%    %DARK_GREEN%x%RED%x%PURPLE%x
+ItemDisplay[SET !ID !ETH (ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws OR rin)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%x%RED%x%DARK_GREEN%x    %NAME%    %DARK_GREEN%x%RED%x%PURPLE%x
 // SET DROPS (0.5-2.9)
 ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR xvg OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc OR amu)]: %PX-84%%DOT-0A%%RED%x%DARK_GREEN%x  %NAME%  %DARK_GREEN%x%RED%x
 // SET DROPS (NOTABLE)
