@@ -1689,7 +1689,7 @@ ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR xvg OR upl OR 9mt OR xar OR uar O
 // SET DROPS (NOTABLE)
 ItemDisplay[SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk)]: %GRAY%+ %NAME% %GRAY%+
 // SET DROPS (LLD)
-ItemDisplay[SET !ID !ETH (lgl OR vbt OR vgl OR bwn OR xap)]: %PX-84%%DOT-9B%%NAME% %PURPLE%Lld 
+ItemDisplay[SET !ID !ETH (lgl OR vbt OR vgl OR bwn OR xap OR lgl OR lbl)]: %PX-84%%DOT-9B%%NAME% %PURPLE%Lld 
 // SET HIGH LIGHT (LOW LVL)
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
