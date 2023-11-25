@@ -1523,7 +1523,7 @@ ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%
 ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%3x %PURPLE%Maps %WHITE%Same %TEAL%T, %WHITE%Orb%NL%%WHITE%Upgrade a %PURPLE%Map %TEAL%T}
 ItemDisplay[irma]: %MAP-68%%GOLD%Infused Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Arcane Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
 ItemDisplay[irra]: %MAP-68%%GOLD%Infused Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Zakarum Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadric Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Horadric Orb, %PURPLE%Map%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
+ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Horadric Orb, %PURPLE%Map%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Angelic Orb, %PURPLE%Map%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
 ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%oo   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%oo{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %TEAL%T3, %GOLD%HLM%NL%%WHITE%Upgrade a %TEAL%T3 %WHITE%to a %ORANGE%T4}
