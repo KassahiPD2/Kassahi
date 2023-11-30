@@ -1309,7 +1309,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Regular.Filter, Regular-Hyper.Filter%NL%Meme.Filter, Meme-Hyper.Filter,%NL%New Filters:%NL%%NL%%GRAY%Got Tired of Everything Being Big X's%ORANGE%%NL%New Lighthighs For Hyper Filters%NL%Update 17/11/23:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Regular.Filter, Regular-Hyper.Filter%NL%Meme.Filter, Meme-Hyper.Filter,%NL%New Filters:%NL%%NL%%GRAY%Btw Have a New Update Soon i Need Help/Info When Online%NL%(im Just Thinking Loud)%NL%%RED%Dm/Ping me in Dis if u Wanna Share Thoughts%NL%%ORANGE%or Maybe Some Kind of Mix (if possible)%NL%But Only The Most Preferred Stats For Each Item%NL%Would u Prefer to Show Stat Ranges in The Names%NL%Would u Keep The Green Highlights or%NL%Hey Guys i Got a Question For M/R/C Item Names%NL%30/11/23:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
