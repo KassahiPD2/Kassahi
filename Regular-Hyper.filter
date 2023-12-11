@@ -1718,7 +1718,7 @@ ItemDisplay[MAG !ID ILVL>90 cm3]: %PURPLE%+%WHITE%+   %NAME% %WHITE%91+   %WHITE
 ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PURPLE%+%WHITE%+   %NAME%   %WHITE%+%PURPLE%+
 ItemDisplay[RARE !ID (jew OR amu OR rin OR CIRC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%++%YELLOW%++%WHITE%+     %NAME%     %WHITE%+%YELLOW%++%SAGE%++
 ItemDisplay[RARE !ID (GLOVES OR BOOTS)]: %PX-9B%%DOT-21%%MAP-6D%%SAGE%++   %NAME%   %SAGE%++
-ItemDisplay[RARE !ID BELT]: %PX-9B%%DOT-21%%MAP-6D%%SAGE%++   %NAME%   %SAGE%++
+ItemDisplay[RARE !ID ETH BELT]: %PX-9B%%DOT-21%%MAP-6D%%SAGE%++   %NAME%   %SAGE%++
 // MAGIC/RARE ITEM'S (CLASS)
 ItemDisplay[MAG !ID (DRUID (DRU) OR (NECROMANCER NEC) OR (ASSASSIN (ETH SIN) OR (ASSASSIN !ETH (ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr))) OR (AMAZON (am1 OR am6 OR amb)))]: %DOT-97%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[RARE !ID (DRUID (ETH (DRU)) OR (NECROMANCER WAND) OR (ASSASSIN SIN) OR ((AMAZON (am1 OR am6 OR amb OR cqv OR aqv))))]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
