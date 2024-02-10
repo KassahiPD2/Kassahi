@@ -721,10 +721,10 @@ ItemDisplay[GOLD<4999 CLVL>79]:
 ItemDisplay[(FILTLVL>2 FILTLVL<9) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%
 ItemDisplay[rvl]: %PURPLE%O%WHITE%Juice%PURPLE%O
-ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Hael 1
-ItemDisplay[hp2 CLVL<15]: %RED%+%WHITE%Hael 2
-ItemDisplay[hp3 CLVL<19]: %RED%+%WHITE%Hael 3
-ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%Hael 4
+ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Heal 1
+ItemDisplay[hp2 CLVL<15]: %RED%+%WHITE%Heal 2
+ItemDisplay[hp3 CLVL<19]: %RED%+%WHITE%Heal 3
+ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%Heal 4
 ItemDisplay[(FILTLVL>2 FILTLVL<9) hp5]:
 ItemDisplay[hp5]: %RED%+%WHITE%H5
 ItemDisplay[mp1 CLVL<7]: %BLUE%+%WHITE%Mana 1
