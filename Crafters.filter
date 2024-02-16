@@ -773,7 +773,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Disabled in This Season%NL%%ORANGE%All Magic Armors & Elite Boots Are Shown Now%NL%%RED%Update 16/02/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Disabled in This Season%NL%%ORANGE%Also All Magic Armors & Elite Boots Are Shown Now%NL%Added The New Recycled Recipes to Runes 18-21%NL%%RED%Update 16/02/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -892,10 +892,10 @@ ItemDisplay[r14s]: %NAME%{%TAN%Armor/Helm/Shield: %BLUE%Rep Life %WHITE%+10%NL%%
 ItemDisplay[r15s]: %NAME%{%TAN%Armor/Helm/Shield: %BLUE%Req %WHITE%-15%%NL%%TAN%Weapon: %BLUE%Req %WHITE%-20%%NAME%}
 ItemDisplay[r16s]: %NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Vit%NAME%}
 ItemDisplay[r17s]: %NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Ene%NAME%}
-ItemDisplay[r18s]: %NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex%NAME%}
-ItemDisplay[r19s]: %NAME%{%TAN%All Sockets: %WHITE%+10 %BLUE%to Str%NAME%}
-ItemDisplay[r20s]: %NAME%{%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF%NAME%}
-ItemDisplay[r21s]: %NAME%{%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem%NAME%}
+ItemDisplay[r18s]: %NAME%{%GRAY%(Recycled ilvl 70% Reduced)%NL%%WHITE%Revert a %ORANGE%Crafted %WHITE%Item to a %BLUE%Magic %WHITE%Item %NL%%WHITE%Cube: Any %ORANGE%Crafted %WHITE%Item, %GREEN%18%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Dex%NAME%}
+ItemDisplay[r19s]: %NAME%{%GRAY%(Recycled ilvl 70% Reduced)%NL%%WHITE%Revert a %ORANGE%Crafted %WHITE%Item to a %BLUE%Magic %WHITE%Item %NL%%WHITE%Cube: Any %ORANGE%Crafted %WHITE%Item, %GREEN%19%NL%%NL%%TAN%All Sockets: %WHITE%+10 %BLUE%to Str%NAME%}
+ItemDisplay[r20s]: %NAME%{%GRAY%(Recycled ilvl 70% Reduced)%NL%%WHITE%Revert a %ORANGE%Crafted %WHITE%Item to a %BLUE%Magic %WHITE%Item %NL%%WHITE%Cube: Any %ORANGE%Crafted %WHITE%Item, %GREEN%20%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%50% %BLUE%GF%NL%%TAN%Weapon: %WHITE%75% %BLUE%GF%NAME%}
+ItemDisplay[r21s]: %NAME%{%GRAY%(Recycled ilvl 70% Reduced)%NL%%WHITE%Revert a %ORANGE%Crafted %WHITE%Item to a %BLUE%Magic %WHITE%Item %NL%%WHITE%Cube: Any %ORANGE%Crafted %WHITE%Item, %GREEN%21%NL%%NL%%TAN%Armor/Helm/Shield: %WHITE%30% %BLUE%ED%NL%%TAN%Weapon: %WHITE%+75% %BLUE%Dmg, %WHITE%+100 %BLUE%AR Vs Dem%NAME%}
 ItemDisplay[r22s]: %NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+22%%NL%%TAN%Armor/Helm: %BLUE%All Res %WHITE%+15%%NL%+120 %BLUE%OW Dmg Over %WHITE%5 %BLUE%Sec%NL%%TAN%Weapon: %WHITE%10% %BLUE%Chance of OW,%NAME%}
 ItemDisplay[r23s]: %NAME%{%TAN%Armor/Helm/Shield: %BLUE%MDR By %WHITE%7%NL%%TAN%Weapon: %BLUE%PMH%NAME%}
 ItemDisplay[r24s]: %NAME%{%TAN%All Sockets: %WHITE%30% %BLUE%MF%NAME%}
