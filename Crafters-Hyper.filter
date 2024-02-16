@@ -773,7 +773,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Disabled in This Season%NL%%ORANGE%Added All The Crafting Info to Infusion%NL%Shop Highlights Got a New Style Also Shown All The Time%NL%Tweaked a Few Runes & Gems For Pala's Crafting Mats (to Orange #/+)%NL%Added Notifications & Highlights to more Items (Charms, Magic/Rare Items)%NL%%RED%Update 13/02/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Disabled in This Season%NL%%ORANGE%All Magic Armors & Elite Boots Are Shown Now%NL%%RED%Update 16/02/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1186,6 +1186,8 @@ ItemDisplay[RARE !ID AMAZON (am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR am
 ItemDisplay[!(FILTLVL=4 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=8) MAG !ID (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %GRAY%+ %NAME% %GRAY%+
 ItemDisplay[!(FILTLVL=4 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=8) RARE !ID (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %GRAY%+ %NAME% %GRAY%+
 // MAGIC/RARE ITEM'S
+ItemDisplay[MAG !ID !ETH CHEST]: %NAME%
+ItemDisplay[MAG !ID !ETH ELT BOOTS]: %NAME%
 ItemDisplay[(MAG OR RARE) !ID !ETH (tax OR 9ta OR 7ta)]: %NAME%
 ItemDisplay[(MAG OR RARE) !ID (dir OR 9di OR 7di)]: %NAME%
 ItemDisplay[FILTLVL<2 MAG !ID aqv]: %NAME%
