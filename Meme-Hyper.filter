@@ -1724,8 +1724,8 @@ ItemDisplay[(MAG OR RARE) !ID ETH PALADIN (fla OR 9fl OR 7fl)]: %PX-60%%DOT-21%%
 ItemDisplay[MAG !ID (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%+%BLUE%+%WHITE%+     %NAME%     %WHITE%+%BLUE%+%PURPLE%+
 ItemDisplay[MAG !ID (ci0 OR ci1)]: %PX-20%%DOT-21%%MAP-97%%BLUE%+%WHITE%+   %NAME%   %WHITE%+%BLUE%+
 ItemDisplay[MAG !ID !ETH jew]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%+%BLUE%+%WHITE%+     %NAME%     %WHITE%+%BLUE%+%PURPLE%+
-ItemDisplay[MAG !ID ILVL>90 cm3]: %PURPLE%+%WHITE%+   %NAME% %WHITE%91+   %WHITE%+%PURPLE%+
-ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PURPLE%+%WHITE%+   %NAME%   %WHITE%+%PURPLE%+
+ItemDisplay[MAG !ID ILVL>90 cm3]: %PX-20%%DOT-21%%MAP-97%%PURPLE%+%WHITE%+   %NAME% %WHITE%91+   %WHITE%+%PURPLE%+
+ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%+%WHITE%+   %NAME%   %WHITE%+%PURPLE%+
 ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%+++%YELLOW%+++%WHITE%++     %NAME%     %WHITE%++%YELLOW%+++%SAGE%+++
 ItemDisplay[RARE !ID (amu OR rin OR CIRC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%++%YELLOW%++%WHITE%+     %NAME%     %WHITE%+%YELLOW%++%SAGE%++
 ItemDisplay[RARE !ID (GLOVES OR BOOTS)]: %PX-9B%%DOT-21%%MAP-6D%%SAGE%++   %NAME%   %SAGE%++
