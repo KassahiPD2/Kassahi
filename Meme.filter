@@ -1505,17 +1505,17 @@ ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ 
 ItemDisplay[lpp]: %MAP-0A%%RED%+   %GOLD%Larzuk's Bermuda Piece %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}
 ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: 1%NL%%WHITE%Possible Sockets:}
 ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GOLD%O %TAN%x%WHITE%%QTY%%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}
-ItemDisplay[imma]: {%WHITE%Cube: Arcane Orb, %GOLD%O%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
-ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Zakarum Orb, %GOLD%O, %GREEN%10+%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[rera]: %MAP-68%%WHITE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Horadrim Orb, %WHITE%P-%ORANGE%Gem, %GREEN%10+%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %BLUE%Magic%WHITE%/%YELLOW%Rare %PURPLE%Maps, %WHITE%Orb%NL%%WHITE%Downgrade %PURPLE%Maps %WHITE%to White}
-ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%Angelic Orb, %GRAY%O, %GREEN%10+%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cube: %WHITE%3x %PURPLE%Maps %WHITE%Same %TEAL%T, %WHITE%Orb%NL%%WHITE%Upgrade a %PURPLE%Map %TEAL%T}
+ItemDisplay[imma]: {}
+ItemDisplay[imra]: %MAP-68%%WHITE%Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[rera]: %MAP-68%%WHITE%Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[scou]: %MAP-68%%WHITE%Orb of Destruction %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[upma]: %MAP-68%%WHITE%Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[upmp]: %MAP-68%%WHITE%Cartographer's Orb %TAN%x%WHITE%%QTY%%ORANGE%{}
+ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{}
 ItemDisplay[irma]: %MAP-68%%GOLD%Infused Arcane Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Arcane Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %BLUE%Magic %PURPLE%Map}
 ItemDisplay[irra]: %MAP-68%%GOLD%Infused Zakarum Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Zakarum Orb, %PURPLE%Map%NL%%WHITE%Upgrade White to %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadrim Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Horadric Orb, %PURPLE%Map%NL%%WHITE%Reroll %YELLOW%Rare %PURPLE%Map}
 ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic Orb %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%Cude: %GOLD%Infused Angelic Orb, %PURPLE%Map%NL%%WHITE%Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare %PURPLE%Map}
-ItemDisplay[fort]: %MAP-68%%WHITE%Orb of Fortification %TAN%x%WHITE%%QTY%%ORANGE%{%WHITE%2x HP, Exp, Loot, 20% Dmg%NL%Reduced Density By Half, Monsters Get:%NL%%ORANGE%fortified %WHITE%a %PURPLE%Map}
 ItemDisplay[scrb]: %PX-60%%MAP-0A%%RED%+   %GOLD%Horadrim Lunch Meat %TAN%x%WHITE%%QTY%   %RED%+{%GRAY%(These Are Intended For Groups)%NL%%WHITE%Cube: %TEAL%T3, %GOLD%HLM%NL%%WHITE%Upgrade a %TEAL%T3 %WHITE%to a %ORANGE%T4}
 ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Choooo %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Vial of Lightsong  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Choooo{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Choooo %PURPLE%+%RED%+%ORANGE%+%YELLOW%+  %ORANGE%Lilith's Mirror  %YELLOW%+%ORANGE%+%RED%+%PURPLE%+ %GREEN%Choooo{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
