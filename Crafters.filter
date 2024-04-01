@@ -773,7 +773,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Disabled in This Season%NL%%RED%Ping me in Discord With a Picture of the Whole Item Please%NL%if Anyone is Experience Some of the Name on Items is Disappearing%NL%%ORANGE%Added More Affixes to Different Item Types & The Actual Range Numbers%NL%This Update is a bit of an Experiment%NL%%RED%Update 13/03/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Uniques, Sets, Runewords, Are Not Highlighted in This Filter%NL%%NL%%ORANGE%Bc This is a Crafter Filter%NL%Make Sure to Choose a Normal Filter Again For Betas/S9%NL%%RED%Update 01/04/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
