@@ -1484,7 +1484,7 @@ ItemDisplay[pk3]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%o{%TAN%
 ItemDisplay[mbr]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%o{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Izual %GRAY%(%RED%Mini Uber%GRAY%)}
 ItemDisplay[dhn]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%o{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Lilith %GRAY%(%RED%Mini Uber%GRAY%)}
 ItemDisplay[bey]: %DOT-0A%%ORANGE%%NAME% %TAN%x%WHITE%%QTY%%ORANGE% %RED%o{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%Any 3 %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Duriel %GRAY%(%RED%Mini Uber%GRAY%)}
-ItemDisplay[ubtm]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Tristram%NL%%WHITE%Use at The %RED%Blood Fountain}
+ItemDisplay[ubtm]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(You Get 3 Tps in Town Once u Enter Ubers)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Tristram%NL%%WHITE%Use at The %RED%Blood Fountain}
 ItemDisplay[std]: %DOT-0A%%ORANGE%Standard of Po-Tay-Toes %TAN%x%WHITE%%QTY%{%GRAY%(%WHITE%+20% %BLUE%Dens%WHITE%/%BLUE%MF%WHITE%/%BLUE%GF, %WHITE%+10%%BLUE% Exp%GRAY%)%NL%%TAN%Cube: %WHITE%Any %PURPLE%Map, %ORANGE%Standard %WHITE%to Gain%NL%%TAN%Drops From: %RED%Hell Ubers}
 ItemDisplay[UNI cm2]: %NAME%%CONTINUE%{%WHITE%Make Hellfire Ashes%NL%%TAN%Cube: %WHITE%Torch, Key, to}
 // UBER ANCIENTS
@@ -1496,13 +1496,13 @@ ItemDisplay[uba]: %MAP-0A%%GRAY%o%RED%o   %ORANGE%Relic of The Ancients   %RED%o
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
 ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
 ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%o   %ORANGE%Pure Daemoth Dust %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
-ItemDisplay[dcma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 2: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 1: Cube (Vex-sur) Increase Dclone's Difficulty (Can Drop Items)%NL%%WHITE%Tier 0: No Dclone Items Will Drop}
+ItemDisplay[dcma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)}
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtmv]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Mendeln Map Events}
 ItemDisplay[cm2f]: %PX-60%%MAP-0A%%RED%o   %ORANGE%Bonfire Lit %TAN%x%WHITE%%QTY%   %RED%o{%GRAY%(Before Dying Twice in a Row)%NL%(u May Now Spend Your Souls,)%NL%%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Made From: %RED%Torches}
 ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make%NL%%TAN%Drops From: %RED%Undead Enemies}
-ItemDisplay[rtma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%NL%%RED%Tier 2: Cube (Ber-Zod) Increases The Difficulty And Drop Rate%NL%Tier 1: Cube (Vex-sur) Increase Rathma's Difficulty (Can Drop Items)%NL%%WHITE%Tier 0: No Rathma Items Will Drop}
+ItemDisplay[rtma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)}
 ItemDisplay[cwss]: %MAP-0A%%PURPLE%oo   %RED%Tainted Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%oo{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[rtp]: %MAP-0A%%TEAL%xX%BLUE%xX%WHITE%xX   %NAME%   %WHITE%Xx%BLUE%Xx%TEAL%Xx{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %MAP-0A%%CORAL%xX%RED%xX%WHITE%xX   %NAME%   %WHITE%Xx%RED%Xx%CORAL%Xx{%WHITE%Gives You Infinite %RED%IDs}
