@@ -1310,7 +1310,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Half Freeze Duration/Amplify Damage/Lower Resist on Striking/Casting to Item Names%NL%0os, 2os, 3os, 10+ ED, +3 Skills, Bone Knife/Fanged knife All Lvls, Clean +3 Skills on Lvl 1%NL%Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 01/04/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Half Freeze Duration/Amplify Damage/Lower Resist on Striking/Casting to Item Names%NL%Fanged knife 0-3os, +3 Poison Strike/Cobra Strike Highlighted For Plague%NL%Bone/Fanged knife 0-2-3os, (+3 Sks on Lvl 1), (10+ ED, +3 Sks All Lvls For Now)%NL%Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 02/04/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -5210,6 +5210,8 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 xhm]: %PX-84%%DOT-21%%MAP-
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU (((SK229=3 AND SK244=3) (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK248=3 SK223=3 SK224=3) OR (SK233=3 SK242=3 SK224=3))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Flickering Flame{%NAME%}
 // VALUABLE CLUB'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB (((SK229=3 SK244=3) (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK240=3 (SK245>1 OR SK250>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK243=3 (SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR ((SK221=3 SK247=3) (SK227>1 OR SK237>1 OR SK236>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Plague{%NAME%}
+// VALUABLE DAGGER'S (NMAG)
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW 7kr (SK73=3 OR SK265=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Plague{%NAME%}
 // VALUABLE STAFF'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (6cs OR 6bs OR 6ws) ((SK63>0 (SK38>1 OR SK48>1 OR SK49>1 OR SK53>1)) OR (SK53>1 (SK38>1 OR SK49>1 OR SK57>1)) OR (SK48>1 (SK38>1 OR SK43>1 OR SK57>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Infinity{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW 6ws (SK65>0 (SK44>1 OR SK59>1 OR SK64>1 OR SK369>1))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Doom{%NAME%}
@@ -5413,7 +5415,6 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (
 // DAGGER'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH ED>9 (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK259=3 OR SK265=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK259=3 OR SK265=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %NAME%{%NAME%}
-ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH 7kr]: %NAME%{%NAME%}
 // SPEAR'S/POLEARM'S/AMAZON SPEAR'S (NMAG)
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH (amd OR ame) TABSK2=3]: %PX-21%%DOT-D6%%NAME%{%NAME%}
