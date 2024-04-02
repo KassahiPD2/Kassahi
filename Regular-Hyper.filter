@@ -1306,7 +1306,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Half Freeze Duration/Amplify Damage/Lower Resist on Striking/Casting to Item Names%NL%0os, 2os, 3os, 10+ ED Bone Knife/Fanged knife All Lvls%NL%Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 01/04/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Half Freeze Duration/Amplify Damage/Lower Resist on Striking/Casting to Item Names%NL%0os, 2os, 3os, 10+ ED, +3 Skills, Bone Knife/Fanged knife All Lvls, Clean +3 Skills on Lvl 1%NL%Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 01/04/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -5436,7 +5436,8 @@ ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 // DAGGER'S (NMAG)
-ItemDisplay[NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH ED>9 (7dg OR 7kr)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH ED>9 (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK259=3 OR SK265=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
+ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK259=3 OR SK265=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %NAME%{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH 7kr]: %NAME%{%NAME%}
 // SPEAR'S/POLEARM'S/AMAZON SPEAR'S (NMAG)
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %NAME%{%NAME%}
