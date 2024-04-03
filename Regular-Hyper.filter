@@ -1306,7 +1306,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Half Freeze Duration/Amplify Damage/Lower Resist on Striking/Casting to Item Names%NL%Fanged knife 0-3os, +3 Poison Strike/Cobra Strike Highlighted For Plague%NL%Bone/Fanged knife 0-2-3os, (+3 Sks on Lvl 1), (10+ ED, +3 Sks All Lvls For Now)%NL%Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 02/04/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Hfd/Amp/Lre on Striking/Casting to Item Names%NL%Fanged knife 0-3os, +3 Pst/Cob Highlighted For Plague%NL%Bone/Fanged knife 0-2-3os, (+3 Sks on Lvl 1), (10+ ED, +3 Sks All Lvls For Now)%NL%New Qol Hfd/Cbf For Equipped Gear, Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 03/04/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1970,6 +1970,13 @@ ItemDisplay[leg !RW]: %NAME%{%GRAY%(Wirt's Leg Can Be Used in All difficulties)%
 ItemDisplay[RARE !ETH ci3]: %NAME%{%WHITE%Tip: 6x %GRAY%O, %WHITE%to Reroll 2/20s infinitely%NL%%NAME%}%CONTINUE%
 // GRAND CHARM'S HIGH-LVL
 ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%91+{%WHITE%Cube: %PURPLE%Charm, %WHITE%3x P-%ORANGE%Gems, %WHITE%to Reroll}%CONTINUE%
+
+// HFD WHEN NO CBF
+ItemDisplay[STAT118>0 !EQUIPPED ((CHARSTAT118>0 CHARSTAT153=0) OR (CHARSTAT118=0 CHARSTAT153=0))]: %NAME% {%WHITE%2x %TEAL%Hfd %WHITE%= %TEAL%Cbf%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT118>0 CHARSTAT118>0 CHARSTAT153>0]: %NAME% {%RED%Already Has %TEAL%Cbf%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT118>0 EQUIPPED CHARSTAT118<2 CHARSTAT153=0]: %NAME% {%LIGHT_GRAY%%CHARSTAT118%%WHITE%/2 Items for %TEAL%Cbf%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT118>0 EQUIPPED CHARSTAT118=2 CHARSTAT153=0]: %NAME% {%GREEN%%CHARSTAT118%%WHITE%/2 Items for %TEAL%Cbf%NL%%NAME%}%CONTINUE%
+ItemDisplay[STAT118>0 EQUIPPED CHARSTAT118>2 CHARSTAT153=0]: %NAME% {%RED%%CHARSTAT118%%WHITE%/2 Items for %TEAL%Cbf%NL%%NAME%}%CONTINUE%
 
 // ARMOR'S UPGRADING RECIPE
 ItemDisplay[(CRAFT OR RARE) ID NORM ARMOR !GLOVES !BELT !BOOTS]: %NAME%{%NAME%%NL%%WHITE%Up: %GREEN%8, 10, %PURPLE%O}%CONTINUE%
