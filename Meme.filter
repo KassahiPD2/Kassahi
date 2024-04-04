@@ -1651,13 +1651,13 @@ ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR
 ItemDisplay[UNI (t51 OR t52 OR t53)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 // TIERS FOR MAPS
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t3a)]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[(t22 OR t12 OR t13 OR t23 OR t21 OR t16 OR t33)]: %MAP-80%%TEAL%T1 %NAME% %TEAL%+{%NAME%}
-ItemDisplay[(t15 OR t11 OR t14 OR t34 OR t36 OR t26)]: %MAP-80%%TEAL%T2 %NAME% %TEAL%+{%NAME%}
-ItemDisplay[(t31 OR t32 OR t25 OR t24 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-9F%%TEAL%T3 %NAME% %TEAL%+{%NAME%}
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%+{%NAME%}
-ItemDisplay[t53]: %MAP-80%%RED%T2 %NAME% %RED%+%ORANGE%+%RED%+{%NAME%}
-ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%T3 %NAME% %RED%+%ORANGE%+%RED%+{%NAME%}
-ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %DOT-80%%NAME% %TAN%+{%NAME%}
+ItemDisplay[(t15 OR t22 OR t12 OR t23 OR t26 OR t36)]: %MAP-80%%TEAL%T1 %NAME% %TEAL%o{%NAME%}
+ItemDisplay[(t13 OR t11 OR t24 OR t31 OR t34 OR t33)]: %MAP-80%%TEAL%T2 %NAME% %TEAL%o{%NAME%}
+ItemDisplay[(t14 OR t16 OR t21 OR t32 OR t25 OR t35 OR t37 OR t38 OR t39 OR t3a)]: %MAP-9F%%TEAL%T3 %NAME% %TEAL%o{%NAME%}
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%o{%NAME%}
+ItemDisplay[t53]: %MAP-80%%RED%o%ORANGE%o     %RED%T2 %NAME%     %ORANGE%o%RED%o{%NAME%}
+ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%o%ORANGE%o     %RED%T3 %NAME%     %ORANGE%o%RED%o{%NAME%}
+ItemDisplay[(t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69)]: %DOT-80%%NAME% %TAN%o{%NAME%}
 
 
 
