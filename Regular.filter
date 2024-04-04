@@ -1306,7 +1306,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Hfd/Amp/Lre on Striking/Casting to Item Names%NL%Fanged knife 0-3os, +3 Pst/Cob Highlighted For Plague%NL%Bone/Fanged knife 0-2-3os, (+3 Sks on Lvl 1), (10+ ED, +3 Sks All Lvls For Now)%NL%New Qol Hfd/Cbf For Equipped Gear, Diamond Recipes/Infusion, Eth Set Items%NL%Added New Player Commands to Key in Shop%NL%%RED%Update 03/04/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Feedback is Very Welcome%NL%Updating The Filters Online This Time on Closed Beta%NL%%ORANGE%%NL%Hfd/Amp/Lre on Striking/Casting to Item Names%NL%Fanged knife 0-3os, +3 Pst/Cob Highlighted For Plague%NL%& (10+ ED, +3 Sks All Lvls For Now)%NL%Bone/Fanged knife 0-2-3os, (+3 Sks on Lvl 1)%NL%Diamond Recipes/Infusion%NL%Eth Set Items, Map Immune/res/Tier%NL%Qol Hfd/Cbf For Equipped Gear%NL%Added: Player Commands to Key in Shop%NL%%RED%Update 04/04/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1517,28 +1517,28 @@ ItemDisplay[crfv]: %MAP-68%%ORANGE%+  %LIGHT_GRAY%Vamp %GOLD%Infusion %TAN%x%WHI
 ItemDisplay[crfu]: %MAP-68%%ORANGE%+  %YELLOW%Bountiful %GOLD%Infusion %TAN%x%WHITE%%QTY% %YELLOW%@  %ORANGE%+{%WHITE%Weapon: %BLUE%50-80 Ed, 20-30 Mf%NL%%WHITE%Shield: %BLUE%10-20 Ibc, 20-30 Mf%NL%%WHITE%Chest/Helm/Belt: %BLUE%25-50 Edef, 20-30 Mf%NL%%WHITE%Gloves/Boots: %BLUE%25-50 Edef, 15-25 Mf%NL%%WHITE%Ring: %BLUE%5-10 Vit, 10-15 Mf %WHITE%Amulet: %BLUE%10-20 Vit, 20-30 Mf%NL%%WHITE%All Crafts: %BLUE%1-3 Lr%NL%%WHITE%Cube: %BLUE%Magic%GOLD%/%YELLOW%Rare %WHITE%Item, %YELLOW%@}
 ItemDisplay[crfp]: %MAP-68%%ORANGE%+  %WHITE%Briliant %GOLD%Infusion %TAN%x%WHITE%%QTY% @  %ORANGE%+{%WHITE%Weapon: %BLUE%20 Ias, 20-40 Ed, 50-100 Ar %WHITE%Shield: %BLUE%5-10 Ares, 10-20 Ibc, Hfd%NL%%WHITE%Boots: %BLUE%10 Ms, Hfd, 100-150 Dvm %WHITE%Gloves: %BLUE%5-10 Ias, 10-20 Ar, 25-50 Edef%NL%%WHITE%Ring: %BLUE%3-5 Ares, Hfd, 50-100 Dvm %WHITE%Amulet: %BLUE%5-10 Ares, 100-150 Dvm, 4-8 Aa%NL%%WHITE%Belt/Helm: %BLUE%5-10 Ias, Hfd, 25-50 Edef %WHITE%Chest: %BLUE%5-10 Ares, 10-20 Ibc, 25-50 Edef%NL%%WHITE%Cube: %BLUE%Magic%GOLD%/%YELLOW%Rare %WHITE%Item, @}
 // MAP RES/IMMUNES
-ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE%
-ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %GREEN%P:120, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %BLUE%C:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t13]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %YELLOW%L:135, %GOLD%Ph:110%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE%
-ItemDisplay[t14]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %RED%F:130, %BLUE%C:130%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE%
-ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %YELLOW%L:100, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:65, %GOLD%Ph:80%NAME%}%CONTINUE%
-ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: C:%BLUE%115, %GREEN%P:140, %ORANGE%M:125%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GOLD%Ph:55%NAME%}%CONTINUE%
-ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:140, %GREEN%P:120%NL%%WHITE%Highest Res: %YELLOW%L:90, %BLUE%C:80, %ORANGE%M:50, %GOLD%Ph:75%NAME%}%CONTINUE%
-ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %YELLOW%L:105, %BLUE%C:140%NL%%WHITE%Highest Res: %RED%F:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: C:%BLUE%80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %BLUE%C:150, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %ORANGE%M:50%NAME%}%CONTINUE%
-ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:135%NL%%WHITE%Highest Res: C:%BLUE%85, %GREEN%P:90, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE%
-ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:110, %BLUE%C:150, %GOLD%Ph:100%NL%%WHITE%Highest Res: %YELLOW%L:65, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE%
-ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:180 %ORANGE%M:100%NL%%WHITE%Highest Res: %YELLOW%L:85, %GREEN%P:95, %GOLD%Ph:66%NAME%}%CONTINUE%
-ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:115%NL%%WHITE%Highest Res: %YELLOW%L:85, %BLUE%C:90, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t33]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %RED%F:120, %YELLOW%L:115, %BLUE%C:110%NL%%WHITE%Highest Res: P:%GREEN%80, %ORANGE%M:50, %GOLD%Ph:60%NAME%}%CONTINUE%
-ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120, %GOLD%Ph:100%NL%%WHITE%Highest Res: %YELLOW%L:90, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE%
-ItemDisplay[t35]: %NAME%{%WHITE%Highest Res: %RED%F:65, %YELLOW%L:65, %BLUE%C:65, %GREEN%P:65, %ORANGE%M:33, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t36]: %NAME%{%RED%Blizzard%NL%%WHITE%Immunes: %YELLOW%L:100%NL%%WHITE%Highest Res: %RED%F:95, %BLUE%C:95, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t37]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:140, %BLUE%C:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %YELLOW%L:85, %GREEN%P:90, %ORANGE%M:50%NAME%}%CONTINUE%
-ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %YELLOW%L:160, %GREEN%P:110%NL%%WHITE%Highest Res: %RED%F:80, %BLUE%C:80, %ORANGE%M:70, %GOLD%Ph:50%NAME%}%CONTINUE%
-ItemDisplay[t39]: %NAME%{%WHITE%Immunes: C:%BLUE%130, %GREEN%P:110, Tower:1000%NL%%WHITE%Highest Res: %RED%F:85, %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE%
-ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %YELLOW%L:145, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:50%NAME%}%CONTINUE%
+ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE% // Ruins of Viz-jun 143
+ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Horazon's Memory 142
+ItemDisplay[t13]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
+ItemDisplay[t14]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %YELLOW%L:125, %GREEN%P:130%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
+ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:60%NAME%}%CONTINUE% // Royal Crypts 170
+ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: %BLUE%C:115, %GREEN%P:140, %ORANGE%M:125%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
+ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:140, %YELLOW%L:125%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:75%NAME%}%CONTINUE% // Phlegethon 145
+ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Torajan Jungle 148
+ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
+ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
+ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
+ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:85, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
+ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:85, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Throne of Insanity 150
+ItemDisplay[t33]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
+ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ancestral Trial 146
+ItemDisplay[t35]: %NAME%{%WHITE%Highest Res: %RED%F:65, %YELLOW%L:65, %BLUE%C:65, %GREEN%P:65, %ORANGE%M:33, %GOLD%Ph:50%NAME%}%CONTINUE% // Blood Moon 154
+ItemDisplay[t36]: %NAME%{%RED%Blizzard%NL%%WHITE%Immunes: %YELLOW%L:100, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:95, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Fall of Caldeum 155
+ItemDisplay[t37]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
+ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:110, %GOLD%Ph:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:70%NAME%}%CONTINUE% // Canyon of Sescheron 160
+ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE% // Kehjistan Marketplace 147
+ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %NL%%GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
 ItemDisplay[t41]: %NAME%{%WHITE%Immunes: %RED%F:180 %YELLOW%L:180 %BLUE%C:180 %GREEN%P:180 %ORANGE%M:180 %GOLD%Ph:180}%CONTINUE%
 ItemDisplay[t42]: %NAME%{%WHITE%Immunes: %RED%F:180 %YELLOW%L:180 %BLUE%C:180 %GREEN%P:180 %ORANGE%M:180 %GOLD%Ph:180}%CONTINUE%
 ItemDisplay[t43]: %NAME%{%WHITE%Immunes: %RED%F:180 %YELLOW%L:180 %BLUE%C:180 %GREEN%P:180 %ORANGE%M:180 %GOLD%Ph:180}%CONTINUE%
