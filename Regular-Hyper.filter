@@ -1542,7 +1542,7 @@ ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Hig
 ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
 ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
 ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
-ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:85, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
 ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
 ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:85, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
