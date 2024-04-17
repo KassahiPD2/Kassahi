@@ -24,16 +24,6 @@ There's The Right Ones (Hyper Versions, Has Different Styles of Highlights)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/009503c8-1356-41fc-a5f6-58f6c6018565)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/101af282-9468-4d06-b001-764b5024d017)
 
-
-
-
-
-
-
-//------------------------------NAMES_FOR_ALL_ITEMS------------------------------
-
-
-
 All Items Will Always Show The Lod Style of Colors on Items (Except HighRunes/Dclone & Rathma Items in Hyper Versions)
 
 All White/Gray/Magic/Rare & Crafted Items Only Have The Real Base Name
