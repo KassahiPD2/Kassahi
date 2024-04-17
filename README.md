@@ -47,12 +47,6 @@ How Superior With 0 ED/Infinite/Ethereal/Socketed Looks like
 Shows Slammed/Corrupted Tag in Names (Note The Red * (star) on The Right Side of The Number of Sockets, Means it's From The Slam/Corruption)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/80462760-5a7d-43c1-a1bd-1060a2266591)
 
-
-
-//------------------------------UTILITIE_ITEMS------------------------------
-
-
-
 Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold hidden After Lvl 79
 
 +35% Rejuvs Hidden on Filter Lvls 3-9, +65% Rejuvs Alawys Shown
