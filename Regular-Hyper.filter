@@ -2495,9 +2495,6 @@ ItemDisplay[SET umb ID]: %NAME%{%WHITE%Kick Damage: 80 to 125}
 ItemDisplay[SET utb ID]: %NAME%{%WHITE%Kick Damage: 69 to 147}
 ItemDisplay[SET uhb ID]: %NAME%{%WHITE%Kick Damage: 83 to 155}
 
-// SUNDERED FORTUNE
-ItemDisplay[UNI cm3]: %NAME%{+69 to Niko Niko Nii Skills%NAME%}%CONTINUE%
-
 // POSSIBLE SET/UNIQ'S FOR GAMBLING
 ItemDisplay[NMAG !ID SHOP cm3]: %NAME%%NL%%NL%%GOLD%Gheed's Fortune%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%All Set Amulets%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Amulets%ORANGE%%NL%Possible Uniques:%WHITE%
