@@ -62,7 +62,25 @@ Antis Hidden on Filter Lvls 6-9 (Antis Still Shown When Doing rathma or The Foll
 Stams Hidden After Lvl 19
 Thaws & Tp Scrolls Hidden on Filter Lvls 3-9
 Id Scrolls Hidden After Lvl 74
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/1d5bc941-7e6f-41df-9b9f-93bc0e839cd9)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f3472392-3a96-4aaf-92cc-05612823b303)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Key in Shop Shows The Chat Commands & Keys Hidden After Lvl 29
