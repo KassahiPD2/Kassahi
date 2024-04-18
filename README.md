@@ -39,6 +39,7 @@ Uniq Charms & Facets is Also The Same + Torchs & Facets Have Additional Info For
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/332298ce-1003-4e5d-9b5a-1a10febef4fd)
 
 Magic & Rare Items Has a Little Dark Green * (Star) to Show What Items is Identified
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/6db65f15-4c48-4a4a-a835-c429f299aa3f)
 
 How Superior With 0 ED/Infinite/Ethereal/Socketed Looks like
