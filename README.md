@@ -50,6 +50,7 @@ Shows Slammed/Corrupted Tag in Names (Note The Red * (star) on The Right Side of
 Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold hidden After Lvl 79
 
 +35% Rejuvs Hidden on Filter Lvls 3-9, +65% Rejuvs Alawys Shown
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/b39ee7bf-9af6-41d8-90d8-a5644e1d74fd)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/ad62a5ab-22d0-4ea4-a924-35340d588bb0)
 
