@@ -59,17 +59,11 @@ Hael/Mana 4 Hidden After Lvl 59, +H5 Hidden on Filter Lvls 3-9, +M5 Hidden on Fi
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0cc6193-6323-4f73-9423-4e1791f5c10e)
 
 Antis Hidden on Filter Lvls 6-9 (Antis Still Shown When Doing rathma or The Following Maps bc of High Poison Dmg, Ruins of Viz-Jun/Ancestral Trial/Kehjistan Marketplace/Tomb of Zoltun Kulle & Lost Temple)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/b04ca357-c74c-45e1-ae2b-27ac0c1dc4b7)
-
 Stams Hidden After Lvl 19
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/b4ae14d6-bb1d-48df-b701-67f0d5ba7557)
-
 Thaws & Tp Scrolls Hidden on Filter Lvls 3-9
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/a4bebda8-3919-4aa0-a45e-eb4b6b7187d1)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/550dcb3f-4b46-4f49-9637-b1bacdbc9898)
-
 Id Scrolls Hidden After Lvl 74
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/986ee1bf-17b8-43dc-8d40-b2a04c4b30bb)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/1d5bc941-7e6f-41df-9b9f-93bc0e839cd9)
+
 
 Key in Shop Shows The Chat Commands & Keys Hidden After Lvl 29
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7bcf704f-396f-46d3-ab78-5b3a54b3af9f)
