@@ -55,8 +55,7 @@ Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold h
 
 Hael/Mana 1 Hidden After Lvl 7, Hael/Mana 2 Hidden After Lvl 15, Hael/Mana 3 Hidden After Lvl 19, 
 Hael/Mana 4 Hidden After Lvl 59, +H5 Hidden on Filter Lvls 3-9, +M5 Hidden on Filter Lvls 6-9
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/dc5479fb-7812-4710-aa15-3a5101e8eff7)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0cc6193-6323-4f73-9423-4e1791f5c10e)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f6b77fe6-4e0b-46c1-a52e-57943ca83675)
 
 Antis Hidden on Filter Lvls 6-9 (Antis Still Shown When Doing rathma or The Following Maps bc of High Poison Dmg, Ruins of Viz-Jun/Ancestral Trial/Kehjistan Marketplace/Tomb of Zoltun Kulle & Lost Temple)
 
