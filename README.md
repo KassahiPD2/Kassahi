@@ -80,7 +80,9 @@ Gems Also Has Some Good Info on Them
 
 Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Crafting and Maps, The Numbers in The Name is Used in Crafting as Well as RuneWord Bases (More Info Under Bases) Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/051999b5-b5d9-4936-92b1-b6fb1ebba2e2)
-
+& Runes Ofc, Also Some Info on Them
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/98282026-8478-421e-b43c-5122eb5b9a6a)
 
 
 
