@@ -59,6 +59,7 @@ Hael/Mana 4 Hidden After Lvl 59, +H5 Hidden on Filter Lvls 3-9, +M5 Hidden on Fi
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0cc6193-6323-4f73-9423-4e1791f5c10e)
 
 Antis Hidden on Filter Lvls 6-9 (Antis Still Shown When Doing rathma or The Following Maps bc of High Poison Dmg, Ruins of Viz-Jun/Ancestral Trial/Kehjistan Marketplace/Tomb of Zoltun Kulle & Lost Temple)
+
 Stams Hidden After Lvl 19, Thaws & Tp Scrolls Hidden on Filter Lvls 3-9, Id Scrolls Hidden After Lvl 74
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f3472392-3a96-4aaf-92cc-05612823b303)
 
