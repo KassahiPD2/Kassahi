@@ -11,8 +11,6 @@ I'll Try to do This as Simple as Possible, Potatoes Are Red, Heads Are Blue, oh 
 
 in All Seriousness, I'll Try to do This as Good as i Can & Sorry in Advance For Misspelling/Pronouncing Stuff Wrong, Feel Free to Ping me in Discord And Correct me Tho
 
-
-
 My Filters Have 2 Different Styles & Uniqs & Sets Has The Identified Name Shown When Unidentified as Seen Below
 Also my Meme Filters Are The Exact Same as The Counterpart, They Just Have Some Names Swapped Out For More ''Soothing'' Names, i Won't Show Any, so u Have to Discover Them For Urself ;P
 
