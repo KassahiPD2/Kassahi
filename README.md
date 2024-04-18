@@ -76,6 +76,7 @@ Here is How Gems Look, The First 3 Gets Hidden After Lvl 23, Flawless & Perfect 
 as For The o & O's (in Green Circle) They Have The Gams Original Colors And They Are Used in Crafting (More Info Under Crafting) The Orange # is Used to Highlight Which Once Are Mostly Used in Crafting For That Character ur Playing, Gray is For Other Characters
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/a848e916-63d5-4bca-9995-5cc0f052f9ac)
 Gems Also Has Some Good Info on Them
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cd80ccb6-793e-4639-acf9-d22de3a7b6f8)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/70446976-7447-419d-b70e-43ccf421421b)
 
