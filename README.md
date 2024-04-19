@@ -96,7 +96,8 @@ Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info on 
 Uber Amcients
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0b42269-a10f-44f6-9c5c-f28569a47957)
 
-
+Dclone Items
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3427dbcf-1143-4ee6-80d5-3da60a12a46a)
 
 
 
