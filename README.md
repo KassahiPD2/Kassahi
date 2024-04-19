@@ -23,6 +23,9 @@ There's The Right Ones (Hyper Versions, Has Different Styles of Highlights)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e65da0eb-798d-492e-889f-0119d520745a)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/101af282-9468-4d06-b001-764b5024d017)
 
+Filters Also Has Low Lvl Dueling Highlights
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7283a570-0134-4263-bcb4-766e52df9d35)
+
 All Items Will Always Show The Lod Style of Colors on Items (Except HighRunes/Dclone & Rathma Items in Hyper Versions)
 
 All White/Gray/Magic/Rare & Crafted Items Only Have The Real Base Name
