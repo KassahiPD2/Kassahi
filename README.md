@@ -95,7 +95,8 @@ Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info & S
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/9780d717-b501-411c-a5e9-1892d564d97b)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3c7c43b2-725c-48d9-b302-dab22a55c2ca)
 
-
+Map Materials
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/04b42cc7-9b24-4992-8eac-bba0765f7279)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7a082eeb-e766-4e23-aa13-d994b1247da1)
 
 
