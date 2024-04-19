@@ -1,4 +1,4 @@
-# Kassahi
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/221ecbb1-5344-4532-abdb-5fa6da7c1bcc)# Kassahi
  Kassahi's PD2 Loot Filter
 
 (WORK IN PROCESS)
@@ -96,6 +96,7 @@ Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info & S
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3c7c43b2-725c-48d9-b302-dab22a55c2ca)
 
 
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7a082eeb-e766-4e23-aa13-d994b1247da1)
 
 
 
