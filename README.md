@@ -90,19 +90,12 @@ Essences & Tokens
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/2cc35e76-e53e-44b5-bb54-05c432d2b35e)
 
 Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info on Them)
+Also Uber Amcient/Dclone & Rathma Materials Has The Same Kind of Style
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/650754ef-b628-439a-a9de-69a341a85f08)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8a36a1ca-6c7a-40a9-b50d-f99e9050c6d1)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/9780d717-b501-411c-a5e9-1892d564d97b)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3c7c43b2-725c-48d9-b302-dab22a55c2ca)
 
-Uber Amcient Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0b42269-a10f-44f6-9c5c-f28569a47957)
-
-Dclone Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3427dbcf-1143-4ee6-80d5-3da60a12a46a)
-
-Rathma Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/73ffe389-cd1e-4fd5-991a-1674628bc841)
 
 
 
