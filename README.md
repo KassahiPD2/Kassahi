@@ -1,4 +1,4 @@
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7fb9ff1c-c6c9-462b-95cd-0eeb4fb37dfe)Kassahi's PD2 Loot Filter
+Kassahi's PD2 Loot Filter
 
 (WORK IN PROCESS)
 (WORK IN PROCESS)
