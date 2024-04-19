@@ -120,6 +120,11 @@ Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/bff31d0a-325c-4754-b344-6d677c9e6eb4)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4c92f64e-821f-4e9d-935d-e678380ca4fd)
 
+Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg, Armors = More Def Usually) (Green Numbers: = What Runes is Needed, O: = What Gem is Needed (+Color), (Dark Green S:/D:/L: = How Much Str/Dex/Lvls is Needed)
+(Max OS = Maximum Open Sockets) (Teal Q: = Laruzk's Socket Quest) (Gold LB: = Larzuk's Puzzlebox or Puzzlepiece For Magic/Rare & Crafted Items) (Red C: = Worldstone Shard) (Up 2x: Orange C: = Upgrading 2 Times in order to Get Additional Sockets With Worldstone Shards) (Rolls OS: = Rolls Open Sockets)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66439bdf-5861-43f9-a1c5-7a5c09bf40ee)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3bdb2efb-9d27-4ed3-8aea-90bd7cc2288e)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/008a5468-27de-40b2-926e-f7c96baaea2b)
 
 
 
