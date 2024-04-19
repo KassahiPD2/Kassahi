@@ -138,6 +138,9 @@ Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg,
 (Aura: = The Aura From The Infinity in This Case) (None:-34 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster isnt Immue) (Immus:-17 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster is Immue)
 
 This Way Makes it Easier to Know What Infinity (& Other Items With Amp & Lre Etc) Can or Cant Break
+
+Little Side Note, as u Can See in The Picture it Also Says (Cya: Absord Ele Dmg:xxx)
+Thats For The (+3 to Cyclone Armor Not Buffed From Enegy) i Have Many More Cases Like This on Other Items as Well
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57)
 
 
