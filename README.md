@@ -129,6 +129,7 @@ Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg,
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cad87ccb-8d13-40ff-bb66-edc2d4b3872b)
 
 (Rolls OS: = Rolls Open Sockets)
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66df5e8e-485f-412d-8a7b-c2a01e440a53)
 
 (Base: = The Type of Base The Weapon is) (Sp: = Weapon Attack Speed) (R: = What Range The Weapon Has)
