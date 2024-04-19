@@ -102,6 +102,13 @@ Infusion Crafting Materials Has All The Info For Each Type of Craft on Them & Th
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3753fdcc-4b71-4c53-b20e-ee80479c60fb)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/474da0d1-4f21-4e51-b2f4-2c15b0b8523d)
 
+Maps Has Immunes/Highest Res/Density/Negative/Positive & Warnings if a Type of Map Always Has The Some Bad Monsters
+
+Density = Teal, Negative Modifiers = Orange, Positive = Green, Warnings = Red
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e71c92a3-20ed-4f1c-9c84-74b9e7179c34)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/06168677-acdd-491a-8273-2edd2ec68d41)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/aae46f15-1af7-4b14-a280-fb810e68cf58)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/6e64ddc3-694e-4a25-ab3a-83dacb98836f)
 
 
 
