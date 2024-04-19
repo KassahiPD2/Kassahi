@@ -88,7 +88,7 @@ Essences & Tokens
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/2cc35e76-e53e-44b5-bb54-05c432d2b35e)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/30cbec33-251b-4413-8f04-f812195e9c12)
 
-Mini Uber Keys/Organs & Items
+Mini Uber Keys/Organs
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/650754ef-b628-439a-a9de-69a341a85f08)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8a36a1ca-6c7a-40a9-b50d-f99e9050c6d1)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/9780d717-b501-411c-a5e9-1892d564d97b)
