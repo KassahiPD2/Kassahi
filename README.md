@@ -115,6 +115,7 @@ Density = Teal, Negative Modifiers = Orange, Positive = Green, Warnings = Red
 
 Crafting Info, Rings & Amulets Has ''C: xx+'' in The Names (C = Crafting), Meaning Its The Minimum Character Lvl Needed in Order to Get Some Like 2 Skills/20 Fcr
 Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of The Craft, to See The Alvl Before Its Crafted With The Character ur Using, if The Number is Orange ur Good to go, if White u Need Higher Clvl (Character Lvl) or a Higher Ilvl (Item Lvl) From The Item itself
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e6e6bdf6-db27-4ab6-ab87-fdab59c4407d)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/bff31d0a-325c-4754-b344-6d677c9e6eb4)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4c92f64e-821f-4e9d-935d-e678380ca4fd)
