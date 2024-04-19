@@ -1,4 +1,4 @@
-Kassahi's PD2 Loot Filter
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7fb9ff1c-c6c9-462b-95cd-0eeb4fb37dfe)Kassahi's PD2 Loot Filter
 
 (WORK IN PROCESS)
 (WORK IN PROCESS)
@@ -98,7 +98,9 @@ Map Materials
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/04b42cc7-9b24-4992-8eac-bba0765f7279)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7a082eeb-e766-4e23-aa13-d994b1247da1)
 
-
+Infusion Crafting Materials Has All The Info For Each Type of Craft on Them & The Same Type of 
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/c4ae6b5a-58f7-4caf-92e1-06bf56ed8d39)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/474da0d1-4f21-4e51-b2f4-2c15b0b8523d)
 
 
 
