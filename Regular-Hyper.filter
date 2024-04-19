@@ -1495,7 +1495,7 @@ ItemDisplay[dcma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtmv]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Bonfire Lit)%NL%%TAN%Drops From: %RED%Mendeln Map Events}
-ItemDisplay[cm2f]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%GRAY%(Before Dying Twice in a Row)%NL%(u May Now Spend Your Souls,)%NL%%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Made From: %RED%Torches}
+ItemDisplay[cm2f]: %PX-60%%MAP-0A%%RED%o   %ORANGE%%NAME% %TAN%x%WHITE%%QTY%   %RED%o{%GRAY%(Before Dying Twice in a Row)%NL%(u May Now Spend Your Souls,)%NL%%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Made From: %RED%Torches}
 ItemDisplay[rtmf]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Trang-Oul's Jawbone%NL%%TAN%Cube: %WHITE%2x %ORANGE%ABF, Torch %WHITE%to Make%NL%%TAN%Drops From: %RED%Undead Enemies}
 ItemDisplay[rtma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)}
 ItemDisplay[cwss]: %MAP-0A%%PURPLE%oo   %RED%Tainted Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%oo{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
