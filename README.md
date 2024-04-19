@@ -82,7 +82,9 @@ Gems Also Has Some Good Info on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cd80ccb6-793e-4639-acf9-d22de3a7b6f8)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/70446976-7447-419d-b70e-43ccf421421b)
 
-Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Crafting and Maps, The Numbers in The Name is Used in Crafting as Well as RuneWord Bases (More Info Under Bases) Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
+Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Crafting and Maps, The Numbers in The Name is Used in Crafting as Well as RuneWord Bases (More Info Under Bases)
+
+Runes Also Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/051999b5-b5d9-4936-92b1-b6fb1ebba2e2)
 & Runes Ofc, Also Some Info on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0)
@@ -114,6 +116,7 @@ Density = Teal, Negative Modifiers = Orange, Positive = Green, Warnings = Red
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/6e64ddc3-694e-4a25-ab3a-83dacb98836f)
 
 Crafting Info, Rings & Amulets Has ''C: xx+'' in The Names (C = Crafting), Meaning Its The Minimum Character Lvl Needed in Order to Get Some Like 2 Skills/20 Fcr
+
 Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of The Craft, to See The Alvl Before Its Crafted With The Character ur Using, if The Number is Orange ur Good to go, if White u Need Higher Clvl (Character Lvl) or a Higher Ilvl (Item Lvl) From The Item itself
 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e6e6bdf6-db27-4ab6-ab87-fdab59c4407d)
@@ -121,7 +124,15 @@ Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4c92f64e-821f-4e9d-935d-e678380ca4fd)
 
 Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg, Armors = More Def Usually) (Green Numbers: = What Runes is Needed, O: = What Gem is Needed (+Color), (Dark Green S:/D:/L: = How Much Str/Dex/Lvls is Needed)
-(Max OS = Maximum Open Sockets) (Teal Q: = Laruzk's Socket Quest) (Gold LB: = Larzuk's Puzzlebox or Puzzlepiece For Magic/Rare & Crafted Items) (Red C: = Worldstone Shard) (Up 2x: Orange C: = Upgrading 2 Times in order to Get Additional Sockets With Worldstone Shards) (Rolls OS: = Rolls Open Sockets)
+
+(Max OS = Maximum Open Sockets) (Teal Q: = Laruzk's Socket Quest) (Gold LB: = Larzuk's Puzzlebox or Puzzlepiece For Magic/Rare & Crafted Items) (Red C: = Worldstone Shard) (Up 2x: Orange C: = Upgrading 2 Times in order to Get Additional Sockets With Worldstone Shards)
+
+(Rolls OS: = Rolls Open Sockets)
+
+
+
+
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66439bdf-5861-43f9-a1c5-7a5c09bf40ee)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3bdb2efb-9d27-4ed3-8aea-90bd7cc2288e)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/008a5468-27de-40b2-926e-f7c96baaea2b)
