@@ -86,7 +86,7 @@ Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Cr
 
 Runes Also Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/051999b5-b5d9-4936-92b1-b6fb1ebba2e2)
-& Runes Ofc, Also Some Info on Them
+& Runes Ofc, Also Has Some Info on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/98282026-8478-421e-b43c-5122eb5b9a6a)
 
@@ -126,16 +126,19 @@ Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of 
 Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg, Armors = More Def Usually) (Green Numbers: = What Runes is Needed, O: = What Gem is Needed (+Color), (Dark Green S:/D:/L: = How Much Str/Dex/Lvls is Needed)
 
 (Max OS = Maximum Open Sockets) (Teal Q: = Laruzk's Socket Quest) (Gold LB: = Larzuk's Puzzlebox or Puzzlepiece For Magic/Rare & Crafted Items) (Red C: = Worldstone Shard) (Up 2x: Orange C: = Upgrading 2 Times in order to Get Additional Sockets With Worldstone Shards)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cad87ccb-8d13-40ff-bb66-edc2d4b3872b)
 
 (Rolls OS: = Rolls Open Sockets)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66df5e8e-485f-412d-8a7b-c2a01e440a53)
 
+(Base: = The Type of Base The Weapon is) (Sp: = Weapon Attack Speed) (R: = What Range The Weapon Has)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/ca4f153c-fff2-480f-b836-d8de3b4e79cb)
 
+(Aura: = The Aura From The Infinity in This Case) (None:-34 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster isnt Immue) (Immus:-17 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster is Immue)
 
+This Way Makes it Easier to Know What Infinity (& Other Items With Amp & Lre Etc) Can or Cant Break
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57)
 
-
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66439bdf-5861-43f9-a1c5-7a5c09bf40ee)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3bdb2efb-9d27-4ed3-8aea-90bd7cc2288e)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/008a5468-27de-40b2-926e-f7c96baaea2b)
 
 
 
