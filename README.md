@@ -84,7 +84,9 @@ Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Cr
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/98282026-8478-421e-b43c-5122eb5b9a6a)
 
-
+Essences & Tokens
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/2cc35e76-e53e-44b5-bb54-05c432d2b35e)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/30cbec33-251b-4413-8f04-f812195e9c12)
 
 
 
