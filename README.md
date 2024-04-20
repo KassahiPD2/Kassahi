@@ -176,7 +176,8 @@ Shop/Chargers/+3 Skills/+2 Character Skills/+3 tree Skills & Some Early Highligh
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/a0ac6564-6fe5-4104-b5f7-961ac1b7ba9b)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cb5621a7-c92d-4e61-9217-d2053edc639c)
 
-
+Lld = Low Lvl Dualing Highlights
+![Uploading image.png…]()
 
 
 
