@@ -151,7 +151,9 @@ Half Freeze Duration & Cannot be Frozen Info on Items With Hfd, (Inventory And S
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/33d5fa27-d19a-4ba0-af38-40e91fc74966)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/032fd23b-23e1-408f-9eb7-7b786d9de691)
 
-
+Bases With Open Sockets Has Its Possible RWs on Them
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f52901c3-5952-49fb-a6b0-ae3e08f96509)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e0e01ef2-5b18-4bc5-a806-8ca20144de54)
 
 
 
