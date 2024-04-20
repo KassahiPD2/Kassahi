@@ -143,8 +143,13 @@ Little Side Note, as u Can See in The Picture it Also Says (Cya: Absord Ele Dmg:
 Thats For The (+3 to Cyclone Armor Not Buffed From Enegy) i Have Many More Cases Like This on Other Items as Well
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57)
 
+Half Freeze Duration & Cannot be Frozen Info on Items With Hfd, (Inventory And Stash = 2x Hfd = Cbf) (if 1/2/3 Items Etc, is Equipped Its Shown 1 = Gray, 2 = Green, 3+ = Red) (if u Already Have Cbf on itll Let u Know)
 
-
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7b135409-9f34-4ba3-bd13-5a5eb3e15be7)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/d46cef96-7984-4e34-bcf1-74490314b581)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/73bf7f6a-4157-43bd-b3f9-bd4c5fe324d2)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/33d5fa27-d19a-4ba0-af38-40e91fc74966)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/032fd23b-23e1-408f-9eb7-7b786d9de691)
 
 
 
