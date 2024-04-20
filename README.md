@@ -155,7 +155,8 @@ Bases With Open Sockets Has Its Possible RWs on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f52901c3-5952-49fb-a6b0-ae3e08f96509)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e0e01ef2-5b18-4bc5-a806-8ca20144de54)
 
-
+Gold Info, Most Items Has it
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4ab06a1c-8dd2-4a30-a31a-f8ed7e877520)
 
 
 
