@@ -180,7 +180,7 @@ Lld = Low Lvl Dualing Highlights
 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3ee3c050-0be6-4b94-8b15-7f7f10837ebe)
 
-Rare Jewels Rerolling Info
+Rare Jewels Rerolling Info, Shown The Ilvl Before Its Rerolled
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/006794dc-7333-429c-a6ad-d4026e65ea0f)
 
 & as u Have Already Seen a Ton of, But Items Has Stats Shown in The Name
