@@ -158,12 +158,11 @@ Bases With Open Sockets Has Its Possible RWs on Them
 Gold Info, Most Items Has it
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4ab06a1c-8dd2-4a30-a31a-f8ed7e877520)
 
-Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed & Full: is Full Set)
+Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed & Full: is Full Set) Set Boots Also Has Kick Dmg Info
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8322e77b-5d6f-4762-a011-5acbed0182ca)
-
-Set Boots Also Has Kick Dmg Info
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7c773401-e8ef-4060-897b-50490c75349e)
 
-
+Gamble Venders Has Possible Uniqs & Sets Info
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/aa2ceef7-6e0d-40da-9b68-a2c5e03a6a9e)
 
 
