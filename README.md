@@ -73,7 +73,7 @@ Key in Shop Shows The Chat Commands & Keys Hidden After Lvl 29
 Throws 1 Hidden After Lvl 10, Throws 2 Hidden After Lvl 20, Throws 3 Hidden After Lvl 40
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/88c81bff-c1d5-439d-833c-705f715e1302)
 
-Here is How Gems Look, The First 3 Gets Hidden After Lvl 23, Flawless & Perfect Gems is Always Shown, Perfect Has Notifications, F- = Flawless & P- Perfect Just to Shorten The Names & P-Gems is Orange Compared to other Gems
+Gems, The First 3 Gets Hidden After Lvl 23, Flawless & Perfect Gems is Always Shown (Except F-Gems on Filter lvl 9), Perfect Has Notifications, F- = Flawless & P- Perfect Just to Shorten The Names & P-Gems is Orange Compared to other Gems
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/56f43d6a-b647-41a0-9c85-1ed2e6fbfedf)
 as For The o & O's (in Green Circle) They Have The Gams Original Colors And They Are Used in Crafting (More Info Under Crafting) The Orange # is Used to Highlight Which Once Are Mostly Used in Crafting For That Character ur Playing, Gray is For Other Characters
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/a848e916-63d5-4bca-9995-5cc0f052f9ac)
