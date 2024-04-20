@@ -143,17 +143,26 @@ Little Side Note, as u Can See in The Picture it Also Says (Cya: Absord Ele Dmg:
 Thats For The (+3 to Cyclone Armor Not Buffed From Enegy) i Have Many More Cases Like This on Other Items as Well
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57)
 
+Half Freeze Duration & Cannot be Frozen Info on Items With Hfd, (Inventory And Stash = 2x Hfd = Cbf) (if 1/2/3 Items Etc, is Equipped Its Shown 1 = Gray, 2 = Green, 3+ = Red) (if u Already Have Cbf on itll Let u Know)
 
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7b135409-9f34-4ba3-bd13-5a5eb3e15be7)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/d46cef96-7984-4e34-bcf1-74490314b581)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/73bf7f6a-4157-43bd-b3f9-bd4c5fe324d2)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/33d5fa27-d19a-4ba0-af38-40e91fc74966)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/032fd23b-23e1-408f-9eb7-7b786d9de691)
 
+Bases With Open Sockets Has Its Possible RWs on Them
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f52901c3-5952-49fb-a6b0-ae3e08f96509)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e0e01ef2-5b18-4bc5-a806-8ca20144de54)
 
+Gold Info, Most Items Has it
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4ab06a1c-8dd2-4a30-a31a-f8ed7e877520)
 
+Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed & Full: is Full Set) Set Boots Also Has Kick Dmg Info
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8322e77b-5d6f-4762-a011-5acbed0182ca)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7c773401-e8ef-4060-897b-50490c75349e)
 
-
-
-
-
-
-
-
+Gamble Venders Has Possible Uniqs & Sets Info
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/aa2ceef7-6e0d-40da-9b68-a2c5e03a6a9e)
 
 
