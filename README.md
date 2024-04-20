@@ -1,5 +1,4 @@
-# Kassahi
- Kassahi's PD2 Loot Filter
+Kassahi's PD2 Loot Filter
 
 (WORK IN PROCESS)
 (WORK IN PROCESS)
@@ -16,13 +15,16 @@ Also my Meme Filters Are The Exact Same as The Counterpart, They Just Have Some 
 
 There's The Right Ones (Hyper Versions, Has Different Styles of Highlights)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/577946a9-db53-4bad-b051-78b94190f708)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/699c282e-15ed-4765-bc10-e5085eb55889)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
 
 & There's The Fake Ones (Non Hyper Versions, Has Only 1 Style of Highlights)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/009503c8-1356-41fc-a5f6-58f6c6018565)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e65da0eb-798d-492e-889f-0119d520745a)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/101af282-9468-4d06-b001-764b5024d017)
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/328be1f6-3835-4cbd-8e38-7f5fd0e5ab12)
+
+Filters Also Has Low Lvl Dueling Highlights
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7283a570-0134-4263-bcb4-766e52df9d35)
 
 All Items Will Always Show The Lod Style of Colors on Items (Except HighRunes/Dclone & Rathma Items in Hyper Versions)
 
@@ -80,36 +82,66 @@ Gems Also Has Some Good Info on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cd80ccb6-793e-4639-acf9-d22de3a7b6f8)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/70446976-7447-419d-b70e-43ccf421421b)
 
-Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Crafting and Maps, The Numbers in The Name is Used in Crafting as Well as RuneWord Bases (More Info Under Bases) Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
+Runes Was Shown at The Top For Both Filter Types, so Lower-Mid Runes Used For Crafting and Maps, The Numbers in The Name is Used in Crafting as Well as RuneWord Bases (More Info Under Bases)
+
+Runes Also Has The Same Orange & Gray # Like Gems, But Runes Also Has Teal Color Used Mainly to Highlight What Runes That Isnt Used as Much For Crafting so They Can be Used For Maps
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/051999b5-b5d9-4936-92b1-b6fb1ebba2e2)
-& Runes Ofc, Also Some Info on Them
+& Runes Ofc, Also Has Some Info on Them
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/98282026-8478-421e-b43c-5122eb5b9a6a)
 
 Essences & Tokens
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/2cc35e76-e53e-44b5-bb54-05c432d2b35e)
 
-Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info on Them)
+Mini Uber Keys & Organs (Other Similar Items Will Have The Same Kind of Info & Style on Them)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/650754ef-b628-439a-a9de-69a341a85f08)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8a36a1ca-6c7a-40a9-b50d-f99e9050c6d1)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/9780d717-b501-411c-a5e9-1892d564d97b)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3c7c43b2-725c-48d9-b302-dab22a55c2ca)
 
-Uber Amcient Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f0b42269-a10f-44f6-9c5c-f28569a47957)
+Map Materials
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/04b42cc7-9b24-4992-8eac-bba0765f7279)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7a082eeb-e766-4e23-aa13-d994b1247da1)
 
-Dclone Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3427dbcf-1143-4ee6-80d5-3da60a12a46a)
+Infusion Crafting Materials Has All The Info For Each Type of Craft on Them & The Same Type of Idea as Gems & Runes (o/O's & Numbers)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3753fdcc-4b71-4c53-b20e-ee80479c60fb)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/474da0d1-4f21-4e51-b2f4-2c15b0b8523d)
 
-Rathma Organs
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/73ffe389-cd1e-4fd5-991a-1674628bc841)
+Maps Has Immunes/Highest Res/Density/Negative/Positive & Warnings if a Type of Map Always Has The Some Bad Monsters
 
+Density = Teal, Negative Modifiers = Orange, Positive = Green, Warnings = Red
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e71c92a3-20ed-4f1c-9c84-74b9e7179c34)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/06168677-acdd-491a-8273-2edd2ec68d41)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/aae46f15-1af7-4b14-a280-fb810e68cf58)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/6e64ddc3-694e-4a25-ab3a-83dacb98836f)
 
+Crafting Info, Rings & Amulets Has ''C: xx+'' in The Names (C = Crafting), Meaning Its The Minimum Character Lvl Needed in Order to Get Some Like 2 Skills/20 Fcr
 
+Magic & Rare Items Also Has Crafting Info in The Description For The Outcome of The Craft, to See The Alvl Before Its Crafted With The Character ur Using, if The Number is Orange ur Good to go, if White u Need Higher Clvl (Character Lvl) or a Higher Ilvl (Item Lvl) From The Item itself
 
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e6e6bdf6-db27-4ab6-ab87-fdab59c4407d)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/bff31d0a-325c-4754-b344-6d677c9e6eb4)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4c92f64e-821f-4e9d-935d-e678380ca4fd)
 
+Item Description Info, (Up = Upgrading an Item to Next Tier, Weapons = More Dmg, Armors = More Def Usually) (Green Numbers: = What Runes is Needed, O: = What Gem is Needed (+Color), (Dark Green S:/D:/L: = How Much Str/Dex/Lvls is Needed)
 
+(Max OS = Maximum Open Sockets) (Teal Q: = Laruzk's Socket Quest) (Gold LB: = Larzuk's Puzzlebox or Puzzlepiece For Magic/Rare & Crafted Items) (Red C: = Worldstone Shard) (Up 2x: Orange C: = Upgrading 2 Times in order to Get Additional Sockets With Worldstone Shards)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cad87ccb-8d13-40ff-bb66-edc2d4b3872b)
 
+(Rolls OS: = Rolls Open Sockets)
+
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/66df5e8e-485f-412d-8a7b-c2a01e440a53)
+
+(Base: = The Type of Base The Weapon is) (Sp: = Weapon Attack Speed) (R: = What Range The Weapon Has)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/ca4f153c-fff2-480f-b836-d8de3b4e79cb)
+
+(Aura: = The Aura From The Infinity in This Case) (None:-34 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster isnt Immue) (Immus:-17 = How Much -Res/Pierce The Monsters Get From Infinity if a Monster is Immue)
+
+This Way Makes it Easier to Know What Infinity (& Other Items With Amp & Lre Etc) Can or Cant Break
+
+Little Side Note, as u Can See in The Picture it Also Says (Cya: Absord Ele Dmg:xxx)
+Thats For The (+3 to Cyclone Armor Not Buffed From Enegy) i Have Many More Cases Like This on Other Items as Well
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57)
 
 
 
