@@ -161,7 +161,8 @@ Gold Info, Most Items Has it
 Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed & Full: is Full Set)
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8322e77b-5d6f-4762-a011-5acbed0182ca)
 
-
+Set Boots Also Has Kick Dmg Info
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7c773401-e8ef-4060-897b-50490c75349e)
 
 
 
