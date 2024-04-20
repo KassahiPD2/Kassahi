@@ -158,7 +158,8 @@ Bases With Open Sockets Has Its Possible RWs on Them
 Gold Info, Most Items Has it
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/4ab06a1c-8dd2-4a30-a31a-f8ed7e877520)
 
-
+Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed & Full: is Full Set)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/8322e77b-5d6f-4762-a011-5acbed0182ca)
 
 
 
