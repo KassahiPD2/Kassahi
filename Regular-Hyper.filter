@@ -1552,7 +1552,7 @@ ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%
 ItemDisplay[t13]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
 ItemDisplay[t14]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %YELLOW%L:125, %GREEN%P:130%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
 ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:60%NAME%}%CONTINUE% // Royal Crypts 170
-ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: %BLUE%C:115, %GREEN%P:140, %ORANGE%M:125%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
+ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: %RED%F:135, %BLUE%C:115, %ORANGE%M:125%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
 ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:140, %YELLOW%L:125%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:75%NAME%}%CONTINUE% // Phlegethon 145
 ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Torajan Jungle 148
 ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
