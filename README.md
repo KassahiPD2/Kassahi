@@ -163,6 +163,48 @@ Set Items Well Show Its Set Bonuses (2:/3:/4: Etc, is How Many Pieces is Needed 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/7c773401-e8ef-4060-897b-50490c75349e)
 
 Gamble Venders Has Possible Uniqs & Sets Info
+
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/aa2ceef7-6e0d-40da-9b68-a2c5e03a6a9e)
+
+Mirrored/Good & 5+ Skills Items Highlighting (Mirrored Purple White Orange White Purple) (Good & 5+ Skills Orange red Green Red Orange)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/f996d68b-1e7a-4d0c-9316-e37871cb982b)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/079f0284-fb95-4f55-a769-2e151bf9a4c6)
+
+Shop/Chargers/+3 Skills/+2 Character Skills/+3 tree Skills & Some Early Highlighting on Filter Lvl 1 (Chargers/+3 Skills Sage Coral Yellow Coral Sage) (+2 Character & +3 tree Skills Sage Coral Red Coral Sage) (Early highlights Orange Red Green Red Orange, But Smaller Than Good & 5+ Skills Items Highlighting)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/957abc45-c459-45e9-b10f-a820a72251ec)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/88b3d46e-edcd-4819-b45f-ab46202ca30d)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/a0ac6564-6fe5-4104-b5f7-961ac1b7ba9b)
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/cb5621a7-c92d-4e61-9217-d2053edc639c)
+
+Lld = Low Lvl Dualing Highlights
+
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3ee3c050-0be6-4b94-8b15-7f7f10837ebe)
+
+Rare Jewels Rerolling Info, Shown The Ilvl Before Its Rerolled
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/006794dc-7333-429c-a6ad-d4026e65ea0f)
+
+& as u Have Already Seen a Ton of, But Items Has Stats Shown in The Name
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/62f634f7-5f63-4978-9900-817d848beebb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
