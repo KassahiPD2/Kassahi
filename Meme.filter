@@ -1254,31 +1254,31 @@ ItemDisplay[GOLD<50]:
 ItemDisplay[GOLD<500 CLVL>17]:
 ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
-ItemDisplay[(FILTLVL>2 FILTLVL<9) rvs]:
+ItemDisplay[FILTLVL>2 rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%
-ItemDisplay[rvl]: %PURPLE%+%WHITE%Juice%PURPLE%+
+ItemDisplay[rvl]: %PURPLE%O%WHITE%Juice%PURPLE%O
 ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Heal 1
 ItemDisplay[hp2 CLVL<15]: %RED%+%WHITE%Heal 2
 ItemDisplay[hp3 CLVL<19]: %RED%+%WHITE%Heal 3
 ItemDisplay[hp4 CLVL<59]: %RED%+%WHITE%Heal 4
-ItemDisplay[(FILTLVL>2 FILTLVL<9) hp5]:
+ItemDisplay[FILTLVL>2 hp5]:
 ItemDisplay[hp5]: %RED%+%WHITE%H5
 ItemDisplay[mp1 CLVL<7]: %BLUE%+%WHITE%Mana 1
 ItemDisplay[mp2 CLVL<15]: %BLUE%+%WHITE%Mana 2
 ItemDisplay[mp3 CLVL<19]: %BLUE%+%WHITE%Mana 3
 ItemDisplay[mp4 CLVL<59]: %BLUE%+%WHITE%Mana 4
-ItemDisplay[(FILTLVL>5 FILTLVL<9) mp5]:
+ItemDisplay[FILTLVL>5 mp5]:
 ItemDisplay[mp5]: %BLUE%+%WHITE%M5
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
-ItemDisplay[(FILTLVL>5 FILTLVL<9) ((MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158)) yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
-ItemDisplay[(FILTLVL>5 FILTLVL<9) yps]:
+ItemDisplay[FILTLVL>5 ((MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158)) yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+ItemDisplay[FILTLVL>5 yps]:
 ItemDisplay[yps]: %GREEN%+%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[vps CLVL<20]: %SAGE%+%WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[FILTLVL>2 wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[wms]: %YELLOW%+%WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[(FILTLVL>2 FILTLVL<9) tsc]:
+ItemDisplay[FILTLVL>2 tsc]:
 ItemDisplay[tsc]: %DARK_GREEN%+%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
