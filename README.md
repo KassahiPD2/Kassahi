@@ -8,6 +8,7 @@ Kassahi's PD2 Loot Filter
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Filter Lvls Info
 
 2 and higher hides: some lvling/shop stuff + bases under 10 ED, not including Eths
 
