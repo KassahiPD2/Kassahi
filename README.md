@@ -47,7 +47,8 @@ that in total would be 7-8 filter lvls atm (depending on what i do with filter l
 
 my new very strict lvls for each would be something like removing F-gems, Eth Bases <10 ED, and some magic/rare items as well as notifications from lower runes and most likely some other items as well 
 
-here is a pic of what it would kinda look if it helps, and as always feedback is VERY welcome
+here is a pic of the lvls if it helps, and as always feedback is VERY welcome
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/5a4d02b7-5073-4a69-93e9-398d65d35431)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
