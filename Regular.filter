@@ -1799,7 +1799,7 @@ ItemDisplay[MAG rin (ILVL=92 OR ILVL=93)]: %NAME% %ORANGE%C: %WHITE%70+%CONTINUE
 ItemDisplay[MAG rin (ILVL=94 OR ILVL=95)]: %NAME% %ORANGE%C: %WHITE%68+%CONTINUE%
 ItemDisplay[MAG rin (ILVL=96 OR ILVL=97)]: %NAME% %ORANGE%C: %WHITE%66+%CONTINUE%
 ItemDisplay[MAG rin (ILVL=98 OR ILVL=99)]: %NAME% %ORANGE%C: %WHITE%64+%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL>8) MAG !ID (amu OR rin)]:
+ItemDisplay[(FILTLVL=5 OR FILTLVL>7) MAG !ID (amu OR rin)]:
 ItemDisplay[CLVL<29 MAG !ID rin]: %MAP-97%%NAME%
 ItemDisplay[FILTLVL<2 MAG !ID amu]: %MAP-97%%NAME%
 ItemDisplay[MAG !ID (amu OR rin)]: %NAME%
