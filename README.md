@@ -236,7 +236,8 @@ Rare Jewels Rerolling Info, Shown The Ilvl Before Its Rerolled
 & as u Have Already Seen a Ton of, But Items Has Stats Shown in The Name
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/62f634f7-5f63-4978-9900-817d848beebb)
 
-
+Bases Highlighted For RWs Both in Lvling & End Game, Lvling is Orange & Only Shown on Filter Lvl 1, End Game is Green & is on All Filter Lvls
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e9742ba5-9cfb-45aa-afc9-5ad18219985d)
 
 
 
