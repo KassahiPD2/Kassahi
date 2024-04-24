@@ -32,6 +32,7 @@ that's like a quick summary of what the filter lvls does atm, i do have plans to
 NEW FILTER LVLS INFO (Not Online Yet if u Read This)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Filter Lvl 1: Starter Filter Lvl (S9)
+
 All Lvls Under Hides: Tp scrolls, 35% Juvs, Lvling (Highlights/RWs), Under 10 Ed/+3 Skill Bases (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange * on Magic/Rare 
 
 Filter Lvl 2: S: H5. Small Strictness
