@@ -6,30 +6,7 @@ Kassahi's PD2 Loot Filter
 (WORK IN PROCESS)
 (WORK IN PROCESS)
 
-
-
-present Filter Lvls Info
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-2 and higher hides: some lvling/shop stuff + bases under 10 ED, not including Eths
-
-3 and higher hides: tp scroll/hp5/35% juv/Thaw pots
-
-4-5 hides: magic/rare class items, not including ur chars
-
-5 hides: Magic rings/amulets/+3 skill bases
-
-6 and higher hides: mp5/anti pots, not affected at rathma
-
-7-8-9: does the same as lvl 4-5 just for mp5/anti pots
-
-9 hides: F-Gems and removes some of the notifications from magic charms/jewel/runes under lem & the global crafting items i have highlighted on other lvls
-
-that's like a quick summary of what the filter lvls does atm, i do have plans to do a bit of an overhaul, to make it more compact some of the lvls and trying to give me more room to work with
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-NEW FILTER LVLS INFO (Not Online Yet if u Read This)
+NEW FILTER LVLS INFO
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Filter Lvl 1: Starter Filter Lvl (S9)
 
