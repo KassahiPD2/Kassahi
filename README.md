@@ -31,26 +31,32 @@ that's like a quick summary of what the filter lvls does atm, i do have plans to
 
 NEW FILTER LVLS INFO
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starter Filter Lvl (S9)
 
-so i got some thoughts i want to share and get some feedback on, lately i have been thinking about making some new filter lvls 
 
-thought about 2 things with Filter lvl 2 added +3 bases into it and let it stay lvl 2 or include lvl 2's stuff into lvl 1 so when u go from 1 to 2 its only in lvl 1 (hides on higher lvls)
+S: H5/Juice. Small Strictness
 
-next 2 filter lvls would show H5 thinking about if the first lvl should show 35% juv or not, but would hide tp scroll/thaw pots, 
-last lvl would +35 juv & magic/rare class items not including ur char, magic rings & amulets
 
-next 2 filter lvls would show M5/Anti pots thinking about if the second lvl should show Anti or not, both pots will still show in rathma areas from here on out with more strict lvls, first M5 lvl will hide the pots/scroll from the H5 lvls only, second M5 lvl will hide magic/rare class items not including ur char, magic rings & amulets as well
+S: H5/Juice. Medium Strictness
 
-the last 2 filter lvls will be the most strict once hiding all pots except Juice (65% juvs), thats also the first lvl, second lvl will hide all the magic/rare class items not including ur char, magic rings & amulets
 
-that in total would be 7-8 filter lvls atm (depending on what i do with filter lvl 2) however i still want to also make a Very Strictness filter lvls for each of the 3 types of new lvls that would make it into 10-11 filter lvls, which atm isn't possible but some of us creators have been asking for more so hoping we get it at some point, i do have a question for the ppl that want to use the filter lvls with H5/M5, would those new lvls be strict enough or would u want a very strict lvl like i have plans to make for the last 2 lvls with no pots
+S: M5/Juice. Small Strictness
 
-my new very strict lvls for each would be something like removing F-gems, Eth Bases <10 ED, and some magic/rare items as well as notifications from lower runes and most likely some other items as well 
 
-here is a pic of the lvls if it helps, and as always feedback is VERY welcome
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/5a4d02b7-5073-4a69-93e9-398d65d35431)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-PLAYING AROUND
+S: M5/Juice. Medium Strictness
+
+
+S: Juice. Small Strictness
+
+
+S: Juice. Medium Strictness
+
+
+S: Juice. Large Strictness
+
+
+S: Juice. Extra Strictness
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
