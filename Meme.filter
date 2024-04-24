@@ -1666,13 +1666,36 @@ ItemDisplay[RARE MAPTIER>0]: %YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI MAPTIER>0]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 // TIERS FOR MAPS
 ItemDisplay[NMAG MAPTIER>0]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[MAPTIER=0]: %DOT-80%%NAME% %TAN%o{%NAME%}
-ItemDisplay[MAPTIER=1]: %MAP-80%%TEAL%T1 %NAME% %TEAL%o{%NAME%}
-ItemDisplay[MAPTIER=2]: %MAP-80%%TEAL%T2 %NAME% %TEAL%o{%NAME%}
-ItemDisplay[MAPTIER=3]: %MAP-9F%%TEAL%T3 %NAME% %TEAL%o{%NAME%}
-ItemDisplay[MAPTIER=4]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%o{%NAME%}
-ItemDisplay[(t53)]: %MAP-80%%RED%o%ORANGE%o     %RED%T2 %NAME%     %ORANGE%o%RED%o{%NAME%}
-ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%o%ORANGE%o     %RED%T3 %NAME%     %ORANGE%o%RED%o{%NAME%}
+ItemDisplay[MAPTIER=0]: %DOT-80%%NAME% %TAN%+{%NAME%}
+ItemDisplay[MAPTIER=1]: %MAP-80%%TEAL%T1 %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=2]: %MAP-80%%TEAL%T2 %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=3]: %MAP-9F%%TEAL%T3 %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[MAPTIER=4]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%+{%NAME%}
+ItemDisplay[(t53)]: %MAP-80%%RED%+o%ORANGE%+     %RED%T2 %NAME%     %ORANGE%+%RED%+{%NAME%}
+ItemDisplay[(t51 OR t52)]: %MAP-80%%RED%+%ORANGE%+     %RED%T3 %NAME%     %ORANGE%+%RED%+{%NAME%}
+// MAP'S NAME IMMUNITIES
+ItemDisplay[t11]: %NAME% %WHITE%Im: %RED%F %YELLOW%L{%NAME%}
+ItemDisplay[t12]: %NAME% %WHITE%Im: %RED%F %BLUE%C{%NAME%}
+ItemDisplay[t13]: %NAME% %WHITE%Im: %RED%F %BLUE%C %GOLD%Ph{%NAME%}
+ItemDisplay[t14]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P{%NAME%}
+ItemDisplay[t15]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %ORANGE%M{%NAME%}
+ItemDisplay[t16]: %NAME% %WHITE%Im: %RED%F %BLUE%C %ORANGE%M{%NAME%}
+ItemDisplay[t21]: %NAME% %WHITE%Im: %RED%F %YELLOW%L{%NAME%}
+ItemDisplay[t22]: %NAME% %WHITE%Im: %RED%F %YELLOW%L{%NAME%}
+ItemDisplay[t23]: %NAME% %WHITE%Im: %RED%F %YELLOW%L{%NAME%}
+ItemDisplay[t24]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P %GOLD%Ph{%NAME%}
+ItemDisplay[t25]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P{%NAME%}
+ItemDisplay[t26]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %GOLD%Ph{%NAME%}
+ItemDisplay[t31]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %ORANGE%M{%NAME%}
+ItemDisplay[t32]: %NAME% %WHITE%Im: %YELLOW%L %BLUE%C{%NAME%}
+ItemDisplay[t33]: %NAME% %WHITE%Im: %RED%F %BLUE%C{%NAME%}
+ItemDisplay[t34]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P{%NAME%}
+ItemDisplay[t35]: %NAME%{%NAME%}
+ItemDisplay[t36]: %NAME% %WHITE%Im: %YELLOW%L %BLUE%C{%NAME%}
+ItemDisplay[t37]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P %GOLD%Ph{%NAME%}
+ItemDisplay[t38]: %NAME% %WHITE%Im: %RED%F %GREEN%P %GOLD%Ph{%NAME%}
+ItemDisplay[t39]: %NAME% %WHITE%Im: %RED%F %BLUE%C %GREEN%P{%NAME%}
+ItemDisplay[t3a]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %ORANGE%M{%NAME%}
 
 
 
