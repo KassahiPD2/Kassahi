@@ -29,33 +29,36 @@ that's like a quick summary of what the filter lvls does atm, i do have plans to
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-NEW FILTER LVLS INFO
+NEW FILTER LVLS INFO (Not Online Yet if u Read This)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starter Filter Lvl (S9)
+Filter Lvl 1: Starter Filter Lvl (S9)
+Shows:
 
 
-S: H5/Juice. Small Strictness
+All Lvls Under Hides: Tp scrolls, 35% Juvs, Lvling (Highlights/RWs), Under 10 Ed/+3 Skill Bases (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange * on Magic/Rare 
+
+Filter Lvl 2: S: H5. Small Strictness
 
 
-S: H5/Juice. Medium Strictness
+Filter Lvl 3: S: H5. Medium Strictness
 
 
-S: M5/Juice. Small Strictness
+Filter Lvl 4: S: M5. Small Strictness
 
 
-S: M5/Juice. Medium Strictness
+Filter Lvl 5: S: M5. Medium Strictness
 
 
-S: Juice. Small Strictness
+Filter Lvl 6: S: Juice. Small Strictness
 
 
-S: Juice. Medium Strictness
+Filter Lvl 7: S: Juice. Medium Strictness
 
 
-S: Juice. Large Strictness
+Filter Lvl 8: S: Juice. Large Strictness
 
 
-S: Juice. Extra Strictness
+Filter Lvl 9: S: Juice. Extra Strictness
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
