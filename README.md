@@ -37,27 +37,29 @@ All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under
 
 Filter Lvl 2: S: H5. Small Strictness
 
-Hides:
+Hides: M5
 
 Filter Lvl 3: S: H5. Medium Strictness
 
-Hides:
+Hides: M5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
 Filter Lvl 4: S: M5. Small Strictness
 
-
+Hides: H5
 
 Filter Lvl 5: S: M5. Medium Strictness
 
-
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
 Filter Lvl 6: S: Juice. Small Strictness
 
+Hides: H5/M5
 
+All Lvls Under Also Hides: H5/M5
 
 Filter Lvl 7: S: Juice. Medium Strictness
 
-
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
 Filter Lvl 8: S: Juice. Large Strictness
 
