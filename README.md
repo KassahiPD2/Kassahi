@@ -53,20 +53,27 @@ Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
 Filter Lvl 6: S: Juice. Small Strictness
 -
-Hides: H5/M5
-
-All Lvls Under Also Hides: H5/M5
+Hides: H5/M5 (All Lvls Under)
 
 Filter Lvl 7: S: Juice. Medium Strictness
 -
-Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets (All Lvls Under)
 
 Filter Lvl 8: S: Juice. Large Strictness
 -
-
+Hides: F-Gems, LLD Uniqs/Sets (All Lvls Under), 
 
 Filter Lvl 9: S: Juice. Extra Strictness
 -
+Hides: Notifier on Runes Under Lem, 
+
+
+
+if u Want to Check For More Specific Stuff
+-
+https://betweenwalls.github.io/filterbird/?v=PD2
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e62a3a00-5bb0-4764-b048-9484e1f35869)
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
