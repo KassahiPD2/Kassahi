@@ -6,49 +6,50 @@ Kassahi's PD2 Loot Filter
 (WORK IN PROCESS)
 (WORK IN PROCESS)
 
-
-
-present Filter Lvls Info
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-2 and higher hides: some lvling/shop stuff + bases under 10 ED, not including Eths
-
-3 and higher hides: tp scroll/hp5/35% juv/Thaw pots
-
-4-5 hides: magic/rare class items, not including ur chars
-
-5 hides: Magic rings/amulets/+3 skill bases
-
-6 and higher hides: mp5/anti pots, not affected at rathma
-
-7-8-9: does the same as lvl 4-5 just for mp5/anti pots
-
-9 hides: F-Gems and removes some of the notifications from magic charms/jewel/runes under lem & the global crafting items i have highlighted on other lvls
-
-that's like a quick summary of what the filter lvls does atm, i do have plans to do a bit of an overhaul, to make it more compact some of the lvls and trying to give me more room to work with
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 NEW FILTER LVLS INFO
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Filter Lvl 1: Starter Filter Lvl (S9)
 
-so i got some thoughts i want to share and get some feedback on, lately i have been thinking about making some new filter lvls 
+All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under 10 Ed/+3 Skill Bases (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange * on Magic/Rare 
 
-thought about 2 things with Filter lvl 2 added +3 bases into it and let it stay lvl 2 or include lvl 2's stuff into lvl 1 so when u go from 1 to 2 its only in lvl 1 (hides on higher lvls)
+Filter Lvl 2: S: H5. Small Strictness
+-
+Hides: M5
 
-next 2 filter lvls would show H5 thinking about if the first lvl should show 35% juv or not, but would hide tp scroll/thaw pots, 
-last lvl would +35 juv & magic/rare class items not including ur char, magic rings & amulets
+Filter Lvl 3: S: H5. Medium Strictness
+-
+Hides: M5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
-next 2 filter lvls would show M5/Anti pots thinking about if the second lvl should show Anti or not, both pots will still show in rathma areas from here on out with more strict lvls, first M5 lvl will hide the pots/scroll from the H5 lvls only, second M5 lvl will hide magic/rare class items not including ur char, magic rings & amulets as well
+Filter Lvl 4: S: M5. Small Strictness
+-
+Hides: H5
 
-the last 2 filter lvls will be the most strict once hiding all pots except Juice (65% juvs), thats also the first lvl, second lvl will hide all the magic/rare class items not including ur char, magic rings & amulets
+Filter Lvl 5: S: M5. Medium Strictness
+-
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
 
-that in total would be 7-8 filter lvls atm (depending on what i do with filter lvl 2) however i still want to also make a Very Strictness filter lvls for each of the 3 types of new lvls that would make it into 10-11 filter lvls, which atm isn't possible but some of us creators have been asking for more so hoping we get it at some point, i do have a question for the ppl that want to use the filter lvls with H5/M5, would those new lvls be strict enough or would u want a very strict lvl like i have plans to make for the last 2 lvls with no pots
+Filter Lvl 6: S: Juice. Small Strictness
+-
+Hides: H5/M5 (All Lvls Under)
 
-my new very strict lvls for each would be something like removing F-gems, Eth Bases <10 ED, and some magic/rare items as well as notifications from lower runes and most likely some other items as well 
+Filter Lvl 7: S: Juice. Medium Strictness
+-
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets (All Lvls Under)
 
-here is a pic of the lvls if it helps, and as always feedback is VERY welcome
-![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/5a4d02b7-5073-4a69-93e9-398d65d35431)
+Filter Lvl 8: S: Juice. Large Strictness
+-
+Hides: F-Gems, LLD Uniqs/Sets, Last Remaining Magic/Rare Char Items (All Lvls Under), 
+
+Filter Lvl 9: S: Juice. Extra Strictness
+-
+Hides: Uniqs/Sets With Gray x/* in Name, Magic/Rare Crafting Bases (The Global Once), Ton of Magic/Rare Items, Notifier on Runes Under Lem, Notifier on Magic Charms/Jewel, All Magic Circlets
+
+if u Want to Check For More Specific Stuff
+-
+https://betweenwalls.github.io/filterbird/?v=PD2
+
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/e62a3a00-5bb0-4764-b048-9484e1f35869)
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
