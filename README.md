@@ -42,7 +42,7 @@ Hides: F-Gems, LLD Uniqs/Sets, Last Remaining Magic/Rare Char Items (All Lvls Un
 
 Filter Lvl 9: S: Juice. Extra Strictness
 -
-Hides: Uniqs/Sets With Gray x/* in Name, Magic/Rare Crafting Bases (The Global Once), Ton of Magic/Rare Items, Notifier on Runes Under Lem, Notifier on Magic Charms/Jewel, All Magic Circlets
+Hides: Uniqs/Sets With Gray x/* in Name, Magic/Rare Crafting Bases (The Global Once), Ton of Magic/Rare Items, Bases With 10+ Ed (Non Eth), Notifier on Runes Under Lem, Notifier on Magic Charms/Jewel, All Magic Circlets
 
 if u Want to Check For More Specific Stuff
 -
