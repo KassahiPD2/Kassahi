@@ -34,7 +34,7 @@ Hides: H5/M5 (All Lvls Under)
 
 Filter Lvl 7: S: Juice. Medium Strictness
 -
-Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets (All Lvls Under)
+Hides: Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets (All Lvls Under)
 
 Filter Lvl 8: S: Juice. Large Strictness
 -
