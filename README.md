@@ -64,6 +64,9 @@ in All Seriousness, I'll Try to do This as Good as i Can & Sorry in Advance For 
 My Filters Have 2 Different Styles & Uniqs & Sets Has The Identified Name Shown When Unidentified as Seen Below
 Also my Meme Filters Are The Exact Same as The Counterpart, They Just Have Some Names Swapped Out For More ''Soothing'' Names, i Won't Show Any, so u Have to Discover Them For Urself ;P
 
+From Under Here u Can Press on The Text With The Arrow at The Start of Each Line to See Pictures
+-
+
 <details>
   <summary>There's The Right Ones (Hyper Versions, Has Different Styles of Highlights)</summary>
   
