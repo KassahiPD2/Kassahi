@@ -10,7 +10,7 @@ NEW FILTER LVLS INFO
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Filter Lvl 1: Starter Filter Lvl (S9)
 
-All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under 10 Ed/+3 Skill Bases (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange * on Magic/Rare 
+All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under 10 Ed (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange * on Magic/Rare 
 
 Filter Lvl 2: S: H5. Small Strictness
 -
@@ -18,7 +18,7 @@ Hides: M5
 
 Filter Lvl 3: S: H5. Medium Strictness
 -
-Hides: M5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
+Hides: M5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets, +3 Skill Bases
 
 Filter Lvl 4: S: M5. Small Strictness
 -
@@ -26,7 +26,7 @@ Hides: H5
 
 Filter Lvl 5: S: M5. Medium Strictness
 -
-Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets
+Hides: H5, Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets, +3 Skill Bases
 
 Filter Lvl 6: S: Juice. Small Strictness
 -
@@ -34,7 +34,7 @@ Hides: H5/M5 (All Lvls Under)
 
 Filter Lvl 7: S: Juice. Medium Strictness
 -
-Hides: Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets (All Lvls Under)
+Hides: Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets, +3 Skill Bases (All Lvls Under)
 
 Filter Lvl 8: S: Juice. Large Strictness
 -
