@@ -38,7 +38,7 @@ Hides: Magic/Rare Class Item, (Ur Char Not Included), Magic Rings/Amulets, +3 Sk
 
 Filter Lvl 8: S: Juice. Large Strictness
 -
-Hides: F-Gems, LLD Uniqs/Sets, Last Remaining Magic/Rare Char Items (All Lvls Under), 
+Hides: F-Gems, Non Highlithed & LLD Uniqs/Sets, Last Remaining Magic/Rare Char Items (All Lvls Under), 
 
 Filter Lvl 9: S: Juice. Extra Strictness
 -
