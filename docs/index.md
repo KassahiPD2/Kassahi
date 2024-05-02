@@ -8,7 +8,7 @@
 
 Welcome to Kassahi's PD2 loot filter. This loot filter is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
 
-On the left hand side of the page you will find a list of topics that dive deeper into the levels and examples.
+On the left hand side of the page (hamburger menu if no sidebar) you will find a list of topics that dive deeper into the levels and examples.
 
 Helpful external links:
 
