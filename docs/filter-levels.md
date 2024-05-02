@@ -6,7 +6,9 @@ The filter levels are used to determine the level of filtering that is applied t
 
 All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under 10 Ed (Eth Not Included), Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors, Highlighted Orange `*` (star) on Magic/Rare
 
-Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold hidden After Lvl 79
+-   Hides 50 gold and below
+-   Hides 500 gold and below after level 17
+-   Hides 5k gold and below after level 79
 
 ## Filter Lvl 2: S: H5. Small Strictness
 
@@ -15,8 +17,8 @@ Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold h
 ## Filter Lvl 3: S: H5. Medium Strictness
 
 -   Hides M5
--   Hides unrelated Magic/Rare class items
--   Hides Magic rings and amulets
+-   Hides unrelated magic and rare class items
+-   Hides magic rings and amulets
 -   Hides +3 skill bases
 
 ## Filter Lvl 4: S: M5. Small Strictness
@@ -26,8 +28,8 @@ Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold h
 ## Filter Lvl 5: S: M5. Medium Strictness
 
 -   Hides H5
--   Hides unrelated Magic/Rare class items
--   Hides Magic rings and amulets
+-   Hides unrelated magic and rare class items
+-   Hides magic rings and amulets
 -   Hides +3 skill bases
 
 ## Filter Lvl 6: S: Juice. Small Strictness
@@ -37,8 +39,8 @@ Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold h
 ## Filter Lvl 7: S: Juice. Medium Strictness
 
 -   Hides H5 and M5
--   Hides unrelated Magic/Rare class items
--   Hides Magic rings and amulets
+-   Hides unrelated magic and rare class items
+-   Hides magic rings and amulets
 -   Hides +3 skill bases
 
 ## Filter Lvl 8: S: Juice. Large Strictness
