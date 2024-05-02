@@ -1752,7 +1752,7 @@ ItemDisplay[SET !ID ETH (7m7 OR 7ls)]: %PX-84%%DOT-0A%%RED%x%DARK_GREEN%x  %NAME
 ItemDisplay[FILTLVL<9 SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk)]: %GRAY%x %NAME% %GRAY%x
 ItemDisplay[FILTLVL<9 SET !ID ETH (xhm OR xvg OR upl OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR uth OR zmb OR oba OR utc OR xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR xmb OR umc OR xsk)]: %GRAY%x %NAME% %GRAY%x
 // SET DROPS (LLD)
-ItemDisplay[FILTLVL<8 SET !ID !ETH (lgl OR vbt OR vgl OR bwn OR xap OR lbl)]: %PX-84%%DOT-9B%%NAME% %PURPLE%Lld 
+ItemDisplay[FILTLVL<8 SET !ID !ETH (lgl OR vbt OR vgl OR bwn OR xap OR lbl)]: %PX-84%%DOT-9B%%NAME% %PURPLE%Lld
 // SET HIGH LIGHT (LOW LVL)
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 
