@@ -21,7 +21,7 @@ Under 50 Gold Always Hidden, Under 500 Gold Hidden After Lvl 17, Under 5k Gold h
 
 ## Filter Lvl 4: S: M5. Small Strictness
 
--   H5
+-   Hides H5
 
 ## Filter Lvl 5: S: M5. Medium Strictness
 
