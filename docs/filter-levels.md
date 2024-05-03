@@ -52,7 +52,7 @@ All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under
 
 ## Filter Lvl 9: S: Juice. Extra Strictness
 
--   Hides uniques and sets with gray `x/*` in the name
+-   Hides uniques and sets with gray `x` in the name
 -   Hides global magic and rare crafting bases
 -   Hides many magic and rare items
 -   Hides bases with 10+ ED (non-ethereal)
