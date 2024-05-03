@@ -48,12 +48,12 @@ All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under
 -   Hides flawless gems
 -   Hides non-highlighted uniques and sets
 -   Hides non-highlighted LLD items
--   Hides related magic and rare class items
 
 ## Filter Lvl 9: S: Juice. Extra Strictness
 
 -   Hides uniques and sets with gray `x` in the name
 -   Hides global magic and rare crafting bases
+-   Hides related magic and rare class items
 -   Hides many magic and rare items
 -   Hides bases with 10+ ED (non-ethereal)
 -   Hides notifications for runes less than Lem
