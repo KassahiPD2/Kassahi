@@ -9,9 +9,9 @@ The filter levels are used to determine the level of filtering that is applied t
 -   Shows Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors
 -   Shows Highlighted Orange `*` (star) on Related Magic & Rare Class Items
 -
--   Hides 50 gold and below
--   Hides 500 gold and below after level 17
--   Hides 5k gold and below after level 79
+-   Hides 50 Gold & Below
+-   Hides 500 Gold & Below After Level 17
+-   Hides 5k Gold & Below After Level 79
 
 ## Filter Lvl 2: S: H5/M5. Small Strictness
 
