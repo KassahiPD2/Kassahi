@@ -8,7 +8,7 @@ The filter levels are used to determine the level of filtering that is applied t
 -   Shows Lvling (Highlights/RWs), Under 10 Ed (Eth Not Included)
 -   Shows Notifier on Magic Amulets, Magic Arrows/a Bunch of Melee Weapon & Exceptional Armors
 -   Shows Highlighted Orange `*` (star) on Related Magic & Rare Class Items
-
+-
 -   Hides 50 gold and below
 -   Hides 500 gold and below after level 17
 -   Hides 5k gold and below after level 79
@@ -19,27 +19,26 @@ The filter levels are used to determine the level of filtering that is applied t
 
 ## Filter Lvl 3: S: H5/M5. Medium Strictness
 
--   Hides M5
--   Hides unrelated magic and rare class items
--   Hides magic rings and amulets
--   Hides +3 skill bases
+-   Hides Unrelated Magic & Rare Class Items
+-   Hides Magic Rings & Amulets
+-   Hides +3 Skill Bases
 
 ## Filter Lvl 4: S: H5/M5. Large Strictness
 
--   Hides flawless gems
--   Hides non-highlighted uniques and sets
--   Hides non-highlighted LLD items
+-   Hides Flawless Gems
+-   Hides Non-Highlighted Uniques & Sets
+-   Hides Non-Highlighted LLD Items
 
 ## Filter Lvl 5: S: H5/M5. Extra Strictness
 
--   Hides uniques and sets with gray `x` in the name
--   Hides global magic and rare crafting bases
--   Hides related magic and rare class items
--   Hides many magic and rare items
--   Hides bases with 10+ ED (non-ethereal)
--   Hides notifications for runes less than Lem
--   Hides notifications for magic charms and jewels
--   Hides all magic circlets
+-   Hides Uniques & Sets With Gray `x` in The Name
+-   Hides Global Magic & Rare Crafting Bases
+-   Hides Related Magic & Rare Class Items
+-   Hides All Magic Circlets
+-   Hides Many Magic & Rare Items
+-   Hides Bases With 10+ ED (Non-Ethereal)
+-   Hides Notifications For Runes Less Than Lem
+-   Hides Notifications For Magic Charms & Jewels
 
 ## Filter Lvl 6: S: Juice. Small Strictness
 
@@ -47,23 +46,23 @@ The filter levels are used to determine the level of filtering that is applied t
 
 ## Filter Lvl 7: S: Juice. Medium Strictness
 
--   Hides unrelated magic and rare class items
--   Hides magic rings and amulets
--   Hides +3 skill bases
+-   Hides Unrelated Magic & Rare Class Items
+-   Hides Magic Rings & Amulets
+-   Hides +3 Skill Bases
 
 ## Filter Lvl 8: S: Juice. Large Strictness
 
--   Hides flawless gems
--   Hides non-highlighted uniques and sets
--   Hides non-highlighted LLD items
+-   Hides Flawless Gems
+-   Hides Non-Highlighted Uniques & Sets
+-   Hides Non-Highlighted LLD Items
 
 ## Filter Lvl 9: S: Juice. Extra Strictness
 
--   Hides uniques and sets with gray `x` in the name
--   Hides global magic and rare crafting bases
--   Hides related magic and rare class items
--   Hides many magic and rare items
--   Hides bases with 10+ ED (non-ethereal)
--   Hides notifications for runes less than Lem
--   Hides notifications for magic charms and jewels
--   Hides all magic circlets
+-   Hides Uniques & Sets With Gray `x` in The Name
+-   Hides Global Magic & Rare Crafting Bases
+-   Hides Related Magic & Rare Class Items
+-   Hides All Magic Circlets
+-   Hides Many Magic & Rare Items
+-   Hides Bases With 10+ ED (Non-Ethereal)
+-   Hides Notifications For Runes Less Than Lem
+-   Hides Notifications For Magic Charms & Jewels
