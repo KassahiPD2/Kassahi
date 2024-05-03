@@ -43,7 +43,7 @@ The filter levels are used to determine the level of filtering that is applied t
 
 ## Filter Lvl 6: S: Juice. Small Strictness
 
--   Hides H5 and M5
+-   Hides/Removes H5 & M5, Plus All The Stuff From Filter Lvl 1
 
 ## Filter Lvl 7: S: Juice. Medium Strictness
 
