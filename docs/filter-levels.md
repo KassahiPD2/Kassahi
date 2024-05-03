@@ -10,22 +10,22 @@ All Lvls Under Hides: Tp scrolls, 35% Juvs, Thaw, Lvling (Highlights/RWs), Under
 -   Hides 500 gold and below after level 17
 -   Hides 5k gold and below after level 79
 
-## Filter Lvl 2: S: H5. Small Strictness
+## Filter Lvl 2: S: H5/M5. Small Strictness
 
 -   Hides M5
 
-## Filter Lvl 3: S: H5. Medium Strictness
+## Filter Lvl 3: S: H5/M5. Medium Strictness
 
 -   Hides M5
 -   Hides unrelated magic and rare class items
 -   Hides magic rings and amulets
 -   Hides +3 skill bases
 
-## Filter Lvl 4: S: M5. Small Strictness
+## Filter Lvl 4: S: H5/M5. Large Strictness
 
 -   Hides H5
 
-## Filter Lvl 5: S: M5. Medium Strictness
+## Filter Lvl 5: S: H5/M5. Extra Strictness
 
 -   Hides H5
 -   Hides unrelated magic and rare class items
