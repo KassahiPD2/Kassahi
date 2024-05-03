@@ -15,7 +15,7 @@ The filter levels are used to determine the level of filtering that is applied t
 
 ## Filter Lvl 2: S: H5/M5. Small Strictness
 
--   Hides All The Above From
+-   Hides/Removes All The Stuff From Filter Lvl 1
 
 ## Filter Lvl 3: S: H5/M5. Medium Strictness
 
