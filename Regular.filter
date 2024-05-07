@@ -1792,8 +1792,8 @@ ItemDisplay[FILTLVL<2 MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)
 ItemDisplay[FILTLVL<2 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[FILTLVL<2 MAG !ID AMAZON (am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %DOT-97%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[FILTLVL<2 RARE !ID AMAZON (am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) MAG !ID (CLUB OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %GRAY%+ %NAME% %GRAY%+
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) RARE !ID (CLUB OR DIN OR SCEPTER OR SIN OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) MAG !ID (CLUB OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) RARE !ID (CLUB OR WAND OR DIN OR SCEPTER OR SIN OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
 ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) MAG !ID ((ETH SIN) OR (!ETH (ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr)))]: %GRAY%+ %NAME% %GRAY%+
 // MAGIC/RARE ITEM'S
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) RARE !ID !ETH !(DRU OR BAR OR DIN OR NEC) (HELM OR CHEST OR SHIELD OR BELT)]: %NAME%
