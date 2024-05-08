@@ -5497,8 +5497,7 @@ ItemDisplay[NMAG SOCK=4 !INF !RW !ETH 7ws SK123=3]: %PX-84%%DOT-21%%MAP-D6%%NAME
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (wsp OR 9ws OR 7ws) (SK112=3 SK113>1)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Phoenix{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW !ETH 7ws SK123=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Doom{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW ETH 7ws (SK122>1 SK106>1)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Eternity{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wsp OR 9ws OR 7ws) SK116=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%2H-Cta{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wsp OR 9ws OR 7ws) SK117=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%1H-Cta{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wsp OR 9ws OR 7ws) SK117=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 ItemDisplay[NMAG SOCK=0 !INF !RW (wsp OR 9ws OR 7ws) SK99=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Merc Base{%NAME%}
 ItemDisplay[NMAG SOCK=4 !INF !RW (wsp OR 9ws OR 7ws) SK99=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Merc Insight{%NAME%}
 ItemDisplay[NMAG SOCK=5 !INF !RW (wsp OR 9ws OR 7ws) SK99=3]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Merc Doom/Beast{%NAME%}
