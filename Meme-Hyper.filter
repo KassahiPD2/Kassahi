@@ -1311,7 +1311,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%TEAL%For Giving My Github a New Makeover & is Now Much Better Looking%NL%Huge shout out & Thx to jef/jef7 in The PD2 Discord Server%NL%%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%Also Added ur Own Char Items to Large Strictness%NL%(Since it Was Highly Requested)%NL%4-5 Also Has H5 & M5, is Same Strictness as juice (Large/Extra)%NL%Well 2-3 is Same as Previous But Has Both H5 & M5 Now%NL%Added: New Filter Lvls For 2-5%NL%%RED%Update 03/05/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%to Get Hidden on Medium Strictness as Intended%NL%Fixed Magic & Rare Class Items & Magic Rings & Amulets%NL%%RED%Update 08/05/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1808,9 +1808,9 @@ ItemDisplay[FILTLVL<2 MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)
 ItemDisplay[FILTLVL<2 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[FILTLVL<2 MAG !ID AMAZON (am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %DOT-97%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[FILTLVL<2 RARE !ID AMAZON (am3 OR am8 OR amd OR am4 OR am9 OR ame OR am5 OR ama OR amf)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) MAG !ID (CLUB OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) RARE !ID (CLUB OR WAND OR DIN OR SCEPTER OR SIN OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) MAG !ID ((ETH SIN) OR (!ETH (ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr)))]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[(FILTLVL<3 OR FILTLVL=6) MAG !ID (CLUB OR DIN OR SCEPTER OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[(FILTLVL<3 OR FILTLVL=6) RARE !ID (CLUB OR WAND OR DIN OR SCEPTER OR SIN OR BAR OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR am1 OR am6 OR amb OR am5 OR ama OR amf OR cqv OR aqv)]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[(FILTLVL<3 OR FILTLVL=6) MAG !ID ((ETH SIN) OR (!ETH (ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr)))]: %GRAY%+ %NAME% %GRAY%+
 // MAGIC/RARE ITEM'S
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) RARE !ID !ETH !(DRU OR BAR OR DIN OR NEC) (HELM OR CHEST OR SHIELD OR BELT)]: %NAME%
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) RARE !ID !ETH !ZON (axe OR 9ax OR 7ax OR 2ax OR 92a OR 72a OR wax OR 9wa OR 7wa OR btx OR 9bt OR 7bt OR gix OR 9gi OR 7gi OR mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tri OR 9tr OR 7tr OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR bar OR 9b7 OR 7o7 OR vou OR 9vo OR 7vo OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR lbb OR 8l8 OR 6l7 OR lwb OR 8lw OR 6lw OR mxb OR 8mx OR 6mx OR hxb OR 8hx OR 6hx OR ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %NAME%
