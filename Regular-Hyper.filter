@@ -1251,7 +1251,7 @@ ItemDisplay[GOLD<50]:
 ItemDisplay[GOLD<500 CLVL>17]:
 ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
-ItemDisplay[FILTLVL>1 rvs]:
+ItemDisplay[!(FILTLVL<3 OR FILTLVL=6) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%
 ItemDisplay[rvl]: %PURPLE%O%WHITE%Juice%PURPLE%O
 ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Heal 1
@@ -1307,7 +1307,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%to Get Hidden on Medium Strictness as Intended%NL%Fixed Magic & Rare Class Items & Magic Rings & Amulets%NL%%RED%Update 08/05/24:}
+ItemDisplay[box]: %MAP-51%Horadric Cube{%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%Added 35% Juvs to Small Strictness%NL%%RED%Update 16/06/24:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
