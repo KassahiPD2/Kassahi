@@ -329,6 +329,9 @@ Good and 5+ to skills items have orange, red, green, red, orange colors
 
 ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/3ee3c050-0be6-4b94-8b15-7f7f10837ebe)
 
+LLD Base Means is a Ideal Crafting Base For LLD
+![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/6f1e6b9a-0559-4a56-8ad7-541b5b8a63dd)
+
 ### Jewels
 
 Rare jewels rerolling info: shows the ilvl before its rerolled
