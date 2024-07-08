@@ -624,7 +624,7 @@ ItemDisplay[UNI !ID xh9]: Vampire Gaze%CONTINUE%
 ItemDisplay[UNI !ID uh9]: Giant Skull%CONTINUE%
 ItemDisplay[UNI !ID ghm]: Howltusk%CONTINUE%
 ItemDisplay[UNI !ID xhm]: Valkyrie Wing%CONTINUE%
-ItemDisplay[UNI !ID uhm]: Veil of Steel%WHITE%/%GOLD%Nightwing's Veil%CONTINUE%
+ItemDisplay[UNI !ID uhm]: Veil of Steel%WHITE%/%GOLD%Nightwing's%CONTINUE%
 ItemDisplay[UNI !ID crn]: Undead Crown%CONTINUE%
 ItemDisplay[UNI !ID xrn]: Crown of Thieves%CONTINUE%
 ItemDisplay[UNI !ID urn]: Crown of Ages%CONTINUE%
@@ -667,7 +667,7 @@ ItemDisplay[UNI !ID xul]: Black Hades%CONTINUE%
 ItemDisplay[UNI !ID uul]: Steel Carapace%CONTINUE%
 ItemDisplay[UNI !ID aar]: Silks of the Victor%CONTINUE%
 ItemDisplay[UNI !ID xar]: Corpsemourn%CONTINUE%
-ItemDisplay[UNI !ID uar]: Templar's Might%WHITE%/%GOLD%Tyrael's Might%CONTINUE%
+ItemDisplay[UNI !ID uar]: Templar's%WHITE%/%GOLD%Tyrael's%CONTINUE%
 // SHIELD'S NAME (UNI)
 ItemDisplay[UNI !ID buc]: Pelta Lunata%CONTINUE%
 ItemDisplay[UNI !ID xuc]: Visceratuant%CONTINUE%
@@ -700,7 +700,7 @@ ItemDisplay[UNI !ID uvg]: Dracul's Grasp%CONTINUE%
 ItemDisplay[UNI !ID mgl]: Chance Guards%CONTINUE%
 ItemDisplay[UNI !ID xmg]: Ghoulhide%CONTINUE%
 ItemDisplay[UNI !ID umg]: Soul Drainer%CONTINUE%
-ItemDisplay[UNI !ID tgl]: Magefist%CONTINUE%
+ItemDisplay[UNI !ID tgl]: Magefisted%CONTINUE%
 ItemDisplay[UNI !ID xtg]: Lava Gout%CONTINUE%
 ItemDisplay[UNI !ID utg]: Occultist%CONTINUE%
 ItemDisplay[UNI !ID hgl]: Frostburn%CONTINUE%
@@ -813,13 +813,13 @@ ItemDisplay[UNI !ID 7fl]: Horizon's Tornado%WHITE%/%GOLD%Stormlash%CONTINUE%
 // HAMMER'S NAME (UNI)
 ItemDisplay[UNI !ID whm]: Ironstone%CONTINUE%
 ItemDisplay[UNI !ID 9wh]: Earthshaker%CONTINUE%
-ItemDisplay[UNI !ID 7wh]: Stone Crusher%WHITE%/%GOLD%Schaefer's Hammer%CONTINUE%
+ItemDisplay[UNI !ID 7wh]: Stone Crusher%WHITE%/%GOLD%Schaefer's%CONTINUE%
 ItemDisplay[UNI !ID mau]: Bonesnap%CONTINUE%
 ItemDisplay[UNI !ID 9m9]: Bloodtree Stump%CONTINUE%
 ItemDisplay[UNI !ID 7m7]: Windhammer%CONTINUE%
 ItemDisplay[UNI !ID gma]: Steeldriver%CONTINUE%
 ItemDisplay[UNI !ID 9gm]: The Gavel of Pain%CONTINUE%
-ItemDisplay[UNI !ID 7gm]: Earth Shifter%WHITE%/%GOLD%The Cranium Basher%CONTINUE%
+ItemDisplay[UNI !ID 7gm]: Earth Shifter%WHITE%/%GOLD%Cranium Bash%CONTINUE%
 // SWORD'S NAME (UNI)
 ItemDisplay[UNI !ID ssd]: Rixot's Keen%CONTINUE%
 ItemDisplay[UNI !ID 9ss]: Bloodletter%CONTINUE%
@@ -866,7 +866,7 @@ ItemDisplay[UNI !ID dir]: The Diggler%CONTINUE%
 ItemDisplay[UNI !ID 9di]: Heart Carver%CONTINUE%
 ItemDisplay[UNI !ID kri]: The Jade Tan Do%CONTINUE%
 ItemDisplay[UNI !ID 9kr]: Blackbog's Sharp%CONTINUE%
-ItemDisplay[UNI !ID 7kr]: Fleshripper%CONTINUE%
+ItemDisplay[UNI !ID 7kr]: Fleshlight%CONTINUE%
 ItemDisplay[UNI !ID bld]: Spectral Shard%CONTINUE%
 ItemDisplay[UNI !ID 9bl]: Stormspike%CONTINUE%
 ItemDisplay[UNI !ID 7bl]: Ghostflame%CONTINUE%
