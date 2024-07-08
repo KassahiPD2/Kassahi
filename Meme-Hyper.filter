@@ -700,7 +700,7 @@ ItemDisplay[UNI !ID uvg]: Dracul's Grasp%CONTINUE%
 ItemDisplay[UNI !ID mgl]: Chance Guards%CONTINUE%
 ItemDisplay[UNI !ID xmg]: Ghoulhide%CONTINUE%
 ItemDisplay[UNI !ID umg]: Soul Drainer%CONTINUE%
-ItemDisplay[UNI !ID tgl]: Magefist%CONTINUE%
+ItemDisplay[UNI !ID tgl]: Magefisted%CONTINUE%
 ItemDisplay[UNI !ID xtg]: Lava Gout%CONTINUE%
 ItemDisplay[UNI !ID utg]: Occultist%CONTINUE%
 ItemDisplay[UNI !ID hgl]: Frostburn%CONTINUE%
@@ -866,7 +866,7 @@ ItemDisplay[UNI !ID dir]: The Diggler%CONTINUE%
 ItemDisplay[UNI !ID 9di]: Heart Carver%CONTINUE%
 ItemDisplay[UNI !ID kri]: The Jade Tan Do%CONTINUE%
 ItemDisplay[UNI !ID 9kr]: Blackbog's Sharp%CONTINUE%
-ItemDisplay[UNI !ID 7kr]: Fleshripper%CONTINUE%
+ItemDisplay[UNI !ID 7kr]: Fleshlight%CONTINUE%
 ItemDisplay[UNI !ID bld]: Spectral Shard%CONTINUE%
 ItemDisplay[UNI !ID 9bl]: Stormspike%CONTINUE%
 ItemDisplay[UNI !ID 7bl]: Ghostflame%CONTINUE%
