@@ -1257,7 +1257,7 @@ ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
 ItemDisplay[!(FILTLVL<3 OR FILTLVL=6) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%
-ItemDisplay[rvl]: %PURPLE%O%WHITE%Juice%PURPLE%O
+ItemDisplay[rvl]: %PURPLE%O %WHITE%Juice %PURPLE%O
 ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Heal 1
 ItemDisplay[hp2 CLVL<15]: %RED%+%WHITE%Heal 2
 ItemDisplay[hp3 CLVL<19]: %RED%+%WHITE%Heal 3
@@ -1311,7 +1311,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(29/07/24){%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%Update my Filters Until i Get Home Again%NL%& if That's The Case i Won't be Able to%NL%%RED%''COULD'' %ORANGE%be in The Time Frame of Season 9%NL%i Just Wanna Make People Aware Because it%NL%Hello Everyone, i'm Going on Vacation Aug 23. to Sept 13.%NL%%RED%Update:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(20/09/24){%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%Its Not Meant to be Called Juice in Regular Filters im Just a Doofus%NL%Added a Space on Each Side off (Juice) & For Regular Filters Renamed to (65%)%NL%Green Plague Removed From The Name But Still Has a Notification%NL%+3 Kris Bases For Plague Moved to Small Strictness Lvls &%NL%im Back From Vacation%NL%%RED%Small Update:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -5488,8 +5488,6 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 xhm]: %PX-84%%DOT-21%%MAP-
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU (((SK229=3 AND SK244=3) (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK248=3 SK223=3 SK224=3) OR (SK233=3 SK242=3 SK224=3))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Flickering Flame{%NAME%}
 // VALUABLE CLUB'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB (((SK229=3 SK244=3) (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK240=3 (SK245>1 OR SK250>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK243=3 (SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR ((SK221=3 SK247=3) (SK227>1 OR SK237>1 OR SK236>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Plague{%NAME%}
-// VALUABLE DAGGER'S (NMAG)
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW kri (SK73=3 OR SK265=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Plague{%NAME%}
 // VALUABLE STAFF'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (6cs OR 6bs OR 6ws) ((SK63>0 (SK38>1 OR SK48>1 OR SK49>1 OR SK54>1 OR SK53>1)) OR (SK53>1 (SK38>1 OR SK49>1 OR SK54>1 OR SK57>1)) OR (SK48>1 (SK38>1 OR SK43>1 OR SK54>1 OR SK57>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Infinity{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW 6ws (SK65>0 (SK44>1 OR SK59>1 OR SK64>1 OR SK369>1))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Doom{%NAME%}
@@ -5694,6 +5692,7 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (
 // DAGGER'S (NMAG)
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH ED>9 (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK257=3 OR SK259=3 OR SK265=3 OR SK266=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[(FILTLVL<3 OR FILTLVL=6) NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK257=3 OR SK259=3 OR SK265=3 OR SK266=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %NAME%{%NAME%}
+ItemDisplay[(FILTLVL<3 OR FILTLVL=6) NMAG (SOCK=0 OR SOCK=3) !INF !RW kri (SK73=3 OR SK265=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME%{%NAME%}
 // SPEAR'S/POLEARM'S/AMAZON SPEAR'S (NMAG)
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=4 OR SOCK=5) !INF !RW !ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %NAME%{%NAME%}
 ItemDisplay[(FILTLVL<3 OR FILTLVL=6) NMAG (SOCK=0 OR SOCK=3) !INF !RW !ETH (amd OR ame) TABSK2=3]: %PX-21%%DOT-D6%%NAME%{%NAME%}
