@@ -27,9 +27,9 @@ ItemDisplay[MAG cm2]: %BLUE%Large Charm%CONTINUE%
 ItemDisplay[MAG cm2 (STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0)]: %PURPLE%Large Charm %TAN%Skill Damage%CONTINUE%
 ItemDisplay[MAG cm3]: %BLUE%Grand Charm%CONTINUE%
 ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1)]: %PURPLE%Grand Charm %TAN%Skiller%CONTINUE%
-ItemDisplay[MAG cm1p]: %PURPLE%Lld Arena %BLUE%Small Charm%CONTINUE%
-ItemDisplay[MAG cm2p]: %PURPLE%Lld Arena %BLUE%Large Charm %TAN%Skill Damage%CONTINUE%
-ItemDisplay[MAG cm3p]: %PURPLE%Lld Arena %BLUE%Grand Charm %TAN%Skiller%CONTINUE%
+ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
+ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm %TAN%Skill Damage%CONTINUE%
+ItemDisplay[MAG cm3p]: %PURPLE%Pvp Arena %BLUE%Grand Charm %TAN%Skiller%CONTINUE%
 ItemDisplay[UNI cm1]: Annihilus%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=2]: Ama Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK1=2]: Sorc Torch%CONTINUE%
