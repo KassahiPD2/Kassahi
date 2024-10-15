@@ -1380,7 +1380,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(15/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory, Bases%NL%updated Wss & Charms, New Items, Maps & RWs%NL%.noexp/.set-home 0-5, to Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 3:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(15/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory & Cta, Bases%NL%updated Wss & Charms, New Items, Maps & RWs%NL%.noexp/.set-home 0-5, to Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 3:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -5571,7 +5571,7 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB (((SK229=3 SK244
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (6cs OR 6bs OR 6ws) ((SK63>0 (SK38>1 OR SK48>1 OR SK49>1 OR SK54>1 OR SK53>1)) OR (SK53>1 (SK38>1 OR SK49>1 OR SK54>1 OR SK57>1)) OR (SK48>1 (SK38>1 OR SK43>1 OR SK54>1 OR SK57>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Infinity{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws) ((SK57>1 (SK50>1 OR SK60>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW 6ws (SK65>0 (SK44>1 OR SK59>1 OR SK64>1 OR SK369>1))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Doom{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wst OR 8ws OR 6ws) ((SK58=3 OR SK50=3 OR SK60=3) OR (SK58>0 (SK50>0 OR SK60>0)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wst OR 8ws OR 6ws) ((SK58=3 OR SK50=3 OR SK60=3) OR (SK58>0 (SK50>0 OR SK60>0)) OR ((SK57>1 (SK50>1 OR SK60>1))))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 // VALUABLE WAND'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=2) !RW WAND !(wnd OR 9wn OR ywn) ((SK367=3 AND SK94=3) OR ((SK367>1 AND SK94>1) (SK68>0 OR SK91>0 OR SK95>0)) OR (SK367>1 SK91>0 SK95>0) OR (SK367=3 SK91>0 SK68>0) OR (SK367=3 SK95>0 SK68>0) OR (SK68>0 SK91>0 SK95>0))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Dominion{%NAME%}
 // VALUABLE SCEPTER'S (NMAG)
