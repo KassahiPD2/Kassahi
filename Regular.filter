@@ -23,10 +23,101 @@ ItemDisplayFilterName[12]: Currently Not Used
 
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
-ItemDisplay[MAG cm2]: %BLUE%Large Charm%CONTINUE%
-ItemDisplay[MAG cm2 (STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0)]: %PURPLE%Large Charm %TAN%Skill Damage%CONTINUE%
-ItemDisplay[MAG cm3]: %BLUE%Grand Charm%CONTINUE%
+ItemDisplay[MAG cm1 RES>4]: %PURPLE%Small Charm %TAN%All Res%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 RES>3]: %PURPLE%Small Charm %TAN%Life, All Res%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 RES>3]: %PURPLE%Small Charm %TAN%Fhr, All Res%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 RES>3]: %PURPLE%Small Charm %TAN%Frw, All Res%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 RES>3]: %PURPLE%Small Charm %TAN%Mf, All Res%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 RES>3]: %PURPLE%Small Charm %TAN%Gf, All Res%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 RES>3]: %PURPLE%Small Charm %TAN%Str, All Res%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 RES>3]: %PURPLE%Small Charm %TAN%Dex, All Res%CONTINUE%
+ItemDisplay[MAG cm1 FRES>10]: %PURPLE%Small Charm %TAN%Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 FRES>9]: %PURPLE%Small Charm %TAN%Life, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 FRES>9]: %PURPLE%Small Charm %TAN%Fhr, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 FRES>9]: %PURPLE%Small Charm %TAN%Frw, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 FRES>9]: %PURPLE%Small Charm %TAN%Mf, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 FRES>9]: %PURPLE%Small Charm %TAN%Gf, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 FRES>9]: %PURPLE%Small Charm %TAN%Str, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 FRES>9]: %PURPLE%Small Charm %TAN%Dex, Fire Res%CONTINUE%
+ItemDisplay[MAG cm1 LRES>10]: %PURPLE%Small Charm %TAN%Light Res%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 LRES>9]: %PURPLE%Small Charm %TAN%Life, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 LRES>9]: %PURPLE%Small Charm %TAN%Fhr, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 LRES>9]: %PURPLE%Small Charm %TAN%Frw, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 LRES>9]: %PURPLE%Small Charm %TAN%Mf, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 LRES>9]: %PURPLE%Small Charm %TAN%Gf, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 LRES>9]: %PURPLE%Small Charm %TAN%Str, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 LRES>9]: %PURPLE%Small Charm %TAN%Dex, Light Res%CONTINUE%
+ItemDisplay[MAG cm1 CRES>10]: %PURPLE%Small Charm %TAN%Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 CRES>9]: %PURPLE%Small Charm %TAN%Life, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 CRES>9]: %PURPLE%Small Charm %TAN%Fhr, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 CRES>9]: %PURPLE%Small Charm %TAN%Frw, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 CRES>9]: %PURPLE%Small Charm %TAN%Mf, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 CRES>9]: %PURPLE%Small Charm %TAN%Gf, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 CRES>9]: %PURPLE%Small Charm %TAN%Str, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 CRES>9]: %PURPLE%Small Charm %TAN%Dex, Cold Res%CONTINUE%
+ItemDisplay[MAG cm1 PRES>10]: %PURPLE%Small Charm %TAN%Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 PRES>9]: %PURPLE%Small Charm %TAN%Life, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 PRES>9]: %PURPLE%Small Charm %TAN%Fhr, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 PRES>9]: %PURPLE%Small Charm %TAN%Frw, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 PRES>9]: %PURPLE%Small Charm %TAN%Mf, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 PRES>9]: %PURPLE%Small Charm %TAN%Gf, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 PRES>9]: %PURPLE%Small Charm %TAN%Str, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 PRES>9]: %PURPLE%Small Charm %TAN%Dex, Poison Res%CONTINUE%
+ItemDisplay[MAG cm1 MAXDMG>2]: %PURPLE%Small Charm %TAN%Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 MAXDMG>2]: %PURPLE%Small Charm %TAN%Life, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 MAXDMG>2]: %PURPLE%Small Charm %TAN%Fhr, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 MAXDMG>2]: %PURPLE%Small Charm %TAN%Frw, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 MAXDMG>2]: %PURPLE%Small Charm %TAN%Mf, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 MAXDMG>2]: %PURPLE%Small Charm %TAN%Gf, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 MAXDMG>2]: %PURPLE%Small Charm %TAN%Str, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 MAXDMG>2]: %PURPLE%Small Charm %TAN%Dex, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm1 MANA>16]: %PURPLE%Small Charm %TAN%Mana%CONTINUE%
+ItemDisplay[MAG cm1 LIFE>14 MANA>14]: %PURPLE%Small Charm %TAN%Life, Mana%CONTINUE%
+ItemDisplay[MAG cm1 FHR>0 MANA>14]: %PURPLE%Small Charm %TAN%Fhr, Mana%CONTINUE%
+ItemDisplay[MAG cm1 FRW>0 MANA>14]: %PURPLE%Small Charm %TAN%Frw, Mana%CONTINUE%
+ItemDisplay[MAG cm1 MFIND>4 MANA>14]: %PURPLE%Small Charm %TAN%Mf, Mana%CONTINUE%
+ItemDisplay[MAG cm1 GFIND>6 MANA>14]: %PURPLE%Small Charm %TAN%Gf, Mana%CONTINUE%
+ItemDisplay[MAG cm1 STR>1 MANA>14]: %PURPLE%Small Charm %TAN%Str, Mana%CONTINUE%
+ItemDisplay[MAG cm1 DEX>1 MANA>14]: %PURPLE%Small Charm %TAN%Dex, Mana%CONTINUE%
+ItemDisplay[MAG cm2]: Large Charm%CONTINUE%
+ItemDisplay[MAG cm2 (STAT329>3 OR STAT330>3 OR STAT331>3 OR STAT332>3 OR STAT357>3)]: %PURPLE%Large Charm %TAN%Skill Damage%CONTINUE%
+ItemDisplay[MAG cm2 RES>7]: %PURPLE%Large Charm %TAN%All Res%CONTINUE%
+ItemDisplay[MAG cm2 LIFE>24 RES>6]: %PURPLE%Large Charm %TAN%Life, All Res%CONTINUE%
+ItemDisplay[MAG cm2 FHR>0 RES>6]: %PURPLE%Large Charm %TAN%Fhr, All Res%CONTINUE%
+ItemDisplay[MAG cm2 FRW>0 RES>6]: %PURPLE%Large Charm %TAN%Frw, All Res%CONTINUE%
+ItemDisplay[MAG cm2 GFIND>14 RES>6]: %PURPLE%Large Charm %TAN%Gf, All Res%CONTINUE%
+ItemDisplay[MAG cm2 STR>4 RES>6]: %PURPLE%Large Charm %TAN%Str, All Res%CONTINUE%
+ItemDisplay[MAG cm2 DEX>4 RES>6]: %PURPLE%Large Charm %TAN%Dex, All Res%CONTINUE%
+ItemDisplay[MAG cm2 MAXDMG>5]: %PURPLE%Large Charm %TAN%Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 LIFE>24 MAXDMG>5]: %PURPLE%Large Charm %TAN%Life, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 FHR>0 MAXDMG>5]: %PURPLE%Large Charm %TAN%Fhr, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 FRW>0 MAXDMG>5]: %PURPLE%Large Charm %TAN%Frw, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 GFIND>14 MAXDMG>5]: %PURPLE%Large Charm %TAN%Gf, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 STR>4 MAXDMG>5]: %PURPLE%Large Charm %TAN%Str, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm2 DEX>4 MAXDMG>5]: %PURPLE%Large Charm %TAN%Dex, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3]: Grand Charm%CONTINUE%
 ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1)]: %PURPLE%Grand Charm %TAN%Skiller%CONTINUE%
+ItemDisplay[MAG cm3 RES>14]: %PURPLE%Small Charm %TAN%All Res%CONTINUE%
+ItemDisplay[MAG cm3 LIFE>29 RES>12]: %PURPLE%Small Charm %TAN%Life, All Res%CONTINUE%
+ItemDisplay[MAG cm3 FHR>0 RES>12]: %PURPLE%Small Charm %TAN%Fhr, All Res%CONTINUE%
+ItemDisplay[MAG cm3 FRW>0 RES>12]: %PURPLE%Small Charm %TAN%Frw, All Res%CONTINUE%
+ItemDisplay[MAG cm3 GFIND>29 RES>12]: %PURPLE%Small Charm %TAN%Gf, All Res%CONTINUE%
+ItemDisplay[MAG cm3 STR>4 RES>12]: %PURPLE%Small Charm %TAN%Str, All Res%CONTINUE%
+ItemDisplay[MAG cm3 DEX>4 RES>12]: %PURPLE%Small Charm %TAN%Dex, All Res%CONTINUE%
+ItemDisplay[MAG cm3 MAXDMG>9]: %PURPLE%Small Charm %TAN%Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 LIFE>29 MAXDMG>8]: %PURPLE%Small Charm %TAN%Life, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 FHR>0 MAXDMG>8]: %PURPLE%Small Charm %TAN%Fhr, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 FRW>0 MAXDMG>8]: %PURPLE%Small Charm %TAN%Frw, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 GFIND>29 MAXDMG>8]: %PURPLE%Small Charm %TAN%Gf, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 STR>4 MAXDMG>8]: %PURPLE%Small Charm %TAN%Str, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 DEX>4 MAXDMG>8]: %PURPLE%Small Charm %TAN%Dex, Max Dmg%CONTINUE%
+ItemDisplay[MAG cm3 MANA>58]: %PURPLE%Small Charm %TAN%Mana%CONTINUE%
+ItemDisplay[MAG cm3 LIFE>29 MANA>49]: %PURPLE%Small Charm %TAN%Life, Mana%CONTINUE%
+ItemDisplay[MAG cm3 FHR>0 MANA>49]: %PURPLE%Small Charm %TAN%Fhr, Mana%CONTINUE%
+ItemDisplay[MAG cm3 FRW>0 MANA>49]: %PURPLE%Small Charm %TAN%Frw, Mana%CONTINUE%
+ItemDisplay[MAG cm3 GFIND>29 MANA>49]: %PURPLE%Small Charm %TAN%Gf, Mana%CONTINUE%
+ItemDisplay[MAG cm3 STR>4 MANA>49]: %PURPLE%Small Charm %TAN%Str, Mana%CONTINUE%
+ItemDisplay[MAG cm3 DEX>4 MANA>49]: %PURPLE%Small Charm %TAN%Dex, Mana%CONTINUE%
 ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm %TAN%Skill Damage%CONTINUE%
 ItemDisplay[MAG cm3p]: %PURPLE%Pvp Arena %BLUE%Grand Charm %TAN%Skiller%CONTINUE%
@@ -1289,7 +1380,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(13/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 Slot Orbs For +$%NL%+3 Holy Sword on 0/5os Cta Bases%NL%Updated Wss & Charms, New Items & RWs%NL%Demon Road/Skovos Stronghold Map%NL%.noexp/.set-home 0-5, to Shop Key%NL%3 New Filter Lvls Currently Not Used%NL%%RED%Beta Update 2:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(15/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory, Bases%NL%updated Wss & Charms, New Items, Maps & RWs%NL%.noexp/.set-home 0-5, to Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 3:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -4175,7 +4266,7 @@ ItemDisplay[NMAG SK114>0 (SK115>0 OR SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR
 // VIGOR SK (STATS)
 ItemDisplay[NMAG SK115>0]: %WHITE%%SK115%%TEAL%Vig%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG SK115>0 (SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0)]: %CONTINUE% %NAME%{%NAME%}
-// CONVERSION SK (STATS)
+// HOLY SWORD SK (STATS)
 ItemDisplay[NMAG SK116>0]: %WHITE%%SK116%%TEAL%Hsw%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG SK116>0 (SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0)]: %CONTINUE% %NAME%{%NAME%}
 // HOLY SHIELD SK (STATS)
@@ -5009,7 +5100,7 @@ ItemDisplay[(MAG OR CRAFT OR RARE) SK114>0 (SK115>0 OR SK116>0 OR SK117>0 OR SK1
 // VIGOR SK (STATS)
 ItemDisplay[(MAG OR CRAFT OR RARE) SK115>0]: %SK115%Vig%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE) SK115>0 (SK116>0 OR SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR CLSK3>0 OR STAT127>0)]: %CONTINUE% %NAME%{%NAME%}
-// CONVERSION SK (STATS)
+// HOLY SWORD SK (STATS)
 ItemDisplay[(MAG OR CRAFT OR RARE) SK116>0]: %SK116%Hsw%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(MAG OR CRAFT OR RARE) SK116>0 (SK117>0 OR SK118>0 OR SK119>0 OR SK120>0 OR SK121>0 OR SK122>0 OR SK123>0 OR SK124>0 OR SK125>0 OR SK364>0 OR SK371>0 OR SK378>0 OR TABSK24>0 OR TABSK25>0 OR TABSK26>0 OR CLSK3>0 OR STAT127>0)]: %CONTINUE% %NAME%{%NAME%}
 // HOLY SHIELD SK (STATS)
@@ -5467,6 +5558,7 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW DRU (((SK229=3 AND SK244=3) (SK249>
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB (((SK229=3 SK244=3) (SK249>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK240=3 (SK245>1 OR SK250>1 OR SK370>1 OR SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR (SK243=3 (SK226>0 OR SK231>0 OR SK241>0 OR SK247>0)) OR ((SK221=3 SK247=3) (SK227>1 OR SK237>1 OR SK236>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Plague{%NAME%}
 // VALUABLE STAFF'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (6cs OR 6bs OR 6ws) ((SK63>0 (SK38>1 OR SK48>1 OR SK49>1 OR SK54>1 OR SK53>1)) OR (SK53>1 (SK38>1 OR SK49>1 OR SK54>1 OR SK57>1)) OR (SK48>1 (SK38>1 OR SK43>1 OR SK54>1 OR SK57>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Infinity{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW (8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws) ((SK57>1 (SK50>1 OR SK60>1)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW 6ws (SK65>0 (SK44>1 OR SK59>1 OR SK64>1 OR SK369>1))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Doom{%NAME%}
 ItemDisplay[NMAG (SOCK=0 OR SOCK=5) !INF !RW (wst OR 8ws OR 6ws) ((SK58=3 OR SK50=3 OR SK60=3) OR (SK58>0 (SK50>0 OR SK60>0)))]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 // VALUABLE WAND'S (NMAG)
