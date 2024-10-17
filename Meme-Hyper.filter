@@ -1273,7 +1273,7 @@ ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
-ItemDisplay[key SHOP]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%RED%rathma/ubers/ancients/players%NL%all/bosses/maps/dungeons/dclone%NL%%WHITE%With The Following%NL%%RED%.kills%NL%%WHITE%or%NL%%GREEN%.deaths/.played/.noexp/.set-home 0-5%NL%%ORANGE%New Player Commands}
+ItemDisplay[key SHOP]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%RED%rathma/ubers/ancients/players%NL%all/bosses/maps/dungeons/dclone%NL%%WHITE%or %RED%.kills %WHITE%Followed by%NL%%GREEN%.deaths/.played/.noexp/.set-home 0-5%NL%%ORANGE%New Player Commands%NL%%GREEN%%NL%Pbox, Ppic, Mirror, Vial, Skele key, TP Tome, ID Tome%NL%Lem to Zod, Wss, Twss, Sets, Uniques, Map Mats, Uber Mats%NL%%ORANGE%Allocated Loot Effects Within 2 Screens on Mobs Deaths}
 ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[ear]: %ORANGE%%NAME%
@@ -1299,7 +1299,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(16/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory & Cta, Bases%NL%updated Wss & Highlighted Charms, New Items, Maps & RWs%NL%.noexp/.set-home 0-5, to Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 4:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(17/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory & Cta, Bases%NL%updated Wss & Highlighted Charms, New Items, Maps & RWs%NL%Allocated Loot Info, .noexp/.set-home 0-5, on Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 5:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
