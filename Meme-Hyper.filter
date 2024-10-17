@@ -1945,6 +1945,7 @@ ItemDisplay[SET ID 7ws]: %NAME%{%WHITE%Rolls OS: 3-5}%CONTINUE%
 ItemDisplay[UNI ID ram]: %NAME%{%WHITE%Rolls OS: 1}%CONTINUE%
 ItemDisplay[UNI ID rbe]: %NAME%{%WHITE%Rolls OS: 1}%CONTINUE%
 ItemDisplay[UNI ID rar]: %NAME%{%WHITE%Rolls OS: 6}%CONTINUE%
+ItemDisplay[UNI ID drc]: %NAME%{%WHITE%Rolls OS: 2-3}%CONTINUE%
 
 // JEWELRY'S (CTC/AURA/OSKILL/CHARGE)
 ItemDisplay[UNI ID amu STAT119>39 STAT45>29 STAT78>299 STAT89>2]: %NAME%{%WHITE%Ctc Amp: %GRAY%None:%WHITE%-24, %GRAY%Immus:%WHITE%-12}%CONTINUE%
