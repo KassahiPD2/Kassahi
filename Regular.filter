@@ -47,6 +47,8 @@ ItemDisplay[UNI cm2 CLSK6=2]: Sin Torch%CONTINUE%
 ItemDisplay[UNI cm3]: Gheed's Fortune%CONTINUE%
 // JEWELRY'S NAME (BASE)
 ItemDisplay[(MAG OR RARE) jew]: Jewel%CONTINUE%
+ItemDisplay[MAG jew (((ED>39 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (STR>6 OR DEX>6) OR (MAEK>2 OR STAT86>2)))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Jewel %RED%+%ORANGE%+%CONTINUE%
+ItemDisplay[MAG jew (((ED>29 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MAXDMG>7 MINDMG>7) OR MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9)))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Jewel %RED%++%ORANGE%++%CONTINUE%
 ItemDisplay[UNI ID jew STAT333>0 STAT329>0]: Fire Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT334>0 STAT330>0]: Lightning Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT335>0 STAT331>0]: Cold Facet%CONTINUE%
@@ -1295,7 +1297,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(17/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory & Cta, Bases%NL%updated Wss & Highlighted Charms, New Items, Maps & RWs%NL%Allocated Loot Info, .noexp/.set-home 0-5, on Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 5:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(17/10/24){%GREEN%Check my GitHub For Filter Info%NL%%RED%%NL%Feel Free to Ping me With Ideas/Suggestions%ORANGE%%NL%(Norm: 45 to 10, Exc: 65 to 30, Elt: 75 to 60)%NL%Reduced Random Bases During Lvling From:%NL%+2 slot orbs for +$%NL%+3 Hsw Cta, 2+ Tsm /w 2+ Sha or Cha, Memory & Cta, Bases%NL%Updated Wss & New Highlighted Charms & Jewels, Items, Maps & RWs%NL%Allocated Loot Info, .noexp/.set-home 0-5, on Shop Key%NL%3 new filter lvls Currently Not Used%NL%%RED%Beta Update 5:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -2872,28 +2874,76 @@ ItemDisplay[MAG cm3 ((STR>4 (MAXDMG>8)))]: %NAME%{ Max Dmg Str%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 ((DEX>4 (MAXDMG>8)))]: %NAME%{ Max Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0 OR STR>4 OR DEX>4) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
 // HIGHLIGHTING JEWEL'S (GG'S)
-ItemDisplay[MAG RES>9 IAS>0 jew]: %DOT-0A%%GREEN%All Res, Ias%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%All Res, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG STAT501>119 IAS>0 jew]: %DOT-0A%%GREEN%Ow, Ias%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ow, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED>29 IAS>0 jew]: %DOT-0A%%GREEN%Ed, Ias%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED>29 (MAXDMG>7 MINDMG>7) jew]: %DOT-0A%%GREEN%Ed, Min-Max Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED>29 MINDMG>9 jew]: %DOT-0A%%GREEN%Ed, Min Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED>29 MAXDMG>9 jew]: %DOT-0A%%GREEN%Ed, Max Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED=40 STR>5 jew]: %DOT-0A%%GREEN%Ed, Str%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Str %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED=40 DEX>5 jew]: %DOT-0A%%GREEN%Ed, Dex%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Dex %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG ED=40 jew]: %DOT-0A%%GREEN%Ed%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAXDMG>21 jew]: %DOT-0A%%GREEN%Max Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MINDMG>17 jew]: %DOT-0A%%GREEN%Min Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MINDMG>9 MAXDMG>9 jew]: %DOT-0A%%GREEN%Min-Max Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Min-Max Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAEK=3 IAS>0 jew]: %DOT-0A%%GREEN%Mpk, Ias%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Mpk, Ias %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAEK=3 STAT91=-15 jew]: %DOT-0A%%GREEN%Mpk, -Req%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Mpk, -Req %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAEK=3 STR>5 jew]: %DOT-0A%%GREEN%Mpk, Str%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Mpk, Str %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAEK=3 DEX>5 jew]: %DOT-0A%%GREEN%Mpk, Dex%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Mpk, Dex %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG MAEK=3 jew]: %DOT-0A%%GREEN%Mpk%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Mpk %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG STAT86=3 jew]: %DOT-0A%%GREEN%Lpk%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Lpk %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (STAT91=-15) jew]: %DOT-0A%%GREEN%Res, -Req%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Res, -Req %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG (CRES>24 OR FRES>24 OR LRES>24 OR PRES>24) (LIFE>9 OR STAT91=-15 OR STAT121>29 OR STAT122>29 OR IAS>0) jew]: %DOT-0A%%GREEN%Res, +Stats%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Res, +Stats %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG (RES>9 OR ED>29 OR STAT214>49) (LIFE>9 OR STAT91=-15 OR MINDMG>7 OR STAT121>29 OR STAT122>29) jew]: %DOT-0A%%GREEN%Utility%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Utility %RED%+++%ORANGE%+++%NL%%NAME%}
-ItemDisplay[MAG (RES>9 OR ED>29 OR STAT214>49) (LIFE>9 OR STAT91=-15 OR MAXDMG>7 OR STAT121>29 OR STAT122>29) jew]: %DOT-0A%%GREEN%Utility%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Utility %RED%+++%ORANGE%+++%NL%%NAME%}
+ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (ED>39 (STR>6 OR DEX>6)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9) OR MAEK>2 OR STAT86>2) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15 OR STR>6 OR DEX>6) OR (ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
+ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)))]: %NAME%{ Ed Min-Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>29 MINDMG>9)]: %NAME%{ Ed Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>29 MAXDMG>9)]: %NAME%{ Ed Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>29 IAS>0)]: %NAME%{ Ed Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>29 STAT91=-15)]: %NAME%{ Ed -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>39 STR>6)]: %NAME%{ Ed Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (ED>39 DEX>6)]: %NAME%{ Ed Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew MINDMG>17]: %NAME%{ Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew MAXDMG>21]: %NAME%{ Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MINDMG>9 MAXDMG>9)]: %NAME%{ Min-Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MINDMG>9 IAS>0)]: %NAME%{ Min Dmg Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MINDMG>9 STAT91=-15)]: %NAME%{ Min Dmg -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MINDMG>9 STR>6)]: %NAME%{ Min Dmg Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MINDMG>9 DEX>6)]: %NAME%{ Min Dmg Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAXDMG>9 IAS>0)]: %NAME%{ Max Dmg Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAXDMG>9 STAT91=-15)]: %NAME%{ Max Dmg -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAXDMG>9 STR>6)]: %NAME%{ Max Dmg Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAXDMG>9 DEX>6)]: %NAME%{ Max Dmg Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 MINDMG>9)]: %NAME%{ All Res Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 MAXDMG>9)]: %NAME%{ All Res Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 IAS>0)]: %NAME%{ All Res Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 STAT91=-15)]: %NAME%{ All Res -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 STR>6)]: %NAME%{ All Res Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (RES>9 DEX>6)]: %NAME%{ All Res Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 MINDMG>9)]: %NAME%{ Fire Res Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 MAXDMG>9)]: %NAME%{ Fire Res Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 IAS>0)]: %NAME%{ Fire Res Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 STAT91=-15)]: %NAME%{ Fire Res -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 STR>6)]: %NAME%{ Fire Res Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (FRES>24 DEX>6)]: %NAME%{ Fire Res Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 MINDMG>9)]: %NAME%{ Light Res Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 MAXDMG>9)]: %NAME%{ Light Res Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 IAS>0)]: %NAME%{ Light Res Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 STAT91=-15)]: %NAME%{ Light Res -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 STR>6)]: %NAME%{ Light Res Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (LRES>24 DEX>6)]: %NAME%{ Light Res Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 MINDMG>9)]: %NAME%{ Cold Res Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 MAXDMG>9)]: %NAME%{ Cold Res Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 IAS>0)]: %NAME%{ Cold Res Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 STAT91=-15)]: %NAME%{ Cold Res -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 STR>6)]: %NAME%{ Cold Res Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (CRES>24 DEX>6)]: %NAME%{ Cold Res Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 MINDMG>9)]: %NAME%{ Poison Res Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 MAXDMG>9)]: %NAME%{ Poison Res Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 IAS>0)]: %NAME%{ Poison Res Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 STAT91=-15)]: %NAME%{ Poison Res -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 STR>6)]: %NAME%{ Poison Res Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (PRES>24 DEX>6)]: %NAME%{ Poison Res Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 MINDMG>9)]: %NAME%{ Mpk Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 MAXDMG>9)]: %NAME%{ Mpk Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 IAS>0)]: %NAME%{ Mpk Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 STAT91=-15)]: %NAME%{ Mpk -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 STR>6)]: %NAME%{ Mpk Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (MAEK>2 DEX>6)]: %NAME%{ Mpk Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew MAEK>2]: %NAME%{ Mpk%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 MINDMG>9)]: %NAME%{ Lpk Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 MAXDMG>9)]: %NAME%{ Lpk Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 IAS>0)]: %NAME%{ Lpk Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 STAT91=-15)]: %NAME%{ Lpk -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 STR>6)]: %NAME%{ Lpk Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT86>2 DEX>6)]: %NAME%{ Lpk Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew STAT86>2]: %NAME%{ Lpk%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 MINDMG>9)]: %NAME%{ Ow Min Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 MAXDMG>9)]: %NAME%{ Ow Max Dmg%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 IAS>0)]: %NAME%{ Ow Ias%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 STAT91=-15)]: %NAME%{ Ow -Req%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 STR>6)]: %NAME%{ Ow Str%NAME%}%CONTINUE%
+ItemDisplay[MAG jew (STAT501>119 DEX>6)]: %NAME%{ Ow Dex%NAME%}%CONTINUE%
+ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (ED>39 (STR>6 OR DEX>6)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9) OR MAEK>2 OR STAT86>2) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15 OR STR>6 OR DEX>6) OR (ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
 ItemDisplay[RARE ED>29 MINDMG>9 jew]: %DOT-0A%%GREEN%Ed, Min Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[RARE ((ED>29 (RES>9 OR MAXDMG>7 OR MINDMG>7 OR MANA>19 OR STR>5 OR DEX>5 OR LIFE>9 OR STAT135>0 OR STAT121>29 OR STAT122>29 OR AR>69))) jew]: %DOT-0A%%GREEN%Ed, +Stats%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, +Stats %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[RARE ED>34 jew]: %DOT-0A%%GREEN%Ed%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed %RED%+++%ORANGE%+++%NL%%NAME%}
