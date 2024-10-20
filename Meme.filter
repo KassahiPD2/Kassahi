@@ -1227,7 +1227,6 @@ ItemDisplay[STAT360=74]: %NAME% Min Dmg{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=75]: %NAME% Max Dmg{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=76]: %NAME% Itd{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=77]: %NAME% Ar/Ed Und{%NAME%}%CONTINUE%
-ItemDisplay[STAT360>0]: %NAME%*{%NAME%}%CONTINUE%
 
 
 
