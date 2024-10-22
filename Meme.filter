@@ -1274,7 +1274,7 @@ ItemDisplay[isc CLVL<75]: %DARK_GREEN%+%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %
 ItemDisplay[isc CLVL>74]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome %TAN%x%WHITE%%QTY%
 ItemDisplay[ibk]: %RED%ID Tome %TAN%x%WHITE%%QTY%
-ItemDisplay[key SHOP]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%RED%rathma/ubers/ancients/players%NL%all/bosses/maps/dungeons/dclone%NL%%WHITE%or %RED%.kills %WHITE%Followed by%NL%%GREEN%.savehotkeys/.loadhotkeys%NL%.deaths/.played/.allstats/.noexp/.set-home 0-5%NL%%ORANGE%New Player Commands%NL%%GREEN%%NL%Pbox, Ppic, Mirror, Vial, Skele key, TP Tome, ID Tome%NL%Lem to Zod, Wss, Twss, Sets, Uniques, Map Mats, Uber Mats%NL%%ORANGE%Allocated Loot Effects Within 2 Screens on Mobs Deaths}
+ItemDisplay[key SHOP]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%RED%rathma/ubers/ancients/players%NL%all/bosses/maps/dungeons/dclone%NL%%WHITE%or %RED%.kills %WHITE%Followed by%NL%%GREEN%/home (Name) & /home, to Join/.savehotkeys/.loadhotkeys%NL%.deaths/.played/.allstats/.noexp/.set-home 0-5%NL%%ORANGE%New Player Commands%NL%%GREEN%%NL%Pbox, Ppic, Mirror, Vial, Skele key, TP Tome, ID Tome%NL%Lem to Zod, Wss, Twss, Sets, Uniques, Map Mats, Uber Mats%NL%%ORANGE%Allocated Loot Effects Within 2 Screens on Mobs Deaths}
 ItemDisplay[key CLVL<30]: %DARK_GREEN%+%WHITE%Key %TAN%x%WHITE%%QTY%{%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[key CLVL>29]: {%WHITE%My Name Tag is %RED%Kassahi%NL%%WHITE%Please Reach Out to me in %ORANGE%Discord%NL%%WHITE%Got Any %ORANGE%Feedback%WHITE%/%ORANGE%Ideas %WHITE%or Find %ORANGE%Bugs}%CONTINUE%
 ItemDisplay[ear]: %ORANGE%%NAME%
@@ -5983,8 +5983,8 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=4) !INF !RW ETH 7ls]: %PX-21%%DOT-D6%%NAME%{%NA
 // 2 HANDED SWORD'S (NMAG)
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) NMAG (SOCK=0 OR SOCK=2 OR SOCK=5 OR SOCK=6) !INF !RW !ETH ED>9 (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[FILTLVL<2 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW !ETH (7gs OR 7fb OR 7gd OR 7cm OR 72h OR 7b7)]: %NAME%{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
-ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 (7gs OR 7fb OR 7gd OR 9fb)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
+ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (7gs OR 7fb OR 7gd OR 9fb)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 // DAGGER'S (NMAG)
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH ED>9 (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK257=3 OR SK259=3 OR SK265=3 OR SK266=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %PX-21%%DOT-D6%%NAME% %RED%+{%NAME%}
 ItemDisplay[(FILTLVL<3 OR FILTLVL=6) NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW !ETH (7dg OR 7kr) (SK73=3 OR SK254=3 OR SK257=3 OR SK259=3 OR SK265=3 OR SK266=3 OR SK269=3 OR SK274=3 OR SK280=3)]: %NAME%{%NAME%}
