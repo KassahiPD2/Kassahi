@@ -631,6 +631,7 @@ ItemDisplay[UNI !ID xtu]: Iron Pelt%CONTINUE%
 ItemDisplay[UNI !ID utu]: The Gladiator's Bane%CONTINUE%
 ItemDisplay[UNI !ID rng]: Darkglow%CONTINUE%
 ItemDisplay[UNI !ID xng]: Spirit Forge%CONTINUE%
+ItemDisplay[UNI !ID ung]: Wraithskin%CONTINUE%
 ItemDisplay[UNI !ID scl]: Hawkmail%CONTINUE%
 ItemDisplay[UNI !ID xcl]: Crow Caw%CONTINUE%
 ItemDisplay[UNI !ID brs]: Venom Ward%CONTINUE%
@@ -666,6 +667,7 @@ ItemDisplay[UNI !ID xml]: Moser's Blessed Circle%CONTINUE%
 ItemDisplay[UNI !ID uml]: Blackoak Shield%CONTINUE%
 ItemDisplay[UNI !ID lrg]: Stormguild%CONTINUE%
 ItemDisplay[UNI !ID xrg]: Stormchaser%CONTINUE%
+ItemDisplay[UNI !ID urg]: Twilight’s Reflection%CONTINUE%
 ItemDisplay[UNI !ID spk]: Swordback Hold%CONTINUE%
 ItemDisplay[UNI !ID xpk]: Lance Guard%CONTINUE%
 ItemDisplay[UNI !ID upk]: Spike Thorn%CONTINUE%
@@ -684,6 +686,7 @@ ItemDisplay[UNI !ID uts]: Spirit Ward%CONTINUE%
 // GLOVE'S NAME (UNI)
 ItemDisplay[UNI !ID lgl]: The Hand of Broc%CONTINUE%
 ItemDisplay[UNI !ID xlg]: Venom Grip%CONTINUE%
+ItemDisplay[UNI !ID ulg]: Titan's Grip%CONTINUE%
 ItemDisplay[UNI !ID vgl]: Bloodfist%CONTINUE%
 ItemDisplay[UNI !ID xvg]: Gravepalm%CONTINUE%
 ItemDisplay[UNI !ID uvg]: Dracul's Grasp%CONTINUE%
@@ -733,6 +736,7 @@ ItemDisplay[UNI !ID ci3]: Griffon's Eye%CONTINUE%
 // DRUID PELT'S NAME (UNI)
 ItemDisplay[UNI !ID drb]: Cerebus' Bite%CONTINUE%
 ItemDisplay[UNI !ID dr2]: Quetzalcoatl%CONTINUE%
+ItemDisplay[UNI !ID drc]: Denmother%CONTINUE%
 ItemDisplay[UNI !ID drd]: Spirit Keeper%CONTINUE%
 ItemDisplay[UNI !ID dre]: Ravenlore%CONTINUE%
 ItemDisplay[UNI !ID dra]: Jalal's Mane%CONTINUE%
@@ -854,6 +858,7 @@ ItemDisplay[UNI !ID 9dg]: Spineripper%CONTINUE%
 ItemDisplay[UNI !ID 7dg]: Wizardspike%CONTINUE%
 ItemDisplay[UNI !ID dir]: The Diggler%CONTINUE%
 ItemDisplay[UNI !ID 9di]: Heart Carver%CONTINUE%
+ItemDisplay[UNI !ID 7di]: Shatterblade%CONTINUE%
 ItemDisplay[UNI !ID kri]: The Jade Tan Do%CONTINUE%
 ItemDisplay[UNI !ID 9kr]: Blackbog's Sharp%CONTINUE%
 ItemDisplay[UNI !ID 7kr]: Fleshlight%CONTINUE%
@@ -984,6 +989,7 @@ ItemDisplay[UNI !ID obf]: Death's Fathom%CONTINUE%
 // AMAZON WEAPON'S NAME (UNI)
 ItemDisplay[UNI !ID amb]: Blood Raven's Charge%CONTINUE%
 ItemDisplay[UNI !ID am7]: Lycander's Aim%CONTINUE%
+ItemDisplay[UNI !ID amc]: Ebonbane%CONTINUE%
 ItemDisplay[UNI !ID amd]: Stoneraven%CONTINUE%
 ItemDisplay[UNI !ID am9]: Lycander's Flank%CONTINUE%
 ItemDisplay[UNI !ID ame]: Zerae's Resolve%CONTINUE%
