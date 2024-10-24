@@ -4,7 +4,7 @@
 
     This loot filter is in a constant state of development.
 
-    Currently supports Season 9.
+    Currently supports Season 10.
 
 Welcome to Kassahi's PD2 loot filter. This loot filter is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
 
