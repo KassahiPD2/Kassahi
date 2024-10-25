@@ -1248,7 +1248,7 @@ ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
 ItemDisplay[!(FILTLVL<3 OR FILTLVL=6) rvs]:
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%
-ItemDisplay[rvl]: %PURPLE%+ %WHITE%65% %PURPLE%+
+ItemDisplay[rvl]: %PURPLE%+ %WHITE%Juice %PURPLE%+
 ItemDisplay[hp1 CLVL<7]: %RED%+%WHITE%Heal 1
 ItemDisplay[hp2 CLVL<15]: %RED%+%WHITE%Heal 2
 ItemDisplay[hp3 CLVL<19]: %RED%+%WHITE%Heal 3
