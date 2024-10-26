@@ -950,7 +950,7 @@ ItemDisplay[UNI !ID bst]: The Salamander%CONTINUE%
 ItemDisplay[UNI !ID 8bs]: Warpspear%CONTINUE%
 ItemDisplay[UNI !ID 6bs]: Brimstone Rain%CONTINUE%
 ItemDisplay[UNI !ID wst]: The Iron Jang Bong%CONTINUE%
-ItemDisplay[UNI !ID 8ws]: Skull Collector%CONTINUE%
+ItemDisplay[UNI !ID 8ws]: Dust Collector%CONTINUE%
 ItemDisplay[UNI !ID 6ws]: Mang Song's Lesson%CONTINUE%
 // WAND'S NAME (UNI)
 ItemDisplay[UNI !ID wnd]: Torch of Iro%CONTINUE%
