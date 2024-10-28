@@ -23,15 +23,14 @@ ItemDisplayFilterName[12]: Currently Not Used
 
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
+ItemDisplay[MAG cm1 (FRES>10 OR LRES>10 OR CRES>10 OR PRES>10 OR MAXDMG>2 OR MINDMG>2)]: %DOT-0A%%PURPLE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm1 (((MAXDMG>2 OR MANA>14 OR FRES>9 OR LRES>9 OR CRES>9 OR PRES>9) (MFIND>4 OR STR>1 OR DEX>1)) OR ((RES>2) (FHR>0 OR LIFE>14 OR FRW>0)) OR ((RES>3) (MFIND>4 OR STR>1 OR DEX>1)) OR (RES>4))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Small Charm %RED%+%ORANGE%+%CONTINUE%
 ItemDisplay[MAG cm1 (((MAXDMG>2 OR MANA>14 OR FRES>9 OR LRES>9 OR CRES>9 OR PRES>9) (FHR>0 OR LIFE>14 OR FRW>0)) OR ((RES>4) (FHR>0 OR LIFE>14 OR FRW>0)))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Small Charm %RED%++%ORANGE%++%CONTINUE%
 ItemDisplay[MAG cm2]: Large Charm%CONTINUE%
-ItemDisplay[MAG cm2 (STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0)]: Large Charm %TAN%Skill Damage%CONTINUE%
-ItemDisplay[MAG cm2 ((STR>4 OR DEX>4) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Large Charm %TAN%Skill Damage %RED%+%ORANGE%+%CONTINUE%
+ItemDisplay[MAG cm2 (STAT329>0 OR STAT330>0 OR STAT331>0 OR STAT332>0 OR STAT357>0)]: %PURPLE%Large Charm %TAN%Skill Damage%CONTINUE%
 ItemDisplay[MAG cm2 ((FHR>0 OR LIFE>24 OR FRW>0) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Large Charm %TAN%Skill Damage %RED%++%ORANGE%++%CONTINUE%
 ItemDisplay[MAG cm3]: Grand Charm%CONTINUE%
-ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1)]: Grand Charm %TAN%Skiller%CONTINUE%
-ItemDisplay[MAG cm3 ((STR>4 OR DEX>4) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Grand Charm %TAN%Skiller %RED%+%ORANGE%+%CONTINUE%
+ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1)]: %PURPLE%Grand Charm %TAN%Skiller%CONTINUE%
 ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Grand Charm %TAN%Skiller %RED%++%ORANGE%++%CONTINUE%
 ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm %TAN%Skill Damage%CONTINUE%
@@ -47,8 +46,9 @@ ItemDisplay[UNI cm2 CLSK6=2]: Sin Torch%CONTINUE%
 ItemDisplay[UNI cm3]: Gheed's Fortune%CONTINUE%
 // JEWELRY'S NAME (BASE)
 ItemDisplay[(MAG OR RARE) jew]: Jewel%CONTINUE%
-ItemDisplay[MAG jew (((ED>39 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (STR>6 OR DEX>6) OR (MAEK>2 OR STAT86>2)))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Jewel %RED%+%ORANGE%+%CONTINUE%
-ItemDisplay[MAG jew (((ED>29 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MAXDMG>7 MINDMG>7) OR MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9)))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Jewel %RED%++%ORANGE%++%CONTINUE%
+ItemDisplay[MAG jew (((ED>39 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (STR>6 OR DEX>6)) OR (MAEK>2 OR STAT86>2))]: %DOT-0A%%PURPLE%Jewel%CONTINUE%
+ItemDisplay[MAG jew ((ED>39 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR STAT501>119) (MAEK>2 OR STAT86>2))]: %DOT-0A%%ORANGE%+%RED%+ %PURPLE%Jewel %RED%+%ORANGE%+%CONTINUE%
+ItemDisplay[MAG jew ((MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9)) OR ((ED>29 OR MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) ((MAXDMG>7 MINDMG>7) OR IAS>0 OR STAT91=-15)))]: %DOT-0A%%ORANGE%++%RED%++ %PURPLE%Jewel %RED%++%ORANGE%++%CONTINUE%
 ItemDisplay[UNI ID jew STAT333>0 STAT329>0]: Fire Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT334>0 STAT330>0]: Lightning Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT335>0 STAT331>0]: Cold Facet%CONTINUE%
@@ -743,7 +743,7 @@ ItemDisplay[UNI !ID dra]: Jalal's Mane%CONTINUE%
 ItemDisplay[UNI !ID drf]: Ursa's Nightmare%CONTINUE%
 // BARBARIAN HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID ba6]: Cyclopean Roar%CONTINUE%
-ItemDisplay[UNI !ID bac]: Wolfhowl%CONTINUE%
+ItemDisplay[UNI !ID bac]: Furry%CONTINUE%
 ItemDisplay[UNI !ID bad]: Demonhorn's Edge%CONTINUE%
 ItemDisplay[UNI !ID bae]: Halaberd's Reign%CONTINUE%
 ItemDisplay[UNI !ID baa]: Arreat's Face%CONTINUE%
@@ -1171,7 +1171,7 @@ ItemDisplay[STAT360=6]: %NAME% -Req{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=7]: %NAME% Mf{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=8]: %NAME% Lpk{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=9]: %NAME% Mpk{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=10]: %NAME% Max Mana{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=10]: %NAME% Mana{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=12]: %NAME% -Fres{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=13]: %NAME% -Lres{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=14]: %NAME% -Cres{%NAME%}%CONTINUE%
@@ -1192,13 +1192,13 @@ ItemDisplay[STAT360=29]: %NAME% Cm/Fcr{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=30]: %NAME% Lm/Fcr{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=31]: %NAME% Pm/Fcr{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=33]: %NAME% Edef{%NAME%}%CONTINUE%
-ItemDisplay[(STAT360=34 OR STAT360=49)]: %NAME% Cur Res{%NAME%}%CONTINUE%
+ItemDisplay[(STAT360=34 OR STAT360=49)]: %NAME% Repl{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=35]: %NAME% Fhr{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=36]: %NAME% Fres{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=37]: %NAME% Cres{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=38]: %NAME% Lres{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=39]: %NAME% Pres{%NAME%}%CONTINUE%
-ItemDisplay[STAT360=40]: %NAME% Mana{%NAME%}%CONTINUE%
+ItemDisplay[STAT360=40]: %NAME% Rm{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=41]: %NAME% Thorns{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=43]: %NAME% Max Life{%NAME%}%CONTINUE%
 ItemDisplay[STAT360=44]: %NAME% Frw{%NAME%}%CONTINUE%
@@ -1306,7 +1306,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(25/10/24){%GREEN%Check my GitHub For Filter Info%NL%%ORANGE%%NL%Reduced Trash Bases For Lvling Norm:45 to 10, Exc:65 to 30, Elt:75 to 60%NL%%NL%+3 Slot +Skills Normal/nm, +2 Slot Orbs Hell to +$%NL%New Infinity, Obsession, Fury, Plague, Memory & Cta, Bases%NL%New Highlighted Charms & Jewels, Updated Items, Slams, Maps & RWs%NL%Allocated Loot Info, New .Commands, on Shop Key%NL%3 New Filter Lvls Currently Not Used%NL%%RED%Beta Update 12:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(28/10/24){%GREEN%Check my GitHub For Filter Info%NL%%NL%%ORANGE%as Well as Some Uniqs%NL%%GREEN%Changed: %ORANGE%F/P. Gems & Low Runes 1-18%NL%Charms, Jewels, Slams, New Maps & a Few Max OS%NL%%GREEN%Fixed Some Bugs Related to:%NL%%RED%Live Update 1:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1343,34 +1343,19 @@ ItemDisplay[GEM=1 CLVL<24]: %WHITE%Chip-%SAGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[GEM=2 CLVL<24]: %WHITE%Fla-%SAGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[GEM=3 CLVL<24]: %SAGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[(GEM=1 OR GEM=2 OR GEM=3) CLVL>23]:
-ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) GEM=4]: %WHITE%F-%SAGE%%GEMTYPE% %CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=1]: %PURPLE%Amethyst%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=2]: %WHITE%Diamond%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=3]: %GREEN%Emerald%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=4]: %RED%Ruby%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=5]: %BLUE%Sapphire%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=6]: %YELLOW%Topaz%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=7]: %LIGHT_GRAY%Skull%CONTINUE%
+ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) GEM=4]: %WHITE%F. %NAME% o%CONTINUE%
 ItemDisplay[(FILTLVL=4 OR FILTLVL=5 OR FILTLVL>7) GEM=4]:
-ItemDisplay[GEM=5]: %MAP-20%%WHITE%P-%ORANGE%%GEMTYPE% %CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=1]: %NAME%%PURPLE%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=2]: %NAME%%WHITE%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=3]: %NAME%%GREEN%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=4]: %NAME%%RED%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=5]: %NAME%%BLUE%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=6]: %NAME%%YELLOW%%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) GEMTYPE=7]: %NAME%%LIGHT_GRAY%%CONTINUE%
-ItemDisplay[GEM=4]: %NAME%o%CONTINUE%
-ItemDisplay[GEM=5]: %NAME%O%CONTINUE%
-ItemDisplay[(GEM=4 OR GEM=5) QTY>0]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
-ItemDisplay[DRUID (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=3 OR GEMTYPE=4 OR GEMTYPE=5)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[DRUID (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[BARBARIAN (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=4 OR GEMTYPE=5 OR GEMTYPE=7)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[BARBARIAN (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=6)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[PALADIN (GEM=4 OR GEM=5) (GEMTYPE=1)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[PALADIN (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=4 OR GEMTYPE=5 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[NECROMANCER (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=4)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[NECROMANCER (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=5 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[ASSASSIN (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=4 OR GEMTYPE=5)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[ASSASSIN (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[SORCERESS (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=4)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[SORCERESS (GEM=4 OR GEM=5) (GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=5 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[AMAZON (GEM=4 OR GEM=5) (GEMTYPE=1 OR GEMTYPE=2 OR GEMTYPE=3 OR GEMTYPE=5)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[AMAZON (GEM=4 OR GEM=5) (GEMTYPE=4 OR GEMTYPE=6 OR GEMTYPE=7)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[gzvs]: %NAME%{%TAN%Shield: %WHITE%+24 %BLUE%Def%NL%%TAN%Armor/Helm: %WHITE%+8 %BLUE%to Str%NL%%TAN%Weapon: %WHITE%+100 %BLUE%to AR}
+ItemDisplay[GEM=5]: %MAP-20%%ORANGE%P. %NAME% O%CONTINUE%
+ItemDisplay[(GEM=4 OR GEM=5)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
+ItemDisplay[GEM=4]: %ORANGE%+  %NAME%  %ORANGE%+%CONTINUE%
+ItemDisplay[GEM=5]: %ORANGE%++     %NAME%     %ORANGE%++%CONTINUE%
 ItemDisplay[glws]: %NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+14%%NL%%TAN%Armor/Helm: %WHITE%+80 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+54% %BLUE%Dmg vs Und}
 ItemDisplay[glgs]: %NAME%{%TAN%Shield: %WHITE%28% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+8%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+60 %BLUE%Psn Dmg Over %WHITE%6 %BLUE%Sec}
 ItemDisplay[glrs]: %NAME%{%TAN%Shield: %WHITE%28% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+31 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%10-16 %BLUE%Fire Dmg}
@@ -1388,37 +1373,11 @@ ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
 // RUNES
 ItemDisplay[RUNE>0]: %RUNENAME% Rune %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r10s OR r11s OR r12s OR r13s OR r14s OR r15s OR r16s OR r17s OR r18s OR r19s OR r20s OR r21s OR r22s OR r23s OR r24s OR r25s OR r26s OR r27s OR r31s OR r33s)]: %NAME% %TAN%x%WHITE%%QTY%%ORANGE%%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) DRUID (r03s OR r04s OR r06s OR r07s OR r08s OR r09s OR r11s OR r18s OR r03 OR r04 OR r06 OR r07 OR r08 OR r09 OR r11 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) DRUID (r05s OR r12s OR r13s OR r15s OR r16s OR r17s OR r05 OR r12 OR r13 OR r15 OR r16 OR r17)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) BARBARIAN (r03s OR r07s OR r09s OR r11s OR r16s OR r17s OR r18s OR r03 OR r07 OR r09 OR r11 OR r16 OR r17 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) BARBARIAN (r04s OR r05s OR r06s OR r08s OR r12s OR r13s OR r15s OR r04 OR r05 OR r06 OR r08 OR r12 OR r13 OR r15)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) PALADIN (r07s OR r08s OR r18s OR r07 OR r08 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) PALADIN (r03s OR r04s OR r05s OR r06s OR r09s OR r11s OR r12s OR r13s OR r15s OR r16s OR r17s OR r03 OR r04 OR r05 OR r06 OR r09 OR r11 OR r12 OR r13 OR r15 OR r16 OR r17)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) NECROMANCER (r03s OR r04s OR r05s OR r07s OR r08s OR r11s OR r12s OR r18s OR r03 OR r04 OR r05 OR r07 OR r08 OR r11 OR r12 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) NECROMANCER (r06s OR r09s OR r13s OR r15s OR r16s OR r17s OR r06 OR r09 OR r13 OR r15 OR r16 OR r17)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) ASSASSIN (r03s OR r07s OR r09s OR r11s OR r13s OR r16s OR r18s OR r03 OR r07 OR r09 OR r11 OR r13 OR r16 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) ASSASSIN (r04s OR r05s OR r06s OR r08s OR r12s OR r15s OR r17s OR r04 OR r05 OR r06 OR r08 OR r12 OR r15 OR r17)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) SORCERESS (r07s OR r08s OR r11s OR r15s OR r18s OR r07 OR r08 OR r11 OR r15 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) SORCERESS (r03s OR r04s OR r05s OR r06s OR r09s OR r12s OR r13s OR r16s OR r17s OR r03 OR r04 OR r05 OR r06 OR r09 OR r12 OR r13 OR r16 OR r17)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) AMAZON (r03s OR r07s OR r09s OR r11s OR r12s OR r13s OR r17s OR r18s OR r03 OR r07 OR r09 OR r11 OR r12 OR r13 OR r17 OR r18)]: %DOT-0A%%NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) AMAZON (r04s OR r05s OR r06s OR r08s OR r15s OR r16s OR r04 OR r05 OR r06 OR r08 OR r15 OR r16)]: %DOT-0A%%NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) (r01s OR r02s OR r10s OR r14s OR r01 OR r02 OR r10 OR r14)]: %DOT-0A%%NAME% %TEAL%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) DRUID (r03s OR r04s OR r06s OR r07s OR r08s OR r09s OR r11s OR r18s OR r03 OR r04 OR r06 OR r07 OR r08 OR r09 OR r11 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) DRUID (r05s OR r12s OR r13s OR r15s OR r16s OR r17s OR r05 OR r12 OR r13 OR r15 OR r16 OR r17)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) BARBARIAN (r03s OR r07s OR r09s OR r11s OR r16s OR r17s OR r18s OR r03 OR r07 OR r09 OR r11 OR r16 OR r17 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) BARBARIAN (r04s OR r05s OR r06s OR r08s OR r12s OR r13s OR r15s OR r04 OR r05 OR r06 OR r08 OR r12 OR r13 OR r15)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) PALADIN (r07s OR r08s OR r18s OR r07 OR r08 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) PALADIN (r03s OR r04s OR r05s OR r06s OR r09s OR r11s OR r12s OR r13s OR r15s OR r16s OR r17s OR r03 OR r04 OR r05 OR r06 OR r09 OR r11 OR r12 OR r13 OR r15 OR r16 OR r17)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) NECROMANCER (r03s OR r04s OR r05s OR r07s OR r08s OR r11s OR r12s OR r18s OR r03 OR r04 OR r05 OR r07 OR r08 OR r11 OR r12 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) NECROMANCER (r06s OR r09s OR r13s OR r15s OR r16s OR r17s OR r06 OR r09 OR r13 OR r15 OR r16 OR r17)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) ASSASSIN (r03s OR r07s OR r09s OR r11s OR r13s OR r16s OR r18s OR r03 OR r07 OR r09 OR r11 OR r13 OR r16 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) ASSASSIN (r04s OR r05s OR r06s OR r08s OR r12s OR r15s OR r17s OR r04 OR r05 OR r06 OR r08 OR r12 OR r15 OR r17)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) SORCERESS (r07s OR r08s OR r11s OR r15s OR r18s OR r07 OR r08 OR r11 OR r15 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) SORCERESS (r03s OR r04s OR r05s OR r06s OR r09s OR r12s OR r13s OR r16s OR r17s OR r03 OR r04 OR r05 OR r06 OR r09 OR r12 OR r13 OR r16 OR r17)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) AMAZON (r03s OR r07s OR r09s OR r11s OR r12s OR r13s OR r17s OR r18s OR r03 OR r07 OR r09 OR r11 OR r12 OR r13 OR r17 OR r18)]: %NAME% %ORANGE%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) AMAZON (r04s OR r05s OR r06s OR r08s OR r15s OR r16s OR r04 OR r05 OR r06 OR r08 OR r15 OR r16)]: %NAME% %GRAY%#%CONTINUE%
-ItemDisplay[(FILTLVL=5 OR FILTLVL=9) (r01s OR r02s OR r10s OR r14s OR r01 OR r02 OR r10 OR r14)]: %NAME% %TEAL%#%CONTINUE%
-ItemDisplay[(r18s OR r19s OR r20s OR r18 OR r19 OR r20)]: %DOT-0A%%PURPLE%@  %NAME%  %PURPLE%@%CONTINUE%
+ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) (r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r11s OR r12s OR r13s OR r15s OR r16s OR r17s OR r18s OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15 OR r16 OR r17 OR r18)]: %DOT-0A%%GREEN%+  %NAME%  %GREEN%+%CONTINUE%
+ItemDisplay[(FILTLVL<5 OR (FILTLVL>5 FILTLVL<9)) (r01s OR r02s OR r10s OR r14s OR r01 OR r02 OR r10 OR r14)]: %DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%CONTINUE%
+ItemDisplay[(FILTLVL=5 OR FILTLVL=9) (r03s OR r04s OR r05s OR r06s OR r07s OR r08s OR r09s OR r11s OR r12s OR r13s OR r15s OR r16s OR r17s OR r18s OR r03 OR r04 OR r05 OR r06 OR r07 OR r08 OR r09 OR r11 OR r12 OR r13 OR r15 OR r16 OR r17 OR r18)]: %GREEN%+  %NAME%  %GREEN%+%CONTINUE%
+ItemDisplay[(FILTLVL=5 OR FILTLVL=9) (r01s OR r02s OR r10s OR r14s OR r01 OR r02 OR r10 OR r14)]: %LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%CONTINUE%
+ItemDisplay[(r19s OR r20s OR r19 OR r20)]: %DOT-0A%%PURPLE%@  %NAME%  %PURPLE%@%CONTINUE%
 ItemDisplay[(r21s OR r22s OR r23s OR r21 OR r22 OR r23)]: %MAP-0A%%PURPLE%@@   %NAME%   %PURPLE%@@%CONTINUE%
 ItemDisplay[(r24s OR r25s OR r24 OR r25)]: %PX-60%%DOT-21%%MAP-0A%%PURPLE%@@%GREEN%@  %NAME%  %GREEN%@%PURPLE%@@%CONTINUE%
 ItemDisplay[r26s]: %DOT-60%%MAP-21%%BORDER-0A%%GREEN%@@@%PURPLE%@@@%GREEN%@@  %RED%Vex Rune %GREEN%%RUNENUM%  %TAN%x%WHITE%%QTY%  %GREEN%@@%PURPLE%@@@%GREEN%@@@%CONTINUE%
@@ -1564,8 +1523,8 @@ ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Hig
 ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
 ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
 ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
-ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %RED%F:100, %YELLOW%L:110, %BLUE%C:140, %GREEN%P:100, %GOLD%Ph:100%NL%%WHITE%Highest Res: %ORANGE%M:50%NAME%}%CONTINUE% // Demon Road 191
-ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %YELLOW%L:125, %BLUE%C:130, %GREEN%P:100%NL%%WHITE%Highest Res: %RED%F:65, %GOLD%Ph:50, %ORANGE%M:20%NAME%}%CONTINUE% // Skovos Stronghold 190
+//ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %RED%F:100, %YELLOW%L:110, %BLUE%C:140, %GREEN%P:100, %GOLD%Ph:100%NL%%WHITE%Highest Res: %ORANGE%M:50%NAME%}%CONTINUE% // Demon Road 191
+//ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %YELLOW%L:125, %BLUE%C:130, %GREEN%P:100%NL%%WHITE%Highest Res: %RED%F:65, %GOLD%Ph:50, %ORANGE%M:20%NAME%}%CONTINUE% // Skovos Stronghold 190
 ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
 ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:85, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
@@ -1698,8 +1657,8 @@ ItemDisplay[t23 (!ID OR NMAG)]: %NAME% %WHITE%Im: %RED%F %YELLOW%L{%NAME%}
 ItemDisplay[t24 (!ID OR NMAG)]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P %GOLD%Ph{%NAME%}
 ItemDisplay[t25 (!ID OR NMAG)]: %NAME% %WHITE%Im: %YELLOW%L %GREEN%P{%NAME%}
 ItemDisplay[t26 (!ID OR NMAG)]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %GOLD%Ph{%NAME%}
-ItemDisplay[t27 (!ID OR NMAG)]: %NAME% %WHITE%Im: %RED%F %YELLOW%L %BLUE%C %GREEN%P %GOLD%Ph{%NAME%}%CONTINUE%
-ItemDisplay[t28 (!ID OR NMAG)]: %NAME% %WHITE%Im: %YELLOW%L %BLUE%C %GREEN%P{%NAME%}
+//ItemDisplay[t27 (!ID OR NMAG)]: %NAME% %WHITE%Im: %RED%F %YELLOW%L %BLUE%C %GREEN%P %GOLD%Ph{%NAME%}
+//ItemDisplay[t28 (!ID OR NMAG)]: %NAME% %WHITE%Im: %YELLOW%L %BLUE%C %GREEN%P{%NAME%}
 ItemDisplay[t31 (!ID OR NMAG)]: %NAME% %WHITE%Im: %BLUE%C %GREEN%P %ORANGE%M{%NAME%}
 ItemDisplay[t32 (!ID OR NMAG)]: %NAME% %WHITE%Im: %YELLOW%L %BLUE%C{%NAME%}
 ItemDisplay[t33 (!ID OR NMAG)]: %NAME% %WHITE%Im: %RED%F %BLUE%C{%NAME%}
@@ -1722,8 +1681,8 @@ ItemDisplay[t23 ID]: %WHITE%Im: %RED%F %YELLOW%L%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t24 ID]: %WHITE%Im: %YELLOW%L %GREEN%P %GOLD%Ph%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t25 ID]: %WHITE%Im: %YELLOW%L %GREEN%P%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t26 ID]: %WHITE%Im: %BLUE%C %GREEN%P %GOLD%Ph%CL%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t27 ID]: %WHITE%Im: %RED%F %YELLOW%L %BLUE%C %GREEN%P %GOLD%Ph%CL%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[t28 ID]: %WHITE%Im: %YELLOW%L %BLUE%C %GREEN%P%CL%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[t27 ID]: %WHITE%Im: %RED%F %YELLOW%L %BLUE%C %GREEN%P %GOLD%Ph%CL%%NAME%{%NAME%}%CONTINUE%
+//ItemDisplay[t28 ID]: %WHITE%Im: %YELLOW%L %BLUE%C %GREEN%P%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t31 ID]: %WHITE%Im: %BLUE%C %GREEN%P %ORANGE%M%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t32 ID]: %WHITE%Im: %YELLOW%L %BLUE%C%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[t33 ID]: %WHITE%Im: %RED%F %BLUE%C%CL%%NAME%{%NAME%}%CONTINUE%
@@ -1766,19 +1725,19 @@ ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%GRAY%x%RED%X   %NAME%   %RED%
 // UNIQUE DROPS (DCLONE & RATHMA)
 ItemDisplay[UNI !ID (uhl OR uth OR utb OR 7bs OR 7qr OR rar OR rbe OR ram OR utc OR uhn)]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%Choo %PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX %RED%%NAME% %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx %GREEN%Choo
 // UNIQUE DROPS (BLAME ONION)
-ItemDisplay[UNI !ID ETH (uap OR ulm OR usk OR ci2 OR ci3 OR dra OR dre OR drd OR xui OR xea OR xth OR xtp OR uui OR upl OR xsh OR xow OR uow OR uts OR nea OR nee OR nef OR ned OR pa9 OR pae OR tgl OR xvg OR uvg OR umg OR utg OR uhg OR xmb OR uhb OR zlb OR zhb OR ulc OR uvc OR umc)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %NAME%     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
+ItemDisplay[UNI !ID ETH (uap OR ulm OR usk OR ci2 OR ci3 OR dra OR dre OR drd OR xui OR xea OR xth OR xtp OR uui OR upl OR xsh OR xow OR uow OR uts OR nea OR nee OR nef OR ned OR pa9 OR pae OR tgl OR xvg OR uvg OR umg OR utg OR uhg OR xmb OR zlb OR zhb OR ulc OR uvc OR umc)]: %PX-97%%DOT-84%%MAP-60%%BORDER-62%%RED%...%ORANGE%B%YELLOW%l%GREEN%a%BLUE%m%PURPLE%e     %NAME%     %PURPLE%O%BLUE%n%GREEN%i%YELLOW%o%ORANGE%n%RED%...
 // UNIQUE DROPS (7+)
 ItemDisplay[UNI !ID !ETH (jew OR amu OR rin OR 6lw OR 6ws OR 7bw OR 7gw OR obc OR obf OR xh9 OR uap OR ulm OR uh9 OR uhm OR ci2 OR ci3 OR bac OR dre OR xea OR xth OR xtp OR upl OR uul OR uar OR xsh OR xow OR uit OR uts OR nee OR pa9 OR umg OR xtb OR ulc OR uvc OR utg)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX  %NAME%  %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx
 ItemDisplay[UNI !ID ETH (7wh OR 7wa OR 9gm OR 7fl OR 7gm OR 7b8 OR 7p7 OR 7ws OR 8ls OR 6ws OR 7bw OR 7gw OR am9 OR 7tw OR obc OR obf OR xh9 OR uh9 OR uhm OR bac OR xhn OR utp OR uul OR uar OR uit OR xtb OR xhb OR 9la OR 7st OR 7cm)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX  %NAME%  %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%xX
 // UNIQUE DROPS (3-6.9)
-ItemDisplay[UNI !ID !ETH (7wh OR 7fl OR 7gm OR 7cr OR 7p7 OR 7ws OR 6bs OR 7tw OR 7lw OR xhm OR usk OR urn OR baa OR bae OR dra OR drb OR drd OR drf OR xui OR xhn OR xpl OR xlt OR uui OR ush OR uow OR nea OR nef OR ned OR pae OR tgl OR xvg OR uvg OR uhg OR xvb OR xmb OR xhb OR uvb OR uhb OR zlb OR zhb OR umc OR 9la OR 7st OR 7cm OR 8ws OR ulg OR ung OR urg OR drc OR amc OR 7di OR 7bt OR zmb)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%xX%RED%xX%ORANGE%xX  %NAME%  %ORANGE%Xx%RED%Xx%PURPLE%Xx
-ItemDisplay[UNI !ID ETH (7ga OR 7gi OR 7b7 OR 7fb OR 7gd OR 7bl OR 7bk OR 7gl OR 9s8 OR 7s8 OR 7wc OR 8ls OR 6bs OR amd OR ame OR 7wb OR 7lw OR xhm OR baa OR bae OR drb OR drf OR xpl OR xlt OR utu OR uld OR ush OR pac OR xvb OR uvb OR 7ha OR 9gs OR 8ws OR ung OR urg OR 7bt)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%xX%RED%xX%ORANGE%xX  %NAME%  %ORANGE%Xx%RED%Xx%PURPLE%Xx
+ItemDisplay[UNI !ID !ETH (7wh OR 7fl OR 7gm OR 7cr OR 7p7 OR 7ws OR 6bs OR 7tw OR 7lw OR xhm OR usk OR urn OR baa OR bae OR dra OR drb OR drd OR drf OR xui OR xhn OR xpl OR xlt OR uui OR ush OR uow OR nea OR nef OR ned OR pae OR tgl OR xvg OR uvg OR uhg OR xmb OR xhb OR zlb OR zhb OR umc OR 9la OR 7st OR 7cm OR 8ws OR ulg OR ung OR urg OR drc OR amc OR 7di OR 7bt OR zmb)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%xX%RED%xX%ORANGE%xX  %NAME%  %ORANGE%Xx%RED%Xx%PURPLE%Xx
+ItemDisplay[UNI !ID ETH (7ga OR 7gi OR 7b7 OR 7fb OR 7gd OR 7bl OR 7bk OR 7gl OR 9s8 OR 7s8 OR 7wc OR 8ls OR 6bs OR amd OR ame OR 7wb OR 7lw OR xhm OR baa OR bae OR drb OR drf OR xpl OR xlt OR utu OR uld OR ush OR pac OR uvb OR 7ha OR 9gs OR 8ws OR ung OR urg OR 7bt)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%xX%RED%xX%ORANGE%xX  %NAME%  %ORANGE%Xx%RED%Xx%PURPLE%Xx
 // UNIQUE DROPS (0.5-2.9)
-ItemDisplay[UNI !ID !ETH (gix OR 9bt OR 7wa OR 7ga OR 7gi OR 9wh OR 9gm OR 7m7 OR gsd OR 9sb OR 9ls OR 9gs OR 9b9 OR 9gd OR 7ls OR 7gs OR 7b7 OR 7fb OR 7gd OR 9kr OR 7bk OR 7b8 OR 7gl OR 7ts OR 9s8 OR 9wc OR 7s8 OR 7pa OR 7wc OR 8s8 OR 8lw OR 6l7 OR 6sw OR 8mx OR 8rx OR 6rx OR 9ws OR 7sc OR 7qs OR 8ls OR 6cs OR 9gw OR amb OR amd OR ame OR ama OR amf OR 9tw OR oba OR xrn OR ba6 OR bad OR baf OR dr2 OR rng OR brs OR ltp OR xng OR xrs OR xld OR xul OR xar OR utu OR uld OR utp OR xit OR xts OR uml OR upk OR ne6 OR pac OR lgl OR mgl OR hgl OR xlg OR xmg OR xtg OR xhg OR lbt OR vbt OR mbt OR hbt OR xlb OR ulb OR umb OR tbl OR zvb OR ztb OR 7ha OR 9bw OR plt OR lbb OR tbt OR 8hx OR xpk OR 9fl)]: %PX-0D%%DOT-0A%%RED%x%ORANGE%X  %NAME%  %ORANGE%X%RED%x
-ItemDisplay[UNI !ID ETH (gix OR 9bt OR 9ga OR 9gi OR 72a OR 9wh OR 7mt OR gsd OR 9sb OR 9bs OR 9ls OR 92h OR 9cm OR 9b9 OR 9fb OR 9gd OR 7ls OR 7gs OR 9kr OR 7kr OR 9tk OR 9ta OR 7ta OR 7s7 OR 7ts OR 9sr OR 7sr OR 7br OR 9wc OR 7o7 OR 7pa OR 9ws OR 7sc OR 7qs OR 6cs OR 9gw OR am5 OR ama OR amf OR 9ar OR 9tw OR 7cs OR oba OR xrn OR ba6 OR bad OR baf OR xul OR mgl OR lbt OR vbt OR mbt OR hbt OR xlb OR umb OR tbl OR 9bw OR 7m7 OR tbt OR ulg OR drc OR 7di OR 9fl OR zmb)]: %PX-0D%%DOT-0A%%RED%x%ORANGE%X  %NAME%  %ORANGE%X%RED%x
+ItemDisplay[UNI !ID !ETH (9bt OR 7wa OR 7ga OR 7gi OR 9wh OR 9gm OR 7m7 OR gsd OR 9sb OR 9ls OR 9gs OR 9b9 OR 9gd OR 7ls OR 7gs OR 7b7 OR 7fb OR 7gd OR 9kr OR 7bk OR 7b8 OR 7gl OR 7ts OR 9s8 OR 9wc OR 7s8 OR 7pa OR 7wc OR 8s8 OR 6l7 OR 6sw OR 8mx OR 8rx OR 6rx OR 9ws OR 7sc OR 7qs OR 8ls OR 6cs OR 9gw OR amb OR amd OR ame OR ama OR amf OR 9tw OR oba OR xrn OR ba6 OR bad OR baf OR dr2 OR rng OR ltp OR xng OR xrs OR xld OR xul OR xar OR utu OR uld OR utp OR xit OR xts OR uml OR upk OR ne6 OR pac OR lgl OR mgl OR hgl OR xlg OR xmg OR xtg OR xhg OR umb OR tbl OR zvb OR ztb OR 7ha OR 9bw OR 8hx OR xpk OR 9fl OR xvb OR uvb OR uhb)]: %PX-0D%%DOT-0A%%RED%x%ORANGE%X  %NAME%  %ORANGE%X%RED%x
+ItemDisplay[UNI !ID ETH (gix OR 9bt OR 9ga OR 9gi OR 72a OR 9wh OR 7mt OR gsd OR 9sb OR 9bs OR 9ls OR 92h OR 9cm OR 9b9 OR 9fb OR 9gd OR 7ls OR 7gs OR 9kr OR 7kr OR 9tk OR 9ta OR 7ta OR 7s7 OR 7ts OR 9sr OR 7sr OR 7br OR 9wc OR 7o7 OR 7pa OR 9ws OR 7sc OR 7qs OR 6cs OR 9gw OR am5 OR ama OR amf OR 9ar OR 9tw OR 7cs OR oba OR xrn OR ba6 OR bad OR baf OR xul OR mgl OR umb OR tbl OR 9bw OR 7m7  OR ulg OR drc OR 7di OR 9fl OR zmb OR xvb OR uhb OR plt)]: %PX-0D%%DOT-0A%%RED%x%ORANGE%X  %NAME%  %ORANGE%X%RED%x
 // UNIQUE DROPS (NOTABLE)
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) UNI !ID !ETH (9ba OR 9ga OR 7ba OR 7cl OR 7sp OR 7mt OR 9fc OR 9bs OR 7sm OR 9di OR 9bl OR 7dg OR 7kr OR 7ta OR 7s7 OR 9sr OR 7sr OR 7o7 OR am7 OR am5 OR 7wb OR ob6 OR skp OR xkp OR pa3 OR 9ar OR 9cm OR am9 OR 8cb OR 7br OR 8lb OR 6hx OR xcl)]: %GRAY%x %NAME% %GRAY%x
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) UNI !ID ETH (9ba OR 7ba OR 7cl OR 7sp OR 9fc OR 7sm OR 9di OR 9bl OR 7dg OR ob6 OR skp OR xkp OR dr2 OR rng OR brs OR ltp OR xng OR xcl OR xrs OR xld OR xar OR lgl OR hgl OR xlg OR xmg OR xtg OR xhg OR ulb OR zvb OR ztb OR xpk)]: %GRAY%x %NAME% %GRAY%x
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) UNI !ID !ETH (9ba OR 9ga OR 7ba OR 7cl OR 7sp OR 7mt OR 9fc OR 9bs OR 7sm OR 9di OR 9bl OR 7dg OR 7kr OR 7ta OR 7s7 OR 9sr OR 7sr OR 7o7 OR am7 OR am5 OR 7wb OR ob6 OR skp OR xkp OR pa3 OR 9ar OR 9cm OR am9 OR 8cb OR 7br OR 8lb OR 6hx OR xcl OR lbt OR tbt OR xlb OR ulb OR lbb OR 8lw OR gix OR plt OR brs)]: %GRAY%x %NAME% %GRAY%x
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) UNI !ID ETH (9ba OR 7ba OR 7cl OR 7sp OR 9fc OR 7sm OR 9di OR 9bl OR 7dg OR ob6 OR skp OR xkp OR dr2 OR rng OR ltp OR xng OR xcl OR xrs OR xld OR xar OR lgl OR hgl OR xlg OR xmg OR xtg OR xhg OR ulb OR zvb OR ztb OR xpk OR lbt OR vbt OR mbt OR tbt OR hbt OR xlb)]: %GRAY%x %NAME% %GRAY%x
 // UNIQUE DROPS (LLD)
 ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) UNI !ID !ETH (cst OR (wax ILVL>40) OR (gma ILVL>40) OR (mau ILVL>40) OR (gsd ILVL>40) OR bld OR xap OR bwn OR cap OR (crn ILVL>40) OR aar OR fld OR stu OR scl OR spl OR xui OR xuc OR kit OR vgl OR mbt OR vbt OR (flb ILVL>40) OR gth OR hbt OR wst)]: %PX-0D%%DOT-9B%%NAME% %PURPLE%Lld
 // UNIQUE HIGHLIGHT (LOW LVL)
@@ -1795,11 +1754,11 @@ ItemDisplay[SET !ID ETH 7ws]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%x%RED%x%DARK_GR
 ItemDisplay[SET !ID !ETH (ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws OR rin)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%x%RED%x%DARK_GREEN%x    %NAME%    %DARK_GREEN%x%RED%x%PURPLE%x
 ItemDisplay[SET !ID ETH (7fb OR 7gd OR 9mt OR 7qr)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%x%RED%x%DARK_GREEN%x    %NAME%    %DARK_GREEN%x%RED%x%PURPLE%x
 // SET DROPS (0.5-2.9)
-ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR xvg OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc OR amu)]: %PX-84%%DOT-0A%%RED%x%DARK_GREEN%x  %NAME%  %DARK_GREEN%x%RED%x
+ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc OR amu)]: %PX-84%%DOT-0A%%RED%x%DARK_GREEN%x  %NAME%  %DARK_GREEN%x%RED%x
 ItemDisplay[SET !ID ETH (7m7 OR 7ls)]: %PX-84%%DOT-0A%%RED%x%DARK_GREEN%x  %NAME%  %DARK_GREEN%x%RED%x
 // SET DROPS (NOTABLE)
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk OR lbt)]: %GRAY%x %NAME% %GRAY%x
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID ETH (xhm OR xvg OR upl OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR uth OR zmb OR oba OR utc OR xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR xmb OR umc OR xsk OR lbt)]: %GRAY%x %NAME% %GRAY%x
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk OR lbt OR xvg)]: %GRAY%x %NAME% %GRAY%x
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID ETH (xhm OR upl OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR uth OR zmb OR oba OR utc OR xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR xmb OR umc OR xsk OR lbt)]: %GRAY%x %NAME% %GRAY%x
 // SET DROPS (LLD)
 <<<<<<< HEAD
 ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) SET !ID !ETH (lgl OR vbt OR vgl OR bwn OR xap OR lbl)]: %PX-84%%DOT-9B%%NAME% %PURPLE%Lld 
@@ -1913,43 +1872,45 @@ ItemDisplay[(FILTLVL<3 OR FILTLVL=6) MAG !ID (amu OR rin)]: %NAME%
 ItemDisplay[((MAG OR CRAFT OR RARE) OR (UNI (cm1 OR cm2 OR cm3 OR jew)))]: %NAME%{%NAME%}%CONTINUE%
 
 // LARZUK'S POSSIBLE SOCKETS (-NMAG)
-ItemDisplay[MAG (ci0 OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TEAL%Q:1%NAME%}%CONTINUE% // LQ Begin
+ItemDisplay[MAG (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%WHITE%Max OS: %TEAL%Q:1%NAME%}%CONTINUE% // LQ Begin
 ItemDisplay[!NMAG !MAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TEAL%Q:1%NAME%}%CONTINUE% // LQ Begin
-ItemDisplay[!(THROWING OR ci0 OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn) MAG ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TEAL%Q:2%NAME%}%CONTINUE% // LQ Begin
+ItemDisplay[!(THROWING OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn) MAG ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%Max OS: %TEAL%Q:2%NAME%}%CONTINUE% // LQ Begin
 // LARZUK'S LUNCH BOX POSSIBLE SOCKETS (-NMAG)
 ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %GOLD%LB:}%CONTINUE% // LLB Begin
+ItemDisplay[!NMAG !THROWING ID (7sr)]: %NAME%{%NAME%6}%CONTINUE% // LLB _6
 ItemDisplay[!NMAG !THROWING ID (lax OR 9la OR 7la OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR bst OR 8bs OR 6cs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // LLB _4
-ItemDisplay[!NMAG !THROWING ID (2hs OR 92h OR 72h OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls)]: %NAME%{%NAME%3}%CONTINUE% // LLB _3
+ItemDisplay[!NMAG !THROWING ID (2hs OR 92h OR 72h OR spr OR 9sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls)]: %NAME%{%NAME%3}%CONTINUE% // LLB _3
 ItemDisplay[!NMAG !THROWING ID (cap OR xap OR skp OR xkp OR hlm OR xlm OR fhl OR xhl OR bhm OR xh9 OR uap OR ukp OR ulm OR uhl OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR fld OR plt OR rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR sml OR xml OR spk OR xpk OR bsh OR xsh OR uuc OR uml OR lrg OR xrg OR kit OR xit OR tow OR xow OR gts OR xts OR urg OR upk OR ush OR pa1 OR pa6 OR pa2 OR pa7 OR pa3 OR pa8 OR pa4 OR pa9 OR pa5 OR paa OR pab OR pac OR pad OR pae OR paf OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR ne6 OR ne7 OR ne8 OR ne9 OR nea OR neb OR neg OR ned OR nee OR nef OR hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax)]: %NAME%{%NAME%2}%CONTINUE% // LLB _2 NR 1
 ItemDisplay[!NMAG !THROWING ID (clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp OR mac OR 9ma OR mst OR 9mt OR 7ma OR 7mt OR ssd OR scm OR sbr OR flc OR 9ss OR 9sm OR 9sb OR 9fc OR wsd OR 9wd OR 7ss OR 7sm OR 7sb OR 7fc OR 7wd OR 9dg OR 9di OR bld OR 9bl OR 7dg OR 7di OR 7bl OR sst OR 9yw OR bwn OR 9bw OR gwn OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw OR scp OR 9sc OR gsc OR 9qs OR 7sc OR 7qs OR ktr OR wrb OR axf OR ces OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs OR ob1 OR ob6 OR ob2 OR ob7 OR ob3 OR ob8 OR ob4 OR ob9 OR obb OR obc OR obd OR obe OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%2}%CONTINUE% // LLB _2 NR 2
-ItemDisplay[!NMAG !THROWING ID (ci0 OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%1}%CONTINUE% // LLB _1R obb OR obc OR obd OR obe OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%2}%CONTINUE% // LLB _2
+ItemDisplay[!NMAG !THROWING ID (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%1}%CONTINUE% // LLB _1
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (bax OR 9ba OR 7ba OR btx OR 9bt OR 7bt OR gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi OR wst OR 8ws OR 6ws)]: %NAME%{%NAME%4}%CONTINUE% // ILVL<26 LLB _4
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR clm OR 9cm OR 7cm OR gis OR 9gs OR 7gs OR bsw OR 9b9 OR 7b7 OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR hbw OR 8hb OR 6hb OR lbw OR 8lb OR 6lb OR cbw OR 8cb OR 6cb OR sbb OR 8s8 OR 6s7 OR lbb OR 8l8 OR 6l7 OR swb OR 8sw OR 6sw OR lwb OR 8lw OR 6lw OR mxb OR 8mx OR 6mx OR hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR scy)]: %NAME%{%NAME%3}%CONTINUE% // ILVL<26 LLB _3
-ItemDisplay[!NMAG !THROWING ID ILVL<26 (dr1 OR dr6 OR drb OR dr2 OR dr7 OR drc OR dr3 OR dr8 OR drd OR dr4 OR dr9 OR dre OR dr5 OR dra OR drf OR ba1 OR ba6 OR bab OR ba2 OR ba7 OR bac OR ba3 OR ba8 OR bad OR ba4 OR ba9 OR bae OR ba5 OR baa OR baf OR 2ax OR 92a OR 72a OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR crs OR 9cr OR 7cr OR bsd OR 9bs OR 7bs OR lsd OR 9ls OR 7ls OR kri OR 9kr OR 7kr OR wsp OR 9ws OR 7ws OR 9ar OR 7ar OR 7wb OR clw OR 9lw OR 7lw OR btl OR 9tw OR 7tw OR skr OR 9qr OR 7qr OR ob5 OR oba OR obf OR msk)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<26 LLB _2
+ItemDisplay[!NMAG !THROWING ID ILVL<26 (ci0 OR dr1 OR dr6 OR drb OR dr2 OR dr7 OR drc OR dr3 OR dr8 OR drd OR dr4 OR dr9 OR dre OR dr5 OR dra OR drf OR ba1 OR ba6 OR bab OR ba2 OR ba7 OR bac OR ba3 OR ba8 OR bad OR ba4 OR ba9 OR bae OR ba5 OR baa OR baf OR 2ax OR 92a OR 72a OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR crs OR 9cr OR 7cr OR bsd OR 9bs OR 7bs OR lsd OR 9ls OR 7ls OR kri OR 9kr OR 7kr OR wsp OR 9ws OR 7ws OR 9ar OR 7ar OR 7wb OR clw OR 9lw OR 7lw OR btl OR 9tw OR 7tw OR skr OR 9qr OR 7qr OR ob5 OR oba OR obf OR msk)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<26 LLB _2
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (ci1 OR ci2 OR ci3)]: %NAME%{%NAME%1}%CONTINUE% // ILVL<26 LLB _1
 ItemDisplay[!NMAG !THROWING ID ILVL>25 (bax OR 9ba OR btx OR 9bt OR 7ba OR 7bt OR clm OR 9cm OR gis OR 9gs OR bsw OR 9b9 OR 7cm OR 7gs OR 7b7 OR tri OR 9tr OR 7tr OR vou OR 9vo OR 7vo OR hbw OR 8hb OR cbw OR 8cb OR 6hb OR 6cb OR mxb OR 8mx OR 6mx OR wst OR 8ws OR 6ws)]: %NAME%{%NAME%4}%CONTINUE% // ILVL>25 LLB _4
-ItemDisplay[!NMAG !THROWING ID ILVL>25 (dr1 OR dr6 OR dr2 OR dr7 OR dr3 OR dr8 OR dr4 OR dr9 OR dr5 OR dra OR drb OR drc OR drd OR dre OR drf OR ba1 OR ba6 OR ba2 OR ba7 OR ba3 OR ba8 OR ba4 OR ba9 OR ba5 OR baa OR bab OR bac OR bad OR bae OR baf OR ci1 OR 2ax OR 92a OR 72a OR whm OR 9wh OR 7wh OR crs OR 9cr OR bsd OR 9bs OR lsd OR 9ls OR 7cr OR 7bs OR 7ls OR kri OR 9kr OR 7kr OR wsp OR 9ws OR 7ws OR 9ar OR clw OR 9lw OR btl OR 9tw OR skr OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf OR uit OR uow OR uts OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR fla OR 9fl OR 7fl)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>25 LLB _2
+ItemDisplay[!NMAG !THROWING ID ILVL>25 (dr1 OR dr6 OR dr2 OR dr7 OR dr3 OR dr8 OR dr4 OR dr9 OR dr5 OR dra OR drb OR drc OR drd OR dre OR drf OR ba1 OR ba6 OR ba2 OR ba7 OR ba3 OR ba8 OR ba4 OR ba9 OR ba5 OR baa OR bab OR bac OR bad OR bae OR baf OR ci1 OR 2ax OR 92a OR 72a OR whm OR 9wh OR 7wh OR crs OR 9cr OR bsd OR 9bs OR lsd OR 9ls OR 7cr OR 7bs OR 7ls OR kri OR 9kr OR 7kr OR wsp OR 9ws OR 7ws OR 9ar OR clw OR 9lw OR btl OR 9tw OR skr OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf OR uit OR uow OR uts OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR fla OR 9fl OR 7fl OR ci0)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>25 LLB _2
 ItemDisplay[!NMAG !THROWING ID ILVL<41 ILVL>25 (gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc OR lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR lbb OR 8l8 OR 6l7 OR swb OR 8sw OR 6sw OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME%{%NAME%4}%CONTINUE% // ILVL<41 ILVL>25 LLB _4
 ItemDisplay[!NMAG !THROWING ID ILVL<41 ILVL>25 (msk OR xsk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<41 ILVL>25 LLB _2
 ItemDisplay[!NMAG !THROWING ID ILVL>40 (gax OR 9ga OR gix OR 9gi OR 7ga OR 7gi OR mau OR 9m9 OR gma OR 9gm OR 7m7 OR 7gm OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR brn OR 9br OR 7br OR spt OR 9st OR pik OR 9p9 OR 7st OR 7p7 OR scy OR 9s8 OR pax OR 9pa OR 7s8 OR 7pa OR hal OR 9h9 OR wsc OR 9wc OR 7h7 OR 7wc OR lbw OR 8lb OR sbb OR 8s8 OR swb OR 8sw OR 6s7 OR 6sw OR lbb OR 8l8 OR lwb OR 8lw OR 6lb OR 6l7 OR 6lw OR rxb OR 8rx OR 6rx OR hxb OR 8hx OR 6hx OR am1 OR am6 OR am2 OR am7 OR amb OR amc OR am3 OR am8 OR am4 OR am9 OR amd OR ame)]: %NAME%{%NAME%4}%CONTINUE% // ILVL>40 LLB _4
 ItemDisplay[!NMAG !THROWING ID ILVL>40 (msk OR xsk OR ghm OR xhm OR crn OR xrn OR usk OR uh9 OR uhm OR urn OR ci2 OR ci3)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>40 LLB _2
 // WORLDSTONE SHARD POSSIBLE SOCKETS (-NMAG)
 ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%, %RED%C:}%CONTINUE% // Wss Begin
+ItemDisplay[!NMAG !THROWING ID (7sr)]: %NAME%{%NAME%5}%CONTINUE% // Wss _6
 ItemDisplay[!NMAG !THROWING ID (9la OR 7la)]: %NAME%{%NAME%5}%CONTINUE% // Wss _5
 ItemDisplay[!NMAG !THROWING ID (axe OR 9ax OR 7ax OR lax OR 9b7 OR 7o7 OR 8sb OR 6sb OR 8lx OR 6lx OR cst OR 8cs OR bst OR 8bs OR 6cs OR 6bs)]: %NAME%{%NAME%4}%CONTINUE% // Wss _4
-ItemDisplay[!NMAG !THROWING ID (rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR lrg OR xrg OR kit OR xit OR tow OR xow OR gts OR xts OR urg OR upk OR ush OR pa1 OR pa6 OR pa2 OR pa7 OR pa3 OR pa8 OR pa4 OR pa9 OR pa5 OR paa OR pab OR pac OR pad OR pae OR paf OR ne6 OR ne7 OR ne8 OR ne9 OR nea OR neb OR neg OR ned OR nee OR nef OR 9ha OR 7ha OR 9cl OR 9sp OR 7cl OR 7sp OR 9ma OR mst OR 9mt OR 7ma OR 7mt OR 9ss OR 9sm OR 9sb OR 9fc OR wsd OR 9wd OR 7ss OR 7sm OR 7sb OR 7fc OR 7wd OR 2hs OR 92h OR 72h OR spr OR 9sr OR 7sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls OR 9sc OR gsc OR 9qs OR 7sc OR 7qs OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%3}%CONTINUE% // Wss _3
+ItemDisplay[!NMAG !THROWING ID (rng OR xng OR xcl OR brs OR xrs OR xhn OR xpl OR ltp OR xtp OR xld OR xlt OR lrg OR xrg OR kit OR xit OR tow OR xow OR gts OR xts OR urg OR upk OR ush OR pa1 OR pa6 OR pa2 OR pa7 OR pa3 OR pa8 OR pa4 OR pa9 OR pa5 OR paa OR pab OR pac OR pad OR pae OR paf OR ne6 OR ne7 OR ne8 OR ne9 OR nea OR neb OR neg OR ned OR nee OR nef OR 9ha OR 7ha OR 9cl OR 9sp OR 7cl OR 7sp OR 9ma OR mst OR 9mt OR 7ma OR 7mt OR 9ss OR 9sm OR 9sb OR 9fc OR wsd OR 9wd OR 7ss OR 7sm OR 7sb OR 7fc OR 7wd OR 2hs OR 92h OR 72h OR spr OR 9sr OR bar OR sbw OR lxb OR 8ss OR lst OR 8ls OR 6ss OR 6ls OR 9sc OR gsc OR 9qs OR 7sc OR 7qs OR 9wb OR 9xf OR 9cs OR 7xf OR 7cs OR gth OR xth OR ful OR xul OR aar OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar)]: %NAME%{%NAME%3}%CONTINUE% // Wss _3
 ItemDisplay[!NMAG !THROWING ID (cap OR xap OR skp OR xkp OR hlm OR xlm OR fhl OR xhl OR bhm OR xh9 OR uap OR ukp OR ulm OR uhl OR qui OR xui OR lea OR xea OR hla OR xla OR stu OR xtu OR scl OR chn OR spl OR fld OR plt OR sml OR xml OR spk OR xpk OR bsh OR xsh OR uuc OR uml OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR clb OR spc OR mac OR ssd OR scm OR sbr OR flc OR 9dg OR 9di OR bld OR 9bl OR 7dg OR 7di OR 7bl OR sst OR 9yw OR bwn OR 9bw OR gwn OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw OR scp OR ktr OR wrb OR axf OR ces OR ob1 OR ob6 OR ob2 OR ob7 OR ob3 OR ob8 OR ob4 OR ob9 OR obb OR obc OR obd OR obe)]: %NAME%{%NAME%2}%CONTINUE% // Wss _2
-ItemDisplay[!NMAG !THROWING ID (ci0 OR buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%1}%CONTINUE% // Wss _1
+ItemDisplay[!NMAG !THROWING ID (buc OR xuc OR dgr OR dir OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%1}%CONTINUE% // Wss _1
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%5}%CONTINUE% // ILVL<26 Wss _5
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (2ax OR 92a OR 72a OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR bax OR 9ba OR 7ba OR btx OR 9bt OR 7bt OR gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi)]: %NAME%{%NAME%4}%CONTINUE% // ILVL<26 Wss _4
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR bsd OR 9bs OR 7bs OR lsd OR 9ls OR 7ls OR clm OR 9cm OR 7cm OR gis OR 9gs OR 7gs OR bsw OR 9b9 OR 7b7 OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tri OR 9tr OR 7tr OR brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR hbw OR 8hb OR 6hb OR lbw OR 8lb OR 6lb OR cbw OR 8cb OR 6cb OR sbb OR 8s8 OR 6s7 OR lbb OR 8l8 OR 6l7 OR swb OR 8sw OR 6sw OR lwb OR 8lw OR 6lw OR mxb OR 8mx OR 6mx OR hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx OR wsp OR 9ws OR 7ws OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am3 OR am8 OR amd OR am4 OR am9 OR ame OR scy)]: %NAME%{%NAME%3}%CONTINUE% // ILVL<26 Wss _3
-ItemDisplay[!NMAG !THROWING ID ILVL<26 (dr1 OR dr6 OR drb OR dr2 OR dr7 OR drc OR dr3 OR dr8 OR drd OR dr4 OR dr9 OR dre OR dr5 OR dra OR drf OR ba1 OR ba6 OR bab OR ba2 OR ba7 OR bac OR ba3 OR ba8 OR bad OR ba4 OR ba9 OR bae OR ba5 OR baa OR baf OR kri OR 9kr OR 7kr OR 9ar OR 7ar OR 7wb OR clw OR 9lw OR 7lw OR btl OR 9tw OR 7tw OR skr OR 9qr OR 7qr OR ob5 OR oba OR obf OR msk)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<26 Wss _2
+ItemDisplay[!NMAG !THROWING ID ILVL<26 (ci0 OR dr1 OR dr6 OR drb OR dr2 OR dr7 OR drc OR dr3 OR dr8 OR drd OR dr4 OR dr9 OR dre OR dr5 OR dra OR drf OR ba1 OR ba6 OR bab OR ba2 OR ba7 OR bac OR ba3 OR ba8 OR bad OR ba4 OR ba9 OR bae OR ba5 OR baa OR baf OR kri OR 9kr OR 7kr OR 9ar OR 7ar OR 7wb OR clw OR 9lw OR 7lw OR btl OR 9tw OR 7tw OR skr OR 9qr OR 7qr OR ob5 OR oba OR obf OR msk)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<26 Wss _2
 ItemDisplay[!NMAG !THROWING ID ILVL<26 (ci1 OR ci2 OR ci3)]: %NAME%{%NAME%1}%CONTINUE% // ILVL<26 Wss _1
 ItemDisplay[!NMAG !THROWING ID ILVL>25 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%6}%CONTINUE% // ILVL>25 Wss _6
 ItemDisplay[!NMAG !THROWING ID ILVL>25 (bax OR 9ba OR btx OR 9bt OR 7ba OR 7bt)]: %NAME%{%NAME%5}%CONTINUE% // ILVL>25 Wss _5
 ItemDisplay[!NMAG !THROWING ID ILVL>25 (2ax OR 92a OR 72a OR whm OR 9wh OR 7wh OR crs OR 9cr OR bsd OR 9bs OR lsd OR 9ls OR 7cr OR 7bs OR 7ls OR clm OR 9cm OR gis OR 9gs OR bsw OR 9b9 OR 7cm OR 7gs OR 7b7 OR tri OR 9tr OR 7tr OR vou OR 9vo OR 7vo OR hbw OR 8hb OR cbw OR 8cb OR 6hb OR 6cb OR mxb OR 8mx OR 6mx OR wsp OR 9ws OR 7ws OR mpi OR 9mp OR 7mp OR wax OR 9wa OR 7wa OR fla OR 9fl OR 7fl)]: %NAME%{%NAME%4}%CONTINUE% // ILVL>25 Wss _4
 ItemDisplay[!NMAG !THROWING ID ILVL>25 (dr1 OR dr6 OR dr2 OR dr7 OR dr3 OR dr8 OR dr4 OR dr9 OR dr5 OR dra OR drb OR drc OR drd OR dre OR drf OR ba1 OR ba6 OR ba2 OR ba7 OR ba3 OR ba8 OR ba4 OR ba9 OR ba5 OR baa OR bab OR bac OR bad OR bae OR baf OR kri OR 9kr OR 7kr OR 9ar OR clw OR 9lw OR btl OR 9tw OR skr OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf OR uit OR uow OR uts)]: %NAME%{%NAME%3}%CONTINUE% // ILVL>25 Wss _3
-ItemDisplay[!NMAG !THROWING ID ILVL>25 (ci1)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>25 Wss _2
+ItemDisplay[!NMAG !THROWING ID ILVL>25 (ci0 OR ci1)]: %NAME%{%NAME%2}%CONTINUE% // ILVL>25 Wss _2
 ItemDisplay[!NMAG !THROWING ID ILVL<41 ILVL>25 (gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi)]: %NAME%{%NAME%5}%CONTINUE% // ILVL<41 ILVL>25 Wss _5
 ItemDisplay[!NMAG !THROWING ID ILVL<41 ILVL>25 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc OR lbw OR 8lb OR 6lb OR sbb OR 8s8 OR 6s7 OR lbb OR 8l8 OR 6l7 OR swb OR 8sw OR 6sw OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR rxb OR 8rx OR 6rx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME%{%NAME%4}%CONTINUE% // ILVL<41 ILVL>25 Wss _4
 ItemDisplay[!NMAG !THROWING ID ILVL<41 ILVL>25 (msk OR xsk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%2}%CONTINUE% // ILVL<41 ILVL>25 Wss _2
@@ -1958,14 +1919,14 @@ ItemDisplay[!NMAG !THROWING ID ILVL>40 (flb OR 9fb OR 7fb OR brn OR 9br OR 7br O
 ItemDisplay[!NMAG !THROWING ID ILVL>40 (msk OR xsk OR ghm OR xhm OR crn OR xrn OR usk OR uh9 OR uhm OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3}%CONTINUE% // ILVL>40 Wss _3
 ItemDisplay[!NMAG !THROWING ID (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%}%CONTINUE% // LQ/LLB/Wss End
 // ITEM'S POSSIBLE SOCKETS AFTER UPGRADING
-ItemDisplay[!NMAG !MAG ID (bhm OR qui OR lea OR hla OR stu OR spk OR bsh OR ci0)]: %NAME%{%NAME%, %WHITE%Up 2x: %ORANGE%C:3}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID (xh9 OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR xpk OR xsh OR ci1 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR clb OR spc OR mac OR ssd OR scm OR sbr OR flc OR scp OR ktr OR wrb OR axf OR ces)]: %NAME%{%NAME%, Up: %RED%C:%ORANGE%3}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID lax]: %NAME%{%NAME%, %WHITE%Up: %ORANGE%C:5}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID (buc OR wnd)]: %NAME%{%NAME%, %WHITE%Up 2x: %ORANGE%LB:2, C:2}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID (xuc OR dgr OR dir OR 9wn OR ywn)]: %NAME%{%NAME%, %WHITE%Up: %ORANGE%LB:2, C:2}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID sst]: %NAME%{%NAME%, %WHITE%Up: %ORANGE%LB:3, C:3}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID (bar OR sbw OR lxb)]: %NAME%{%NAME%, %WHITE%Up: %ORANGE%LB:4, C:4}%CONTINUE%
-ItemDisplay[!NMAG !MAG ID ILVL>40 8lb]: %NAME%{%NAME%, %WHITE%Up: %ORANGE%C:6}%CONTINUE% // ILVL>40 Wss _5
+ItemDisplay[!NMAG !MAG ID (bhm OR qui OR lea OR hla OR stu OR spk OR bsh OR ci0)]: %NAME%{%NAME%, %ORANGE%Up 2x: C:3}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID (xh9 OR scl OR chn OR spl OR plt OR fld OR xui OR xea OR xla OR xtu OR xpk OR xsh OR ci1 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5 OR hax OR clb OR spc OR mac OR ssd OR scm OR sbr OR flc OR scp OR ktr OR wrb OR axf OR ces)]: %NAME%{%NAME%, %ORANGE%Up: C:3}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID lax]: %NAME%{%NAME%, %ORANGE%Up: C:5}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID (buc OR wnd)]: %NAME%{%NAME%, %ORANGE%Up 2x: LB:2, C:2}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID (xuc OR dgr OR dir OR 9wn OR ywn)]: %NAME%{%NAME%, %ORANGE%Up: LB:2, C:2}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID sst]: %NAME%{%NAME%, %ORANGE%Up: LB:3, C:3}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID (bar OR sbw OR lxb)]: %NAME%{%NAME%, %ORANGE%Up: LB:4, C:4}%CONTINUE%
+ItemDisplay[!NMAG !MAG ID ILVL>40 8lb]: %NAME%{%NAME%, %ORANGE%Up: C:6}%CONTINUE%
 // AUTOMATICALLY ROLLS OPEN SOCKETS
 ItemDisplay[SET ID urn STAT234>0]: %NAME%{%WHITE%Rolls OS: 2-3}%CONTINUE%
 ItemDisplay[UNI ID urn STAT109>49]: %NAME%{%WHITE%Rolls OS: 2-3}%CONTINUE%
@@ -2831,216 +2792,138 @@ ItemDisplay[MAG cm1 (PRES>9 MFIND>4)]: %NAME%{ Poison Res Mf%NAME%}%CONTINUE%
 ItemDisplay[MAG cm1 (PRES>9 STR>1)]: %NAME%{ Poison Res Str%NAME%}%CONTINUE%
 ItemDisplay[MAG cm1 (PRES>9 DEX>1)]: %NAME%{ Poison Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm1 (((MAXDMG>2 OR MANA>14 OR FRES>9 OR LRES>9 OR CRES>9 OR PRES>9) (FHR>0 OR LIFE>14 OR FRW>0 OR MFIND>4 OR STR>1 OR DEX>1)) OR (RES>4) OR ((RES>3) (MFIND>4 OR STR>1 OR DEX>1)) OR ((RES>2) (FHR>0 OR LIFE>14 OR FRW>0)))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 ((FHR>0 OR LIFE>24 OR FRW>0 OR STR>4 OR DEX>4) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
+ItemDisplay[MAG cm2 ((FHR>0 OR LIFE>24 OR FRW>0) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
 ItemDisplay[MAG cm2 (FHR>0 STAT329>2)]: %NAME%{ Fire Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (LIFE>24 STAT329>2)]: %NAME%{ Fire Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FRW>0 STAT329>2)]: %NAME%{ Fire Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (STR>4 STAT329>2)]: %NAME%{ Fire Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (DEX>4 STAT329>2)]: %NAME%{ Fire Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FHR>0 STAT330>2)]: %NAME%{ Light Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (LIFE>24 STAT330>2)]: %NAME%{ Light Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FRW>0 STAT330>2)]: %NAME%{ Light Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (STR>4 STAT330>2)]: %NAME%{ Light Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (DEX>4 STAT330>2)]: %NAME%{ Light Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FHR>0 STAT331>2)]: %NAME%{ Cold Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (LIFE>24 STAT331>2)]: %NAME%{ Cold Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FRW>0 STAT331>2)]: %NAME%{ Cold Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (STR>4 STAT331>2)]: %NAME%{ Cold Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (DEX>4 STAT331>2)]: %NAME%{ Cold Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FHR>0 STAT332>2)]: %NAME%{ Poison Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (LIFE>24 STAT332>2)]: %NAME%{ Poison Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FRW>0 STAT332>2)]: %NAME%{ Poison Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (STR>4 STAT332>2)]: %NAME%{ Poison Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (DEX>4 STAT332>2)]: %NAME%{ Poison Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FHR>0 STAT357>2)]: %NAME%{ Magic Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (LIFE>24 STAT357>2)]: %NAME%{ Magic Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm2 (FRW>0 STAT357>2)]: %NAME%{ Magic Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (STR>4 STAT357>2)]: %NAME%{ Magic Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 (DEX>4 STAT357>2)]: %NAME%{ Magic Dmg Dex%NAME%}%CONTINUE%
-ItemDisplay[MAG cm2 ((FHR>0 OR LIFE>24 OR FRW>0 OR STR>4 OR DEX>4) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0 OR STR>4 OR DEX>4) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
+ItemDisplay[MAG cm2 ((FHR>0 OR LIFE>24 OR FRW>0) (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
+ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK40=1)]: %NAME%{ Dsm Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK40=1)]: %NAME%{ Dsm Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK40=1)]: %NAME%{ Dsm Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK40=1)]: %NAME%{ Dsm Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK40=1)]: %NAME%{ Dsm Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK41=1)]: %NAME%{ Ssg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK41=1)]: %NAME%{ Ssg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK41=1)]: %NAME%{ Ssg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK41=1)]: %NAME%{ Ssg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK41=1)]: %NAME%{ Ssg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK42=1)]: %NAME%{ Ele Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK42=1)]: %NAME%{ Ele Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK42=1)]: %NAME%{ Ele Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK42=1)]: %NAME%{ Ele Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK42=1)]: %NAME%{ Ele Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK32=1)]: %NAME%{ Bcb Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK32=1)]: %NAME%{ Bcb Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK32=1)]: %NAME%{ Bcb Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK32=1)]: %NAME%{ Bcb Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK32=1)]: %NAME%{ Bcb Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK33=1)]: %NAME%{ Mti Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK33=1)]: %NAME%{ Mti Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK33=1)]: %NAME%{ Mti Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK33=1)]: %NAME%{ Mti Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK33=1)]: %NAME%{ Mti Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK34=1)]: %NAME%{ Wci Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK34=1)]: %NAME%{ Wci Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK34=1)]: %NAME%{ Wci Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK34=1)]: %NAME%{ Wci Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK34=1)]: %NAME%{ Wci Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK24=1)]: %NAME%{ Pcb Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK24=1)]: %NAME%{ Pcb Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK24=1)]: %NAME%{ Pcb Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK24=1)]: %NAME%{ Pcb Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK24=1)]: %NAME%{ Pcb Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK25=1)]: %NAME%{ Off Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK25=1)]: %NAME%{ Off Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK25=1)]: %NAME%{ Off Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK25=1)]: %NAME%{ Off Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK25=1)]: %NAME%{ Off Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK26=1)]: %NAME%{ Def Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK26=1)]: %NAME%{ Def Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK26=1)]: %NAME%{ Def Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK26=1)]: %NAME%{ Def Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK26=1)]: %NAME%{ Def Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK16=1)]: %NAME%{ Cur Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK16=1)]: %NAME%{ Cur Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK16=1)]: %NAME%{ Cur Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK16=1)]: %NAME%{ Cur Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK16=1)]: %NAME%{ Cur Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK17=1)]: %NAME%{ Pnb Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK17=1)]: %NAME%{ Pnb Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK17=1)]: %NAME%{ Pnb Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK17=1)]: %NAME%{ Pnb Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK17=1)]: %NAME%{ Pnb Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK18=1)]: %NAME%{ Nsm Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK18=1)]: %NAME%{ Nsm Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK18=1)]: %NAME%{ Nsm Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK18=1)]: %NAME%{ Nsm Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK18=1)]: %NAME%{ Nsm Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK8=1)]: %NAME%{ Fir Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK8=1)]: %NAME%{ Fir Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK8=1)]: %NAME%{ Fir Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK8=1)]: %NAME%{ Fir Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK8=1)]: %NAME%{ Fir Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK9=1)]: %NAME%{ Lig Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK9=1)]: %NAME%{ Lig Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK9=1)]: %NAME%{ Lig Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK9=1)]: %NAME%{ Lig Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK9=1)]: %NAME%{ Lig Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK10=1)]: %NAME%{ Col Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK10=1)]: %NAME%{ Col Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK10=1)]: %NAME%{ Col Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK10=1)]: %NAME%{ Col Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK10=1)]: %NAME%{ Col Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK48=1)]: %NAME%{ Trp Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK48=1)]: %NAME%{ Trp Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK48=1)]: %NAME%{ Trp Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK48=1)]: %NAME%{ Trp Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK48=1)]: %NAME%{ Trp Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK49=1)]: %NAME%{ Dis Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK49=1)]: %NAME%{ Dis Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK49=1)]: %NAME%{ Dis Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK49=1)]: %NAME%{ Dis Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK49=1)]: %NAME%{ Dis Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK50=1)]: %NAME%{ Art Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK50=1)]: %NAME%{ Art Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK50=1)]: %NAME%{ Art Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK50=1)]: %NAME%{ Art Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK50=1)]: %NAME%{ Art Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK0=1)]: %NAME%{ Bow Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK0=1)]: %NAME%{ Bow Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK0=1)]: %NAME%{ Bow Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK0=1)]: %NAME%{ Bow Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK0=1)]: %NAME%{ Bow Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK1=1)]: %NAME%{ Pas Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK1=1)]: %NAME%{ Pas Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK1=1)]: %NAME%{ Pas Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK1=1)]: %NAME%{ Pas Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK1=1)]: %NAME%{ Pas Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 TABSK2=1)]: %NAME%{ Jav Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 TABSK2=1)]: %NAME%{ Jav Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 TABSK2=1)]: %NAME%{ Jav Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 TABSK2=1)]: %NAME%{ Jav Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 TABSK2=1)]: %NAME%{ Jav Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FHR>0 MAXDMG>8)]: %NAME%{ Max Dmg Fhr%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (LIFE>29 MAXDMG>8)]: %NAME%{ Max Dmg Life%NAME%}%CONTINUE%
 ItemDisplay[MAG cm3 (FRW>0 MAXDMG>8)]: %NAME%{ Max Dmg Frw%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (STR>4 MAXDMG>8)]: %NAME%{ Max Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 (DEX>4 MAXDMG>8)]: %NAME%{ Max Dmg Dex%NAME%}%CONTINUE%
-ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0 OR STR>4 OR DEX>4) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
+ItemDisplay[MAG cm3 ((FHR>0 OR LIFE>29 OR FRW>0) (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>8))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
 // HIGHLIGHTING JEWEL'S (GG'S)
-ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (ED>39 (STR>6 OR DEX>6)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9) OR MAEK>2 OR STAT86>2) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15 OR STR>6 OR DEX>6) OR (ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
+ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9)) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (IAS>0 OR STAT91=-15)) OR ((ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%NAME% %RED%+++%ORANGE%+++}%CONTINUE%
 ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)))]: %NAME%{ Ed Min-Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (ED>29 MINDMG>9)]: %NAME%{ Ed Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (ED>29 MAXDMG>9)]: %NAME%{ Ed Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (ED>29 IAS>0)]: %NAME%{ Ed Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (ED>29 STAT91=-15)]: %NAME%{ Ed -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (ED>39 STR>6)]: %NAME%{ Ed Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (ED>39 DEX>6)]: %NAME%{ Ed Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew MINDMG>17]: %NAME%{ Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew MAXDMG>21]: %NAME%{ Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MINDMG>9 MAXDMG>9)]: %NAME%{ Min-Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MINDMG>9 IAS>0)]: %NAME%{ Min Dmg Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MINDMG>9 STAT91=-15)]: %NAME%{ Min Dmg -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MINDMG>9 STR>6)]: %NAME%{ Min Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MINDMG>9 DEX>6)]: %NAME%{ Min Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAXDMG>9 IAS>0)]: %NAME%{ Max Dmg Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAXDMG>9 STAT91=-15)]: %NAME%{ Max Dmg -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MAXDMG>9 STR>6)]: %NAME%{ Max Dmg Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MAXDMG>9 DEX>6)]: %NAME%{ Max Dmg Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (RES>9 MINDMG>9)]: %NAME%{ All Res Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (RES>9 MAXDMG>9)]: %NAME%{ All Res Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (RES>9 IAS>0)]: %NAME%{ All Res Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (RES>9 STAT91=-15)]: %NAME%{ All Res -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (RES>9 STR>6)]: %NAME%{ All Res Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (RES>9 DEX>6)]: %NAME%{ All Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (FRES>24 MINDMG>9)]: %NAME%{ Fire Res Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (FRES>24 MAXDMG>9)]: %NAME%{ Fire Res Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (FRES>24 IAS>0)]: %NAME%{ Fire Res Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (FRES>24 STAT91=-15)]: %NAME%{ Fire Res -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (FRES>24 STR>6)]: %NAME%{ Fire Res Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (FRES>24 DEX>6)]: %NAME%{ Fire Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (LRES>24 MINDMG>9)]: %NAME%{ Light Res Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (LRES>24 MAXDMG>9)]: %NAME%{ Light Res Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (LRES>24 IAS>0)]: %NAME%{ Light Res Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (LRES>24 STAT91=-15)]: %NAME%{ Light Res -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (LRES>24 STR>6)]: %NAME%{ Light Res Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (LRES>24 DEX>6)]: %NAME%{ Light Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (CRES>24 MINDMG>9)]: %NAME%{ Cold Res Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (CRES>24 MAXDMG>9)]: %NAME%{ Cold Res Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (CRES>24 IAS>0)]: %NAME%{ Cold Res Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (CRES>24 STAT91=-15)]: %NAME%{ Cold Res -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (CRES>24 STR>6)]: %NAME%{ Cold Res Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (CRES>24 DEX>6)]: %NAME%{ Cold Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (PRES>24 MINDMG>9)]: %NAME%{ Poison Res Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (PRES>24 MAXDMG>9)]: %NAME%{ Poison Res Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (PRES>24 IAS>0)]: %NAME%{ Poison Res Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (PRES>24 STAT91=-15)]: %NAME%{ Poison Res -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (PRES>24 STR>6)]: %NAME%{ Poison Res Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (PRES>24 DEX>6)]: %NAME%{ Poison Res Dex%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAEK>2 MINDMG>9)]: %NAME%{ Mpk Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAEK>2 MAXDMG>9)]: %NAME%{ Mpk Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAEK>2 IAS>0)]: %NAME%{ Mpk Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (MAEK>2 STAT91=-15)]: %NAME%{ Mpk -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MAEK>2 STR>6)]: %NAME%{ Mpk Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (MAEK>2 DEX>6)]: %NAME%{ Mpk Dex%NAME%}%CONTINUE%
-ItemDisplay[MAG jew MAEK>2]: %NAME%{ Mpk%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT86>2 MINDMG>9)]: %NAME%{ Lpk Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT86>2 MAXDMG>9)]: %NAME%{ Lpk Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT86>2 IAS>0)]: %NAME%{ Lpk Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT86>2 STAT91=-15)]: %NAME%{ Lpk -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (STAT86>2 STR>6)]: %NAME%{ Lpk Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (STAT86>2 DEX>6)]: %NAME%{ Lpk Dex%NAME%}%CONTINUE%
-ItemDisplay[MAG jew STAT86>2]: %NAME%{ Lpk%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT501>119 MINDMG>9)]: %NAME%{ Ow Min Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT501>119 MAXDMG>9)]: %NAME%{ Ow Max Dmg%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT501>119 IAS>0)]: %NAME%{ Ow Ias%NAME%}%CONTINUE%
 ItemDisplay[MAG jew (STAT501>119 STAT91=-15)]: %NAME%{ Ow -Req%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (STAT501>119 STR>6)]: %NAME%{ Ow Str%NAME%}%CONTINUE%
-ItemDisplay[MAG jew (STAT501>119 DEX>6)]: %NAME%{ Ow Dex%NAME%}%CONTINUE%
-ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (ED>39 (STR>6 OR DEX>6)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9) OR MAEK>2 OR STAT86>2) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15 OR STR>6 OR DEX>6) OR (ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
+ItemDisplay[MAG jew ((ED>29 (MAXDMG>7 MINDMG>7)) OR (MINDMG>17 OR MAXDMG>21 OR (MINDMG>9 MAXDMG>9)) OR ((MINDMG>9 OR MAXDMG>9 OR RES>9 OR FRES>24 OR LRES>24 OR CRES>24 OR PRES>24 OR MAEK>2 OR STAT86>2 OR STAT501>119) (IAS>0 OR STAT91=-15)) OR ((ED>29) (MINDMG>9 OR MAXDMG>9 OR IAS>0 OR STAT91=-15)))]: %NAME%{%ORANGE%+++%RED%+++%GREEN%%NAME%}%CONTINUE%
 ItemDisplay[RARE ED>29 MINDMG>9 jew]: %DOT-0A%%GREEN%Ed, Min Dmg%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, Min Dmg %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[RARE ((ED>29 (RES>9 OR MAXDMG>7 OR MINDMG>7 OR MANA>19 OR STR>5 OR DEX>5 OR LIFE>9 OR STAT135>0 OR STAT121>29 OR STAT122>29 OR AR>69))) jew]: %DOT-0A%%GREEN%Ed, +Stats%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed, +Stats %RED%+++%ORANGE%+++%NL%%NAME%}
 ItemDisplay[RARE ED>34 jew]: %DOT-0A%%GREEN%Ed%NL%%NAME%{%ORANGE%+++%RED%+++ %GREEN%Ed %RED%+++%ORANGE%+++%NL%%NAME%}
