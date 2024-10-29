@@ -1355,8 +1355,8 @@ ItemDisplay[(FILTLVL<4 OR FILTLVL=6 OR FILTLVL=7) GEM=4]: %WHITE%F. %NAME% o%CON
 ItemDisplay[(FILTLVL=4 OR FILTLVL=5 OR FILTLVL>7) GEM=4]:
 ItemDisplay[GEM=5]: %MAP-20%%ORANGE%P. %NAME% O%CONTINUE%
 ItemDisplay[(GEM=4 OR GEM=5)]: %NAME% %TAN%x%WHITE%%QTY%%CONTINUE%
-ItemDisplay[GEM=4]: %ORANGE%+  %NAME%  %ORANGE%+%CONTINUE%
-ItemDisplay[GEM=5]: %ORANGE%++     %NAME%     %ORANGE%++%CONTINUE%
+ItemDisplay[GEM=4]: %LIGHT_GRAY%+  %NAME%  %LIGHT_GRAY%+%CONTINUE%
+ItemDisplay[GEM=5]: %ORANGE%++  %NAME%  %ORANGE%++%CONTINUE%
 ItemDisplay[glws]: %NAME%{%TAN%Shield: %BLUE%All Res %WHITE%+14%%NL%%TAN%Armor/Helm: %WHITE%+80 %BLUE%to AR%NL%%TAN%Weapon: %WHITE%+54% %BLUE%Dmg vs Und}
 ItemDisplay[glgs]: %NAME%{%TAN%Shield: %WHITE%28% %BLUE%Psn Res%NL%%TAN%Armor/Helm: %WHITE%+8%BLUE% Dex%NL%%TAN%Weapon: %WHITE%+60 %BLUE%Psn Dmg Over %WHITE%6 %BLUE%Sec}
 ItemDisplay[glrs]: %NAME%{%TAN%Shield: %WHITE%28% %BLUE%Fire Res%NL%%TAN%Armor/Helm: %WHITE%+31 %BLUE%to Life%NL%%TAN%Weapon: %WHITE%10-16 %BLUE%Fire Dmg}
