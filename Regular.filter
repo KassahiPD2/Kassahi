@@ -1736,10 +1736,10 @@ ItemDisplay[SET !ID ETH 7ws]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%DARK_GR
 ItemDisplay[SET !ID !ETH (ulg OR uts OR dr8 OR uul OR xtb OR uui OR urn OR paf OR ci3 OR uld OR amc OR uh9 OR xmg OR ne9 OR 7ws OR rin)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%DARK_GREEN%+    %NAME%    %DARK_GREEN%+%RED%+%PURPLE%+
 ItemDisplay[SET !ID ETH (7fb OR 7gd OR 9mt OR 7qr)]: %PX-84%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%DARK_GREEN%+    %NAME%    %DARK_GREEN%+%RED%+%PURPLE%+
 // SET DROPS (0.5-2.9)
-ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR zmb OR oba OR utc OR amu)]: %PX-84%%DOT-0A%%RED%+%DARK_GREEN%+  %NAME%  %DARK_GREEN%+%RED%+
+ItemDisplay[SET !ID !ETH (7fb OR 7gd OR xhm OR upl OR 9mt OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR 7qr OR uth OR oba OR utc OR amu)]: %PX-84%%DOT-0A%%RED%+%DARK_GREEN%+  %NAME%  %DARK_GREEN%+%RED%+
 ItemDisplay[SET !ID ETH (7m7 OR 7ls)]: %PX-84%%DOT-0A%%RED%+%DARK_GREEN%+  %NAME%  %DARK_GREEN%+%RED%+
 // SET DROPS (NOTABLE)
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk OR lbt OR xvg)]: %GRAY%+ %NAME% %GRAY%+
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID !ETH (xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR 7m7 OR xmb OR 7ls OR umc OR xsk OR lbt OR xvg OR zmb)]: %GRAY%+ %NAME% %GRAY%+
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) SET !ID ETH (xhm OR upl OR xar OR uar OR zvb OR xtg OR xh9 OR ucl OR uth OR zmb OR oba OR utc OR xlb OR xrs OR ult OR 6cs OR xhl OR ba5 OR xhb OR zhb OR xhg OR xmb OR umc OR xsk OR lbt)]: %GRAY%+ %NAME% %GRAY%+
 // SET DROPS (LLD)
 <<<<<<< HEAD
