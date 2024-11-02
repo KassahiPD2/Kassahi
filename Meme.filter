@@ -1308,7 +1308,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(02/11/24){%GREEN%Check my GitHub For Filter Info%NL%%NL%%GREEN%Changed: %ORANGE%F. Gems Now Has Notification & Shown on Large Strictness Lvls%NL%%GREEN%Added: %ORANGE%''In'' & ''Pu'' Only 3os Elite Bases Drop Now%NL%%RED%Live Update 3:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(02/11/24){%GREEN%Check my GitHub For Filter Info%NL%%NL%%ORANGE%Shortened a Bunch of Map Names%NL%%GREEN%Changed: %ORANGE%F. Gems Now Has Notification & Shown on Large Strictness Lvls%NL%%GREEN%Added: %ORANGE%''In'' & ''Pu'' Only 3os Elite Bases Drop Now%NL%%RED%Live Update 4:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1592,29 +1592,29 @@ ItemDisplay[(((STAT434>0 STAT432>0 STAT433>0) OR (STAT434>0 STAT432>0 STAT435>0)
 // DUEL ARENAS (INFO)
 ItemDisplay[NMAG MAPTIER=0]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED%HC %WHITE%Can PVP in Duel Arenas}%CONTINUE%
 // MAP'S NAME
-ItemDisplay[t11]: Ruins of Viz-Jun Map{%NAME%}%CONTINUE%
-ItemDisplay[t12]: Horazon's Memory Map{%NAME%}%CONTINUE%
+ItemDisplay[t11]: Viz-Jun Map{%NAME%}%CONTINUE%
+ItemDisplay[t12]: Horazon's Map{%NAME%}%CONTINUE%
 ItemDisplay[t13]: Bastion Keep Map{%NAME%}%CONTINUE%
 ItemDisplay[t14]: Sanatorium Map{%NAME%}%CONTINUE%
 ItemDisplay[t15]: Royal Crypts Map{%NAME%}%CONTINUE%
 ItemDisplay[t16]: Ruined Cistern Map{%NAME%}%CONTINUE%
 ItemDisplay[t21]: Phlegethon Map{%NAME%}%CONTINUE%
-ItemDisplay[t22]: Torajan Jungle Map{%NAME%}%CONTINUE%
-ItemDisplay[t23]: Arreat Battlefield Map{%NAME%}%CONTINUE%
-ItemDisplay[t24]: Tomb of Zoltun Kulle Map{%NAME%}%CONTINUE%
-ItemDisplay[t25]: Sewers of Harrogath Map{%NAME%}%CONTINUE%
-ItemDisplay[t26]: Shadows of Westmarch Map{%NAME%}%CONTINUE%
+ItemDisplay[t22]: Jungle Map{%NAME%}%CONTINUE%
+ItemDisplay[t23]: Battlefield Map{%NAME%}%CONTINUE%
+ItemDisplay[t24]: Zoltun Kulle Map{%NAME%}%CONTINUE%
+ItemDisplay[t25]: Sewers Map{%NAME%}%CONTINUE%
+ItemDisplay[t26]: Westmarch Map{%NAME%}%CONTINUE%
 ItemDisplay[t27]: Demon Road Map{%NAME%}%CONTINUE%
-ItemDisplay[t28]: Skovos Stronghold Map{%NAME%}%CONTINUE%
+ItemDisplay[t28]: Skovos Map{%NAME%}%CONTINUE%
 ItemDisplay[t31]: River of Blood Map{%NAME%}%CONTINUE%
-ItemDisplay[t32]: Throne of Insanity Map{%NAME%}%CONTINUE%
+ItemDisplay[t32]: Throne Map{%NAME%}%CONTINUE%
 ItemDisplay[t33]: Lost Temple Map{%NAME%}%CONTINUE%
-ItemDisplay[t34]: Ancestral Trial Map{%NAME%}%CONTINUE%
+ItemDisplay[t34]: Ancestral Map{%NAME%}%CONTINUE%
 ItemDisplay[t35]: Blood Moon Map{%NAME%}%CONTINUE%
-ItemDisplay[t36]: Fall of Caldeum Map{%NAME%}%CONTINUE%
-ItemDisplay[t37]: Pandemonium Citadel Map{%NAME%}%CONTINUE%
-ItemDisplay[t38]: Canyon of Sescheron Map{%NAME%}%CONTINUE%
-ItemDisplay[t39]: Kehjistan Marketplace Map{%NAME%}%CONTINUE%
+ItemDisplay[t36]: Caldeum Map{%NAME%}%CONTINUE%
+ItemDisplay[t37]: Pandemonium Map{%NAME%}%CONTINUE%
+ItemDisplay[t38]: Canyon Map{%NAME%}%CONTINUE%
+ItemDisplay[t39]: Marketplace Map{%NAME%}%CONTINUE%
 ItemDisplay[t3a]: Ashen Plains Map{%NAME%}%CONTINUE%
 ItemDisplay[t41]: Cathedral of Light Dungeon{%NAME%}%CONTINUE%
 ItemDisplay[t42]: Plains of Torment Dungeon{%NAME%}%CONTINUE%
