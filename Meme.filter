@@ -1318,7 +1318,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus{%TAN%Bestowed to The Sisters of The Sig
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(03/11/24){%GREEN%Check my GitHub For Filter Info%NL%%NL%%ORANGE%Shortened a Bunch of Map Names%NL%%GREEN%Changed: %ORANGE%F. Gems Now Has Notification & Shown on Large Strictness Lvls%NL%%GREEN%Added: %ORANGE%''In'' & ''Pu'' Only 3os Elite Bases Drop Now -Extra Strictness%NL%%RED%Live Update 5:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(05/11/24){%GREEN%Check my GitHub For Filter Info%NL%%NL%%ORANGE%2 Extra & 1 +Juice Extreme%NL%The Other Will Show F. Gems But Smaller -Notification%NL%One of Each Lvl Will Show F. Gems +Notification%NL%Both Small Removed & i Make 4 Medium & Large, 2 With +H5/M5, 2 With +Juice%NL%%GREEN%my Current Thoughts is This:%NL%%ORANGE%i Kinda Wanna Redo The Lvls Somewhat, it Seems Like Most Ppl Use Medium & Large%NL%%GREEN%Thoughts Update on Filter Lvls:%NL%%RED%Live Update 6:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
