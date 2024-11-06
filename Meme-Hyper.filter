@@ -1476,7 +1476,7 @@ ItemDisplay[ubac]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%O
 ItemDisplay[uba]: %MAP-0A%%GRAY%o%RED%o   %ORANGE%Relic of The Ancients   %RED%o%GRAY%o%ORANGE%{%GRAY%(You Cannot Make TPs Once You're Inside)%NL%%WHITE%in Act 5 to Open %ORANGE%Uber Ancients%NL%%WHITE%Use at The %RED%Blood Fountainn}
 // DCLONE ITEMS
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}
-ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%o   %ORANGE%Better Call Saul %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
+ItemDisplay[dcso]: %PX-60%%MAP-0A%%RED%o   %ORANGE%Better Call Prime Evil Saul %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}
 ItemDisplay[dcbl]: %PX-60%%MAP-0A%%RED%o   %ORANGE%Pure Daemoth Dust %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}
 ItemDisplay[dcma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)}
 // RATHMA ITEMS
