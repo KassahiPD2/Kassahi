@@ -1581,7 +1581,7 @@ ItemDisplay[STAT452<0]: %NAME%{%STAT452%%Ias/Fcr, %NAME%}%CONTINUE%
 ItemDisplay[MULTI427,22913=100]: %NAME%{Splash, %NAME%}%CONTINUE%
 ItemDisplay[STAT450>0]: %NAME%{Cbf, %NAME%}%CONTINUE%
 ItemDisplay[STAT437>0]: %NAME%{Dolls, %NAME%}%CONTINUE%
-ItemDisplay[STAT438>0]: %NAME%{Bitches, %NAME%}%CONTINUE%
+ItemDisplay[STAT438>0]: %NAME%{Witches, %NAME%}%CONTINUE%
 ItemDisplay[STAT439>0]: %NAME%{Vamp Lords, %NAME%}%CONTINUE%
 ItemDisplay[STAT441>0]: %NAME%{Reanimated, %NAME%}%CONTINUE%
 ItemDisplay[STAT470>0]: %NAME%{Souls, %NAME%}%CONTINUE%
