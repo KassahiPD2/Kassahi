@@ -1488,11 +1488,11 @@ ItemDisplay[rtma]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o%ORANGE%{%GRAY%
 ItemDisplay[cwss]: %MAP-0A%%PURPLE%oo   %RED%Tainted Worldstone Shard %TAN%x%WHITE%%QTY%   %PURPLE%oo{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[rtp]: %MAP-0A%%TEAL%xX%BLUE%xX%WHITE%xX   %NAME%   %WHITE%Xx%BLUE%Xx%TEAL%Xx{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %MAP-0A%%CORAL%xX%RED%xX%WHITE%xX   %NAME%   %WHITE%Xx%RED%Xx%CORAL%Xx{%WHITE%Gives You Infinite %RED%IDs}
-// NEW BOSS ITEMS
-ItemDisplay[lucb]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Mats For The New Uber Boss}
-ItemDisplay[lucc]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Mats For The New Uber Boss}
-ItemDisplay[lucd]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%ORANGE%Mats For The New Uber Boss}
-ItemDisplay[luca]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o{%ORANGE%New Uber Boss Fight}
+// LUCION ITEMS
+ItemDisplay[lucb]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Shadow of Hatred%NL%%TAN%Cube: %ORANGE%DI, TOT, FOM%NL%%TAN%Drops From: %RED%A5 Red Portals (Abaddon, Pit of Acheron & Infernal Pit)}
+ItemDisplay[lucc]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Shadow of Hatred%NL%%TAN%Cube: %ORANGE%DI, TOT, FOM%NL%%TAN%Drops From: %RED%Corrupted Zones}
+ItemDisplay[lucd]: %PX-60%%MAP-0A%%RED%o   %NAME% %TAN%x%WHITE%%QTY%   %RED%o{%WHITE%to Make %ORANGE%Shadow of Hatred%NL%%TAN%Cube: %ORANGE%DI, TOT, FOM%NL%%TAN%Drops From: %RED%Demon Enemy}
+ItemDisplay[luca]: %MAP-0A%%GRAY%o%RED%o   %NAME%   %RED%o%GRAY%o{%GRAY%(+Minions And mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)}
 // PROJECT DIABLO 2 ITEMS
 ItemDisplay[wss]: %MAP-0A%%CORAL%oo   %RED%Worldstone Shard %TAN%x%WHITE%%QTY%   %CORAL%oo{ %TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Armor: 1-3, 1h Weapon: 2-4, 2h Weapon: 3-6%NL%%WHITE%Possible Corruptions:}
 ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX  %GOLD%Larzuk's Lunch Box %TAN%x%WHITE%%QTY%  %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}
