@@ -1764,7 +1764,7 @@ ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 ItemDisplay[(FILTLVL=4 OR FILTLVL=5 OR FILTLVL>7) SET !ID]:
 
 // MAGIC/RARE (GOOD)
-ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) MAG !ID !ETH (am2 OR am7 OR amc OR am5 OR mxb OR 8mx OR 6mx)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) MAG !ID !ETH (am2 OR am7 OR amc OR am5)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) RARE !ID !ETH (am2 OR am7 OR amc OR NEC OR DRU OR am5 OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) MAG !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl OR ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR am5 OR bal OR 9b8 OR 7b8)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[!(FILTLVL=5 OR FILTLVL=9) RARE !ID ETH (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR glv OR 9gl OR 7gl OR ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr OR wax OR 9wa OR 7wa OR whm OR 9wh OR 7wh OR am5 OR bal OR 9b8 OR 7b8)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
