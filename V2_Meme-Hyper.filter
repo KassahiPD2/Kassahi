@@ -970,7 +970,7 @@ ItemDisplay[UNI ID 7fl EDAM>0 STAT145>0]: Stormlash%CONTINUE%
 // HAMMER'S NAME (UNI)
 ItemDisplay[UNI whm]: Ironstone%CONTINUE%
 ItemDisplay[UNI 9wh]: Earthshaker%CONTINUE%
-ItemDisplay[UNI !ID 7wh]: %PURPLE%Stone Crusher%WHITE%/%PURPLE%Schaefer's%CONTINUE%
+ItemDisplay[UNI !ID 7wh]: %PURPLE%Stone Crusher%WHITE%/%PURPLE%Schaefer%CONTINUE%
 ItemDisplay[UNI ID 7wh STAT425>0 EDAM>0 STR>0]: Stone Crusher%CONTINUE%
 ItemDisplay[UNI ID 7wh EDAM>0 LRES>0]: Schaefer's Hammer%CONTINUE%
 ItemDisplay[UNI mau]: Bonesnap%CONTINUE%
