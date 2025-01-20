@@ -4,7 +4,6 @@
 
 There are three main categories:
 
--   **Crafters**: This was used for crafting season. It's now outdated.
 -   **Regular**: These are the filters that are used for regular seasons. Most up-to-date.
 -   **Meme**: Based off regular, but will have suprising names :)
 
