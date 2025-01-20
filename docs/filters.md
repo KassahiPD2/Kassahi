@@ -7,7 +7,7 @@
 -   **Regular-Hyper.Filter**: Bigger & More Vibrant Highlights (-Suprising Names)
 -   **Regular.Filter**: Smaller & Less Vibrant Highlights (-Suprising Names)
 
-### Hyper and Non-Hyper filters
+### Hyper and Regular filters
 
 Hyper filters are more dramatic and have more stylized look, whereas Non-Hyper filters are more subtle.
 
@@ -19,7 +19,7 @@ Hyper filters are more dramatic and have more stylized look, whereas Non-Hyper f
 
     ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
 
-=== "Non-Hyper"
+=== "Regular"
 
     ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/009503c8-1356-41fc-a5f6-58f6c6018565)
 
