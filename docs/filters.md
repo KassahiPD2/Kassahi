@@ -11,12 +11,6 @@
 
 === "Hyper"
 
-    ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/577946a9-db53-4bad-b051-78b94190f708)
-
-    ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/699c282e-15ed-4765-bc10-e5085eb55889)
-
-    ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
-
     ![image](https://github.com/user-attachments/assets/353276d0-9cb1-467e-ab95-4dacf7223924)
 
     ![Town 2](https://github.com/user-attachments/assets/80eee7af-d90b-4b03-8dac-8b76c8f3a6d9)
