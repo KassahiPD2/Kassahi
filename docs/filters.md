@@ -5,7 +5,7 @@
 -   **Meme-Hyper.Filter**: Bigger & More Vibrant Highlights (+Suprising Names)
 -   **Meme.Filter**: Smaller & Less Vibrant Highlights (+Suprising Names)
 -   **Regular-Hyper.Filter**: Bigger & More Vibrant Highlights (-Suprising Names)
--   **Regular.Filter**: Smaller & Less Vibrant Highlights (+Suprising Names)
+-   **Regular.Filter**: Smaller & Less Vibrant Highlights (-Suprising Names)
 
 ### Hyper and Non-Hyper filters
 
