@@ -19,7 +19,8 @@
 
     ![image](https://github.com/user-attachments/assets/353276d0-9cb1-467e-ab95-4dacf7223924)
 
-    ![Town 2](https://github.com/user-attachments/assets/614ea1ff-70d8-4235-974b-693ec8a5f1e1)
+    ![Town 2](https://github.com/user-attachments/assets/80eee7af-d90b-4b03-8dac-8b76c8f3a6d9)
+
 
 
 === "Regular"
