@@ -17,6 +17,7 @@
 
     ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
 
+    ![image](https://github.com/user-attachments/assets/353276d0-9cb1-467e-ab95-4dacf7223924)
 
 === "Regular"
 
