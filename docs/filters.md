@@ -17,8 +17,6 @@
 
     ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/665c508c-931f-483d-9642-9d1c604d4137)
 
-    !file:///C:/Users/Kassahi/Desktop/Town.png
-
 
 === "Regular"
 
