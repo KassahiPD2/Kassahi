@@ -13,9 +13,9 @@
 **Stuff i Have Done is Not Visible Yet in The Filter's Info, i Also Decided to Delete my Crafter Filters bc They Were Quite Outdated**
 
 
-Welcome to Kassahi's PD2 loot filter. This loot filter is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
+Welcome to my PD2 loot filters. The loot filters is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
 
-On the left hand side of the page (hamburger menu if no sidebar) you will find a list of topics that dive deeper into the levels and examples.
+On the left hand side of the page (hamburger menu if no sidebar) you will find a list of topics that dive deeper into the levels and examples
 
 Helpful external links:
 
