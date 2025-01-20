@@ -2,10 +2,10 @@
 
 ## Types of filters
 
-There are three main categories:
-
--   **Regular**: These are the filters that are used for regular seasons. Most up-to-date.
--   **Meme**: Based off regular, but will have suprising names :)
+-   **Meme-Hyper.Filter**: Bigger & More Vibrant Highlights (+Suprising Names)
+-   **Meme.Filter**: Smaller & Less Vibrant Highlights (+Suprising Names)
+-   **Regular-Hyper.Filter**: Bigger & More Vibrant Highlights (-Suprising Names)
+-   **Regular.Filter**: Smaller & Less Vibrant Highlights (+Suprising Names)
 
 ### Hyper and Non-Hyper filters
 
