@@ -81,6 +81,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 -   Filter Lvl 12: Extreme Strictness, The Most Strict Lvl
 
 -   w/ (F) = With Flawless Gems, (sF) = With Small Flawless Gems, w/o (F) = Without Flawless Gems
+-   Under The Picture u Find More Info on The Filter Lvls
 
 ![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
