@@ -89,7 +89,14 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     -   test
 
-=== "Starter Filter Lvl (S10) Info"
+=== "Medium Strictness Info"
 
     -   test
 
+=== "Extra Strictness Info"
+
+    -   test
+    
+=== "Extreme Strictness Info"
+
+    -   test
