@@ -88,6 +88,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 === "Starter Filter Lvl (S10) Info"
 
+    ## Shows
     -   test
 
 === "Medium Strictness Info"
