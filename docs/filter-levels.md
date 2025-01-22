@@ -89,10 +89,20 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Starter Filter Lvl (S10) Info"
 
     ## Shows:
-    # Shows:
-    Shows:
-    -   *35%, *A, *T, *TP, 
-
+    -   *35%, *A, *T, *TP
+    -   
+    -   
+    ## Hides:
+    -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5000 at Lvl 80
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
 === "Medium Strictness Info"
 
     -   test
