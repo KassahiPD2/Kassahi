@@ -80,15 +80,13 @@ The filter levels are used to determine the level of filtering that is applied t
 
 
 
-## Filter Lvl 2/3: - +H5/+M5 w/ (F)/(sF) Medium Strictness
-## Filter Lvl 7/8: - O Juice O w/ (F)/(sF) Medium Strictness
+## Filter Lvl 2, 3: - +H5/+M5 w/ (F)/(sF) Medium Strictness
+## Filter Lvl 7, 8: - O Juice O w/ (F)/(sF) Medium Strictness
 
 
 
-## Filter Lvl 4/5: - +H5/+M5 w/ (F)/(sF) Extra Strictness
-## Filter Lvl 4/5: - O Juice O w/ (F)/(sF) Extra Strictness
-## Filter Lvl 6: - +H5/+M5 w/o (F) Extra Strictness
-## Filter Lvl 6: - O Juice O w/o (F) Extra Strictness
+## Filter Lvl 4, 5, 6: - +H5/+M5 w/ (F)/(sF)/w/o (F) Extra Strictness
+## Filter Lvl 9, 10, 11: - O Juice O w/ (F)/(sF)/w/o (F) Extra Strictness
 
 
 
