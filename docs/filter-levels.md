@@ -91,7 +91,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     ## Shows:
     # Shows:
     Shows:
-    -   test
+    -   *35%, *A, *T, *TP, 
 
 === "Medium Strictness Info"
 
