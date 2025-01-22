@@ -73,6 +73,10 @@ The filter levels are used to determine the level of filtering that is applied t
 
 # Filter levels
 
+=== "Hyper"
+
+    ![Filter Lvls](https://github.com/user-attachments/assets/b1d5a991-13ec-4790-a8e3-5a34d6ecfa44)
+
 The filter levels are used to determine the level of filtering that is applied to the loot filter. The filter levels are below.
 
 ## Filter Lvl 1: - Starter Filter Lvl (S10)
