@@ -82,13 +82,14 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 -   w/ (F) = With Flawless Gems, (sF) = With Small Flawless Gems, w/o (F) = Without Flawless Gems
 
-=== "Filter Lvls Info"
+![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
-    ![Filter Lvls](https://github.com/user-attachments/assets/b1d5a991-13ec-4790-a8e3-5a34d6ecfa44)
 
 === "Starter Filter Lvl (S10) Info"
 
     -   test
 
+=== "Starter Filter Lvl (S10) Info"
 
+    -   test
 
