@@ -9,7 +9,7 @@ ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc:Medium ÿc
 ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
 ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc;Extra ÿc4Strictness
 ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1extreme ÿc4Strictness
+ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
 
 
 
@@ -1392,12 +1392,12 @@ ItemDisplay[STAT206>0 !(STAT477=4 OR STAT477=21)]: %NAME% %GOLD%d*{%NAME%}%CONTI
 
 
 // GOLD
-ItemDisplay[GOLD<50]:
-ItemDisplay[GOLD<500 CLVL>17]:
+ItemDisplay[GOLD<49]:
+ItemDisplay[GOLD<499 CLVL>17]:
 ItemDisplay[GOLD<4999 CLVL>79]:
 // POTIONS
-ItemDisplay[!FILTLVL=1 rvs]:
-ItemDisplay[rvs]: %PURPLE%*%WHITE%35%
+ItemDisplay[FILTLVL=1 rvs]: %PURPLE%*%WHITE%35%
+ItemDisplay[rvs]:
 ItemDisplay[rvl]: %PURPLE%O %WHITE%Juice %PURPLE%O
 ItemDisplay[hp1 CLVL<7]: %RED%*%WHITE%Heal 1
 ItemDisplay[hp2 CLVL<15]: %RED%*%WHITE%Heal 2
