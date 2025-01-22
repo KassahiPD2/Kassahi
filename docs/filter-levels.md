@@ -90,8 +90,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   *35%, *A, *T, *TP
-    -   Flawless Gems ''Full'' Name +Notification
-    -   
     ## Hides:
     -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
     -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
