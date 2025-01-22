@@ -15,8 +15,6 @@
 
     ![Town 2](https://github.com/user-attachments/assets/80eee7af-d90b-4b03-8dac-8b76c8f3a6d9)
 
-    
-
 === "Regular"
 
     ![image](https://github.com/KassahiPD2/Kassahi/assets/87786927/009503c8-1356-41fc-a5f6-58f6c6018565)
