@@ -89,18 +89,35 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Starter Filter Lvl (S10) Info"
 
     ## Shows:
-    # Shows:
-    Shows:
-    -   *35%, *A, *T, *TP, 
-
+    -   *35%, *A, *T, *TP
+    ## Hides:
+    -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
+    -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
+    -   *Mana 1 at Lvl 8, *Mana 2 at Lvl 16, *Mana 3 at Lvl 20, *Mana 4 at Lvl 60
+    -   *S at Lvl 20, *ID at Lvl 35, *Key at Lvl 30
+    -   *F1 at Lvl 10, *F2 at Lvl 20, *F3 at Lvl 40, *P1 at Lvl 10, *P2 at Lvl 20, *P3 at Lvl 40
+    -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
+    -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
+    -   
+    -   
+    -   
 === "Medium Strictness Info"
 
-    -   test
-
+    ## Shows:
+    -   Filter Lvl 1, 2, 7: Flawless Gems ''Full'' Name +Notification
+    -   Filter Lvl 3, 8: Flawless Gems '' o '' Name +Notification on Skull
+    
+    ## Hides:
+    -   
 === "Extra Strictness Info"
 
-    -   test
+    ## Shows:
+    -   Filter Lvl 4, 9: Flawless Gems ''Full'' Name +Notification
+    -   Filter Lvl 5, 10: Flawless Gems '' o '' Name +Notification on Skull
     
+    ## Hides:
+    -   Filter Lvl 6, 11: Flawless Gems
 === "Extreme Strictness Info"
 
-    -   test
+    ## Hides:
+    -   Filter Lvl 12: Flawless Gems
