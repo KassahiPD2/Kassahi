@@ -66,3 +66,38 @@ The filter levels are used to determine the level of filtering that is applied t
 -   Hides Bases With 10+ ED (Non-Ethereal)
 -   Hides Notifications For Runes Less Than Lem
 -   Hides Notifications For Magic Charms & Jewels
+
+
+
+
+
+# Filter levels
+
+The filter levels are used to determine the level of filtering that is applied to the loot filter. The filter levels are below.
+
+## Filter Lvl 1: - Starter Filter Lvl (S10)
+
+
+
+
+## Filter Lvl 2/3: - +H5/+M5 w/ (F)/(sF) Medium Strictness
+## Filter Lvl 7/8: - O Juice O w/ (F)/(sF) Medium Strictness
+
+
+
+## Filter Lvl 4/5: - +H5/+M5 w/ (F)/(sF) Extra Strictness
+## Filter Lvl 4/5: - O Juice O w/ (F)/(sF) Extra Strictness
+## Filter Lvl 6: - +H5/+M5 w/o (F) Extra Strictness
+## Filter Lvl 6: - O Juice O w/o (F) Extra Strictness
+
+
+
+## Filter Lvl 12: - O Juice O Extreme Strictness
+
+
+
+
+
+
+
+
