@@ -85,3 +85,10 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Filter Lvls Info"
 
     ![Filter Lvls](https://github.com/user-attachments/assets/b1d5a991-13ec-4790-a8e3-5a34d6ecfa44)
+
+=== "Starter Filter Lvl (S10) Info"
+
+    -   test
+
+
+
