@@ -104,9 +104,9 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Medium Strictness Info"
 
     ## Shows:
-    -   Filter Lvl 1, 2, 7: Flawless Gems ''Full'' Name +Notification
+    -   Filter Lvl 2, 7: Flawless Gems ''Full'' Name +Notification
     -   Filter Lvl 3, 8: Flawless Gems '' o '' Name +Notification on Skull
-    
+    -   Filter Lvl 2, 3, 7, 8: Runes Under 20 +Notification
     ## Hides:
     -   
 === "Extra Strictness Info"
@@ -114,10 +114,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     ## Shows:
     -   Filter Lvl 4, 9: Flawless Gems ''Full'' Name +Notification
     -   Filter Lvl 5, 10: Flawless Gems '' o '' Name +Notification on Skull
-    
+    -   Filter Lvl 4, 5, 6, 9, 10, 11: Runes Under 20
     ## Hides:
     -   Filter Lvl 6, 11: Flawless Gems
 === "Extreme Strictness Info"
 
+    ## Shows:
+    -   Filter Lvl 12: Runes Under 20 '' Number '' Name Except 3, 5, 8, 9, 11, 12
     ## Hides:
     -   Filter Lvl 12: Flawless Gems
