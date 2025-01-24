@@ -727,318 +727,318 @@ ItemDisplay[UNI ID amu AR>0 STAT31>0 RES>0 STAT78>0]: Metalgrid%CONTINUE%
 ItemDisplay[UNI !ID ram]: %PURPLE%The Third Eye%CONTINUE%
 ItemDisplay[UNI ID ram]: The Third Eye%CONTINUE%
 // HELMET'S NAME (UNI)
-ItemDisplay[UNI (!ID cap) OR ((cap OR xap OR uap) EDAM>29)]: Biggin's Bonnet%CONTINUE%
-ItemDisplay[UNI (!ID xap) OR ((xap OR uap) FRW>19)]: Peasant Crown%CONTINUE%
+ItemDisplay[(UNI !ID cap) OR ((cap OR xap OR uap) UNI EDAM>29)]: Biggin's Bonnet%CONTINUE%
+ItemDisplay[(UNI !ID xap) OR ((xap OR uap) UNI FRW>19)]: Peasant Crown%CONTINUE%
 ItemDisplay[UNI !ID uap]: %PURPLE%Shako%CONTINUE%
 ItemDisplay[UNI ID uap]: Shako%CONTINUE%
-ItemDisplay[UNI (!ID skp) OR ((skp OR xkp OR ukp) GFIND>74)]: Tarnhelm%CONTINUE%
-ItemDisplay[UNI (!ID xkp) OR ((xkp OR ukp) STAT3>14)]: Rockstopper%CONTINUE%
-ItemDisplay[UNI (!ID hlm) OR ((hlm OR xlm OR ulm) STAT113>0)]: Coif of Glory%CONTINUE%
-ItemDisplay[UNI (!ID xlm) OR ((xlm OR ulm) IAS>19)]: Stealskull%CONTINUE%
+ItemDisplay[(UNI !ID skp) OR ((skp OR xkp OR ukp) UNI GFIND>74)]: Tarnhelm%CONTINUE%
+ItemDisplay[(UNI !ID xkp) OR ((xkp OR ukp) UNI STAT3>14)]: Rockstopper%CONTINUE%
+ItemDisplay[(UNI !ID hlm) OR ((hlm OR xlm OR ulm) UNI STAT113>0)]: Coif of Glory%CONTINUE%
+ItemDisplay[(UNI !ID xlm) OR ((xlm OR ulm) UNI IAS>19)]: Stealskull%CONTINUE%
 ItemDisplay[UNI !ID ulm]: %PURPLE%Steel Shade%CONTINUE%
 ItemDisplay[UNI ID ulm]: Steel Shade%CONTINUE%
-ItemDisplay[UNI (!ID fhl) OR ((fhl OR xhl OR uhl) MAXDMG>9)]: Duskdeep%CONTINUE%
-ItemDisplay[UNI (!ID xhl) OR ((xhl OR uhl) MULTI97,264=1)]: Darksight Helm%CONTINUE%
+ItemDisplay[(UNI !ID fhl) OR ((fhl OR xhl OR uhl) UNI MAXDMG>9)]: Duskdeep%CONTINUE%
+ItemDisplay[(UNI !ID xhl) OR ((xhl OR uhl) UNI MULTI97,264=1)]: Darksight Helm%CONTINUE%
 ItemDisplay[UNI !ID uhl]: %PURPLE%Overlord's Helm%CONTINUE%
 ItemDisplay[UNI ID uhl]: Overlord's Helm%CONTINUE%
-ItemDisplay[UNI (!ID msk) OR ((msk OR xsk OR usk) STAT122>49)]: The Face of Horror%CONTINUE%
-ItemDisplay[UNI (!ID xsk) OR ((xsk OR usk) STAT117>0)]: Blackhorn's Face%CONTINUE%
+ItemDisplay[(UNI !ID msk) OR ((msk OR xsk OR usk) UNI STAT122>49)]: The Face of Horror%CONTINUE%
+ItemDisplay[(UNI !ID xsk) OR ((xsk OR usk) UNI STAT117>0)]: Blackhorn's Face%CONTINUE%
 ItemDisplay[UNI !ID usk]: %PURPLE%Andariel's Visage%CONTINUE%
 ItemDisplay[UNI ID usk]: Andariel's Visage%CONTINUE%
-ItemDisplay[UNI (!ID bhm) OR ((bhm OR xh9 OR uh9) TABSK17>0)]: Wormskull%CONTINUE%
-ItemDisplay[UNI (!ID xh9) OR ((xh9 OR uh9) STAT154>0)]: Vampire Gaze%CONTINUE%
+ItemDisplay[(UNI !ID bhm) OR ((bhm OR xh9 OR uh9) UNI TABSK17>0)]: Wormskull%CONTINUE%
+ItemDisplay[(UNI !ID xh9) OR ((xh9 OR uh9) UNI STAT154>0)]: Vampire Gaze%CONTINUE%
 ItemDisplay[UNI uh9]: Giant Skull%CONTINUE%
-ItemDisplay[UNI (!ID ghm) OR ((ghm OR xhm OR uhm) MULTI198,8325=10)]: Howltusk%CONTINUE%
-ItemDisplay[UNI (!ID xhm) OR ((xhm OR uhm) CLSK0>0)]: Valkyrie Wing%CONTINUE%
+ItemDisplay[(UNI !ID ghm) OR ((ghm OR xhm OR uhm) UNI MULTI198,8325=10)]: Howltusk%CONTINUE%
+ItemDisplay[(UNI !ID xhm) OR ((xhm OR uhm) UNI CLSK0>0)]: Valkyrie Wing%CONTINUE%
 ItemDisplay[UNI !ID uhm]: %PURPLE%Veil of Steel%WHITE%/%PURPLE%Nightwing%CONTINUE%
 ItemDisplay[UNI ID uhm EDAM>49 RES>24]: Veil of Steel%CONTINUE%
 ItemDisplay[UNI ID uhm STAT331>9 STAT335>-3 DEX>9 STAT149>4]: Nightwing's Veil%CONTINUE%
-ItemDisplay[UNI (!ID crn) OR ((crn OR xrn OR urn) SK69>1)]: Undead Crown%CONTINUE%
-ItemDisplay[UNI (!ID xrn) OR ((xrn OR urn) DEX>24)]: Crown of Thieves%CONTINUE%
+ItemDisplay[(UNI !ID crn) OR ((crn OR xrn OR urn) UNI SK69>1)]: Undead Crown%CONTINUE%
+ItemDisplay[(UNI !ID xrn) OR ((xrn OR urn) UNI DEX>24)]: Crown of Thieves%CONTINUE%
 ItemDisplay[UNI !ID urn]: %PURPLE%Crown of Ages%CONTINUE%
 ItemDisplay[UNI ID urn]: Crown of Ages%CONTINUE%
 // ARMOR'S NAME (UNI)
-ItemDisplay[UNI (!ID qui) OR ((qui OR xui OR uui) STAT60>4)]: Greyform%CONTINUE%
-ItemDisplay[UNI (!ID xui) OR ((xui OR uui) STAT74>9)]: Spirit Shroud%CONTINUE%
+ItemDisplay[(UNI !ID qui) OR ((qui OR xui OR uui) UNI STAT60>4)]: Greyform%CONTINUE%
+ItemDisplay[(UNI !ID xui) OR ((xui OR uui) UNI STAT74>9)]: Spirit Shroud%CONTINUE%
 ItemDisplay[UNI uui]: Ormus' Robes%CONTINUE%
-ItemDisplay[UNI (!ID lea) OR ((lea OR xea OR uea) FRW>19)]: Blinkbat's Form%CONTINUE%
-ItemDisplay[UNI (!ID xea) OR ((xea OR uea) STAT35>4)]: Skin of the Vipermagi%CONTINUE%
-ItemDisplay[UNI (!ID hla) OR ((hla OR xla OR ula) STAT20>19)]: The Centurion%CONTINUE%
-ItemDisplay[UNI (!ID xla) OR ((xla OR ula) REPAIR>0)]: Skin of the Flayed One%CONTINUE%
-ItemDisplay[UNI (!ID stu) OR ((stu OR xtu OR utu) STAT20=25)]: Twitchthroe%CONTINUE%
-ItemDisplay[UNI (!ID xtu) OR ((xtu OR utu) STAT20=20)]: Iron Pelt%CONTINUE%
+ItemDisplay[(UNI !ID lea) OR ((lea OR xea OR uea) UNI FRW>19)]: Blinkbat's Form%CONTINUE%
+ItemDisplay[(UNI !ID xea) OR ((xea OR uea) UNI STAT35>4)]: Skin of the Vipermagi%CONTINUE%
+ItemDisplay[(UNI !ID hla) OR ((hla OR xla OR ula) UNI STAT20>19)]: The Centurion%CONTINUE%
+ItemDisplay[(UNI !ID xla) OR ((xla OR ula) UNI REPAIR>0)]: Skin of the Flayed One%CONTINUE%
+ItemDisplay[(UNI !ID stu) OR ((stu OR xtu OR utu) UNI STAT20=25)]: Twitchthroe%CONTINUE%
+ItemDisplay[(UNI !ID xtu) OR ((xtu OR utu) UNI STAT20=20)]: Iron Pelt%CONTINUE%
 ItemDisplay[UNI utu]: The Gladiator's Bane%CONTINUE%
-ItemDisplay[UNI (!ID rng) OR ((rng OR xng OR ung) STAT89=3)]: Darkglow%CONTINUE%
-ItemDisplay[UNI (!ID xng) OR ((xng OR ung) STAT89=4)]: Spirit Forge%CONTINUE%
+ItemDisplay[(UNI !ID rng) OR ((rng OR xng OR ung) UNI STAT89=3)]: Darkglow%CONTINUE%
+ItemDisplay[(UNI !ID xng) OR ((xng OR ung) UNI STAT89=4)]: Spirit Forge%CONTINUE%
 ItemDisplay[UNI !ID ung]: Foreskin%CONTINUE%
 ItemDisplay[UNI ID ung]: Wraithskin%CONTINUE%
-ItemDisplay[UNI (!ID scl) OR ((scl OR xcl OR ucl) FRW>24)]: Hawkmail%CONTINUE%
-ItemDisplay[UNI (!ID xcl) OR ((xcl OR ucl) STAT156>29)]: Crow Caw%CONTINUE%
-ItemDisplay[UNI (!ID brs) OR ((brs OR xrs OR urs) STAT46>4)]: Venom Ward%CONTINUE%
-ItemDisplay[UNI (!ID xrs) OR ((xrs OR urs) STAT214>0)]: Duriel's Shell%CONTINUE%
-ItemDisplay[UNI (!ID chn) OR ((chn OR xhn OR uhn) STAT128>19)]: Sparking Mail%CONTINUE%
-ItemDisplay[UNI (!ID xhn) OR ((xhn OR uhn) STAT36>19)]: Shaftstop%CONTINUE%
-ItemDisplay[UNI (!ID spl) OR ((spl OR xpl OR upl) STAT362>0)]: Iceblink%CONTINUE%
-ItemDisplay[UNI (!ID xpl) OR ((xpl OR upl) STAT240>0)]: Skullder's Ire%CONTINUE%
+ItemDisplay[(UNI !ID scl) OR ((scl OR xcl OR ucl) UNI FRW>24)]: Hawkmail%CONTINUE%
+ItemDisplay[(UNI !ID xcl) OR ((xcl OR ucl) UNI STAT156>29)]: Crow Caw%CONTINUE%
+ItemDisplay[(UNI !ID brs) OR ((brs OR xrs OR urs) UNI STAT46>4)]: Venom Ward%CONTINUE%
+ItemDisplay[(UNI !ID xrs) OR ((xrs OR urs) UNI STAT214>0)]: Duriel's Shell%CONTINUE%
+ItemDisplay[(UNI !ID chn) OR ((chn OR xhn OR uhn) UNI STAT128>19)]: Sparking Mail%CONTINUE%
+ItemDisplay[(UNI !ID xhn) OR ((xhn OR uhn) UNI STAT36>19)]: Shaftstop%CONTINUE%
+ItemDisplay[(UNI !ID spl) OR ((spl OR xpl OR upl) UNI STAT362>0)]: Iceblink%CONTINUE%
+ItemDisplay[(UNI !ID xpl) OR ((xpl OR upl) UNI STAT240>0)]: Skullder's Ire%CONTINUE%
 ItemDisplay[UNI upl]: Arkaine's Valor%CONTINUE%
-ItemDisplay[UNI (!ID ltp) OR ((ltp OR xtp OR utp) MULTI151,119>0)]: Heavenly Garb%CONTINUE%
-ItemDisplay[UNI (!ID xtp) OR ((xtp OR utp) FCR>19)]: Que-Hegan's Wisdom%CONTINUE%
+ItemDisplay[(UNI !ID ltp) OR ((ltp OR xtp OR utp) UNI MULTI151,119>0)]: Heavenly Garb%CONTINUE%
+ItemDisplay[(UNI !ID xtp) OR ((xtp OR utp) UNI FCR>19)]: Que-Hegan's Wisdom%CONTINUE%
 ItemDisplay[UNI utp]: Purgatory%CONTINUE% 
-ItemDisplay[UNI (!ID fld) OR ((fld OR xld OR uld) STAT34>9)]: Rockfleece%CONTINUE%
-ItemDisplay[UNI (!ID xld) OR ((xld OR uld) STAT141>14)]: Toothrow%CONTINUE%
+ItemDisplay[(UNI !ID fld) OR ((fld OR xld OR uld) UNI STAT34>9)]: Rockfleece%CONTINUE%
+ItemDisplay[(UNI !ID xld) OR ((xld OR uld) UNI STAT141>14)]: Toothrow%CONTINUE%
 ItemDisplay[UNI uld]: Leviathan%CONTINUE%
-ItemDisplay[UNI (!ID plt) OR ((plt OR xlt OR ult) MULTI201,4367=10)]: Boneflesh%CONTINUE%
-ItemDisplay[UNI (!ID xlt) OR ((xlt OR ult) FBR>29)]: Guardian Angel%CONTINUE%
-ItemDisplay[UNI (!ID gth) OR ((gth OR xth OR uth) EDAM>59)]: Rattlecage%CONTINUE%
-ItemDisplay[UNI (!ID xth) OR ((xth OR uth) STAT214>0)]: Atma's Wail%CONTINUE%
+ItemDisplay[(UNI !ID plt) OR ((plt OR xlt OR ult) UNI MULTI201,4367=10)]: Boneflesh%CONTINUE%
+ItemDisplay[(UNI !ID xlt) OR ((xlt OR ult) UNI FBR>29)]: Guardian Angel%CONTINUE%
+ItemDisplay[(UNI !ID gth) OR ((gth OR xth OR uth) UNI EDAM>59)]: Rattlecage%CONTINUE%
+ItemDisplay[(UNI !ID xth) OR ((xth OR uth) UNI STAT214>0)]: Atma's Wail%CONTINUE%
 ItemDisplay[UNI !ID uth]: %PURPLE%Dark Abyss%CONTINUE%
 ItemDisplay[UNI ID uth]: Dark Abyss%CONTINUE%
-ItemDisplay[UNI (!ID ful) OR ((ful OR xul OR uul) STAT78>9)]: Goldskin%CONTINUE%
-ItemDisplay[UNI (!ID xul) OR ((xul OR uul) STAT118>0)]: Black Hades%CONTINUE%
+ItemDisplay[(UNI !ID ful) OR ((ful OR xul OR uul) UNI STAT78>9)]: Goldskin%CONTINUE%
+ItemDisplay[(UNI !ID xul) OR ((xul OR uul) UNI STAT118>0)]: Black Hades%CONTINUE%
 ItemDisplay[UNI uul]: Steel Carapace%CONTINUE%
-ItemDisplay[UNI (!ID aar) OR ((aar OR xar OR uul) FRW>24)]: Silks of the Victor%CONTINUE%
+ItemDisplay[(UNI !ID aar) OR ((aar OR xar OR uul) UNI FRW>24)]: Silks of the Victor%CONTINUE%
 ItemDisplay[UNI !ID xar]: Deadgemourn%CONTINUE%
-ItemDisplay[UNI ID ((xar OR uul) MULTI97,74>0)]: Corpsemourn%CONTINUE%
+ItemDisplay[UNI ID ((xar OR uul) UNI MULTI97,74>0)]: Corpsemourn%CONTINUE%
 ItemDisplay[UNI !ID uar]: %PURPLE%Copium's Might%CONTINUE%
 ItemDisplay[UNI ID uar MULTI151,98>5]: Templar's Might%CONTINUE%
 ItemDisplay[UNI ID uar STAT121>199 STAT122>199 STR>19 RES>19]: Tyrael's Might%CONTINUE%
 ItemDisplay[UNI !ID rar]: %PURPLE%Cage of the Unsullied%CONTINUE%
 ItemDisplay[UNI ID rar]: Cage of the Unsullied%CONTINUE%
 // SHIELD'S NAME (UNI)
-ItemDisplay[UNI (!ID buc) OR ((buc OR xuc OR uuc) STAT3>9)]: Pelta Lunata%CONTINUE%
-ItemDisplay[UNI (!ID xuc) OR ((xuc OR uuc) CLSK1>0)]: Visceratuant%CONTINUE%
-ItemDisplay[UNI (!ID sml) OR ((sml OR xml OR uml) STAT113>0)]: Umbral Disk%CONTINUE%
-ItemDisplay[UNI (!ID xml) OR ((xml OR uml) SOCK=2 STAT504>0)]: Moser's Blessed Circle%CONTINUE%
+ItemDisplay[(UNI !ID buc) OR ((buc OR xuc OR uuc) UNI STAT3>9)]: Pelta Lunata%CONTINUE%
+ItemDisplay[(UNI !ID xuc) OR ((xuc OR uuc) UNI CLSK1>0)]: Visceratuant%CONTINUE%
+ItemDisplay[(UNI !ID sml) OR ((sml OR xml OR uml) UNI STAT113>0)]: Umbral Disk%CONTINUE%
+ItemDisplay[(UNI !ID xml) OR ((xml OR uml) UNI SOCK=2 STAT504>0)]: Moser's Blessed Circle%CONTINUE%
 ItemDisplay[UNI uml]: Blackoak Shield%CONTINUE%
-ItemDisplay[UNI (!ID lrg) OR ((lrg OR xrg OR uml) STAT128>0)]: Stormguild%CONTINUE%
-ItemDisplay[UNI (!ID xrg) OR ((xrg OR uml) FRW>19)]: Stormchaser%CONTINUE%
+ItemDisplay[(UNI !ID lrg) OR ((lrg OR xrg OR uml) UNI STAT128>0)]: Stormguild%CONTINUE%
+ItemDisplay[(UNI !ID xrg) OR ((xrg OR uml) UNI FRW>19)]: Stormchaser%CONTINUE%
 ItemDisplay[UNI !ID urg]: Twilight's Hyperion ''Spear''%CONTINUE%
 ItemDisplay[UNI ID urg]: Twilight's Reflection%CONTINUE%
-ItemDisplay[UNI (!ID spk) OR ((spk OR xpk OR upk) STAT135>49)]: Swordback Hold%CONTINUE%
-ItemDisplay[UNI (!ID xpk) OR ((xpk OR upk) STAT216>0)]: Lance Guard%CONTINUE%
+ItemDisplay[(UNI !ID spk) OR ((spk OR xpk OR upk) UNI STAT135>49)]: Swordback Hold%CONTINUE%
+ItemDisplay[(UNI !ID xpk) OR ((xpk OR upk) UNI STAT216>0)]: Lance Guard%CONTINUE%
 ItemDisplay[UNI upk]: Spike Thorn%CONTINUE%
-ItemDisplay[UNI (!ID kit) OR ((kit OR xit OR uit) STAT89=3)]: Steelclash%CONTINUE%
-ItemDisplay[UNI (!ID xit) OR ((xit OR uit) STAT48>0)]: Tiamat's Rebuke%CONTINUE%
+ItemDisplay[(UNI !ID kit) OR ((kit OR xit OR uit) UNI STAT89=3)]: Steelclash%CONTINUE%
+ItemDisplay[(UNI !ID xit) OR ((xit OR uit) UNI STAT48>0)]: Tiamat's Rebuke%CONTINUE%
 ItemDisplay[UNI !ID uit]: %PURPLE%Stormshield%CONTINUE%
 ItemDisplay[UNI ID uit]: Stormshield%CONTINUE%
-ItemDisplay[UNI (!ID bsh) OR ((bsh OR xsh OR ush) STAT62>2)]: Wall of the Eyeless%CONTINUE%
-ItemDisplay[UNI (!ID xsh) OR ((xsh OR ush) STAT89=1)]: Lidless Wall%CONTINUE%
+ItemDisplay[(UNI !ID bsh) OR ((bsh OR xsh OR ush) UNI STAT62>2)]: Wall of the Eyeless%CONTINUE%
+ItemDisplay[(UNI !ID xsh) OR ((xsh OR ush) UNI STAT89=1)]: Lidless Wall%CONTINUE%
 ItemDisplay[UNI ush]: Head Hunter's Glory%CONTINUE%
-ItemDisplay[UNI (!ID tow) OR ((tow OR xow OR uow) STAT36>4)]: Bverrit Keep%CONTINUE%
-ItemDisplay[UNI (!ID xow) OR ((xow OR uow) STAT34>13)]: Gerke's Sanctuary%CONTINUE%
+ItemDisplay[(UNI !ID tow) OR ((tow OR xow OR uow) UNI STAT36>4)]: Bverrit Keep%CONTINUE%
+ItemDisplay[(UNI !ID xow) OR ((xow OR uow) UNI STAT34>13)]: Gerke's Sanctuary%CONTINUE%
 ItemDisplay[UNI !ID uow]: %PURPLE%Medusa's Gaze%CONTINUE%
 ItemDisplay[UNI ID uow]: Medusa's Gaze%CONTINUE%
-ItemDisplay[UNI (!ID gts) OR ((gts OR xts OR uts) STAT35>1)]: The Ward%CONTINUE%
-ItemDisplay[UNI (!ID xts) OR ((xts OR uts) STAT365>0)]: Radament's Sphere%CONTINUE%
+ItemDisplay[(UNI !ID gts) OR ((gts OR xts OR uts) UNI STAT35>1)]: The Ward%CONTINUE%
+ItemDisplay[(UNI !ID xts) OR ((xts OR uts) UNI STAT365>0)]: Radament's Sphere%CONTINUE%
 ItemDisplay[UNI !ID uts]: %PURPLE%Spirit Ward%CONTINUE%
 ItemDisplay[UNI ID uts]: Spirit Ward%CONTINUE%
 // GLOVE'S NAME (UNI)
-ItemDisplay[UNI (!ID lgl) OR ((lgl OR xlg OR ulg) MANA>19)]: The Hand of Broc%CONTINUE%
-ItemDisplay[UNI (!ID xlg) OR ((xlg OR ulg) STAT332>9)]: Venom Grip%CONTINUE%
+ItemDisplay[(UNI !ID lgl) OR ((lgl OR xlg OR ulg) UNI MANA>19)]: The Hand of Broc%CONTINUE%
+ItemDisplay[(UNI !ID xlg) OR ((xlg OR ulg) UNI STAT332>9)]: Venom Grip%CONTINUE%
 ItemDisplay[UNI ulg]: Titan's Grip%CONTINUE%
-ItemDisplay[UNI (!ID vgl) OR ((vgl OR xvg OR uvg) MAXDMG>4)]: Bloodfist%CONTINUE%
-ItemDisplay[UNI (!ID xvg) OR ((xvg OR uvg) TABSK18>0)]: Gravepalm%CONTINUE%
+ItemDisplay[(UNI !ID vgl) OR ((vgl OR xvg OR uvg) UNI MAXDMG>4)]: Bloodfist%CONTINUE%
+ItemDisplay[(UNI !ID xvg) OR ((xvg OR uvg) UNI TABSK18>0)]: Gravepalm%CONTINUE%
 ItemDisplay[UNI uvg]: Dracul's Grasp%CONTINUE%
-ItemDisplay[UNI (!ID mgl) OR ((mgl OR xmg OR umg) STAT89=2)]: Chance Guards%CONTINUE%
-ItemDisplay[UNI (!ID xmg) OR ((xmg OR umg) STAT244=2)]: Ghoulhide%CONTINUE%
+ItemDisplay[(UNI !ID mgl) OR ((mgl OR xmg OR umg) UNI STAT89=2)]: Chance Guards%CONTINUE%
+ItemDisplay[(UNI !ID xmg) OR ((xmg OR umg) UNI STAT244=2)]: Ghoulhide%CONTINUE%
 ItemDisplay[UNI umg]: Soul Drainer%CONTINUE%
 ItemDisplay[UNI !ID tgl]: Magefisted%CONTINUE%
-ItemDisplay[UNI ID ((tgl OR xtg OR utg) STAT363=1)]: Magefist%CONTINUE%
-ItemDisplay[UNI (!ID xtg) OR ((xtg OR utg) MULTI198,3338=2)]: Lava Gout%CONTINUE%
+ItemDisplay[UNI ID ((tgl OR xtg OR utg) UNI STAT363=1)]: Magefist%CONTINUE%
+ItemDisplay[(UNI !ID xtg) OR ((xtg OR utg) UNI MULTI198,3338=2)]: Lava Gout%CONTINUE%
 ItemDisplay[UNI utg]: Occultist%CONTINUE%
-ItemDisplay[UNI (!ID hgl) OR ((hgl OR xhg OR uhg) STAT77>14)]: Frostburn%CONTINUE%
-ItemDisplay[UNI (!ID xhg) OR ((xhg OR uhg) STAT49>100)]: Hellmouth%CONTINUE%
+ItemDisplay[(UNI !ID hgl) OR ((hgl OR xhg OR uhg) UNI STAT77>14)]: Frostburn%CONTINUE%
+ItemDisplay[(UNI !ID xhg) OR ((xhg OR uhg) UNI STAT49>100)]: Hellmouth%CONTINUE%
 ItemDisplay[UNI uhg]: Steelrend%CONTINUE%
 // BOOT'S NAME (UNI)
-ItemDisplay[UNI (!ID lbt) OR ((lbt OR xlb OR ulb) STAT48=3)]: Hotspur%CONTINUE%
-ItemDisplay[UNI (!ID xlb) OR ((xlb OR ulb) STAT48=24)]: Infernostride%CONTINUE%
+ItemDisplay[(UNI !ID lbt) OR ((lbt OR xlb OR ulb) UNI STAT48=3)]: Hotspur%CONTINUE%
+ItemDisplay[(UNI !ID xlb) OR ((xlb OR ulb) UNI STAT48=24)]: Infernostride%CONTINUE%
 ItemDisplay[UNI ulb]: Merman's Sprocket%CONTINUE%
-ItemDisplay[UNI (!ID vbt) OR ((vbt OR xvb OR uvb) SK132>0)]: Gorefoot%CONTINUE%
-ItemDisplay[UNI (!ID xvb) OR ((xvb OR uvb) STAT28>0)]: Waterwalk%CONTINUE%
+ItemDisplay[(UNI !ID vbt) OR ((vbt OR xvb OR uvb) UNI SK132>0)]: Gorefoot%CONTINUE%
+ItemDisplay[(UNI !ID xvb) OR ((xvb OR uvb) UNI STAT28>0)]: Waterwalk%CONTINUE%
 ItemDisplay[UNI uvb]: Sandstorm Trek%CONTINUE%
-ItemDisplay[UNI (!ID mbt) OR ((mbt OR xmb OR umb) STAT154>0)]: Treads of Cthon%CONTINUE%
-ItemDisplay[UNI (!ID xmb) OR ((xmb OR umb) STAT77>0)]: Silkweave%CONTINUE%
+ItemDisplay[(UNI !ID mbt) OR ((mbt OR xmb OR umb) UNI STAT154>0)]: Treads of Cthon%CONTINUE%
+ItemDisplay[(UNI !ID xmb) OR ((xmb OR umb) UNI STAT77>0)]: Silkweave%CONTINUE%
 ItemDisplay[UNI umb]: Marrowwalk%CONTINUE%
-ItemDisplay[UNI (!ID tbt) OR ((tbt OR xtb OR utb) EDAM>0)]: Goblin Toe%CONTINUE%
-ItemDisplay[UNI (!ID xtb) OR ((xtb OR utb) STAT154>0)]: War Traveler%CONTINUE%
+ItemDisplay[(UNI !ID tbt) OR ((tbt OR xtb OR utb) UNI EDAM>0)]: Goblin Toe%CONTINUE%
+ItemDisplay[(UNI !ID xtb) OR ((xtb OR utb) UNI STAT154>0)]: War Traveler%CONTINUE%
 ItemDisplay[UNI !ID utb]: %PURPLE%Itherael's Path%CONTINUE%
 ItemDisplay[UNI ID utb]: Itherael's Path%CONTINUE%
-ItemDisplay[UNI (!ID hbt) OR ((hbt OR xhb OR uhb) TABSK26>0)]: Tearhaunch%CONTINUE%
+ItemDisplay[(UNI !ID hbt) OR ((hbt OR xhb OR uhb) UNI TABSK26>0)]: Tearhaunch%CONTINUE%
 ItemDisplay[UNI !ID xhb]: %PURPLE%Gore Rider%CONTINUE%
-ItemDisplay[UNI ID ((xhb OR uhb) STAT141>0)]: Gore Rider%CONTINUE%
+ItemDisplay[UNI ID ((xhb OR uhb) UNI STAT141>0)]: Gore Rider%CONTINUE%
 ItemDisplay[UNI uhb]: Shadow Dancer%CONTINUE%
 // BELT'S NAME (UNI)
-ItemDisplay[UNI (!ID lbl) OR ((lbl OR zlb OR ulc) STAT89>0)]: Lenymo%CONTINUE%
-ItemDisplay[UNI (!ID zlb) OR ((zlb OR ulc) STAT36>9)]: String of Ears%CONTINUE%
+ItemDisplay[(UNI !ID lbl) OR ((lbl OR zlb OR ulc) UNI STAT89>0)]: Lenymo%CONTINUE%
+ItemDisplay[(UNI !ID zlb) OR ((zlb OR ulc) UNI STAT36>9)]: String of Ears%CONTINUE%
 ItemDisplay[UNI !ID ulc]: %PURPLE%Arachnid Mesh%CONTINUE%
 ItemDisplay[UNI ID ulc]: Arachnid Mesh%CONTINUE%
-ItemDisplay[UNI (!ID vbl) OR ((vbl OR zvb OR uvc) STAT332>0)]: Snakecord%CONTINUE%
-ItemDisplay[UNI (!ID zvb) OR ((zvb OR uvc) MAXDMG>9)]: Razortail%CONTINUE%
+ItemDisplay[(UNI !ID vbl) OR ((vbl OR zvb OR uvc) UNI STAT332>0)]: Snakecord%CONTINUE%
+ItemDisplay[(UNI !ID zvb) OR ((zvb OR uvc) UNI MAXDMG>9)]: Razortail%CONTINUE%
 ItemDisplay[UNI uvc]: Nosferatu's Coil%CONTINUE%
-ItemDisplay[UNI (!ID mbl) OR ((mbl OR zmb OR umc) STAT34>0)]: Nightsmoke%CONTINUE%
-ItemDisplay[UNI (!ID zmb) OR ((zmb OR umc) STAT89=-3)]: Gloom's Trap%CONTINUE%
+ItemDisplay[(UNI !ID mbl) OR ((mbl OR zmb OR umc) UNI STAT34>0)]: Nightsmoke%CONTINUE%
+ItemDisplay[(UNI !ID zmb) OR ((zmb OR umc) UNI STAT89=-3)]: Gloom's Trap%CONTINUE%
 ItemDisplay[UNI umc]: Verdungo's Hearty Cord%CONTINUE%
-ItemDisplay[UNI (!ID tbl) OR ((tbl OR ztb OR utc) STAT89>0)]: Goldwrap%CONTINUE%
-ItemDisplay[UNI (!ID ztb) OR ((ztb OR utc) STAT362>0)]: Snowclash%CONTINUE%
+ItemDisplay[(UNI !ID tbl) OR ((tbl OR ztb OR utc) UNI STAT89>0)]: Goldwrap%CONTINUE%
+ItemDisplay[(UNI !ID ztb) OR ((ztb OR utc) UNI STAT362>0)]: Snowclash%CONTINUE%
 ItemDisplay[UNI utc]: Band of Skulls%CONTINUE%
-ItemDisplay[UNI (!ID hbl) OR ((hbl OR zhb OR uhc) STAT34>0)]: Bladebuckle%CONTINUE%
-ItemDisplay[UNI (!ID zhb) OR ((zhb OR uhc) STAT364>0)]: Thundergod's Vigor%CONTINUE%
+ItemDisplay[(UNI !ID hbl) OR ((hbl OR zhb OR uhc) UNI STAT34>0)]: Bladebuckle%CONTINUE%
+ItemDisplay[(UNI !ID zhb) OR ((zhb OR uhc) UNI STAT364>0)]: Thundergod's Vigor%CONTINUE%
 ItemDisplay[UNI !ID rbe]: %PURPLE%Band of Skulls%CONTINUE%
 ItemDisplay[UNI ID rbe]: Band of Skulls%CONTINUE%
 // CIRCLET'S NAME (UNI)
-ItemDisplay[UNI (!ID ci2) OR ((ci2 OR ci3) STAT333>9 STAT335>9)]: Kira's Guardian%CONTINUE%
+ItemDisplay[(UNI !ID ci2) OR ((ci2 OR ci3) UNI STAT333>9 STAT335>9)]: Kira's Guardian%CONTINUE%
 ItemDisplay[UNI !ID ci3]: %PURPLE%Griffon's Eye%CONTINUE%
 ItemDisplay[UNI ID ci3]: Griffon's Eye%CONTINUE%
 // DRUID PELT'S NAME (UNI)
 ItemDisplay[UNI drb]: Cerebus' Bite%CONTINUE%
-ItemDisplay[UNI (!ID dr2) OR ((dr2 OR dr7 OR drc) STAT460>0)]: Quetzalcoatl%CONTINUE%
+ItemDisplay[(UNI !ID dr2) OR ((dr2 OR dr7 OR drc) UNI STAT460>0)]: Quetzalcoatl%CONTINUE%
 ItemDisplay[UNI !ID drc]: Stepmother%CONTINUE%
 ItemDisplay[UNI ID drc]: Denmother%CONTINUE%
 ItemDisplay[UNI drd]: Spirit Keeper%CONTINUE%
 ItemDisplay[UNI dre]: Ravenlore%CONTINUE%
-ItemDisplay[UNI (!ID dra) OR ((dra OR drf) CLSK5>1)]: Jalal's Mane%CONTINUE%
+ItemDisplay[(UNI !ID dra) OR ((dra OR drf) UNI CLSK5>1)]: Jalal's Mane%CONTINUE%
 ItemDisplay[UNI drf]: Ursa's Nightmare%CONTINUE%
 // BARBARIAN HELMET'S NAME (UNI)
-ItemDisplay[UNI (!ID ba6) OR ((ba6 OR bab) STAT423>0)]: Cyclopean Roar%CONTINUE%
+ItemDisplay[(UNI !ID ba6) OR ((ba6 OR bab) UNI STAT423>0)]: Cyclopean Roar%CONTINUE%
 ItemDisplay[UNI !ID bac]: Furry%CONTINUE%
 ItemDisplay[UNI ID bac]: Wolfhowl%CONTINUE%
 ItemDisplay[UNI bad]: Demonhorn's Edge%CONTINUE%
 ItemDisplay[UNI bae]: Halaberd's Reign%CONTINUE%
-ItemDisplay[UNI (!ID baa) OR ((baa OR baf) TABSK32>0)]: Arreat's Face%CONTINUE%
+ItemDisplay[(UNI !ID baa) OR ((baa OR baf) UNI TABSK32>0)]: Arreat's Face%CONTINUE%
 ItemDisplay[UNI baf]: Raekor's Virtue%CONTINUE%
 // PALADIN SHIELD'S NAME (UNI)
 ItemDisplay[UNI pac]: Alma Negra%CONTINUE%
-ItemDisplay[UNI (!ID pa3) OR ((pa3 OR pa8 OR pad) STAT115>0)]: Sankekur's Fall%CONTINUE%
+ItemDisplay[(UNI !ID pa3) OR ((pa3 OR pa8 OR pad) UNI STAT115>0)]: Sankekur's Fall%CONTINUE%
 ItemDisplay[UNI !ID pa9]: %PURPLE%Herald of Zakarum%CONTINUE%
-ItemDisplay[UNI ID ((pa9 OR pae) TABSK24>0)]: Herald of Zakarum%CONTINUE%
+ItemDisplay[UNI ID ((pa9 OR pae) UNI TABSK24>0)]: Herald of Zakarum%CONTINUE%
 ItemDisplay[UNI pae]: Dragonscale%CONTINUE%
 // NECROMANCER HEAD'S NAME (UNI)
-ItemDisplay[UNI ((ne6 OR neb) MULTI151,115>0)]: Kalan's Legacy%CONTINUE%
+ItemDisplay[UNI ((ne6 OR neb) UNI MULTI151,115>0)]: Kalan's Legacy%CONTINUE%
 ItemDisplay[UNI ned]: Martyrdom%CONTINUE%
 ItemDisplay[UNI !ID nee]: %PURPLE%Boneflame%CONTINUE%
 ItemDisplay[UNI ID nee]: Boneflame%CONTINUE%
-ItemDisplay[UNI ((nea OR nef) CLSK2>0)]: Homunculus%CONTINUE%
+ItemDisplay[UNI ((nea OR nef) UNI CLSK2>0)]: Homunculus%CONTINUE%
 ItemDisplay[UNI nef]: Darkforce Spawn%CONTINUE%
 // AXE'S NAME (UNI)
-ItemDisplay[UNI (!ID hax) OR ((hax OR 9ha OR 7ha) STR=8)]: The Gnasher%CONTINUE%
-ItemDisplay[UNI (!ID 9ha) OR ((9ha OR 7ha) STAT54>159)]: Coldkill%CONTINUE%
+ItemDisplay[(UNI !ID hax) OR ((hax OR 9ha OR 7ha) UNI STR=8)]: The Gnasher%CONTINUE%
+ItemDisplay[(UNI !ID 9ha) OR ((9ha OR 7ha) UNI STAT54>159)]: Coldkill%CONTINUE%
 ItemDisplay[UNI 7ha]: Razor's Edge%CONTINUE%
-ItemDisplay[UNI (!ID axe) OR ((axe OR 9ax OR 7ax) STAT113>0)]: Deathspade%CONTINUE%
-ItemDisplay[UNI (!ID 9ax) OR ((9ax OR 7ax) STAT21>0)]: Butcher's Pupil%CONTINUE%
-ItemDisplay[UNI (!ID 2ax) OR ((2ax OR 92a OR 72a) STAT31>0)]: Bladebone%CONTINUE%
-ItemDisplay[UNI (!ID 92a) OR ((92a OR 72a) CLSK5>0)]: Islestrike%CONTINUE%
+ItemDisplay[(UNI !ID axe) OR ((axe OR 9ax OR 7ax) UNI STAT113>0)]: Deathspade%CONTINUE%
+ItemDisplay[(UNI !ID 9ax) OR ((9ax OR 7ax) UNI STAT21>0)]: Butcher's Pupil%CONTINUE%
+ItemDisplay[(UNI !ID 2ax) OR ((2ax OR 92a OR 72a) UNI STAT31>0)]: Bladebone%CONTINUE%
+ItemDisplay[(UNI !ID 92a) OR ((92a OR 72a) UNI CLSK5>0)]: Islestrike%CONTINUE%
 ItemDisplay[UNI 72a]: Rune Master%CONTINUE%
-ItemDisplay[UNI (!ID mpi) OR ((mpi OR 9mp OR 7mp) STAT113>0)]: Skull Splitter%CONTINUE%
-ItemDisplay[UNI (!ID 9mp) OR ((9mp OR 7mp) STAT150>0)]: Pompeii's Wrath%CONTINUE%
+ItemDisplay[(UNI !ID mpi) OR ((mpi OR 9mp OR 7mp) UNI STAT113>0)]: Skull Splitter%CONTINUE%
+ItemDisplay[(UNI !ID 9mp) OR ((9mp OR 7mp) UNI STAT150>0)]: Pompeii's Wrath%CONTINUE%
 ItemDisplay[UNI 7mp]: Cranebeak%CONTINUE%
-ItemDisplay[UNI (!ID wax) OR ((wax OR 9wa OR 7wa) PRES>49)]: Rakescar%CONTINUE%
-ItemDisplay[UNI (!ID 9wa) OR ((9wa OR 7wa) STAT78>0)]: Guardian Naga%CONTINUE%
+ItemDisplay[(UNI !ID wax) OR ((wax OR 9wa OR 7wa) UNI PRES>49)]: Rakescar%CONTINUE%
+ItemDisplay[(UNI !ID 9wa) OR ((9wa OR 7wa) UNI STAT78>0)]: Guardian Naga%CONTINUE%
 ItemDisplay[UNI !ID 7wa]: %PURPLE%Death Cleaver%CONTINUE%
 ItemDisplay[UNI ID 7wa]: Death Cleaver%CONTINUE%
-ItemDisplay[UNI (!ID lax) OR ((lax OR 9la OR 7la) STAT89>0)]: Axe of Fechmar%CONTINUE%
-ItemDisplay[UNI (!ID 9la) OR ((9la OR 7la) STAT31>0)]: Warlord's Trust%CONTINUE%
-ItemDisplay[UNI (!ID bax) OR ((bax OR 9ba OR 7ba) STAT135>59)]: Goreshovel%CONTINUE%
-ItemDisplay[UNI (!ID 9ba) OR ((9ba OR 7ba) FCR>29)]: Spellsteel%CONTINUE%
+ItemDisplay[(UNI !ID lax) OR ((lax OR 9la OR 7la) UNI STAT89>0)]: Axe of Fechmar%CONTINUE%
+ItemDisplay[(UNI !ID 9la) OR ((9la OR 7la) UNI STAT31>0)]: Warlord's Trust%CONTINUE%
+ItemDisplay[(UNI !ID bax) OR ((bax OR 9ba OR 7ba) UNI STAT135>59)]: Goreshovel%CONTINUE%
+ItemDisplay[(UNI !ID 9ba) OR ((9ba OR 7ba) UNI FCR>29)]: Spellsteel%CONTINUE%
 ItemDisplay[UNI 7ba]: Ethereal Edge%CONTINUE%
-ItemDisplay[UNI (!ID btx) OR ((btx OR 9bt OR 7bt) STAT138>5)]: The Chieftain%CONTINUE%
-ItemDisplay[UNI (!ID 9bt) OR ((9bt OR 7bt) STAT23>0)]: Stormrider%CONTINUE%
+ItemDisplay[(UNI !ID btx) OR ((btx OR 9bt OR 7bt) UNI STAT138>5)]: The Chieftain%CONTINUE%
+ItemDisplay[(UNI !ID 9bt) OR ((9bt OR 7bt) UNI STAT23>0)]: Stormrider%CONTINUE%
 ItemDisplay[UNI 7bt]: Hellslayer%CONTINUE%
-ItemDisplay[UNI (!ID gax) OR ((gax OR 9ga OR 7ga) STAT48>0)]: Brainhew%CONTINUE%
-ItemDisplay[UNI (!ID 9ga) OR ((9ga OR 7ga) MULTI97,106>0)]: Boneslayer Blade%CONTINUE%
+ItemDisplay[(UNI !ID gax) OR ((gax OR 9ga OR 7ga) UNI STAT48>0)]: Brainhew%CONTINUE%
+ItemDisplay[(UNI !ID 9ga) OR ((9ga OR 7ga) UNI MULTI97,106>0)]: Boneslayer Blade%CONTINUE%
 ItemDisplay[UNI 7ga]: Messerschmidt's Reaver%CONTINUE%
-ItemDisplay[UNI (!ID gix) OR ((gix OR 9gi OR 7gi) STAT478>0)]: Humongous%CONTINUE%
-ItemDisplay[UNI (!ID 9gi) OR ((9gi OR 7gi) STAT23>39)]: The Minotaur%CONTINUE%
+ItemDisplay[(UNI !ID gix) OR ((gix OR 9gi OR 7gi) UNI STAT478>0)]: Humongous%CONTINUE%
+ItemDisplay[(UNI !ID 9gi) OR ((9gi OR 7gi) UNI STAT23>39)]: The Minotaur%CONTINUE%
 ItemDisplay[UNI 7gi]: Executioner's Justice%CONTINUE%
 // CLUB'S NAME (UNI)
-ItemDisplay[UNI (!ID clb) OR ((clb OR 9cl OR 7cl) STAT48>0)]: Felloak%CONTINUE%
-ItemDisplay[UNI (!ID 9cl) OR ((9cl OR 7cl) CLSK5>0)]: Dark Clan Crusher%CONTINUE%
+ItemDisplay[(UNI !ID clb) OR ((clb OR 9cl OR 7cl) UNI STAT48>0)]: Felloak%CONTINUE%
+ItemDisplay[(UNI !ID 9cl) OR ((9cl OR 7cl) UNI CLSK5>0)]: Dark Clan Crusher%CONTINUE%
 ItemDisplay[UNI 7cl]: Nord's Tenderizer%CONTINUE%
-ItemDisplay[UNI (!ID spc) OR ((spc OR 9sp OR 7sp) SK224>0)]: Stoutnail%CONTINUE%
-ItemDisplay[UNI (!ID 9sp) OR ((9sp OR 7sp) CLSK5>0)]: Fleshrender%CONTINUE%
+ItemDisplay[(UNI !ID spc) OR ((spc OR 9sp OR 7sp) UNI SK224>0)]: Stoutnail%CONTINUE%
+ItemDisplay[(UNI !ID 9sp) OR ((9sp OR 7sp) UNI CLSK5>0)]: Fleshrender%CONTINUE%
 ItemDisplay[UNI 7sp]: Demon Limb%CONTINUE%
 // MACE'S NAME (UNI)
-ItemDisplay[UNI (!ID mac) OR ((mac OR 9ma OR 7ma) STAT89>0)]: Crushflange%CONTINUE%
-ItemDisplay[UNI (!ID 9ma) OR ((9ma OR 7ma) STAT362>0)]: Sureshrill Frost%CONTINUE%
-ItemDisplay[UNI (!ID mst) OR ((mst OR 9mt OR 7mt) SK96>0)]: Bloodrise%CONTINUE%
-ItemDisplay[UNI (!ID 9mt) OR ((9mt OR 7mt) STAT366>0)]: Moonfall%CONTINUE%
+ItemDisplay[(UNI !ID mac) OR ((mac OR 9ma OR 7ma) UNI STAT89>0)]: Crushflange%CONTINUE%
+ItemDisplay[(UNI !ID 9ma) OR ((9ma OR 7ma) UNI STAT362>0)]: Sureshrill Frost%CONTINUE%
+ItemDisplay[(UNI !ID mst) OR ((mst OR 9mt OR 7mt) UNI SK96>0)]: Bloodrise%CONTINUE%
+ItemDisplay[(UNI !ID 9mt) OR ((9mt OR 7mt) UNI STAT366>0)]: Moonfall%CONTINUE%
 ItemDisplay[UNI 7mt]: Baranar's Star%CONTINUE%
-ItemDisplay[UNI (!ID fla) OR ((fla OR 9fl OR 7fl) STAT31>0)]: The General's Tan Do Li Ga%CONTINUE%
-ItemDisplay[UNI (!ID 9fl) OR ((9fl OR 7fl) MANA>99)]: Baezil's Vortex%CONTINUE%
+ItemDisplay[(UNI !ID fla) OR ((fla OR 9fl OR 7fl) UNI STAT31>0)]: The General's Tan Do Li Ga%CONTINUE%
+ItemDisplay[(UNI !ID 9fl) OR ((9fl OR 7fl) UNI MANA>99)]: Baezil's Vortex%CONTINUE%
 ItemDisplay[UNI !ID 7fl]: Horizon's Tornado%WHITE%/%GOLD%Stormlash%CONTINUE%
 ItemDisplay[UNI ID 7fl EDAM>0 SK245>0 SK240>0]: Horizon's Tornado%CONTINUE%
 ItemDisplay[UNI ID 7fl EDAM>0 STAT145>0]: Stormlash%CONTINUE%
 // HAMMER'S NAME (UNI)
-ItemDisplay[UNI (!ID whm) OR ((whm OR 9wh OR 7wh) STAT50=1)]: Ironstone%CONTINUE%
-ItemDisplay[UNI (!ID 9wh) OR ((9wh OR 7wh) TABSK42>0)]: Earthshaker%CONTINUE%
+ItemDisplay[(UNI !ID whm) OR ((whm OR 9wh OR 7wh) UNI STAT50=1)]: Ironstone%CONTINUE%
+ItemDisplay[(UNI !ID 9wh) OR ((9wh OR 7wh) UNI TABSK42>0)]: Earthshaker%CONTINUE%
 ItemDisplay[UNI !ID 7wh]: %PURPLE%Stone Crusher%WHITE%/%PURPLE%Schaefer%CONTINUE%
 ItemDisplay[UNI ID 7wh STAT425>0 EDAM>0 STR>0]: Stone Crusher%CONTINUE%
 ItemDisplay[UNI ID 7wh EDAM>0 LRES>0]: Schaefer's Hammer%CONTINUE%
-ItemDisplay[UNI (!ID mau) OR ((mau OR 9m9 OR 7m7) !TABSK33>0 !IAS>39)]: Bonesnap%CONTINUE%
-ItemDisplay[UNI (!ID 9m9) OR ((9m9 OR 7m7) TABSK33>0)]: Bloodtree Stump%CONTINUE%
+ItemDisplay[(UNI !ID mau) OR ((mau OR 9m9 OR 7m7) UNI !TABSK33>0 !IAS>39)]: Bonesnap%CONTINUE%
+ItemDisplay[(UNI !ID 9m9) OR ((9m9 OR 7m7) UNI TABSK33>0)]: Bloodtree Stump%CONTINUE%
 ItemDisplay[UNI 7m7]: Windhammer%CONTINUE%
-ItemDisplay[UNI (!ID gma) OR ((gma OR 9gm OR 7gm) STAT28>0)]: Steeldriver%CONTINUE%
-ItemDisplay[UNI (!ID 9gm) OR ((9gm OR 7gm) MULTI201,28417=5)]: The Gavel of Pain%CONTINUE%
+ItemDisplay[(UNI !ID gma) OR ((gma OR 9gm OR 7gm) UNI STAT28>0)]: Steeldriver%CONTINUE%
+ItemDisplay[(UNI !ID 9gm) OR ((9gm OR 7gm) UNI MULTI201,28417=5)]: The Gavel of Pain%CONTINUE%
 ItemDisplay[UNI !ID 7gm]: %PURPLE%Earth Shifter%WHITE%/%PURPLE%Cranium Bash%CONTINUE%
 ItemDisplay[UNI ID 7gm STAT363>0 EDAM>0]: Earth Shifter%CONTINUE%
 ItemDisplay[UNI ID 7gm EDAM>0 RES>0]: The Cranium Basher%CONTINUE%
 // SWORD'S NAME (UNI)
-ItemDisplay[UNI (!ID ssd) OR ((ssd OR 9ss OR 7ss) STAT89>0)]: Rixot's Keen%CONTINUE%
-ItemDisplay[UNI (!ID 9ss) OR ((9ss OR 7ss) STAT154>0)]: Bloodletter%CONTINUE%
-ItemDisplay[UNI (!ID scm) OR ((scm OR 9sm OR 7sm) STAT89>0)]: Blood Crescent%CONTINUE%
-ItemDisplay[UNI (!ID 9sm) OR ((9sm OR 7sm) STAT113>0)]: Coldsteel Eye%CONTINUE%
+ItemDisplay[(UNI !ID ssd) OR ((ssd OR 9ss OR 7ss) UNI STAT89>0)]: Rixot's Keen%CONTINUE%
+ItemDisplay[(UNI !ID 9ss) OR ((9ss OR 7ss) UNI STAT154>0)]: Bloodletter%CONTINUE%
+ItemDisplay[(UNI !ID scm) OR ((scm OR 9sm OR 7sm) UNI STAT89>0)]: Blood Crescent%CONTINUE%
+ItemDisplay[(UNI !ID 9sm) OR ((9sm OR 7sm) UNI STAT113>0)]: Coldsteel Eye%CONTINUE%
 ItemDisplay[UNI 7sm]: Djinn Slayer%CONTINUE%
-ItemDisplay[UNI (!ID sbr) OR ((sbr OR 9sb OR 7sb) STR>9 DEX>9)]: Skewer of Krintiz%CONTINUE%
-ItemDisplay[UNI (!ID 9sb) OR ((9sb OR 7sb) STAT363>0)]: Hexfire%CONTINUE%
+ItemDisplay[(UNI !ID sbr) OR ((sbr OR 9sb OR 7sb) UNI STR>9 DEX>9)]: Skewer of Krintiz%CONTINUE%
+ItemDisplay[(UNI !ID 9sb) OR ((9sb OR 7sb) UNI STAT363>0)]: Hexfire%CONTINUE%
 ItemDisplay[UNI 7sb]: Bloodmoon%CONTINUE%
-ItemDisplay[UNI (!ID flc) OR ((flc OR 9fc OR 7fc) STAT89>0)]: Gleamscythe%CONTINUE%
-ItemDisplay[UNI (!ID 9fc) OR ((9fc OR 7fc) STAT240>0)]: Blade of Ali Baba%CONTINUE%
-ItemDisplay[UNI (!ID 9cr) OR ((9cr OR 7cr) REPAIR>0)]: Ginther's Rift%CONTINUE%
+ItemDisplay[(UNI !ID flc) OR ((flc OR 9fc OR 7fc) UNI STAT89>0)]: Gleamscythe%CONTINUE%
+ItemDisplay[(UNI !ID 9fc) OR ((9fc OR 7fc) UNI STAT240>0)]: Blade of Ali Baba%CONTINUE%
+ItemDisplay[(UNI !ID 9cr) OR ((9cr OR 7cr) UNI REPAIR>0)]: Ginther's Rift%CONTINUE%
 ItemDisplay[UNI !ID 7cr]: Lightsabre%WHITE%/%GOLD%Azurewrath%CONTINUE%
 ItemDisplay[UNI ID 7cr EDAM>0 STAT62>0]: Lightsabre%CONTINUE%
 ItemDisplay[UNI ID 7cr MULTI151,119>0 EDAM>0]: Azurewrath%CONTINUE%
-ItemDisplay[UNI (!ID bsd) OR ((bsd OR 9bs OR 7bs) STAT49<36)]: Griswold's Edge%CONTINUE%
-ItemDisplay[UNI (!ID 9bs) OR ((9bs OR 7bs) STAT117>0)]: Headstriker%CONTINUE%
+ItemDisplay[(UNI !ID bsd) OR ((bsd OR 9bs OR 7bs) UNI STAT49<36)]: Griswold's Edge%CONTINUE%
+ItemDisplay[(UNI !ID 9bs) OR ((9bs OR 7bs) UNI STAT117>0)]: Headstriker%CONTINUE%
 ItemDisplay[UNI !ID 7bs]: %PURPLE%Hadriel's Hand%CONTINUE%
 ItemDisplay[UNI ID 7bs]: Hadriel's Hand%CONTINUE%
-ItemDisplay[UNI (!ID lsd) OR ((lsd OR 9ls OR 7ls) STAT363>0)]: Hellplague%CONTINUE%
-ItemDisplay[UNI (!ID 9ls) OR ((9ls OR 7ls) SK238>0)]: Plague Bearer%CONTINUE%
+ItemDisplay[(UNI !ID lsd) OR ((lsd OR 9ls OR 7ls) UNI STAT363>0)]: Hellplague%CONTINUE%
+ItemDisplay[(UNI !ID 9ls) OR ((9ls OR 7ls) UNI SK238>0)]: Plague Bearer%CONTINUE%
 ItemDisplay[UNI 7ls]: Frostwind%CONTINUE%
-ItemDisplay[UNI (!ID wsd) OR ((wsd OR 9wd OR 7wd) STAT110>0)]: Culwen's Point%CONTINUE%
-ItemDisplay[UNI (!ID 9wd) OR ((9wd OR 7wd) STAT31>0)]: The Atlantean%CONTINUE%
-ItemDisplay[UNI (!ID 2hs) OR ((2hs OR 92h OR 72h) STAT89<0)]: Shadowfang%CONTINUE%
-ItemDisplay[UNI (!ID 92h) OR ((92h OR 72h) STAT36>0)]: Crainte Vomir%CONTINUE%
-ItemDisplay[UNI (!ID clm) OR ((clm OR 9cm OR 72h) STAT60>3 STAT62>3 RES>9)]: Soulflay%CONTINUE%
-ItemDisplay[UNI (!ID 9cm) OR ((9cm OR 72h) STAT134>0)]: Bing Sz Wang%CONTINUE%
+ItemDisplay[(UNI !ID wsd) OR ((wsd OR 9wd OR 7wd) UNI STAT110>0)]: Culwen's Point%CONTINUE%
+ItemDisplay[(UNI !ID 9wd) OR ((9wd OR 7wd) UNI STAT31>0)]: The Atlantean%CONTINUE%
+ItemDisplay[(UNI !ID 2hs) OR ((2hs OR 92h OR 72h) UNI STAT89<0)]: Shadowfang%CONTINUE%
+ItemDisplay[(UNI !ID 92h) OR ((92h OR 72h) UNI STAT36>0)]: Crainte Vomir%CONTINUE%
+ItemDisplay[(UNI !ID clm) OR ((clm OR 9cm OR 72h) UNI STAT60>3 STAT62>3 RES>9)]: Soulflay%CONTINUE%
+ItemDisplay[(UNI !ID 9cm) OR ((9cm OR 72h) UNI STAT134>0)]: Bing Sz Wang%CONTINUE%
 ItemDisplay[UNI 7cm]: Leoric's Mithril Bane%CONTINUE%
-ItemDisplay[UNI (!ID gis) OR ((gis OR 9gs OR 7gs) SK102>0)]: Kinemil's Awl%CONTINUE%
-ItemDisplay[UNI (!ID 9gs) OR ((9gs OR 7gs) STAT244>0)]: The Vile Husk%CONTINUE%
+ItemDisplay[(UNI !ID gis) OR ((gis OR 9gs OR 7gs) UNI SK102>0)]: Kinemil's Awl%CONTINUE%
+ItemDisplay[(UNI !ID 9gs) OR ((9gs OR 7gs) UNI STAT244>0)]: The Vile Husk%CONTINUE%
 ItemDisplay[UNI 7gs]: Flamebellow%CONTINUE%
-ItemDisplay[UNI (!ID bsw) OR ((bsw OR 9b9 OR 7b7) STAT117>0)]: Blacktongue%CONTINUE%
-ItemDisplay[UNI (!ID 9b9) OR ((9b9 OR 7b7) TABSK25>0)]: Cloudcrack%CONTINUE%
+ItemDisplay[(UNI !ID bsw) OR ((bsw OR 9b9 OR 7b7) UNI STAT117>0)]: Blacktongue%CONTINUE%
+ItemDisplay[(UNI !ID 9b9) OR ((9b9 OR 7b7) UNI TABSK25>0)]: Cloudcrack%CONTINUE%
 ItemDisplay[UNI 7b7]: Doombringer%CONTINUE%
-ItemDisplay[UNI (!ID flb) OR ((flb OR 9fb OR 7fb) MAXDMG>0 STAT501>0)]: Ripsaw%CONTINUE%
-ItemDisplay[UNI (!ID 9fb) OR ((9fb OR 7fb) MULTI151,100=6)]: Todesfaelle Flamme%CONTINUE%
+ItemDisplay[(UNI !ID flb) OR ((flb OR 9fb OR 7fb) UNI MAXDMG>0 STAT501>0)]: Ripsaw%CONTINUE%
+ItemDisplay[(UNI !ID 9fb) OR ((9fb OR 7fb) UNI MULTI151,100=6)]: Todesfaelle Flamme%CONTINUE%
 ItemDisplay[UNI 7fb]: Odium%CONTINUE%
-ItemDisplay[UNI (!ID gsd) OR ((gsd OR 9gd OR 7gd) STAT113>0)]: The Patriarch%CONTINUE%
-ItemDisplay[UNI (!ID 9gd) OR ((9gd OR 7gd) STAT214>0)]: Swordguard%CONTINUE%
+ItemDisplay[(UNI !ID gsd) OR ((gsd OR 9gd OR 7gd) UNI STAT113>0)]: The Patriarch%CONTINUE%
+ItemDisplay[(UNI !ID 9gd) OR ((9gd OR 7gd) UNI STAT214>0)]: Swordguard%CONTINUE%
 ItemDisplay[UNI !ID 7gd]: %PURPLE%The Grandfather%CONTINUE%
 ItemDisplay[UNI ID 7gd]: The Grandfather%CONTINUE%
 // DAGGER'S NAME (UNI)
-ItemDisplay[UNI (!ID dgr) OR ((dgr OR 9dg OR 7dg) STAT21=1)]: Gull%CONTINUE%
-ItemDisplay[UNI (!ID 9dg) OR ((9dg OR 7dg) STAT21=15)]: Spineripper%CONTINUE%
+ItemDisplay[(UNI !ID dgr) OR ((dgr OR 9dg OR 7dg) UNI STAT21=1)]: Gull%CONTINUE%
+ItemDisplay[(UNI !ID 9dg) OR ((9dg OR 7dg) UNI STAT21=15)]: Spineripper%CONTINUE%
 ItemDisplay[UNI 7dg]: Wizardspike%CONTINUE%
-ItemDisplay[UNI (!ID dir) OR ((dir OR 9di OR 7di) DEX>9)]: The Diggler%CONTINUE%
-ItemDisplay[UNI (!ID 9di) OR ((9di OR 7di) SK131>0)]: Heart Carver%CONTINUE%
+ItemDisplay[(UNI !ID dir) OR ((dir OR 9di OR 7di) UNI DEX>9)]: The Diggler%CONTINUE%
+ItemDisplay[(UNI !ID 9di) OR ((9di OR 7di) UNI SK131>0)]: Heart Carver%CONTINUE%
 ItemDisplay[UNI 7di]: Shatterblade%CONTINUE%
-ItemDisplay[UNI (!ID kri) OR ((kri OR 9kr OR 7kr) PRES>49)]: The Jade Tan Do%CONTINUE%
-ItemDisplay[UNI (!ID 9kr) OR ((9kr OR 7kr) STAT31>49)]: Blackbog's Sharp%CONTINUE%
+ItemDisplay[(UNI !ID kri) OR ((kri OR 9kr OR 7kr) UNI PRES>49)]: The Jade Tan Do%CONTINUE%
+ItemDisplay[(UNI !ID 9kr) OR ((9kr OR 7kr) UNI STAT31>49)]: Blackbog's Sharp%CONTINUE%
 ItemDisplay[UNI 7kr]: Fleshlight%CONTINUE%
-ItemDisplay[UNI (!ID bld) OR ((bld OR 9bl OR 7bl) FCR>49)]: Spectral Shard%CONTINUE%
-ItemDisplay[UNI (!ID 9bl) OR ((9bl OR 7bl) STAT50>0)]: Stormspike%CONTINUE%
+ItemDisplay[(UNI !ID bld) OR ((bld OR 9bl OR 7bl) UNI FCR>49)]: Spectral Shard%CONTINUE%
+ItemDisplay[(UNI !ID 9bl) OR ((9bl OR 7bl) UNI STAT50>0)]: Stormspike%CONTINUE%
 ItemDisplay[UNI 7bl]: Ghostflame%CONTINUE%
 // THROWING WEAPON'S NAME (UNI)
-ItemDisplay[UNI (!ID 9tk) OR ((9tk OR 7tk) AR>199)]: Deathbit%CONTINUE%
-ItemDisplay[UNI (!ID 9ta) OR ((9ta OR 7ta) STAT501>499)]: The Scalper%CONTINUE%
+ItemDisplay[(UNI !ID 9tk) OR ((9tk OR 7tk) UNI AR>199)]: Deathbit%CONTINUE%
+ItemDisplay[(UNI !ID 9ta) OR ((9ta OR 7ta) UNI STAT501>499)]: The Scalper%CONTINUE%
 ItemDisplay[UNI 7ta]: Gimmershred%CONTINUE%
 ItemDisplay[UNI 7bk]: Warshrike%CONTINUE%
 ItemDisplay[UNI 7b8]: Lacerator%CONTINUE%
@@ -1047,136 +1047,136 @@ ItemDisplay[UNI 7s7]: Demon's Arch%CONTINUE%
 ItemDisplay[UNI 7gl]: Wraith Flight%CONTINUE%
 ItemDisplay[UNI 7ts]: Gargoyle's Bite%CONTINUE%
 // SPEAR'S NAME (UNI)
-ItemDisplay[UNI (!ID spr) OR ((spr OR 9sr OR 7sr) SK19>0)]: The Dragon Chang%CONTINUE%
-ItemDisplay[UNI (!ID 9sr) OR ((9sr OR 7sr) MULTI97,30>0)]: The Impaler%CONTINUE%
+ItemDisplay[(UNI !ID spr) OR ((spr OR 9sr OR 7sr) UNI SK19>0)]: The Dragon Chang%CONTINUE%
+ItemDisplay[(UNI !ID 9sr) OR ((9sr OR 7sr) UNI MULTI97,30>0)]: The Impaler%CONTINUE%
 ItemDisplay[UNI 7sr]: Arioc's Needle%CONTINUE%
-ItemDisplay[UNI (!ID tri) OR ((tri OR 9tr OR 7tr) STAT116>0)]: Razortine%CONTINUE%
-ItemDisplay[UNI (!ID 9tr) OR ((9tr OR 7tr) STAT216>0)]: Kelpie Snare%CONTINUE%
-ItemDisplay[UNI (!ID brn) OR ((brn OR 9br OR 7br) STR>9 LIFE>25)]: Bloodthief%CONTINUE%
-ItemDisplay[UNI (!ID 9br) OR ((9br OR 7br) STAT154>0)]: Soulfeast Tine%CONTINUE%
+ItemDisplay[(UNI !ID tri) OR ((tri OR 9tr OR 7tr) UNI STAT116>0)]: Razortine%CONTINUE%
+ItemDisplay[(UNI !ID 9tr) OR ((9tr OR 7tr) UNI STAT216>0)]: Kelpie Snare%CONTINUE%
+ItemDisplay[(UNI !ID brn) OR ((brn OR 9br OR 7br) UNI STR>9 LIFE>25)]: Bloodthief%CONTINUE%
+ItemDisplay[(UNI !ID 9br) OR ((9br OR 7br) UNI STAT154>0)]: Soulfeast Tine%CONTINUE%
 ItemDisplay[UNI 7br]: Viperfork%CONTINUE%
-ItemDisplay[UNI (!ID spt) OR ((spt OR 9st OR 7st) SK24>0)]: Lance of Yaggai%CONTINUE%
-ItemDisplay[UNI (!ID 9st) OR ((9st OR 7st) REPAIR>0)]: Hone Sundan%CONTINUE%
+ItemDisplay[(UNI !ID spt) OR ((spt OR 9st OR 7st) UNI SK24>0)]: Lance of Yaggai%CONTINUE%
+ItemDisplay[(UNI !ID 9st) OR ((9st OR 7st) UNI REPAIR>0)]: Hone Sundan%CONTINUE%
 ItemDisplay[UNI 7st]: Uldyssian's Awakening%CONTINUE%
-ItemDisplay[UNI (!ID pik) OR ((pik OR 9p9 OR 7p7) STAT48>0)]: The Tannr Gorerod%CONTINUE%
-ItemDisplay[UNI (!ID 9p9) OR ((9p9 OR 7p7) STAT243>0)]: Spire of Honor%CONTINUE%
+ItemDisplay[(UNI !ID pik) OR ((pik OR 9p9 OR 7p7) UNI STAT48>0)]: The Tannr Gorerod%CONTINUE%
+ItemDisplay[(UNI !ID 9p9) OR ((9p9 OR 7p7) UNI STAT243>0)]: Spire of Honor%CONTINUE%
 ItemDisplay[UNI !ID 7p7]: %PURPLE%Steel Pillar%CONTINUE%
 ItemDisplay[UNI ID 7p7]: Steel Pillar%CONTINUE%
 // POLEARM'S NAME (UNI)
-ItemDisplay[UNI (!ID bar) OR ((bar OR 9b7 OR 7o7) STAT31<0)]: Dimoak's Hew%CONTINUE%
-ItemDisplay[UNI (!ID 9b7) OR ((9b7 OR 7o7) TABSK33>0)]: The Meat Scraper%CONTINUE%
+ItemDisplay[(UNI !ID bar) OR ((bar OR 9b7 OR 7o7) UNI STAT31<0)]: Dimoak's Hew%CONTINUE%
+ItemDisplay[(UNI !ID 9b7) OR ((9b7 OR 7o7) UNI TABSK33>0)]: The Meat Scraper%CONTINUE%
 ItemDisplay[UNI 7o7]: Bonehew%CONTINUE%
-ItemDisplay[UNI (!ID vou) OR ((vou OR 9vo OR 7vo) STAT112>0)]: Steelgoad%CONTINUE%
-ItemDisplay[UNI (!ID 9vo) OR ((9vo OR 7vo) STAT218>0)]: Blackleach Blade%CONTINUE%
-ItemDisplay[UNI (!ID scy) OR ((scy OR 9s8 OR 7s8) FCR>39)]: Soul Harvest%CONTINUE%
-ItemDisplay[UNI (!ID 9s8) OR ((9s8 OR 7s8) STAT218>0)]: Athena's Wrath%CONTINUE%
+ItemDisplay[(UNI !ID vou) OR ((vou OR 9vo OR 7vo) UNI STAT112>0)]: Steelgoad%CONTINUE%
+ItemDisplay[(UNI !ID 9vo) OR ((9vo OR 7vo) UNI STAT218>0)]: Blackleach Blade%CONTINUE%
+ItemDisplay[(UNI !ID scy) OR ((scy OR 9s8 OR 7s8) UNI FCR>39)]: Soul Harvest%CONTINUE%
+ItemDisplay[(UNI !ID 9s8) OR ((9s8 OR 7s8) UNI STAT218>0)]: Athena's Wrath%CONTINUE%
 ItemDisplay[UNI 7s8]: The Reaper's Toll%CONTINUE%
-ItemDisplay[UNI (!ID pax) OR ((pax OR 9pa OR 7pa) DEX>9)]: The Battlebranch%CONTINUE%
-ItemDisplay[UNI (!ID 9pa) OR ((9pa OR 7pa) CLSK4>0)]: Pierre Tombale Couant%CONTINUE%
+ItemDisplay[(UNI !ID pax) OR ((pax OR 9pa OR 7pa) UNI DEX>9)]: The Battlebranch%CONTINUE%
+ItemDisplay[(UNI !ID 9pa) OR ((9pa OR 7pa) UNI CLSK4>0)]: Pierre Tombale Couant%CONTINUE%
 ItemDisplay[UNI 7pa]: Tomb Reaver%CONTINUE%
-ItemDisplay[UNI (!ID hal) OR ((hal OR 9h9 OR 7h7) STAT113>0)]: Woestave%CONTINUE%
-ItemDisplay[UNI (!ID 9h9) OR ((9h9 OR 7h7) STAT117>0)]: Husoldal Evo%CONTINUE%
-ItemDisplay[UNI (!ID wsc) OR ((wsc OR 9wc OR 7wc) STAT332>9)]: The Grim Reaper%CONTINUE%
-ItemDisplay[UNI (!ID 9wc) OR ((9wc OR 7wc) CLSK2>0)]: Grim's Burning Dead%CONTINUE%
+ItemDisplay[(UNI !ID hal) OR ((hal OR 9h9 OR 7h7) UNI STAT113>0)]: Woestave%CONTINUE%
+ItemDisplay[(UNI !ID 9h9) OR ((9h9 OR 7h7) UNI STAT117>0)]: Husoldal Evo%CONTINUE%
+ItemDisplay[(UNI !ID wsc) OR ((wsc OR 9wc OR 7wc) UNI STAT332>9)]: The Grim Reaper%CONTINUE%
+ItemDisplay[(UNI !ID 9wc) OR ((9wc OR 7wc) UNI CLSK2>0)]: Grim's Burning Dead%CONTINUE%
 ItemDisplay[UNI 7wc]: Stormspire%CONTINUE%
 // BOW'S NAME (UNI)
-ItemDisplay[UNI (!ID sbw) OR ((sbw OR 8sb OR 6sb) STAT89>0)]: Pluckeye%CONTINUE%
-ItemDisplay[UNI (!ID 8sb) OR ((8sb OR 6sb) CLSK0>0)]: Skystrike%CONTINUE%
-ItemDisplay[UNI (!ID hbw) OR ((hbw OR 8hb OR 6hb) STAT23>0 STAT24>0)]: Witherstring%CONTINUE%
-ItemDisplay[UNI (!ID 8hb) OR ((8hb OR 6hb) STAT150>0)]: Riphook%CONTINUE%
-ItemDisplay[UNI (!ID lbw) OR ((lbw OR 8lb OR 6lb) STR>0 DEX>0)]: Raven Claw%CONTINUE%
-ItemDisplay[UNI (!ID 8lb) OR ((8lb OR 6lb) STAT48>0)]: Kuko Shakaku%CONTINUE%
-ItemDisplay[UNI (!ID cbw) OR ((cbw OR 8cb OR 6cb) SK22>0)]: Rogue's Bow%CONTINUE%
-ItemDisplay[UNI (!ID 8cb) OR ((8cb OR 6cb) MULTI97,26>0)]: Endlesshail%CONTINUE%
-ItemDisplay[UNI (!ID sbb) OR ((sbb OR 8s8 OR 6s7) STAT50>0)]: Stormstrike%CONTINUE%
-ItemDisplay[UNI (!ID 8s8) OR ((8s8 OR 6s7) MULTI198,28319=14)]: Witchwild String%CONTINUE%
-ItemDisplay[UNI (!ID lbb) OR ((lbb OR 8l8 OR 6l7) STAT335>0)]: Wizendraw%CONTINUE%
-ItemDisplay[UNI (!ID 8l8) OR ((8l8 OR 6l7) STAT81>0)]: Cliffkiller%CONTINUE%
+ItemDisplay[(UNI !ID sbw) OR ((sbw OR 8sb OR 6sb) UNI STAT89>0)]: Pluckeye%CONTINUE%
+ItemDisplay[(UNI !ID 8sb) OR ((8sb OR 6sb) UNI CLSK0>0)]: Skystrike%CONTINUE%
+ItemDisplay[(UNI !ID hbw) OR ((hbw OR 8hb OR 6hb) UNI STAT23>0 STAT24>0)]: Witherstring%CONTINUE%
+ItemDisplay[(UNI !ID 8hb) OR ((8hb OR 6hb) UNI STAT150>0)]: Riphook%CONTINUE%
+ItemDisplay[(UNI !ID lbw) OR ((lbw OR 8lb OR 6lb) UNI STR>0 DEX>0)]: Raven Claw%CONTINUE%
+ItemDisplay[(UNI !ID 8lb) OR ((8lb OR 6lb) UNI STAT48>0)]: Kuko Shakaku%CONTINUE%
+ItemDisplay[(UNI !ID cbw) OR ((cbw OR 8cb OR 6cb) UNI SK22>0)]: Rogue's Bow%CONTINUE%
+ItemDisplay[(UNI !ID 8cb) OR ((8cb OR 6cb) UNI MULTI97,26>0)]: Endlesshail%CONTINUE%
+ItemDisplay[(UNI !ID sbb) OR ((sbb OR 8s8 OR 6s7) UNI STAT50>0)]: Stormstrike%CONTINUE%
+ItemDisplay[(UNI !ID 8s8) OR ((8s8 OR 6s7) UNI MULTI198,28319=14)]: Witchwild String%CONTINUE%
+ItemDisplay[(UNI !ID lbb) OR ((lbb OR 8l8 OR 6l7) UNI STAT335>0)]: Wizendraw%CONTINUE%
+ItemDisplay[(UNI !ID 8l8) OR ((8l8 OR 6l7) UNI STAT81>0)]: Cliffkiller%CONTINUE%
 ItemDisplay[UNI 6l7]: Eaglehorn%CONTINUE%
-ItemDisplay[UNI (!ID swb) OR ((swb OR 8sw OR 6sw) STAT363>0)]: Hellclap%CONTINUE%
-ItemDisplay[UNI (!ID 8sw) OR ((8sw OR 6sw) CLSK0>0)]: Magewrath%CONTINUE%
+ItemDisplay[(UNI !ID swb) OR ((swb OR 8sw OR 6sw) UNI STAT363>0)]: Hellclap%CONTINUE%
+ItemDisplay[(UNI !ID 8sw) OR ((8sw OR 6sw) UNI CLSK0>0)]: Magewrath%CONTINUE%
 ItemDisplay[UNI 6sw]: Widowmaker%CONTINUE%
-ItemDisplay[UNI (!ID lwb) OR ((lwb OR 8lw OR 6lw) CLSK0>0)]: Blastbark%CONTINUE%
-ItemDisplay[UNI (!ID 8lw) OR ((8lw OR 6lw) STAT74>0)]: Goldstrike Arch%CONTINUE%
+ItemDisplay[(UNI !ID lwb) OR ((lwb OR 8lw OR 6lw) UNI CLSK0>0)]: Blastbark%CONTINUE%
+ItemDisplay[(UNI !ID 8lw) OR ((8lw OR 6lw) UNI STAT74>0)]: Goldstrike Arch%CONTINUE%
 ItemDisplay[UNI 6lw]: Windforce%CONTINUE%
 // CORSSBOW'S NAME (UNI)
-ItemDisplay[UNI (!ID lxb) OR ((lxb OR 8lx OR 6lx) PRES>29)]: Leadcrow%CONTINUE%
-ItemDisplay[UNI (!ID 8lx) OR ((8lx OR 6lx) STAT81>0)]: Langer Briser%CONTINUE%
-ItemDisplay[UNI (!ID mxb) OR ((mxb OR 8mx OR 6mx) DEX>19)]: Ichorsting%CONTINUE%
-ItemDisplay[UNI (!ID 8mx) OR ((8mx OR 6mx) MULTI198,28643=28)]: Pus Spitter%CONTINUE%
-ItemDisplay[UNI (!ID hxb) OR ((hxb OR 8hx OR 6hx) STAT40>14)]: Hellcast%CONTINUE%
-ItemDisplay[UNI (!ID 8hx) OR ((8hx OR 6hx) STAT218>0)]: Buriza-Do Kyanon%CONTINUE%
+ItemDisplay[(UNI !ID lxb) OR ((lxb OR 8lx OR 6lx) UNI PRES>29)]: Leadcrow%CONTINUE%
+ItemDisplay[(UNI !ID 8lx) OR ((8lx OR 6lx) UNI STAT81>0)]: Langer Briser%CONTINUE%
+ItemDisplay[(UNI !ID mxb) OR ((mxb OR 8mx OR 6mx) UNI DEX>19)]: Ichorsting%CONTINUE%
+ItemDisplay[(UNI !ID 8mx) OR ((8mx OR 6mx) UNI MULTI198,28643=28)]: Pus Spitter%CONTINUE%
+ItemDisplay[(UNI !ID hxb) OR ((hxb OR 8hx OR 6hx) UNI STAT40>14)]: Hellcast%CONTINUE%
+ItemDisplay[(UNI !ID 8hx) OR ((8hx OR 6hx) UNI STAT218>0)]: Buriza-Do Kyanon%CONTINUE%
 ItemDisplay[UNI 6hx]: Hellrack%CONTINUE%
-ItemDisplay[UNI (!ID rxb) OR ((rxb OR 8rx OR 6rx) CLSK0>0)]: Doomslinger%CONTINUE%
-ItemDisplay[UNI (!ID 8rx) OR ((8rx OR 6rx) STAT31>332)]: Demon Machine%CONTINUE%
+ItemDisplay[(UNI !ID rxb) OR ((rxb OR 8rx OR 6rx) UNI CLSK0>0)]: Doomslinger%CONTINUE%
+ItemDisplay[(UNI !ID 8rx) OR ((8rx OR 6rx) UNI STAT31>332)]: Demon Machine%CONTINUE%
 ItemDisplay[UNI 6rx]: Gut Siphon%CONTINUE%
 // STAFF'S NAME (UNI)
-ItemDisplay[UNI (!ID sst) OR ((sst OR 8ss OR 6ss) SK36>0)]: Bane Ash%CONTINUE%
-ItemDisplay[UNI (!ID 8ss) OR ((8ss OR 6ss) RES>49)]: Razorswitch%CONTINUE%
-ItemDisplay[UNI (!ID lst) OR ((lst OR 8ls OR 6ls) MULTI200,15043=5)]: Serpent Lord%CONTINUE%
-ItemDisplay[UNI (!ID 8ls) OR ((8ls OR 6ls) STAT136>49)]: Ribcracker%CONTINUE%
-ItemDisplay[UNI (!ID cst) OR ((cst OR 8cs OR 6cs) MULTI200,2703=30)]: Spire of Lazarus%CONTINUE%
-ItemDisplay[UNI (!ID 8cs) OR ((8cs OR 6cs) MULTI200,1094=10)]: Chromatic Ire%CONTINUE%
+ItemDisplay[(UNI !ID sst) OR ((sst OR 8ss OR 6ss) UNI SK36>0)]: Bane Ash%CONTINUE%
+ItemDisplay[(UNI !ID 8ss) OR ((8ss OR 6ss) UNI RES>49)]: Razorswitch%CONTINUE%
+ItemDisplay[(UNI !ID lst) OR ((lst OR 8ls OR 6ls) UNI MULTI200,15043=5)]: Serpent Lord%CONTINUE%
+ItemDisplay[(UNI !ID 8ls) OR ((8ls OR 6ls) UNI STAT136>49)]: Ribcracker%CONTINUE%
+ItemDisplay[(UNI !ID cst) OR ((cst OR 8cs OR 6cs) UNI MULTI200,2703=30)]: Spire of Lazarus%CONTINUE%
+ItemDisplay[(UNI !ID 8cs) OR ((8cs OR 6cs) UNI MULTI200,1094=10)]: Chromatic Ire%CONTINUE%
 ItemDisplay[UNI 6cs]: Ondal's Wisdom%CONTINUE%
-ItemDisplay[UNI (!ID bst) OR ((bst OR 8bs OR 6bs) SK47>0)]: The Salamander%CONTINUE%
-ItemDisplay[UNI (!ID 8bs) OR ((8bs OR 6bs) SK54>0)]: Warpspear%CONTINUE%
+ItemDisplay[(UNI !ID bst) OR ((bst OR 8bs OR 6bs) UNI SK47>0)]: The Salamander%CONTINUE%
+ItemDisplay[(UNI !ID 8bs) OR ((8bs OR 6bs) UNI SK54>0)]: Warpspear%CONTINUE%
 ItemDisplay[UNI !ID 6bs]: %PURPLE%Brimstone Rain%CONTINUE%
 ItemDisplay[UNI ID 6bs]: Brimstone Rain%CONTINUE%
-ItemDisplay[UNI (!ID wst) OR ((wst OR 8ws OR 6ws) STAT31>0)]: The Iron Jang Bong%CONTINUE%
+ItemDisplay[(UNI !ID wst) OR ((wst OR 8ws OR 6ws) UNI STAT31>0)]: The Iron Jang Bong%CONTINUE%
 ItemDisplay[UNI !ID 8ws]: %PURPLE%Dust Collector%CONTINUE%
 ItemDisplay[UNI ID (8ws OR 6ws) STAT240>0]: Skull Collector%CONTINUE%
 ItemDisplay[UNI !ID 6ws]: %PURPLE%Mang Song's Lesson%CONTINUE%
 ItemDisplay[UNI ID 6ws]: Mang Song's Lesson%CONTINUE%
 // WAND'S NAME (UNI)
-ItemDisplay[UNI (!ID wnd) OR ((wnd OR 9wn OR 7wn) CLSK2>0)]: Torch of Iro%CONTINUE%
-ItemDisplay[UNI (!ID 9wn) OR ((9wn OR 7wn) SK367>0)]: Suicide Branch%CONTINUE%
-ItemDisplay[UNI (!ID ywn) OR ((ywn OR 9yw OR 7yw) SK77>0)]: Maelstrom%CONTINUE%
-ItemDisplay[UNI (!ID 9yw) OR ((9yw OR 7yw) TABSK18>0)]: Carin Shard%CONTINUE%
-ItemDisplay[UNI (!ID bwn) OR ((bwn OR 9bw OR 7bw) STAT54>0)]: Gravenspine%CONTINUE%
-ItemDisplay[UNI (!ID 9bw) OR ((9bw OR 7bw) SK89>0)]: Arm of King Leoric%CONTINUE%
+ItemDisplay[(UNI !ID wnd) OR ((wnd OR 9wn OR 7wn) UNI CLSK2>0)]: Torch of Iro%CONTINUE%
+ItemDisplay[(UNI !ID 9wn) OR ((9wn OR 7wn) UNI SK367>0)]: Suicide Branch%CONTINUE%
+ItemDisplay[(UNI !ID ywn) OR ((ywn OR 9yw OR 7yw) UNI SK77>0)]: Maelstrom%CONTINUE%
+ItemDisplay[(UNI !ID 9yw) OR ((9yw OR 7yw) UNI TABSK18>0)]: Carin Shard%CONTINUE%
+ItemDisplay[(UNI !ID bwn) OR ((bwn OR 9bw OR 7bw) UNI STAT54>0)]: Gravenspine%CONTINUE%
+ItemDisplay[(UNI !ID 9bw) OR ((9bw OR 7bw) UNI SK89>0)]: Arm of King Leoric%CONTINUE%
 ItemDisplay[UNI 7bw]: Boneshade%CONTINUE%
-ItemDisplay[UNI (!ID gwn) OR ((gwn OR 9gw OR 7gw) SK87>0)]: Ume's Lament%CONTINUE%
-ItemDisplay[UNI (!ID 9gw) OR ((9gw OR 7gw) TABSK16>0)]: Blackhand Key%CONTINUE%
+ItemDisplay[(UNI !ID gwn) OR ((gwn OR 9gw OR 7gw) UNI SK87>0)]: Ume's Lament%CONTINUE%
+ItemDisplay[(UNI !ID 9gw) OR ((9gw OR 7gw) UNI TABSK16>0)]: Blackhand Key%CONTINUE%
 ItemDisplay[UNI !ID 7gw]: %PURPLE%Death's Web%CONTINUE%
 ItemDisplay[UNI ID 7gw]: Death's Web%CONTINUE%
 // SCEPTER'S NAME (UNI)
-ItemDisplay[UNI (!ID scp) OR ((scp OR 9sc OR 7sc) MANA>14)]: Knell Striker%CONTINUE%
-ItemDisplay[UNI (!ID 9sc) OR ((9sc OR 7sc) TABSK25>0)]: Zakarum's Hand%CONTINUE%
+ItemDisplay[(UNI !ID scp) OR ((scp OR 9sc OR 7sc) UNI MANA>14)]: Knell Striker%CONTINUE%
+ItemDisplay[(UNI !ID 9sc) OR ((9sc OR 7sc) UNI TABSK25>0)]: Zakarum's Hand%CONTINUE%
 ItemDisplay[UNI !ID 7sc]: Heaven's Light%WHITE%/%GOLD%The Redeemer%CONTINUE%
 ItemDisplay[UNI ID 7sc CLSK3>0 STAT139>0]: Heaven's Light%CONTINUE%
 ItemDisplay[UNI ID 7sc STAT111>0]: The Redeemer%CONTINUE%
-ItemDisplay[UNI (!ID gsc) OR ((gsc OR 9qs OR 7qs) CLSK3=1)]: Rusthandle%CONTINUE%
-ItemDisplay[UNI (!ID 9qs) OR ((9qs OR 7qs) MULTI198,28554=15)]: The Fetid Sprinkler%CONTINUE%
+ItemDisplay[(UNI !ID gsc) OR ((gsc OR 9qs OR 7qs) UNI CLSK3=1)]: Rusthandle%CONTINUE%
+ItemDisplay[(UNI !ID 9qs) OR ((9qs OR 7qs) UNI MULTI198,28554=15)]: The Fetid Sprinkler%CONTINUE%
 ItemDisplay[UNI 7qs]: Akarat's Devotion%CONTINUE%
-ItemDisplay[UNI (!ID wsp) OR ((wsp OR 9ws OR 7ws) SK110>0)]: Stormeye%CONTINUE%
-ItemDisplay[UNI (!ID 9ws) OR ((9ws OR 7ws) CLSK3>0)]: Hand of Blessed Light%CONTINUE%
+ItemDisplay[(UNI !ID wsp) OR ((wsp OR 9ws OR 7ws) UNI SK110>0)]: Stormeye%CONTINUE%
+ItemDisplay[(UNI !ID 9ws) OR ((9ws OR 7ws) UNI CLSK3>0)]: Hand of Blessed Light%CONTINUE%
 ItemDisplay[UNI !ID 7ws]: %PURPLE%Astreon's Iron Ward%CONTINUE%
 ItemDisplay[UNI ID 7ws]: Astreon's Iron Ward%CONTINUE%
 // ASSASSIN CLAW'S NAME (UNI)
-ItemDisplay[UNI (!ID 9ar) OR ((9ar OR 7wb) STAT219>0)]: Mage Slayer%CONTINUE%
+ItemDisplay[(UNI !ID 9ar) OR ((9ar OR 7wb) UNI STAT219>0)]: Mage Slayer%CONTINUE%
 ItemDisplay[UNI 7wb]: Jade Talon%CONTINUE%
 ItemDisplay[UNI 7cs]: Shadow Killer%CONTINUE%
 ItemDisplay[UNI 7lw]: Firelizard's Talons%CONTINUE%
-ItemDisplay[UNI (!ID 9tw) OR ((9tw OR 7tw) TABSK50>0)]: Bartuc's Cut-Throat%CONTINUE%
+ItemDisplay[(UNI !ID 9tw) OR ((9tw OR 7tw) UNI TABSK50>0)]: Bartuc's Cut-Throat%CONTINUE%
 ItemDisplay[UNI 7tw]: Stalker's Cull%CONTINUE%
 ItemDisplay[UNI !ID 7qr]: %PURPLE%Aidan's Scar%CONTINUE%
 ItemDisplay[UNI ID 7qr]: Aidan's Scar%CONTINUE%
 // SORCERESS ORB'S NAME (UNI)
-ItemDisplay[UNI (!ID ob6) OR ((ob6 OR obb) STAT77>0)]: Tempest%CONTINUE%
+ItemDisplay[(UNI !ID ob6) OR ((ob6 OR obb) UNI STAT77>0)]: Tempest%CONTINUE%
 ItemDisplay[UNI !ID obc]: %PURPLE%Eschuta's Temper%CONTINUE%
 ItemDisplay[UNI ID obc]: Eschuta's Temper%CONTINUE%
-ItemDisplay[UNI (!ID oba) OR ((oba OR obf) STAT3>19)]: The Oculus%CONTINUE%
+ItemDisplay[(UNI !ID oba) OR ((oba OR obf) UNI STAT3>19)]: The Oculus%CONTINUE%
 ItemDisplay[UNI !ID obf]: %PURPLE%Death's Fathom%CONTINUE%
 ItemDisplay[UNI ID obf]: Death's Fathom%CONTINUE%
 // AMAZON WEAPON'S NAME (UNI)
 ItemDisplay[UNI amb]: Blood Raven's Charge%CONTINUE%
-ItemDisplay[UNI (!ID am7) OR ((am7 OR amc) CLSK0>0)]: Lycander's Aim%CONTINUE%
+ItemDisplay[(UNI !ID am7) OR ((am7 OR amc) UNI CLSK0>0)]: Lycander's Aim%CONTINUE%
 ItemDisplay[UNI amc]: Ebonbane%CONTINUE%
 ItemDisplay[UNI amd]: Stoneraven%CONTINUE%
-ItemDisplay[UNI (!ID am9) OR ((am9 OR ame) TABSK2>0)]: Lycander's Flank%CONTINUE%
+ItemDisplay[(UNI !ID am9) OR ((am9 OR ame) UNI TABSK2>0)]: Lycander's Flank%CONTINUE%
 ItemDisplay[UNI ame]: Zerae's Resolve%CONTINUE%
-ItemDisplay[UNI (!ID am5) OR ((am5 OR ama OR amf) STAT218>0)]: True Silver%CONTINUE%
-ItemDisplay[UNI (!ID ama) OR ((ama OR amf) CLSK0>0)]: Titan's Revenge%CONTINUE%
+ItemDisplay[(UNI !ID am5) OR ((am5 OR ama OR amf) UNI STAT218>0)]: True Silver%CONTINUE%
+ItemDisplay[(UNI !ID ama) OR ((ama OR amf) UNI CLSK0>0)]: Titan's Revenge%CONTINUE%
 ItemDisplay[UNI amf]: Thunderstroke%CONTINUE%
 
 // JEWELRY'S NAME (SET)
@@ -1197,146 +1197,146 @@ ItemDisplay[SET ID rin EDAM>0 AR>0 LRES>0 STAT36>0]: Bul-Kathos' Death Band%CONT
 ItemDisplay[SET !ID cap]: Infernal Cranium%WHITE%/%GREEN%Sander's Paragon%CONTINUE%
 ItemDisplay[SET ID (cap OR xap OR uap) RES>0 DTM>0]: Infernal Cranium%CONTINUE%
 ItemDisplay[SET ID (cap OR xap OR uap) STAT214>0]: Sander's Paragon%CONTINUE%
-ItemDisplay[SET (!ID xap) OR ((xap OR uap) STAT114>34)]: Cow King's Horns%CONTINUE%
-ItemDisplay[SET (!ID skp) OR ((skp OR xkp OR ukp) STAT78>0)]: Arcanna's Head%CONTINUE%
-ItemDisplay[SET (!ID hlm) OR ((hlm OR xlm OR ulm) FRES>24)]: Berserker's Headgear%CONTINUE%
-ItemDisplay[SET (!ID fhl) OR ((fhl OR xhl OR uhl) STAT34>0)]: Isenhart's Horns%CONTINUE%
-ItemDisplay[SET (!ID xhl) OR ((xhl OR uhl) STAT74>14)]: Sazabi's Mental Sheath%CONTINUE%
-ItemDisplay[SET (!ID msk) OR ((msk OR xsk OR usk) MANA>19 CRES>24)]: Cathan's Visage%CONTINUE%
-ItemDisplay[SET (!ID xsk) OR ((xsk OR usk) LIFE>49 MANA>24 RES>9)]: Tal Rasha's Horadric Crest%CONTINUE%
-ItemDisplay[SET (!ID bhm) OR ((bhm OR xh9 OR uh9) EDAM>0 AR>0)]: Tancred's Skull%CONTINUE%
-ItemDisplay[SET (!ID xh9) OR ((xh9 OR uh9) STR>14 DEX>24)]: Natalya's Totem%CONTINUE%
+ItemDisplay[(SET !ID xap) OR ((xap OR uap) SET STAT114>34)]: Cow King's Horns%CONTINUE%
+ItemDisplay[(SET !ID skp) OR ((skp OR xkp OR ukp) SET STAT78>0)]: Arcanna's Head%CONTINUE%
+ItemDisplay[(SET !ID hlm) OR ((hlm OR xlm OR ulm) SET FRES>24)]: Berserker's Headgear%CONTINUE%
+ItemDisplay[(SET !ID fhl) OR ((fhl OR xhl OR uhl) SET STAT34>0)]: Isenhart's Horns%CONTINUE%
+ItemDisplay[(SET !ID xhl) OR ((xhl OR uhl) SET STAT74>14)]: Sazabi's Mental Sheath%CONTINUE%
+ItemDisplay[(SET !ID msk) OR ((msk OR xsk OR usk) SET MANA>19 CRES>24)]: Cathan's Visage%CONTINUE%
+ItemDisplay[(SET !ID xsk) OR ((xsk OR usk) SET LIFE>49 MANA>24 RES>9)]: Tal Rasha's Horadric Crest%CONTINUE%
+ItemDisplay[(SET !ID bhm) OR ((bhm OR xh9 OR uh9) SET EDAM>0 AR>0)]: Tancred's Skull%CONTINUE%
+ItemDisplay[(SET !ID xh9) OR ((xh9 OR uh9) SET STR>14 DEX>24)]: Natalya's Totem%CONTINUE%
 ItemDisplay[SET uh9]: Trang-Oul's Guise%CONTINUE%
-ItemDisplay[SET (!ID ghm) OR ((ghm OR xhm OR uhm) STAT31>24 MANA>29)]: Sigon's Visor%CONTINUE%
-ItemDisplay[SET (!ID xhm) OR ((xhm OR uhm) STAT141>14)]: Guillaume's Face%CONTINUE%
+ItemDisplay[(SET !ID ghm) OR ((ghm OR xhm OR uhm) SET STAT31>24 MANA>29)]: Sigon's Visor%CONTINUE%
+ItemDisplay[(SET !ID xhm) OR ((xhm OR uhm) SET STAT141>14)]: Guillaume's Face%CONTINUE%
 ItemDisplay[SET uhm]: Ondal's Almighty%CONTINUE%
 ItemDisplay[SET !ID crn]: Iratha's Coil%WHITE%/%GREEN%Milabrega's Diadem%CONTINUE%
 ItemDisplay[SET ID (crn OR xrn OR urn) LRES>0 FRES>0]: Iratha's Coil%CONTINUE%
 ItemDisplay[SET ID (crn OR xrn OR urn) LIFE>0 MANA>0]: Milabrega's Diadem%CONTINUE%
-ItemDisplay[SET (!ID xrn) OR ((xrn OR urn) AR>199)]: Hwanin's Splendor%CONTINUE%
+ItemDisplay[(SET !ID xrn) OR ((xrn OR urn) SET AR>199)]: Hwanin's Splendor%CONTINUE%
 ItemDisplay[SET urn]: Griswold's Valor%CONTINUE%
 // ARMOR'S NAME (SET)
-ItemDisplay[SET (!ID qui) OR ((qui OR xui OR uui) EDEF>274)]: Arctic Furs%CONTINUE%
+ItemDisplay[(SET !ID qui) OR ((qui OR xui OR uui) SET EDEF>274)]: Arctic Furs%CONTINUE%
 ItemDisplay[SET uui]: Dark Adherent%CONTINUE%
-ItemDisplay[SET (!ID lea) OR ((lea OR xea OR uea) DEX>14)]: Vidala's Ambush%CONTINUE%
-ItemDisplay[SET (!ID stu) OR ((stu OR xtu OR utu) LIFE>29 RES>14)]: Cow King's Hide%CONTINUE%
-ItemDisplay[SET (!ID rng) OR ((rng OR xng OR ung) STAT34>0)]: Angelic Mantle%CONTINUE%
-ItemDisplay[SET (!ID xcl) OR ((xcl OR ucl) MULTI201,2697=20)]: Hwanin's Refuge%CONTINUE%
+ItemDisplay[(SET !ID lea) OR ((lea OR xea OR uea) SET DEX>14)]: Vidala's Ambush%CONTINUE%
+ItemDisplay[(SET !ID stu) OR ((stu OR xtu OR utu) SET LIFE>29 RES>14)]: Cow King's Hide%CONTINUE%
+ItemDisplay[(SET !ID rng) OR ((rng OR xng OR ung) SET STAT34>0)]: Angelic Mantle%CONTINUE%
+ItemDisplay[(SET !ID xcl) OR ((xcl OR ucl) SET MULTI201,2697=20)]: Hwanin's Refuge%CONTINUE%
 ItemDisplay[SET ucl]: Natalya's Shadow%CONTINUE%
-ItemDisplay[SET (!ID brs) OR ((brs OR xrs OR urs) STAT35>0)]: Isenhart's Case%CONTINUE%
-ItemDisplay[SET (!ID xrs) OR ((xrs OR urs) STAT32>199)]: Haemosu's Adamant%CONTINUE%
-ItemDisplay[SET (!ID chn) OR ((chn OR xhn OR uhn) FRW>19)]: Cathan's Mesh%CONTINUE%
-ItemDisplay[SET (!ID spl) OR ((spl OR xpl OR upl) CLSK4>0)]: Berserker's Hauberk%CONTINUE%
+ItemDisplay[(SET !ID brs) OR ((brs OR xrs OR urs) SET STAT35>0)]: Isenhart's Case%CONTINUE%
+ItemDisplay[(SET !ID xrs) OR ((xrs OR urs) SET STAT32>199)]: Haemosu's Adamant%CONTINUE%
+ItemDisplay[(SET !ID chn) OR ((chn OR xhn OR uhn) SET FRW>19)]: Cathan's Mesh%CONTINUE%
+ItemDisplay[(SET !ID spl) OR ((spl OR xpl OR upl) SET CLSK4>0)]: Berserker's Hauberk%CONTINUE%
 ItemDisplay[SET upl]: Sazabi's Ghost Liberator%CONTINUE%
-ItemDisplay[SET (!ID ltp) OR ((ltp OR xtp OR utp) FCR>0)]: Arcanna's Flesh%CONTINUE%
+ItemDisplay[(SET !ID ltp) OR ((ltp OR xtp OR utp) SET FCR>0)]: Arcanna's Flesh%CONTINUE%
 ItemDisplay[SET uld]: M'avina's Embrace%CONTINUE%
 ItemDisplay[SET ult]: Naj's Light Plate%CONTINUE%
-ItemDisplay[SET (!ID gth) OR ((gth OR xth OR uth) EDEF>24 LRES>29)]: Sigon's Shelter%CONTINUE%
+ItemDisplay[(SET !ID gth) OR ((gth OR xth OR uth) SET EDEF>24 LRES>29)]: Sigon's Shelter%CONTINUE%
 ItemDisplay[SET uth]: Tal Rasha's Guardianship%CONTINUE%
-ItemDisplay[SET (!ID ful) OR ((ful OR xul OR uul) EDAM>29)]: Tancred's Spine%CONTINUE%
-ItemDisplay[SET (!ID xul) OR ((xul OR uul) FRW>39)]: Trang-Oul's Scales%CONTINUE%
+ItemDisplay[(SET !ID ful) OR ((ful OR xul OR uul) SET EDAM>29)]: Tancred's Spine%CONTINUE%
+ItemDisplay[(SET !ID xul) OR ((xul OR uul) SET FRW>39)]: Trang-Oul's Scales%CONTINUE%
 ItemDisplay[SET uul]: Aldur's Deception%CONTINUE%
-ItemDisplay[SET (!ID aar) OR ((aar OR xar OR uar) STAT34>0)]: Milabrega's Robe%CONTINUE%
-ItemDisplay[SET (!ID xar) OR ((xar OR uar) CLSK3>0)]: Griswold's Heart%CONTINUE%
+ItemDisplay[(SET !ID aar) OR ((aar OR xar OR uar) SET STAT34>0)]: Milabrega's Robe%CONTINUE%
+ItemDisplay[(SET !ID xar) OR ((xar OR uar) SET CLSK3>0)]: Griswold's Heart%CONTINUE%
 ItemDisplay[SET uar]: Immortal King's Soul Cage%CONTINUE%
 // SHIELD'S NAME (SET)
-ItemDisplay[SET (!ID buc) OR ((buc OR xuc OR uuc) STR>19)]: Hsarus' Iron Fist%CONTINUE%
-ItemDisplay[SET (!ID sml) OR ((sml OR xml OR uml) STAT110>0)]: Cleglaw's Claw%CONTINUE%
-ItemDisplay[SET (!ID xml) OR ((xml OR uml) STAT89>0)]: Whitstan's Guard%CONTINUE%
-ItemDisplay[SET (!ID lrg) OR ((lrg OR xrg OR urg) STAT20>0 STAT31>0)]: Civerb's Ward%CONTINUE%
-ItemDisplay[SET (!ID kit) OR ((kit OR xit OR uit) LIFE>49 MFIND>19)]: Milabrega's Orb%CONTINUE%
-ItemDisplay[SET (!ID tow) OR ((tow OR xow OR uow) CRES>29 STAT127>0)]: Sigon's Guard%CONTINUE%
-ItemDisplay[SET (!ID gts) OR ((gts OR xts OR uts) STAT238>0)]: Isenhart's Parry%CONTINUE%
+ItemDisplay[(SET !ID buc) OR ((buc OR xuc OR uuc) SET STR>19)]: Hsarus' Iron Fist%CONTINUE%
+ItemDisplay[(SET !ID sml) OR ((sml OR xml OR uml) SET STAT110>0)]: Cleglaw's Claw%CONTINUE%
+ItemDisplay[(SET !ID xml) OR ((xml OR uml) SET STAT89>0)]: Whitstan's Guard%CONTINUE%
+ItemDisplay[(SET !ID lrg) OR ((lrg OR xrg OR urg) SET STAT20>0 STAT31>0)]: Civerb's Ward%CONTINUE%
+ItemDisplay[(SET !ID kit) OR ((kit OR xit OR uit) SET LIFE>49 MFIND>19)]: Milabrega's Orb%CONTINUE%
+ItemDisplay[(SET !ID tow) OR ((tow OR xow OR uow) SET CRES>29 STAT127>0)]: Sigon's Guard%CONTINUE%
+ItemDisplay[(SET !ID gts) OR ((gts OR xts OR uts) SET STAT238>0)]: Isenhart's Parry%CONTINUE%
 ItemDisplay[SET uts]: Taebaek's Glory%CONTINUE%
 // GLOVE'S NAME (SET)
-ItemDisplay[SET (!ID lgl) OR ((lgl OR xlg OR ulg) STAT110>0)]: Death's Hand%CONTINUE%
+ItemDisplay[(SET !ID lgl) OR ((lgl OR xlg OR ulg) SET STAT110>0)]: Death's Hand%CONTINUE%
 ItemDisplay[SET ulg]: Laying of Hands%CONTINUE%
-ItemDisplay[SET (!ID vgl) OR ((vgl OR xvg OR uvg) STAT57>0)]: Sander's Taboo%CONTINUE%
-ItemDisplay[SET (!ID xvg) OR ((xvg OR uvg) STAT89>0)]: Magnus' Skin%CONTINUE%
-ItemDisplay[SET (!ID mgl) OR ((mgl OR xmg OR umg) STAT81>0)]: Cleglaw's Pincers%CONTINUE%
-ItemDisplay[SET (!ID xmg) OR ((xmg OR umg) STAT332>9)]: Trang-Oul's Claws%CONTINUE%
+ItemDisplay[(SET !ID vgl) OR ((vgl OR xvg OR uvg) SET STAT57>0)]: Sander's Taboo%CONTINUE%
+ItemDisplay[(SET !ID xvg) OR ((xvg OR uvg) SET STAT89>0)]: Magnus' Skin%CONTINUE%
+ItemDisplay[(SET !ID mgl) OR ((mgl OR xmg OR umg) SET STAT81>0)]: Cleglaw's Pincers%CONTINUE%
+ItemDisplay[(SET !ID xmg) OR ((xmg OR umg) SET STAT332>9)]: Trang-Oul's Claws%CONTINUE%
 ItemDisplay[SET !ID tgl]: Arctic Mitts%WHITE%/%GREEN%Iratha's Cuff%CONTINUE%
 ItemDisplay[SET ID (tgl OR xtg OR utg) IAS>0 LIFE>0]: Arctic Mitts%CONTINUE%
 ItemDisplay[SET ID (tgl OR xtg OR utg) STAT156>0 CRES>0 STAT118>0]: Iratha's Cuff%CONTINUE%
-ItemDisplay[SET (!ID xtg) OR ((xtg OR utg) STAT54>11)]: M'avina's Icy Clutch%CONTINUE%
-ItemDisplay[SET (!ID mgl) OR ((hgl OR xhg OR uhg) AR>19 STR>9)]: Sigon's Gage%CONTINUE%
-ItemDisplay[SET (!ID xhg) OR ((xhg OR uhg) DEX>19 STR>19)]: Immortal King's Forge%CONTINUE%
+ItemDisplay[(SET !ID xtg) OR ((xtg OR utg) SET STAT54>11)]: M'avina's Icy Clutch%CONTINUE%
+ItemDisplay[(SET !ID mgl) OR ((hgl OR xhg OR uhg) SET AR>19 STR>9)]: Sigon's Gage%CONTINUE%
+ItemDisplay[(SET !ID xhg) OR ((xhg OR uhg) SET DEX>19 STR>19)]: Immortal King's Forge%CONTINUE%
 // BOOT'S NAME (SET)
-ItemDisplay[SET (!ID lbt) OR ((lbt OR xlb OR ulb) STAT28>0)]: Tancred's Hobnails%CONTINUE%
-ItemDisplay[SET (!ID xlb) OR ((xlb OR ulb) STAT11>0)]: Rite of Passage%CONTINUE%
+ItemDisplay[(SET !ID lbt) OR ((lbt OR xlb OR ulb) SET STAT28>0)]: Tancred's Hobnails%CONTINUE%
+ItemDisplay[(SET !ID xlb) OR ((xlb OR ulb) SET STAT11>0)]: Rite of Passage%CONTINUE%
 ItemDisplay[SET !ID vbt]: Cow King's Hooves%WHITE%/%GREEN%Sander's Riprap%CONTINUE%
 ItemDisplay[SET ID (vbt OR xvb OR uvb) STAT48>0]: Cow King's Hooves%CONTINUE%
 ItemDisplay[SET ID (vbt OR xvb OR uvb) AR>0]: Sander's Riprap%CONTINUE%
-ItemDisplay[SET (!ID mbt) OR ((mbt OR xmb OR umb) FRES>24)]: Hsarus' Iron Heel%CONTINUE%
-ItemDisplay[SET (!ID xmb) OR ((xmb OR umb) STAT241>0)]: Natalya's Soul%CONTINUE%
-ItemDisplay[SET (!ID tbt) OR ((tbt OR xtb OR utb) FRW=30)]: Vidala's Fetlock%CONTINUE%
-ItemDisplay[SET (!ID xtb) OR ((xtb OR utb) LIFE>49)]: Aldur's Advance%CONTINUE%
-ItemDisplay[SET (!ID hbt) OR ((hbt OR xhb OR uhb) CRES>39)]: Sigon's Sabot%CONTINUE%
-ItemDisplay[SET (!ID xhb) OR ((xhb OR uhb) AR>89)]: Immortal King's Pillar%CONTINUE%
+ItemDisplay[(SET !ID mbt) OR ((mbt OR xmb OR umb) SET FRES>24)]: Hsarus' Iron Heel%CONTINUE%
+ItemDisplay[(SET !ID xmb) OR ((xmb OR umb) SET STAT241>0)]: Natalya's Soul%CONTINUE%
+ItemDisplay[(SET !ID tbt) OR ((tbt OR xtb OR utb) SET FRW=30)]: Vidala's Fetlock%CONTINUE%
+ItemDisplay[(SET !ID xtb) OR ((xtb OR utb) SET LIFE>49)]: Aldur's Advance%CONTINUE%
+ItemDisplay[(SET !ID hbt) OR ((hbt OR xhb OR uhb) SET CRES>39)]: Sigon's Sabot%CONTINUE%
+ItemDisplay[(SET !ID xhb) OR ((xhb OR uhb) SET AR>89)]: Immortal King's Pillar%CONTINUE%
 // BELT'S NAME (SET)
-ItemDisplay[SET (!ID lbl) OR ((lbl OR zlb OR ulc) STAT153>0)]: Death's Guard%CONTINUE%
-ItemDisplay[SET (!ID vbl) OR ((vbl OR zvb OR uvc) CRES>39)]: Arctic Binding%CONTINUE%
-ItemDisplay[SET (!ID zvb) OR ((zvb OR uvc) FRW>19)]: M'avina's Tenet%CONTINUE%
+ItemDisplay[(SET !ID lbl) OR ((lbl OR zlb OR ulc) SET STAT153>0)]: Death's Guard%CONTINUE%
+ItemDisplay[(SET !ID vbl) OR ((vbl OR zvb OR uvc) SET CRES>39)]: Arctic Binding%CONTINUE%
+ItemDisplay[(SET !ID zvb) OR ((zvb OR uvc) SET FRW>19)]: M'avina's Tenet%CONTINUE%
 ItemDisplay[SET !ID mbl]: Hsarus' Iron Stay%WHITE%/%GREEN%Hwanin's Blessing%CONTINUE%
 ItemDisplay[SET ID (mbl OR zmb OR umc) LIFE>0 CRES>0]: Hsarus' Iron Stay%CONTINUE%
 ItemDisplay[SET ID (mbl OR zmb OR umc) STAT50>0]: Hwanin's Blessing%CONTINUE%
-ItemDisplay[SET (!ID zmb) OR ((zmb OR umc) STAT114>36)]: Tal Rasha's Fine-Spun Cloth%CONTINUE%
+ItemDisplay[(SET !ID zmb) OR ((zmb OR umc) SET STAT114>36)]: Tal Rasha's Fine-Spun Cloth%CONTINUE%
 ItemDisplay[SET umc]: Credendum%CONTINUE%
 ItemDisplay[SET !ID tbl]: Infernal Sign%WHITE%/%GREEN%Iratha's Cord%CONTINUE%
 ItemDisplay[SET ID (tbl OR ztb OR utc) STAT31>0 LIFE>0]: Infernal Sign%CONTINUE%
 ItemDisplay[SET ID (tbl OR ztb OR utc) STAT21>0 STAT31>0]: Iratha's Cord%CONTINUE%
-ItemDisplay[SET (!ID ztb) OR ((ztb OR utc) STAT60>3 STAT62>3)]: Wilhelm's Pride%CONTINUE%
+ItemDisplay[(SET !ID ztb) OR ((ztb OR utc) SET STAT60>3 STAT62>3)]: Wilhelm's Pride%CONTINUE%
 ItemDisplay[SET utc]: Trang-Oul's Girth%CONTINUE%
-ItemDisplay[SET (!ID hbl) OR ((hbl OR zhb OR uhc) LIFE>19 FRES>19)]: Sigon's Wrap%CONTINUE%
-ItemDisplay[SET (!ID zhb) OR ((zhb OR uhc) STR>19)]: Immortal King's Detail%CONTINUE%
+ItemDisplay[(SET !ID hbl) OR ((hbl OR zhb OR uhc) SET LIFE>19 FRES>19)]: Sigon's Wrap%CONTINUE%
+ItemDisplay[(SET !ID zhb) OR ((zhb OR uhc) SET STR>19)]: Immortal King's Detail%CONTINUE%
 // CIRCLET'S NAME (SET)
-ItemDisplay[SET (!ID ci0) OR ((ci0 OR ci1 OR ci2 OR ci3) FCR>19)]: Naj's Circlet%CONTINUE%
+ItemDisplay[(SET !ID ci0) OR ((ci0 OR ci1 OR ci2 OR ci3) SET FCR>19)]: Naj's Circlet%CONTINUE%
 ItemDisplay[SET ci3]: M'avina's True Sight%CONTINUE%
 // DRUID PELT'S NAME (SET)
-ItemDisplay[SET (!ID dr8) OR ((dr8 OR drd) CLSK5>0)]: Aldur's Stony Gaze%CONTINUE%
+ItemDisplay[(SET !ID dr8) OR ((dr8 OR drd) SET CLSK5>0)]: Aldur's Stony Gaze%CONTINUE%
 // BARBARIAN HELMET'S NAME (SET)
-ItemDisplay[SET (!ID ba5) OR ((ba5 OR baf) STAT89>0)]: Immortal King's Will%CONTINUE%
+ItemDisplay[(SET !ID ba5) OR ((ba5 OR baf) SET STAT89>0)]: Immortal King's Will%CONTINUE%
 // PALADIN SHIELD'S NAME (SET)
 ItemDisplay[SET paf]: Griswold's Honor%CONTINUE%
 // NECROMANCER HEAD'S NAME (SET)
-ItemDisplay[SET (!ID ne9) OR ((ne9 OR nee) TABSK17>0)]: Trang-Oul's Wing%CONTINUE%
+ItemDisplay[(SET !ID ne9) OR ((ne9 OR nee) SET TABSK17>0)]: Trang-Oul's Wing%CONTINUE%
 // AXE'S NAME (SET)
-ItemDisplay[SET (!ID 2ax) OR ((2ax OR 92a OR 72a) STAT119>0)]: Berserker's Hatchet%CONTINUE%
-ItemDisplay[SET (!ID mpi) OR ((mpi OR 9mp OR 7mp) MANA>19)]: Tancred's Crowbill%CONTINUE%
+ItemDisplay[(SET !ID 2ax) OR ((2ax OR 92a OR 72a) SET STAT119>0)]: Berserker's Hatchet%CONTINUE%
+ItemDisplay[(SET !ID mpi) OR ((mpi OR 9mp OR 7mp) SET MANA>19)]: Tancred's Crowbill%CONTINUE%
 // MACE'S NAME (SET)
-ItemDisplay[SET (!ID 7ma) OR ((7ma OR 9ma) STAT218>0)]: Dangoon's Teaching%CONTINUE%
-ItemDisplay[SET (!ID 9mt) OR ((9mt OR 7mt) STAT50>49)]: Aldur's Rhythm%CONTINUE%
+ItemDisplay[(SET !ID 7ma) OR ((7ma OR 9ma) SET STAT218>0)]: Dangoon's Teaching%CONTINUE%
+ItemDisplay[(SET !ID 9mt) OR ((9mt OR 7mt) SET STAT50>49)]: Aldur's Rhythm%CONTINUE%
 // HAMMER'S NAME (SET)
 ItemDisplay[SET 7m7]: Immortal King's Stone Crusher%CONTINUE%
 // SWORD'S NAME (SET)
-ItemDisplay[SET (!ID sbr) OR ((sbr OR 9sb OR 7sb) STAT122>249)]: Angelic Sickle%CONTINUE%
-ItemDisplay[SET (!ID bsd) OR ((bsd OR 9bs OR 7bs) STAT224>0)]: Isenhart's Lightbrand%CONTINUE%
-ItemDisplay[SET (!ID lsd) OR ((lsd OR 9ls OR 7ls) STAT119>0)]: Cleglaw's Tooth%CONTINUE%
+ItemDisplay[(SET !ID sbr) OR ((sbr OR 9sb OR 7sb) SET STAT122>249)]: Angelic Sickle%CONTINUE%
+ItemDisplay[(SET !ID bsd) OR ((bsd OR 9bs OR 7bs) SET STAT224>0)]: Isenhart's Lightbrand%CONTINUE%
+ItemDisplay[(SET !ID lsd) OR ((lsd OR 9ls OR 7ls) SET STAT119>0)]: Cleglaw's Tooth%CONTINUE%
 ItemDisplay[SET 7ls]: Sazabi's Cobalt Redeemer%CONTINUE%
-ItemDisplay[SET (!ID wsd) OR ((wsd OR 9wd OR 7wd) STAT60>3)]: Death's Touch%CONTINUE%
+ItemDisplay[(SET !ID wsd) OR ((wsd OR 9wd OR 7wd) SET STAT60>3)]: Death's Touch%CONTINUE%
 ItemDisplay[SET 7fb]: Bul-Kathos' Tribal Guardian%CONTINUE%
 ItemDisplay[SET 7gd]: Bul-Kathos' Sacred Charge%CONTINUE%
 // DAGGER'S NAME (SET)
-ItemDisplay[SET (!ID dgr) OR ((dgr OR 9dg OR 7dg) CLSK2>0)]: Infernal Spike%CONTINUE%
+ItemDisplay[(SET !ID dgr) OR ((dgr OR 9dg OR 7dg) SET CLSK2>0)]: Infernal Spike%CONTINUE%
 // POLEARM'S NAME (SET)
-ItemDisplay[SET (!ID 9vo) OR ((9vo OR 7vo) STAT50>4)]: Hwanin's Justice%CONTINUE%
+ItemDisplay[(SET !ID 9vo) OR ((9vo OR 7vo) SET STAT50>4)]: Hwanin's Justice%CONTINUE%
 // BOW'S NAME (SET)
-ItemDisplay[SET (!ID lbb) OR ((lbb OR 8l8 OR 6l7) STAT50>0)]: Vidala's Barb%CONTINUE%
-ItemDisplay[SET (!ID swb) OR ((swb OR 8sw OR 6sw) STAT226>0)]: Arctic Horn%CONTINUE%
+ItemDisplay[(SET !ID lbb) OR ((lbb OR 8l8 OR 6l7) SET STAT50>0)]: Vidala's Barb%CONTINUE%
+ItemDisplay[(SET !ID swb) OR ((swb OR 8sw OR 6sw) SET STAT226>0)]: Arctic Horn%CONTINUE%
 // STAFF'S NAME (SET)
 ItemDisplay[SET 6cs]: Naj's Puzzler%CONTINUE%
-ItemDisplay[SET (!ID bst) OR ((bst OR 8bs OR 6bs) STAT363>0)]: Cathan's Rule%CONTINUE%
-ItemDisplay[SET (!ID wst) OR ((wst OR 8ws OR 6ws) CLSK1>0)]: Arcanna's Deathwand%CONTINUE%
+ItemDisplay[(SET !ID bst) OR ((bst OR 8bs OR 6bs) SET STAT363>0)]: Cathan's Rule%CONTINUE%
+ItemDisplay[(SET !ID wst) OR ((wst OR 8ws OR 6ws) SET CLSK1>0)]: Arcanna's Deathwand%CONTINUE%
 // WAND'S NAME (SET)
-ItemDisplay[SET (!ID bwn) OR ((bwn OR 9bw OR 7bw) FCR>19)]: Sander's Superstition%CONTINUE%
+ItemDisplay[(SET !ID bwn) OR ((bwn OR 9bw OR 7bw) SET FCR>19)]: Sander's Superstition%CONTINUE%
 // SCEPTER'S NAME (SET)
-ItemDisplay[SET (!ID gsc) OR ((gsc OR 9qs OR 7qs) STAT218>0)]: Civerb's Cudgel%CONTINUE%
-ItemDisplay[SET (!ID wsp) OR ((wsp OR 9ws OR 7ws) CLSK3>0)]: Milabrega's Rod%CONTINUE%
+ItemDisplay[(SET !ID gsc) OR ((gsc OR 9qs OR 7qs) SET STAT218>0)]: Civerb's Cudgel%CONTINUE%
+ItemDisplay[(SET !ID wsp) OR ((wsp OR 9ws OR 7ws) SET CLSK3>0)]: Milabrega's Rod%CONTINUE%
 ItemDisplay[SET 7ws]: Griswold's Redemption%CONTINUE%
 // ASSASSIN CLAW'S NAME (SET)
 ItemDisplay[SET 7qr]: Natalya's Mark%CONTINUE%
 // SORCERESS ORB'S NAME (SET)
-ItemDisplay[SET (!ID oba) OR ((oba OR obf) FCR>29)]: Tal Rasha's Lidless Eye%CONTINUE%
+ItemDisplay[(SET !ID oba) OR ((oba OR obf) SET FCR>29)]: Tal Rasha's Lidless Eye%CONTINUE%
 // AMAZON WEAPON'S NAME (SET)
 ItemDisplay[SET amc]: M'avina's Caster%CONTINUE%
 
