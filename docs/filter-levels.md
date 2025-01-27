@@ -85,10 +85,48 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 ![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
-=== "Stuff Showing on All Filter Lvls"
+=== "Drops Showing on All Filter Lvls"
 
     ## Shows:
+    -   Pvp Ear, Quest Items, Perfect Gems, Runes, Essences, token, Uber/Boss mats, PD2 Items, Maps
+    -   Uniqs: Anni, Torch, Gheed
+    -   Uniq Boss Items: The Third Eye, Cage of the Unsullied, Band of Skulls, Aidans Scar, Cage of the Unsullied, Dark Abyss, Band of Skulls, Itheraels Path, Overlords Helm, Hadriels Hand
+    -   Uniq GG: Griffons Eye, Herald of Zakarum, Eschutas Temper, Deaths Fathom, Templars Might or Tyraels Might, Arachnid Mesh, Shako, Steel Shade, Veil of Steel or Nightwings Veil, Andariels Visage, Crown of Ages, Stormshield, Medusas Gaze, Spirit Ward, Death Cleaver, Stone Crusher or Schaefers Hammer, Earth Shifter or The Cranium Basher, Astreons Iron Ward, Steel Pillar, Brimstone Rain, Mang Songs Lesson, Deaths Web, Boneflame, Skull Collector, Gore Rider, The Grandfather
+    -   Uniq Tier 3: Kiras Guardian, Thunderstroke, Cyclopean Roar, Demonhorns Edge, Halaberds Reign, Jalals Mane, Spirit Keeper, Darkforce, Shaftstop, The Gladiators Bane, Ormus Robes, Arkaines Valor, Steel Carapace, String of Ears, Nosferatus Coil, Verdungos Hearty Cord, Hotspur, Soul Drainer, Occultist, Steelrend, Giant Skull, Lidless Wall, Warlords Trust, The Gavel Of Pain, Horizons Tornado or Stormlash, Stormspire, Tomb Reaver, Flamebellow, Arm of King Leoric, Blackhand Key, Windforce, War Traveler, Snowclash, Dragonscale, The Spirit Shroud, Hellslayer, Lightsabre or Azurewrath, Frostwind, Alma Negra, Lava Gout, Draculs Grasp, Martyrdom, Amulet, Ring
+    -   Set GG: Tancreds Hobnails, Only Eth Immortal Kings Stone Crusher, Bul-Kathos Sacred Charge, Bul-Kathos Tribal Guardian
+    -   Set Tier 3: Trang-Ouls Wing, Trang-Ouls Girth, Trang-Ouls Claws, Ondals Almighty, Trang-Ouls Scales, Griswolds Redemption, Griswolds Honor, Deaths Hand, Ring
+    -   Uniq Warrior Map: Mag Amulet, Armors, Weapons, Rare Amulet, Ring, Armors, Weapons, Arrows, Bolts
+    -   Ama: Mag & Rare Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Rare Gorgon Crossbow Family, Arrows, Bolts
+    -   Bar: Eth Mag Barb Helms, Flying Axe, Balrog Spear Families, Rare Barb Helms
+    -   Dru: Eth Mag Feral Axe, Champion Axe, Thresher, Giant Thresher Families
+    -   Pala: Eth Mag Scourge Family
+    -   Eth Rare: Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families
+    -   Non Eth Rare: Necro Shields, Dru Pelts, Colossus Crossbow Family, Jewels, Amulets, Rings, Glvoes, Boots
+    -   Both Rare: Circlets
+    -   Non Eth Mag: Jewels, Charms
+    -   Ferocity Base: Eth 0os, 3os, 10+Ed Winged Helm
+    -   Flickering Flame Bases: +3 Molten Boulder +3 Volcano w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Summon Grizzly or +3 Fury +3 Werewolf +3 Lycanthropy or +3 Maul +3 Hunger +3 Lycanthropy
+    -   
+    -   
+    -   
+    -   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
 
 === "Starter Filter Lvl (S10) Info"
 
