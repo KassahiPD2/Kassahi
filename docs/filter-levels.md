@@ -105,8 +105,8 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Both Rare: Circlets
     -   Non Eth Mag: Jewels, Charms
     -   Ferocity Base: Eth 0os, 3os, 10+Ed Winged Helm
-    -   Flickering Flame Bases: +3 Molten Boulder +3 Volcano w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Summon Grizzly or +3 Fury +3 Werewolf +3 Lycanthropy or +3 Maul +3 Hunger +3 Lycanthropy
-    -   
+    -   Flickering Flame Bases: +3 Molten Boulder +3 Volcano w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Summon Grizzly, +3 Fury +3 Werewolf +3 Lycanthropy, +3 Maul +3 Hunger +3 Lycanthropy
+    -   Avatar Druid Plague Bases: 2+ Armageddon +2 Hurricane w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Summon Grizzly 1+ Gust
     -   
     -   
     -   
