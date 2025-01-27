@@ -1985,8 +1985,8 @@ ItemDisplay[(FILTLVL=4 OR FILTLVL=5 OR FILTLVL=6 OR FILTLVL=9 OR FILTLVL=10 OR F
 ItemDisplay[MAG (amu OR ARMOR OR WEAPON) !ID (MAPID=181 OR MAPID=182)]: %RED%+ %NAME% %RED%C +%CONTINUE%
 ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR aqv OR cqv) !ID (MAPID=181 OR MAPID=182)]: %RED%+ %NAME% %RED%C +%CONTINUE%
 // MAGIC/RARE (GOOD)
-ItemDisplay[RARE !ID !ETH AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR cqv)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
-ItemDisplay[MAG !ID !ETH AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DOT-97%%ORANGE%+ %NAME% %ORANGE%+
+ItemDisplay[RARE !ID AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR cqv)]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
+ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DOT-97%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[RARE !ID BARBARIAN BAR]: %DOT-6D%%ORANGE%+ %NAME% %ORANGE%+
 ItemDisplay[MAG !ID ETH BARBARIAN (BAR OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[MAG !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
