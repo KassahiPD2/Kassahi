@@ -93,8 +93,9 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Uniq: lld, T0, T1, T2, T3, GG, Boss Items, Charms
     -   Set: lld, T1, T2, T3, GG
     -   Rare: Any Rare
-    -   Mag: Circlet, Coronet, Tiara, Diadem, Matriarchal Bow, Grand Matron Bow Families, Non Eth Maiden Javelin, Eth Mag Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
-    -   Mag: Amulets, Rings, Arrows, Bolts, Non Eth Weapon: Dirk, Rondel, Mithril Point, Throwing Axe, Francisca, Flying Axe, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
+    -   Non Eth Mag: Matriarchal Bow, Grand Matron Bow, Mithril Point, Flying Axe Families, Maiden Javelin, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
+    -   Eth Mag: Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
+    -   Mag: Circlet, Coronet, Tiara, Diadem,
     -   Dru: Mag & Rare Clubs, Pelts +Notification
     -   Bar: Mag & Rare Bar Helms +Notification
     -   Pala: Mag & Rare Pala Shields, Scepters +Notification
@@ -122,8 +123,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Filter Lvl 2, 3, 7, 8: Runes Under 20 +Notification
     -   Uniq: lld, T0, T1, T2, T3, GG, Boss Items, Charms
     -   Set: lld, T1, T2, T3, GG
-    -   Rare: Bows, Xbows, Any Eth Weapons, Helms, Shields, Chests, Belts, Arrows, Bolts, Non Eth Rare Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
-    -   Mag: Circlet, Coronet, Tiara, Diadem, Matriarchal Bow, Grand Matron Bow Families, Non Eth Maiden Javelin, Eth Mag Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
+    -   Non Eth Rare: Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
+    -   Eth Rare: Any Weapons
+    -   Rare: Helms, Shields, Chests, Belts
+    -   Non Eth Mag: Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin
+    -   Eth Mag: Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
+    -   Mag: Circlet, Coronet, Tiara, Diadem,
     -   Pala: Rare Normal & Pala Shields +Notification
     -   Dru: Mag & Rare Clubs, Pelts +Notification
     -   Bar: Mag & Rare Bar Helms +Notification
@@ -144,8 +149,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Filter Lvl 4, 5, 6, 9, 10, 11: Runes Under 20
     -   Uniq: T2, T3, GG, Boss Items, Charms
     -   Set: T2, T3, GG
-    -   Rare: Helms, Shields, Chests, Belts, Arrows, Bolts, Non Eth Rare Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
-    -   Mag: Tiara, Diadem, Matriarchal Bow, Grand Matron Bow Families, Non Eth Maiden Javelin, Eth Mag Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
+    -   Non Eth Rare: Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
+    -   Eth Rare: 
+    -   Rare: Helms, Shields, Chests, Belts,
+    -   Non Eth Mag: Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin
+    -   Eth Mag: Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families
+    -   Mag: Tiara, Diadem
     -   Pala: Rare Normal & Pala Shields +Notification
     ## Hides:
     -   Filter Lvl 6, 11: Flawless Gems
