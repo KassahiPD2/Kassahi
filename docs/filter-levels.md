@@ -89,32 +89,32 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   Pvp Ear, Quest Items, Perfect Gems, Runes, Essences, token, Uber/Boss mats, PD2 Items, Maps
-    -   Uniqs: Anni, Torch, Gheed
+    -   `Uniqs:` Anni, Torch, Gheed
     -   Uniq Boss Items: The Third Eye, Cage of the Unsullied, Band of Skulls, Aidans Scar, Cage of the Unsullied, Dark Abyss, Band of Skulls, Itheraels Path, Overlords Helm, Hadriels Hand
-    -   Uniq GG: Griffons Eye, Herald of Zakarum, Eschutas Temper, Deaths Fathom, Templars Might or Tyraels Might, Arachnid Mesh, Shako, Steel Shade, Veil of Steel or Nightwings Veil, Andariels Visage, Crown of Ages, Stormshield, Medusas Gaze, Spirit Ward, Death Cleaver, Stone Crusher or Schaefers Hammer, Earth Shifter or The Cranium Basher, Astreons Iron Ward, Steel Pillar, Brimstone Rain, Mang Songs Lesson, Deaths Web, Boneflame, Skull Collector, Gore Rider, The Grandfather
-    -   Uniq Tier 3: Kiras Guardian, Thunderstroke, Cyclopean Roar, Demonhorns Edge, Halaberds Reign, Jalals Mane, Spirit Keeper, Darkforce, Shaftstop, The Gladiators Bane, Ormus Robes, Arkaines Valor, Steel Carapace, String of Ears, Nosferatus Coil, Verdungos Hearty Cord, Hotspur, Soul Drainer, Occultist, Steelrend, Giant Skull, Lidless Wall, Warlords Trust, The Gavel Of Pain, Horizons Tornado or Stormlash, Stormspire, Tomb Reaver, Flamebellow, Arm of King Leoric, Blackhand Key, Windforce, War Traveler, Snowclash, Dragonscale, The Spirit Shroud, Hellslayer, Lightsabre or Azurewrath, Frostwind, Alma Negra, Lava Gout, Draculs Grasp, Martyrdom, Amulet, Ring
-    -   Set GG: Tancreds Hobnails, Only Eth Immortal Kings Stone Crusher, Bul-Kathos Sacred Charge, Bul-Kathos Tribal Guardian
-    -   Set Tier 3: Trang-Ouls Wing, Trang-Ouls Girth, Trang-Ouls Claws, Ondals Almighty, Trang-Ouls Scales, Griswolds Redemption, Griswolds Honor, Deaths Hand, Ring
-    -   Uniq Warrior Map: Mag Amulet, Armors, Weapons, Rare Amulet, Ring, Armors, Weapons, Arrows, Bolts
-    -   Ama: Mag & Rare Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Rare Gorgon Crossbow Family, Arrows, Bolts
-    -   Bar: Eth Mag Barb Helms, Flying Axe, Balrog Spear Families, Rare Barb Helms
-    -   Dru: Eth Mag Feral Axe, Champion Axe, Thresher, Giant Thresher Families
-    -   Pala: Eth Mag Scourge Family
-    -   Eth Rare: Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families
-    -   Non Eth Rare: Necro Shields, Dru Pelts, Colossus Crossbow Family, Jewels, Amulets, Rings, Glvoes, Boots
-    -   Both Rare: Circlets
-    -   Non Eth Mag: Jewels, Charms
-    -   Ferocity Base: Eth 0os, 3os, 10+Ed Winged Helm
-    -   Flickering Flame Bases: +3 Molten Boulder +3 Volcano w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Grizzly, +3 Fury +3 Werewolf +3 Lycanthropy, +3 Maul +3 Hunger +3 Lycanthropy
-    -   Avatar Druid Plague Bases: 2+ Armageddon +2 Hurricane w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust), (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)
-    -   Fire Druid Plague Bases: 2+ Molten Boulder 2+ Volcano w/ Either 2+ Armageddon 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Molten Boulder or +3 Volcano (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Armageddon 1+ Gust), (w/ 2+ Armageddon 1+ Gust)
-    -   Wind Druid Plague Bases: 2+ Twister 2+ Tornado w/ Either 2+ Hurricane 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Twister or +3 Tornado (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Hurricane 1+ Gust), (w/ 2+ Hurricane 1+ Gust)
-    -   Shock Wave Druid Bases: +3 Shock Wave 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly, +3 Shock Wave (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   Summoner Druid Bases: 2+ Raven 2+ Grizzly w/ Either 1+ Oak Sage 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust, +3 Raven or Grizzly (w/ 1+ Oak Sage w/ Either 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Spirit Wolf w/ Either 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 1+ Carrion Vine w/ Either 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Heart of Wolverine w/ Either 2+ Dire Wolf 1+ Gust), (w/ 2+ Dire Wolf 1+ Gust)
-    -   Maul Druid Bases: +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly), +3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly), +3 Maul (w/ 1+ Hunger 1+ Grizzly)
-    -   Rabies Druid Bases: +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   Fury Druid Bases: +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   Fire Claw Druid Bases: +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly), +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
+    -   `Uniq GG:` Griffons Eye, Herald of Zakarum, Eschutas Temper, Deaths Fathom, Templars Might or Tyraels Might, Arachnid Mesh, Shako, Steel Shade, Veil of Steel or Nightwings Veil, Andariels Visage, Crown of Ages, Stormshield, Medusas Gaze, Spirit Ward, Death Cleaver, Stone Crusher or Schaefers Hammer, Earth Shifter or The Cranium Basher, Astreons Iron Ward, Steel Pillar, Brimstone Rain, Mang Songs Lesson, Deaths Web, Boneflame, Skull Collector, Gore Rider, The Grandfather
+    -   `Uniq Tier 3:` Kiras Guardian, Thunderstroke, Cyclopean Roar, Demonhorns Edge, Halaberds Reign, Jalals Mane, Spirit Keeper, Darkforce, Shaftstop, The Gladiators Bane, Ormus Robes, Arkaines Valor, Steel Carapace, String of Ears, Nosferatus Coil, Verdungos Hearty Cord, Hotspur, Soul Drainer, Occultist, Steelrend, Giant Skull, Lidless Wall, Warlords Trust, The Gavel Of Pain, Horizons Tornado or Stormlash, Stormspire, Tomb Reaver, Flamebellow, Arm of King Leoric, Blackhand Key, Windforce, War Traveler, Snowclash, Dragonscale, The Spirit Shroud, Hellslayer, Lightsabre or Azurewrath, Frostwind, Alma Negra, Lava Gout, Draculs Grasp, Martyrdom, Amulet, Ring
+    -   `Set GG:` Tancreds Hobnails, Only Eth Immortal Kings Stone Crusher, Bul-Kathos Sacred Charge, Bul-Kathos Tribal Guardian
+    -   `Set Tier 3:` Trang-Ouls Wing, Trang-Ouls Girth, Trang-Ouls Claws, Ondals Almighty, Trang-Ouls Scales, Griswolds Redemption, Griswolds Honor, Deaths Hand, Ring
+    -   `Uniq Warrior Map:` Mag Amulet, Armors, Weapons, Rare Amulet, Ring, Armors, Weapons, Arrows, Bolts
+    -   `Ama:` Mag & Rare Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Rare Gorgon Crossbow Family, Arrows, Bolts
+    -   `Bar:` Eth Mag Barb Helms, Flying Axe, Balrog Spear Families, Rare Barb Helms
+    -   `Dru:` Eth Mag Feral Axe, Champion Axe, Thresher, Giant Thresher Families
+    -   `Pala:` Eth Mag Scourge Family
+    -   `Eth Rare:` Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families
+    -   `Non Eth Rare:` Necro Shields, Dru Pelts, Colossus Crossbow Family, Jewels, Amulets, Rings, Glvoes, Boots
+    -   `Both Rare:` Circlets
+    -   `Non Eth Mag:` Jewels, Charms
+    -   `Ferocity Base:` Eth 0os, 3os, 10+Ed Winged Helm
+    -   `Flickering Flame Bases:` +3 Molten Boulder +3 Volcano w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Grizzly, +3 Fury +3 Werewolf +3 Lycanthropy, +3 Maul +3 Hunger +3 Lycanthropy
+    -   `Avatar Druid Plague Bases:` 2+ Armageddon +2 Hurricane w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust), (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)
+    -   `Fire Druid Plague Bases:` 2+ Molten Boulder 2+ Volcano w/ Either 2+ Armageddon 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Molten Boulder or +3 Volcano (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Armageddon 1+ Gust), (w/ 2+ Armageddon 1+ Gust)
+    -   `Wind Druid Plague Bases:` 2+ Twister 2+ Tornado w/ Either 2+ Hurricane 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust, +3 Twister or +3 Tornado (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Hurricane 1+ Gust), (w/ 2+ Hurricane 1+ Gust)
+    -   `Shock Wave Druid Bases:` +3 Shock Wave 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly, +3 Shock Wave (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   `Summoner Druid Bases:` 2+ Raven 2+ Grizzly w/ Either 1+ Oak Sage 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust, +3 Raven or Grizzly (w/ 1+ Oak Sage w/ Either 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Spirit Wolf w/ Either 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 1+ Carrion Vine w/ Either 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Heart of Wolverine w/ Either 2+ Dire Wolf 1+ Gust), (w/ 2+ Dire Wolf 1+ Gust)
+    -   `Maul Druid Bases:` +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly), +3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly), +3 Maul (w/ 1+ Hunger 1+ Grizzly)
+    -   `Rabies Druid Bases:` +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   `Fury Druid Bases:` +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   `Fire Claw Druid Bases:` +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly), +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
 
 
 
