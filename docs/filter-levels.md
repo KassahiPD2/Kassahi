@@ -114,7 +114,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   `Maul Druid Bases:` +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly), +3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly), +3 Maul (w/ 1+ Hunger 1+ Grizzly)
     -   `Rabies Druid Bases:` +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)
     -   `Fury Druid Bases:` +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   `Fire Claw Druid Bases:` +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly), +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
+    -   *Fire Claw Druid Bases:* +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly), +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
 
 
 
