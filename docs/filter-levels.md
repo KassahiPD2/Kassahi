@@ -106,25 +106,41 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Non Eth Mag:** Jewels, Charms
     -   **Ferocity Base:** Eth 0os, 3os, 10+Ed Winged Helm
     -   **Flickering Flame Bases:** 0os, 3os, Pelts, +3 Molten Boulder +3 Volcano (w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Grizzly)
-    -   +3 Fury +3 Werewolf +3 Lycanthropy, +3 Maul +3 Hunger +3 Lycanthropy
+    -   +3 Fury +3 Werewolf +3 Lycanthropy
+    -   +3 Maul +3 Hunger +3 Lycanthropy
     -   **Avatar Druid Plague Bases:** 0os, 3os, Clubs, 2+ Armageddon +2 Hurricane (w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)
     -   +3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust), (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)
     -   **Fire Druid Plague Bases:** 0os, 3os, Clubs, 2+ Molten Boulder 2+ Volcano (w/ Either 2+ Armageddon 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)
     -   +3 Molten Boulder or +3 Volcano (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Armageddon 1+ Gust), (w/ 2+ Armageddon 1+ Gust)
-    -   
-    -   **Wind Druid Plague Bases:** 0os, 3os, Clubs, 2+ Twister 2+ Tornado (w/ Either 2+ Hurricane 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust), +3 Twister or +3 Tornado (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Hurricane 1+ Gust), (w/ 2+ Hurricane 1+ Gust)
-    -   **Shock Wave Druid Bases:** 0os, 3os, Clubs, +3 Shock Wave 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Shock Wave (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   **Summoner Druid Bases:** 0os, 3os, Clubs, 2+ Raven 2+ Grizzly (w/ Either 1+ Oak Sage 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), +3 Raven or Grizzly (w/ 1+ Oak Sage w/ Either 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Spirit Wolf w/ Either 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 1+ Carrion Vine w/ Either 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Heart of Wolverine w/ Either 2+ Dire Wolf 1+ Gust), (w/ 2+ Dire Wolf 1+ Gust)
-    -   **Maul Druid Bases:** 0os, 3os, Clubs, +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly), +3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly), +3 Maul (w/ 1+ Hunger 1+ Grizzly)
-    -   **Rabies Druid Bases:** 0os, 3os, Clubs, +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   **Fury Druid Bases:** 0os, 3os, Clubs, +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly), +3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)
-    -   **Fire Claw Druid Bases:** 0os, 3os, Clubs, +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly), +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly), +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
-    -   **Lld Pala Bases:** Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Blessed Hammer (w/ Either +3 Joust +3 Concentration), +3 Concentration (w/ Either +3 Joust +3 Blessed Hammer), +3 Joust (w/ Either +3 Concentration +3 Blessed Hammer)
-    -   Non Eth 0os, 4os, Divine Scepter, +3 Zeal (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Charge), +3 Charge (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Zeal 1+ Might), +3 Blessed Hammer (w/ Either 1+ Vigor 1+ Holy Shield 1+ Zeal 1+ Concentration)
+    -   **Wind Druid Plague Bases:** 0os, 3os, Clubs, 2+ Twister 2+ Tornado (w/ Either 2+ Hurricane 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)
+    -   +3 Twister or +3 Tornado (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Hurricane 1+ Gust), (w/ 2+ Hurricane 1+ Gust)
+    -   **Shock Wave Druid Bases:** 0os, 3os, Clubs, +3 Shock Wave 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)
+    -   +3 Shock Wave (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   **Summoner Druid Bases:** 0os, 3os, Clubs, 2+ Raven 2+ Grizzly (w/ Either 1+ Oak Sage 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust)
+    -   +3 Raven or +3 Grizzly (w/ 1+ Oak Sage w/ Either 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Spirit Wolf w/ Either 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 1+ Carrion Vine w/ Either 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Heart of Wolverine w/ Either 2+ Dire Wolf 1+ Gust), (w/ 2+ Dire Wolf 1+ Gust)
+    -   **Maul Druid Bases:** 0os, 3os, Clubs, +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly)
+    -   +3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly)
+    -   +3 Maul (w/ 1+ Hunger 1+ Grizzly)
+    -   **Rabies Druid Bases:** 0os, 3os, Clubs, +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)
+    -   +3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   **Fury Druid Bases:** 0os, 3os, Clubs, +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)
+    -   +3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)
+    -   **Fire Claw Druid Bases:** 0os, 3os, Clubs, +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly)
+    -   +3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly)
+    -   +3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly)
+    -   +3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly)
+    -   +3 Fire Claw (w/ 2+ Fury 1+ Grizzly)
+    -   **Lld Pala Bases:** Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Blessed Hammer (w/ Either +3 Joust +3 Concentration)
+    -   +3 Concentration (w/ Either +3 Joust +3 Blessed Hammer)
+    -   +3 Joust (w/ Either +3 Concentration +3 Blessed Hammer)
+    -   Non Eth 0os, 4os, Divine Scepter, +3 Zeal (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Charge)
+    -   +3 Charge (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Zeal 1+ Might)
+    -   +3 Blessed Hammer (w/ Either 1+ Vigor 1+ Holy Shield 1+ Zeal 1+ Concentration)
     -   Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Holy Bolt (w/ Either 1+ Vigor 1+ Holy Shield)
     -   **Lld Sorc Bases:** Non Eth 0os, 4os, Gnarled Staff, Cedar Staff, Battle Staff, Gothic Staff, War Staff, Rune Staff, +3 Blaze (w/ Either +3 Chilling Armor +3 Shiver Armor)
     -   **Cta Pala Bases:** 0os, 5os, War Scepter, Divine Scepter, Caduceus, +3 Holy Shield
-    -   **Chaos Bases:** 0os, 3os, 15Ed, War Fist, 1+ Dragon Flight (w/ +3 Claw and Dagger Mastery +3 Weapon Block), 1+ Dragon Flight (w/ Either +3 Claw and Dagger Mastery +3 Weapon Block)
+    -   **Chaos Bases:** 0os, 3os, 15Ed, War Fist, 1+ Dragon Flight (w/ +3 Claw and Dagger Mastery +3 Weapon Block)
+    -   1+ Dragon Flight (w/ Either +3 Claw and Dagger Mastery +3 Weapon Block)
     -   Eth 0os, 3os, War Fist, 1+ Dragon Flight, 1+ Claw and Dagger Mastery, 10+Ed
 
 
