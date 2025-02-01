@@ -71,7 +71,7 @@ The filter levels are used to determine the level of filtering that is applied t
 
 
 
-# Filter Levels
+### Filter Levels
 
 The Filter Levels Are Used to Determine The Level of Filtering That is Applied to The Loot Filter
 
@@ -149,8 +149,8 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   +3 Lower Resist 1+ Revive +3 Blood Warp
     -   **Leap Attack Bases:** Eth 0os, 5os, 6os, 15Ed, War Pike, Thunder Maul
     -   Eth 0os, 2os, 3os, 4os, 5os, 6os, 15Ed, Archon Staff
-
-    
+    -   **Infinity Bases:** Eth 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)
+    -   **Infinity Bases:** Eth 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)
     
 
 === "Starter Filter Lvl (S10) Info"
