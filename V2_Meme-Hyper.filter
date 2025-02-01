@@ -7720,11 +7720,11 @@ ItemDisplay[6ws (SK59>2 OR SK39>2) (SK65>2 OR SK46>0) NMAG !RW SOCK=0 ILVL>25]: 
 ItemDisplay[6ws SK56>2 SK61>2 NMAG !RW SOCK=6 ILVL>25]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Obsession{%NAME%%CL%%GREEN%Good Obsession base}
 ItemDisplay[6ws SK56>2 SK61>2 NMAG !RW SOCK=0 ILVL>25]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Obsession{%GREEN%Hit 6 sockets for Good Obsession base%CL%%NAME%}
 // Staff CTA / Memory es 3 & shiver 1 & thunder 1 for gg
-ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF !ETH NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%GREEN%Roll 4 open sockets for Memory Base%CL%%NAME%}
-ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF !ETH NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
-ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF !ETH NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
-ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF !ETH NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
-ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>2 !INF !ETH NMAG !RW SOCK=4]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%GREEN%Roll 4 open sockets for Memory Base%CL%%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>2 !INF NMAG !RW SOCK=4]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
 // Claws
 // Venom Pre-buff
 ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) SK278>2 (SK258>2 OR SK267>2 OR SK277>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%GG Venom{%NAME%%CL%%PURPLE%GG Venom Pre-buff}
