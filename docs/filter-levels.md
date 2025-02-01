@@ -108,8 +108,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Flickering Flame Bases:** 0os, 3os, Pelts, +3 Molten Boulder +3 Volcano (w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Grizzly)
     -   +3 Fury +3 Werewolf +3 Lycanthropy, +3 Maul +3 Hunger +3 Lycanthropy
     -   **Avatar Druid Plague Bases:** 0os, 3os, Clubs, 2+ Armageddon +2 Hurricane (w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)
-    -   +3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust)
-    -   (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)
+    -   +3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust), (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)
 
 
 
