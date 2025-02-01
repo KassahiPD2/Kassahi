@@ -152,6 +152,23 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Infinity Bases:** 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)
     -   **Obsession Bases:** 0os, 6os, Archon Staff, +3 Blizzard or +3 Ice Bolt, (w/ Either +3 Cold Mastery 1+ Blaze)
     -   0os, 6os, Archon Staff, +3 Meteor +3 Fire Mastery
+    -   **Cta Sorc Bases:** 0os, 5os, War Staff, Rune Staff, Archon Staff, +3 Energy Shield 1+ Shiver Armor 1+ Thunder Storm
+    -   1+ Shiver Armor 1+ Chilling Armor
+    -   +3 Energy Shield +3 Shiver Armor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 === "Starter Filter Lvl (S10) Info"
 
