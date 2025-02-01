@@ -155,9 +155,9 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Cta Sorc Bases:** 0os, 5os, War Staff, Rune Staff, Archon Staff, +3 Energy Shield 1+ Shiver Armor 1+ Thunder Storm
     -   1+ Shiver Armor 1+ Chilling Armor
     -   +3 Energy Shield +3 Shiver Armor
-
-
-
+    -   **Venom Pre-Buff Bases:** 0os, 3os, Claws, +3 Venom (w/ Either +3 Burst of Speed +3 Fade +3 Blade Shield)
+    -   **Venom Blade Dance Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Claw and Dagger Mastery +3 Weapon Block
+    -   **Venom Blade Sentinal Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Blade Sentinel +3 Weapon Block +3 Dragon Flight
 
 
 
