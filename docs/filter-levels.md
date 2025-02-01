@@ -142,12 +142,13 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Chaos Bases:** 0os, 3os, 15Ed, War Fist, 1+ Dragon Flight (w/ +3 Claw and Dagger Mastery +3 Weapon Block)
     -   1+ Dragon Flight (w/ Either +3 Claw and Dagger Mastery +3 Weapon Block)
     -   Eth 0os, 3os, War Fist, 1+ Dragon Flight, 1+ Claw and Dagger Mastery, 10+Ed
-
-
-
-
-
-
+    -   **Chest Bases:** Eth 0os, 4os, Elite Chests, 900+Def
+    -   **Dominion Bases:** 0os, 2os, Wands, +3 Fire Golem 1+ Bone Armor (w/ Either 1+ Lower Resist 1+ Revive)
+    -   +3 Fire Golem (w/ Either 1+ Blood Warp 1+ Bone Armor 1+ Lower Resist 1+ Revive)
+    -   +3 Lower Resist 1+ Bone Armor (w/ Either 1+ Revive 1+ Blood Warp)
+    -   +3 Lower Resist 1+ Revive +3 Blood Warp
+    -   **Leap Attack Bases:** Eth 0os, 5os, 6os, 15Ed, War Pike, Thunder Maul
+    -   Eth 0os, 2os, 3os, 4os, 5os, 6os, 15Ed, Archon Staff
 
     
     
