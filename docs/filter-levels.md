@@ -171,27 +171,25 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Venom Pre-Buff Bases:** 0os, 3os, Claws, +3 Venom (w/ Either +3 Burst of Speed +3 Fade +3 Blade Shield)
     -   **Venom Blade Dance Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Claw and Dagger Mastery +3 Weapon Block
     -   **Venom Blade Sentinal Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Blade Sentinel +3 Weapon Block +3 Dragon Flight
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    -   **Helmet Bases:** Eth 0os, 3os, 10+Ed, Demonhead, Bone Visage, Diadem, Spired Helm, Corona
+    -   **Chest Bases:** Eth 0os, 3os, 4os, 10+Ed, Mage Plate, Elite Chests
+    -   **Shield Bases:** Eth 0os, 4os, 10+Ed, Monarch, Aegis, Ward
+    -   **Pala Shield Bases:** Non Eth 0os, 3os, 4os, 25+All Res, Elite Pala Shields
+    -   60+Ed, Elite Pala Shields
+    -   Eth 0os, 4os, 20+All Res, Elite Pala Shields
+    -   50+Ed, Elite Pala Shields
+    -   **1 Handed Axe Bases:** Eth 0os, 3os, 4os, 5os, 6os, 10+Ed, Ettin Axe, Berserker Axe
+    -   **2 Handed Axe Bases:** Eth 0os, 4os, 5os, 6os, 10+Ed, Decapitator, Champion Axe, Glorious Axe
+    -   **1 Handed Hammer Bases:** Eth 0os, 3os, 10+Ed, Legendary Mallet
+    -   **2 Handed Hammer Bases:** Eth 0os, 5os, 6os, 10+Ed, Ogre Maul, Thunder Maul
+    -   **1 Handed Sword Bases:** Eth 0os, 4os, 5os, 10+Ed, Cryptic Sword
+    -   **2 Handed Sword Bases:** Eth 0os, 3os, 4os, 5os, 6os, 10+Ed, Balrog Blade, Colossus Sword, Colossus Blade
+    -   **Spear/Polearm/Ama Spear Bases:** Eth 0os, 4os, 5os, 6os, 10+Ed, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher
+    -   Eth 0os, 6os, 10+Ed, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   **Staff Bases:** Eth 0os, 2os, 4os, 6os, 10+Ed, Stalagmite, Archon Staff
+    -   **Scepter Bases:** Eth 0os, 3os, 10+Ed, Seraph Rod, Caduceus
+    -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
+    -   **Gold Bases:** 35K, 2 Slot Weapons
 === "Starter Filter Lvl (S10) Info"
 
     ## Shows:
