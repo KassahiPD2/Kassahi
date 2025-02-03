@@ -138,7 +138,14 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   +3 Blessed Hammer (w/ Either 1+ Vigor 1+ Holy Shield 1+ Zeal 1+ Concentration)
     -   Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Holy Bolt (w/ Either 1+ Vigor 1+ Holy Shield)
     -   **Lld Sorc Bases:** Non Eth 0os, 4os, Gnarled Staff, Cedar Staff, Battle Staff, Gothic Staff, War Staff, Rune Staff, +3 Blaze (w/ Either +3 Chilling Armor +3 Shiver Armor)
-    -   **Cta Pala Bases:** 0os, 5os, War Scepter, Divine Scepter, Caduceus, +3 Holy Shield
+    -   **Plague Pala Bases:** 0os, 3os, Scepters, +3 Fist of the Heavens 2+ Holy Bolt
+    -   +3 Blessed Hammer 2+ Concentration
+    -   **Fury Pala Bases:** Eth 0os, 3os, Mighty Scepter, Seraph Rod, Caduceus, 2+ Fanaticism 2+ Zeal
+    -   **Hoj/Doom Pala Bases:** Non Eth 0os, 4os, 5os, Caduceus, 3+ Conviction
+    -   **Phoenix Pala Bases:** 0os, 4os, War Scepter, Divine Scepter, Caduceus, +3 Blessed Hammer 2+ Concentration
+    -   **Eternity Pala Bases:** Eth 0os, 5os, Caduceus, 2+ Fanaticism 2+ Zeal
+    -   **Cta Pala Bases:** 0os, 5os, War Scepter, Divine Scepter, Caduceus, (w/ Either +3 Holy Sword 3+ Holy Shield)
+    -   **Merc Insight/Doom/Beast Bases:** 0os, 5os, War Scepter, Divine Scepter, Caduceus, +3 Prayer
     -   **Chaos Bases:** 0os, 3os, 15Ed, War Fist, 1+ Dragon Flight (w/ +3 Claw and Dagger Mastery +3 Weapon Block)
     -   1+ Dragon Flight (w/ Either +3 Claw and Dagger Mastery +3 Weapon Block)
     -   Eth 0os, 3os, War Fist, 1+ Dragon Flight, 1+ Claw and Dagger Mastery, 10+Ed
@@ -147,6 +154,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   +3 Fire Golem (w/ Either 1+ Blood Warp 1+ Bone Armor 1+ Lower Resist 1+ Revive)
     -   +3 Lower Resist 1+ Bone Armor (w/ Either 1+ Revive 1+ Blood Warp)
     -   +3 Lower Resist 1+ Revive +3 Blood Warp
+    -   +3 Blood Warp +3 Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)
+    -   2+ Blood Warp 2+ Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)
+    -   2+ Blood Warp 1+ Lower Resist 1+ Revive
+    -   +3 Blood Warp 1+ Lower Resist 1+ Bone Armor
+    -   +3 Blood Warp 1+ Revive 1+ Bone Armor
+    -   1+ Bone Armor 1+ Lower Resist 1+ Revive
     -   **Leap Attack Bases:** Eth 0os, 5os, 6os, 15Ed, War Pike, Thunder Maul
     -   Eth 0os, 2os, 3os, 4os, 5os, 6os, 15Ed, Archon Staff
     -   **Infinity Bases:** 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)
@@ -158,6 +171,15 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Venom Pre-Buff Bases:** 0os, 3os, Claws, +3 Venom (w/ Either +3 Burst of Speed +3 Fade +3 Blade Shield)
     -   **Venom Blade Dance Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Claw and Dagger Mastery +3 Weapon Block
     -   **Venom Blade Sentinal Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Blade Sentinel +3 Weapon Block +3 Dragon Flight
+
+
+
+
+
+
+
+
+
 
 
 
