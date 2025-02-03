@@ -189,7 +189,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Staff Bases:** Eth 0os, 2os, 4os, 6os, 10+Ed, Stalagmite, Archon Staff
     -   **Scepter Bases:** Eth 0os, 3os, 10+Ed, Seraph Rod, Caduceus
     -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
-    -   **Gold Bases:** 2 Slot Weapons
+    -   **Gold Bases:** 35K, 2 Slot Weapons
 === "Starter Filter Lvl (S10) Info"
 
     ## Shows:
