@@ -147,6 +147,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   +3 Fire Golem (w/ Either 1+ Blood Warp 1+ Bone Armor 1+ Lower Resist 1+ Revive)
     -   +3 Lower Resist 1+ Bone Armor (w/ Either 1+ Revive 1+ Blood Warp)
     -   +3 Lower Resist 1+ Revive +3 Blood Warp
+    -   +3 Blood Warp +3 Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)
+    -   2+ Blood Warp 2+ Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)
+    -   2+ Blood Warp 1+ Lower Resist 1+ Revive
+    -   +3 Blood Warp 1+ Lower Resist 1+ Bone Armor
+    -   +3 Blood Warp 1+ Revive 1+ Bone Armor
+    -   1+ Bone Armor 1+ Lower Resist 1+ Revive
     -   **Leap Attack Bases:** Eth 0os, 5os, 6os, 15Ed, War Pike, Thunder Maul
     -   Eth 0os, 2os, 3os, 4os, 5os, 6os, 15Ed, Archon Staff
     -   **Infinity Bases:** 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)
@@ -158,16 +164,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Venom Pre-Buff Bases:** 0os, 3os, Claws, +3 Venom (w/ Either +3 Burst of Speed +3 Fade +3 Blade Shield)
     -   **Venom Blade Dance Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Claw and Dagger Mastery +3 Weapon Block
     -   **Venom Blade Sentinal Bases:** 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Blade Sentinel +3 Weapon Block +3 Dragon Flight
-
-
-
-
-
-
-
-
-
-
 
 
 === "Starter Filter Lvl (S10) Info"
