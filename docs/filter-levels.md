@@ -89,8 +89,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   *35%, *A, *T, *TP
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
     -   **Rare:** Any Rare
     -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
     -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
@@ -104,6 +102,17 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
     -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
     -   Class Items Above Shows on All Classes Except Mag Clubs
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    -   
+    
     ## Hides:
     -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
     -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
@@ -113,6 +122,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
     -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
     -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
+    -   **Mag:** Any Other Magic
     -   **Bases:** Any Other Base
 === "Medium Strictness Info"
 
@@ -120,8 +130,11 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name +Notification on Skull
     -   **Filter Lvl 2, 3, 7, 8:** Runes Under 20 +Notification
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
+    -   **Uniq Tier 1:** Wolfhowl, Stalker's Cull, Kalans Legacy, Blackoak Shield, Wizendraw, Magewrath, Widowmaker, Corpsemourn, Titans Grip, Twilights Reflection, Shatterblade, Guardian Angel, Pus Spitter, Que-Hegans Wisdom, Heavenly Garb, Denmother, Wraithskin, Ebonbane, Peasant Crown, The Patriarch, Silks of the Victor, Leviathan, Plague Bearer, Baezils
+    -   **Uniq Tier 0:** Bloodravens Charge, Ursa's Nightmare, Skullders Ire, Black Hades, Goldwrap, Razortail, Gorefoot, Treads of Cthon, Infernostride, Sandstorm Trek, Shadow Dancer, The Hand of Broc, Frostburn, Venom Grip, Ghoulhide, Hellmouth, Biggins Bonnet, Rockstopper, Radaments Sphere, Rune Master, Kuko Shakaku, Endlesshail, Gull Dagger, Viperfork, Chromatic Ire, Djinn Slayer, Gimmershred, Lacerator, Bartucs Cut-Throat, Duskdeep, Ondals Wisdom, Atmas Wail, Blackbogs Sharp, The Jade Tan Do, Venom Ward, Raekor's Virtue, Purgatory, Valkyrie Wing, Windhammer, Titans Revenge, Stoneraven, Arreats Face, Homunculus, Chance Guards, Crown of Thieves, Witchwild String, Eaglehorn, Wizardspike, The Reapers Toll, Ariocs Needle, Ribcracker, Blade of Ali Baba, Odium, Cloudcrack, Jadetalon, Swordguard
+    -   **Uniq Lld:** Twitchthroe, Rattlecage, Silks of the Victor, The Spirit Shroud, Bloodfist, Peasant Crown, Steelclash, Rakescar, Rogues Bow, Bonesnap, Steeldriver, The Iron Jang Bong, Ripsaw, The Patriarch, Goblin Toe, String of Ears, Quetzalcoatl, Magefist, Rockfleece, True Silver
+    -   **Set Tier 1:** Arcannas Flesh, Natalyas Shadow, Natalyas Totem, Natalyas Mark, Hsaru or Hwanin, Laying of Hands, Najs Puzzler, Aldurs Advance, Aldurs Deception, Immortal Kings Will, Immortal Kings Stone Crusher, Immortal Kings Detail, Immortal Kings Forge, Immortal Kings Pillar, Natalyas Soul, Tal Rashas Lidless Eye, Tal Rashas Horadric Crest, Tal Rashas Fine-Spun Cloth, Trang-Ouls Guise, Immortal Kings Soul Cage, Guillaumes Face, Mavinas True Sight, Mavinas Caster, Mavinas Embrace, Mavinas Icy Clutch, Mavinas Tenet, Tal Rashas Guardianship, Rite of Passage, Haemosus Adament, Aldurs Rhythm, Najs Circlet, Najs Light Plate, Dangoons Teaching
+    -   **Set Lld:** Cow King or Sander, Sanders Superstition, Sanders Taboo, Deaths Hand, Deaths Guard
     -   **Non Eth Rare:** Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
     -   **Eth Rare:** Any Weapons
     -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
@@ -300,7 +313,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
     -   **Gold Bases:** 35K, 2 Slot Weapons
     -   **Cow Bases:** Wirt's Leg
-    
     ## Hides:
     -   **Filter Lvl 12:** Flawless Gems
     -   **Uniq:** lld, T0, T1, T2, +Non Highlighted
