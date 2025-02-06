@@ -85,9 +85,118 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 ![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
-=== "Drops Showing on All Filter Lvls"
+=== "Starter Filter Lvl (S10) Info"
 
     ## Shows:
+    -   *35%, *A, *T, *TP
+    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
+    -   **Set:** lld, T1, T2, T3, GG
+    -   **Rare:** Any Rare
+    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
+    -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
+    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
+    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
+    -   **Dru:** Mag & Rare Clubs, Pelts +Notification
+    -   **Bar:** Mag & Rare Bar Helms +Notification
+    -   **Pala:** Mag & Rare Pala Shields, Scepters +Notification
+    -   **Necro:** Mag & Rare Necro Shields, Wands +Notification
+    -   **Sin:** Any Eth Mag Claws, Non Eth Mag Suwayyah, War Fist, Scissors Suwayyah Families, Rare Claws +Notification
+    -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
+    -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
+    -   Class Items Above Shows on All Classes Except Mag Clubs
+    ## Hides:
+    -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
+    -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
+    -   *Mana 1 at Lvl 8, *Mana 2 at Lvl 16, *Mana 3 at Lvl 20, *Mana 4 at Lvl 60
+    -   *S at Lvl 20, *ID at Lvl 35, *Key at Lvl 30
+    -   *F1 at Lvl 10, *F2 at Lvl 20, *F3 at Lvl 40, *P1 at Lvl 10, *P2 at Lvl 20, *P3 at Lvl 40
+    -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
+    -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
+    -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
+    -   **Bases:** Any Other Base
+=== "Medium Strictness Info"
+
+    ## Shows:
+    -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
+    -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name +Notification on Skull
+    -   **Filter Lvl 2, 3, 7, 8:** Runes Under 20 +Notification
+    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
+    -   **Set:** lld, T1, T2, T3, GG
+    -   **Non Eth Rare:** Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
+    -   **Eth Rare:** Any Weapons
+    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
+    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
+    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
+    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
+    -   **Pala:** Rare Normal & Pala Shields +Notification
+    -   **Dru:** Mag & Rare Clubs, Pelts +Notification
+    -   **Bar:** Mag & Rare Bar Helms +Notification
+    -   **Pala:** Mag Pala Shields, Eth Scepters, Rare Pala Shields, Scepters +Notification
+    -   **Necro:** Mag Necro Shields, Eth Wands, Rare Necro Shields, Wands +Notification
+    -   **Sin:** Any Eth Mag Claws, Non Eth Mag Suwayyah, War Fist, Scissors Suwayyah Families, Rare Claws +Notification
+    -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
+    -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
+    -   Class Items Above Shows on All Classes
+    ## Hides:
+    -   **Rare:** Any Other Rare
+    -   **Mag:** Any Other Magic
+    -   **Bases:** Any Other Base
+=== "Extra Strictness Info"
+
+    ## Shows:
+    -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
+    -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name +Notification on Skull
+    -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Runes Under 20
+    -   **Uniq Tier 2:** Cerebus Bite, Ravenlore, The Oculus, Skin of the Vipermagi, Thundergods Vigor, Waterwalk, Silkweave, Magefist, Gravepalm, Gerkes Sanctuary, Head Hunters Glory, Ghostflame, Grims Burning Dead Grim, Doombringer, Suicide Branch, Boneshade Lich, Toothrow, Merman's Spocket, Vampire Gaze, Marrowwalk, Buriza-Do Kyanon
+    -   **Set Tier 2:** Cow Kings Horns, Cow Kings Hide, Taebaeks Glory, Griswolds Heart, Griswolds Valor, Aldurs Stony Gaze, Set Amulet
+    -   **Non Eth Rare:** Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
+    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
+    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Charms, Jewels +Notification
+    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
+    -   **Mag:** Tiara, Diadem +Notification
+    -   **Pala:** Rare Normal & Pala Shields +Notification
+    -   **Imbue Bases:** Diadem
+    -   **Helmet Bases:** Non Eth 0os, 3os, 10+Ed, Demonhead, Bone Visage, Winged Helm, Diadem
+    -   Eth 0os, 3os, Demonhead, Bone Visage, Diadem, Spired Helm, Corona
+    -   **Chest Bases:** Non Eth 0os, 3os, 4os, 10+Ed, Ancient Armor, Mage Plate, Elite Chests
+    -   Eth 0os, 2os, 3os, 4os, Ancient Armor, Mage Plate, Elite Chests
+    -   **Shield Bases:** Non Eth 0os, 4os, 10+Ed, Monarch, Aegis, Ward
+    -   Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **1 Handed Axe Bases:** Non Eth 0os, 2os, 5os, 6os, 10+Ed, Ettin Axe, Berserker Axe
+    -   Non Eth 0os, 5os, 10+Ed, War Spike
+    -   Eth 0os, 3os, 5os, 6os, Ettin Axe, Berserker Axe
+    -   **2 Handed Axe Bases:** Non Eth 0os, 6os, 10+Ed, Decapitator, Champion Axe, Glorious Axe
+    -   Eth 0os, 4os, 5os, 6os, Decapitator, Champion Axe, Glorious Axe
+    -   **1 Handed Hammer Bases:** Non Eth 0os, 2os, 3os, 10+Ed, Legendary Mallet
+    -   Eth 0os, 3os, Legendary Mallet
+    -   **2 Handed Hammer Bases:** Non Eth 0os, 5os, 6os, 10+Ed, Ogre Maul, Thunder Maul
+    -   Eth 0os, 5os, 6os, Ogre Maul, Thunder Maul
+    -   **1 Handed Sword Bases:** Non Eth 0os, 4os, 5os, 6os, 10+Ed, Phase Blade
+    -   Eth 0os, 4os, 5os, Cryptic Sword
+    -   **2 Handed Sword Bases:** Non Eth 0os, 2os, 5os, 6os, 10+Ed, Balrog Blade, Colossus Sword, Colossus Blade
+    -   Eth 0os, 3os, 4os, 5os, 6os, Balrog Blade, Colossus Sword, Colossus Blade
+    -   Eth 0os, 5os, Zweihander
+    -   **Dagger Bases:** Non Eth 0os, 2os, 3os, 10+Ed, Bone Knife, Fanged Knife (w/ Either +3 Poison Strike +3 Tiger Strike +3 Blade Sentinel +3 Fists of Fire +3 Cobra Strike +3 Blade Fury +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike)
+    -   **Spear/Polearm/Ama Spear Bases:** Eth 0os, 4os, 5os, 6os, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher
+    -   Non Eth 0os, 4os, 5os, 10+Ed, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   **Purity Bases:** Non Eth 3os, Hell Difficulty, Elite Spear, Elite polearm
+    -   **Insight Bases:** Non Eth 4os, Hell Difficulty, Elite Spear, Elite polearm
+    -   **Bow/Xbow/Ama Bow Bases:** Non Eth 0os, 4os, 5os, 6os, 10+Ed, Gorgon Crossbow, Colossus Crossbow, Demon Crossbow
+    -   Non Eth 0os, 4os, 5os, 6os, 10+Ed, +3Bow, Matriarchal Bow, Grand Matron Bow
+    -   **Staff Bases:** Eth 0os, 2os, 4os, 5os, 6os, Stalagmite, Archon Staff
+    -   **Scepter Bases:** Non Eth 0os, 2os, 10+Ed, Seraph Rod, Caduceus
+    -   **Claw Bases:** Eth 0os, 3os, Suwayyah, War Fist, Scissors Suwayyah
+    ## Hides:
+    -   **Filter Lvl 6, 11:** Flawless Gems
+    -   **Uniq:** lld, T0, T1, +Non Highlighted
+    -   **Set:** lld, T1, +Non Highlighted
+    -   **Rare:** Any Other Rare
+    -   **Mag:** Any Other Magic
+    -   **Bases:** Any Other Base
+=== "Extreme Strictness Info"
+
+    ## Shows:
+    -   **Filter Lvl 12:** Runes Under 20 '' Number '' Name Except 3, 5, 8, 9, 11, 12
     -   Pvp Ear, Quest Items, Perfect Gems, Runes, Essences, token, Uber/Boss mats, PD2 Items, Maps
     -   **Uniqs:** Anni, Torch, Gheed
     -   **Uniq Boss Items:** The Third Eye, Cage of the Unsullied, Band of Skulls, Aidans Scar, Cage of the Unsullied, Dark Abyss, Band of Skulls, Itheraels Path, Overlords Helm, Hadriels Hand
@@ -190,98 +299,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Scepter Bases:** Eth 0os, 3os, 10+Ed, Seraph Rod, Caduceus
     -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
     -   **Gold Bases:** 35K, 2 Slot Weapons
-=== "Starter Filter Lvl (S10) Info"
-
-    ## Shows:
-    -   *35%, *A, *T, *TP
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
-    -   **Rare:** Any Rare
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
-    -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
-    -   **Dru:** Mag & Rare Clubs, Pelts +Notification
-    -   **Bar:** Mag & Rare Bar Helms +Notification
-    -   **Pala:** Mag & Rare Pala Shields, Scepters +Notification
-    -   **Necro:** Mag & Rare Necro Shields, Wands +Notification
-    -   **Sin:** Any Eth Mag Claws, Non Eth Mag Suwayyah, War Fist, Scissors Suwayyah Families, Rare Claws +Notification
-    -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
-    -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
-    -   Class Items Above Shows on All Classes Except Mag Clubs
-    ## Hides:
-    -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
-    -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
-    -   *Mana 1 at Lvl 8, *Mana 2 at Lvl 16, *Mana 3 at Lvl 20, *Mana 4 at Lvl 60
-    -   *S at Lvl 20, *ID at Lvl 35, *Key at Lvl 30
-    -   *F1 at Lvl 10, *F2 at Lvl 20, *F3 at Lvl 40, *P1 at Lvl 10, *P2 at Lvl 20, *P3 at Lvl 40
-    -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
-    -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
-    -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
-    -   
-    -   
-=== "Medium Strictness Info"
-
-    ## Shows:
-    -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
-    -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name +Notification on Skull
-    -   **Filter Lvl 2, 3, 7, 8:** Runes Under 20 +Notification
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
-    -   **Non Eth Rare:** Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
-    -   **Eth Rare:** Any Weapons
-    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
-    -   **Pala:** Rare Normal & Pala Shields +Notification
-    -   **Dru:** Mag & Rare Clubs, Pelts +Notification
-    -   **Bar:** Mag & Rare Bar Helms +Notification
-    -   **Pala:** Mag Pala Shields, Eth Scepters, Rare Pala Shields, Scepters +Notification
-    -   **Necro:** Mag Necro Shields, Eth Wands, Rare Necro Shields, Wands +Notification
-    -   **Sin:** Any Eth Mag Claws, Non Eth Mag Suwayyah, War Fist, Scissors Suwayyah Families, Rare Claws +Notification
-    -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
-    -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
-    -   Class Items Above Shows on All Classes
-    ## Hides:
-    -   **Rare:** Any Other Rare
-    -   **Mag:** Any Other Magic
-=== "Extra Strictness Info"
-
-    ## Shows:
-    -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
-    -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name +Notification on Skull
-    -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Runes Under 20
-    -   **Uniq:** T2, T3, GG, Boss Items, Charms
-    -   **Set:** T2, T3, GG
-    -   **Non Eth Rare:** Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
-    -   **Eth Rare:** 
-    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Charms, Jewels +Notification
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Tiara, Diadem +Notification
-    -   **Pala:** Rare Normal & Pala Shields +Notification
-    ## Hides:
-    -   **Filter Lvl 6, 11:** Flawless Gems
-    -   **Uniq:** lld, T0, T1, +Non Highlighted
-    -   **Set:** lld, T1, +Non Highlighted
-    -   **Rare:** Any Other Rare
-    -   **Mag:** Any Other Magic
-=== "Extreme Strictness Info"
-
-    ## Shows:
-    -   **Filter Lvl 12:** Runes Under 20 '' Number '' Name Except 3, 5, 8, 9, 11, 12
-    -   **Uniq:** T3, GG, Boss Items, Charms
-    -   **Set:** T3, GG
-    -   **Non Eth Rare:** Gloves, Boots, Amulets, Rings, Jewels, Necro Shields, Dru Pelts, Colossus Crossbow Family +Notification
-    -   **Eth Rare:** Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families +Notification
-    -   **Rare:** Circlets +Notification
-    -   **Non Eth Mag:** Charms, Jewels +Notification
-    -   **Eth Mag:** 
-    -   **Mag:** 
+    -   **Cow Bases:** Wirt's Leg
+    
     ## Hides:
     -   **Filter Lvl 12:** Flawless Gems
     -   **Uniq:** lld, T0, T1, T2, +Non Highlighted
     -   **Set:** lld, T1, T2, +Non Highlighted
     -   **Rare:** Any Other Rare
     -   **Mag:** Any Other Magic
+    -   **Bases:** Any Other Base
