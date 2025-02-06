@@ -90,10 +90,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     ## Shows:
     -   *35%, *A, *T, *TP
     -   **Rare:** Any Rare
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
     -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
     -   **Dru:** Mag & Rare Clubs, Pelts +Notification
     -   **Bar:** Mag & Rare Bar Helms +Notification
     -   **Pala:** Mag & Rare Pala Shields, Scepters +Notification
@@ -102,12 +99,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
     -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
     -   Class Items Above Shows on All Classes Except Mag Clubs
-    -   
-    -   
-    -   
-    -   
-    -   
-    -   
+    -   **Nadir/Lore Bases -Maps:** Non Eth 0os, 2os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Rabies +3 Fire Claws +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **Nadir Bases:** Non Eth 2os, Any Helmet, Until Lvl 20
+    -   **Lore Bases:** Non Eth 2os, Any Helmet, Until Lvl 40
+    -   **Radiance/Wisdom Bases -Maps:** Non Eth 3os, Normal Helmet, Death Mask, Grim Helm
+    -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Feral Rage +3 Maul +3 Fury)
+    -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Barb Helmet, (w/ Either +3 Bash +3 Double Swing +3 Stun +3 Double Throw +3 Leap Attack +3 Concentrate +3 Frenzy +3 Whirlwind +3 Berserk +3 War Cry)
     -   
     -   
     -   
@@ -123,6 +120,21 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
     -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
     -   **Mag:** Any Other Magic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     -   **Bases:** Any Other Base
 === "Medium Strictness Info"
 
@@ -137,10 +149,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Set Lld:** Cow King or Sander, Sanders Superstition, Sanders Taboo, Deaths Hand, Deaths Guard
     -   **Non Eth Rare:** Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
     -   **Eth Rare:** Any Weapons
-    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
+    -   **Mag:** Circlet, Coronet, +Notification
     -   **Pala:** Rare Normal & Pala Shields +Notification
     -   **Dru:** Mag & Rare Clubs, Pelts +Notification
     -   **Bar:** Mag & Rare Bar Helms +Notification
