@@ -147,15 +147,45 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name +Notification on Skull
     -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Runes Under 20
-    -   **Uniq:** T2, T3, GG, Boss Items, Charms
-    -   **Set:** T2, T3, GG
+    -   **Uniq Tier 2:** Cerebus Bite, Ravenlore, The Oculus, Skin of the Vipermagi, Thundergods Vigor, Waterwalk, Silkweave, Magefist, Gravepalm, Gerkes Sanctuary, Head Hunters Glory, Ghostflame, Grims Burning Dead Grim, Doombringer, Suicide Branch, Boneshade Lich, Toothrow, Merman's Spocket, Vampire Gaze, Marrowwalk, Buriza-Do Kyanon
+    -   **Set Tier 2:** Cow Kings Horns, Cow Kings Hide, Taebaeks Glory, Griswolds Heart, Griswolds Valor, Aldurs Stony Gaze, Set Amulet
     -   **Non Eth Rare:** Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
-    -   **Eth Rare:** 
     -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
     -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Charms, Jewels +Notification
     -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
     -   **Mag:** Tiara, Diadem +Notification
     -   **Pala:** Rare Normal & Pala Shields +Notification
+    -   **Imbue Bases:** Diadem
+    -   **Helmet Bases:** Non Eth 0os, 3os, 10+Ed, Demonhead, Bone Visage, Winged Helm, Diadem
+    -   Eth 0os, 3os, Demonhead, Bone Visage, Diadem, Spired Helm, Corona
+    -   **Chest Bases:** Non Eth 0os, 3os, 4os, 10+Ed, Ancient Armor, Mage Plate, Elite Chests
+    -   Eth 0os, 2os, 3os, 4os, Ancient Armor, Mage Plate, Elite Chests
+    -   **Shield Bases:** Non Eth 0os, 4os, 10+Ed, Monarch, Aegis, Ward
+    -   Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **1 Handed Axe Bases:** Non Eth 0os, 2os, 5os, 6os, 10+Ed, Ettin Axe, Berserker Axe
+    -   Non Eth 0os, 5os, 10+Ed, War Spike
+    -   Eth 0os, 3os, 5os, 6os, Ettin Axe, Berserker Axe
+    -   **2 Handed Axe Bases:** Non Eth 0os, 6os, 10+Ed, Decapitator, Champion Axe, Glorious Axe
+    -   Eth 0os, 4os, 5os, 6os, Decapitator, Champion Axe, Glorious Axe
+    -   **1 Handed Hammer Bases:** Non Eth 0os, 2os, 3os, 10+Ed, Legendary Mallet
+    -   Eth 0os, 3os, Legendary Mallet
+    -   **2 Handed Hammer Bases:** Non Eth 0os, 5os, 6os, 10+Ed, Ogre Maul, Thunder Maul
+    -   Eth 0os, 5os, 6os, Ogre Maul, Thunder Maul
+    -   **1 Handed Sword Bases:** Non Eth 0os, 4os, 5os, 6os, 10+Ed, Phase Blade
+    -   Eth 0os, 4os, 5os, Cryptic Sword
+    -   **2 Handed Sword Bases:** Non Eth 0os, 2os, 5os, 6os, 10+Ed, Balrog Blade, Colossus Sword, Colossus Blade
+    -   Eth 0os, 3os, 4os, 5os, 6os, Balrog Blade, Colossus Sword, Colossus Blade
+    -   Eth 0os, 5os, Zweihander
+    -   **Dagger Bases:** Non Eth 0os, 2os, 3os, 10+Ed, Bone Knife, Fanged Knife (w/ Either +3 Poison Strike +3 Tiger Strike +3 Blade Sentinel +3 Fists of Fire +3 Cobra Strike +3 Blade Fury +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike)
+    -   **Spear/Polearm/Ama Spear Bases:** Eth 0os, 4os, 5os, 6os, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher
+    -   Non Eth 0os, 4os, 5os, 10+Ed, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   **Purity Bases:** Non Eth 3os, Hell Difficulty, Elite Spear, Elite polearm
+    -   **Insight Bases:** Non Eth 4os, Hell Difficulty, Elite Spear, Elite polearm
+    -   **Bow/Xbow/Ama Bow Bases:** Non Eth 0os, 4os, 5os, 6os, 10+Ed, Gorgon Crossbow, Colossus Crossbow, Demon Crossbow
+    -   Non Eth 0os, 4os, 5os, 6os, 10+Ed, +3Bow, Matriarchal Bow, Grand Matron Bow
+    -   **Staff Bases:** Eth 0os, 2os, 4os, 5os, 6os, Stalagmite, Archon Staff
+    -   **Scepter Bases:** Non Eth 0os, 2os, 10+Ed, Seraph Rod, Caduceus
+    -   **Claw Bases:** Eth 0os, 3os, Suwayyah, War Fist, Scissors Suwayyah
     ## Hides:
     -   **Filter Lvl 6, 11:** Flawless Gems
     -   **Uniq:** lld, T0, T1, +Non Highlighted
@@ -269,6 +299,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Scepter Bases:** Eth 0os, 3os, 10+Ed, Seraph Rod, Caduceus
     -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
     -   **Gold Bases:** 35K, 2 Slot Weapons
+    -   **Cow Bases:** Wirt's Leg
     
     ## Hides:
     -   **Filter Lvl 12:** Flawless Gems
