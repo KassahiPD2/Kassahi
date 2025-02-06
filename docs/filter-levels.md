@@ -113,8 +113,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
     -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
     -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
-    -   
-    -   
+    -   **Bases:** Any Other Base
 === "Medium Strictness Info"
 
     ## Shows:
@@ -141,6 +140,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     ## Hides:
     -   **Rare:** Any Other Rare
     -   **Mag:** Any Other Magic
+    -   **Bases:** Any Other Base
 === "Extra Strictness Info"
 
     ## Shows:
@@ -162,6 +162,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Set:** lld, T1, +Non Highlighted
     -   **Rare:** Any Other Rare
     -   **Mag:** Any Other Magic
+    -   **Bases:** Any Other Base
 === "Extreme Strictness Info"
 
     ## Shows:
