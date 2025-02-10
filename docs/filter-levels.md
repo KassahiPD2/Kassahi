@@ -105,10 +105,49 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Radiance/Wisdom Bases -Maps:** Non Eth 3os, Normal Helmet, Death Mask, Grim Helm
     -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Feral Rage +3 Maul +3 Fury)
     -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Barb Helmet, (w/ Either +3 Bash +3 Double Swing +3 Stun +3 Double Throw +3 Leap Attack +3 Concentrate +3 Frenzy +3 Whirlwind +3 Berserk +3 War Cry)
-    -   
-    -   
-    -   
-    -   
+    -   **Delirium Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Rabies +3 Fire Claws +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   Non Eth 0os, 3os, Diadem, Bone Visage
+    -   **Stealth Bases:** Non Eth 2os, Chests, Until Lvl 20
+    -   **Smoke Bases:** Non Eth 2os, Cuirass, Mage Plate, Until Lvl 80
+    -   **Prudence Bases:** Eth 2os, Cuirass, Mage Plate, Until Lvl 80
+    -   **Class Chest Bases:** Non Eth 3os, Normal Chests, Until Lvl 60
+    -   **Class Chest Bases -Maps:** Non Eth 3os, Exceptional, Elite Chests
+    -   **Stone Bases -Maps:** Eth 4os, Dusk Shroud, Wyrmhide, Scarab Husk, Archon Plate
+    -   **Rhyme/Splendor Pala Bases:** Non Eth 2os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Rhyme/Splendor Pala Bases -Maps:** Non Eth 2os, 15+All Res, Pala Shields
+    -   **Rhyme/Splendor Necro Bases -Maps:** Non Eth 0os, 2os, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Rhyme/Splendor Bases:** Non Eth 2os, Large Shield, Kite Shield, Spiked Shield, Bone Shield, Until Lvl 80
+    -   **Splendor Bases -Maps:** Non Eth 0os, 2os, Heater, Troll Nest
+    -   **Ancient's Pledge/Sanctuary Pala Bases:** Non Eth 3os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Ancient's Pledge/Sanctuary Pala Bases -Maps:** Non Eth 3os, 15+All Res, Pala Shields
+    -   **Ancient's Pledge Bases:** Non Eth 0os, 3os, Large Shield, Kite Shield, Until Lvl 40
+    -   **Ancient's Pledge Necro Bases -Maps:** Non Eth 0os, 3os, Exceptional, Elite Necro Shields
+    -   **Sanctuary Bases:** Non Eth 3os, Tower Shield, Until Lvl 80
+    -   **Sanctuary Bases -Maps:** Non Eth 0os, 3os, Blade Barrier, Troll Nest
+    -   **Spirit Pala Bases -Maps:** Non Eth 0os, 4os, 15+All Res, Pala Shields
+    -   **Spirit Bases -Maps:** Non Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **Steel Bases:** Non Eth 2os, Rakescar, Long Sword, War Sword, Flamberge, Claws, Blade Talons, Scissors Katar, Until Lvl 40
+    -   **Leaf Bases:** 0os, 2os, Normal Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra) Until Lvl 40
+    -   0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra), Until Lvl 80
+    -   **Leaf Bases -Maps:** 0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     ## Hides:
     -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
@@ -120,21 +159,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
     -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
     -   **Mag:** Any Other Magic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     -   **Bases:** Any Other Base
 === "Medium Strictness Info"
 
