@@ -130,20 +130,20 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Leaf Bases:** 0os, 2os, Normal Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra) Until Lvl 40
     -   0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra), Until Lvl 80
     -   **Leaf Bases -Maps:** 0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    -   **Zephyr Bases:** Non Eth 0os, 2os, Heavy Crossbow, Repeating Crossbow, Stag Bow, Reflex Bow, Until Lvl 40
+    -   **Neophyte Sorc Bases -Maps:** 0os, 2os, Orbs, Normal Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Neophyte Sin Bases -Maps:** 0os, 2os, Normal, Exceptional Claws, (w/ Either +3 Psychic Hammer +3 Mind Blast)
+    -   **Neophyte Pala Bases -Maps:** 0os, 2os, Scepters, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Fist of the Heavens)
+    -   **Neophyte Druid Bases -Maps:** 0os, 2os, Clubs, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **White Bases -Maps:** 0os, 2os, Wands, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Edge Bases:** Non Eth 0os, 3os, Heavy Crossbow, Repeating Crossbow, Stag Bow, Reflex Bow, Until Lvl 40
+    -   **Black Bases:** Non Eth 0os, 3os, Jagged Star, Knout, Battle Hammer, Greater Claws, Greater Talons, Until Lvl 80
+    -   **Melody Bases -Maps:** Non Eth 0os, 3os, +3Bow, Ashwood Bow, Ceremonial Bow, Matriarchal Bow
+    -   Non Eth 0os, 3os, Ballista, Chu-Ko-Nu
+    -   **Lawbringer/Crescent Moon Bases -Maps:** Non Eth 0os, 3os, Phase Blade
+    -   **Lawbringer Bases -Maps:** 0os, 3os, Legend Sword
+    -   **Venom Bases -Maps:** Non Eth 0os, 3os, Kris, Cinquedeas, (w/ Either +3 Poison Strike +3 Cobra Strike)
+    -   **Venom Bases -Maps:** Non Eth 0os, 3os, Greater Claws, Greater Talons, Feral Claws, Runic Talons, (w/ +3 Cobra Strike)
 
 
 
