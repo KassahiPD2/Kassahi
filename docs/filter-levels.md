@@ -89,13 +89,8 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   *35%, *A, *T, *TP
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
     -   **Rare:** Any Rare
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
     -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
     -   **Dru:** Mag & Rare Clubs, Pelts +Notification
     -   **Bar:** Mag & Rare Bar Helms +Notification
     -   **Pala:** Mag & Rare Pala Shields, Scepters +Notification
@@ -104,6 +99,118 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Sorc:** Mag & Rare Dimensional Shard, Archon Staff Families +Notification
     -   **Ama:** Mag & Rare Ama Weapons, Rare Arrows, Bolts +Notification
     -   Class Items Above Shows on All Classes Except Mag Clubs
+    -   **Nadir/Lore Bases -Maps:** Non Eth 0os, 2os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Rabies +3 Fire Claws +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **Nadir Bases:** Non Eth 2os, Any Helmet, Until Lvl 20
+    -   **Lore Bases:** Non Eth 2os, Any Helmet, Until Lvl 40
+    -   **Radiance/Wisdom Bases -Maps:** Non Eth 3os, Normal Helmet, Death Mask, Grim Helm
+    -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Feral Rage +3 Maul +3 Fury)
+    -   **Radiance Bases -Maps:** Non Eth 0os, 3os, Barb Helmet, (w/ Either +3 Bash +3 Double Swing +3 Stun +3 Double Throw +3 Leap Attack +3 Concentrate +3 Frenzy +3 Whirlwind +3 Berserk +3 War Cry)
+    -   **Delirium Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Rabies +3 Fire Claws +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   Non Eth 0os, 3os, Diadem, Bone Visage
+    -   **Stealth Bases:** Non Eth 2os, Chests, Until Lvl 20
+    -   **Smoke Bases:** Non Eth 2os, Cuirass, Mage Plate, Until Lvl 80
+    -   **Prudence Bases:** Eth 2os, Cuirass, Mage Plate, Until Lvl 80
+    -   **Class Chest Bases:** Non Eth 3os, Normal Chests, Until Lvl 60
+    -   **Class Chest Bases -Maps:** Non Eth 3os, Exceptional, Elite Chests
+    -   **Stone Bases -Maps:** Eth 4os, Dusk Shroud, Wyrmhide, Scarab Husk, Archon Plate
+    -   **Rhyme/Splendor Pala Bases:** Non Eth 2os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Rhyme/Splendor Pala Bases -Maps:** Non Eth 2os, 15+All Res, Pala Shields
+    -   **Rhyme/Splendor Necro Bases -Maps:** Non Eth 0os, 2os, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Rhyme/Splendor Bases:** Non Eth 2os, Large Shield, Kite Shield, Spiked Shield, Bone Shield, Until Lvl 80
+    -   **Splendor Bases -Maps:** Non Eth 0os, 2os, Heater, Troll Nest
+    -   **Ancient's Pledge/Sanctuary Pala Bases:** Non Eth 3os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Ancient's Pledge/Sanctuary Pala Bases -Maps:** Non Eth 3os, 15+All Res, Pala Shields
+    -   **Ancient's Pledge Bases:** Non Eth 0os, 3os, Large Shield, Kite Shield, Until Lvl 40
+    -   **Ancient's Pledge Necro Bases -Maps:** Non Eth 0os, 3os, Exceptional, Elite Necro Shields
+    -   **Sanctuary Bases:** Non Eth 3os, Tower Shield, Until Lvl 80
+    -   **Sanctuary Bases -Maps:** Non Eth 0os, 3os, Blade Barrier, Troll Nest
+    -   **Spirit Pala Bases -Maps:** Non Eth 0os, 4os, 15+All Res, Pala Shields
+    -   **Spirit Bases -Maps:** Non Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **Steel Bases:** Non Eth 2os, Rakescar, Long Sword, War Sword, Flamberge, Claws, Blade Talons, Scissors Katar, Until Lvl 40
+    -   **Leaf Bases:** 0os, 2os, Normal Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra) Until Lvl 40
+    -   0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra), Until Lvl 80
+    -   **Leaf Bases -Maps:** 0os, 2os, Exceptional Staff, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Hydra +3 Combustion +3 Lesser Hydra)
+    -   **Zephyr Bases:** Non Eth 0os, 2os, Heavy Crossbow, Repeating Crossbow, Stag Bow, Reflex Bow, Until Lvl 40
+    -   **Neophyte Sorc Bases -Maps:** 0os, 2os, Orbs, Normal Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Neophyte Sin Bases -Maps:** 0os, 2os, Normal, Exceptional Claws, (w/ Either +3 Psychic Hammer +3 Mind Blast)
+    -   **Neophyte Pala Bases -Maps:** 0os, 2os, Scepters, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Fist of the Heavens)
+    -   **Neophyte Druid Bases -Maps:** 0os, 2os, Clubs, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **White Bases -Maps:** 0os, 2os, Wands, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Edge Bases:** Non Eth 0os, 3os, Heavy Crossbow, Repeating Crossbow, Stag Bow, Reflex Bow, Until Lvl 40
+    -   **Black Bases:** Non Eth 0os, 3os, Jagged Star, Knout, Battle Hammer, Greater Claws, Greater Talons, Until Lvl 80
+    -   **Melody Bases -Maps:** Non Eth 0os, 3os, +3Bow, Ashwood Bow, Ceremonial Bow, Matriarchal Bow
+    -   Non Eth 0os, 3os, Ballista, Chu-Ko-Nu
+    -   **Lawbringer/Crescent Moon Bases -Maps:** Non Eth 0os, 3os, Phase Blade
+    -   **Lawbringer Bases -Maps:** 0os, 3os, Legend Sword
+    -   **Venom Bases -Maps:** Non Eth 0os, 3os, Kris, Cinquedeas, (w/ Either +3 Poison Strike +3 Cobra Strike)
+    -   **Venom Bases -Maps:** Non Eth 0os, 3os, Greater Claws, Greater Talons, Feral Claws, Runic Talons, (w/ +3 Cobra Strike)
+    -   **Crescent Moon Bases -Maps:** Non Eth 0os, 3os, Greater Claws, Greater Talons, Feral Claws, Runic Talons, (w/ +3 Fists of Fire +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike) 
+    -   Non Eth 0os, 3os, +3Jav, Matriarchal Spear
+    -   Non Eth 0os, 3os, War Spike, Berserker Axe
+    -   0os, 3os, Hyperion Spear, Mancatcher, Thresher, Giant Thresher
+    -   **Spirit/Monory Bases:** 0os, 4os, Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra), Until Lvl 80
+    -   **Spirit/Monory Bases -Maps:** 0os, 4os, Elite Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Spirit Weapon Bases:** 0os, 4os, Broad Sword, Long Sword, Crystal Sword, Between iLvl 26-40
+    -   **Spirit/Insight Bases:** 0os, 4os, Staffs, Until Lvl 80
+    -   **Spirit/Insight Bases -Maps:** 0os, 4os, Elite Staffs
+    -   **Insight Bases:** Non Eth 0os, 4os, Ceremonial Spear, Ceremonial Pike, Until Lvl 80
+    -   **Insight Bases -Maps:** 0os, 4os, Rune Staff, Yari, Lance, Partizan, Bec-de-Corbin, Grim Scythe, War Fork, Battle Scythe, War Scepter, Divine Scepter, Caduceus
+    -   **Rampage Bases:** Non Eth 4os, Normal, Exceptional Polearms, Until Lvl 80
+    -   **Rampage Bases -Maps:** Non Eth 4os, Elite Polearms
+    -   **Harmony/Voice of Reason Bases -Maps:** Non Eth 0os, 4os, +3Bow, Matriarchal Bow
+    -   **Harmony Bases -Maps:** Non Eth 0os, 4os, +3Bow, Reflex Bow, Ceremonial Bow, Grand Matron Bow
+    -   Non Eth 0os, 4os, Ballista, Chu-Ko-Nu
+    -   **Voice of Reason Bases -Maps:** Non Eth 0os, 4os, Phase Blade
+    -   **Oath Bases -Maps:** Eth 0os, 4os, Ettin Axe, Berserker Axe, Decapitator, Glorious Axe, Scourge, Balrog Blade, Colossus Sword, Colossus Blade, Feral Axe
+    -   **Obedience Bases -Maps:** 0os, 5os, Ogre Maul, Thunder Maul, War Pike, Cryptic Axe, Ghost Spear, Great Poleaxe 
+    -   **Unbending Will Bases -Maps:** 0os, 6os, Colossus Blade
+    -   **Purity Bases:** 3os, Exceptional Spears, Polearms, Bows, Xbows, Staffs, Until Lvl 80
+    -   **Purity Bases -Maps:** 3os, Elite Spears, Polearms, Bows, Xbows, Staffs
+    -   **Throwing Weapon Bases:** Eth, Balanced Knife, Balanced Axe, Javelin, Throwing Spear, Until Lvl 40
+    -   Eth, War Dart, Hurlbat, War Javelin, Harpoon, Until Lvl 80
+    -   **Throwing Weapon Bases -Maps:** Eth, Winged Knife, Winged Axe, Hyperion Javelin, Winged Harpoon
+    -   **Helmet Bases -Maps:** Non Eth 0os, 3os, Demonhead, Bone Visage, Winged Helm, Diadem
+    -   **Druid Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **Barb Bases -Maps:** Non Eth 0os, 3os, Helmets, (w/ Either +3 Bash +3 Double Swing +3 Stun +3 Double Throw +3 Leap Attack +3 Concentrate +3 Frenzy +3 Whirlwind +3 Berserk +3 War Cry)
+    -   **Chest Bases -Maps:** Non Eth 0os, 3os, 4os, Ancient Armor, Mage Plate, Elite Chests
+    -   **Shield Bases -Maps:** Non Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **Nerco Bases -Maps:** Non Eth 0os, 2os, 3os, Shields, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **1 Handed Axe Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Small Crescent, Ettin Axe, Berserker Axe
+    -   0os, 5os, Double Axe, War Spike
+    -   **2 Handed Axe Bases -Maps:** Non Eth 0os, 3os, 4os, 6os, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe
+    -   **Druid Bases -Maps:** 0os, 3os, Clubs, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **1 Handed Hammer Bases -Maps:** Non Eth 0os, 3os, 4os, Legendary Mallet
+    -   0os, 4os, 5os, Flail
+    -   **2 Handed Hammer Bases -Maps:** Non Eth 0os, 3os, 4os, 6os, Ogre Maul, Thunder Maul
+    -   **1 Handed Sword Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Phase Blade, Conquest Sword, Cryptic Sword
+    -   0os, 5os, Crystal Sword
+    -   **2 Handed Sword Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Balrog Blade, Colossus Sword, Colossus Blade, Highland Blade, Legend Sword, Champion Sword
+    -   **Dagger Bases -Maps:** Non Eth 0os, 2os, 3os, Bone Knife, Fanged Knife (w/ Either +3 Poison Strike +3 Tiger Strike +3 Blade Sentinel +3 Fists of Fire +3 Cobra Strike +3 Blade Fury +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike)
+    -   0os, 3os, Kris, (w/ Either +3 Poison Strike +3 Cobra Strike)
+    -   **Spear/Polearm/Ama Spear Bases -Maps:** Non Eth 0os, 4os, 5os, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Colossus Voulge, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher
+    -   Non Eth 0os, 3os, 4os, 5os, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   Non Eth 0os, 3os, 4os, +3Jav, Maiden Spear
+    -   Eth 0os, 6os, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   **Bow/Xbow/Ama Bow Bases -Maps:** Non Eth 0os, 4os, 5os, +3Bow, Matriarchal Bow, Grand Matron Bow
+    -   Non Eth 0os, 4os, 5os, 6os, Gorgon Crossbow, Colossus Crossbow, Demon Crossbow
+    -   **Staff Bases -Maps:** 0os, 4os, 5os, 6os, Archon Staff
+    -   2os, Walking Stick, Stalagmite, Elder Staff, Shillelagh, Archon Staff
+    -   0os, 2os, Exceptional, Elite Staffs, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Fire Mastery +3 Hydra +3 Combustion +3 Lesser Hydra)
+    -   0os, 3os, Exceptional, Elite Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   0os, 4os, Cedar Staff, Gothic Staff, Rune Staff, Elder Staff, Shillelagh, Archon Staff, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning 1+ Shiver Armor +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Thunder Storm 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   0os, 5os, Rune Staff, Archon Staff, (w/ Either +3 Frost Nova 1+ Shiver Armor 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Frozen Orb +3 Ice Barrage)
+    -   **Necro Bases -Maps:** 0os, 2os, Wands, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Pala Bases -Maps:** Non Eth 0os, 2os, Mighty Scepter, Seraph Rod, (w/ Either +3 Sacrifice +3 Smite +3 Zeal +3 Charge +3 Vengeance)
+    -   Eth 0os, 3os, Mighty Scepter, Seraph Rod, (w/ Either +3 Sacrifice +3 Smite +3 Zeal +3 Charge +3 Vengeance)
+    -   0os, 3os, Scepters, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Zeal +3 Fist of the Heavens)
+    -   0os, 4os, War Scepter, Divine Scepter, Caduceus, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Zeal +3 Fist of the Heavens)
+    -   Non Eth 0os, 4os, Caduceus, (w/ Either +3 Zeal +3 Charge +3 Conviction)
+    -   Non Eth 0os, 4os, 5os, War Scepter, Divine Scepter, Caduceus
+    -   **Sin Bases -Maps:** 0os, 2os, 3os, Suwayyah, War Fist, Scissors Suwayyah, (w/ Either +3 Claw and Dagger Mastery +3 Tiger Strike +3 Dragon Talon +3 Blade Sentinel +3 Dragon Claw +3 Blade Fury +3 Dragon Tail 1+ Dragon Flight)
+    -   0os, 3os, Claws, (w/ Either +3 Fire Blast +3 Psychic Hammer +3 Shock Web +3 Burst of Speed +3 Fists of Fire +3 Charged Bolt Sentry +3 Wake of Fire +3 Cobra Strike +3 Fade +3 Shadow Warrior +3 Claws of Thunder +3 Chain Lightning Sentry +3 Wake of Inferno +3 Mind Blast +3 Blades of Ice +3 Death Sentry +3 Blade Shield +3 Venom +3 Shadow Master +3 Phoenix Strike +3 Lightning Sentry)
+    -   0os, 3os, Jared's Stone, Swirling Crystal, Dimensional Shard, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning 1+ Shiver Armor +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Thunder Storm 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Gold Bases:** 10+K, 2, 3, Slot Weapons, in Normal
+    -   **Gold Bases:** 25+K, 2, 3, Slot Weapons, in Nightmare
     ## Hides:
     -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
     -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
@@ -113,6 +220,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   *C1 at Lvl 10, *C2 at Lvl 20, *C3 at Lvl 40, *L1 at Lvl 10, *L2 at Lvl 20, *L3 at Lvl 40
     -   Chip-Gems at Lvl 25, Fla-Gems at Lvl 25, Gems at Lvl 25 (Not Flawless or Perfect Gems)
     -   **Mag:** Notification on Rings at Lvl 30, Amulets in Maps
+    -   **Mag:** Any Other Magic
     -   **Bases:** Any Other Base
 === "Medium Strictness Info"
 
@@ -120,14 +228,14 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name +Notification on Skull
     -   **Filter Lvl 2, 3, 7, 8:** Runes Under 20 +Notification
-    -   **Uniq:** lld, T0, T1, T2, T3, GG, Boss Items, Charms
-    -   **Set:** lld, T1, T2, T3, GG
+    -   **Uniq Tier 1:** Wolfhowl, Stalker's Cull, Kalans Legacy, Blackoak Shield, Wizendraw, Magewrath, Widowmaker, Corpsemourn, Titans Grip, Twilights Reflection, Shatterblade, Guardian Angel, Pus Spitter, Que-Hegans Wisdom, Heavenly Garb, Denmother, Wraithskin, Ebonbane, Peasant Crown, The Patriarch, Silks of the Victor, Leviathan, Plague Bearer, Baezils
+    -   **Uniq Tier 0:** Bloodravens Charge, Ursa's Nightmare, Skullders Ire, Black Hades, Goldwrap, Razortail, Gorefoot, Treads of Cthon, Infernostride, Sandstorm Trek, Shadow Dancer, The Hand of Broc, Frostburn, Venom Grip, Ghoulhide, Hellmouth, Biggins Bonnet, Rockstopper, Radaments Sphere, Rune Master, Kuko Shakaku, Endlesshail, Gull Dagger, Viperfork, Chromatic Ire, Djinn Slayer, Gimmershred, Lacerator, Bartucs Cut-Throat, Duskdeep, Ondals Wisdom, Atmas Wail, Blackbogs Sharp, The Jade Tan Do, Venom Ward, Raekor's Virtue, Purgatory, Valkyrie Wing, Windhammer, Titans Revenge, Stoneraven, Arreats Face, Homunculus, Chance Guards, Crown of Thieves, Witchwild String, Eaglehorn, Wizardspike, The Reapers Toll, Ariocs Needle, Ribcracker, Blade of Ali Baba, Odium, Cloudcrack, Jadetalon, Swordguard
+    -   **Uniq Lld:** Twitchthroe, Rattlecage, Silks of the Victor, The Spirit Shroud, Bloodfist, Peasant Crown, Steelclash, Rakescar, Rogues Bow, Bonesnap, Steeldriver, The Iron Jang Bong, Ripsaw, The Patriarch, Goblin Toe, String of Ears, Quetzalcoatl, Magefist, Rockfleece, True Silver
+    -   **Set Tier 1:** Arcannas Flesh, Natalyas Shadow, Natalyas Totem, Natalyas Mark, Hsaru or Hwanin, Laying of Hands, Najs Puzzler, Aldurs Advance, Aldurs Deception, Immortal Kings Will, Immortal Kings Stone Crusher, Immortal Kings Detail, Immortal Kings Forge, Immortal Kings Pillar, Natalyas Soul, Tal Rashas Lidless Eye, Tal Rashas Horadric Crest, Tal Rashas Fine-Spun Cloth, Trang-Ouls Guise, Immortal Kings Soul Cage, Guillaumes Face, Mavinas True Sight, Mavinas Caster, Mavinas Embrace, Mavinas Icy Clutch, Mavinas Tenet, Tal Rashas Guardianship, Rite of Passage, Haemosus Adament, Aldurs Rhythm, Najs Circlet, Najs Light Plate, Dangoons Teaching
+    -   **Set Lld:** Cow King or Sander, Sanders Superstition, Sanders Taboo, Deaths Hand, Deaths Guard
     -   **Non Eth Rare:** Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
     -   **Eth Rare:** Any Weapons
-    -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
-    -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin +Notification
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
-    -   **Mag:** Circlet, Coronet, Tiara, Diadem +Notification
+    -   **Mag:** Circlet, Coronet, +Notification
     -   **Pala:** Rare Normal & Pala Shields +Notification
     -   **Dru:** Mag & Rare Clubs, Pelts +Notification
     -   **Bar:** Mag & Rare Bar Helms +Notification
@@ -300,7 +408,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Claw Bases:** Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah
     -   **Gold Bases:** 35K, 2 Slot Weapons
     -   **Cow Bases:** Wirt's Leg
-    
     ## Hides:
     -   **Filter Lvl 12:** Flawless Gems
     -   **Uniq:** lld, T0, T1, T2, +Non Highlighted
