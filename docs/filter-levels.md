@@ -199,11 +199,18 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   0os, 3os, Exceptional, Elite Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
     -   0os, 4os, Cedar Staff, Gothic Staff, Rune Staff, Elder Staff, Shillelagh, Archon Staff, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning 1+ Shiver Armor +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Thunder Storm 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
     -   0os, 5os, Rune Staff, Archon Staff, (w/ Either +3 Frost Nova 1+ Shiver Armor 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Frozen Orb +3 Ice Barrage)
-
-    
-
-
-    
+    -   **Necro Bases -Maps:** 0os, 2os, Wands, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **Pala Bases -Maps:** Non Eth 0os, 2os, Mighty Scepter, Seraph Rod, (w/ Either +3 Sacrifice +3 Smite +3 Zeal +3 Charge +3 Vengeance)
+    -   Eth 0os, 3os, Mighty Scepter, Seraph Rod, (w/ Either +3 Sacrifice +3 Smite +3 Zeal +3 Charge +3 Vengeance)
+    -   0os, 3os, Scepters, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Zeal +3 Fist of the Heavens)
+    -   0os, 4os, War Scepter, Divine Scepter, Caduceus, (w/ Either +3 Holy Bolt +3 Blessed Hammer +3 Zeal +3 Fist of the Heavens)
+    -   Non Eth 0os, 4os, Caduceus, (w/ Either +3 Zeal +3 Charge +3 Conviction)
+    -   Non Eth 0os, 4os, 5os, War Scepter, Divine Scepter, Caduceus
+    -   **Sin Bases -Maps:** 0os, 2os, 3os, Suwayyah, War Fist, Scissors Suwayyah, (w/ Either +3 Claw and Dagger Mastery +3 Tiger Strike +3 Dragon Talon +3 Blade Sentinel +3 Dragon Claw +3 Blade Fury +3 Dragon Tail 1+ Dragon Flight)
+    -   0os, 3os, Claws, (w/ Either +3 Fire Blast +3 Psychic Hammer +3 Shock Web +3 Burst of Speed +3 Fists of Fire +3 Charged Bolt Sentry +3 Wake of Fire +3 Cobra Strike +3 Fade +3 Shadow Warrior +3 Claws of Thunder +3 Chain Lightning Sentry +3 Wake of Inferno +3 Mind Blast +3 Blades of Ice +3 Death Sentry +3 Blade Shield +3 Venom +3 Shadow Master +3 Phoenix Strike +3 Lightning Sentry)
+    -   0os, 3os, Jared's Stone, Swirling Crystal, Dimensional Shard, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning 1+ Shiver Armor +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Thunder Storm 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Gold Bases:** 10+K, 2, 3, Slot Weapons, in Normal
+    -   **Gold Bases:** 25+K, 2, 3, Slot Weapons, in Nightmare
     ## Hides:
     -   Gold Under 50, Gold Under 500 at Lvl 18, Gold Under 5k at Lvl 80
     -   *Hael 1 at Lvl 8, *Hael 2 at Lvl 16, *Hael 3 at Lvl 20, *Hael 4 at Lvl 60
