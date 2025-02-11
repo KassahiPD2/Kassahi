@@ -169,13 +169,38 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Throwing Weapon Bases:** Eth, Balanced Knife, Balanced Axe, Javelin, Throwing Spear, Until Lvl 40
     -   Eth, War Dart, Hurlbat, War Javelin, Harpoon, Until Lvl 80
     -   **Throwing Weapon Bases -Maps:** Eth, Winged Knife, Winged Axe, Hyperion Javelin, Winged Harpoon
+    -   **Helmet Bases -Maps:** Non Eth 0os, 3os, Demonhead, Bone Visage, Winged Helm, Diadem
+    -   **Druid Bases -Maps:** Non Eth 0os, 3os, Pelts, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **Barb Bases -Maps:** Non Eth 0os, 3os, Helmets, (w/ Either +3 Bash +3 Double Swing +3 Stun +3 Double Throw +3 Leap Attack +3 Concentrate +3 Frenzy +3 Whirlwind +3 Berserk +3 War Cry)
+    -   **Chest Bases -Maps:** Non Eth 0os, 3os, 4os, Ancient Armor, Mage Plate, Elite Chests
+    -   **Shield Bases -Maps:** Non Eth 0os, 4os, Monarch, Aegis, Ward
+    -   **Nerco Bases -Maps:** Non Eth 0os, 2os, 3os, Shields, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
+    -   **1 Handed Axe Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Small Crescent, Ettin Axe, Berserker Axe
+    -   0os, 5os, Double Axe, War Spike
+    -   **2 Handed Axe Bases -Maps:** Non Eth 0os, 3os, 4os, 6os, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe
+    -   **Druid Bases -Maps:** 0os, 3os, Clubs, (w/ Either +3 Raven +3 Poison Creeper +3 Firestorm +3 Spirit Wolf +3 Molten Boulder +3 Arctic Blast +3 Fissure +3 Dire Wolf +3 Twister +3 Shock Wave +3 Volcano +3 Tornado +3 Grizzly +3 Armageddon +3 Hurricane)
+    -   **1 Handed Hammer Bases -Maps:** Non Eth 0os, 3os, 4os, Legendary Mallet
+    -   0os, 4os, 5os, Flail
+    -   **2 Handed Hammer Bases -Maps:** Non Eth 0os, 3os, 4os, 6os, Ogre Maul, Thunder Maul
+    -   **1 Handed Sword Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Phase Blade, Conquest Sword, Cryptic Sword
+    -   0os, 5os, Crystal Sword
+    -   **2 Handed Sword Bases -Maps:** Non Eth 0os, 3os, 4os, 5os, 6os, Balrog Blade, Colossus Sword, Colossus Blade, Highland Blade, Legend Sword, Champion Sword
+    -   **Dagger Bases -Maps:** Non Eth 0os, 2os, 3os, Bone Knife, Fanged Knife (w/ Either +3 Poison Strike +3 Tiger Strike +3 Blade Sentinel +3 Fists of Fire +3 Cobra Strike +3 Blade Fury +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike)
+    -   0os, 3os, Kris, (w/ Either +3 Poison Strike +3 Cobra Strike)
+    -   **Spear/Polearm/Ama Spear Bases -Maps:** Non Eth 0os, 4os, 5os, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Colossus Voulge, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher
+    -   Non Eth 0os, 3os, 4os, 5os, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   Non Eth 0os, 3os, 4os, +3Jav, Maiden Spear
+    -   Eth 0os, 6os, +3Jav, Matriarchal Spear, Matriarchal Pike
+    -   **Bow/Xbow/Ama Bow Bases -Maps:** Non Eth 0os, 4os, 5os, +3Bow, Matriarchal Bow, Grand Matron Bow
+    -   Non Eth 0os, 4os, 5os, 6os, Gorgon Crossbow, Colossus Crossbow, Demon Crossbow
+    -   **Staff Bases -Maps:** 0os, 4os, 5os, 6os, Archon Staff
+    -   2os, Walking Stick, Stalagmite, Elder Staff, Shillelagh, Archon Staff
+    -   0os, 2os, Exceptional, Elite Staffs, (w/ Either +3 Fire Bolt +3 Inferno +3 Blaze +3 Fire Ball +3 Fire Wall +3 Meteor +3 Fire Mastery +3 Hydra +3 Combustion +3 Lesser Hydra)
+    -   0os, 3os, Exceptional, Elite Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   0os, 4os, Cedar Staff, Gothic Staff, Rune Staff, Elder Staff, Shillelagh, Archon Staff, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Inferno +3 Frost Nova +3 Blaze +3 Fire Ball +3 Nova +3 Lightning 1+ Shiver Armor +3 Fire Wall +3 Chain Lightning +3 Meteor +3 Thunder Storm 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   0os, 5os, Rune Staff, Archon Staff, (w/ Either +3 Frost Nova 1+ Shiver Armor 1+ Energy Shield +3 Blizzard 1+ Chilling Armor +3 Frozen Orb +3 Ice Barrage)
 
-
-
-
-
-
-
+    
 
 
     
