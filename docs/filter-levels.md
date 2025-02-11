@@ -144,6 +144,36 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Lawbringer Bases -Maps:** 0os, 3os, Legend Sword
     -   **Venom Bases -Maps:** Non Eth 0os, 3os, Kris, Cinquedeas, (w/ Either +3 Poison Strike +3 Cobra Strike)
     -   **Venom Bases -Maps:** Non Eth 0os, 3os, Greater Claws, Greater Talons, Feral Claws, Runic Talons, (w/ +3 Cobra Strike)
+    -   **Crescent Moon Bases -Maps:** Non Eth 0os, 3os, Greater Claws, Greater Talons, Feral Claws, Runic Talons, (w/ +3 Fists of Fire +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike) 
+    -   Non Eth 0os, 3os, +3Jav, Matriarchal Spear
+    -   Non Eth 0os, 3os, War Spike, Berserker Axe
+    -   0os, 3os, Hyperion Spear, Mancatcher, Thresher, Giant Thresher
+    -   **Spirit/Monory Bases:** 0os, 4os, Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra), Until Lvl 80
+    -   **Spirit/Monory Bases -Maps:** 0os, 4os, Elite Staffs, (w/ Either +3 Fire Bolt +3 Charged Bolt +3 Ice Bolt +3 Inferno +3 Telekinesis +3 Frost Nova +3 Ice Blast +3 Blaze +3 Fire Ball +3 Nova +3 Lightning +3 Fire Wall +3 Chain Lightning +3 Glacial Spike +3 Meteor +3 Blizzard +3 Hydra +3 Frozen Orb +3 Ice Barrage +3 Combustion +3 Lesser Hydra)
+    -   **Spirit Weapon Bases:** 0os, 4os, Broad Sword, Long Sword, Crystal Sword, Between iLvl 26-40
+    -   **Spirit/Insight Bases:** 0os, 4os, Staffs, Until Lvl 80
+    -   **Spirit/Insight Bases -Maps:** 0os, 4os, Elite Staffs
+    -   **Insight Bases:** Non Eth 0os, 4os, Ceremonial Spear, Ceremonial Pike, Until Lvl 80
+    -   **Insight Bases -Maps:** 0os, 4os, Rune Staff, Yari, Lance, Partizan, Bec-de-Corbin, Grim Scythe, War Fork, Battle Scythe, War Scepter, Divine Scepter, Caduceus
+    -   **Rampage Bases:** Non Eth 4os, Normal, Exceptional Polearms, Until Lvl 80
+    -   **Rampage Bases -Maps:** Non Eth 4os, Elite Polearms
+    -   **Harmony/Voice of Reason Bases -Maps:** Non Eth 0os, 4os, +3Bow, Matriarchal Bow
+    -   **Harmony Bases -Maps:** Non Eth 0os, 4os, +3Bow, Reflex Bow, Ceremonial Bow, Grand Matron Bow
+    -   Non Eth 0os, 4os, Ballista, Chu-Ko-Nu
+    -   **Voice of Reason Bases -Maps:** Non Eth 0os, 4os, Phase Blade
+    -   **Oath Bases -Maps:** Eth 0os, 4os, Ettin Axe, Berserker Axe, Decapitator, Glorious Axe, Scourge, Balrog Blade, Colossus Sword, Colossus Blade, Feral Axe
+    -   **Obedience Bases -Maps:** 0os, 5os, Ogre Maul, Thunder Maul, War Pike, Cryptic Axe, Ghost Spear, Great Poleaxe 
+    -   **Unbending Will Bases -Maps:** 0os, 6os, Colossus Blade
+    -   **Purity Bases:** 3os, Exceptional Spears, Polearms, Bows, Xbows, Staffs, Until Lvl 80
+    -   **Purity Bases -Maps:** 3os, Elite Spears, Polearms, Bows, Xbows, Staffs
+    -   **Throwing Weapon Bases:** Eth, Balanced Knife, Balanced Axe, Javelin, Throwing Spear, Until Lvl 40
+    -   Eth, War Dart, Hurlbat, War Javelin, Harpoon, Until Lvl 80
+    -   **Throwing Weapon Bases -Maps:** Eth, Winged Knife, Winged Axe, Hyperion Javelin, Winged Harpoon
+
+
+
+
+
 
 
 
