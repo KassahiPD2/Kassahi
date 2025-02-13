@@ -1452,7 +1452,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(08/01/25){%GREEN%glhf !!!%CL%otherwise it's a bit of a ''self risk'' (tbh it should work better then the real filters lol)%CL%if u see or thing something is bugged/looks weird, ping me in discord with a pic of it please%CL%i have not updated my GitHub yet so it's a bit of a mystery for u guys to dive into%CL%it's more less the hole filter so i want to test it in public a bit before i replace the real once%CL%%RED%New BIG Filter Overhaul Update:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(13/02/25){%GREEN%glhf !!!%CL%But A Lot of it is Still The Same, + New Qol & Features%CL%The Github is Updated Except ''The Filter Examples''%CL%%RED%New BIG Filter Overhaul Update:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
