@@ -1422,8 +1422,7 @@ ItemDisplay[FILTLVL=1 ((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MA
 ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[FILTLVL=1 ((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133)) tsc]: %DARK_GREEN%*%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[tsc]:
-ItemDisplay[isc CLVL<35]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
-ItemDisplay[isc CLVL>34]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc]: %DARK_GREEN%READ ME!!!{ill be Deleting This Within a Week's Time%CL%so go Back to Them & Thx For Testing This V2 Filter%CL%The Original 4 Filters on The Launcher Has Been Updated}
 ItemDisplay[tbk]: %BLUE%TP Tome
 ItemDisplay[ibk]: %RED%ID Tome
 ItemDisplay[key SHOP]: %DARK_GREEN%*%WHITE%Key{%RED%rathma/ubers/ancients/players%NL%all/bosses/maps/dungeons/dclone%NL%%WHITE%or %RED%.kills %WHITE%Followed by%NL%%GREEN%/home (Name) & /home, to Join/.savehotkeys/.loadhotkeys%NL%.deaths/.played/.allstats/.noexp/.set-home 0-5%NL%%ORANGE%New Player Commands%NL%%GREEN%%NL%Pbox, Ppic, Mirror, Vial, Skele key, Navigator, Almanac%NL%Lem to Zod, Wss, Twss, Cwss, Sets, Uniques, Map Mats, Uber Mats%NL%%ORANGE%Allocated Loot Effects Within 2 Screens on Mobs Deaths}
