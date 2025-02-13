@@ -1676,10 +1676,10 @@ ItemDisplay[wss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[wss]: %PURPLE%++%RED%++%CORAL%+   %NAME%   %CORAL%+%RED%++%PURPLE%++{%NAME%}%CONTINUE%
 ItemDisplay[iwss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %CORAL%++   %NAME%   %CORAL%++{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Puzzle box{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Puzzle Box{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lbox]: %GREEN%@@@%PURPLE%@@@%GREEN%@@   %NAME%   %GREEN%@@%PURPLE%@@@%GREEN%@@@{%NAME%}%CONTINUE%
-ItemDisplay[lpp]: %MAP-0A%%GOLD%Puzzle piece{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lpp]: %MAP-0A%%GOLD%Puzzle Piece{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: 1%NL%%WHITE%Possible Sockets:}

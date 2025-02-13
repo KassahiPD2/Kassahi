@@ -1345,6 +1345,47 @@ ItemDisplay[(SET !ID amc) OR (amc SET EDAM>229)]: M'avina's Caster%CONTINUE%
 
 
 
+//------------------------------SPECIFIC_NAME_INFORMATIONS------------------------------
+
+
+
+
+
+// ORGINAL COLORS (ITEMS)
+ItemDisplay[(STAT477=4 OR STAT477=21)]: %RED%%NAME%%CONTINUE%
+ItemDisplay[MAG]: %BLUE%%NAME%%CONTINUE%
+ItemDisplay[CRAFT]: %ORANGE%%NAME%%CONTINUE%
+ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[SET]: %GREEN%%NAME%%CONTINUE%
+ItemDisplay[UNI]: %GOLD%%NAME%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %WHITE%%NAME%%CONTINUE%
+ItemDisplay[(ARMOR OR WEAPON) NMAG (SOCK>0 OR ETH)]: %GRAY%%NAME%%CONTINUE%
+// IDENTIFIED (ITEMS)
+ItemDisplay[ID !NMAG !(STAT477=4 OR STAT477=21)]: %DARK_GREEN%*%NAME%{%NAME%}%CONTINUE%
+// SUPERIOR (ITEMS)
+ItemDisplay[SUP ARMOR ED<1]: %BLUE%Sup %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[SUP WEAPON ED<1]: %RED%Sup %NAME%{%NAME%}%CONTINUE%
+// INFINITE (ITEMS)
+ItemDisplay[INF ID !rin !amu]: %GRAY%Inf %NAME%{%NAME%}%CONTINUE%
+// ETHEREAL (ITEMS)
+ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
+// BASE VERSION (ITEMS)
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
+// SOCKETED (ITEMS)
+ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
+// QUANTITY (ITEMS)
+ItemDisplay[QTY>1 !aqv !cqv !THROWING]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+// SLAMMED (ITEMS)
+ItemDisplay[STAT360>0 !(STAT477=4 OR STAT477=21)]: %NAME% %RED%c*{%NAME%}%CONTINUE%
+// DESECRATED (ITEMS)
+ItemDisplay[STAT206>0 !(STAT477=4 OR STAT477=21)]: %NAME% %GOLD%d*{%NAME%}%CONTINUE%
+
+
+
+
+
 //------------------------------UTILITIE_ITEMS------------------------------
 
 
@@ -1517,8 +1558,8 @@ ItemDisplay[RUNE=26 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+ 
 ItemDisplay[RUNE=26 (QTY=0 OR QTY=1)]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Vex %GREEN%%RUNENUM%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
 ItemDisplay[RUNE=27 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Ohm %GREEN%%RUNENUM% %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
 ItemDisplay[RUNE=27 (QTY=0 OR QTY=1)]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Ohm %GREEN%%RUNENUM%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
-ItemDisplay[RUNE=28 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%LoL %GREEN%%RUNENUM% %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
-ItemDisplay[RUNE=28 (QTY=0 OR QTY=1)]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%LoL %GREEN%%RUNENUM%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
+ItemDisplay[RUNE=28 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Lo %GREEN%%RUNENUM% %TAN%x%WHITE%%QTY%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
+ItemDisplay[RUNE=28 (QTY=0 OR QTY=1)]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Lo %GREEN%%RUNENUM%     %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
 ItemDisplay[RUNE=29 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+          %RED%Sur %GREEN%%RUNENUM% %TAN%x%WHITE%%QTY%          %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
 ItemDisplay[RUNE=29 (QTY=0 OR QTY=1)]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+          %RED%Sur %GREEN%%RUNENUM%          %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
 ItemDisplay[RUNE=30 QTY>1]: %DOT-60%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+               %RED%Ber %GREEN%%RUNENUM% %TAN%x%WHITE%%QTY%               %YELLOW%+%ORANGE%+%RED%+%CONTINUE%
@@ -1635,10 +1676,10 @@ ItemDisplay[wss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[wss]: %PURPLE%+%RED%+%CORAL%+   %NAME%   %CORAL%+%RED%+%PURPLE%+{%NAME%}%CONTINUE%
 ItemDisplay[iwss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %CORAL%++   %NAME%   %CORAL%++{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Puzzle box{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Puzzle Box{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lbox]: %RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+{%NAME%}%CONTINUE%
-ItemDisplay[lpp]: %MAP-0A%%GOLD%Puzzle piece{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lpp]: %MAP-0A%%GOLD%Puzzle Piece{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: 1%NL%%WHITE%Possible Sockets:}
@@ -1681,7 +1722,7 @@ ItemDisplay[crfp]: %LIGHT_GRAY%+%WHITE%++   %NAME%   %WHITE%++%LIGHT_GRAY%+{%NAM
 // MAP RES/IMMUNES
 ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE% // Ruins of Viz-jun 143
 ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Horazon's Memory 142
-ItemDisplay[t13]: %NAME%{%RED%Witches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
+ItemDisplay[t13]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
 ItemDisplay[t14]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %YELLOW%L:125, %GREEN%P:130%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
 ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:60%NAME%}%CONTINUE% // Royal Crypts 170
 ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: %RED%F:135, %BLUE%C:115, %ORANGE%M:125%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
@@ -1690,7 +1731,7 @@ ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Hig
 ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
 ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
 ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
-ItemDisplay[t26]: %NAME%{%RED%Witches%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
 ItemDisplay[t27]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40, %GOLD%Ph:45%NAME%}%CONTINUE% // Demon Road 191 %WHITE%Immunes: %RED%F:100, %YELLOW%L:110, %BLUE%C:140, %GREEN%P:100, %GOLD%Ph:100%NL%
 ItemDisplay[t28]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40, %GOLD%Ph:45%NAME%}%CONTINUE% // Skovos Stronghold 190 %WHITE%Immunes: %YELLOW%L:125, %BLUE%C:130, %GREEN%P:100%NL%
 ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
@@ -1699,7 +1740,7 @@ ItemDisplay[t33]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highe
 ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ancestral Trial 146
 ItemDisplay[t35]: %NAME%{%WHITE%Highest Res: %RED%F:65, %YELLOW%L:65, %BLUE%C:65, %GREEN%P:65, %ORANGE%M:33, %GOLD%Ph:50%NAME%}%CONTINUE% // Blood Moon 154
 ItemDisplay[t36]: %NAME%{%RED%Blizzard%NL%%WHITE%Immunes: %YELLOW%L:100, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:95, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Fall of Caldeum 155
-ItemDisplay[t37]: %NAME%{%RED%Witches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
+ItemDisplay[t37]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:110, %GOLD%Ph:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:70%NAME%}%CONTINUE% // Canyon of Sescheron 160
 ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE% // Kehjistan Marketplace 147
 ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %NL%%GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
@@ -1790,7 +1831,7 @@ ItemDisplay[STAT452<0]: %NAME%{%STAT452%%ias/fcr, %NAME%}%CONTINUE%
 ItemDisplay[MULTI427,22913=100]: %NAME%{splash, %NAME%}%CONTINUE%
 ItemDisplay[STAT450>0]: %NAME%{cbf, %NAME%}%CONTINUE%
 ItemDisplay[STAT437>0]: %NAME%{dolls, %NAME%}%CONTINUE%
-ItemDisplay[STAT438>0]: %NAME%{Witches, %NAME%}%CONTINUE%
+ItemDisplay[STAT438>0]: %NAME%{bitches, %NAME%}%CONTINUE%
 ItemDisplay[STAT439>0]: %NAME%{vamp lords, %NAME%}%CONTINUE%
 ItemDisplay[STAT441>0]: %NAME%{reanimated, %NAME%}%CONTINUE%
 ItemDisplay[STAT470>0]: %NAME%{souls, %NAME%}%CONTINUE%
