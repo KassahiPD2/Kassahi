@@ -15,8 +15,6 @@
     
     ![image](https://github.com/user-attachments/assets/308041dc-c360-443c-8068-80fcd4e791b5)
 
-    !file:///C:/Users/Kassahi/Desktop/pic%201%20done.png
-
 === "Regular"
 
     ![image](https://github.com/user-attachments/assets/5513755b-af93-40c5-afd0-df166409549a)
