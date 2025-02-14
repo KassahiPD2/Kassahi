@@ -41,12 +41,12 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Class Chest Bases:** Non Eth 3os, Normal Chests, Until Lvl 60
     -   **Class Chest Bases -Maps:** Non Eth 3os, Exceptional, Elite Chests
     -   **Stone Bases -Maps:** Eth 4os, Dusk Shroud, Wyrmhide, Scarab Husk, Archon Plate
-    -   **Rhyme/Splendor Pala Bases:** Non Eth 2os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Rhyme/Splendor Pala Bases:** Non Eth 2os, 10+All Res, Pala Shields, Until Lvl 60
     -   **Rhyme/Splendor Pala Bases -Maps:** Non Eth 2os, 15+All Res, Pala Shields
     -   **Rhyme/Splendor Necro Bases -Maps:** Non Eth 0os, 2os, (w/ Either +3 Teeth +3 Skeleton Warrior +3 Poison Strike +3 Corpse Explosion +3 Clay Golem +3 Skeletal Mage +3 Desecrate +3 Bone Spear +3 Blood Golem +3 Skeleton Archer +3 Poison Nova +3 Bone Spirit +3 Fire Golem +3 Revive +3 Dark Pact)
     -   **Rhyme/Splendor Bases:** Non Eth 2os, Large Shield, Kite Shield, Spiked Shield, Bone Shield, Until Lvl 80
     -   **Splendor Bases -Maps:** Non Eth 0os, 2os, Heater, Troll Nest
-    -   **Ancient's Pledge/Sanctuary Pala Bases:** Non Eth 3os, 10+All Res, Pala Shields, Until Lvl 40
+    -   **Ancient's Pledge/Sanctuary Pala Bases:** Non Eth 3os, 10+All Res, Pala Shields, Until Lvl 60
     -   **Ancient's Pledge/Sanctuary Pala Bases -Maps:** Non Eth 3os, 15+All Res, Pala Shields
     -   **Ancient's Pledge Bases:** Non Eth 0os, 3os, Large Shield, Kite Shield, Until Lvl 40
     -   **Ancient's Pledge Necro Bases -Maps:** Non Eth 0os, 3os, Exceptional, Elite Necro Shields
