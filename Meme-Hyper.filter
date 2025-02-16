@@ -7591,8 +7591,8 @@ ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) TABSK1>0 (TABSK2>0 OR CLSK0>0 OR STAT
 ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) TABSK2>0]: %WHITE%%TABSK2%%ORANGE%jav%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) TABSK2>0 (CLSK0>0 OR STAT127>0)]: %CONTINUE% %NAME%{%NAME%}
 // AMAZON CLSK (STATS)
-ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) CLSK0>0 !spr !tri !brn !spt !pik !9sr !9tr !9br !9st !9p9 !7sr !7tr !7br !7st !7p7 !sbw !hbw !lbw !cbw !lbb !swb !lwb !8sb !8hb !8lb !8cb !8s8 !8l8 !8sw !8lw !6sb !6hb !6lb !6cb !6s7 !6l7 !6sw !6lw !RW]: %WHITE%%CLSK0%%ORANGE%ama%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) CLSK0>0 !spr !tri !brn !spt !pik !9sr !9tr !9br !9st !9p9 !7sr !7tr !7br !7st !7p7 !sbw !hbw !lbw !cbw !lbb !swb !lwb !8sb !8hb !8lb !8cb !8s8 !8l8 !8sw !8lw !6sb !6hb !6lb !6cb !6s7 !6l7 !6sw !6lw !RW STAT127>0]: %CONTINUE% %NAME%{%NAME%}
+ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) CLSK0>0 !spr !tri !brn !spt !pik !9sr !9tr !9br !9st !9p9 !7sr !7tr !7br !7st !7p7 !sbw !hbw !lbw !cbw !lbb !swb !lwb !8sb !8hb !8lb !8cb !8s8 !8l8 !8sw !8lw !6sb !6hb !6lb !6cb !6s7 !6l7 !6sw !6lw !XBOW !RW]: %WHITE%%CLSK0%%ORANGE%ama%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) CLSK0>0 !spr !tri !brn !spt !pik !9sr !9tr !9br !9st !9p9 !7sr !7tr !7br !7st !7p7 !sbw !hbw !lbw !cbw !lbb !swb !lwb !8sb !8hb !8lb !8cb !8s8 !8l8 !8sw !8lw !6sb !6hb !6lb !6cb !6s7 !6l7 !6sw !6lw !XBOW !RW STAT127>0]: %CONTINUE% %NAME%{%NAME%}
 
 // ALL SKILL'S
 ItemDisplay[(MAG OR RARE OR CRAFT) STAT127>0]: %WHITE%%STAT127%%GREEN%all%NAME%{%NAME%}%CONTINUE%
