@@ -154,7 +154,8 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
-    -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name +Notification on Skull
+    -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name
+    -   **Filter Lvl 2, 3, 7, 8:** Flawless Skill ''+ o +'' Name +Notification
     -   **Filter Lvl 2, 3, 7, 8:** Runes Under 20 +Notification
     -   **Uniq Tier 1:** Wolfhowl, Stalker's Cull, Kalans Legacy, Blackoak Shield, Wizendraw, Magewrath, Widowmaker, Corpsemourn, Titans Grip, Twilights Reflection, Shatterblade, Guardian Angel, Pus Spitter, Que-Hegans Wisdom, Heavenly Garb, Denmother, Wraithskin, Ebonbane, Peasant Crown, The Patriarch, Silks of the Victor, Leviathan, Plague Bearer, Baezils
     -   **Uniq Tier 0:** Bloodravens Charge, Ursa's Nightmare, Skullders Ire, Black Hades, Goldwrap, Razortail, Gorefoot, Treads of Cthon, Infernostride, Sandstorm Trek, Shadow Dancer, The Hand of Broc, Frostburn, Venom Grip, Ghoulhide, Hellmouth, Biggins Bonnet, Rockstopper, Radaments Sphere, Rune Master, Kuko Shakaku, Endlesshail, Gull Dagger, Viperfork, Chromatic Ire, Djinn Slayer, Gimmershred, Lacerator, Bartucs Cut-Throat, Duskdeep, Ondals Wisdom, Atmas Wail, Blackbogs Sharp, The Jade Tan Do, Venom Ward, Raekor's Virtue, Purgatory, Valkyrie Wing, Windhammer, Titans Revenge, Stoneraven, Arreats Face, Homunculus, Chance Guards, Crown of Thieves, Witchwild String, Eaglehorn, Wizardspike, The Reapers Toll, Ariocs Needle, Ribcracker, Blade of Ali Baba, Odium, Cloudcrack, Jadetalon, Swordguard
@@ -181,8 +182,10 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
     ## Shows:
     -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
-    -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name +Notification on Skull
-    -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Runes Under 20
+    -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name
+    -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Flawless Skill ''+ o +'' Name +Notification
+    -   **Filter Lvl 4, 5, 9, 10:** Runes Under 20, +Notification
+    -   **Filter Lvl 6, 11:** Runes Under 20, Runes 3, 5, 8, 9, 11, 12, +Notification
     -   **Uniq Tier 2:** Cerebus Bite, Ravenlore, The Oculus, Skin of the Vipermagi, Thundergods Vigor, Waterwalk, Silkweave, Magefist, Gravepalm, Gerkes Sanctuary, Head Hunters Glory, Ghostflame, Grims Burning Dead Grim, Doombringer, Suicide Branch, Boneshade Lich, Toothrow, Merman's Spocket, Vampire Gaze, Marrowwalk, Buriza-Do Kyanon
     -   **Set Tier 2:** Cow Kings Horns, Cow Kings Hide, Taebaeks Glory, Griswolds Heart, Griswolds Valor, Aldurs Stony Gaze, Set Amulet
     -   **Non Eth Rare:** Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
@@ -232,6 +235,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Extreme Strictness Info"
 
     ## Shows:
+    -   **Filter Lvl 12:** Flawless Skill ''+ o +'' Name
     -   **Filter Lvl 12:** Runes Under 20 '' Number '' Name Except 3, 5, 8, 9, 11, 12
     -   Pvp Ear, Quest Items, Perfect Gems, Runes, Essences, token, Uber/Boss mats, PD2 Items, Maps
     -   **Uniqs:** Anni, Torch, Gheed
