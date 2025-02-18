@@ -2088,6 +2088,8 @@ ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t21 OR t22 OR t23 OR t24 
 
 
 //------------------------------UNID_ITEM_ALERTS------------------------------
+ItemDisplay[UNI !ETH !ID uar ILVL>86]: %NAME%{%NAME%%GREEN%Can Roll Tyrael's Might}%CONTINUE%
+ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Trading%CL%Cannot Roll Tyrael's Might}%CONTINUE%
 
 
 
