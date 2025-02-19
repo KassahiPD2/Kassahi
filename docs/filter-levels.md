@@ -153,6 +153,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Medium Strictness Info"
 
     ## Shows:
+    -   *35%
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name
     -   **Filter Lvl 2, 3, 7, 8:** Flawless Skill ''+ o +'' Name +Notification
