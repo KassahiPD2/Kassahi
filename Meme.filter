@@ -918,7 +918,7 @@ ItemDisplay[(UNI !ID ned) OR (ned UNI MULTI198,4387=15)]: Martyrdom%CONTINUE%
 ItemDisplay[UNI !ID nee]: %PURPLE%Boneflame%CONTINUE%
 ItemDisplay[UNI ID nee MULTI201,4931=5]: Boneflame%CONTINUE%
 ItemDisplay[UNI ((nea OR nef) UNI CLSK2>0)]: Homunculus%CONTINUE%
-ItemDisplay[(UNI !ID pae) OR (nef UNI STAT368>0)]: Darkforce Spawn%CONTINUE%
+ItemDisplay[(UNI !ID nef) OR (nef UNI STAT368>0)]: Darkforce Spawn%CONTINUE%
 // AXE'S NAME (UNI)
 ItemDisplay[(UNI !ID hax) OR ((hax OR 9ha OR 7ha) UNI STR=8)]: The Gnasher%CONTINUE%
 ItemDisplay[(UNI !ID 9ha) OR ((9ha OR 7ha) UNI STAT54>159)]: Coldkill%CONTINUE%
