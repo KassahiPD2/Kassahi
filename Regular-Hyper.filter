@@ -7658,23 +7658,23 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB ((SK239>2 SK242>
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW !(clb OR spc) CLUB (SK239>2 SK248>1 SK247>0)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Fire Claw{%NAME%}
 
 // LLD divine/war scepter bases with 2 of hammer/conc/joust for LLD
-ItemDisplay[(wsp OR 9ws) SK112>2 (SK378>2 OR SK113>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
-ItemDisplay[(wsp OR 9ws) SK113>2 (SK378>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
-ItemDisplay[(wsp OR 9ws) SK378>2 (SK113>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
+ItemDisplay[(wsp OR 9ws) SK112>2 (SK378>2 OR SK113>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
+ItemDisplay[(wsp OR 9ws) SK113>2 (SK378>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
+ItemDisplay[(wsp OR 9ws) SK378>2 (SK113>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
 ItemDisplay[(wsp OR 9ws) SK112>2 (SK378>2 OR SK113>2) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 ItemDisplay[(wsp OR 9ws) SK113>2 (SK378>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 ItemDisplay[(wsp OR 9ws) SK378>2 (SK113>2 OR SK112>2) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 // LLD divine scepter 0 or 4 socket with charge/zeal staffmods (should be total +skills >= 4, or 3 fana):
 // fanaticism SK122 zeal SK106 charge SK107 vigor SK115 holyshield SK117 holysword SK116
-ItemDisplay[9ws SK106>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK107>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
-ItemDisplay[9ws SK107>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK106>0 OR SK98>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
-ItemDisplay[9ws SK112>2 (SK115>0 OR SK117>0 OR SK106>0 OR SK113>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld
+ItemDisplay[9ws SK106>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK107>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
+ItemDisplay[9ws SK107>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK106>0 OR SK98>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
+ItemDisplay[9ws SK112>2 (SK115>0 OR SK117>0 OR SK106>0 OR SK113>0) !INF !ETH NMAG !RW SOCK=4]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
 ItemDisplay[9ws SK106>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK107>0) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 ItemDisplay[9ws SK107>2 (SK115>0 OR SK117>0 OR SK122>0 OR SK106>0 OR SK98>0) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 ItemDisplay[9ws SK112>2 (SK115>0 OR SK117>0 OR SK106>0 OR SK113>0) !INF !ETH NMAG !RW SOCK=0]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 // LLD +3 holy bolt SK101 war/divine scepter
 // lld charge SK107
-ItemDisplay[(wsp OR 9ws) !INF !ETH NMAG !RW SOCK=4 SK101>2 (SK115>0 OR SK117>0)]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%NAME%}
+ItemDisplay[(wsp OR 9ws) !INF !ETH NMAG !RW SOCK=4 SK101>2 (SK115>0 OR SK117>0)]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%CL%%NAME%}
 ItemDisplay[(wsp OR 9ws) !INF !ETH NMAG !RW SOCK=0 SK101>2 (SK115>0 OR SK117>0)]: %PX-9F%%DOT-21%%MAP-D6%%NAME% %TEAL%Lld{%PURPLE%Must roll 4 open sockets for LLD%CL%%NAME%}
 // LLD Staff base
 // SK46	Blaze
