@@ -841,7 +841,7 @@ ItemDisplay[(UNI !ID xvg) OR ((xvg OR uvg) UNI TABSK18>0)]: Gravepalm%CONTINUE%
 ItemDisplay[(UNI !ID uvg) OR (uvg UNI STAT501>239)]: Dracul's Grasp%CONTINUE%
 ItemDisplay[(UNI !ID mgl) OR ((mgl OR xmg OR umg) UNI STAT89=2)]: Chance Guards%CONTINUE%
 ItemDisplay[(UNI !ID xmg) OR ((xmg OR umg) UNI STAT244>0)]: Ghoulhide%CONTINUE%
-ItemDisplay[UNI umg STAT425>0]: Soul Drainer%CONTINUE%
+ItemDisplay[(UNI !ID umg) OR (umg UNI STAT425>0)]: Soul Drainer%CONTINUE%
 ItemDisplay[UNI !ID tgl]: Magefist%CONTINUE%
 ItemDisplay[UNI ID ((tgl OR xtg OR utg) UNI STAT363=1)]: Magefist%CONTINUE%
 ItemDisplay[(UNI !ID xtg) OR ((xtg OR utg) UNI MULTI198,3338=2)]: Lava Gout%CONTINUE%
