@@ -1127,7 +1127,7 @@ ItemDisplay[(UNI !ID wst) OR ((wst OR 8ws OR 6ws) UNI STAT31>0)]: The Iron Jang 
 ItemDisplay[UNI !ID 8ws]: %PURPLE%Dust Collector%CONTINUE%
 ItemDisplay[UNI ID (8ws OR 6ws) STAT240>0]: Skull Collector%CONTINUE%
 ItemDisplay[UNI !ID 6ws]: %PURPLE%Mang Song's Lesson%CONTINUE%
-ItemDisplay[UNI ID 6ws MULTI200,5844=12]: Mang Song's Lesson%CONTINUE%
+ItemDisplay[UNI ID 6ws MULTI200,28628=12]: Mang Song's Lesson%CONTINUE%
 // WAND'S NAME (UNI)
 ItemDisplay[(UNI !ID wnd) OR ((wnd OR 9wn OR 7wn) UNI CLSK2>0)]: Torch of Iro%CONTINUE%
 ItemDisplay[(UNI !ID 9wn) OR ((9wn OR 7wn) UNI SK367>0)]: Suicide Branch%CONTINUE%
@@ -2412,7 +2412,7 @@ ItemDisplay[UNI ID (8cs OR 6cs) MULTI200,1094=10]: %NAME%{%NAME%%CL%%WHITE%casti
 ItemDisplay[UNI ID (8ws OR 6ws) MULTI200,4377=2]: %NAME%{%NAME%%CL%%WHITE%casting: %GRAY%boa:%WHITE%269%GRAY%phabs, %WHITE%scales with ene}%CONTINUE%
 ItemDisplay[SET ID 6cs FCR>49 EDAM>149]: %NAME%{%NAME%%CL%%WHITE%charges: %GRAY%bli:%WHITE%200%%GRAY%faster in %WHITE%pvp arenas}%CONTINUE%
 ItemDisplay[UNI ID 6cs MULTI200,532=20]: %NAME%{%NAME%%CL%%WHITE%casting: %GRAY%ins:%WHITE%-29%%GRAY%eyar, %WHITE%-815%GRAY%eydef}%CONTINUE%
-ItemDisplay[UNI ID 6ws MULTI200,5844=12]: %NAME%{%NAME%%CL%%WHITE%casting: %GRAY%lre:%WHITE%-15%GRAY%im, %WHITE%-30%GRAY%non}%CONTINUE%
+ItemDisplay[UNI ID 6ws MULTI200,28628=12]: %NAME%{%NAME%%CL%%WHITE%casting: %GRAY%lre:%WHITE%-15%GRAY%im, %WHITE%-30%GRAY%non}%CONTINUE%
 ItemDisplay[UNI ID (9gw OR 7gw) TABSK16>0 CLSK2>0]: %NAME%{%NAME%%CL%%WHITE%charges: %GRAY%gwd:%WHITE%88%%GRAY%ed, %WHITE%250%GRAY%ar}%CONTINUE%
 ItemDisplay[UNI ID 7bs MULTI198,28638=25]: %NAME%{%NAME%%CL%%WHITE%striking: %GRAY%lre:%WHITE%-20%GRAY%im, %WHITE%-40%GRAY%non}%CONTINUE%
 ItemDisplay[UNI ID 7qr MULTI198,28319=25]: %NAME%{%NAME%%CL%%WHITE%striking: %GRAY%amp:%WHITE%-20%GRAY%im, %WHITE%-41%GRAY%non}%CONTINUE%
