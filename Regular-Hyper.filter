@@ -1995,7 +1995,7 @@ ItemDisplay[t12]: Horazon's Map{%NAME%}%CONTINUE%
 ItemDisplay[t13]: Bastion Map{%NAME%}%CONTINUE%
 ItemDisplay[t14]: Sanatorium Map{%NAME%}%CONTINUE%
 ItemDisplay[t15]: Royal Map{%NAME%}%CONTINUE%
-ItemDisplay[t16]: Ruined Cistern Map{%NAME%}%CONTINUE%
+ItemDisplay[t16]: Ruined Map{%NAME%}%CONTINUE%
 ItemDisplay[t21]: Phlegethon Map{%NAME%}%CONTINUE%
 ItemDisplay[t22]: Jungle Map{%NAME%}%CONTINUE%
 ItemDisplay[t23]: Battlefield Map{%NAME%}%CONTINUE%
