@@ -1992,19 +1992,19 @@ ItemDisplay[NMAG MAPTIER=0]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED
 // MAP'S NAME
 ItemDisplay[t11]: Viz-Jun Map{%NAME%}%CONTINUE%
 ItemDisplay[t12]: Horazon's Map{%NAME%}%CONTINUE%
-ItemDisplay[t13]: Bastion Keep Map{%NAME%}%CONTINUE%
+ItemDisplay[t13]: Bastion Map{%NAME%}%CONTINUE%
 ItemDisplay[t14]: Sanatorium Map{%NAME%}%CONTINUE%
-ItemDisplay[t15]: Royal Crypts Map{%NAME%}%CONTINUE%
+ItemDisplay[t15]: Royal Map{%NAME%}%CONTINUE%
 ItemDisplay[t16]: Ruined Cistern Map{%NAME%}%CONTINUE%
 ItemDisplay[t21]: Phlegethon Map{%NAME%}%CONTINUE%
 ItemDisplay[t22]: Jungle Map{%NAME%}%CONTINUE%
 ItemDisplay[t23]: Battlefield Map{%NAME%}%CONTINUE%
-ItemDisplay[t24]: Zoltun Kulle Map{%NAME%}%CONTINUE%
+ItemDisplay[t24]: Zoltun Map{%NAME%}%CONTINUE%
 ItemDisplay[t25]: Sewers Map{%NAME%}%CONTINUE%
 ItemDisplay[t26]: Westmarch Map{%NAME%}%CONTINUE%
 ItemDisplay[t27]: Demon Road Map{%NAME%}%CONTINUE%
 ItemDisplay[t28]: Skovos Map{%NAME%}%CONTINUE%
-ItemDisplay[t31]: River of Blood Map{%NAME%}%CONTINUE%
+ItemDisplay[t31]: River Map{%NAME%}%CONTINUE%
 ItemDisplay[t32]: Throne Map{%NAME%}%CONTINUE%
 ItemDisplay[t33]: Lost Temple Map{%NAME%}%CONTINUE%
 ItemDisplay[t34]: Ancestral Map{%NAME%}%CONTINUE%
@@ -2013,7 +2013,7 @@ ItemDisplay[t36]: Caldeum Map{%NAME%}%CONTINUE%
 ItemDisplay[t37]: Pandemonium Map{%NAME%}%CONTINUE%
 ItemDisplay[t38]: Canyon Map{%NAME%}%CONTINUE%
 ItemDisplay[t39]: Marketplace Map{%NAME%}%CONTINUE%
-ItemDisplay[t3a]: Ashen Plains Map{%NAME%}%CONTINUE%
+ItemDisplay[t3a]: Ashen Map{%NAME%}%CONTINUE%
 ItemDisplay[t41]: Cathedral of Light Dungeon{%NAME%}%CONTINUE%
 ItemDisplay[t42]: Plains of Torment Dungeon{%NAME%}%CONTINUE%
 ItemDisplay[t43]: Sanctuary of Sin Dungeon{%NAME%}%CONTINUE%
@@ -2058,7 +2058,7 @@ ItemDisplay[t31]: %NAME% %LIGHT_GRAY%Im: %BLUE%*%GREEN%*%ORANGE%*{%NAME%}%CONTIN
 ItemDisplay[t32]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%BLUE%*{%NAME%}%CONTINUE%
 ItemDisplay[t33]: %NAME% %LIGHT_GRAY%Im: %RED%*%BLUE%*{%NAME%}%CONTINUE%
 ItemDisplay[t34]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%GREEN%*{%NAME%}%CONTINUE%
-ItemDisplay[t35]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[t35]: %PURPLE%+%RED%+  %NAME%  %RED%+%PURPLE%+{%NAME%}%CONTINUE%
 ItemDisplay[t36]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%BLUE%*{%NAME%}%CONTINUE%
 ItemDisplay[t37]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%GREEN%*%GOLD%*{%NAME%}%CONTINUE%
 ItemDisplay[t38]: %NAME% %LIGHT_GRAY%Im: %RED%*%GREEN%*%GOLD%*{%NAME%}%CONTINUE%
