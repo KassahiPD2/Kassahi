@@ -1991,7 +1991,7 @@ ItemDisplay[(((STAT434>0 STAT432>0 STAT433>0) OR (STAT434>0 STAT432>0 STAT435>0)
 ItemDisplay[NMAG MAPTIER=0]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED%HC %WHITE%Can PVP in Duel Arenas}%CONTINUE%
 // MAP'S NAME
 ItemDisplay[t11]: Viz-Jun Map{%NAME%}%CONTINUE%
-ItemDisplay[t12]: Horazon's Map{%NAME%}%CONTINUE%
+ItemDisplay[t12]: Horazon Map{%NAME%}%CONTINUE%
 ItemDisplay[t13]: Bastion Map{%NAME%}%CONTINUE%
 ItemDisplay[t14]: Sanatorium Map{%NAME%}%CONTINUE%
 ItemDisplay[t15]: Royal Map{%NAME%}%CONTINUE%
@@ -2006,13 +2006,13 @@ ItemDisplay[t27]: Demon Road Map{%NAME%}%CONTINUE%
 ItemDisplay[t28]: Skovos Map{%NAME%}%CONTINUE%
 ItemDisplay[t31]: River Map{%NAME%}%CONTINUE%
 ItemDisplay[t32]: Throne Map{%NAME%}%CONTINUE%
-ItemDisplay[t33]: Lost Temple Map{%NAME%}%CONTINUE%
+ItemDisplay[t33]: Lost Map{%NAME%}%CONTINUE%
 ItemDisplay[t34]: Ancestral Map{%NAME%}%CONTINUE%
 ItemDisplay[t35]: Blood Moon Map{%NAME%}%CONTINUE%
 ItemDisplay[t36]: Caldeum Map{%NAME%}%CONTINUE%
 ItemDisplay[t37]: Pandemonium Map{%NAME%}%CONTINUE%
 ItemDisplay[t38]: Canyon Map{%NAME%}%CONTINUE%
-ItemDisplay[t39]: Marketplace Map{%NAME%}%CONTINUE%
+ItemDisplay[t39]: Market Map{%NAME%}%CONTINUE%
 ItemDisplay[t3a]: Ashen Map{%NAME%}%CONTINUE%
 ItemDisplay[t41]: Cathedral of Light Dungeon{%NAME%}%CONTINUE%
 ItemDisplay[t42]: Plains of Torment Dungeon{%NAME%}%CONTINUE%
