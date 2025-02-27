@@ -250,6 +250,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Bar:** Eth Mag Barb Helms, Flying Axe, Balrog Spear Families, Rare Barb Helms
     -   **Dru:** Eth Mag Feral Axe, Champion Axe, Thresher, Giant Thresher Families
     -   **Pala:** Eth Mag Scourge Family
+    -   **Sin:** Eth Mag War Fist Family
     -   **Eth Rare:** Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families
     -   **Non Eth Rare:** Necro Shields, Dru Pelts, Colossus Crossbow Family, Jewels, Amulets, Rings, Glvoes, Boots
     -   **Both Rare:** Circlets
