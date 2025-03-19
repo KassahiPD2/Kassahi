@@ -922,7 +922,7 @@ ItemDisplay[(UNI !ID nef) OR (nef UNI STAT368>0)]: Darkforce Spawn%CONTINUE%
 // AXE'S NAME (UNI)
 ItemDisplay[(UNI !ID hax) OR ((hax OR 9ha OR 7ha) UNI STR=8)]: The Gnasher%CONTINUE%
 ItemDisplay[(UNI !ID 9ha) OR ((9ha OR 7ha) UNI STAT54>159)]: Coldkill%CONTINUE%
-ItemDisplay[(UNI !ID 9ha) OR (7ha UNI STAT501>259)]: Razor's Edge%CONTINUE%
+ItemDisplay[(UNI !ID 7ha) OR (7ha UNI STAT501>259)]: Razor's Edge%CONTINUE%
 ItemDisplay[(UNI !ID axe) OR ((axe OR 9ax OR 7ax) UNI STAT113>0)]: Deathspade%CONTINUE%
 ItemDisplay[(UNI !ID 9ax) OR ((9ax OR 7ax) UNI STAT21>0)]: Butcher's Pupil%CONTINUE%
 ItemDisplay[(UNI !ID 2ax) OR ((2ax OR 92a OR 72a) UNI STAT31>0)]: Bladebone%CONTINUE%
