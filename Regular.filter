@@ -1197,7 +1197,7 @@ ItemDisplay[SET ID rin EDAM>0 AR>0 LRES>0 STAT36>0]: Bul-Kathos' Death Band%CONT
 // HELMET'S NAME (SET)
 ItemDisplay[SET !ID cap]: Infernal Cranium%WHITE%/%GREEN%Sander's Paragon%CONTINUE%
 ItemDisplay[SET ID (cap OR xap OR uap) RES>0 DTM>0]: Infernal Cranium%CONTINUE%
-ItemDisplay[SET ID (cap OR xap OR uap) STAT214>0]: Sander's Paragon%CONTINUE%
+ItemDisplay[SET ID (cap OR xap OR uap) STAT214>0 STAT78>7]: Sander's Paragon%CONTINUE%
 ItemDisplay[(SET !ID xap) OR ((xap OR uap) SET STAT114>34)]: Cow King's Horns%CONTINUE%
 ItemDisplay[(SET !ID skp) OR ((skp OR xkp OR ukp) SET STAT78>0)]: Arcanna's Head%CONTINUE%
 ItemDisplay[(SET !ID hlm) OR ((hlm OR xlm OR ulm) SET FRES>24)]: Berserker's Headgear%CONTINUE%
