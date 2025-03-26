@@ -191,7 +191,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   **Non Eth Rare:** Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families
     -   **Rare:** Helms, Shields, Chests, Belts, (Circlets +Notification)
     -   **Non Eth Mag:** Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Charms, Jewels +Notification
-    -   **Eth Mag:** Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
+    -   **Eth Mag:** Helmets, Gloves, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification
     -   **Mag:** Tiara, Diadem +Notification
     -   **Pala:** Rare Normal & Pala Shields +Notification
     -   **Imbue Bases:** Diadem
