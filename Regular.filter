@@ -1602,7 +1602,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(21/04/25){%GREEN%bc mark will keep them updated%CL%however i will not be taking down my filters%CL%im stepping down as a filter creator%CL%Hey Guys, i want to finally announce that%CL%%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(21/04/25){%GREEN%bc mark will keep them updated for new Seasons%CL%however i will not be taking down my filters%CL%im stepping down as a filter creator%CL%Hey Guys, i want to finally announce that%CL%%CL%%RED%Announcement:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
