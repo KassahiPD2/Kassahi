@@ -1602,7 +1602,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(13/05/25){%GREEN%First round of filter updates for S11%CL%%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(14/05/25){%GREEN%First round of filter updates for S11%CL%%CL%%RED%Announcement:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -2520,13 +2520,12 @@ ItemDisplay[RW WEAPON SOCK=4 MULTI151,120=16]: %NAME%{%NAME%%CL%%WHITE%aura: %GR
 ItemDisplay[RW WEAPON SOCK=4 MULTI151,120=17]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%med:%WHITE%342%%GRAY%mreg}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI97,106=1]: %NAME%{%NAME%%CL%%WHITE%charges: %GRAY%how:%WHITE%95%%GRAY%ed, %WHITE%95%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI97,106=1]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%zel:%WHITE%40%%GRAY%ed, %WHITE%35%%GRAY%ar}%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=4 MULTI97,144=1]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%con:%WHITE%80%%GRAY%ed, %WHITE%40%%GRAY%ar, %WHITE%20%%GRAY%def}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 IAS>49 STAT147>9]: %NAME%{%NAME%%CL%%WHITE%charges: %GRAY%how:%WHITE%175%%GRAY%ed, %WHITE%175%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 STAT127>0 FCR>0 STAT77>0]: %NAME%{%NAME%%CL%%WHITE%charges: %GRAY%oak:%WHITE%86%GRAY%life, %WHITE%24%GRAY%repl}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI97,235=3]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%cya:%WHITE%47%GRAY%eabs, %WHITE%scales with ene}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI151,123=12]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%cvn:%WHITE%-17%GRAY%im, %WHITE%-34%GRAY%non, %WHITE%-57%%GRAY%eydef}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI200,15055=2]: %NAME%{%NAME%%CL%%WHITE%casting: %GRAY%cya:%WHITE%246%GRAY%eabs, %WHITE%scales with ene}%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=4 MULTI151,102=12]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%hfr:%WHITE%28-48%GRAY%fire, %WHITE%105%%GRAY%ar}%CONTINUE%
+ItemDisplay[RW WEAPON SOCK=4 MULTI151,102=14]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%hfr:%WHITE%28-48%GRAY%fire, %WHITE%105%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI151,113=18]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%cct:%WHITE%157%%GRAY%bhm, %WHITE%315%%GRAY%ur ed, %WHITE%157%%GRAY%party ed, %WHITE%220%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI151,113=19]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%cct:%WHITE%165%%GRAY%bhm, %WHITE%330%%GRAY%ur ed, %WHITE%165%%GRAY%party ed, %WHITE%230%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=4 MULTI151,113=20]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%cct:%WHITE%172%%GRAY%bhm, %WHITE%345%%GRAY%ur ed, %WHITE%172%%GRAY%party ed, %WHITE%240%%GRAY%ar}%CONTINUE%
@@ -3405,7 +3404,7 @@ ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (zhb) LVLREQ>66]: %NAME%{%NAME%%LVL
 //opener
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%1}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%2}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON)  (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%1}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%1}%CONTINUE%
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%1}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR 1H OR hax) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%2}%CONTINUE%
 ItemDisplay[sst (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%2}%CONTINUE%
@@ -3626,7 +3625,7 @@ ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%
 ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%NAME%%CL%%GOLD%dominion:%GREEN%32, 27%NL%%GOLD%strength:%GREEN%11, 3 %GOLD%white:%GREEN%14, 16}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%GREEN%29, 1%NL%%GOLD%neophyte:%GREEN%10, 3 %GOLD%strength:%GREEN%11, 3}%CONTINUE%
 ItemDisplay[NMAG SOCK=3 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%GREEN%31, 25, 5 %GOLD%plague:%GREEN%32, 19, 22%NL%%GOLD%lawbringer:%GREEN%11, 20, 18 %GOLD%venom:%GREEN%7, 14, 23%NL%%GOLD%malice:%GREEN%6, 1, 5 %GOLD%king's grace:%GREEN%11, 8, 10 %GOLD%crescent moon:%GREEN%13, 22, 3}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%GREEN%29, 32, 11, 28%NL%%GOLD%fortitude:%GREEN%1, 12, 14, 28 %GOLD%phoenix:%GREEN%26, 26, 28, 31%NL%%GOLD%rift:%GREEN%15, 18, 20, 25 %GOLD%insight:%GREEN%8, 3, 7, 12%NL%%GOLD%holy thunder:%GREEN%5, 8, 9, 7 %GOLD%passion:%GREEN%14, 9, 2, 20 %GOLD%voice of reason:%GREEN%20, 18, 1, 2}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%GREEN%29, 32, 11, 28%NL%%GOLD%fortitude:%GREEN%1, 12, 14, 28 %GOLD%phoenix:%GREEN%26, 26, 28, 31%NL%%GOLD%rift:%GREEN%15, 18, 20, 25%NL%%GOLD%holy thunder:%GREEN%5, 8, 9, 7 %GOLD%passion:%GREEN%14, 9, 2, 20 %GOLD%voice of reason:%GREEN%20, 18, 1, 2}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%doom:%GREEN%15, 27, 22, 28, 32%NL%%GOLD%eternity:%GREEN%11, 30, 24, 12, 29 %GOLD%beast:%GREEN%30, 3, 22, 23, 17%NL%%GOLD%honor:%GREEN%11, 1, 6, 3, 12 %GOLD%call to arms:%GREEN%11, 8, 23, 24, 27}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 SIN !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%GREEN%11, 3 %GOLD%wind:%GREEN%29, 1%NL%%GOLD%steel:%GREEN%3, 1 %GOLD%neophyte:%GREEN%10, 3}%CONTINUE%
 ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%GREEN%31, 25, 5 %GOLD%plague:%GREEN%32, 19, 22%NL%%GOLD%venom:%GREEN%7, 14, 23 %GOLD%chaos:%GREEN%19, 27, 22%NL%%GOLD%lawbringer:%GREEN%11, 20, 18 %GOLD%crescent moon:%GREEN%13, 22, 3%NL%%GOLD%king's grace:%GREEN%11, 8, 10 %GOLD%black:%GREEN%10, 16, 4%NL%%GOLD%malice:%GREEN%6, 1, 5 %GOLD%Pattern:%GREEN%7, 9, 3}%CONTINUE%
