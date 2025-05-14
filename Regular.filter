@@ -1,15 +1,15 @@
-ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S10)
-ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[5]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[6]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc8w/o ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[7]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
+ItemDisplayFilterName[1]: ï¿½c9Starter Filter Lvl (S11)
+ItemDisplayFilterName[2]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[3]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.sï¿½c0Fï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[4]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[5]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.sï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[6]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c8w/o ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[7]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[8]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.sï¿½c0Fï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[9]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[10]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.sï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[11]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c8w/o ï¿½c5(ï¿½c0Fï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[12]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c1Extreme ï¿½c4Strictness
 
 
 
@@ -1370,9 +1370,9 @@ ItemDisplay[INF ID !rin !amu]: %GRAY%Inf %NAME%{%NAME%}%CONTINUE%
 // ETHEREAL (ITEMS)
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
 // BASE VERSION (ITEMS)
-ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
-ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
-ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // QUANTITY (ITEMS)
@@ -1602,7 +1602,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(14/05/25){%GREEN%First round of filter updates for S11%CL%%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(14/05/25){%GREEN%Filter updated for S11 - HiimMark%CL%%CL%%RED%Announcement:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1694,6 +1694,11 @@ ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
 // RUNES
 ItemDisplay[RUNE<26]: %RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[RUNE>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+// Rune sounds
+ItemDisplay[RUNE>20 RUNE<26]: %DOT-0A%%SOUNDID-1336%%NAME%%CONTINUE%
+ItemDisplay[RUNE>25 RUNE<30]: %DOT-0A%%SOUNDID-1342%%NAME%%CONTINUE%
+ItemDisplay[RUNE>29 RUNE<33]: %DOT-0A%%SOUNDID-1346%%NAME%%CONTINUE%
+ItemDisplay[RUNE=33]: %DOT-0A%%SOUNDID-1352%%NAME%%CONTINUE%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FILTLVL=6 OR FILTLVL=7 OR FILTLVL=8 OR FILTLVL=9 OR FILTLVL=10 OR FILTLVL=11) (RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%GREEN%++  %NAME%  %GREEN%++%CONTINUE%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=8 OR FILTLVL=9 OR FILTLVL=10) RUNE<20 !(RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%GREEN%+  %NAME%  %GREEN%+%CONTINUE%
 ItemDisplay[(FILTLVL=6 OR FILTLVL=11) RUNE<20 !(RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %GREEN%+  %NAME%  %GREEN%+%CONTINUE%
@@ -1985,7 +1990,7 @@ ItemDisplay[STAT438>0]: %NAME%{bitches, %NAME%}%CONTINUE%
 ItemDisplay[STAT439>0]: %NAME%{vamp lords, %NAME%}%CONTINUE%
 ItemDisplay[STAT441>0]: %NAME%{reanimated, %NAME%}%CONTINUE%
 ItemDisplay[STAT470>0]: %NAME%{souls, %NAME%}%CONTINUE%
-ItemDisplay[STAT499>0]: %NAME%{bats, %NAME%}%CONTINUE%
+ItemDisplay[STAT499>0]: %NAME%{minions, %NAME%}%CONTINUE%
 ItemDisplay[(((STAT434>0 STAT432>0 STAT433>0) OR (STAT434>0 STAT432>0 STAT435>0) OR STAT435>0 OR (STAT434>0 STAT433>0 STAT435>0) OR (STAT432>0 STAT433>0 STAT435>0)) OR (STAT388>0 STAT434>0) OR (STAT389>0 STAT432>0) OR (STAT390>0 STAT433>0) OR (STAT391>0 STAT435>0) OR (STAT399>0 OR STAT398>0 OR STAT396>0 OR STAT397>0) OR STAT393>0 OR STAT405>0 OR STAT406>0 OR STAT449>0 OR STAT407>0 OR STAT408>0 OR STAT409>0 OR STAT411<0 OR STAT412<0 OR STAT431<0 OR MULTI427,22913=100 OR STAT450>0 OR STAT437>0 OR STAT438>0 OR STAT439>0 OR STAT441>0 OR STAT470>0 OR STAT499>0)]: %NAME%{%CORAL%%NAME%}%CONTINUE%
 // DUEL ARENAS (INFO)
 ItemDisplay[NMAG MAPTIER=0]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED%HC %WHITE%Can PVP in Duel Arenas}%CONTINUE%
@@ -2100,17 +2105,17 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3) ILVL>89]: %DOT-0D%%LIGHT_GRAY%+ +%RED%+ +   %NAME%   %RED%+ +%LIGHT_GRAY%+ +
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%LIGHT_GRAY%+%RED%+   %NAME%   %RED%+%LIGHT_GRAY%+
 // BOSS ITEMS
-ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+%SOUNDID-763%
 // GG
-ItemDisplay[UNI !ID (ci3 OR pa9 OR obc OR obf OR uar OR ulc OR uap OR ulm OR uhm OR usk OR urn OR uit OR uow OR uts OR 7wa OR 7wh OR 7gm OR 7ws OR 7p7 OR 6bs OR 6ws OR 7gw OR 8ws OR nee OR xhb OR 7gd OR uhc)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (ci3 OR pa9 OR obc OR obf OR uar OR ulc OR uap OR ulm OR uhm OR usk OR urn OR uit OR uow OR uts OR 7wa OR 7wh OR 7gm OR 7ws OR 7p7 OR 6bs OR 6ws OR 7gw OR 8ws OR nee OR xhb OR 7gd OR uhc)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // TIER 3
-ItemDisplay[UNI !ID (ci2 OR amf OR ba6 OR bad OR bae OR dra OR drd OR nef OR xhn OR utu OR uui OR upl  OR uul OR zlb OR uvc OR umc OR lbt OR umg OR utg OR uhg OR uh9 OR xsh OR 9la OR 9gm OR 7fl OR 7wc OR 7pa OR 7gs OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR pae OR xui OR 7bt OR 7cr OR 7ls OR pac OR xtg OR uvg OR 7lw OR amu OR rin OR jew OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+   %NAME%   %ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (ci2 OR amf OR ba6 OR bad OR bae OR dra OR drd OR nef OR xhn OR utu OR uui OR upl  OR uul OR zlb OR uvc OR umc OR lbt OR umg OR utg OR uhg OR uh9 OR xsh OR 9la OR 9gm OR 7fl OR 7wc OR 7pa OR 7gs OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR pae OR xui OR 7bt OR 7cr OR 7ls OR pac OR xtg OR uvg OR 7lw OR amu OR rin OR jew OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+  %SOUNDID-2670%  %NAME%   %ORANGE%+%RED%+%PURPLE%+
 // TIER 2
-ItemDisplay[UNI !ID (drb OR dre OR oba OR xea OR zhb OR xvb OR xmb OR tgl OR xvg OR xow OR ush OR 7bl OR 9wc OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 8hx OR paf)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[UNI !ID (drb OR dre OR oba OR xea OR zhb OR xvb OR xmb OR tgl OR xvg OR xow OR ush OR 7bl OR 9wc OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 8hx OR paf)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+ %SOUNDID-2678%  %NAME%  %ORANGE%+%RED%+
 // TIER 1
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (bac OR 7tw OR ne6 OR uml OR lbb OR 8sw OR 6sw OR xar OR ulg OR urg OR 7di OR xlt OR 8mx OR ltp OR drc OR ung OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 9fl OR 7gi)]: %PX-0D%%DOT-0A%%RED%+ %NAME% %RED%+
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (bac OR 7tw OR ne6 OR uml OR lbb OR 8sw OR 6sw OR xar OR ulg OR urg OR 7di OR xlt OR 8mx OR ltp OR drc OR ung OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 9fl OR 7gi)]: %PX-0D%%DOT-0A%%RED%+ %NAME% %RED%+%SOUNDID-2666%
 // TIER 0
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR uhb OR hgl OR xlg OR xmg OR xhg OR xth OR 9kr OR baf OR utp OR 8rx OR drf OR uvb OR amb OR xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR fhl OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR amd OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7s8 OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR 7xf OR ba7 OR dr6 OR ame OR neg OR upk OR xtp)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR uhb OR hgl OR xlg OR xmg OR xhg OR xth OR 9kr OR baf OR utp OR 8rx OR drf OR uvb OR amb OR xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR fhl OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR amd OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7s8 OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR 7xf OR ba7 OR dr6 OR ame OR neg OR upk OR xtp)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
 // LLD
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
 // LVLING

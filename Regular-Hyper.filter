@@ -1,4 +1,4 @@
-ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S10)
+ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S11)
 ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc:Medium ÿc4Strictness
 ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.sÿc0Fÿc5) ÿc:Medium ÿc4Strictness
 ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Fÿc5) ÿc;Extra ÿc4Strictness
@@ -1602,7 +1602,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(14/05/25){%GREEN%First round of filter updates for S11%CL%%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(14/05/25){%GREEN%Filter updated for S11 - HiimMark%CL%%CL%%RED%Announcement:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1696,6 +1696,11 @@ ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
 // RUNES
 ItemDisplay[RUNE<26]: %RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
 ItemDisplay[RUNE>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+// Rune sounds
+ItemDisplay[RUNE>20 RUNE<26]: %DOT-0A%%SOUNDID-1336%%NAME%%CONTINUE%
+ItemDisplay[RUNE>25 RUNE<30]: %DOT-0A%%SOUNDID-1342%%NAME%%CONTINUE%
+ItemDisplay[RUNE>29 RUNE<33]: %DOT-0A%%SOUNDID-1346%%NAME%%CONTINUE%
+ItemDisplay[RUNE=33]: %DOT-0A%%SOUNDID-1352%%NAME%%CONTINUE%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FILTLVL=6 OR FILTLVL=7 OR FILTLVL=8 OR FILTLVL=9 OR FILTLVL=10 OR FILTLVL=11) (RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%GREEN%++  %NAME%  %GREEN%++%CONTINUE%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=8 OR FILTLVL=9 OR FILTLVL=10) RUNE<20 !(RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%GREEN%+  %NAME%  %GREEN%+%CONTINUE%
 ItemDisplay[(FILTLVL=6 OR FILTLVL=11) RUNE<20 !(RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %GREEN%+  %NAME%  %GREEN%+%CONTINUE%
@@ -1987,7 +1992,7 @@ ItemDisplay[STAT438>0]: %NAME%{Witches, %NAME%}%CONTINUE%
 ItemDisplay[STAT439>0]: %NAME%{vamp lords, %NAME%}%CONTINUE%
 ItemDisplay[STAT441>0]: %NAME%{reanimated, %NAME%}%CONTINUE%
 ItemDisplay[STAT470>0]: %NAME%{souls, %NAME%}%CONTINUE%
-ItemDisplay[STAT499>0]: %NAME%{bats, %NAME%}%CONTINUE%
+ItemDisplay[STAT499>0]: %NAME%{minions, %NAME%}%CONTINUE%
 ItemDisplay[(((STAT434>0 STAT432>0 STAT433>0) OR (STAT434>0 STAT432>0 STAT435>0) OR STAT435>0 OR (STAT434>0 STAT433>0 STAT435>0) OR (STAT432>0 STAT433>0 STAT435>0)) OR (STAT388>0 STAT434>0) OR (STAT389>0 STAT432>0) OR (STAT390>0 STAT433>0) OR (STAT391>0 STAT435>0) OR (STAT399>0 OR STAT398>0 OR STAT396>0 OR STAT397>0) OR STAT393>0 OR STAT405>0 OR STAT406>0 OR STAT449>0 OR STAT407>0 OR STAT408>0 OR STAT409>0 OR STAT411<0 OR STAT412<0 OR STAT431<0 OR MULTI427,22913=100 OR STAT450>0 OR STAT437>0 OR STAT438>0 OR STAT439>0 OR STAT441>0 OR STAT470>0 OR STAT499>0)]: %NAME%{%CORAL%%NAME%}%CONTINUE%
 // DUEL ARENAS (INFO)
 ItemDisplay[NMAG MAPTIER=0]: %NAME%{%WHITE%Without Result in Perma Death%NL%%RED%HC %WHITE%Can PVP in Duel Arenas}%CONTINUE%
