@@ -13,7 +13,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 ![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
-=== "Starter Filter Lvl (S10) Info"
+=== "Starter Filter Lvl (S11) Info"
 
     ## Shows:
     -   *35%, *A, *T, *TP
