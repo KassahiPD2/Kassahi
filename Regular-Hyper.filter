@@ -54,527 +54,527 @@ ItemDisplay[!SET !UNI !RW rin]: Ring%CONTINUE%
 ItemDisplay[aqv]: Arrows%CONTINUE%
 ItemDisplay[cqv]: Bolts%CONTINUE%
 // HELMET'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI cap]: Cap%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xap]: War Hat%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uap]: Shako%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI skp]: Skull Cap%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xkp]: Sallet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ukp]: Hydraskull%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI hlm]: Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xlm]: Casque%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ulm]: Armet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI fhl]: Full Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xhl]: Basinet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uhl]: Giant Conch%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI msk]: Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xsk]: Death Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI usk]: Demonhead%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bhm]: Bone Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xh9]: Grim Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uh9]: Bone Visage%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ghm]: Great Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xhm]: Winged Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uhm]: Spired Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI crn]: Crown%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xrn]: Grand Crown%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI urn]: Corona%CONTINUE%
+ItemDisplay[!RW !SET !UNI cap]: Cap%CONTINUE%
+ItemDisplay[!RW !SET !UNI xap]: War Hat%CONTINUE%
+ItemDisplay[!RW !SET !UNI uap]: Shako%CONTINUE%
+ItemDisplay[!RW !SET !UNI skp]: Skull Cap%CONTINUE%
+ItemDisplay[!RW !SET !UNI xkp]: Sallet%CONTINUE%
+ItemDisplay[!RW !SET !UNI ukp]: Hydraskull%CONTINUE%
+ItemDisplay[!RW !SET !UNI hlm]: Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI xlm]: Casque%CONTINUE%
+ItemDisplay[!RW !SET !UNI ulm]: Armet%CONTINUE%
+ItemDisplay[!RW !SET !UNI fhl]: Full Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI xhl]: Basinet%CONTINUE%
+ItemDisplay[!RW !SET !UNI uhl]: Giant Conch%CONTINUE%
+ItemDisplay[!RW !SET !UNI msk]: Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI xsk]: Death Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI usk]: Demonhead%CONTINUE%
+ItemDisplay[!RW !SET !UNI bhm]: Bone Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI xh9]: Grim Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI uh9]: Bone Visage%CONTINUE%
+ItemDisplay[!RW !SET !UNI ghm]: Great Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI xhm]: Winged Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI uhm]: Spired Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI crn]: Crown%CONTINUE%
+ItemDisplay[!RW !SET !UNI xrn]: Grand Crown%CONTINUE%
+ItemDisplay[!RW !SET !UNI urn]: Corona%CONTINUE%
 // ARMOR'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI qui]: Quilted Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xui]: Ghost Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uui]: Dusk Shroud%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lea]: Leather Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xea]: Serpentskin Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uea]: Wyrmhide%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI hla]: Hard Leather Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xla]: Demonhide Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ula]: Scarab Husk%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI stu]: Studded Leather%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xtu]: Trellised Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI utu]: Wire Fleece%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI rng]: Ring Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xng]: Linked Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ung]: Diamond Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI scl]: Scale Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xcl]: Tigulated Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ucl]: Loricated Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI brs]: Breast Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xrs]: Cuirass%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI urs]: Great Hauberk%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI chn]: Chain Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xhn]: Mesh Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uhn]: Boneweave%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI spl]: Splint Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xpl]: Russet Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI upl]: Balrog Skin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ltp]: Light Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xtp]: Mage Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI utp]: Archon Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI fld]: Field Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xld]: Sharktooth Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uld]: Kraken Shell%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI plt]: Plate Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xlt]: Templar Coat%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ult]: Hellforge Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gth]: Gothic Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xth]: Embossed Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uth]: Lacquered Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ful]: Full Plate Mail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xul]: Chaos Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uul]: Shadow Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI aar]: Ancient Armor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xar]: Ornate Plate%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uar]: Sacred Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI qui]: Quilted Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI xui]: Ghost Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI uui]: Dusk Shroud%CONTINUE%
+ItemDisplay[!RW !SET !UNI lea]: Leather Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI xea]: Serpentskin Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI uea]: Wyrmhide%CONTINUE%
+ItemDisplay[!RW !SET !UNI hla]: Hard Leather Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI xla]: Demonhide Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI ula]: Scarab Husk%CONTINUE%
+ItemDisplay[!RW !SET !UNI stu]: Studded Leather%CONTINUE%
+ItemDisplay[!RW !SET !UNI xtu]: Trellised Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI utu]: Wire Fleece%CONTINUE%
+ItemDisplay[!RW !SET !UNI rng]: Ring Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xng]: Linked Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI ung]: Diamond Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI scl]: Scale Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xcl]: Tigulated Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI ucl]: Loricated Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI brs]: Breast Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI xrs]: Cuirass%CONTINUE%
+ItemDisplay[!RW !SET !UNI urs]: Great Hauberk%CONTINUE%
+ItemDisplay[!RW !SET !UNI chn]: Chain Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xhn]: Mesh Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI uhn]: Boneweave%CONTINUE%
+ItemDisplay[!RW !SET !UNI spl]: Splint Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xpl]: Russet Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI upl]: Balrog Skin%CONTINUE%
+ItemDisplay[!RW !SET !UNI ltp]: Light Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI xtp]: Mage Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI utp]: Archon Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI fld]: Field Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI xld]: Sharktooth Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI uld]: Kraken Shell%CONTINUE%
+ItemDisplay[!RW !SET !UNI plt]: Plate Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xlt]: Templar Coat%CONTINUE%
+ItemDisplay[!RW !SET !UNI ult]: Hellforge Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI gth]: Gothic Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI xth]: Embossed Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI uth]: Lacquered Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI ful]: Full Plate Mail%CONTINUE%
+ItemDisplay[!RW !SET !UNI xul]: Chaos Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI uul]: Shadow Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI aar]: Ancient Armor%CONTINUE%
+ItemDisplay[!RW !SET !UNI xar]: Ornate Plate%CONTINUE%
+ItemDisplay[!RW !SET !UNI uar]: Sacred Armor%CONTINUE%
 // SHIELD'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI buc]: Buckler%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xuc]: Defender%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uuc]: Heater%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI sml]: Small Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xml]: Round Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uml]: Luna%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lrg]: Large Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xrg]: Scutum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI urg]: Hyperion%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI spk]: Spiked Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xpk]: Barbed Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI upk]: Blade Barrier%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI kit]: Kite Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xit]: Dragon Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uit]: Monarch%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bsh]: Bone Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xsh]: Grim Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ush]: Troll Nest%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI tow]: Tower Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xow]: Pavise%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uow]: Aegis%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gts]: Gothic Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI xts]: Ancient Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI uts]: Ward%CONTINUE%
+ItemDisplay[!RW !SET !UNI buc]: Buckler%CONTINUE%
+ItemDisplay[!RW !SET !UNI xuc]: Defender%CONTINUE%
+ItemDisplay[!RW !SET !UNI uuc]: Heater%CONTINUE%
+ItemDisplay[!RW !SET !UNI sml]: Small Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xml]: Round Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI uml]: Luna%CONTINUE%
+ItemDisplay[!RW !SET !UNI lrg]: Large Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xrg]: Scutum%CONTINUE%
+ItemDisplay[!RW !SET !UNI urg]: Hyperion%CONTINUE%
+ItemDisplay[!RW !SET !UNI spk]: Spiked Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xpk]: Barbed Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI upk]: Blade Barrier%CONTINUE%
+ItemDisplay[!RW !SET !UNI kit]: Kite Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xit]: Dragon Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI uit]: Monarch%CONTINUE%
+ItemDisplay[!RW !SET !UNI bsh]: Bone Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xsh]: Grim Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI ush]: Troll Nest%CONTINUE%
+ItemDisplay[!RW !SET !UNI tow]: Tower Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xow]: Pavise%CONTINUE%
+ItemDisplay[!RW !SET !UNI uow]: Aegis%CONTINUE%
+ItemDisplay[!RW !SET !UNI gts]: Gothic Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI xts]: Ancient Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI uts]: Ward%CONTINUE%
 // GLOVE'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI !RW lgl]: Leather Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xlg]: Demonhide Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW ulg]: Bramble Mitts%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW vgl]: Heavy Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xvg]: Sharkskin Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uvg]: Vampirebone Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW mgl]: Chain Gloves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xmg]: Heavy Bracers%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW umg]: Vambraces%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW tgl]: Light Gauntlets%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xtg]: Battle Gauntlets%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW utg]: Crusader Gauntlets%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW hgl]: Gauntlets%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xhg]: War Gauntlets%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uhg]: Ogre Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW lgl]: Leather Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xlg]: Demonhide Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW ulg]: Bramble Mitts%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW vgl]: Heavy Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xvg]: Sharkskin Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uvg]: Vampirebone Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW mgl]: Chain Gloves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xmg]: Heavy Bracers%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW umg]: Vambraces%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW tgl]: Light Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xtg]: Battle Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW utg]: Crusader Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW hgl]: Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xhg]: War Gauntlets%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uhg]: Ogre Gauntlets%CONTINUE%
 // BOOT'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI !RW lbt]: Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xlb]: Demonhide Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW ulb]: Wyrmhide Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW vbt]: Heavy Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xvb]: Sharkskin Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uvb]: Scarabshell Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW mbt]: Chain Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xmb]: Mesh Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW umb]: Boneweave Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW tbt]: Light Plated Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xtb]: Battle Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW utb]: Mirrored Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW hbt]: Greaves%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW xhb]: War Boots%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uhb]: Myrmidon Greaves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW lbt]: Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xlb]: Demonhide Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW ulb]: Wyrmhide Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW vbt]: Heavy Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xvb]: Sharkskin Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uvb]: Scarabshell Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW mbt]: Chain Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xmb]: Mesh Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW umb]: Boneweave Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW tbt]: Light Plated Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xtb]: Battle Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW utb]: Mirrored Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW hbt]: Greaves%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW xhb]: War Boots%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uhb]: Myrmidon Greaves%CONTINUE%
 // BELT'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI !RW lbl]: Sash%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW zlb]: Demonhide Sash%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW ulc]: Spiderweb Sash%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW vbl]: Light Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW zvb]: Sharkskin Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uvc]: Vampirefang Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW mbl]: Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW zmb]: Mesh Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW umc]: Mithril Coil%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW tbl]: Heavy Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW ztb]: Battle Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW utc]: Troll Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW hbl]: Plated Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW zhb]: War Belt%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI !RW uhc]: Colossus Girdle%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW lbl]: Sash%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW zlb]: Demonhide Sash%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW ulc]: Spiderweb Sash%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW vbl]: Light Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW zvb]: Sharkskin Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uvc]: Vampirefang Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW mbl]: Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW zmb]: Mesh Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW umc]: Mithril Coil%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW tbl]: Heavy Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW ztb]: Battle Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW utc]: Troll Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW hbl]: Plated Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW zhb]: War Belt%CONTINUE%
+ItemDisplay[!RW !SET !UNI !RW uhc]: Colossus Girdle%CONTINUE%
 // CIRCLET'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ci0]: Circlet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ci1]: Coronet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ci2]: Tiara%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ci3]: Diadem%CONTINUE%
+ItemDisplay[!RW !SET !UNI ci0]: Circlet%CONTINUE%
+ItemDisplay[!RW !SET !UNI ci1]: Coronet%CONTINUE%
+ItemDisplay[!RW !SET !UNI ci2]: Tiara%CONTINUE%
+ItemDisplay[!RW !SET !UNI ci3]: Diadem%CONTINUE%
 // DRUID PELT'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI dr1]: Wolf Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr6]: Alpha Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI drb]: Blood Spirit%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr2]: Hawk Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr7]: Griffon Headress%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI drc]: Sun Spirit%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr3]: Antlers%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr8]: Hunter's Guise%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI drd]: Earth Spirit%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr4]: Falcon Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr9]: Sacred Feathers%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dre]: Sky Spirit%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dr5]: Spirit Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dra]: Totemic Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI drf]: Dream Spirit%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr1]: Wolf Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr6]: Alpha Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI drb]: Blood Spirit%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr2]: Hawk Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr7]: Griffon Headress%CONTINUE%
+ItemDisplay[!RW !SET !UNI drc]: Sun Spirit%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr3]: Antlers%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr8]: Hunter's Guise%CONTINUE%
+ItemDisplay[!RW !SET !UNI drd]: Earth Spirit%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr4]: Falcon Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr9]: Sacred Feathers%CONTINUE%
+ItemDisplay[!RW !SET !UNI dre]: Sky Spirit%CONTINUE%
+ItemDisplay[!RW !SET !UNI dr5]: Spirit Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI dra]: Totemic Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI drf]: Dream Spirit%CONTINUE%
 // BARBARIAN HELMET'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ba1]: Jawbone Cap%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba6]: Jawbone Visor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bab]: Carnage Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba2]: Fanged Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba7]: Lion Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bac]: Fury Visor%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba3]: Horned Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba8]: Rage Mask%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bad]: Destroyer Helm%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba4]: Assault Helmet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba9]: Savage Helmet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bae]: Conqueror Crown%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ba5]: Avenger Guard%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI baa]: Slayer Guard%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI baf]: Guardian Crown%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba1]: Jawbone Cap%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba6]: Jawbone Visor%CONTINUE%
+ItemDisplay[!RW !SET !UNI bab]: Carnage Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba2]: Fanged Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba7]: Lion Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI bac]: Fury Visor%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba3]: Horned Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba8]: Rage Mask%CONTINUE%
+ItemDisplay[!RW !SET !UNI bad]: Destroyer Helm%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba4]: Assault Helmet%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba9]: Savage Helmet%CONTINUE%
+ItemDisplay[!RW !SET !UNI bae]: Conqueror Crown%CONTINUE%
+ItemDisplay[!RW !SET !UNI ba5]: Avenger Guard%CONTINUE%
+ItemDisplay[!RW !SET !UNI baa]: Slayer Guard%CONTINUE%
+ItemDisplay[!RW !SET !UNI baf]: Guardian Crown%CONTINUE%
 // PALADIN SHIELD'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI pa1]: Targe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa6]: Akaran Targe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pab]: Sacred Targe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa2]: Rondache%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa7]: Akaran Rondache%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pac]: Sacred Rondache%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa3]: Heraldic Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa8]: Protector Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pad]: Kurast Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa4]: Aerin Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa9]: Gilded Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pae]: Zakarum Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pa5]: Crown Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI paa]: Royal Shield%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI paf]: Vortex Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa1]: Targe%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa6]: Akaran Targe%CONTINUE%
+ItemDisplay[!RW !SET !UNI pab]: Sacred Targe%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa2]: Rondache%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa7]: Akaran Rondache%CONTINUE%
+ItemDisplay[!RW !SET !UNI pac]: Sacred Rondache%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa3]: Heraldic Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa8]: Protector Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pad]: Kurast Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa4]: Aerin Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa9]: Gilded Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pae]: Zakarum Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI pa5]: Crown Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI paa]: Royal Shield%CONTINUE%
+ItemDisplay[!RW !SET !UNI paf]: Vortex Shield%CONTINUE%
 // NECROMANCER HEAD'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ne1]: Preserved Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne6]: Mummified Trophy%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI neb]: Minion Skull%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne2]: Zombie Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne7]: Fetish Trophy%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI neg]: Hellspawn Skull%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne3]: Unraveller Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne8]: Sexton Trophy%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ned]: Overseer Skull%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne4]: Gargoyle Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne9]: Cantor Trophy%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI nee]: Succubus Skull%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ne5]: Demon Head%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI nea]: Hierophant Trophy%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI nef]: Bloodlord Skull%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne1]: Preserved Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne6]: Mummified Trophy%CONTINUE%
+ItemDisplay[!RW !SET !UNI neb]: Minion Skull%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne2]: Zombie Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne7]: Fetish Trophy%CONTINUE%
+ItemDisplay[!RW !SET !UNI neg]: Hellspawn Skull%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne3]: Unraveller Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne8]: Sexton Trophy%CONTINUE%
+ItemDisplay[!RW !SET !UNI ned]: Overseer Skull%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne4]: Gargoyle Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne9]: Cantor Trophy%CONTINUE%
+ItemDisplay[!RW !SET !UNI nee]: Succubus Skull%CONTINUE%
+ItemDisplay[!RW !SET !UNI ne5]: Demon Head%CONTINUE%
+ItemDisplay[!RW !SET !UNI nea]: Hierophant Trophy%CONTINUE%
+ItemDisplay[!RW !SET !UNI nef]: Bloodlord Skull%CONTINUE%
 // AXE'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI hax]: Hand Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ha]: Hatchet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ha]: Tomahawk%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI axe]: Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ax]: Cleaver%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ax]: Small Crescent%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 2ax]: Double Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 92a]: Twin Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 72a]: Ettin Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI mpi]: Military Pick%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9mp]: Crowbill%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7mp]: War Spike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wax]: War Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wa]: Naga%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wa]: Berserker Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lax]: Large Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9la]: Military Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7la]: Feral Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bax]: Broad Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ba]: Bearded Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ba]: Silver-edged Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI btx]: Battle Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9bt]: Tabar%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7bt]: Decapitator%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gax]: Great Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ga]: Gothic Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ga]: Champion Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gix]: Giant Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gi]: Ancient Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gi]: Glorious Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI hax]: Hand Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ha]: Hatchet%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ha]: Tomahawk%CONTINUE%
+ItemDisplay[!RW !SET !UNI axe]: Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ax]: Cleaver%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ax]: Small Crescent%CONTINUE%
+ItemDisplay[!RW !SET !UNI 2ax]: Double Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 92a]: Twin Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 72a]: Ettin Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI mpi]: Military Pick%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9mp]: Crowbill%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7mp]: War Spike%CONTINUE%
+ItemDisplay[!RW !SET !UNI wax]: War Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wa]: Naga%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wa]: Berserker Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI lax]: Large Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9la]: Military Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7la]: Feral Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI bax]: Broad Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ba]: Bearded Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ba]: Silver-edged Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI btx]: Battle Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9bt]: Tabar%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7bt]: Decapitator%CONTINUE%
+ItemDisplay[!RW !SET !UNI gax]: Great Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ga]: Gothic Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ga]: Champion Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI gix]: Giant Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gi]: Ancient Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gi]: Glorious Axe%CONTINUE%
 // CLUB'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI clb]: Club%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9cl]: Cudgel%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7cl]: Truncheon%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI spc]: Spiked Club%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9sp]: Barbed Club%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7sp]: Tyrant Club%CONTINUE%
+ItemDisplay[!RW !SET !UNI clb]: Club%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9cl]: Cudgel%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7cl]: Truncheon%CONTINUE%
+ItemDisplay[!RW !SET !UNI spc]: Spiked Club%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9sp]: Barbed Club%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7sp]: Tyrant Club%CONTINUE%
 // MACE'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI mac]: Mace%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ma]: Flanged Mace%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ma]: Reinforced Mace%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI mst]: Morning Star%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9mt]: Jagged Star%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7mt]: Devil Star%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI fla]: Flail%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9fl]: Knout%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7fl]: Scourge%CONTINUE%
+ItemDisplay[!RW !SET !UNI mac]: Mace%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ma]: Flanged Mace%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ma]: Reinforced Mace%CONTINUE%
+ItemDisplay[!RW !SET !UNI mst]: Morning Star%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9mt]: Jagged Star%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7mt]: Devil Star%CONTINUE%
+ItemDisplay[!RW !SET !UNI fla]: Flail%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9fl]: Knout%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7fl]: Scourge%CONTINUE%
 // HAMMER'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI whm]: War Hammer%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wh]: Battle Hammer%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wh]: Legendary Mallet%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI mau]: Maul%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9m9]: War Club%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7m7]: Ogre Maul%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gma]: Great Maul%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gm]: Martel de Fer%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gm]: Thunder Maul%CONTINUE%
+ItemDisplay[!RW !SET !UNI whm]: War Hammer%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wh]: Battle Hammer%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wh]: Legendary Mallet%CONTINUE%
+ItemDisplay[!RW !SET !UNI mau]: Maul%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9m9]: War Club%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7m7]: Ogre Maul%CONTINUE%
+ItemDisplay[!RW !SET !UNI gma]: Great Maul%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gm]: Martel de Fer%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gm]: Thunder Maul%CONTINUE%
 // SWORD'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ssd]: Short Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ss]: Gladius%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ss]: Falcata%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI scm]: Scimitar%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9sm]: Cutlass%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7sm]: Ataghan%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI sbr]: Saber%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9sb]: Shamshir%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7sb]: Elegant Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI flc]: Falchion%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9fc]: Tulwar%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7fc]: Hydra Edge%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI crs]: Crystal Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9cr]: Dimensional Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7cr]: Phase Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bsd]: Broad Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9bs]: Battle Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7bs]: Conquest Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lsd]: Long Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ls]: Rune Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ls]: Cryptic Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wsd]: War Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wd]: Ancient Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wd]: Mythical Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 2hs]: Two-handed Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 92h]: Espandon%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 72h]: Legend Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI clm]: Claymore%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9cm]: Dacian Falx%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7cm]: Highland Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gis]: Giant Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gs]: Tusk Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gs]: Balrog Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bsw]: Bastard Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9b9]: Gothic Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7b7]: Champion Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI flb]: Flamberge%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9fb]: Zweihander%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7fb]: Colossus Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gsd]: Great Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gd]: Executioner Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gd]: Colossus Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI ssd]: Short Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ss]: Gladius%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ss]: Falcata%CONTINUE%
+ItemDisplay[!RW !SET !UNI scm]: Scimitar%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9sm]: Cutlass%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7sm]: Ataghan%CONTINUE%
+ItemDisplay[!RW !SET !UNI sbr]: Saber%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9sb]: Shamshir%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7sb]: Elegant Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI flc]: Falchion%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9fc]: Tulwar%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7fc]: Hydra Edge%CONTINUE%
+ItemDisplay[!RW !SET !UNI crs]: Crystal Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9cr]: Dimensional Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7cr]: Phase Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI bsd]: Broad Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9bs]: Battle Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7bs]: Conquest Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI lsd]: Long Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ls]: Rune Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ls]: Cryptic Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI wsd]: War Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wd]: Ancient Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wd]: Mythical Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 2hs]: Two-handed Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 92h]: Espandon%CONTINUE%
+ItemDisplay[!RW !SET !UNI 72h]: Legend Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI clm]: Claymore%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9cm]: Dacian Falx%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7cm]: Highland Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI gis]: Giant Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gs]: Tusk Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gs]: Balrog Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI bsw]: Bastard Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9b9]: Gothic Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7b7]: Champion Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI flb]: Flamberge%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9fb]: Zweihander%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7fb]: Colossus Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI gsd]: Great Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gd]: Executioner Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gd]: Colossus Blade%CONTINUE%
 // DAGGER'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI dgr]: Dagger%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9dg]: Poignard%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7dg]: Bone Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI dir]: Dirk%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9di]: Rondel%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7di]: Mithril Point%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI kri]: Kris%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9kr]: Cinquedeas%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7kr]: Fanged Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bld]: Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9bl]: Stiletto%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7bl]: Legend Spike%CONTINUE%
+ItemDisplay[!RW !SET !UNI dgr]: Dagger%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9dg]: Poignard%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7dg]: Bone Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI dir]: Dirk%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9di]: Rondel%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7di]: Mithril Point%CONTINUE%
+ItemDisplay[!RW !SET !UNI kri]: Kris%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9kr]: Cinquedeas%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7kr]: Fanged Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI bld]: Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9bl]: Stiletto%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7bl]: Legend Spike%CONTINUE%
 // THROWING WEAPON'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI tkf]: Throwing Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9tk]: Battle Dart%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7tk]: Flying Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI tax]: Throwing Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ta]: Francisca%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ta]: Flying Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bkf]: Balanced Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9bk]: War Dart%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7bk]: Winged Knife%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bal]: Balanced Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9b8]: Hurlbat%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7b8]: Winged Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI tkf]: Throwing Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9tk]: Battle Dart%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7tk]: Flying Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI tax]: Throwing Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ta]: Francisca%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ta]: Flying Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI bkf]: Balanced Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9bk]: War Dart%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7bk]: Winged Knife%CONTINUE%
+ItemDisplay[!RW !SET !UNI bal]: Balanced Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9b8]: Hurlbat%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7b8]: Winged Axe%CONTINUE%
 // JAVELIN'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI jav]: Javelin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ja]: War Javelin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ja]: Hyperion Javelin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pil]: Pilum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9pi]: Great Pilum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7pi]: Stygian Pilum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ssp]: Short Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9s9]: Simbilan%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7s7]: Balrog Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI glv]: Glaive%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gl]: Spiculum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gl]: Ghost Glaive%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI tsp]: Throwing Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ts]: Harpoon%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ts]: Winged Harpoon%CONTINUE%
+ItemDisplay[!RW !SET !UNI jav]: Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ja]: War Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ja]: Hyperion Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI pil]: Pilum%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9pi]: Great Pilum%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7pi]: Stygian Pilum%CONTINUE%
+ItemDisplay[!RW !SET !UNI ssp]: Short Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9s9]: Simbilan%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7s7]: Balrog Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI glv]: Glaive%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gl]: Spiculum%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gl]: Ghost Glaive%CONTINUE%
+ItemDisplay[!RW !SET !UNI tsp]: Throwing Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ts]: Harpoon%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ts]: Winged Harpoon%CONTINUE%
 // SPEAR'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI spr]: Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9sr]: War Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7sr]: Hyperion Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI tri]: Trident%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9tr]: Fuscina%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7tr]: Stygian Pike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI brn]: Brandistock%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9br]: War Fork%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7br]: Mancatcher%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI spt]: Spetum%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9st]: Yari%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7st]: Ghost Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pik]: Pike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9p9]: Lance%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7p7]: War Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI spr]: Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9sr]: War Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7sr]: Hyperion Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI tri]: Trident%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9tr]: Fuscina%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7tr]: Stygian Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI brn]: Brandistock%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9br]: War Fork%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7br]: Mancatcher%CONTINUE%
+ItemDisplay[!RW !SET !UNI spt]: Spetum%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9st]: Yari%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7st]: Ghost Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI pik]: Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9p9]: Lance%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7p7]: War Pike%CONTINUE%
 // POLEARM'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI bar]: Bardiche%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9b7]: Lochaber Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7o7]: Ogre Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI vou]: Voulge%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9vo]: Bill%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7vo]: Colossus Voulge%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI scy]: Scythe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9s8]: Battle Scythe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7s8]: Thresher%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI pax]: Poleaxe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9pa]: Partizan%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7pa]: Cryptic Axe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI hal]: Halberd%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9h9]: Bec-de-Corbin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7h7]: Great Poleaxe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wsc]: War Scythe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wc]: Grim Scythe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wc]: Giant Thresher%CONTINUE%
+ItemDisplay[!RW !SET !UNI bar]: Bardiche%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9b7]: Lochaber Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7o7]: Ogre Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI vou]: Voulge%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9vo]: Bill%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7vo]: Colossus Voulge%CONTINUE%
+ItemDisplay[!RW !SET !UNI scy]: Scythe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9s8]: Battle Scythe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7s8]: Thresher%CONTINUE%
+ItemDisplay[!RW !SET !UNI pax]: Poleaxe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9pa]: Partizan%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7pa]: Cryptic Axe%CONTINUE%
+ItemDisplay[!RW !SET !UNI hal]: Halberd%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9h9]: Bec-de-Corbin%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7h7]: Great Poleaxe%CONTINUE%
+ItemDisplay[!RW !SET !UNI wsc]: War Scythe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wc]: Grim Scythe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wc]: Giant Thresher%CONTINUE%
 // BOW'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI sbw]: Short Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8sb]: Edge Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6sb]: Spider Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI hbw]: Hunter's Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8hb]: Razor Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6hb]: Blade Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lbw]: Long Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8lb]: Cedar Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6lb]: Shadow Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI cbw]: Composite Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8cb]: Double Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6cb]: Great Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI sbb]: Short Battle Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8s8]: Short Siege Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6s7]: Diamond Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lbb]: Long Battle Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8l8]: Large Siege Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6l7]: Crusader Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI swb]: Short War Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8sw]: Rune Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6sw]: Ward Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lwb]: Long War Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8lw]: Gothic Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6lw]: Hydra Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI sbw]: Short Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8sb]: Edge Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6sb]: Spider Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI hbw]: Hunter's Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8hb]: Razor Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6hb]: Blade Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI lbw]: Long Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8lb]: Cedar Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6lb]: Shadow Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI cbw]: Composite Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8cb]: Double Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6cb]: Great Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI sbb]: Short Battle Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8s8]: Short Siege Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6s7]: Diamond Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI lbb]: Long Battle Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8l8]: Large Siege Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6l7]: Crusader Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI swb]: Short War Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8sw]: Rune Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6sw]: Ward Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI lwb]: Long War Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8lw]: Gothic Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6lw]: Hydra Bow%CONTINUE%
 // CORSSBOW'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI lxb]: Light Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8lx]: Arbalest%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6lx]: Pellet Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI mxb]: Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8mx]: Siege Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6mx]: Gorgon Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI hxb]: Heavy Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8hx]: Ballista%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6hx]: Colossus Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI rxb]: Repeating Crossbow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8rx]: Chu-Ko-Nu%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6rx]: Demon Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI lxb]: Light Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8lx]: Arbalest%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6lx]: Pellet Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI mxb]: Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8mx]: Siege Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6mx]: Gorgon Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI hxb]: Heavy Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8hx]: Ballista%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6hx]: Colossus Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI rxb]: Repeating Crossbow%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8rx]: Chu-Ko-Nu%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6rx]: Demon Crossbow%CONTINUE%
 // STAFF'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI sst]: Short Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8ss]: Jo Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6ss]: Walking Stick%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI lst]: Long Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8ls]: Quarterstaff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6ls]: Stalagmite%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI cst]: Gnarled Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8cs]: Cedar Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6cs]: Elder Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bst]: Battle Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8bs]: Gothic Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6bs]: Shillelagh%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wst]: War Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 8ws]: Rune Staff%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 6ws]: Archon Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI sst]: Short Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8ss]: Jo Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6ss]: Walking Stick%CONTINUE%
+ItemDisplay[!RW !SET !UNI lst]: Long Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8ls]: Quarterstaff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6ls]: Stalagmite%CONTINUE%
+ItemDisplay[!RW !SET !UNI cst]: Gnarled Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8cs]: Cedar Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6cs]: Elder Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI bst]: Battle Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8bs]: Gothic Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6bs]: Shillelagh%CONTINUE%
+ItemDisplay[!RW !SET !UNI wst]: War Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 8ws]: Rune Staff%CONTINUE%
+ItemDisplay[!RW !SET !UNI 6ws]: Archon Staff%CONTINUE%
 // WAND'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI wnd]: Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wn]: Burnt Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wn]: Polished Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ywn]: Yew Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9yw]: Petrified Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7yw]: Ghost Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI bwn]: Bone Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9bw]: Tomb Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7bw]: Lich Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gwn]: Grim Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9gw]: Grave Wand%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7gw]: Unearthed Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI wnd]: Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wn]: Burnt Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wn]: Polished Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI ywn]: Yew Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9yw]: Petrified Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7yw]: Ghost Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI bwn]: Bone Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9bw]: Tomb Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7bw]: Lich Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI gwn]: Grim Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9gw]: Grave Wand%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7gw]: Unearthed Wand%CONTINUE%
 // SCEPTER'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI scp]: Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9sc]: Rune Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7sc]: Mighty Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI gsc]: Grand Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9qs]: Holy Water Sprinkler%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7qs]: Seraph Rod%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wsp]: War Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ws]: Divine Scepter%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ws]: Caduceus%CONTINUE%
+ItemDisplay[!RW !SET !UNI scp]: Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9sc]: Rune Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7sc]: Mighty Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI gsc]: Grand Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9qs]: Holy Water Sprinkler%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7qs]: Seraph Rod%CONTINUE%
+ItemDisplay[!RW !SET !UNI wsp]: War Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ws]: Divine Scepter%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ws]: Caduceus%CONTINUE%
 // ASSASSIN CLAW'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ktr]: Katar%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9ar]: Quhab%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7ar]: Suwayyah%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI wrb]: Wrist Blade%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9wb]: Wrist Spike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7wb]: Wrist Sword%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI axf]: Hatchet Hands%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9xf]: Fascia%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7xf]: War Fist%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ces]: Cestus%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9cs]: Hand Scythe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7cs]: Battle Cestus%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI clw]: Claws%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9lw]: Greater Claws%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7lw]: Feral Claws%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI btl]: Blade Talons%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9tw]: Greater Talons%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7tw]: Runic Talons%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI skr]: Scissors Katar%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 9qr]: Scissors Quhab%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI 7qr]: Scissors Suwayyah%CONTINUE%
+ItemDisplay[!RW !SET !UNI ktr]: Katar%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9ar]: Quhab%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7ar]: Suwayyah%CONTINUE%
+ItemDisplay[!RW !SET !UNI wrb]: Wrist Blade%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9wb]: Wrist Spike%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7wb]: Wrist Sword%CONTINUE%
+ItemDisplay[!RW !SET !UNI axf]: Hatchet Hands%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9xf]: Fascia%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7xf]: War Fist%CONTINUE%
+ItemDisplay[!RW !SET !UNI ces]: Cestus%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9cs]: Hand Scythe%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7cs]: Battle Cestus%CONTINUE%
+ItemDisplay[!RW !SET !UNI clw]: Claws%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9lw]: Greater Claws%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7lw]: Feral Claws%CONTINUE%
+ItemDisplay[!RW !SET !UNI btl]: Blade Talons%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9tw]: Greater Talons%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7tw]: Runic Talons%CONTINUE%
+ItemDisplay[!RW !SET !UNI skr]: Scissors Katar%CONTINUE%
+ItemDisplay[!RW !SET !UNI 9qr]: Scissors Quhab%CONTINUE%
+ItemDisplay[!RW !SET !UNI 7qr]: Scissors Suwayyah%CONTINUE%
 // SORCERESS ORB'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI ob1]: Eagle Orb%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob6]: Glowing Orb%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI obb]: Heavenly Stone%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob2]: Sacred Globe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob7]: Crystalline Globe%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI obc]: Eldritch Orb%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob3]: Smoked Sphere%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob8]: Cloudy Sphere%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI obd]: Demon Heart%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob4]: Clasped Orb%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob9]: Sparkling Ball%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI obe]: Vortex Orb%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ob5]: Jared's Stone%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI oba]: Swirling Crystal%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI obf]: Dimensional Shard%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob1]: Eagle Orb%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob6]: Glowing Orb%CONTINUE%
+ItemDisplay[!RW !SET !UNI obb]: Heavenly Stone%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob2]: Sacred Globe%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob7]: Crystalline Globe%CONTINUE%
+ItemDisplay[!RW !SET !UNI obc]: Eldritch Orb%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob3]: Smoked Sphere%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob8]: Cloudy Sphere%CONTINUE%
+ItemDisplay[!RW !SET !UNI obd]: Demon Heart%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob4]: Clasped Orb%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob9]: Sparkling Ball%CONTINUE%
+ItemDisplay[!RW !SET !UNI obe]: Vortex Orb%CONTINUE%
+ItemDisplay[!RW !SET !UNI ob5]: Jared's Stone%CONTINUE%
+ItemDisplay[!RW !SET !UNI oba]: Swirling Crystal%CONTINUE%
+ItemDisplay[!RW !SET !UNI obf]: Dimensional Shard%CONTINUE%
 // AMAZON WEAPON'S NAME (BASE)
-ItemDisplay[!NMAG !SET !UNI am1]: Stag Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am6]: Ashwood Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI amb]: Matriarchal Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am2]: Reflex Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am7]: Ceremonial Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI amc]: Grand Matron Bow%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am3]: Maiden Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am8]: Ceremonial Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI amd]: Matriarchal Spear%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am4]: Maiden Pike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am9]: Ceremonial Pike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ame]: Matriarchal Pike%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI am5]: Maiden Javelin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI ama]: Ceremonial Javelin%CONTINUE%
-ItemDisplay[!NMAG !SET !UNI amf]: Matriarchal Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI am1]: Stag Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI am6]: Ashwood Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI amb]: Matriarchal Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI am2]: Reflex Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI am7]: Ceremonial Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI amc]: Grand Matron Bow%CONTINUE%
+ItemDisplay[!RW !SET !UNI am3]: Maiden Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI am8]: Ceremonial Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI amd]: Matriarchal Spear%CONTINUE%
+ItemDisplay[!RW !SET !UNI am4]: Maiden Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI am9]: Ceremonial Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI ame]: Matriarchal Pike%CONTINUE%
+ItemDisplay[!RW !SET !UNI am5]: Maiden Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI ama]: Ceremonial Javelin%CONTINUE%
+ItemDisplay[!RW !SET !UNI amf]: Matriarchal Javelin%CONTINUE%
 
 // ITEM'S NAME (CRAFT)
 ItemDisplay[CRAFT !(STAT477=4 OR STAT477=21) ((amu FRW>9 STAT86>2 LIFE>9) OR (rin STR>4 STAT60>0 LIFE>9 !(rin RES>2 STAT32>49 STAT118=1)) OR (HELM STAT136>9 STAT60>0 LIFE>9) OR (CHEST STAT86>2 STAT60>2 LIFE>19) OR (SHIELD STAT20>9 STAT60>2 LIFE>9) OR (GLOVES STAT136>4 STAT60>1 LIFE>9 !STAT81>0) OR (BOOTS REPLIFE>14 STAT60>0 LIFE>9) OR (BELT STAT135>9 STAT60>2 LIFE>9) OR (WEAPON ED>49 STAT60>2 LIFE>9 !(WEAPON MULTI201,2820=5 ED>49 STAT116>9)))]: %RED%Blood %ORANGE%%NAME%%CONTINUE%
