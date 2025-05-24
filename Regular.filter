@@ -2389,7 +2389,7 @@ ItemDisplay[NMAG SOCK=0 !ETH ci3]: %NAME%{%NAME%%CL%%WHITE%charsi quest: %GRAY%c
 ItemDisplay[leg !RW]: %NAME%{%NAME%%CL%%GRAY%(wirt's leg can be used in all difficulties)%NL%%WHITE%cube: %BLUE%TP Tome, %WHITE%wirt's leg, in act 1}%CONTINUE%
 
 // PRICE FOR ITEM'S
-ItemDisplay[!SHOP !EQUIPPED !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv OR cqv) !(STAT477=4 OR STAT477=21)]: %NAME%{%NAME%%CL%%SAGE%$%PRICE%}%CONTINUE%
+ItemDisplay[!SHOP !EQUIPPED !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv OR cqv) !(STAT477=4 OR STAT477=21) (ARMOR OR WEAPON)]: %NAME%{%NAME%%CL%%SAGE%$%PRICE%}%CONTINUE%
 
 //Notes for upgrading
 //Recipes
