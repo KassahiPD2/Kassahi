@@ -1843,7 +1843,7 @@ ItemDisplay[t31]: %NAME% %LIGHT_GRAY%Im: %BLUE%*%GREEN%*%ORANGE%*{%NAME%}%CONTIN
 ItemDisplay[t32]: %NAME% %LIGHT_GRAY%Im: %RED%*%BLUE%*{%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME% %LIGHT_GRAY%Im: %RED%*%BLUE%*{%NAME%}%CONTINUE% // Lost Temple 158
 ItemDisplay[t34]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%GREEN%*{%NAME%}%CONTINUE% // Ancestral Trial 146
-ItemDisplay[t35]: %PURPLE%+%RED%+  %NAME%  %RED%+%PURPLE%+ // Blood Moon 154
+ItemDisplay[t35]: %PURPLE%+%RED%+  %NAME%  %RED%+%PURPLE%+{%NAME%}%CONTINUE% // Blood Moon 154
 ItemDisplay[t36]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%BLUE%*{%NAME%}%CONTINUE% // Fall of Caldeum 155
 ItemDisplay[t37]: %NAME% %LIGHT_GRAY%Im: %YELLOW%*%GREEN%*%GOLD%*{%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME% %LIGHT_GRAY%Im: %RED%*%GREEN%*%GOLD%*{%NAME%}%CONTINUE% // Canyon of Sescheron 160
