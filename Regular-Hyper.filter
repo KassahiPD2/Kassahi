@@ -1672,7 +1672,7 @@ ItemDisplay[t36]: %NAME%{%RED%Blizzard%NL%%WHITE%Immunes: %YELLOW%L:100, %BLUE%C
 ItemDisplay[t37]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:110, %GOLD%Ph:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:70%NAME%}%CONTINUE% // Canyon of Sescheron 160
 ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE% // Kehjistan Marketplace 147
-ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %NL%%GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
+ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
 ItemDisplay[t41]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
 ItemDisplay[t42]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
 ItemDisplay[t43]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
