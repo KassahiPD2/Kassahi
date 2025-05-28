@@ -1891,7 +1891,7 @@ ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl
 // GG
 ItemDisplay[UNI !ID (ci3 OR pa9 OR obc OR obf OR uar OR ulc OR uap OR ulm OR uhm OR usk OR urn OR uit OR uow OR uts OR 7wa OR 7wh OR 7gm OR 7ws OR 7p7 OR 6bs OR 6ws OR 7gw OR 8ws OR nee OR xhb OR 7gd OR uhc)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+%SOUNDID-2680%
 // TIER 3
-ItemDisplay[UNI !ID (ci2 OR amf OR ba6 OR bad OR bae OR dra OR drd OR nef OR xhn OR utu OR uui OR upl  OR uul OR zlb OR uvc OR umc OR lbt OR umg OR utg OR uhg OR uh9 OR xsh OR 9la OR 9gm OR 7fl OR 7wc OR 7pa OR 7gs OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR pae OR xui OR 7bt OR 7cr OR 7ls OR pac OR xtg OR uvg OR 7lw OR amu OR rin OR jew OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+   %NAME%   %ORANGE%+%RED%+%PURPLE%+%SOUNDID-2670%
+ItemDisplay[UNI !ID (ci2 OR amf OR ba6 OR bad OR bae OR dra OR drd OR nef OR xhn OR utu OR uui OR upl OR uul OR zlb OR uvc OR umc OR lbt OR umg OR utg OR uhg OR uh9 OR xsh OR 9la OR 9gm OR 7fl OR 7wc OR 7pa OR 7gs OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR pae OR xui OR 7bt OR 7cr OR 7ls OR pac OR xtg OR uvg OR 7lw OR amu OR rin OR jew OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+   %NAME%   %ORANGE%+%RED%+%PURPLE%+%SOUNDID-2670%
 // TIER 2
 ItemDisplay[UNI !ID (drb OR dre OR oba OR xea OR zhb OR xvb OR xmb OR tgl OR xvg OR xow OR ush OR 7bl OR 9wc OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 8hx OR paf)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+%SOUNDID-2678%
 // TIER 1
