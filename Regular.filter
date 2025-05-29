@@ -1660,10 +1660,6 @@ ItemDisplay[crfv]: %GRAY%+%LIGHT_GRAY%++   %NAME%   %LIGHT_GRAY%++%GRAY%+{%NAME%
 ItemDisplay[crfu]: %SAGE%+%YELLOW%++   %NAME%   %YELLOW%++%SAGE%+{%NAME%}%CONTINUE%
 ItemDisplay[crfp]: %LIGHT_GRAY%+%WHITE%++   %NAME%   %WHITE%++%LIGHT_GRAY%+{%NAME%}%CONTINUE%
 // MAP RES/IMMUNES
-
-
-
-
 ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE% // Ruins of Viz-jun 143
 ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Horazon's Memory 142
 ItemDisplay[t13]: %NAME%{%RED%Witches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
@@ -1908,7 +1904,7 @@ ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl
 ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // TIER 3
-ItemDisplay[UNI !ID (amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+  %SOUNDID-2670%  %NAME%   %ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+  %SOUNDID-2670%  %NAME%   %ORANGE%+%RED%+%PURPLE%+
 // TIER 2
 ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+ %SOUNDID-2678%  %NAME%  %ORANGE%+%RED%+
 // TIER 1
