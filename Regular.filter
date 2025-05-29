@@ -1,15 +1,15 @@
-ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S11)
-ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[5]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[6]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[7]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
+ItemDisplayFilterName[1]: ï¿½c9Starter Filter Lvl (S11)
+ItemDisplayFilterName[2]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[3]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[4]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[5]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[6]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c8w/o ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[7]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[8]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
+ItemDisplayFilterName[9]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[10]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[11]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c8w/o ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
+ItemDisplayFilterName[12]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c1Extreme ï¿½c4Strictness
 
 
 
@@ -1162,9 +1162,9 @@ ItemDisplay[INF ID !rin !amu]: %GRAY%Shit %NAME%{%NAME%}%CONTINUE%
 // ETHEREAL (ITEMS)
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
 // BASE VERSION (ITEMS)
-ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
-ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
-ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // QUANTITY (ITEMS)
@@ -1394,7 +1394,7 @@ ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of 
 // QUEST ITEMS (ACT 2)
 ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(15/05/25){%GREEN%(Kassahi: huge thx to Mark <3 <3 <3)%CL%Filter updated for S11 - HiimMark%CL%%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(28/05/25){%GREEN%Unique Tiers & Map Res & Kicker Jewel update - HiimMark%CL%%CL%%RED%Announcement:}
 ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
 ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
 ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
@@ -1648,37 +1648,37 @@ ItemDisplay[crfp]: %LIGHT_GRAY%+%WHITE%++   %NAME%   %WHITE%++%LIGHT_GRAY%+{%NAM
 // MAP RES/IMMUNES
 ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE% // Ruins of Viz-jun 143
 ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Horazon's Memory 142
-ItemDisplay[t13]: %NAME%{%RED%witches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
+ItemDisplay[t13]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
 ItemDisplay[t14]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %YELLOW%L:125, %GREEN%P:130%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
 ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:60%NAME%}%CONTINUE% // Royal Crypts 170
 ItemDisplay[t16]: %NAME%{%RED%Hydra Boss%NL%%WHITE%Immunes: %YELLOW%L:135, %BLUE%C:115, %ORANGE%M:125%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
-ItemDisplay[t17]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:35, %GOLD%Ph:50%NAME%}%CONTINUE% // Halls of Torture
 ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:140, %YELLOW%L:125%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:75%NAME%}%CONTINUE% // Phlegethon 145
 ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Torajan Jungle 148
 ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
 ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
 ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
-ItemDisplay[t26]: %NAME%{%RED%witches%NL%%WHITE%Immunes: %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:85, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
-ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:135%NL%%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %ORANGE%M:40, %GOLD%Ph:45%NAME%}%CONTINUE% // Demon Road 191
-ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:130, %GOLD%Ph:125%NL%%WHITE%Highest Res: %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40%NAME%}%CONTINUE% // Skovos Stronghold 190
+ItemDisplay[t26]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t27]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:125, %GREEN%P:135, %ORANGE%M:40, %GOLD%Ph:45%NAME%}%CONTINUE% // Demon Road 191
+ItemDisplay[t28]: %NAME%{%WHITE%Highest Res: %RED%F:125, %YELLOW%L:130, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40, %GOLD%Ph:125%NAME%}%CONTINUE% // Skovos Stronghold
+ItemDisplay[t17]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40, %GOLD%Ph:50%NAME%}%CONTINUE% // Halls of Torture
 ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
 ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %RED%F:130, %BLUE%C:130%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
 ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ancestral Trial 146
 ItemDisplay[t35]: %NAME%{%WHITE%Highest Res: %RED%F:65, %YELLOW%L:65, %BLUE%C:65, %GREEN%P:65, %ORANGE%M:33, %GOLD%Ph:50%NAME%}%CONTINUE% // Blood Moon 154
 ItemDisplay[t36]: %NAME%{%RED%Blizzard%NL%%WHITE%Immunes: %YELLOW%L:100, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:95, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Fall of Caldeum 155
-ItemDisplay[t37]: %NAME%{%RED%witches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
+ItemDisplay[t37]: %NAME%{%RED%Bitches%NL%%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:110, %GOLD%Ph:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:70%NAME%}%CONTINUE% // Canyon of Sescheron 160
 ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE% // Kehjistan Marketplace 147
-ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
+ItemDisplay[t3a]: %NAME%{%RED%Souls%NL%%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %NL%%GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
 ItemDisplay[t41]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
 ItemDisplay[t42]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
 ItemDisplay[t43]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
 ItemDisplay[t51]: %NAME%{%WHITE%Highest Res: %RED%F:85 %YELLOW%L:85 %BLUE%C:85 %GREEN%P:95 %ORANGE%M:40 %GOLD%Ph:65}%CONTINUE%
 ItemDisplay[t52]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:60 %BLUE%C:65 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE%
 ItemDisplay[t53]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:75 %BLUE%C:65 %GREEN%P:80 %ORANGE%M:80 %GOLD%Ph:60}%CONTINUE%
-ItemDisplay[t54]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:65 %BLUE%C:65 %GREEN%P:65 %ORANGE%M:20 %GOLD%Ph:20}%CONTINUE%
-ItemDisplay[t55]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:75 %BLUE%C:50 %GREEN%P:30 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE%
+ItemDisplay[t54]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:65 %BLUE%C:65 %GRAY%P:20 %ORANGE%M:20 %GREEN%P:65}%CONTINUE% // Imperial Palace Level id 192 Updated: May 16 2025
+ItemDisplay[t55]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:75 %BLUE%C:50 %GRAY%P:50 %ORANGE%M:50 %GREEN%P:30}%CONTINUE% // Outer Void Level id 180 Updated: May 16 2025
 // MAPS EXP, MF, DENS, RA
 ItemDisplay[(STAT372>0 OR STAT373>0 OR STAT370>0 OR STAT375>0)]: %NAME%{%CL%%NAME%}%CONTINUE%
 ItemDisplay[STAT373>0]: %NAME%{%STAT373%%exp, %NAME%}%CONTINUE%
@@ -1887,15 +1887,17 @@ ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%LIGHT_GRAY%+%RED%+   %NAME%  
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX %WHITE%o  %NAME%  %WHITE%o %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx%SOUNDID-763%
 // GG
-ItemDisplay[UNI !ID (ci3 OR pa9 OR obc OR obf OR uar OR ulc OR uap OR ulm OR uhm OR usk OR urn OR uit OR uow OR uts OR 7wa OR 7wh OR 7gm OR 7ws OR 7p7 OR 6bs OR 6ws OR 7gw OR 8ws OR nee OR xhb OR 7gd OR uhc)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (amu OR rin OR ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+ %SOUNDID-2680%    %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
 // TIER 3
-ItemDisplay[UNI !ID (ci2 OR amf OR ba6 OR bad OR bae OR dra OR drd OR nef OR xhn OR utu OR uui OR upl OR uul OR zlb OR uvc OR umc OR lbt OR umg OR utg OR uhg OR uh9 OR xsh OR 9la OR 9gm OR 7fl OR 7wc OR 7pa OR 7gs OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR pae OR xui OR 7bt OR 7cr OR 7ls OR pac OR xtg OR uvg OR 7lw OR amu OR rin OR jew OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+  %SOUNDID-2670%  %NAME%   %ORANGE%+%RED%+%PURPLE%+
+ItemDisplay[UNI !ID (amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%PURPLE%+%RED%+%ORANGE%+  %SOUNDID-2670%  %NAME%   %ORANGE%+%RED%+%PURPLE%+
 // TIER 2
-ItemDisplay[UNI !ID (drb OR dre OR oba OR xea OR zhb OR xvb OR xmb OR tgl OR xvg OR xow OR ush OR 7bl OR 9wc OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 8hx OR paf)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+ %SOUNDID-2678%  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%%RED%+%ORANGE%+ %SOUNDID-2678%  %NAME%  %ORANGE%+%RED%+
 // TIER 1
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (bac OR 7tw OR ne6 OR uml OR lbb OR 8sw OR 6sw OR xar OR ulg OR urg OR 7di OR xlt OR 8mx OR ltp OR drc OR ung OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 9fl OR 7gi)]: %PX-0D%%DOT-0A%%RED%+ %NAME% %RED%+%SOUNDID-2666%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6)]: %PX-0D%%DOT-0A%%RED%+ %NAME% %RED%+%SOUNDID-2666%
 // TIER 0
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR uhb OR hgl OR xlg OR xmg OR xhg OR xth OR 9kr OR baf OR utp OR 8rx OR drf OR uvb OR amb OR xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR fhl OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR amd OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7s8 OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR 7xf OR ba7 OR dr6 OR ame OR neg OR upk OR xtp)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR xlg OR xmg OR xhg OR xth OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR fhl)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR ame OR neg OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR 6sw OR ltp OR 7di OR ung OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
 // LLD
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
 // LVLING
@@ -4111,10 +4113,11 @@ ItemDisplay[jew (RES>14 OR STAT91<0 OR FHR>0) (STAT86>2 OR STAT138>2)]: %DOT-0A%
 ItemDisplay[jew (STR+DEX>15) (FHR>0 OR STAT91<0 OR REPLIFE>4 OR STAT86>2 OR STAT138>2)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[jew STAT91<0 RES>0 (FRES>0 OR LRES<0 OR CRES>0 OR PRES>0)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[jew STAT86>1 STAT138>1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>34 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>25)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>29 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>38)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
+ItemDisplay[jew EDAM>37 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>25)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
+ItemDisplay[jew EDAM>29 EDAM<38 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>38)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
+ItemDisplay[jew EDAM>9 EDAM<30 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>57)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[jew EDAM>29 STAT501>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (MINDMG>0 OR MAXDMG>0) (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>56)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
+ItemDisplay[jew (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>79)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[jew EDAM>30 IAS>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[jew RES>9 IAS>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
 // PVM Melee ring min+max dmg > 10 - STR / Dex / Res / min&max dmg(worth x 2) / Life leech > 5 / mana leech >1 / plr >=25 / mf > 14
