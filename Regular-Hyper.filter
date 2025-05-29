@@ -619,7 +619,7 @@ ItemDisplay[UNI !ID urn]: %PURPLE%Crown of Ages%CONTINUE%
 // ARMOR'S NAME (UNI)
 ItemDisplay[UNI !ID qui]: Greyform%CONTINUE%
 ItemDisplay[UNI !ID xui]: Spirit Shroud%CONTINUE%
-ItemDisplay[UNI !ID uui]: Ormus' Robes%CONTINUE%
+ItemDisplay[UNI !ID uui]: %PURPLE%Ormus' Robes%CONTINUE%
 ItemDisplay[UNI !ID lea]: Blinkbat's Form%CONTINUE%
 ItemDisplay[UNI !ID xea]: Skin of the Vipermagi%CONTINUE%
 ItemDisplay[UNI !ID hla]: The Centurion%CONTINUE%
@@ -638,9 +638,10 @@ ItemDisplay[UNI !ID chn]: Sparking Mail%CONTINUE%
 ItemDisplay[UNI !ID xhn]: Shaftstop%CONTINUE%
 ItemDisplay[UNI !ID spl]: Iceblink%CONTINUE%
 ItemDisplay[UNI !ID xpl]: Skullder's Ire%CONTINUE%
-ItemDisplay[UNI !ID upl]: Arkaine's Valor%CONTINUE%
+ItemDisplay[UNI !ID upl]: %PURPLE%Arkaine's Valor%CONTINUE%
 ItemDisplay[UNI !ID ltp]: Heavenly Garb%CONTINUE%
 ItemDisplay[UNI !ID xtp]: Que-Hegan's Wisdom%CONTINUE%
+ItemDisplay[UNI !ID ETH utp]: %PURPLE%Purgatory%CONTINUE%
 ItemDisplay[UNI !ID utp]: Purgatory%CONTINUE%
 ItemDisplay[UNI !ID fld]: Rockfleece%CONTINUE%
 ItemDisplay[UNI !ID xld]: Toothrow%CONTINUE%
@@ -652,7 +653,7 @@ ItemDisplay[UNI !ID xth]: Atma's Wail%CONTINUE%
 ItemDisplay[UNI !ID uth]: %PURPLE%Dark Abyss%CONTINUE%
 ItemDisplay[UNI !ID ful]: Goldskin%CONTINUE%
 ItemDisplay[UNI !ID xul]: Black Hades%CONTINUE%
-ItemDisplay[UNI !ID uul]: Steel Carapace%CONTINUE%
+ItemDisplay[UNI !ID uul]: %PURPLE%Steel Carapace%CONTINUE%
 ItemDisplay[UNI !ID aar]: Silks of the Victor%CONTINUE%
 ItemDisplay[UNI !ID xar]: Corpsemourn%CONTINUE%
 ItemDisplay[UNI !ID uar]: %PURPLE%Templar%WHITE%/%PURPLE%Tyrael%CONTINUE%
@@ -728,11 +729,13 @@ ItemDisplay[UNI !ID ztb]: Snowclash%CONTINUE%
 ItemDisplay[UNI !ID utc]: Band of Skulls%CONTINUE%
 ItemDisplay[UNI !ID hbl]: Bladebuckle%CONTINUE%
 ItemDisplay[UNI !ID zhb]: Thundergod's Vigor%CONTINUE%
+ItemDisplay[UNI !ID uhc]: %PURPLE%Siggrad's Staunch%CONTINUE%
 ItemDisplay[UNI !ID rbe]: %PURPLE%Band of Skulls%CONTINUE%
 // CIRCLET'S NAME (UNI)
-ItemDisplay[UNI !ID ci2]: Kira's Guardian%CONTINUE%
+ItemDisplay[UNI !ID ci2]: %PURPLE%Kira's Guardian%CONTINUE%
 ItemDisplay[UNI !ID ci3]: %PURPLE%Griffon's Eye%CONTINUE%
 // DRUID PELT'S NAME (UNI)
+ItemDisplay[UNI !ID dr6]: Fenris%CONTINUE%
 ItemDisplay[UNI !ID drb]: Cerebus' Bite%CONTINUE%
 ItemDisplay[UNI !ID dr2]: Quetzalcoatl%CONTINUE%
 ItemDisplay[UNI !ID drc]: Denmother%CONTINUE%
@@ -742,6 +745,7 @@ ItemDisplay[UNI !ID dra]: Jalal's Mane%CONTINUE%
 ItemDisplay[UNI !ID drf]: Ursa's Nightmare%CONTINUE%
 // BARBARIAN HELMET'S NAME (UNI)
 ItemDisplay[UNI !ID ba6]: Cyclopean Roar%CONTINUE%
+ItemDisplay[UNI !ID ba7]: Wildspeaker%CONTINUE%
 ItemDisplay[UNI !ID bac]: Wolfhowl%CONTINUE%
 ItemDisplay[UNI !ID bad]: Demonhorn's Edge%CONTINUE%
 ItemDisplay[UNI !ID bae]: Halaberd's Reign%CONTINUE%
@@ -752,12 +756,14 @@ ItemDisplay[UNI !ID pac]: Alma Negra%CONTINUE%
 ItemDisplay[UNI !ID pa3]: Sankekur's Fall%CONTINUE%
 ItemDisplay[UNI !ID pa9]: %PURPLE%Herald of Zakarum%CONTINUE%
 ItemDisplay[UNI !ID pae]: Dragonscale%CONTINUE%
+ItemDisplay[UNI !ID paf]: Skywarden%CONTINUE%
 // NECROMANCER HEAD'S NAME (UNI)
 ItemDisplay[UNI !ID ne6]: Kalan's Legacy%CONTINUE%
+ItemDisplay[UNI !ID neg]: Sacred Totem%CONTINUE%
 ItemDisplay[UNI !ID ned]: Martyrdom%CONTINUE%
 ItemDisplay[UNI !ID nee]: %PURPLE%Boneflame%CONTINUE%
 ItemDisplay[UNI !ID nea]: Homunculus%CONTINUE%
-ItemDisplay[UNI !ID nef]: Darkforce Spawn%CONTINUE%
+ItemDisplay[UNI !ID nef]: %PURPLE%Darkforce Spawn%CONTINUE%
 // AXE'S NAME (UNI)
 ItemDisplay[UNI !ID hax]: The Gnasher%CONTINUE%
 ItemDisplay[UNI !ID 9ha]: Coldkill%CONTINUE%
@@ -774,6 +780,7 @@ ItemDisplay[UNI !ID wax]: Rakescar%CONTINUE%
 ItemDisplay[UNI !ID 9wa]: Guardian Naga%CONTINUE%
 ItemDisplay[UNI !ID 7wa]: %PURPLE%Death Cleaver%CONTINUE%
 ItemDisplay[UNI !ID lax]: Axe of Fechmar%CONTINUE%
+ItemDisplay[UNI !ID ETH 9la]: %PURPLE%Warlord's Trust%CONTINUE%
 ItemDisplay[UNI !ID 9la]: Warlord's Trust%CONTINUE%
 ItemDisplay[UNI !ID bax]: Goreshovel%CONTINUE%
 ItemDisplay[UNI !ID 9ba]: Spellsteel%CONTINUE%
@@ -811,6 +818,7 @@ ItemDisplay[UNI !ID mau]: Bonesnap%CONTINUE%
 ItemDisplay[UNI !ID 9m9]: Bloodtree Stump%CONTINUE%
 ItemDisplay[UNI !ID 7m7]: Windhammer%CONTINUE%
 ItemDisplay[UNI !ID gma]: Steeldriver%CONTINUE%
+ItemDisplay[UNI !ID ETH 9gm]: %PURPLE%The Gavel of Pain%CONTINUE%
 ItemDisplay[UNI !ID 9gm]: The Gavel of Pain%CONTINUE%
 ItemDisplay[UNI !ID 7gm]: %PURPLE%Earth Shifter%WHITE%/%PURPLE%Cranium Bash%CONTINUE%
 // SWORD'S NAME (UNI)
@@ -869,6 +877,7 @@ ItemDisplay[UNI !ID 9tk]: Deathbit%CONTINUE%
 ItemDisplay[UNI !ID 9ta]: The Scalper%CONTINUE%
 ItemDisplay[UNI !ID 7ta]: Gimmershred%CONTINUE%
 ItemDisplay[UNI !ID 7bk]: Warshrike%CONTINUE%
+ItemDisplay[UNI !ID 9b8]: Achilles Strike%CONTINUE%
 ItemDisplay[UNI !ID 7b8]: Lacerator%CONTINUE%
 // JAVELIN'S NAME (UNI)
 ItemDisplay[UNI !ID 7s7]: Demon's Arch%CONTINUE%
@@ -888,7 +897,8 @@ ItemDisplay[UNI !ID 9st]: Hone Sundan%CONTINUE%
 ItemDisplay[UNI !ID 7st]: Uldyssian's Awakening%CONTINUE%
 ItemDisplay[UNI !ID pik]: The Tannr Gorerod%CONTINUE%
 ItemDisplay[UNI !ID 9p9]: Spire of Honor%CONTINUE%
-ItemDisplay[UNI !ID 7p7]: %PURPLE%Steel Pillar%CONTINUE%
+ItemDisplay[UNI !ID ETH 7p7]: %PURPLE%Steel Pillar%CONTINUE%
+ItemDisplay[UNI !ID 7p7]: Steel Pillar%CONTINUE%
 // POLEARM'S NAME (UNI)
 ItemDisplay[UNI !ID bar]: Dimoak's Hew%CONTINUE%
 ItemDisplay[UNI !ID 9b7]: The Meat Scraper%CONTINUE%
@@ -897,7 +907,7 @@ ItemDisplay[UNI !ID vou]: Steelgoad%CONTINUE%
 ItemDisplay[UNI !ID 9vo]: Blackleach Blade%CONTINUE%
 ItemDisplay[UNI !ID scy]: Soul Harvest%CONTINUE%
 ItemDisplay[UNI !ID 9s8]: Athena's Wrath%CONTINUE%
-ItemDisplay[UNI !ID 7s8]: The Reaper's Toll%CONTINUE%
+ItemDisplay[UNI !ID 7s8]: %PURPLE%The Reaper's Toll%CONTINUE%
 ItemDisplay[UNI !ID pax]: The Battlebranch%CONTINUE%
 ItemDisplay[UNI !ID 9pa]: Pierre Tombale Couant%CONTINUE%
 ItemDisplay[UNI !ID 7pa]: Tomb Reaver%CONTINUE%
@@ -975,6 +985,8 @@ ItemDisplay[UNI !ID 7ws]: %PURPLE%Astreon's Iron Ward%CONTINUE%
 // ASSASSIN CLAW'S NAME (UNI)
 ItemDisplay[UNI !ID 9ar]: Mage Slayer%CONTINUE%
 ItemDisplay[UNI !ID 7wb]: Jade Talon%CONTINUE%
+ItemDisplay[UNI !ID ETH 7xf]: %PURPLE%Whispering Mirage%CONTINUE%
+ItemDisplay[UNI !ID 7xf]: Whispering Mirage%CONTINUE%
 ItemDisplay[UNI !ID 7cs]: Shadow Killer%CONTINUE%
 ItemDisplay[UNI !ID 7lw]: Firelizard's Talons%CONTINUE%
 ItemDisplay[UNI !ID 9tw]: Bartuc's Cut-Throat%CONTINUE%
@@ -982,6 +994,7 @@ ItemDisplay[UNI !ID 7tw]: Stalker's Cull%CONTINUE%
 ItemDisplay[UNI !ID 7qr]: %PURPLE%Aidan's Scar%CONTINUE%
 // SORCERESS ORB'S NAME (UNI)
 ItemDisplay[UNI !ID ob6]: Tempest%CONTINUE%
+ItemDisplay[UNI !ID ob7]: Skorn%CONTINUE%
 ItemDisplay[UNI !ID obc]: %PURPLE%Eschuta's Temper%CONTINUE%
 ItemDisplay[UNI !ID oba]: The Oculus%CONTINUE%
 ItemDisplay[UNI !ID obf]: %PURPLE%Death's Fathom%CONTINUE%
@@ -994,6 +1007,7 @@ ItemDisplay[UNI !ID am9]: Lycander's Flank%CONTINUE%
 ItemDisplay[UNI !ID ame]: Zerae's Resolve%CONTINUE%
 ItemDisplay[UNI !ID am5]: True Silver%CONTINUE%
 ItemDisplay[UNI !ID ama]: Titan's Revenge%CONTINUE%
+ItemDisplay[UNI !ID ETH amf]: %PURPLE%Thunderstroke%CONTINUE%
 ItemDisplay[UNI !ID amf]: Thunderstroke%CONTINUE%
 
 // JEWELRY'S NAME (SET)
