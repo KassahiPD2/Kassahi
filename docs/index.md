@@ -6,7 +6,7 @@
 
     Currently supports Season 11.
 
-    Note: My Github isnt 100% up-to-date with my filters in terms of what drops for the Uniq Tiers and qol info, im kinda to lazy to keep it 100% udpated, but feel free to ask in discord for help or info on anything
+    Note: My Github isnt 100% up-to-date with my filters in terms of drops and qol info, im kinda to lazy to keep it 100% udpated, but feel free to ask in discord for help or info on anything
 
 The loot filters is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
 
