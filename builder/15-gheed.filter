@@ -1,0 +1,175 @@
+
+
+
+//------------------------------GAMBLING------------------------------
+
+// POSSIBLE SET/UNIQ'S FOR GAMBLING
+ItemDisplay[NMAG !ID SHOP cm3]: %NAME%%NL%%NL%%GOLD%Gheed's Fortune%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%All Set Amulets%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Amulets%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP jew]: %NAME%%NL%%NL%%GOLD%Rainbow Facet%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ci0]: %NAME%%NL%%NL%%GREEN%Naj's Circlet (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Kira's Guardian (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ci1]: %NAME%%NL%%NL%%GREEN%M'avina's True Sight (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Griffon's Eye (GG)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP rin]: %NAME%%NL%%NL%%GREEN%All Set Rings%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Rings%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP am1]: %NAME%%NL%%NL%%GOLD%Blood Raven's Charge%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP am2]: %NAME%%NL%%NL%%GREEN%M'avina's Caster (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Ebonbane (T1)%NL%Lycander's Aim%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP am5]: %NAME%%NL%%NL%%GOLD%Thunderstroke (T3)%NL%Titan's Revenge (T0)%NL%True Silver (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP am3]: %NAME%%NL%%NL%%GOLD%Stoneraven (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP am4]: %NAME%%NL%%NL%%GOLD%Zerae's Resolve%NL%Lycander's Flank%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ktr]: %NAME%%NL%%NL%%GOLD%Mage Slayer%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wrb]: %NAME%%NL%%NL%%GOLD%Jade Talon%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP axf]: %NAME%%NL%%NL%%GOLD%Whispering Mirage%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ces]: %NAME%%NL%%NL%%GOLD%Shadow Killer%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP clw]: %NAME%%NL%%NL%%GOLD%Firelizard's Talons%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP btl]: %NAME%%NL%%NL%%GOLD%Stalker's Cull (T1)%NL%Bartuc's Cut-Throat (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP skr]: %NAME%%NL%%NL%%GREEN%Natalya's Mark (T1)%ORANGE%%NL%Possible Sets:%WHITE%
+ItemDisplay[NMAG !ID SHOP ba1]: %NAME%%NL%%NL%%GOLD%Cyclopean Roar (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ba2]: %NAME%%NL%%NL%%GOLD%Wolfhowl (T1)%NL%Wildspeaker%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ba3]: %NAME%%NL%%NL%%GOLD%Demonhorn's Edge (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ba4]: %NAME%%NL%%NL%%GOLD%Halaberd's Reign (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ba5]: %NAME%%NL%%NL%%GREEN%Immortal King's Will (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Raekor's Virtue (T0)%NL%Arreat's Face (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dr1]: %NAME%%NL%%NL%%GOLD%Cerebus' Bite (T2)%NL%Fenris%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dr2]: %NAME%%NL%%NL%%GOLD%Denmother (T1)%NL%Quetzalcoatl (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dr3]: %NAME%%NL%%NL%%GREEN%Aldur's Stony Gaze (T2)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Spirit Keeper (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dr4]: %NAME%%NL%%NL%%GOLD%Ravenlore (T2)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dr5]: %NAME%%NL%%NL%%GOLD%Ursa's Nightmare (T0)%NL%Jalal's Mane (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ne1]: %NAME%%NL%%NL%%GOLD%Sacred Totem%NL%Kalan's Legacy (T1)%ORANGE%%NL%Possible Uniques:%WHITE%
+//ItemDisplay[NMAG !ID SHOP ne2]: %NAME%
+ItemDisplay[NMAG !ID SHOP ne3]: %NAME%%NL%%NL%%GOLD%Martyrdom (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ne4]: %NAME%%NL%%NL%%GREEN%Trang-Oul's Wing (T3)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Boneflame (GG)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ne5]: %NAME%%NL%%NL%%GOLD%Darkforce Spawn (T3)%NL%Homunculus (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+// ItemDisplay[NMAG !ID SHOP pa1]: %NAME%
+ItemDisplay[NMAG !ID SHOP pa2]: %NAME%%NL%%NL%%GOLD%Alma Negra (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP pa3]: %NAME%%NL%%NL%%GOLD%Sankekur's Fall%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP pa4]: %NAME%%NL%%NL%%GOLD%Dragonscale (T3)%NL%Herald of Zakarum (GG)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP pa5]: %NAME%%NL%%NL%%GREEN%Griswold's Honor (T3)%ORANGE%%NL%Possible Sets:%NL%Skywarden%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ob1]: %NAME%%NL%%NL%%GOLD%Tempest%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ob2]: %NAME%%NL%%NL%%GOLD%Eschuta's Temper (GG)%CL%Skorn%ORANGE%%NL%Possible Uniques:%WHITE%
+// ItemDisplay[NMAG !ID SHOP ob3]: %NAME%
+// ItemDisplay[NMAG !ID SHOP ob4]: %NAME%
+ItemDisplay[NMAG !ID SHOP ob5]: %NAME%%NL%%NL%%GREEN%Tal Rasha's Lidless Eye (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Death's Fathom (GG)%NL%The Oculus (T2)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP qui]: %NAME%%NL%%NL%%GREEN%Dark Adherent%NL%Arctic Furs%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Ormus' Robes (T3)%NL%Spirit Shroud (T3)%NL%Greyform%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lea]: %NAME%%NL%%NL%%GREEN%Vidala's Ambush%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Skin of the Vipermagi (T2)%NL%Blinkbat's Form%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hla]: %NAME%%NL%%NL%%GOLD%Skin of the Flayed One%NL%The Centurion%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP stu]: %NAME%%NL%%NL%%GREEN%Cow King's Hide (T2)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Gladiator's Bane (T3)%NL%Iron Pelt%NL%Twitchthroe (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP rng]: %NAME%%NL%%NL%%GREEN%Angelic Mantle%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Wraithskin (T1)%NL%Spirit Forge%NL%Darkglow%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP scl]: %NAME%%NL%%NL%%GREEN%Natalya's Shadow (T1)%NL%Hwanin's Refuge%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Crow Caw%NL%Hawkmail%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP brs]: %NAME%%NL%%NL%%GREEN%Haemosu's Adamant (T1)%NL%Isenhart's Case%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Duriel's Shell%NL%Venom Ward (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP chn]: %NAME%%NL%%NL%%GREEN%Cathan's Mesh%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Shaftstop (T3)%NL%Sparking Mail%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP spl]: %NAME%%NL%%NL%%GREEN%Sazabi's Ghost Liberator%NL%Berserker's Hauberk%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Arkaine's Valor (T0)%NL%Skullder's Ire (T0)%NL%Iceblink%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ltp]: %NAME%%NL%%NL%%GREEN%Arcanna's Flesh (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Purgatory (T0)%NL%Que-Hegan's Wisdom (T1)%NL%Heavenly Garb (T1)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP fld]: %NAME%%NL%%NL%%GREEN%M'avina's Embrace (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Leviathan (T1)%NL%Toothrow (T2)%NL%Rockfleece (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP plt]: %NAME%%NL%%NL%%GREEN%Naj's Light Plate (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Guardian Angel (T1)%NL%Boneflesh%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gth]: %NAME%%NL%%NL%%GREEN%Tal Rasha's Guardianship (T1)%NL%Sigon's Shelter%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Atma's Wail (T0)%NL%Rattlecage (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ful]: %NAME%%NL%%NL%%GREEN%Aldur's Deception (T1)%NL%Trang-Oul's Scales (T3)%NL%Tancred's Spine%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Steel Carapace (T3)%NL%Black Hades (T0)%NL%Goldskin%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP aar]: %NAME%%NL%%NL%%GREEN%Immortal King's Soul Cage (T1)%NL%Griswold's Heart (T2)%NL%Milabrega's Robe%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Tyrael's Might (GG)%NL%Templar's Might (GG)%NL%Corpsemourn (T1)%NL%Silks of the Victor (T1)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lbl]: %NAME%%NL%%NL%%GREEN%Death's Guard (Lld)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Arachnid Mesh (GG)%NL%String of Ears (T3)%NL%Lenymo%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP vbl]: %NAME%%NL%%NL%%GREEN%M'avina's Tenet (T1)%NL%Arctic Binding%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Nosferatu's Coil (T3)%NL%Razortail (T0)%NL%Snakecord%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mbl]: %NAME%%NL%%NL%%GREEN%Credendum%NL%Tal Rasha's Fine-Spun Cloth (T1)%NL%Hwanin's Blessing%NL%Hsarus' Iron Stay%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Verdungo's Hearty Cord (T3)%NL%Gloom's Trap%NL%Nightsmoke%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tbl]: %NAME%%NL%%NL%%GREEN%Trang-Oul's Girth (T3)%NL%Wilhelm's Pride%NL%Iratha's Cord%NL%Infernal Sign%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Snowclash (T3)%NL%Goldwrap (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hbl]: %NAME%%NL%%NL%%GREEN%Immortal King's Detail (T1)%NL%Sigon's Wrap%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Siggard's Staunch (T3)%NL%Thundergod's Vigor (T2)%NL%Bladebuckle%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lbt]: %NAME%%NL%%NL%%GREEN%Rite of Passage (T1)%NL%Tancred's Hobnails (GG)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Merman's Sprocket (T2)%NL%Infernostride (T0)%NL%Hotspur (T3)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP vbt]: %NAME%%NL%%NL%%GREEN%Sander's Riprap%NL%Cow King's Hooves%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Sandstorm Trek (T0)%NL%Waterwalk (T2)%NL%Gorefoot (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mbt]: %NAME%%NL%%NL%%GREEN%Natalya's Soul (T1)%NL%Hsarus' Iron Heel%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Marrowwalk (T2)%NL%Silkweave (T2)%NL%Treads of Cthon (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tbt]: %NAME%%NL%%NL%%GREEN%Aldur's Advance (T1)%NL%Vidala's Fetlock%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%War Traveler (T3)%NL%Goblin Toe (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hbt]: %NAME%%NL%%NL%%GREEN%Immortal King's Pillar (T1)%NL%Sigon's Sabot%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Shadow Dancer (T0)%NL%Gore Rider (GG)%NL%Tearhaunch%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lgl]: %NAME%%NL%%NL%%GREEN%Laying of Hands (T1)%NL%Death's Hand (Lld)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Titan's Grip (T1)%NL%Venom Grip (T0)%NL%The Hand of Broc (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP vgl]: %NAME%%NL%%NL%%GREEN%Magnus' Skin%NL%Sander's Taboo (Lld)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Dracul's Grasp (T3)%NL%Gravepalm (T2)%NL%Bloodfist (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mgl]: %NAME%%NL%%NL%%GREEN%Trang-Oul's Claws (T3)%NL%Cleglaw's Pincers%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Soul Drainer (T3)%NL%Ghoulhide (T0)%NL%Chance Guards (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tgl]: %NAME%%NL%%NL%%GREEN%M'avina's Icy Clutch (T1)%NL%Iratha's Cuff%NL%Arctic Mitts%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Occultist (T3)%NL%Lava Gout (T3)%NL%Magefist (T2)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hgl]: %NAME%%NL%%NL%%GREEN%Immortal King's Forge (T1)%NL%Sigon's Gage%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Steelrend (T3)%NL%Hellmouth (T0)%NL%Frostburn (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP cap]: %NAME%%NL%%NL%%GREEN%Cow King's Horns (T2)%NL%Sander's Paragon%NL%Infernal Cranium%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Harlequin Crest (GG)%NL%Peasant Crown (Lld)%NL%Biggin's Bonnet (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP skp]: %NAME%%NL%%NL%%GREEN%Arcanna's Head (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Rockstopper (T0)%NL%Tarnhelm%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hlm]: %NAME%%NL%%NL%%GREEN%Berserker's Headgear%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Steel Shade (GG)%NL%Stealskull%NL%Coif of Glory%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP fhl]: %NAME%%NL%%NL%%GREEN%Sazabi's Mental Sheath%NL%Isenhart's Horns%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Darksight Helm%NL%Duskdeep (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ghm]: %NAME%%NL%%NL%%GREEN%Ondal's Almighty (T3)%NL%Guillaume's Face (T1)%NL%Sigon's Visor%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Nightwing's Veil (GG)%NL%Veil of Steel (GG)%NL%Valkyrie Wing (T0)%NL%Howltusk%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP msk]: %NAME%%NL%%NL%%GREEN%Tal Rasha's Horadric Crest (T1)%NL%Cathan's Visage%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Andariel's Visage (GG)%NL%Blackhorn's Face%NL%The Face of Horror%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP crn]: %NAME%%NL%%NL%%GREEN%Griswold's Valor (T2)%NL%Hwanin's Splendor%NL%Milabrega's Diadem%NL%Iratha's Coil%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Crown of Ages (GG)%NL%Crown of Thieves (T0)%NL%Undead Crown%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bhm]: %NAME%%NL%%NL%%GREEN%Trang-Oul's Guise (T1)%NL%Natalya's Totem (T1)%NL%Tancred's Skull%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Giant Skull (T3)%NL%Vampire Gaze (T2)%NL%Wormskull%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP buc]: %NAME%%NL%%NL%%GREEN%Hsarus' Iron Fist%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Visceratuant%NL%Pelta Lunata%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP sml]: %NAME%%NL%%NL%%GREEN%Whitstan's Guard%NL%Cleglaw's Claw%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Blackoak Shield (T1)%NL%Moser's Blessed Circle%NL%Umbral Disk%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lrg]: %NAME%%NL%%NL%%GREEN%Civerb's Ward%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Twilight's Reflection (T1)%NL%Stormchaser%NL%Stormguild%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP kit]: %NAME%%NL%%NL%%GREEN%Milabrega's Orb%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Stormshield (GG)%NL%Tiamat's Rebuke%NL%Steelclash (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP spk]: %NAME%%NL%%NL%%GOLD%Spike Thorn%NL%Lance Guard%NL%Swordback Hold%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tow]: %NAME%%NL%%NL%%GREEN%Sigon's Guard%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Medusa's Gaze (GG)%NL%Gerke's Sanctuary (T2)%NL%Bverrit Keep%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bsh]: %NAME%%NL%%NL%%GOLD%Head Hunter's Glory (T2)%NL%Lidless Wall (T3)%NL%Wall of the Eyeless%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gts]: %NAME%%NL%%NL%%GREEN%Taebaek's Glory (T2)%NL%Isenhart's Parry%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Spirit Ward (GG)%NL%Radament's Sphere (T0)%NL%The Ward%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hax]: %NAME%%NL%%NL%%GOLD%Razor's Edge (T0)%NL%Coldkill%NL%The Gnasher%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP axe]: %NAME%%NL%%NL%%GOLD%Butcher's Pupil%NL%Deathspade%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP 2ax]: %NAME%%NL%%NL%%GREEN%Berserker's Hatchet%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Rune Master (T0)%NL%Islestrike%NL%Bladebone%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mpi]: %NAME%%NL%%NL%%GREEN%Tancred's Crowbill%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Cranebeak%NL%Pompeii's Wrath%NL%Skull Splitter%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wax]: %NAME%%NL%%NL%%GOLD%Death Cleaver (GG)%NL%Guardian Naga%NL%Rakescar (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lax]: %NAME%%NL%%NL%%GOLD%Warlord's Trust (T3)%NL%Axe of Fechmar%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bax]: %NAME%%NL%%NL%%GOLD%Ethereal Edge%NL%Spellsteel%NL%Goreshovel%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP btx]: %NAME%%NL%%NL%%GOLD%Hellslayer (T3)%NL%Stormrider%NL%The Chieftain%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gax]: %NAME%%NL%%NL%%GOLD%Messerschmidt's Reaver%NL%Boneslayer Blade%NL%Brainhew%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gix]: %NAME%%NL%%NL%%GOLD%Executioner's Justice%NL%The Minotaur%NL%Humongous%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP sbw]: %NAME%%NL%%NL%%GOLD%Skystrike%NL%Pluckeye%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hbw]: %NAME%%NL%%NL%%GOLD%Riphook%NL%Witherstring%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lbw]: %NAME%%NL%%NL%%GOLD%Kuko Shakaku (T0)%NL%Raven Claw%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP cbw]: %NAME%%NL%%NL%%GOLD%Endlesshail (T0)%NL%Rogue's Bow (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP sbb]: %NAME%%NL%%NL%%GOLD%Witchwild String (T0)%NL%Stormstrike%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lbb]: %NAME%%NL%%NL%%GREEN%Vidala's Barb%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Eaglehorn (T0)%NL%Cliffkiller%NL%Wizendraw (T1)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP swb]: %NAME%%NL%%NL%%GREEN%Arctic Horn%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Widowmaker (T1)%NL%Magewrath (T1)%NL%Hellclap%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lwb]: %NAME%%NL%%NL%%GOLD%Windforce (T3)%NL%Goldstrike Arch%NL%Blastbark%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lxb]: %NAME%%NL%%NL%%GOLD%Langer Briser%NL%Leadcrow%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mxb]: %NAME%%NL%%NL%%GOLD%Pus Spitter (T1)%NL%Ichorsting%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hxb]: %NAME%%NL%%NL%%GOLD%Hellrack%NL%Buriza-Do Kyanon (T2)%NL%Hellcast%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP rxb]: %NAME%%NL%%NL%%GOLD%Gut Siphon%NL%Demon Machine%NL%Doomslinger%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dgr]: %NAME%%NL%%NL%%GREEN%Infernal Spike%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Wizardspike (T0)%NL%Spineripper%NL%Gull (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP dir]: %NAME%%NL%%NL%%GOLD%Shatterblade (T1)%NL%Heart Carver%NL%The Diggler%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP kri]: %NAME%%NL%%NL%%GOLD%Fleshripper%NL%Blackbog's Sharp (T0)%NL%The Jade Tan Do (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bld]: %NAME%%NL%%NL%%GOLD%Ghostflame (T2)%NL%Stormspike%NL%Spectral Shard%ORANGE%%NL%Possible Uniques:%WHITE%
+// ItemDisplay[NMAG !ID SHOP jav]: %NAME%
+// ItemDisplay[NMAG !ID SHOP pil]: %NAME%
+ItemDisplay[NMAG !ID SHOP ssp]: %NAME%%NL%%NL%%GOLD%Demon's Arch%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP glv]: %NAME%%NL%%NL%%GOLD%Wraith Flight%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tsp]: %NAME%%NL%%NL%%GOLD%Gargoyle's Bite%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP clb]: %NAME%%NL%%NL%%GOLD%Nord's Tenderizer%NL%Dark Clan Crusher%NL%Felloak%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP spc]: %NAME%%NL%%NL%%GOLD%Demon Limb%NL%Fleshrender%NL%Stoutnail%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mac]: %NAME%%NL%%NL%%GREEN%Dangoon's Teaching (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Sureshrill Frost%NL%Crushflange%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mst]: %NAME%%NL%%NL%%GREEN%Aldur's Rhythm (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Baranar's Star%NL%Moonfall%NL%Bloodrise%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP fla]: %NAME%%NL%%NL%%GOLD%Stormlash (T3)%NL%Horizon's Tornado (T3)%NL%Baezil's Vortex (T1)%NL%The General's Tan Do Li Ga%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP whm]: %NAME%%NL%%NL%%GOLD%Schaefer's Hammer (GG)%NL%Stone Crusher (GG)%NL%Earthshaker%NL%Ironstone%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP mau]: %NAME%%NL%%NL%%GREEN%Immortal King's Stone Crusher (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Windhammer (T0)%NL%Bloodtree Stump%NL%Bonesnap (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gma]: %NAME%%NL%%NL%%GOLD%The Cranium Basher (GG)%NL%Earth Shifter (GG)%NL%The Gavel of Pain (T3)%NL%Steeldriver (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bar]: %NAME%%NL%%NL%%GOLD%Bonehew%NL%The Meat Scraper%NL%Dimoak's Hew%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP vou]: %NAME%%NL%%NL%%GREEN%Hwanin's Justice%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Blackleach Blade%NL%Steelgoad%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP scy]: %NAME%%NL%%NL%%GOLD%The Reaper's Toll (T0)%NL%Athena's Wrath%NL%Soul Harvest%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP pax]: %NAME%%NL%%NL%%GOLD%Tomb Reaver (T3)%NL%Pierre Tombale Couant%NL%The Battlebranch%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP hal]: %NAME%%NL%%NL%%GOLD%Husoldal Evo%NL%Woestave%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wsc]: %NAME%%NL%%NL%%GOLD%Stormspire (T3)%NL%Grim's Burning Dead (T2)%NL%The Grim Reaper%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP scp]: %NAME%%NL%%NL%%GOLD%The Redeemer%NL%Heaven's Light%NL%Zakarum's Hand%NL%Knell Striker%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gsc]: %NAME%%NL%%NL%%GREEN%Civerb's Cudgel%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Akarat's Devotion%NL%The Fetid Sprinkler%NL%Rusthandle%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wsp]: %NAME%%NL%%NL%%GREEN%Griswold's Redemption (T3)%NL%Milabrega's Rod%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Astreon's Iron Ward (GG)%NL%Hand of Blessed Light%NL%Stormeye%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP spr]: %NAME%%NL%%NL%%GOLD%Arioc's Needle (T0)%NL%The Impaler%NL%The Dragon Chang%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tri]: %NAME%%NL%%NL%%GOLD%Kelpie Snare%NL%Razortine%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP brn]: %NAME%%NL%%NL%%GOLD%Viperfork (T0)%NL%Soulfeast Tine%NL%Bloodthief%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP spt]: %NAME%%NL%%NL%%GOLD%Uldyssian's Awakening%NL%Hone Sundan%NL%Lance of Yaggai%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP pik]: %NAME%%NL%%NL%%GOLD%Steel Pillar (GG)%NL%Spire of Honor%NL%The Tannr Gorerod%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP sst]: %NAME%%NL%%NL%%GOLD%Razorswitch%NL%Bane Ash%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lst]: %NAME%%NL%%NL%%GOLD%Ribcracker (T0)%NL%Serpent Lord%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP cst]: %NAME%%NL%%NL%%GREEN%Naj's Puzzler (T1)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Ondal's Wisdom (T0)%NL%Chromatic Ire (T0)%NL%Spire of Lazarus%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bst]: %NAME%%NL%%NL%%GREEN%Cathan's Rule%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Brimstone Rain (GG)%NL%Warpspear%NL%The Salamander%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wst]: %NAME%%NL%%NL%%GREEN%Arcanna's Deathwand%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Mang Song's Lesson (GG)%NL%Skull Collector (GG)%NL%The Iron Jang Bong (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ssd]: %NAME%%NL%%NL%%GOLD%Bloodletter%NL%Rixot's Keen%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP scm]: %NAME%%NL%%NL%%GOLD%Djinn Slayer (T0)%NL%Coldsteel Eye%NL%Blood Crescent%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP sbr]: %NAME%%NL%%NL%%GREEN%Angelic Sickle%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Bloodmoon%NL%Hexfire%NL%Skewer of Krintiz%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP flc]: %NAME%%NL%%NL%%GOLD%Blade of Ali Baba (T0)%NL%Gleamscythe%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP crs]: %NAME%%NL%%NL%%GOLD%Lightsabre (T3)%NL%Azurewrath (T3)%NL%Ginther's Rift%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bsd]: %NAME%%NL%%NL%%GREEN%Isenhart's Lightbrand%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Headstriker%NL%Griswold's Edge%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP lsd]: %NAME%%NL%%NL%%GREEN%Sazabi's Cobalt Redeemer%NL%Cleglaw's Tooth%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Frostwind (T3)%NL%Plague Bearer (T1)%NL%Hellplague%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wsd]: %NAME%%NL%%NL%%GREEN%Death's Touch%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Atlantean%NL%Culwen's Point%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP 2hs]: %NAME%%NL%%NL%%GOLD%Crainte Vomir%NL%Shadowfang%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP clm]: %NAME%%NL%%NL%%GOLD%Leoric's Mithril Bane%NL%Bing Sz Wang%NL%Soulflay%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gis]: %NAME%%NL%%NL%%GOLD%Flamebellow (T3)%NL%The Vile Husk%NL%Kinemil's Awl%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bsw]: %NAME%%NL%%NL%%GOLD%Doombringer (T2)%NL%Cloudcrack (T0)%NL%Blacktongue%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP flb]: %NAME%%NL%%NL%%GREEN%Bul-Kathos' Tribal Guardian (GG)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Odium (T0)%NL%Todesfaelle Flamme%NL%Ripsaw (Lld)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gsd]: %NAME%%NL%%NL%%GREEN%Bul-Kathos' Sacred Charge (GG)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Grandfather (GG)%NL%Swordguard (T0)%NL%The Patriarch (T1)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tkf]: %NAME%%NL%%NL%%GOLD%Deathbit%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bkf]: %NAME%%NL%%NL%%GOLD%Warshrike%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP tax]: %NAME%%NL%%NL%%GOLD%Gimmershred (T0)%NL%The Scalper%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bal]: %NAME%%NL%%NL%%GOLD%Achilles Strike(T3) Lacerator (T0)%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP wnd]: %NAME%%NL%%NL%%GOLD%Suicide Branch (T2)%NL%Torch of Iro%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP ywn]: %NAME%%NL%%NL%%GOLD%Carin Shard%NL%Maelstrom%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP bwn]: %NAME%%NL%%NL%%GREEN%Sander's Superstition (Lld)%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Boneshade (T2)%NL%Arm of King Leoric (T3)%NL%Gravenspine%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP gwn]: %NAME%%NL%%NL%%GOLD%Death's Web (GG)%NL%Blackhand Key (T3)%NL%Ume's Lament%ORANGE%%NL%Possible Uniques:%WHITE%
