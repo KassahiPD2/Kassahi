@@ -13,7 +13,15 @@ ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
 
 
 
+
+//------------------------------NAMES_FOR_ALL_ITEMS------------------------------
+
+
+
+
+
 ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(28/05/25){%GREEN%Unique Tiers & Map Res & Kicker Jewel update - HiimMark%CL%%CL%%RED%Announcement:}
+
 
 
 
@@ -1340,6 +1348,7 @@ ItemDisplay[STAT206>0 !(STAT477=4 OR STAT477=21)]: %NAME%*{%NAME%}%CONTINUE%
 
 
 
+
 //------------------------------UTILITIE_ITEMS------------------------------
 
 
@@ -1426,6 +1435,7 @@ ItemDisplay[hfh]: %MAP-51%Hellforge Hammer %RED%+{%TAN%Forger of Shadowfang%NL%L
 // QUEST ITEMS (ACT 5)
 ItemDisplay[ice]: %MAP-51%Malah's Potion %RED%+{%TAN%What is Man But a Mass of Thawing Clay?}
 ItemDisplay[tr2]: %MAP-51%Scroll of Resistance %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where There is Power, There is Resistance.}
+
 
 
 
@@ -1538,6 +1548,7 @@ ItemDisplay[r15s]: %NAME%{%WHITE%Brilliant Ring: O%NL%%YELLOW%Bountiful %WHITE%G
 ItemDisplay[r16s]: %NAME%{%WHITE%Brilliant Belt: O%NL%%YELLOW%Bountiful %WHITE%Boots: %YELLOW%O%NL%%LIGHT_GRAY%Vampiric %WHITE%Gloves: %LIGHT_GRAY%O%NL%%WHITE%Crafting Recipes: %ORANGE%Io, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
 ItemDisplay[r17s]: %NAME%{%YELLOW%Bountiful %WHITE%Ring: %YELLOW%O%NL%%LIGHT_GRAY%Vampiric %WHITE%Helm: %LIGHT_GRAY%O%NL%%WHITE%Crafting Recipes: %ORANGE%Lum, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
 ItemDisplay[r18s]: %NAME%{%WHITE%Brilliant Boots: O%NL%%YELLOW%Bountiful %WHITE%Amulet: %YELLOW%O%NL%%WHITE%Crafting Recipes: %ORANGE%Ko, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
+
 
 
 
@@ -1657,7 +1668,10 @@ ItemDisplay[crfp]: %LIGHT_GRAY%+%WHITE%++   %NAME%   %WHITE%++%LIGHT_GRAY%+{%NAM
 
 
 
+
 //------------------------------MAPS------------------------------
+
+
 
 
 
@@ -1886,13 +1900,16 @@ ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t21 OR t22 OR t23 
 
 
 
+
 //------------------------------UNID_ITEM_ALERTS------------------------------
+
+
+
+
+
+// Callout for if its Tyrael's Might
 ItemDisplay[UNI !ETH !ID uar ILVL>86]: %NAME%{%NAME%%GREEN%Can Roll Tyrael's Might}%CONTINUE%
 ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Trading%CL%Cannot Roll Tyrael's Might}%CONTINUE%
-
-
-
-
 
 // UNIQUES
 // CHARMS
@@ -1953,7 +1970,7 @@ ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%+++%YELLOW%+++%WHITE
 ItemDisplay[RARE !ID (amu OR rin OR CIRC)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%++%YELLOW%++%WHITE%+  %NAME%  %WHITE%+%YELLOW%++%SAGE%++
 // Good Crafting/ID Bases
 ItemDisplay[RARE ETH !ID (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR CHEST OR BELT OR GLOVES OR BOOTS OR wax OR 9wa OR 7wa OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR tax OR 9ta OR 7ta OR bal OR 9b8 OR 7b8 OR pil OR 9pi OR 7pi OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR spr OR 9sr OR 7sr OR pik OR 9p9 OR 7p7 OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR SIN OR am5 OR ama OR amf)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
-ItemDisplay[RARE !ETH !ID (SIN OR NEC OR DRU OR hxb OR 8hx OR 6hx)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[RARE !ETH !ID (NEC OR DRU OR hxb OR 8hx OR 6hx OR SIN)]: %PX-60%%DOT-21%%MAP-6D%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-6D%%DOT-21%%MAP-6D%%SAGE%++  %NAME%  %SAGE%++
 ItemDisplay[MAG !ID jew]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%+%BLUE%+%WHITE%+   %NAME%   %WHITE%+%BLUE%+%PURPLE%+
 ItemDisplay[MAG !ID ILVL>90 cm3]: %PX-20%%DOT-21%%MAP-97%%PURPLE%+%WHITE%+  %NAME% %WHITE%91+  %WHITE%+%PURPLE%+
@@ -2027,41 +2044,16 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE
 ItemDisplay[FILTLVL=1 RARE !ID]: %NAME%
 ItemDisplay[FILTLVL=1 MAG !ID !ETH ((dir OR 9di OR 7di OR tax OR 9ta OR 7ta OR 7ax OR 72a OR 7wa OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR 7wh OR 7m7 OR 7gm OR 7cr OR 7bs OR 7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) OR (EXC CHEST))]: %NAME%
 ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) MAG !ID (aqv OR cqv)]: %NAME%
-// Warrior Map
-ItemDisplay[MAG (amu OR CIRC OR GLOVES OR (ELT (CHEST OR SHIELD))) !ID !DIN !NEC (MAPID=181 OR MAPID=182)]: %NAME%
-ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR aqv OR cqv) !ID (MAPID=181 OR MAPID=182)]: %NAME%
-// AMULET'S CRAFTING (CLVL)
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=82 OR ILVL=83)]: %NAME% %ORANGE%C:%WHITE%98+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=84 OR ILVL=85)]: %NAME% %ORANGE%C:%WHITE%96+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=86 OR ILVL=87)]: %NAME% %ORANGE%C:%WHITE%94+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=88 OR ILVL=89)]: %NAME% %ORANGE%C:%WHITE%92+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=90 OR ILVL=91)]: %NAME% %ORANGE%C:%WHITE%90+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=92 OR ILVL=93)]: %NAME% %ORANGE%C:%WHITE%88+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=94 OR ILVL=95)]: %NAME% %ORANGE%C:%WHITE%86+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=96 OR ILVL=97)]: %NAME% %ORANGE%C:%WHITE%84+%CONTINUE%
-ItemDisplay[MAG amu !(STAT477=4 OR STAT477=21) (ILVL=98 OR ILVL=99)]: %NAME% %ORANGE%C:%WHITE%82+%CONTINUE%
-// RING'S CRAFTING (CLVL)
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=64 OR ILVL=65)]: %NAME% %ORANGE%C:%WHITE%98+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=66 OR ILVL=67)]: %NAME% %ORANGE%C:%WHITE%96+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=68 OR ILVL=69)]: %NAME% %ORANGE%C:%WHITE%94+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=70 OR ILVL=71)]: %NAME% %ORANGE%C:%WHITE%92+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=72 OR ILVL=73)]: %NAME% %ORANGE%C:%WHITE%90+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=74 OR ILVL=75)]: %NAME% %ORANGE%C:%WHITE%88+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=76 OR ILVL=77)]: %NAME% %ORANGE%C:%WHITE%86+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=78 OR ILVL=79)]: %NAME% %ORANGE%C:%WHITE%84+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=80 OR ILVL=81)]: %NAME% %ORANGE%C:%WHITE%82+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=82 OR ILVL=83)]: %NAME% %ORANGE%C:%WHITE%80+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=84 OR ILVL=85)]: %NAME% %ORANGE%C:%WHITE%78+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=86 OR ILVL=87)]: %NAME% %ORANGE%C:%WHITE%76+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=88 OR ILVL=89)]: %NAME% %ORANGE%C:%WHITE%74+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=90 OR ILVL=91)]: %NAME% %ORANGE%C:%WHITE%72+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=92 OR ILVL=93)]: %NAME% %ORANGE%C:%WHITE%70+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=94 OR ILVL=95)]: %NAME% %ORANGE%C:%WHITE%68+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=96 OR ILVL=97)]: %NAME% %ORANGE%C:%WHITE%66+%CONTINUE%
-ItemDisplay[MAG rin !(STAT477=4 OR STAT477=21) (ILVL=98 OR ILVL=99)]: %NAME% %ORANGE%C:%WHITE%64+%CONTINUE%
+
+// Magic Rings and Amulets
 ItemDisplay[CLVL<29 MAG !ID (amu OR rin)]: %MAP-97%%NAME%
 ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) MAG DIFF=2 ILVL>59 !ID amu]: %MAP-97%%NAME%
 ItemDisplay[FILTLVL=1 MAG !ID (amu OR rin)]: %NAME%
+
+// Warrior Map
+ItemDisplay[MAG (amu OR CIRC OR GLOVES OR (ELT (CHEST OR SHIELD))) !ID !DIN !NEC (MAPID=181 OR MAPID=182)]: %NAME%
+ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR aqv OR cqv) !ID (MAPID=181 OR MAPID=182)]: %NAME%
+
 
 
 
@@ -3841,6 +3833,7 @@ ItemDisplay[UNI cm3]: %NAME%{%NAME%+69 to Niko Niko Nii Skills}%CONTINUE%
 
 
 
+
 //------------------------------GAMBLING------------------------------
 
 
@@ -4112,6 +4105,7 @@ ItemDisplay[NMAG !ID SHOP bwn]: %GREEN%Sander's Superstition%CL%%CONTINUE%%CL%%N
 ItemDisplay[NMAG !ID SHOP wsp]: %GREEN%Griswold's Redemption (T3)%CL%%NAME%%CONTINUE%
 
 ItemDisplay[NMAG !ID SHOP (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %CL%%NAME%
+
 
 
 
@@ -5224,7 +5218,10 @@ ItemDisplay[!RW TABSK8=3 SK56=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GR
 
 
 
+
 //------------------------------LVLING------------------------------
+
+
 
 
 
@@ -5580,7 +5577,11 @@ ItemDisplay[FILTLVL=1 (MAG OR RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%
 
 
 
+
 //------------------------------LLD------------------------------
+
+
+
 
 
 // VLLD - Small Charms
@@ -5958,6 +5959,7 @@ ItemDisplay[CRAFT (9pi OR 9s9 OR 9gl OR 9ts OR ama OR 9ja) ED>139 STAT360=0 LVLR
 ItemDisplay[CRAFT (9pi OR 9s9 OR 9gl OR 9ts OR ama OR 9ja) ((ED>169) OR (ED>149 ((IAS>19) OR (MAXDMG>19)))) STAT360>0 LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw OR 8hx OR 8sb) ((ED>179 STAT360>0 ((IAS>19) OR (MAXDMG>19))) OR (ED>179 STAT360>0 IAS<20 SOCK>2) OR (ED>209 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw OR 8hx OR 8sb) ((ED>169 STAT360=0) OR (STAT360=0 (TABSK0>2 OR (CLSK0>0 TABSK0>1)) (IAS>19 OR FRW>0)) OR (STAT360=0 (TABSK0>3 OR (CLSK0>0 TABSK0>2)))) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
+
 
 
 
@@ -7596,6 +7598,7 @@ ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) (REPAIR>0
 
 
 
+
 //------------------------------NMAG_ITEM_NOTIFICATIONS------------------------------
 
 
@@ -7967,6 +7970,7 @@ ItemDisplay[FILTLVL=1 NMAG (SOCK=0 OR SOCK=3) !INF !RW (ob5 OR oba OR obf) (SK36
 ItemDisplay[NMAG DIFF=0 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR ob5 OR oba OR obf OR am5 OR ama OR amf) PRICE>9999]: %ORANGE%+%WHITE%${%NAME%}
 ItemDisplay[NMAG DIFF=1 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR ob5 OR oba OR obf OR am5 OR ama OR amf) PRICE>24999]: %ORANGE%+%WHITE%${%NAME%}
 ItemDisplay[NMAG DIFF=2 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe) PRICE>34999]: %ORANGE%+%WHITE%${%NAME%}
+
 
 
 
