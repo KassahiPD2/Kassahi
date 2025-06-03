@@ -4,6 +4,7 @@
 //------------------------------LLD------------------------------
 
 
+
 // VLLD - Small Charms
 ItemDisplay[MAG cm1 ID LVLREQ<10 LIFE>12 (MAXDMG>0 OR MANA>0 OR STR>0 OR DEX>0 OR STAT31>0 OR AR>0)]: %DOT-9F%%TEAL%gg vlld%CL%%NAME%
 // LLD - Small Charms

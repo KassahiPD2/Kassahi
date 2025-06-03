@@ -1,0 +1,69 @@
+
+
+
+//------------------------------UNID_ITEM_ALIAS_HYPER------------------------------
+
+
+
+
+
+// UNIQUES
+// CHARMS
+Alias[UNICHARM_LEFT]: %LIGHT_GRAY%+ +%RED%+ +
+Alias[UNICHARM_RIGHT]: %RED%+ +%LIGHT_GRAY%+ +
+// GG
+Alias[GG_LEFT]: %PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+
+Alias[GG_RIGHT]: %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+
+// TIER 3
+Alias[T3_LEFT]: %PURPLE%+%RED%+%ORANGE%+
+Alias[T3_RIGHT]: %ORANGE%+%RED%+%PURPLE%+
+// TIER 2
+Alias[T2_LEFT]: %RED%+%ORANGE%+
+Alias[T2_RIGHT]: %ORANGE%+%RED%+
+// TIER 1
+Alias[T1_LEFT]: %RED%+
+Alias[T1_RIGHT]: %RED%+
+// TIER 0
+Alias[T0_LEFT]: %LIGHT_GRAY%+
+Alias[T0_RIGHT]: %LIGHT_GRAY%+
+
+
+// SETS
+// GG
+Alias[SET_GG_LEFT]: %GREEN%+%DARK_GREEN%+%RED%+%PURPLE%+
+Alias[SET_GG_RIGHT]: %PURPLE%+%RED%+%DARK_GREEN%+%GREEN%+
+// TIER 3
+Alias[SET_T3_LEFT]: %PURPLE%+%RED%+%DARK_GREEN%+
+Alias[SET_T3_RIGHT]: %DARK_GREEN%+%RED%+%PURPLE%+
+// TIER 2
+Alias[SET_T2_LEFT]: %RED%+%DARK_GREEN%+
+Alias[SET_T2_RIGHT]: %DARK_GREEN%+%RED%+
+// TIER 1
+Alias[SET_T1_LEFT]: %LIGHT_GRAY%+
+Alias[SET_T1_RIGHT]: %LIGHT_GRAY%+
+
+
+// GG
+ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+     %WHITE%+ %NAME% %WHITE%+     %YELLOW%+%ORANGE%+%RED%+%PURPLE%+%SOUNDID-2680%
+ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-21%%BORDER-0A% %NAME% %SOUNDID-2680%
+// TIER 3
+ItemDiOR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%   %NAME%   %SOUNDID-2670%
+// TIER 2
+ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%  %NAME%  %SOUNDID-2678%
+// TIER 1
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6)]: %PX-0D%%DOT-0A%%RED%+ %NAME% %RED%+%SOUNDID-2666%
+// TIER 0
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR xlg OR xmg OR xhg OR xth OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR fhl)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR ame OR neg OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR 6sw OR ltp OR 7di OR ung OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx)]: %PX-0D%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%SOUNDID-2666%
+
+
+// SETS
+// GG
+ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%     %NAME%
+ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%DARK_GREEN%+%GREEN%+     %NAME%     %GREEN%+%DARK_GREEN%+%RED%+%PURPLE%+
+// TIER 3
+ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl OR rin)]: %PX-84%%DOT-21%%MAP-0A%   %NAME%
+// TIER 2
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FILTLVL=6 OR FILTLVL=7 OR FILTLVL=8 OR FILTLVL=9 OR FILTLVL=10 OR FILTLVL=11) SET !ID (xap OR stu OR uts OR xar OR urn OR dr8 OR amu)]: %PX-84%%DOT-0A%  %NAME%
+// TIER 1
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FIxtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+

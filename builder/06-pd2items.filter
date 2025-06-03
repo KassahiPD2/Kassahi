@@ -5,8 +5,6 @@
 
 
 
-
-
 // ESSENCES & TOKEN
 ItemDisplay[tes]: %DOT-0A%%BLUE%Essence of Suffering{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Andy %WHITE%& %RED%Duriel}%CONTINUE%
 ItemDisplay[ceh]: %DOT-0A%%YELLOW%Essence of Hatred{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Mephisto}%CONTINUE%
@@ -25,7 +23,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[mbr]: %DOT-0A%%ORANGE%Mephisto's Brain{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%1 of each %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Izual %GRAY%(%RED%Mini Uber%GRAY%)}%CONTINUE%
 ItemDisplay[dhn]: %DOT-0A%%ORANGE%Diablo's Horn{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%1 of each %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Lilith %GRAY%(%RED%Mini Uber%GRAY%)}%CONTINUE%
 ItemDisplay[bey]: %DOT-0A%%ORANGE%Baal's Eye{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%1 of each %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Duriel %GRAY%(%RED%Mini Uber%GRAY%)}%CONTINUE%
-ItemDisplay[std]: %DOT-0A%%ORANGE%Standard of Heroes{%TAN%Drops From: %RED%Hell Ubers}%CONTINUE%
+ItemDisplay[std]: %DOT-0A%%ORANGE%%NAME%{%TAN%Drops From: %RED%Hell Ubers}%CONTINUE%
 ItemDisplay[(mbr OR dhn OR bey OR std) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[(mbr OR dhn OR bey OR std)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[ubtm]: %MAP-0A%%LIGHT_GRAY%+%RED%+   %NAME%   %RED%+%LIGHT_GRAY%+{%LIGHT_GRAY%(You Get 3 Tps in Town Once u Enter Ubers)%CL%%NL%%RED%fres, %BLUE%cres:%WHITE%150, %YELLOW%lres:%WHITE%125%CL%%DARK_GREEN%Recommended Stats:%NL%}
@@ -39,15 +37,15 @@ ItemDisplay[(ubaa OR ubab OR ubac)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[uba]: %MAP-0A%%LIGHT_GRAY%+%RED%+   %NAME%   %RED%+%LIGHT_GRAY%+{%LIGHT_GRAY%(You Cannot Make TPs Once You're Inside)}
 // DCLONE ITEMS
 ItemDisplay[dcho]: %PX-60%%MAP-0A%%ORANGE%Black Soulstone{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Uber Tristram}%CONTINUE%
-ItemDisplay[dcso]: %PX-60%%MAP-0A%%ORANGE%Prime Evil Soul{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}%CONTINUE%
-ItemDisplay[dcbl]: %PX-60%%MAP-0A%%ORANGE%Pure Demonic Essence{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}%CONTINUE%
+ItemDisplay[dcso]: %PX-60%%MAP-0A%%ORANGE%%NAME%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Mephisto%WHITE%/%RED%Diablo%WHITE%/%RED%Baal}%CONTINUE%
+ItemDisplay[dcbl]: %PX-60%%MAP-0A%%ORANGE%%NAME%{%ORANGE%Vision of Terror%NL%%TAN%Cube: %ORANGE%PES, PDE, BS %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Map Bosses}%CONTINUE%
 ItemDisplay[(dcho OR dcso OR dcbl) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[(dcho OR dcso OR dcbl)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[dcma]: %MAP-0A%%LIGHT_GRAY%+%RED%+   %NAME%   %RED%+%LIGHT_GRAY%+{%LIGHT_GRAY%(+Minions & Mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%CL%%NL%%ORANGE%T0:%WHITE%50%%GOLD%pdr, %WHITE%90%RED%mfr, %WHITE%2%GOLD%Dwarf %CL%%DARK_GREEN%Recommended Stats:%NL%}
 // RATHMA ITEMS
 ItemDisplay[rtmo]: %PX-60%%MAP-0A%%ORANGE%Trang-Oul's Jawbone{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Drops From: %RED%Undead Enemies}%CONTINUE%
 ItemDisplay[rtmv]: %PX-60%%MAP-0A%%ORANGE%Splinter of the Void{%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Drops From: %RED%Mendeln Map Events}%CONTINUE%
-ItemDisplay[cm2f]: %PX-60%%MAP-0A%%ORANGE%Hellfire Ashes{%GRAY%(Before Dying Twice in a Row)%NL%(u May Now Spend Your Souls,)%NL%%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Made From: %RED%Torches}%CONTINUE%
+ItemDisplay[cm2f]: %PX-60%%MAP-0A%%ORANGE%%NAME%{%GRAY%(Before Dying Twice in a Row)%NL%(u May Now Spend Your Souls,)%NL%%WHITE%to Make %ORANGE%Voidstone%NL%%TAN%Cube: %ORANGE%TOJ, SOTV, (Torch or Hellfire Ashes)%NL%%TAN%Made From: %RED%Torches}%CONTINUE%
 ItemDisplay[(rtmo OR rtmv OR cm2f) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[(rtmo OR rtmv OR cm2f)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[cwss]: %MAP-0A%%RED%Tainted Shard{%TAN%Anni: %WHITE%80% %BLUE%Mod %WHITE%20% %BLUE%Brick%NL%%WHITE%Possible Corruptions:}%CONTINUE%
@@ -68,10 +66,10 @@ ItemDisplay[wss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[wss]: %PURPLE%++%RED%++%CORAL%+   %NAME%   %CORAL%+%RED%++%PURPLE%++{%NAME%}%CONTINUE%
 ItemDisplay[iwss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %CORAL%++   %NAME%   %CORAL%++{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Puzzle Box{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%%NAME%{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lbox]: %GREEN%@@@%PURPLE%@@@%GREEN%@@   %NAME%   %GREEN%@@%PURPLE%@@@%GREEN%@@@{%NAME%}%CONTINUE%
-ItemDisplay[lpp]: %MAP-0A%%GOLD%Puzzle Piece{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lpp]: %MAP-0A%%GOLD%%NAME%{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Demonic Cube{%NAME%}%CONTINUE%
@@ -91,7 +89,7 @@ ItemDisplay[irra]: %MAP-68%%GOLD%Infused Zakarum%ORANGE%{}%CONTINUE%
 ItemDisplay[rrra]: %MAP-68%%GOLD%Infused Horadrim%ORANGE%{}%CONTINUE%
 ItemDisplay[urma]: %MAP-68%%GOLD%Infused Angelic%ORANGE%{}%CONTINUE%
 ItemDisplay[(jewf OR imra OR rera OR scou OR upma OR upmp OR fort OR irma OR irra OR rrra OR urma) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[scrb]: %PX-60%%MAP-0A%%GOLD%Horadrim Scarab{%GRAY%(These Are Intended For Groups)%NL%}%CONTINUE%
+ItemDisplay[scrb]: %PX-60%%MAP-0A%%GOLD%%NAME%{%GRAY%(These Are Intended For Groups)%NL%}%CONTINUE%
 ItemDisplay[scrb QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[scrb]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%OO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Vial   %GREEN%OO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OO{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}

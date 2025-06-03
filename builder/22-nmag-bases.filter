@@ -5,8 +5,6 @@
 
 
 
-
-
 // Ferocity
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 xhm]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Ferocity{%NAME%}
 // Flickering Flame

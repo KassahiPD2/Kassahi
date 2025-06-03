@@ -3,6 +3,8 @@
 
 //------------------------------GAMBLING------------------------------
 
+
+
 // POSSIBLE SET/UNIQ'S FOR GAMBLING
 ItemDisplay[NMAG !ID SHOP cm3]: %NAME%%NL%%NL%%GOLD%Gheed's Fortune%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%All Set Amulets%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Amulets%ORANGE%%NL%Possible Uniques:%WHITE%
