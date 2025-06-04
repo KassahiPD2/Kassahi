@@ -1,0 +1,15 @@
+
+
+
+//------------------------------PROJECT_DIABLO_2_ULTRA_RARE------------------------------
+
+
+
+ItemDisplay[imrn]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Demonic Cube{%NAME%}%CONTINUE%
+ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+ItemDisplay[imrn]: %GREEN%@@@%PURPLE%@@@%GREEN%@@   %NAME%   %GREEN%@@%PURPLE%@@@%GREEN%@@@{%NAME%}%CONTINUE%
+ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%OO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Vial   %GREEN%OO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OO{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%OO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Mirror   %GREEN%OO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OOO%PURPLE%OO{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[rkey]: %DOT-0D%%MAP-21%%BORDER-0A%%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Skeleton Key   %GREEN%OO%PURPLE%OOO%GREEN%OOO{%NAME%}
+ItemDisplay[rtp]: %MAP-0A%%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Navigator   %GREEN%OO%PURPLE%OOO%GREEN%OOO{%WHITE%Gives You Infinite %BLUE%TPs}
+ItemDisplay[rid]: %MAP-0A%%PURPLE%OOO%GREEN%OOO%PURPLE%OOO%GREEN%OO   %RED%Almanac   %GREEN%OO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO{%WHITE%Gives You Infinite %RED%IDs}
