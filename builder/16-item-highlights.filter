@@ -12,14 +12,14 @@ ItemDisplay[STAT477=21]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%White%CL%%WHITE%>> %
 // HIGHLIGHTING CHARM'S (GG'S)
 // SMALL
 ItemDisplay[MAG cm1 ((LIFE>14 (STAT49>23 OR STAT51>39 OR STAT55>20)) OR (LIFE>9 (STAT49>26 OR STAT51>46 OR STAT55>24)))]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 (STAT49>26 OR STAT51>46 OR STAT55>24)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 (STAT49>34 OR STAT51>59 OR STAT55>31)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT49>23 (STAT51>19 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT51>39 (STAT49>10 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT55>20 (STAT49>10 OR STAT51>19)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 (STAT49>20 OR STAT51>32 OR STAT55>17)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 (STAT49>26 OR STAT51>46 OR STAT55>24)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 (STAT49>34 OR STAT51>59 OR STAT55>31)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT49>23 (STAT51>19 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT51>39 (STAT49>10 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT55>20 (STAT49>10 OR STAT51>19)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 (STAT49>20 OR STAT51>32 OR STAT55>17)]: %DOT-0A%%GREEN%veng%CL%%PURPLE%Small Charm{%NAME%%CL%}
 ItemDisplay[MAG cm1 LIFE>14 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
 ItemDisplay[MAG cm1 FRW>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
 ItemDisplay[MAG cm1 FHR>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
