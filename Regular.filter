@@ -30,6 +30,7 @@ ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/5th/25){%GREEN%Conversion of 
 
 
 
+
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
 ItemDisplay[MAG cm2]: Large Charm%CONTINUE%
