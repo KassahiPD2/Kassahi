@@ -2225,50 +2225,61 @@ ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=4 OR FILTLVL=5 OR FI
 // Druid
 // Good Crafting/ID Bases
 ItemDisplay[MAG !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+// Barbarian
+// Good Crafting/ID Bases
+ItemDisplay[MAG !ID ETH BARBARIAN (BAR OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+ItemDisplay[RARE !ID BARBARIAN BAR]: %DOT-6D%%TEAL%+  %NAME%  %TEAL%+
+// Paladin
+// Good Crafting/ID Bases
+ItemDisplay[MAG !ID ETH PALADIN (fla OR 9fl OR 7fl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+// Necromancer
+// Good Crafting/ID Bases
+ItemDisplay[RARE !ID NECROMANCER (kri OR 9kr OR 7kr)]: %DOT-6D%%TEAL%+  %NAME%  %TEAL%+
+// Assassin
+// Good Crafting/ID Bases
+ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
+// Sorceress
+// Good Crafting/ID Bases
+// Amazon
+// Good Crafting/ID Bases
+ItemDisplay[RARE !ID AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%+
+ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DOT-97%%NAME% %TEAL%+
+
+// Druid
 // Class Items Starter/Medium Strictness
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID DRUID (CLUB OR DRU)]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID DRUID (CLUB OR DRU)]: %DOT-6D%%NAME% %TEAL%+
 // Barbarian
-// Good Crafting/ID Bases
-ItemDisplay[MAG !ID ETH BARBARIAN (BAR OR tax OR 9ta OR 7ta OR ssp OR 9s9 OR 7s7)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
-ItemDisplay[RARE !ID BARBARIAN BAR]: %DOT-6D%%NAME% %TEAL%+
 // Class Items Starter/Medium Strictness
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID BARBARIAN BAR]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID BARBARIAN BAR]: %DOT-6D%%NAME% %TEAL%+
 // Paladin
-// Good Crafting/ID Bases
-ItemDisplay[MAG !ID ETH PALADIN (fla OR 9fl OR 7fl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 // Class Items Starter/Medium Strictness
 ItemDisplay[FILTLVL=1 MAG !ID PALADIN (DIN OR SCEPTER)]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID PALADIN ((DIN) OR (ETH (SCEPTER)))]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID PALADIN (DIN OR SCEPTER)]: %DOT-6D%%NAME% %TEAL%+
 // Necromancer
-ItemDisplay[RARE !ID NECROMANCER (kri OR 9kr OR 7kr)]: %DOT-6D%%RED%+  %NAME%  %RED%+
 // Class Items Starter/Medium Strictness
 ItemDisplay[FILTLVL=1 MAG !ID NECROMANCER (NEC OR WAND)]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID NECROMANCER ((NEC) OR (ETH (WAND)))]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID NECROMANCER (NEC OR WAND)]: %DOT-6D%%NAME% %TEAL%+
 // Assassin
-// Good Crafting/ID Bases
-ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
 // Class Items Starter/Medium Strictness
 ItemDisplay[FILTLVL=1 MAG !ID ASSASSIN SIN]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID ASSASSIN ETH SIN]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID ASSASSIN SIN]: %DOT-6D%%NAME% %TEAL%+
 // Sorceress
-// Class Items
+// Class Items Starter/Medium Strictness
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%NAME% %TEAL%+
 // Amazon
-// Good Crafting/ID Bases
-ItemDisplay[RARE !ID AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%+
-ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DOT-97%%NAME% %TEAL%+
 // Class Items Starter/Medium Strictness
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID AMAZON ZON]: %DOT-97%%NAME% %TEAL%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID AMAZON (ZON OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%+
 // Every Class Item Highlights For Opposite Classes Starter/Medium Strictness
 ItemDisplay[FILTLVL=1 MAG !ID (CLUB OR DRU OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%+
-ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID ETH (DRU OR BAR OR DIN OR SCEPTER OR NEC OR SIN OR ZON)]: %NAME% %LIGHT_GRAY%+
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID ETH (CLUB OR DRU OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%+
+ItemDisplay[(FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID !ETH (CLUB OR DRU OR BAR OR DIN OR NEC OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) RARE !ID (CLUB OR DRU OR BAR OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR aqv OR cqv)]: %NAME% %LIGHT_GRAY%+
 
 // Extra Strictness
