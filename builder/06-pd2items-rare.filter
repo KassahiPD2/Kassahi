@@ -5,11 +5,12 @@
 
 
 
-ItemDisplay[imrn]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%Demonic Cube{%NAME%}%CONTINUE%
+ItemDisplay[lbox]: %RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+{%NAME%}%CONTINUE%
+ItemDisplay[imrn]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %RED%+%ORANGE%+%YELLOW%+     %NAME%     %YELLOW%+%ORANGE%+%RED%+{%NAME%}%CONTINUE%
-ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+%WHITE%+               %RED%Vial               %WHITE%+%YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+%WHITE%+                    %RED%Mirror                    %WHITE%+%YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[lsvl]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+%WHITE%+               %RED%%NAME%               %WHITE%+%YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %DOT-0D%%MAP-21%%BORDER-0A%%PURPLE%+%RED%+%ORANGE%+%YELLOW%+%WHITE%+                    %RED%%NAME%                    %WHITE%+%YELLOW%+%ORANGE%+%RED%+%PURPLE%+{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Skeleton Key     %YELLOW%+%ORANGE%+%RED%+{%NAME%}
-ItemDisplay[rtp]: %MAP-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%Navigator     %YELLOW%+%ORANGE%+%RED%+{%WHITE%Gives You Infinite %BLUE%TPs}
-ItemDisplay[rid]: %MAP-0A%%RED%+%ORANGE%+%YELLOW%+          %RED%Almanac          %YELLOW%+%ORANGE%+%RED%+{%WHITE%Gives You Infinite %RED%IDs}
+ItemDisplay[rtp]: %MAP-0A%%RED%+%ORANGE%+%YELLOW%+     %RED%%NAME%     %YELLOW%+%ORANGE%+%RED%+{%WHITE%Gives You Infinite %BLUE%TPs}
+ItemDisplay[rid]: %MAP-0A%%RED%+%ORANGE%+%YELLOW%+          %RED%%NAME%          %YELLOW%+%ORANGE%+%RED%+{%WHITE%Gives You Infinite %RED%IDs}

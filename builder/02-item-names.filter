@@ -1127,6 +1127,8 @@ ItemDisplay[SET !ID oba]: Tal Rasha's Lidless Eye%CONTINUE%
 ItemDisplay[SET !ID amc]: M'avina's Caster%CONTINUE%
 
 // PD2 Item names
+ItemDisplay[lsvl]: Vial%CONTINUE%
+ItemDisplay[llmr]: Mirror%CONTINUE%
 ItemDisplay[std]: Standard of Heroes%CONTINUE%
 ItemDisplay[dcso]: Prime Evil Soul%CONTINUE%
 ItemDisplay[dcbl]: Pure Demonic Essence%CONTINUE%
@@ -1134,3 +1136,6 @@ ItemDisplay[cm2f]: Hellfire Ashes%CONTINUE%
 ItemDisplay[lbox]: Puzzle Box%CONTINUE%
 ItemDisplay[lpp]: Puzzle Piece%CONTINUE%
 ItemDisplay[scrb]: Horadrim Scarab%CONTINUE%
+ItemDisplay[rtp]: Navigator%CONTINUE%
+ItemDisplay[rid]: Almanac%CONTINUE%
+ItemDisplay[imrn]: Demonic Cube%CONTINUE%

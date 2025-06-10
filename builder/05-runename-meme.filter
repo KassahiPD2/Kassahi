@@ -13,3 +13,5 @@ ItemDisplay[RUNE=30]: Beer%CONTINUE%
 ItemDisplay[RUNE=31]: Jah%CONTINUE%
 ItemDisplay[RUNE=32]: Scam%CONTINUE%
 ItemDisplay[RUNE=33]: Zod%CONTINUE%
+
+ItemDisplay[RUNE>25]: %NAME% %GREEN%%RUNENUM%%CONTINUE%
