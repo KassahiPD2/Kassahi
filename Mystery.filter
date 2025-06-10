@@ -20,7 +20,7 @@ ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/9th/25){%GREEN%Mystery Filter - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/10th/25){%GREEN%Mystery Filter - HiimMark%CL%%RED%Announcement:}
 
 
 
@@ -1684,6 +1684,7 @@ ItemDisplay[RUNE=32]: Cham%CONTINUE%
 ItemDisplay[RUNE=33]: Zod%CONTINUE%
 
 ItemDisplay[RUNE>0 RUNE<26]: %RUNENAME% %GREEN%%RUNENUM%%CONTINUE%
+ItemDisplay[RUNE>0 RUNE<20 FILTLVL=12]: %GREEN%x %RUNENUM% x%CONTINUE%
 ItemDisplay[RUNE>25]: %NAME% %GREEN%%RUNENUM%%CONTINUE%
 
 
