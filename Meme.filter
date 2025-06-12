@@ -1,15 +1,15 @@
-ItemDisplayFilterName[1]: ï¿½c9Starter Filter Lvl (S11)
-ItemDisplayFilterName[2]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
-ItemDisplayFilterName[3]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
-ItemDisplayFilterName[4]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[5]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[6]: ï¿½c1+ï¿½c0H5ï¿½c7/ï¿½c3+ï¿½c0M5 ï¿½c8w/o ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[7]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
-ItemDisplayFilterName[8]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c:Medium ï¿½c4Strictness
-ItemDisplayFilterName[9]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[10]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c7w/ ï¿½c5(ï¿½c.Small ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[11]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c8w/o ï¿½c5(ï¿½c0Flawlessï¿½c5) ï¿½c;Extra ï¿½c4Strictness
-ItemDisplayFilterName[12]: ï¿½c;O ï¿½c0Juice ï¿½c;O ï¿½c1Extreme ï¿½c4Strictness
+ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S11)
+ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
+ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
+ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[5]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[6]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[7]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
+ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
+ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
+ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
 
 
 
@@ -1235,9 +1235,9 @@ ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTIN
 ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
 // BASE VERSION (ITEMS)
-ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
-ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
-ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%ï¿½{%NAME%}%CONTINUE%
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // SLAMMED (ITEMS)
