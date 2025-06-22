@@ -1,16 +1,15 @@
-ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S11)
-ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[5]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[6]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[7]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
-
+ItemDisplayFilterName[1]: Ã¿c9Starter Filter Lvl (S11)
+ItemDisplayFilterName[2]: Ã¿c1+Ã¿c0H5Ã¿c7/Ã¿c3+Ã¿c0M5 Ã¿c7w/ Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c:Medium Ã¿c4Strictness
+ItemDisplayFilterName[3]: Ã¿c1+Ã¿c0H5Ã¿c7/Ã¿c3+Ã¿c0M5 Ã¿c7w/ Ã¿c5(Ã¿c.Small Ã¿c0FlawlessÃ¿c5) Ã¿c:Medium Ã¿c4Strictness
+ItemDisplayFilterName[4]: Ã¿c1+Ã¿c0H5Ã¿c7/Ã¿c3+Ã¿c0M5 Ã¿c7w/ Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[5]: Ã¿c1+Ã¿c0H5Ã¿c7/Ã¿c3+Ã¿c0M5 Ã¿c7w/ Ã¿c5(Ã¿c.Small Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[6]: Ã¿c1+Ã¿c0H5Ã¿c7/Ã¿c3+Ã¿c0M5 Ã¿c8w/o Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[7]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c7w/ Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c:Medium Ã¿c4Strictness
+ItemDisplayFilterName[8]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c7w/ Ã¿c5(Ã¿c.Small Ã¿c0FlawlessÃ¿c5) Ã¿c:Medium Ã¿c4Strictness
+ItemDisplayFilterName[9]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c7w/ Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[10]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c7w/ Ã¿c5(Ã¿c.Small Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[11]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c8w/o Ã¿c5(Ã¿c0FlawlessÃ¿c5) Ã¿c;Extra Ã¿c4Strictness
+ItemDisplayFilterName[12]: Ã¿c;O Ã¿c0Juice Ã¿c;O Ã¿c1Extreme Ã¿c4Strictness
 
 
 
@@ -1201,9 +1200,9 @@ ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTIN
 ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
 // BASE VERSION (ITEMS)
-ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
-ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
-ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â¹{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â²{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â³{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // SLAMMED (ITEMS)
@@ -1712,7 +1711,11 @@ ItemDisplay[(RUNE=30 OR RUNE=33)]: %DOT-60%%MAP-21%%BORDER-0A%%GREEN%@@@%PURPLE%
 
 
 
+
+
 //------------------------------Runes-tooltip------------------------------
+
+
 
 
 
@@ -1734,6 +1737,7 @@ ItemDisplay[r15s]: %NAME%{%WHITE%Brilliant Ring: O%NL%%YELLOW%Bountiful %WHITE%G
 ItemDisplay[r16s]: %NAME%{%WHITE%Brilliant Belt: O%NL%%YELLOW%Bountiful %WHITE%Boots: %YELLOW%O%NL%%LIGHT_GRAY%Vampiric %WHITE%Gloves: %LIGHT_GRAY%O%NL%%WHITE%Crafting Recipes: %ORANGE%Io, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
 ItemDisplay[r17s]: %NAME%{%YELLOW%Bountiful %WHITE%Ring: %YELLOW%O%NL%%LIGHT_GRAY%Vampiric %WHITE%Helm: %LIGHT_GRAY%O%NL%%WHITE%Crafting Recipes: %ORANGE%Lum, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
 ItemDisplay[r18s]: %NAME%{%WHITE%Brilliant Boots: O%NL%%YELLOW%Bountiful %WHITE%Amulet: %YELLOW%O%NL%%WHITE%Crafting Recipes: %ORANGE%Ko, %GOLD%O, %BLUE%Magic%GOLD%/%YELLOW%Rare%NL%%NAME%}
+ItemDisplay[r31s]: %NAME%{%WHITE%Ask Sky_88 What an Any Rune is%NL%%NAME%}
 
 
 
