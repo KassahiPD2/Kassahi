@@ -20,7 +20,7 @@ ItemDisplayFilterName[12]: O Juice O Extreme Strictness
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/22th/25){%LIGHT_GRAY%removed filter lvl colors and moved ''base'' tag to description - Kassahi%CL%highlights for Mystery Filters still under work%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/22th/25){%LIGHT_GRAY%removed filter lvl colors and reworked ''base'' tag - Kassahi%CL%highlights for Mystery Filters still under work%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
 
 
 
@@ -1199,6 +1199,10 @@ ItemDisplay[ETH UNI !ID (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %PURPLE%%NAME
 ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
+// BASE VERSION (ITEMS)
+ItemDisplay[NORM ID]: %NAME%%DARK_GREEN%'{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID]: %NAME%%DARK_GREEN%''{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID]: %NAME%%DARK_GREEN%'''{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // SLAMMED (ITEMS)
