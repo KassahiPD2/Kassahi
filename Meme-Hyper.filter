@@ -1,17 +1,15 @@
-ItemDisplayFilterName[1]: ÿc9Starter Filter Lvl (S11)
-ItemDisplayFilterName[2]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[3]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[4]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[5]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[6]: ÿc1+ÿc0H5ÿc7/ÿc3+ÿc0M5 ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[7]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[8]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc:Medium ÿc4Strictness
-ItemDisplayFilterName[9]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[10]: ÿc;O ÿc0Juice ÿc;O ÿc7w/ ÿc5(ÿc.Small ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[11]: ÿc;O ÿc0Juice ÿc;O ÿc8w/o ÿc5(ÿc0Flawlessÿc5) ÿc;Extra ÿc4Strictness
-ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
-
-
+ItemDisplayFilterName[1]: Starter Filter Lvl (S11)
+ItemDisplayFilterName[2]: +H5/+M5 / (Flawless) Medium Strictness
+ItemDisplayFilterName[3]: +H5/+M5 / (Small Flawless) Medium Strictness
+ItemDisplayFilterName[4]: +H5/+M5 / (Flawless) Extra Strictness
+ItemDisplayFilterName[5]: +H5/+M5 / (Small Flawless) Extra Strictness
+ItemDisplayFilterName[6]: +H5/+M5 /o (Flawless) Extra Strictness
+ItemDisplayFilterName[7]: O Juice O w/ (Flawless) Medium Strictness
+ItemDisplayFilterName[8]: O Juice O w/ (Small Flawless) Medium Strictness
+ItemDisplayFilterName[9]: O Juice O w/ (Flawless) Extra Strictness
+ItemDisplayFilterName[10]: O Juice O w/ (Small Flawless) Extra Strictness
+ItemDisplayFilterName[11]: O Juice O w/o (Flawless) Extra Strictness
+ItemDisplayFilterName[12]: O Juice O Extreme Strictness
 
 
 
@@ -22,7 +20,7 @@ ItemDisplayFilterName[12]: ÿc;O ÿc0Juice ÿc;O ÿc1Extreme ÿc4Strictness
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/12th/25){%LIGHT_GRAY%for hrs/pbox/dcube/skey/books/vial/mirror, mark too busy this weekend - Kassahi%CL%Better highlights for Mystery Filters should come next week%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(june/22th/25){%LIGHT_GRAY%removed filter lvl colors and moved ''base'' tag to description - Kassahi%CL%highlights for Mystery Filters still under work%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
 
 
 
@@ -1233,9 +1231,9 @@ ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTIN
 ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
 // BASE VERSION (ITEMS)
-ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
-ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
-ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%³{%NAME%}%CONTINUE%
+ItemDisplay[NORM ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â¹{%NAME%}%CONTINUE%
+ItemDisplay[EXC ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â²{%NAME%}%CONTINUE%
+ItemDisplay[ELT ID !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%Â³{%NAME%}%CONTINUE%
 // SOCKETED (ITEMS)
 ItemDisplay[SOCK>0 !RW !(STAT477=4 OR STAT477=21)]: %NAME% %WHITE%%SOCKETS%{%NAME%}%CONTINUE%
 // SLAMMED (ITEMS)
@@ -3511,10 +3509,10 @@ ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (zhb) LVLREQ>66]: %NAME%{%NAME%%LVL
 //Info about Max Sockets from all sources of socketing
 //opener
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%1}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%2}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) !(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26)) MAG ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%2}%CONTINUE%
 ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR WEAPON) (RARE OR CRAFT OR UNI OR SET) ID SOCK=0]: %NAME%{%NAME%%CL%%WHITE%max os: %TEAL%L:%WHITE%1}%CONTINUE%
 ItemDisplay[(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%1}%CONTINUE%
-ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR 1H OR hax) !(THROWING OR dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%2}%CONTINUE%
+ItemDisplay[((CHEST OR HELM OR CIRC OR SHIELD) OR 1H OR hax) !(dgr OR dir OR wnd OR ywn OR 9wn OR (ci0 ILVL<26) OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%2}%CONTINUE%
 ItemDisplay[sst (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%2}%CONTINUE%
 ItemDisplay[(((mau OR gma OR clm OR gis OR bsw OR tri OR brn OR spt OR pik OR vou OR scy OR pax OR hbw OR lbw OR cbw OR sbb OR lbb OR mxb OR hxb OR am1 OR am3) ILVL<26) OR 2hs OR 92h OR 72h OR spr OR bar OR sbw OR lxb OR 8ss OR 6ss OR lst OR 8ls OR 6ls) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%3}%CONTINUE%
 ItemDisplay[2H !(THROWING OR (((mau OR gma OR clm OR gis OR bsw OR tri OR brn OR spt OR pik OR vou OR scy OR pax OR hbw OR lbw OR cbw OR sbb OR lbb OR mxb OR hxb OR am1 OR am3) ILVL<26) OR 2hs OR 92h OR 72h OR spr OR bar OR sbw OR lxb OR 8ss OR 6ss OR lst OR 8ls OR 6ls) OR sst) (RARE OR CRAFT OR UNI OR SET OR MAG) ID SOCK=0]: %NAME%{%NAME%, %GOLD%P:%WHITE%4}%CONTINUE%
@@ -3903,10 +3901,14 @@ ItemDisplay[(mpi OR wax OR gax OR gix) NMAG SUP SOCK=0 ILVL>40]: %NAME%{%NAME%%T
 ItemDisplay[wst NMAG SUP SOCK=0 ILVL<26]: %NAME%{%NAME%%TEAL%L:%WHITE%5, %RED%C:%WHITE%5%GOLD%/%RED%b}%CONTINUE%
 ItemDisplay[wst NMAG SUP SOCK=0 ILVL>25]: %NAME%{%NAME%%TEAL%L:%WHITE%6, %RED%C:%WHITE%6%GOLD%/%RED%b}%CONTINUE%
 
+// BASE VERSION (ITEMS)
+ItemDisplay[NORM ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%nor}%CONTINUE%
+ItemDisplay[EXC ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%exc}%CONTINUE%
+ItemDisplay[ELT ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%eli}%CONTINUE%
+
 // WEAPON'S SPEED/RANGE
-ItemDisplay[WEAPON !RW !((WAND OR SOR) OR (NMAG THROWING))]: %NAME%{%NAME%%CL%}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%%CL%%WHITE%base: %CORAL%Sp:%WHITE%%WPNSPD%, %CORAL%R:%WHITE%%RANGE%}%CONTINUE%
-ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%%CL%%WHITE%base: %CORAL%Sp:%WHITE%%WPNSPD%}%CONTINUE%
+ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%, %CORAL%Sp:%WHITE%%WPNSPD%, %CORAL%R:%WHITE%%RANGE%}%CONTINUE%
+ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%, %CORAL%Sp:%WHITE%%WPNSPD%}%CONTINUE%
 
 // ITEM'S ILVL
 ItemDisplay[(WEAPON OR ARMOR OR amu OR rin OR jew)]: %NAME%{%NAME%%CL%%WHITE%Item Level: %ILVL%}%CONTINUE%
