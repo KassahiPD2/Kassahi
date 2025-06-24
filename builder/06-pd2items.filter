@@ -2,14 +2,18 @@
 
 
 
+
 //------------------------------PROJECT_DIABLO_2_&_END_GAME_ITEMS------------------------------
 
 
+
+
+
 // ESSENCES & TOKEN
-ItemDisplay[tes]: %DOT-0A%%BLUE%Essence of Suffering{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Andy %WHITE%& %RED%Duriel}%CONTINUE%
-ItemDisplay[ceh]: %DOT-0A%%YELLOW%Essence of Hatred{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Mephisto}%CONTINUE%
-ItemDisplay[bet]: %DOT-0A%%RED%Essence of Terror{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Diablo}%CONTINUE%
-ItemDisplay[fed]: %DOT-0A%%GREEN%Essence of Destruction{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Baal}%CONTINUE%
+ItemDisplay[tes]: %DOT-0A%%TEAL%Essence of Suffering{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Andy %WHITE%& %RED%Duriel}%CONTINUE%
+ItemDisplay[ceh]: %DOT-0A%%TEAL%Essence of Hatred{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Mephisto}%CONTINUE%
+ItemDisplay[bet]: %DOT-0A%%TEAL%Essence of Terror{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Diablo}%CONTINUE%
+ItemDisplay[fed]: %DOT-0A%%TEAL%Essence of Destruction{%TAN%Cube: %WHITE%1 of Each %ORANGE%Essences %WHITE%to Make a %ORANGE%Token%NL%%TAN%Drops From: %RED%Nm%WHITE%/%RED%Hell Baal}%CONTINUE%
 ItemDisplay[(tes OR ceh OR bet OR fed) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[(tes OR ceh OR bet OR fed)]: %RED%+  %NAME%  %RED%+{%NAME%}%CONTINUE%
 ItemDisplay[toa]: %MAP-0A%%RED%++   %ORANGE%Token   %RED%++{%GOLD%Wherever You Are is The Entry Point.%NL%}
