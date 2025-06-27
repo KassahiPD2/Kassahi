@@ -3172,7 +3172,7 @@ ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((clw) !ETH) OR ((9kr) ETH))]: %NA
 //Items that after upgrade will Require DEX 77
 ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((9fl OR 8hx OR am1) !ETH) OR ((9gs) ETH))]: %NAME%{%NAME%77}%CONTINUE%
 //Items that after upgrade will Require DEX 78
-ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((wsd OR kri OR pil OR pik) ETH))]: %NAME%{%NAME%78}%CONTINUE%
+ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((wsd OR kri OR pil OR pik OR 9ss) ETH))]: %NAME%{%NAME%78}%CONTINUE%
 //Items that after upgrade will Require DEX 79
 ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((gax OR lsd OR btl) !ETH))]: %NAME%{%NAME%79}%CONTINUE%
 //Items that after upgrade will Require DEX 80
@@ -3190,7 +3190,7 @@ ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((9kr) !ETH))]: %NAME%{%NAME%86}%C
 //Items that after upgrade will Require DEX 87
 ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((9gs) !ETH) OR ((bld OR bkf OR 9tr) ETH))]: %NAME%{%NAME%87}%CONTINUE%
 //Items that after upgrade will Require DEX 88
-ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((wsd OR kri OR pil OR pik) !ETH) OR ((9di OR 8rx OR am4) ETH))]: %NAME%{%NAME%88}%CONTINUE%
+ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((wsd OR kri OR pil OR pik OR 9ss) !ETH) OR ((9di OR 8rx OR am4) ETH))]: %NAME%{%NAME%88}%CONTINUE%
 //Items that after upgrade will Require DEX 89
 ItemDisplay[(RARE OR CRAFT OR UNI OR SET) ID (((9h9 OR 9ar) ETH))]: %NAME%{%NAME%89}%CONTINUE%
 //Items that after upgrade will Require DEX 90
