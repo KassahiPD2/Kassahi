@@ -1183,6 +1183,7 @@ ItemDisplay[scrb]: Horadrim Scarab%CONTINUE%
 ItemDisplay[rtp]: Navigator%CONTINUE%
 ItemDisplay[rid]: Almanac%CONTINUE%
 ItemDisplay[imrn]: Demonic Cube%CONTINUE%
+ItemDisplay[rkey]: Skeleton Key%CONTINUE%
 
 
 
@@ -1214,6 +1215,7 @@ ItemDisplay[lpp]: Bermuda Piece%CONTINUE%
 ItemDisplay[scrb]: Lunch Meat%CONTINUE%
 ItemDisplay[rtp]: Gateway%CONTINUE%
 ItemDisplay[rid]: Cain's Book%CONTINUE%
+ItemDisplay[rkey]: Rathma's Bone%CONTINUE%
 
 
 
@@ -1938,7 +1940,7 @@ ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[lsvl]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[llmr]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[rkey]: %GG_RKEY_LEFT%Skeleton Key%GG_RKEY_RIGHT%{%NAME%}
+ItemDisplay[rkey]: %GG_RKEY_LEFT%%NAME%%GG_RKEY_RIGHT%{%NAME%}
 ItemDisplay[rtp]: %GG_RTP_LEFT%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %GG_RID_LEFT%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
 
