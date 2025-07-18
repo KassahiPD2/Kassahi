@@ -2210,7 +2210,7 @@ ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd
 // TIER 2
 ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%%T2_LEFT%  %NAME%  %T2_RIGHT%%SOUNDID-2678%
 // TIER 1
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6)]: %PX-0D%%DOT-0A%%T1_LEFT% %NAME% %T1_RIGHT%%SOUNDID-2666%
+ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6 OR paf)]: %PX-0D%%DOT-0A%%T1_LEFT% %NAME% %T1_RIGHT%%SOUNDID-2666%
 // TIER 0
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xpl OR zvb OR xlg OR xmg OR xhg OR xth OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR fhl)]: %PX-0D%%DOT-0A%%T0_LEFT% %NAME% %T0_RIGHT%%SOUNDID-2666%
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) UNI !ID (xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 7wb OR 9gd OR ame OR neg OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR 6sw OR ltp OR 7di OR ung OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx)]: %PX-0D%%DOT-0A%%T0_LEFT% %NAME% %T0_RIGHT%%SOUNDID-2666%
