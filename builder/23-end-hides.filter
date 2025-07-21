@@ -2,7 +2,10 @@
 
 
 
+
 //------------------------------HIDE_EVERYTHING_ELSE------------------------------
+
+
 
 
 
@@ -17,9 +20,10 @@ ItemDisplay[RARE !ID (ILVL>86 OR CLVL>79)]: {%NAME%}
 // HIDE THE REST (MAGIC)
 ItemDisplay[MAG !ID (ILVL>86 OR CLVL>69)]: {%NAME%}
 // HIDE THE REST (NMAG)
-ItemDisplay[NMAG (aqv OR cqv) CLVL>4]:
+ItemDisplay[NMAG (aqv OR cqv) CLVL>2]:
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (GLOVES OR BOOTS OR BELT)]:
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (SOCK=1 OR INF) CLVL>9]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) INF]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) SOCK=1 CLVL>4]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) NORM CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) EXC CLVL>29]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) ELT CLVL>59]: {%NAME%}
