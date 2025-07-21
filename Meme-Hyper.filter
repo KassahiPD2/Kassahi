@@ -18,7 +18,7 @@ ItemDisplayFilterName[12]: O Juice O Extreme Strictness
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(july/12th/25){%LIGHT_GRAY%Bases Avg Dmg - Kassahi%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(july/21st/25){%LIGHT_GRAY%pots, possible rw, inf and 1os items - Kassahi%CL%5+ sk highlights - Mark/Kassahi%CL%%GREEN%Mystery Filters - HiimMark%CL%%RED%Announcement:}
 
 
 
@@ -1419,32 +1419,39 @@ ItemDisplay[STAT206>0 !(STAT477=4 OR STAT477=21)]: %NAME%*{%NAME%}%CONTINUE%
 
 
 
+
 //------------------------------UTILITIE_ITEMS------------------------------
 
 
 
+
+
 // GOLD
-ItemDisplay[GOLD<49]:
-ItemDisplay[GOLD<499 CLVL>17]:
-ItemDisplay[GOLD<4999 CLVL>79]:
+ItemDisplay[GOLD<4999]:
 // POTIONS
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) rvs]: %PURPLE%*%WHITE%35%
 ItemDisplay[rvs]:
 ItemDisplay[rvl]: %PURPLE%O %WHITE%Juice %PURPLE%O
-ItemDisplay[hp1 (MAPID>0 MAPID<39) DIFF=0]: %RED%*%WHITE%Heal 1
-ItemDisplay[hp2 (MAPID>0 MAPID<75) DIFF=0]: %RED%*%WHITE%Heal 2
-ItemDisplay[hp3 (MAPID>0 MAPID<103) DIFF=0]: %RED%*%WHITE%Heal 3
-ItemDisplay[hp4 (MAPID>0 MAPID<133) DIFF<2]: %RED%*%WHITE%Heal 4
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 hp1]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 hp2]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 hp2]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 hp3]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 hp3]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 hp4]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 hp4]: %RED%* %WHITE%hp
 ItemDisplay[FILTLVL>6 hp5]:
-ItemDisplay[hp5 (MAPID>0 MAPID<133)]: %RED%*%WHITE%Heal 5
-ItemDisplay[hp5 MAPID>132]: %RED%*%WHITE%H5
-ItemDisplay[mp1 (MAPID>0 MAPID<39) DIFF=0]: %BLUE%*%WHITE%Mana 1
-ItemDisplay[mp2 (MAPID>0 MAPID<75) DIFF=0]: %BLUE%*%WHITE%Mana 2
-ItemDisplay[mp3 (MAPID>0 MAPID<103) DIFF=0]: %BLUE%*%WHITE%Mana 3
-ItemDisplay[mp4 (MAPID>0 MAPID<133) DIFF<2]: %BLUE%*%WHITE%Mana 4
+ItemDisplay[(MAPID>0 MAPID<133) hp5]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[MAPID>132 hp5]: %RED%*%WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 mp1]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 mp2]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 mp2]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 mp3]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 mp3]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 mp4]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 mp4]: %BLUE%* %WHITE%mp
 ItemDisplay[FILTLVL>6 mp5]:
-ItemDisplay[mp5 (MAPID>0 MAPID<133)]: %BLUE%*%WHITE%Mana 5
-ItemDisplay[mp5 MAPID>132]: %BLUE%*%WHITE%M5
+ItemDisplay[(MAPID>0 MAPID<133) mp5]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[MAPID>132 mp5]: %BLUE%*%WHITE%mp
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
 ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133) OR (MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158 OR MAPID=190)) yps]: %GREEN%*%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
@@ -1455,23 +1462,23 @@ ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) wms]: %YELLOW%*%WHITE%T{%GRAY%(Time 
 ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) tsc]: %DARK_GREEN%*%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[tsc]:
-ItemDisplay[isc CLVL<35]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
-ItemDisplay[isc CLVL>34]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL<20]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL>19]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome
 ItemDisplay[ibk]: %RED%ID Tome
 ItemDisplay[ear]: %ORANGE%%NAME%
-ItemDisplay[tpfs CLVL<10]: %RED%*%WHITE%F1
-ItemDisplay[tpfm CLVL<20]: %RED%*%WHITE%F2
-ItemDisplay[tpfl CLVL<40]: %RED%*%WHITE%F3
-ItemDisplay[tpgs CLVL<10]: %GREEN%*%WHITE%P1
-ItemDisplay[tpgm CLVL<20]: %GREEN%*%WHITE%P2
-ItemDisplay[tpgl CLVL<40]: %GREEN%*%WHITE%P3
-ItemDisplay[tpcs CLVL<10]: %BLUE%*%WHITE%C1
-ItemDisplay[tpcm CLVL<20]: %BLUE%*%WHITE%C2
-ItemDisplay[tpcl CLVL<40]: %BLUE%*%WHITE%C3
-ItemDisplay[tpls CLVL<10]: %YELLOW%*%WHITE%L1
-ItemDisplay[tplm CLVL<20]: %YELLOW%*%WHITE%L2
-ItemDisplay[tpll CLVL<40]: %YELLOW%*%WHITE%L3
+ItemDisplay[tpfs CLVL<5]: %RED%*%WHITE%F1
+ItemDisplay[tpfm CLVL<15]: %RED%*%WHITE%F2
+ItemDisplay[tpfl CLVL<30]: %RED%*%WHITE%F3
+ItemDisplay[tpgs CLVL<5]: %GREEN%*%WHITE%P1
+ItemDisplay[tpgm CLVL<15]: %GREEN%*%WHITE%P2
+ItemDisplay[tpgl CLVL<30]: %GREEN%*%WHITE%P3
+ItemDisplay[tpcs CLVL<5]: %BLUE%*%WHITE%C1
+ItemDisplay[tpcm CLVL<15]: %BLUE%*%WHITE%C2
+ItemDisplay[tpcl CLVL<30]: %BLUE%*%WHITE%C3
+ItemDisplay[tpls CLVL<5]: %YELLOW%*%WHITE%L1
+ItemDisplay[tplm CLVL<15]: %YELLOW%*%WHITE%L2
+ItemDisplay[tpll CLVL<30]: %YELLOW%*%WHITE%L3
 ItemDisplay[(tpfs OR tpfm OR tpgs OR tpgm OR tpcs OR tpcm OR tpls OR tplm OR tpfl OR tpgl OR tpcl OR tpll) CLVL>0]:
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
 ItemDisplay[pvpp]: %ORANGE%%NAME%
@@ -3727,88 +3734,124 @@ ItemDisplay[(MAG OR RARE) ID !EQUIPPED BELT CRAFTALVL>70]: %NAME%{%NAME%%ORANGE%
 ItemDisplay[(MAG OR RARE) ID !EQUIPPED BOOTS CRAFTALVL>69]: %NAME%{%NAME%%ORANGE%}%CONTINUE%
 ItemDisplay[(MAG OR RARE) ID !EQUIPPED STAT486=0 ((WEAPON OR (ARMOR !CIRC) OR amu OR rin))]: %NAME%{%NAME%%CRAFTALVL%}%CONTINUE%
 
-// RUNEWORDS NAME/RUNE'S (NMAG)
-ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%NAME%%CL%%GOLD%nadir:%ORANGE%Nef, Tir %GOLD%lore:%ORANGE%Ort, Sol}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%NAME%%CL%%GOLD%dream:%ORANGE%Io, %RED%Jah, %ORANGE%Pul %GOLD%ferocity:%RED%Zod, Cham, %ORANGE%Shael%NL%%GOLD%delirium:%ORANGE%Lem, Ist, Io %GOLD%flickering flame:%ORANGE%Nef, Pul, %RED%Vex%NL%%GOLD%radiance:%ORANGE%Nef, Sol, Ith %GOLD%wisdom:%ORANGE%Pul, Ith, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%NAME%%CL%%GOLD%prudence:%ORANGE%Mal, Tir%NL%%GOLD%stealth:%ORANGE%Tal, Eth %GOLD%smoke:%ORANGE%Nef, Lum}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%NAME%%CL%%GOLD%dragon:%RED%Sur, Lo, %ORANGE%Sol %GOLD%enigma:%RED%Jah, %ORANGE%Ith, %RED%Ber%NL%%GOLD%duress:%ORANGE%Shael, Um, Thul %GOLD%rain:%ORANGE%Ort, Mal, Ith%NL%%GOLD%bone:%ORANGE%Sol, Um, Um %GOLD%gloom:%ORANGE%Fal, Um, Pul%NL%%GOLD%principle:%ORANGE%Ral, Gul, Eld %GOLD%enlightenment:%ORANGE%Pul, Ral, Sol%NL%%GOLD%wealth:%ORANGE%Lem, Ko, Tir %GOLD%treachery:%ORANGE%Shael, Thul, Lem%NL%%GOLD%hustle:%ORANGE%Shael, Ko, Eld %GOLD%lionheart:%ORANGE%Hel, Lum, Fal%NL%%GOLD%peace:%ORANGE%Shael, Thul, Amn %GOLD%myth:%ORANGE%Hel, Amn, Nef}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%NAME%%CL%%GOLD%innocence:%ORANGE%Gul, Lem, %RED%Zod, %ORANGE%Hel%NL%%GOLD%bramble:%ORANGE%Ral, %RED%Ohm, Sur, %ORANGE%Eth %GOLD%chains of honor:%ORANGE%Dol, Um, %RED%Ber, %ORANGE%Ist%NL%%GOLD%stone:%ORANGE%Shael, Um, Pul, Lum %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%NAME%%CL%%GOLD%rhyme:%ORANGE%Shael, Eth %GOLD%splendor:%ORANGE%Eth, Lum}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%NAME%%CL%%GOLD%dragon:%RED%Sur, Lo, %ORANGE%Sol %GOLD%dream:%ORANGE%Io, %RED%Jah, %ORANGE%Pul%NL%%GOLD%ancient's Pledge:%ORANGE%Ral, Ort, Tal %GOLD%sanctuary:%ORANGE%Ko, Ko, Mal}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SHIELD !DIN !RW]: %NAME%{%NAME%%CL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%spirit:%ORANGE%Tal, Thul, Ort, Amn %GOLD%epiphany:%RED%Lo, %ORANGE%Ith, %RED%Lo, %ORANGE%Ist %GOLD%exile:%RED%Vex, Ohm, %ORANGE%Ist, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 DIN !RW]: %NAME%{%NAME%%CL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%shattered wall:%RED%Zod, Jah, %ORANGE%Ral, %RED%Cham%NL%%GOLD%spirit:%ORANGE%Tal, Thul, Ort, Amn %GOLD%epiphany:%RED%Lo, %ORANGE%Ith, %RED%Lo, %ORANGE%Ist %GOLD%exile:%RED%Vex, Ohm, %ORANGE%Ist, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 AXE !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%steel:%ORANGE%Tir, El %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 AXE !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%crescent moon:%ORANGE%Shael, Um, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 AXE !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%famine:%ORANGE%Fal, %RED%Ohm, %ORANGE%Ort, %RED%Jah %GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%kingslayer:%ORANGE%Mal, Um, Gul, Fal %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%oath:%ORANGE%Shael, Pul, Mal, Lum}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 AXE !RW]: %NAME%{%NAME%%CL%%GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur %GOLD%beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%death:%ORANGE%Hel, El, %RED%Vex, %ORANGE%Ort, Gul}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 AXE !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%last wish:%RED%Jah, %ORANGE%Mal, %RED%Jah, Sur, Jah, Ber}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 CLUB !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%neophyte:%ORANGE%Thul, Tir %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 CLUB !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%black:%ORANGE%Thul, Io, Nef}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 TMACE !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%steel:%ORANGE%Tir, El %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 TMACE !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%black:%ORANGE%Thul, Io, Nef}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 TMACE !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%oath:%ORANGE%Shael, Pul, Mal, Lum %GOLD%heart of the oak:%ORANGE%Ko, %RED%Vex, %ORANGE%Pul, Thul%NL%%GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld %GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 TMACE !RW]: %NAME%{%NAME%%CL%%GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 HAMMER !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 HAMMER !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%lawbringer:%ORANGE%Amn, Lem, Ko %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%black:%ORANGE%Thul, Io, Nef}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 HAMMER !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%famine:%ORANGE%Fal, %RED%Ohm, %ORANGE%Ort, %RED%Jah %GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 HAMMER !RW]: %NAME%{%NAME%%CL%%GOLD%beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 HAMMER !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, Eth%NL%%GOLD%last wish:%RED%Jah, %ORANGE%Mal, %RED%Jah, Sur, Jah, Ber %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%rapture:%RED%Vex, Jah, Lo, %ORANGE%Ral, Ko, Mal}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%steel:%ORANGE%Tir, El %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth%NL%%GOLD%lawbringer:%ORANGE%Amn, Lem, Ko %GOLD%crescent moon:%ORANGE%Shael, Um, Tir%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%king's grace:%ORANGE%Amn, Ral, Thul}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%famine:%ORANGE%Fal, %RED%Ohm, %ORANGE%Ort, %RED%Jah %GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%kingslayer:%ORANGE%Mal, Um, Gul, Fal %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%oath:%ORANGE%Shael, Pul, Mal, Lum%NL%%GOLD%spirit:%ORANGE%Tal, Thul, Ort, Amn %GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 1H SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur %GOLD%destruction:%ORANGE%Vex, Lo, Ber, Jah, %ORANGE%Ko%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%death:%ORANGE%Hel, El, %RED%Vex, %ORANGE%Ort, Gul}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 2H SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham %GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur %GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%death:%ORANGE%Hel, El, %RED%Vex, %ORANGE%Ort, Gul}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%last wish:%RED%Jah, %ORANGE%Mal, %RED%Jah, Sur, Jah, Ber %GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%Unbending Will:%ORANGE%Fal, Io, Ith, Eld, El, Hel %GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 2H SWORD !RW]: %NAME%{%NAME%%CL%%GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 DAGGER !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 DAGGER !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%venom:%ORANGE%Tal, Dol, Mal}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SPEAR !THROWING !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SPEAR !THROWING !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%crescent moon:%ORANGE%Shael, Um, Tir %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%purity:%ORANGE%Amn, Eth, Thul %GOLD%Loyalty:%ORANGE% Pul, Tir, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SPEAR !THROWING !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%pride:%RED%Cham, Sur, %ORANGE%Io, %RED%Lo%NL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%infinity:%RED%Ber, %ORANGE%Mal, %RED%Ber, %ORANGE%Ist%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%rift:%ORANGE%Hel, Ko, Lem, Gul%NL%%GOLD%insight:%ORANGE%Ral, Tir, Tal, Sol %GOLD%rampage:%ORANGE%Shael, El, Ith, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SPEAR !THROWING !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SPEAR !THROWING !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 POLEARM !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 POLEARM !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%crescent moon:%ORANGE%Shael, Um, Tir %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%purity:%ORANGE%Amn, Eth, Thul}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 POLEARM !RW]: %NAME%{%NAME%%CL%%GOLD%pride:%RED%Cham, Sur, %ORANGE%Io, %RED%Lo%NL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%infinity:%RED%Ber, %ORANGE%Mal, %RED%Ber, %ORANGE%Ist%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%rift:%ORANGE%Hel, Ko, Lem, Gul%NL%%GOLD%insight:%ORANGE%Ral, Tir, Tal, Sol %GOLD%rampage:%ORANGE%Shael, El, Ith, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 POLEARM !(scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc) !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 (scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc) !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham %GOLD%grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 POLEARM !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 BOW !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%zephyr:%ORANGE%Ort, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 BOW !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%melody:%ORANGE%Shael, Ko, Nef %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%edge:%ORANGE%Tir, Tal, Amn %GOLD%purity:%ORANGE%Amn, Eth, Thul %GOLD%Loyalty:%ORANGE% Pul, Tir, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 BOW !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%faith:%RED%Ohm, Jah, %ORANGE%Lem, Eld %GOLD%brand:%RED%Jah, Lo, %ORANGE%Mal, Gul%NL%%GOLD%wrath:%ORANGE%Pul, Lum, %RED%Ber, %ORANGE%Mal %GOLD%ice:%ORANGE%Amn, Shael, %RED%Jah, Lo%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%NL%%GOLD%harmony:%ORANGE%Tir, Ith, Sol, Ko %GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 BOW !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%mist:%RED%Cham, %ORANGE%Shael, Gul, Thul, Ith}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 BOW !ZON !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 XBOW !RW]: %NAME%{%NAME%%CL%%GOLD%zephyr:%ORANGE%Ort, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 XBOW !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%melody:%ORANGE%Shael, Ko, Nef %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%edge:%ORANGE%Tir, Tal, Amn %GOLD%purity:%ORANGE%Amn, Eth, Thul %GOLD%Loyalty:%ORANGE% Pul, Tir, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 XBOW !RW]: %NAME%{%NAME%%CL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%faith:%RED%Ohm, Jah, %ORANGE%Lem, Eld %GOLD%brand:%RED%Jah, Lo, %ORANGE%Mal, Gul%NL%%GOLD%wrath:%ORANGE%Pul, Lum, %RED%Ber, %ORANGE%Mal %GOLD%ice:%ORANGE%Amn, Shael, %RED%Jah, Lo%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%NL%%GOLD%harmony:%ORANGE%Tir, Ith, Sol, Ko %GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 XBOW !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%mist:%RED%Cham, %ORANGE%Shael, Gul, Thul, Ith}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 XBOW !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%leaf:%ORANGE%Tir, Ral %GOLD%neophyte:%ORANGE%Thul, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%purity:%ORANGE%Amn, Eth, Thul}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%pride:%RED%Cham, Sur, %ORANGE%Io, %RED%Lo%NL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%infinity:%RED%Ber, Mal, Ber, %ORANGE%Ist%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%heart of the oak:%ORANGE%Ko, %RED%Vex, %ORANGE%Pul, Thul%NL%%GOLD%rampage:%ORANGE%Shael, El, Ith, Eth %GOLD%memory:%ORANGE%Lum, Io, Sol, Eth%NL%%GOLD%spirit:%ORANGE%Tal, Thul, Ort, Amn %GOLD%insight:%ORANGE%Ral, Tir, Tal, Sol}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%last wish:%RED%ORANGE%%Jah, %ORANGE%Mal, %RED%Jah, Sur, Jah, Ber %GOLD%obsession:%RED%Zod, %ORANGE%Ist, Lem, Lum, Io, Nef%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%NAME%%CL%%GOLD%dominion:%RED%Cham, Ohm%NL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%white:%ORANGE%Dol, Io}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%neophyte:%ORANGE%Thul, Tir %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%lawbringer:%ORANGE%Amn, Lem, Ko %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%king's grace:%ORANGE%Amn, Ral, Thul %GOLD%crescent moon:%ORANGE%Shael, Um, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%phoenix:%RED%Vex, Vex, Lo, Jah%NL%%GOLD%rift:%ORANGE%Hel, Ko, Lem, Gul%NL%%GOLD%holy thunder:%ORANGE%Eth, Ral, Ort, Tal %GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SCEPTER !RW]: %NAME%{%NAME%%CL%%GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur %GOLD%beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SIN !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El%NL%%GOLD%steel:%ORANGE%Tir, El %GOLD%neophyte:%ORANGE%Thul, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%chaos:%ORANGE%Fal, %RED%Ohm, Um%NL%%GOLD%lawbringer:%ORANGE%Amn, Lem, Ko %GOLD%crescent moon:%ORANGE%Shael, Um, Tir%NL%%GOLD%king's grace:%ORANGE%Amn, Ral, Thul %GOLD%black:%ORANGE%Thul, Io, Nef%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%Pattern:%ORANGE%Tal, Ort, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SOR !RW]: %NAME%{%NAME%%CL%%GOLD%neophyte:%ORANGE%Thul, Tir %GOLD%strength:%ORANGE%Amn, Tir}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SOR !RW]: %NAME%{%NAME%%CL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 ZON BOW !RW]: %NAME%{%NAME%%CL%%GOLD%zephyr:%ORANGE%Ort, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 ZON BOW !RW]: %NAME%{%NAME%%CL%%GOLD%venom:%ORANGE%Tal, Dol, Mal %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%edge:%ORANGE%Tir, Tal, Amn %GOLD%melody:%ORANGE%Shael, Ko, Nef %GOLD%Loyalty:%ORANGE% Pul, Tir, Dol}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 ZON BOW !RW]: %NAME%{%NAME%%CL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%faith:%RED%Ohm, Jah, %ORANGE%Lem, Eld %GOLD%brand:%RED%Jah, Lo, %ORANGE%Mal, Gul%NL%%GOLD%wrath:%ORANGE%Pul, Lum, %RED%Ber, %ORANGE%Mal %GOLD%ice:%ORANGE%Amn, Shael, %RED%Jah, Lo%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%NL%%GOLD%harmony:%ORANGE%Tir, Ith, Sol, Ko %GOLD%voice of reason:%ORANGE%Lem, Ko, El, Eld}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 ZON BOW !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%mist:%RED%Cham, %ORANGE%Shael, Gul, Thul, Ith}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 SPEAR ZON !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%strength:%ORANGE%Amn, Tir %GOLD%wind:%RED%Sur, %ORANGE%El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 SPEAR ZON !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%crescent moon:%ORANGE%Shael, Um, Tir %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%purity:%ORANGE%Amn, Eth, Thul}%CONTINUE%
-ItemDisplay[NMAG SOCK=4 SPEAR ZON !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%pride:%RED%Cham, Sur, %ORANGE%Io, %RED%Lo%NL%%GOLD%phoenix:%RED%Vex, Vex, Lo, Jah %GOLD%hand of justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%NL%%GOLD%fortitude:%ORANGE%El, Sol, Dol, %RED%Lo %GOLD%infinity:%RED%Ber, %ORANGE%Mal, %RED%Ber, %ORANGE%Ist%NL%%GOLD%passion:%ORANGE%Dol, Ort, Eld, Lem %GOLD%rift:%ORANGE%Hel, Ko, Lem, Gul%NL%%GOLD%insight:%ORANGE%Ral, Tir, Tal, Sol %GOLD%rampage:%ORANGE%Shael, El, Ith, Eth}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 SPEAR ZON !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%NL%%GOLD%destruction:%RED%Vex, Lo, Ber, Jah, %ORANGE%Ko %GOLD%doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%NL%%GOLD%call to arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm %GOLD%eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%NL%%GOLD%honor:%ORANGE%Amn, El, Ith, Tir, Sol %GOLD%obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal}%CONTINUE%
-ItemDisplay[NMAG SOCK=6 SPEAR ZON !THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%breath of the dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%NL%%GOLD%silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex %GOLD%asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%Zephyr:%ORANGE%Ort,  Eth %GOLD%Wind:%RED%Sur, %ORANGE%El%GOLD%Strength:%ORANGE%Amn, Tir%GOLD%Steel:%ORANGE%Tir, El}%CONTINUE%
-ItemDisplay[NMAG SOCK=3 THROWING !RW]: %NAME%{%NAME%%CL%%GOLD%fury:%RED%Jah, %ORANGE%Gul, Eth %GOLD%plague:%RED%Cham, %ORANGE%Fal, Um%NL%%GOLD%crescent moon:%ORANGE%Shael, Um, Tir %GOLD%venom:%ORANGE%Tal, Dol, Mal%NL%%GOLD%malice:%ORANGE%Ith, El, Eth %GOLD%Lawbringer:%ORANGE%Amn, Lem, Ko%GOLD%Kings Grace:%ORANGE%Amn, Ral, Thul}%CONTINUE%// POSSIBLE RUNEWORDS (NMAG)
-ItemDisplay[NMAG !RW (SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%NAME%%CL%%WHITE%possible rw:}%CONTINUE%
+// Possible Runeword
+ItemDisplay[NMAG !RW (SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON)]: %NAME%{%WHITE%possible rw:%NAME%}%CONTINUE%
+// 2os Helmets
+ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Nadir:%ORANGE%Nef, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Lore:%ORANGE%Ort, Sol%CL%%NAME%}%CONTINUE%
+// 3os Helmets
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Radiance:%ORANGE%Nef, Sol, Ith%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Wisdom:%ORANGE%Pul, Ith, Eld%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Delirium:%ORANGE%Lem, Ist, Io%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Flickering Flame:%ORANGE%Nef, Pul, %RED%Vex%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Dream:%ORANGE%Io, %RED%Jah, %ORANGE%Pul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Ferocity:%RED%Zod, Cham, %ORANGE%Shael%CL%%NAME%}%CONTINUE%
+// 2os Chests
+ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%GOLD%Stealth:%ORANGE%Tal, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%GOLD%Smoke:%ORANGE%Nef, Lum%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 CHEST !RW]: %NAME%{%GOLD%Prudence:%ORANGE%Mal, Tir%CL%%NAME%}%CONTINUE%
+// 3os Chests
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Peace:%ORANGE%Shael, Thul, Amn%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Myth:%ORANGE%Hel, Amn, Nef%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Hustle:%ORANGE%Shael, Ko, Eld%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Lionheart:%ORANGE%Hel, Lum, Fal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Wealth:%ORANGE%Lem, Ko, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Treachery:%ORANGE%Shael, Thul, Lem%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Principle:%ORANGE%Ral, Gul, Eld%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Enlightenment:%ORANGE%Pul, Ral, Sol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Bone:%ORANGE%Sol, Um, Um%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Gloom:%ORANGE%Fal, Um, Pul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Duress:%ORANGE%Shael, Um, Thul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Rain:%ORANGE%Ort, Mal, Ith%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Dragon:%RED%Sur, Lo, %ORANGE%Sol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 CHEST !RW]: %NAME%{%GOLD%Enigma:%RED%Jah, %ORANGE%Ith, %RED%Ber%CL%%NAME%}%CONTINUE%
+// 4os Chests
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%GOLD%Stone:%ORANGE%Shael, Um, Pul, Lum%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%GOLD%Fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%GOLD%Bramble:%ORANGE%Ral, %RED%Ohm, Sur, %ORANGE%Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%GOLD%Chains of Honor:%ORANGE%Dol, Um, %RED%Ber, %ORANGE%Ist%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 CHEST !RW]: %NAME%{%GOLD%Innocence:%ORANGE%Gul, Lem, %RED%Zod, %ORANGE%Hel%CL%%NAME%}%CONTINUE%
+// 2os Shields
+ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%GOLD%Rhyme:%ORANGE%Shael, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 SHIELD !RW]: %NAME%{%GOLD%Splendor:%ORANGE%Eth, Lum%CL%%NAME%}%CONTINUE%
+// 3os Shields
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%GOLD%Ancient's Pledge:%ORANGE%Ral, Ort, Tal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%GOLD%Sanctuary:%ORANGE%Ko, Ko, Mal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%GOLD%Dragon:%RED%Sur, Lo, %ORANGE%Sol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SHIELD !RW]: %NAME%{%GOLD%Dream:%ORANGE%Io, %RED%Jah, %ORANGE%Pul%CL%%NAME%}%CONTINUE%
+// 4os Shields
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%GOLD%Spirit:%ORANGE%Tal, Thul, Ort, Amn%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%GOLD%Exile:%RED%Vex, Ohm, %ORANGE%Ist, Dol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%GOLD%Epiphany:%RED%Lo, %ORANGE%Ith, %RED%Lo, %ORANGE%Ist%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD !RW]: %NAME%{%GOLD%Phoenix:%RED%Vex, Vex, Lo, Jah%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 SHIELD DIN !RW]: %NAME%{%GOLD%Shattered Wall:%RED%Zod, Jah, %ORANGE%Ral, %RED%Cham%CL%%NAME%}%CONTINUE%
+// 2os Weapons
+ItemDisplay[NMAG SOCK=2 (SWORD OR AXE OR TMACE OR SIN OR THROWING) !RW]: %NAME%{%GOLD%Steel:%ORANGE%Tir, El%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 STAFF !RW]: %NAME%{%GOLD%Leaf:%ORANGE%Tir, Ral%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (BOW OR XBOW OR THROWING) !RW]: %NAME%{%GOLD%Zephyr:%ORANGE%Ort, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 (SOR OR SIN OR SCEPTER OR CLUB OR STAFF) !RW]: %NAME%{%GOLD%Neophyte:%ORANGE%Thul, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Strength:%ORANGE%Amn, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%GOLD%White:%ORANGE%Dol, Io%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Wind:%RED%Sur, %ORANGE%El%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 WAND !RW]: %NAME%{%GOLD%Dominion:%RED%Cham, Ohm%CL%%NAME%}%CONTINUE%
+// 3os Weapons
+ItemDisplay[NMAG SOCK=3 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Malice:%ORANGE%Ith, El, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%GOLD%Pattern:%ORANGE%Tal, Ort, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Edge:%ORANGE%Tir, Tal, Amn%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (SCEPTER OR SWORD OR SIN OR THROWING) !RW]: %NAME%{%GOLD%King's Grace:%ORANGE%Amn, Ral, Thul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (POLEARM OR SPEAR OR STAFF OR BOW OR XBOW) !RW]: %NAME%{%GOLD%Purity:%ORANGE%Amn, Eth, Thul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (MACE OR SIN) !RW]: %NAME%{%GOLD%Black:%ORANGE%Thul, Io, Nef%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Melody:%ORANGE%Shael, Ko, Nef%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (HAMMER OR SCEPTER OR SWORD OR SIN OR THROWING) !RW]: %NAME%{%GOLD%Lawbringer:%ORANGE%Amn, Lem, Ko%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (POLEARM OR SPEAR OR BOW OR XBOW) !RW]: %NAME%{%GOLD%Loyalty:%ORANGE% Pul, Tir, Dol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 (AXE OR SWORD OR POLEARM OR SPEAR OR SCEPTER OR SIN OR THROWING) !RW]: %NAME%{%GOLD%Crescent Moon:%ORANGE%Shael, Um, Tir%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 WEAPON !RW]: %NAME%{%GOLD%Venom:%ORANGE%Tal, Dol, Mal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 SIN !RW]: %NAME%{%GOLD%Chaos:%ORANGE%Fal, %RED%Ohm, %ORANGE%Um%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Fury:%RED%Jah, %ORANGE%Gul, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=3 WEAPON !RW]: %NAME%{%GOLD%Plague:%RED%Cham, %ORANGE%Fal, Um%CL%%NAME%}%CONTINUE%
+// 4os Weapons
+ItemDisplay[NMAG SOCK=4 SCEPTER !RW]: %NAME%{%GOLD%Holy Thunder:%ORANGE%Eth, Ral, Ort, Tal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (SWORD OR STAFF) !RW]: %NAME%{%GOLD%Spirit:%ORANGE%Tal, Thul, Ort, Amn%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (STAFF OR POLEARM OR SPEAR) !RW]: %NAME%{%GOLD%Insight:%ORANGE%Ral, Tir, Tal, Sol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (POLEARM OR SPEAR OR STAFF) !RW]: %NAME%{%GOLD%Rampage:%ORANGE%Shael, El, Ith, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 STAFF !RW]: %NAME%{%GOLD%Memory:%ORANGE%Lum, Io, Sol, Eth%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Harmony:%ORANGE%Tir, Ith, Sol, Ko%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 WEAPON !RW]: %NAME%{%GOLD%Passion:%ORANGE%Dol, Ort, Eld, Lem%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (SWORD OR TMACE OR SCEPTER OR BOW OR XBOW) !RW]: %NAME%{%GOLD%Voice of Reason:%ORANGE%Lem, Ko, El, Eld%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (SWORD OR AXE OR TMACE) !RW]: %NAME%{%GOLD%Oath:%ORANGE%Shael, Pul, Mal, Lum%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (SCEPTER OR POLEARM OR SPEAR OR SWORD) !RW]: %NAME%{%GOLD%Rift:%ORANGE%Hel, Ko, Lem, Gul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (SWORD OR AXE) !RW]: %NAME%{%GOLD%Kingslayer:%ORANGE%Mal, Um, Gul, Fal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (STAFF OR TMACE) !RW]: %NAME%{%GOLD%Heart of the Oak:%ORANGE%Ko, %RED%Vex, %ORANGE%Pul, Thul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 WEAPON !RW]: %NAME%{%GOLD%Fortitude:%ORANGE%El, Sol, Dol, %RED%Lo%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Wrath:%ORANGE%Pul, Lum, %RED%Ber, %ORANGE%Mal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (POLEARM OR SPEAR OR STAFF) !RW]: %NAME%{%GOLD%Infinity:%RED%Ber, %ORANGE%Mal, %RED%Ber, %ORANGE%Ist%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (AXE OR HAMMER OR SWORD) !RW]: %NAME%{%GOLD%Famine:%ORANGE%Fal, %RED%Ohm, %ORANGE%Ort, %RED%Jah%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Faith:%RED%Ohm, Jah, %ORANGE%Lem, Eld%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Ice:%ORANGE%Amn, Shael, %RED%Jah, Lo%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Brand:%RED%Jah, Lo, %ORANGE%Mal, Gul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 WEAPON !RW]: %NAME%{%GOLD%Phoenix:%RED%Vex, Vex, Lo, Jah%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 WEAPON !RW]: %NAME%{%GOLD%Hand of Justice:%RED%Sur, Cham, %ORANGE%Amn, %RED%Lo%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=4 (POLEARM OR SPEAR OR STAFF) !RW]: %NAME%{%GOLD%Pride:%RED%Cham, Sur, %ORANGE%Io, %RED%Lo%CL%%NAME%}%CONTINUE%
+// 5os Weapons
+ItemDisplay[NMAG SOCK=5 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Honor:%ORANGE%Amn, El, Ith, Tir, Sol%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (POLEARM OR SPEAR OR HAMMER) !RW]: %NAME%{%GOLD%Obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (SWORD OR AXE) !RW]: %NAME%{%GOLD%Death:%ORANGE%Hel, El, %RED%Vex, %ORANGE%Ort, Gul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 WEAPON !RW]: %NAME%{%GOLD%Call to Arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (SWORD OR AXE OR POLEARM) !RW]: %NAME%{%GOLD%Grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (AXE OR SCEPTER OR HAMMER OR STAFF) !RW]: %NAME%{%GOLD%Beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (SWORD OR POLEARM OR SPEAR OR STAFF) !RW]: %NAME%{%GOLD%Destruction:%ORANGE%Vex, Lo, Ber, Jah, %ORANGE%Ko%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (BOW OR XBOW) !RW]: %NAME%{%GOLD%Mist:%RED%Cham, %ORANGE%Shael, Gul, Thul, Ith%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (AXE OR HAMMER OR POLEARM OR SPEAR OR STAFF OR SCEPTER OR SWORD) !RW]: %NAME%{%GOLD%Doom:%ORANGE%Hel, %RED%Ohm, %ORANGE%Um, %RED%Lo, Cham%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 (POLEARM OR SPEAR OR STAFF OR BOW OR XBOW OR (2H SWORD)) !RW]: %NAME%{%GOLD%Zenith:%RED%Jah, Zod, %ORANGE%Ort, Thul, Ral%CL%%NAME%}%CONTINUE%
+// 6os Weapons
+ItemDisplay[NMAG SOCK=6 SWORD !RW]: %NAME%{%GOLD%Unbending Will:%ORANGE%Fal, Io, Ith, Eld, El, Hel%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 WEAPON !RW]: %NAME%{%GOLD%Silence:%ORANGE%Dol, Eld, Hel, Ist, Tir, %RED%Vex%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 (AXE OR HAMMER OR SWORD OR STAFF) !RW]: %NAME%{%GOLD%Last Wish:%RED%Jah, %ORANGE%Mal, %RED%Jah, Sur, Jah, Ber%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 HAMMER !RW]: %NAME%{%GOLD%Rapture:%RED%Vex, Jah, Lo, %ORANGE%Ral, Ko, Mal%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 (HAMMER OR (2H SWORD) OR POLEARM OR SPEAR OR STAFF OR BOW OR XBOW) !RW]: %NAME%{%GOLD%Asylum:%ORANGE%Gul, %RED%Cham, %ORANGE%Hel, %RED%Jah, %ORANGE%Dol, Um%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%GOLD%Obsession:%RED%Zod, %ORANGE%Ist, Lem, Lum, Io, Nef%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=6 WEAPON !RW]: %NAME%{%GOLD%Breath of the Dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%CL%%NAME%}%CONTINUE%
 
 //Notes about socketing recipes
 ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Thul, %YELLOW%O:}%CONTINUE%
@@ -5623,512 +5666,368 @@ ItemDisplay[WEAPON !RW !UNI !SET EDAM>299 (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=89
 ItemDisplay[WEAPON !RW !UNI !SET EDAM>299 (SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %CONTINUE% %NAME%{%NAME%}
 ItemDisplay[WEAPON !RW !UNI !SET EDAM>299 (IAS>0 OR STAT141>0 OR FOOLS>0 OR REPAIR>0 OR SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %DOT-0A%ed %NAME%{ed %NAME%}%CONTINUE%
 ItemDisplay[WEAPON !RW !UNI !SET EDAM>299 (IAS>0 OR STAT141>0 OR FOOLS>0 OR REPAIR>0 OR SUFFIX=662 OR SUFFIX=898 OR SUFFIX=899)]: %DOT-0A%%RED%>> %GREEN%%NAME%{%RED%>> %GREEN%%NAME%}
-
-// 5+ dark pact
-ItemDisplay[!RW TABSK16=3 SK381=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%dpt %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%dpt %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK16=3 SK381=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK16=3 SK381=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK16=2 OR CLSK2=2) SK381=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dpt %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK16=2 OR CLSK2=2) SK381=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dpt %RED%<<%CL%%NAME%{%RED%>> %GREEN%dpt %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK16=3 SK381=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dpt %RED%<<%CL%%NAME%{%RED%>> %GREEN%dpt %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK16=1 OR CLSK2=1) SK381=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dpt %RED%<<%CL%%NAME%{%RED%>> %GREEN%dpt %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK16=2 OR CLSK2=2) SK381=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dpt %RED%<<%CL%%NAME%{%RED%>> %GREEN%dpt %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK16=3 SK381=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dpt %RED%<<%CL%%NAME%{%RED%>> %GREEN%dpt %RED%<<%CL%%NAME%}
-// 5+ desecrate
-ItemDisplay[!RW TABSK17=3 SK83=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%des %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%des %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK83=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK83=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK83=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%des %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK83=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%des %RED%<<%CL%%NAME%{%RED%>> %GREEN%des %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK83=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%des %RED%<<%CL%%NAME%{%RED%>> %GREEN%des %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=1 OR CLSK2=1) SK83=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%des %RED%<<%CL%%NAME%{%RED%>> %GREEN%des %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK83=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%des %RED%<<%CL%%NAME%{%RED%>> %GREEN%des %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK83=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%des %RED%<<%CL%%NAME%{%RED%>> %GREEN%des %RED%<<%CL%%NAME%}
-// 5+ poison nova
-ItemDisplay[!RW TABSK17=3 SK92=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%pno %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%pno %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK92=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK92=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK92=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%pno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK92=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%pno %RED%<<%CL%%NAME%{%RED%>> %GREEN%pno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK92=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%pno %RED%<<%CL%%NAME%{%RED%>> %GREEN%pno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=1 OR CLSK2=1) SK92=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%pno %RED%<<%CL%%NAME%{%RED%>> %GREEN%pno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK92=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%pno %RED%<<%CL%%NAME%{%RED%>> %GREEN%pno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK92=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%pno %RED%<<%CL%%NAME%{%RED%>> %GREEN%pno %RED%<<%CL%%NAME%}
-// 5+ corpse explosion
-ItemDisplay[!RW TABSK17=3 SK74=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cex %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cex %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK74=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK74=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK74=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cex %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK74=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cex %RED%<<%CL%%NAME%{%RED%>> %GREEN%cex %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK74=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cex %RED%<<%CL%%NAME%{%RED%>> %GREEN%cex %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=1 OR CLSK2=1) SK74=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cex %RED%<<%CL%%NAME%{%RED%>> %GREEN%cex %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK74=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cex %RED%<<%CL%%NAME%{%RED%>> %GREEN%cex %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK74=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cex %RED%<<%CL%%NAME%{%RED%>> %GREEN%cex %RED%<<%CL%%NAME%}
-// 5+ teeth
-ItemDisplay[!RW TABSK17=3 SK67=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%tee %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%tee %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK67=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK67=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK67=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tee %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK67=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tee %RED%<<%CL%%NAME%{%RED%>> %GREEN%tee %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK67=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tee %RED%<<%CL%%NAME%{%RED%>> %GREEN%tee %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=1 OR CLSK2=1) SK67=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tee %RED%<<%CL%%NAME%{%RED%>> %GREEN%tee %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK17=2 OR CLSK2=2) SK67=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tee %RED%<<%CL%%NAME%{%RED%>> %GREEN%tee %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK17=3 SK67=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tee %RED%<<%CL%%NAME%{%RED%>> %GREEN%tee %RED%<<%CL%%NAME%}
-// 5+ bone spear
-ItemDisplay[!RW !UNI TABSK17=3 SK84=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%bsr %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%bsr %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK17=3 SK84=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK17=3 SK84=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK17=2 OR CLSK2=2) SK84=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK17=2 OR CLSK2=2) SK84=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsr %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK17=3 SK84=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsr %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK17=1 OR CLSK2=1) SK84=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsr %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK17=2 OR CLSK2=2) SK84=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsr %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK17=3 SK84=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsr %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsr %RED%<<%CL%%NAME%}
-// 5+ fire golem
-ItemDisplay[!RW TABSK18=3 SK94=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fgm %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fgm %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK94=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK94=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK94=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK94=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%fgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK94=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%fgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=1 OR CLSK2=1) SK94=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%fgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK94=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%fgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK94=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%fgm %RED%<<%CL%%NAME%}
-// 5+ clay golem
-ItemDisplay[!RW TABSK18=3 SK75=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cgm %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cgm %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK75=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK75=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK75=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK75=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK75=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=1 OR CLSK2=1) SK75=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK75=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK75=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cgm %RED%<<%CL%%NAME%}
-// 5+ blood golem
-ItemDisplay[!RW TABSK18=3 SK85=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%bgm %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%bgm %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK85=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK85=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK85=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bgm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK85=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%bgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK85=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%bgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=1 OR CLSK2=1) SK85=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%bgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK18=2 OR CLSK2=2) SK85=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%bgm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK18=3 SK85=2 !ALLSK=1 !ALLSK=2]:  %DOT-0A%%RED%>> %ORANGE%5%GREEN%bgm %RED%<<%CL%%NAME%{%RED%>> %GREEN%bgm %RED%<<%CL%%NAME%}
-
-// 5+ conviction
-ItemDisplay[!RW TABSK25=3 SK123=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cvn %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cvn %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK25=3 SK123=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK25=3 SK123=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK25=2 OR CLSK6=2) SK123=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cvn %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK25=2 OR CLSK6=2) SK123=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cvn %RED%<<%CL%%NAME%{%RED%>> %GREEN%cvn %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK25=3 SK123=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cvn %RED%<<%CL%%NAME%{%RED%>> %GREEN%cvn %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK25=1 OR CLSK6=1) SK123=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cvn %RED%<<%CL%%NAME%{%RED%>> %GREEN%cvn %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK25=2 OR CLSK6=2) SK123=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cvn %RED%<<%CL%%NAME%{%RED%>> %GREEN%cvn %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK25=3 SK123=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cvn %RED%<<%CL%%NAME%{%RED%>> %GREEN%cvn %RED%<<%CL%%NAME%}
-
-// 5+ battle orders
-ItemDisplay[!RW !UNI TABSK34=3 SK149=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%bod %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%bod %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK34=3 SK149=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK34=3 SK149=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK34=2 OR CLSK4=2) SK149=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bod %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK34=2 OR CLSK4=2) SK149=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bod %RED%<<%CL%%NAME%{%RED%>> %GREEN%bod %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK34=3 SK149=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bod %RED%<<%CL%%NAME%{%RED%>> %GREEN%bod %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK34=1 OR CLSK4=1) SK149=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bod %RED%<<%CL%%NAME%{%RED%>> %GREEN%bod %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK34=2 OR CLSK4=2) SK149=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bod %RED%<<%CL%%NAME%{%RED%>> %GREEN%bod %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK34=3 SK149=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bod %RED%<<%CL%%NAME%{%RED%>> %GREEN%bod %RED%<<%CL%%NAME%}
-// 5+ war cry
-ItemDisplay[!RW TABSK34=3 SK154=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%wcy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%wcy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK34=3 SK154=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK34=3 SK154=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK34=2 OR CLSK4=2) SK154=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wcy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK34=2 OR CLSK4=2) SK154=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wcy %RED%<<%CL%%NAME%{%RED%>> %GREEN%wcy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK34=3 SK154=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wcy %RED%<<%CL%%NAME%{%RED%>> %GREEN%wcy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK34=1 OR CLSK4=1) SK154=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wcy %RED%<<%CL%%NAME%{%RED%>> %GREEN%wcy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK34=2 OR CLSK4=2) SK154=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wcy %RED%<<%CL%%NAME%{%RED%>> %GREEN%wcy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK34=3 SK154=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wcy %RED%<<%CL%%NAME%{%RED%>> %GREEN%wcy %RED%<<%CL%%NAME%}
-
-// 5+ phoenix strike
-ItemDisplay[!RW TABSK50=3 SK280=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%phx %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%phx %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK280=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK280=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK280=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%phx %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK280=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%phx %RED%<<%CL%%NAME%{%RED%>> %GREEN%phx %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK280=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%phx %RED%<<%CL%%NAME%{%RED%>> %GREEN%phx %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK280=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%phx %RED%<<%CL%%NAME%{%RED%>> %GREEN%phx %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK280=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%phx %RED%<<%CL%%NAME%{%RED%>> %GREEN%phx %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK280=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%phx %RED%<<%CL%%NAME%{%RED%>> %GREEN%phx %RED%<<%CL%%NAME%}
-// 5+ tiger strike
-ItemDisplay[!RW TABSK50=3 SK254=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%tig %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%tig %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK254=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK254=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK254=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tig %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK254=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tig %RED%<<%CL%%NAME%{%RED%>> %GREEN%tig %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK254=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tig %RED%<<%CL%%NAME%{%RED%>> %GREEN%tig %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK254=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tig %RED%<<%CL%%NAME%{%RED%>> %GREEN%tig %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK254=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tig %RED%<<%CL%%NAME%{%RED%>> %GREEN%tig %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK254=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tig %RED%<<%CL%%NAME%{%RED%>> %GREEN%tig %RED%<<%CL%%NAME%}
-// 5+ cobra strike
-ItemDisplay[!RW TABSK50=3 SK265=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cob %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cob %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK265=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK265=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK265=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK265=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cob %RED%<<%CL%%NAME%{%RED%>> %GREEN%cob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK265=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cob %RED%<<%CL%%NAME%{%RED%>> %GREEN%cob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK265=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cob %RED%<<%CL%%NAME%{%RED%>> %GREEN%cob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK265=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cob %RED%<<%CL%%NAME%{%RED%>> %GREEN%cob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK265=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cob %RED%<<%CL%%NAME%{%RED%>> %GREEN%cob %RED%<<%CL%%NAME%}
-// 5+ claws of thunder
-ItemDisplay[!RW TABSK50=3 SK269=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cot %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cot %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK269=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK269=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK269=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cot %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK269=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cot %RED%<<%CL%%NAME%{%RED%>> %GREEN%cot %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK269=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cot %RED%<<%CL%%NAME%{%RED%>> %GREEN%cot %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK269=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cot %RED%<<%CL%%NAME%{%RED%>> %GREEN%cot %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK269=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cot %RED%<<%CL%%NAME%{%RED%>> %GREEN%cot %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK269=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cot %RED%<<%CL%%NAME%{%RED%>> %GREEN%cot %RED%<<%CL%%NAME%}
-// 5+ fists of fire
-ItemDisplay[!RW TABSK50=3 SK259=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fof %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fof %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK259=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK259=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK259=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK259=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fof %RED%<<%CL%%NAME%{%RED%>> %GREEN%fof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK259=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fof %RED%<<%CL%%NAME%{%RED%>> %GREEN%fof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK259=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fof %RED%<<%CL%%NAME%{%RED%>> %GREEN%fof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK259=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fof %RED%<<%CL%%NAME%{%RED%>> %GREEN%fof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK259=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fof %RED%<<%CL%%NAME%{%RED%>> %GREEN%fof %RED%<<%CL%%NAME%}
-// 5+ blades of ice
-ItemDisplay[!RW TABSK50=3 SK274=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%boi %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%boi %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK274=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK274=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK274=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%boi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK274=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%boi %RED%<<%CL%%NAME%{%RED%>> %GREEN%boi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK274=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%boi %RED%<<%CL%%NAME%{%RED%>> %GREEN%boi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=1 OR CLSK6=1) SK274=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%boi %RED%<<%CL%%NAME%{%RED%>> %GREEN%boi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK50=2 OR CLSK6=2) SK274=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%boi %RED%<<%CL%%NAME%{%RED%>> %GREEN%boi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK50=3 SK274=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%boi %RED%<<%CL%%NAME%{%RED%>> %GREEN%boi %RED%<<%CL%%NAME%}
-// 5+ claw & dagger mastery
-ItemDisplay[!RW TABSK49=3 SK252=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cdm %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cdm %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK252=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK252=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK252=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cdm %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK252=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cdm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cdm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK252=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cdm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cdm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=1 OR CLSK6=1) SK252=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cdm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cdm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK252=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cdm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cdm %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK252=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cdm %RED%<<%CL%%NAME%{%RED%>> %GREEN%cdm %RED%<<%CL%%NAME%}
-// 5+ psychic hammer
-ItemDisplay[!RW TABSK49=3 SK253=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%psy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%psy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK253=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK253=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK253=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%psy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK253=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%psy %RED%<<%CL%%NAME%{%RED%>> %GREEN%psy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK253=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%psy %RED%<<%CL%%NAME%{%RED%>> %GREEN%psy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=1 OR CLSK6=1) SK253=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%psy %RED%<<%CL%%NAME%{%RED%>> %GREEN%psy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK253=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%psy %RED%<<%CL%%NAME%{%RED%>> %GREEN%psy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK253=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%psy %RED%<<%CL%%NAME%{%RED%>> %GREEN%psy %RED%<<%CL%%NAME%}
-// 5+ mind blast
-ItemDisplay[!RW TABSK49=3 SK273=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%mbl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%mbl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK273=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK273=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK273=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK273=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%mbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK273=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%mbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=1 OR CLSK6=1) SK273=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%mbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK273=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%mbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK273=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%mbl %RED%<<%CL%%NAME%}
-// 5+ venom
-ItemDisplay[!RW TABSK49=3 SK278=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%ven %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%ven %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK278=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK278=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK278=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%ven %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK278=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%ven %RED%<<%CL%%NAME%{%RED%>> %GREEN%ven %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK278=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%ven %RED%<<%CL%%NAME%{%RED%>> %GREEN%ven %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=1 OR CLSK6=1) SK278=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%ven %RED%<<%CL%%NAME%{%RED%>> %GREEN%ven %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK49=2 OR CLSK6=2) SK278=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%ven %RED%<<%CL%%NAME%{%RED%>> %GREEN%ven %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK49=3 SK278=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%ven %RED%<<%CL%%NAME%{%RED%>> %GREEN%ven %RED%<<%CL%%NAME%}
-// 5+ wake of fire
-ItemDisplay[!RW TABSK48=3 SK262=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%wof %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%wof %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK262=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK262=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK262=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%wof %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK262=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wof %RED%<<%CL%%NAME%{%RED%>> %GREEN%wof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK262=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wof %RED%<<%CL%%NAME%{%RED%>> %GREEN%wof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK262=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wof %RED%<<%CL%%NAME%{%RED%>> %GREEN%wof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK262=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wof %RED%<<%CL%%NAME%{%RED%>> %GREEN%wof %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK262=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%wof %RED%<<%CL%%NAME%{%RED%>> %GREEN%wof %RED%<<%CL%%NAME%}
-// 5+ death sentry
-ItemDisplay[!RW TABSK48=3 SK276=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%dsy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%dsy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK276=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK276=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK276=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%dsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK276=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%dsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK276=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%dsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK276=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%dsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK276=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%dsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK276=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%dsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%dsy %RED%<<%CL%%NAME%}
-// 5+ chain lightning sentry
-ItemDisplay[!RW TABSK48=3 SK271=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cls %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cls %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK271=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK271=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK271=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cls %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK271=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cls %RED%<<%CL%%NAME%{%RED%>> %GREEN%cls %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK271=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cls %RED%<<%CL%%NAME%{%RED%>> %GREEN%cls %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK271=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cls %RED%<<%CL%%NAME%{%RED%>> %GREEN%cls %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK271=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cls %RED%<<%CL%%NAME%{%RED%>> %GREEN%cls %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK271=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cls %RED%<<%CL%%NAME%{%RED%>> %GREEN%cls %RED%<<%CL%%NAME%}
-// 5+ lightning sentry
-ItemDisplay[!RW TABSK48=3 SK366=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%lsy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%lsy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK366=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK366=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK366=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lsy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK366=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%lsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK366=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%lsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK366=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%lsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK366=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%lsy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK366=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lsy %RED%<<%CL%%NAME%{%RED%>> %GREEN%lsy %RED%<<%CL%%NAME%}
-// 5+ blade sentinel
-ItemDisplay[!RW TABSK48=3 SK257=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%bsl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%bsl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK257=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK257=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK257=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bsl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK257=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsl %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK257=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsl %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK257=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsl %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK257=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsl %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK257=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bsl %RED%<<%CL%%NAME%{%RED%>> %GREEN%bsl %RED%<<%CL%%NAME%}
-// 5+ shock web
-ItemDisplay[!RW TABSK48=3 SK256=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%swb %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%swb %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK256=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK256=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK256=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%swb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK256=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%swb %RED%<<%CL%%NAME%{%RED%>> %GREEN%swb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK256=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%swb %RED%<<%CL%%NAME%{%RED%>> %GREEN%swb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK256=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%swb %RED%<<%CL%%NAME%{%RED%>> %GREEN%swb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK256=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%swb %RED%<<%CL%%NAME%{%RED%>> %GREEN%swb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK256=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%swb %RED%<<%CL%%NAME%{%RED%>> %GREEN%swb %RED%<<%CL%%NAME%}
-// 5+ fire blast
-ItemDisplay[!RW TABSK48=3 SK251=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fbl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fbl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK251=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK251=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK251=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fbl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK251=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK251=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK251=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK251=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fbl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK251=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fbl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fbl %RED%<<%CL%%NAME%}
-// 5+ Blade Fury
-ItemDisplay[!RW TABSK48=3 SK266=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%bfy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%bfy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK266=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK266=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK266=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%bfy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK266=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bfy %RED%<<%CL%%NAME%{%RED%>> %GREEN%bfy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK266=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bfy %RED%<<%CL%%NAME%{%RED%>> %GREEN%bfy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=1 OR CLSK6=1) SK266=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bfy %RED%<<%CL%%NAME%{%RED%>> %GREEN%bfy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK48=2 OR CLSK6=2) SK266=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bfy %RED%<<%CL%%NAME%{%RED%>> %GREEN%bfy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK48=3 SK266=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%bfy %RED%<<%CL%%NAME%{%RED%>> %GREEN%bfy %RED%<<%CL%%NAME%}
-
-// 5+ molten boulder
-ItemDisplay[!RW TABSK42=3 SK229=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%mtb %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%mtb %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK229=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK229=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK229=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK229=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtb %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK229=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtb %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK229=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtb %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK229=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtb %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK229=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtb %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtb %RED%<<%CL%%NAME%}
-// 5+ arctic blast
-ItemDisplay[!RW TABSK42=3 SK230=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%abl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%abl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK230=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK230=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK230=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%abl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK230=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%abl %RED%<<%CL%%NAME%{%RED%>> %GREEN%abl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK230=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%abl %RED%<<%CL%%NAME%{%RED%>> %GREEN%abl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK230=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%abl %RED%<<%CL%%NAME%{%RED%>> %GREEN%abl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK230=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%abl %RED%<<%CL%%NAME%{%RED%>> %GREEN%abl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK230=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%abl %RED%<<%CL%%NAME%{%RED%>> %GREEN%abl %RED%<<%CL%%NAME%}
-// 5+ fissure
-ItemDisplay[!RW TABSK42=3 SK234=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fis %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fis %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK234=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK234=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK234=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fis %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK234=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fis %RED%<<%CL%%NAME%{%RED%>> %GREEN%fis %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK234=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fis %RED%<<%CL%%NAME%{%RED%>> %GREEN%fis %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK234=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fis %RED%<<%CL%%NAME%{%RED%>> %GREEN%fis %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK234=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fis %RED%<<%CL%%NAME%{%RED%>> %GREEN%fis %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK234=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fis %RED%<<%CL%%NAME%{%RED%>> %GREEN%fis %RED%<<%CL%%NAME%}
-// 5+ rabies
-ItemDisplay[!RW TABSK42=3 SK238=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%rbs %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%rbs %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK238=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK238=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK238=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%rbs %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK238=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%rbs %RED%<<%CL%%NAME%{%RED%>> %GREEN%rbs %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK238=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%rbs %RED%<<%CL%%NAME%{%RED%>> %GREEN%rbs %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK238=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%rbs %RED%<<%CL%%NAME%{%RED%>> %GREEN%rbs %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK238=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%rbs %RED%<<%CL%%NAME%{%RED%>> %GREEN%rbs %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK238=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%rbs %RED%<<%CL%%NAME%{%RED%>> %GREEN%rbs %RED%<<%CL%%NAME%}
-// 5+ fire claws
-ItemDisplay[!RW TABSK42=3 SK239=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fcl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fcl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK239=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK239=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK239=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fcl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK239=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fcl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fcl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK239=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fcl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fcl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK239=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fcl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fcl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK239=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fcl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fcl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK239=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fcl %RED%<<%CL%%NAME%{%RED%>> %GREEN%fcl %RED%<<%CL%%NAME%}
-// 5+ twister
-ItemDisplay[!RW TABSK42=3 SK240=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%twi %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%twi %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK240=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK240=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK240=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%twi %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK240=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%twi %RED%<<%CL%%NAME%{%RED%>> %GREEN%twi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK240=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%twi %RED%<<%CL%%NAME%{%RED%>> %GREEN%twi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK240=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%twi %RED%<<%CL%%NAME%{%RED%>> %GREEN%twi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK240=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%twi %RED%<<%CL%%NAME%{%RED%>> %GREEN%twi %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK240=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%twi %RED%<<%CL%%NAME%{%RED%>> %GREEN%twi %RED%<<%CL%%NAME%}
-// 5+ shock wave
-ItemDisplay[!RW TABSK42=3 SK243=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%shw %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%shw %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK243=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK243=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK243=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%shw %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK243=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%shw %RED%<<%CL%%NAME%{%RED%>> %GREEN%shw %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK243=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%shw %RED%<<%CL%%NAME%{%RED%>> %GREEN%shw %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK243=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%shw %RED%<<%CL%%NAME%{%RED%>> %GREEN%shw %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK243=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%shw %RED%<<%CL%%NAME%{%RED%>> %GREEN%shw %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK243=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%shw %RED%<<%CL%%NAME%{%RED%>> %GREEN%shw %RED%<<%CL%%NAME%}
-// 5+ volcano
-ItemDisplay[!RW TABSK42=3 SK244=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%vol %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%vol %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK244=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK244=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK244=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%vol %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK244=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%vol %RED%<<%CL%%NAME%{%RED%>> %GREEN%vol %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK244=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%vol %RED%<<%CL%%NAME%{%RED%>> %GREEN%vol %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK244=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%vol %RED%<<%CL%%NAME%{%RED%>> %GREEN%vol %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK244=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%vol %RED%<<%CL%%NAME%{%RED%>> %GREEN%vol %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK244=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%vol %RED%<<%CL%%NAME%{%RED%>> %GREEN%vol %RED%<<%CL%%NAME%}
-// 5+ tornado
-ItemDisplay[!RW TABSK42=3 SK245=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%tor %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%tor %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK245=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK245=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK245=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%tor %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK245=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tor %RED%<<%CL%%NAME%{%RED%>> %GREEN%tor %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK245=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tor %RED%<<%CL%%NAME%{%RED%>> %GREEN%tor %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=1 OR CLSK5=1) SK245=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tor %RED%<<%CL%%NAME%{%RED%>> %GREEN%tor %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK42=2 OR CLSK5=2) SK245=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tor %RED%<<%CL%%NAME%{%RED%>> %GREEN%tor %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK42=3 SK245=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%tor %RED%<<%CL%%NAME%{%RED%>> %GREEN%tor %RED%<<%CL%%NAME%}
-// 5+ Grizzly
-ItemDisplay[!RW !UNI TABSK42=3 SK247=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%gzy %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%gzy %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK42=3 SK247=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK42=3 SK247=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK42=2 OR CLSK5=2) SK247=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%gzy %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK42=2 OR CLSK5=2) SK247=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%gzy %RED%<<%CL%%NAME%{%RED%>> %GREEN%gzy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK42=3 SK247=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%gzy %RED%<<%CL%%NAME%{%RED%>> %GREEN%gzy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK42=1 OR CLSK5=1) SK247=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%gzy %RED%<<%CL%%NAME%{%RED%>> %GREEN%gzy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI (TABSK42=2 OR CLSK5=2) SK247=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%gzy %RED%<<%CL%%NAME%{%RED%>> %GREEN%gzy %RED%<<%CL%%NAME%}
-ItemDisplay[!RW !UNI TABSK42=3 SK247=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%gzy %RED%<<%CL%%NAME%{%RED%>> %GREEN%gzy %RED%<<%CL%%NAME%}
-
-// 5+ lightning
-ItemDisplay[!RW TABSK9=3 SK49=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%lgg %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%lgg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK49=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK49=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK49=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%lgg %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK49=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lgg %RED%<<%CL%%NAME%{%RED%>> %GREEN%lgg %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK49=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lgg %RED%<<%CL%%NAME%{%RED%>> %GREEN%lgg %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=1 OR CLSK1=1) SK49=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lgg %RED%<<%CL%%NAME%{%RED%>> %GREEN%lgg %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK49=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lgg %RED%<<%CL%%NAME%{%RED%>> %GREEN%lgg %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK49=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%lgg %RED%<<%CL%%NAME%{%RED%>> %GREEN%lgg %RED%<<%CL%%NAME%}
-// 5+ nova
-ItemDisplay[!RW TABSK9=3 SK48=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%nov %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%nov %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK48=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK48=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK48=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%nov %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK48=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%nov %RED%<<%CL%%NAME%{%RED%>> %GREEN%nov %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK48=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%nov %RED%<<%CL%%NAME%{%RED%>> %GREEN%nov %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=1 OR CLSK1=1) SK48=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%nov %RED%<<%CL%%NAME%{%RED%>> %GREEN%nov %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK48=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%nov %RED%<<%CL%%NAME%{%RED%>> %GREEN%nov %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK48=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%nov %RED%<<%CL%%NAME%{%RED%>> %GREEN%nov %RED%<<%CL%%NAME%}
-// 5+ chain lightning
-ItemDisplay[!RW TABSK9=3 SK53=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%chl %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%chl %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK53=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK53=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK53=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%chl %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK53=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%chl %RED%<<%CL%%NAME%{%RED%>> %GREEN%chl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK53=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%chl %RED%<<%CL%%NAME%{%RED%>> %GREEN%chl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=1 OR CLSK1=1) SK53=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%chl %RED%<<%CL%%NAME%{%RED%>> %GREEN%chl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK9=2 OR CLSK1=2) SK53=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%chl %RED%<<%CL%%NAME%{%RED%>> %GREEN%chl %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK9=3 SK53=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%chl %RED%<<%CL%%NAME%{%RED%>> %GREEN%chl %RED%<<%CL%%NAME%}
-// 5+ frost nova
-ItemDisplay[!RW TABSK10=3 SK44=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fno %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fno %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK44=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK44=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK44=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fno %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK44=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fno %RED%<<%CL%%NAME%{%RED%>> %GREEN%fno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK44=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fno %RED%<<%CL%%NAME%{%RED%>> %GREEN%fno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=1 OR CLSK1=1) SK44=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fno %RED%<<%CL%%NAME%{%RED%>> %GREEN%fno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK44=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fno %RED%<<%CL%%NAME%{%RED%>> %GREEN%fno %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK44=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fno %RED%<<%CL%%NAME%{%RED%>> %GREEN%fno %RED%<<%CL%%NAME%}
-// 5+ blizzard
-ItemDisplay[!RW TABSK10=3 SK59=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%blz %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%blz %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK59=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK59=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK59=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%blz %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK59=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%blz %RED%<<%CL%%NAME%{%RED%>> %GREEN%blz %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK59=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%blz %RED%<<%CL%%NAME%{%RED%>> %GREEN%blz %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=1 OR CLSK1=1) SK59=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%blz %RED%<<%CL%%NAME%{%RED%>> %GREEN%blz %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK59=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%blz %RED%<<%CL%%NAME%{%RED%>> %GREEN%blz %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK59=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%blz %RED%<<%CL%%NAME%{%RED%>> %GREEN%blz %RED%<<%CL%%NAME%}
-// 5+ frozen orb
-ItemDisplay[!RW TABSK10=3 SK64=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%fob %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%fob %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK64=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK64=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK64=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%fob %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK64=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fob %RED%<<%CL%%NAME%{%RED%>> %GREEN%fob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK64=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fob %RED%<<%CL%%NAME%{%RED%>> %GREEN%fob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=1 OR CLSK1=1) SK64=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fob %RED%<<%CL%%NAME%{%RED%>> %GREEN%fob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK64=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fob %RED%<<%CL%%NAME%{%RED%>> %GREEN%fob %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK64=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%fob %RED%<<%CL%%NAME%{%RED%>> %GREEN%fob %RED%<<%CL%%NAME%}
-// 5+ ice barrage
-ItemDisplay[!RW TABSK10=3 SK369=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%iba %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%iba %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK369=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK369=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK369=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%iba %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK369=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%iba %RED%<<%CL%%NAME%{%RED%>> %GREEN%iba %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK369=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%iba %RED%<<%CL%%NAME%{%RED%>> %GREEN%iba %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=1 OR CLSK1=1) SK369=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%iba %RED%<<%CL%%NAME%{%RED%>> %GREEN%iba %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK10=2 OR CLSK1=2) SK369=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%iba %RED%<<%CL%%NAME%{%RED%>> %GREEN%iba %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK10=3 SK369=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%iba %RED%<<%CL%%NAME%{%RED%>> %GREEN%iba %RED%<<%CL%%NAME%}
-// 5+ combustion
-ItemDisplay[!RW TABSK8=3 SK376=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%cmb %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%cmb %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK376=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK376=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK376=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%cmb %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK376=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cmb %RED%<<%CL%%NAME%{%RED%>> %GREEN%cmb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK376=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cmb %RED%<<%CL%%NAME%{%RED%>> %GREEN%cmb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=1 OR CLSK1=1) SK376=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cmb %RED%<<%CL%%NAME%{%RED%>> %GREEN%cmb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK376=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cmb %RED%<<%CL%%NAME%{%RED%>> %GREEN%cmb %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK376=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%cmb %RED%<<%CL%%NAME%{%RED%>> %GREEN%cmb %RED%<<%CL%%NAME%}
-// 5+ hydra
-ItemDisplay[!RW TABSK8=3 SK62=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%hyd %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%hyd %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK62=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK62=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK62=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%hyd %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK62=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%hyd %RED%<<%CL%%NAME%{%RED%>> %GREEN%hyd %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK62=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%hyd %RED%<<%CL%%NAME%{%RED%>> %GREEN%hyd %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=1 OR CLSK1=1) SK62=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%hyd %RED%<<%CL%%NAME%{%RED%>> %GREEN%hyd %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK62=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%hyd %RED%<<%CL%%NAME%{%RED%>> %GREEN%hyd %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK62=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%hyd %RED%<<%CL%%NAME%{%RED%>> %GREEN%hyd %RED%<<%CL%%NAME%}
-// 5+ meteor
-ItemDisplay[!RW TABSK8=3 SK56=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %ORANGE%7%GREEN%mtr %RED%<< %ORANGE%<< %RED%<<%RED%<<%CL%%NAME%{%RED%>> %ORANGE%>> %RED%>> %GREEN%mtr %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK56=3 !ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK56=2 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK56=3 ALLSK=1]: %DOT-0A%%ORANGE%>> %RED%>> %ORANGE%6%GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%{%ORANGE%>> %RED%>> %GREEN%mtr %RED%<< %ORANGE%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK56=2 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtr %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK56=1 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtr %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=1 OR CLSK1=1) SK56=3 ALLSK=1]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtr %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW (TABSK8=2 OR CLSK1=2) SK56=3 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtr %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtr %RED%<<%CL%%NAME%}
-ItemDisplay[!RW TABSK8=3 SK56=2 !ALLSK=1 !ALLSK=2]: %DOT-0A%%RED%>> %ORANGE%5%GREEN%mtr %RED%<<%CL%%NAME%{%RED%>> %GREEN%mtr %RED%<<%CL%%NAME%}
+// Sorceress
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,9+MULTI83,1+MULTI107,49+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,44+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,48+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,49+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,53+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,56+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,59+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,61+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,62+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,63+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,64+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,65+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,369+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,376+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,57+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Charged Bolt Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,38+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cbo %NAME%{%ORANGE%7%GREEN%cbo %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,38+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cbo %NAME%{%ORANGE%6%GREEN%cbo %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,38+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cbo %NAME%{%ORANGE%5%GREEN%cbo %NAME%}
+// Frost Nova Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,44+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fno %NAME%{%ORANGE%7%GREEN%fno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,44+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fno %NAME%{%ORANGE%6%GREEN%fno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,44+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fno %NAME%{%ORANGE%5%GREEN%fno %NAME%}
+// Nova Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,48+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%nov %NAME%{%ORANGE%7%GREEN%nov %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,48+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%nov %NAME%{%ORANGE%6%GREEN%nov %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,48+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%nov %NAME%{%ORANGE%5%GREEN%nov %NAME%}
+// Lightning Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,49+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%lgg %NAME%{%ORANGE%7%GREEN%lgg %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,49+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%lgg %NAME%{%ORANGE%6%GREEN%lgg %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,49+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%lgg %NAME%{%ORANGE%5%GREEN%lgg %NAME%}
+// Chain Lightning Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,53+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%chl %NAME%{%ORANGE%7%GREEN%chl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,53+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%chl %NAME%{%ORANGE%6%GREEN%chl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,53+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%chl %NAME%{%ORANGE%5%GREEN%chl %NAME%}
+// Meteor Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,56+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%mtr %NAME%{%ORANGE%7%GREEN%mtr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,56+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%mtr %NAME%{%ORANGE%6%GREEN%mtr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,56+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%mtr %NAME%{%ORANGE%5%GREEN%mtr %NAME%}
+// Blizzard Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,59+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%blz %NAME%{%ORANGE%7%GREEN%blz %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,59+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%blz %NAME%{%ORANGE%6%GREEN%blz %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,59+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%blz %NAME%{%ORANGE%5%GREEN%blz %NAME%}
+// Fire Mastery Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,61+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fma %NAME%{%ORANGE%7%GREEN%fma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,61+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fma %NAME%{%ORANGE%6%GREEN%fma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,61+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fma %NAME%{%ORANGE%5%GREEN%fma %NAME%}
+// Hydra Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,62+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hyd %NAME%{%ORANGE%7%GREEN%hyd %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,62+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hyd %NAME%{%ORANGE%6%GREEN%hyd %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,62+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hyd %NAME%{%ORANGE%5%GREEN%hyd %NAME%}
+// Lightning Mastery Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,63+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%lma %NAME%{%ORANGE%7%GREEN%lma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,63+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%lma %NAME%{%ORANGE%6%GREEN%lma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,9+MULTI83,1+MULTI107,63+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%lma %NAME%{%ORANGE%5%GREEN%lma %NAME%}
+// Frozen Orb Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,64+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fob %NAME%{%ORANGE%7%GREEN%fob %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,64+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fob %NAME%{%ORANGE%6%GREEN%fob %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,64+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fob %NAME%{%ORANGE%5%GREEN%fob %NAME%}
+// Cold Mastery Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,65+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cma %NAME%{%ORANGE%7%GREEN%cma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,65+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cma %NAME%{%ORANGE%6%GREEN%cma %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,65+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cma %NAME%{%ORANGE%5%GREEN%cma %NAME%}
+// Ice Barrage Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,369+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%iba %NAME%{%ORANGE%7%GREEN%iba %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,369+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%iba %NAME%{%ORANGE%6%GREEN%iba %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,10+MULTI83,1+MULTI107,369+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%iba %NAME%{%ORANGE%5%GREEN%iba %NAME%}
+// Combustion Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,376+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cmb %NAME%{%ORANGE%7%GREEN%cmb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,376+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cmb %NAME%{%ORANGE%6%GREEN%cmb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,376+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cmb %NAME%{%ORANGE%5%GREEN%cmb %NAME%}
+// Combustion Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,57+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%tsm %NAME%{%ORANGE%7%GREEN%tsm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,57+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%tsm %NAME%{%ORANGE%6%GREEN%tsm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,8+MULTI83,1+MULTI107,57+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%tsm %NAME%{%ORANGE%5%GREEN%tsm %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,9+MULTI83,1+MULTI107,49+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,44+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,48+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,49+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,53+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,56+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,59+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,61+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,62+STAT127>4) OR (MULTI188,9+MULTI83,1+MULTI107,63+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,64+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,65+STAT127>4) OR (MULTI188,10+MULTI83,1+MULTI107,369+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,376+STAT127>4) OR (MULTI188,8+MULTI83,1+MULTI107,57+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
+// Necromancer
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,17+MULTI83,2+MULTI107,67+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,69+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,70+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,74+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,75+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,80+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,83+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,84+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,85+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,89+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,92+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,93+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,94+STAT127>4) OR (MULTI188,16+MULTI83,2+MULTI107,381+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Teeth Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,67+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%tee %NAME%{%ORANGE%7%GREEN%tee %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,67+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%tee %NAME%{%ORANGE%6%GREEN%tee %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,67+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%tee %NAME%{%ORANGE%5%GREEN%tee %NAME%}
+// Skele Mastery Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,69+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%skm %NAME%{%ORANGE%7%GREEN%skm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,69+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%skm %NAME%{%ORANGE%6%GREEN%skm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,69+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%skm %NAME%{%ORANGE%5%GREEN%skm %NAME%}
+// Skele Warrior Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,70+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%rsw %NAME%{%ORANGE%7%GREEN%rsw %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,70+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%rsw %NAME%{%ORANGE%6%GREEN%rsw %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,70+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%rsw %NAME%{%ORANGE%5%GREEN%rsw %NAME%}
+// Corpse Explosion Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,74+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cex %NAME%{%ORANGE%7%GREEN%cex %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,74+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cex %NAME%{%ORANGE%6%GREEN%cex %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,74+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cex %NAME%{%ORANGE%5%GREEN%cex %NAME%}
+// Clay Golem Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,75+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cgm %NAME%{%ORANGE%7%GREEN%cgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,75+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cgm %NAME%{%ORANGE%6%GREEN%cgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,75+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cgm %NAME%{%ORANGE%5%GREEN%cgm %NAME%}
+// Skele Mages Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,80+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%rsm %NAME%{%ORANGE%7%GREEN%rsm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,80+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%rsm %NAME%{%ORANGE%6%GREEN%rsm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,80+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%rsm %NAME%{%ORANGE%5%GREEN%rsm %NAME%}
+// Desecrate Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,83+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%des %NAME%{%ORANGE%7%GREEN%des %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,83+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%des %NAME%{%ORANGE%6%GREEN%des %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,83+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%des %NAME%{%ORANGE%5%GREEN%des %NAME%}
+// Bone Spear Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,84+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bsr %NAME%{%ORANGE%7%GREEN%bsr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,84+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bsr %NAME%{%ORANGE%6%GREEN%bsr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,84+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bsr %NAME%{%ORANGE%5%GREEN%bsr %NAME%}
+// Blood Golem Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,85+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bgm %NAME%{%ORANGE%7%GREEN%bgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,85+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bgm %NAME%{%ORANGE%6%GREEN%bgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,85+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bgm %NAME%{%ORANGE%5%GREEN%bgm %NAME%}
+// Skele Archers Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,89+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%rsa %NAME%{%ORANGE%7%GREEN%rsa %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,89+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%rsa %NAME%{%ORANGE%6%GREEN%rsa %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,89+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%rsa %NAME%{%ORANGE%5%GREEN%rsa %NAME%}
+// Psn Nova Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,92+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%pno %NAME%{%ORANGE%7%GREEN%pno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,92+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%pno %NAME%{%ORANGE%6%GREEN%pno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,92+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%pno %NAME%{%ORANGE%5%GREEN%pno %NAME%}
+// Bone Spirit Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,93+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bst %NAME%{%ORANGE%7%GREEN%bst %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,93+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bst %NAME%{%ORANGE%6%GREEN%bst %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,17+MULTI83,2+MULTI107,93+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bst %NAME%{%ORANGE%5%GREEN%bst %NAME%}
+// Fire Golem Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,94+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fgm %NAME%{%ORANGE%7%GREEN%fgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,94+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fgm %NAME%{%ORANGE%6%GREEN%fgm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,18+MULTI83,2+MULTI107,94+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fgm %NAME%{%ORANGE%5%GREEN%fgm %NAME%}
+// Dark Pact Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,16+MULTI83,2+MULTI107,381+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%dpt %NAME%{%ORANGE%7%GREEN%dpt %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,16+MULTI83,2+MULTI107,381+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%dpt %NAME%{%ORANGE%6%GREEN%dpt %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,16+MULTI83,2+MULTI107,381+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%dpt %NAME%{%ORANGE%5%GREEN%dpt %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,17+MULTI83,2+MULTI107,67+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,69+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,70+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,74+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,75+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,80+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,83+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,84+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,85+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,89+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,92+STAT127>4) OR (MULTI188,17+MULTI83,2+MULTI107,93+STAT127>4) OR (MULTI188,18+MULTI83,2+MULTI107,94+STAT127>4) OR (MULTI188,16+MULTI83,2+MULTI107,381+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
+// Paladin
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,24+MULTI83,3+MULTI107,101+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,102+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,111+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,112+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,113+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,114+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,117+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,118+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,119+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,122+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,123+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,364+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Holy Bolt Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,101+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hbo %NAME%{%ORANGE%7%GREEN%hbo %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,101+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hbo %NAME%{%ORANGE%6%GREEN%hbo %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,101+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hbo %NAME%{%ORANGE%5%GREEN%hbo %NAME%}
+// Holy Fire Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,102+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hfr %NAME%{%ORANGE%7%GREEN%hfr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,102+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hfr %NAME%{%ORANGE%6%GREEN%hfr %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,102+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hfr %NAME%{%ORANGE%5%GREEN%hfr %NAME%}
+// Vengeance Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,111+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%veg %NAME%{%ORANGE%7%GREEN%veg %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,111+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%veg %NAME%{%ORANGE%6%GREEN%veg %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,111+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%veg %NAME%{%ORANGE%5%GREEN%veg %NAME%}
+// Blessed Hammer Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,112+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bhm %NAME%{%ORANGE%7%GREEN%bhm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,112+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bhm %NAME%{%ORANGE%6%GREEN%bhm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,112+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bhm %NAME%{%ORANGE%5%GREEN%bhm %NAME%}
+// Concentration Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,113+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cct %NAME%{%ORANGE%7%GREEN%cct %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,113+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cct %NAME%{%ORANGE%6%GREEN%cct %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,113+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cct %NAME%{%ORANGE%5%GREEN%cct %NAME%}
+// Holy Freeze Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,114+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hfz %NAME%{%ORANGE%7%GREEN%hfz %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,114+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hfz %NAME%{%ORANGE%6%GREEN%hfz %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,114+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hfz %NAME%{%ORANGE%5%GREEN%hfz %NAME%}
+// Holy Shield Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,117+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hsh %NAME%{%ORANGE%7%GREEN%hsh %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,117+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hsh %NAME%{%ORANGE%6%GREEN%hsh %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,117+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hsh %NAME%{%ORANGE%5%GREEN%hsh %NAME%}
+// Holy Shock Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,118+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hsk %NAME%{%ORANGE%7%GREEN%hsk %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,118+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hsk %NAME%{%ORANGE%6%GREEN%hsk %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,118+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hsk %NAME%{%ORANGE%5%GREEN%hsk %NAME%}
+// Sanctuary Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,119+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%san %NAME%{%ORANGE%7%GREEN%san %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,119+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%san %NAME%{%ORANGE%6%GREEN%san %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,119+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%san %NAME%{%ORANGE%5%GREEN%san %NAME%}
+// Fanaticism Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,122+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fan %NAME%{%ORANGE%7%GREEN%fan %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,122+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fan %NAME%{%ORANGE%6%GREEN%fan %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,122+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fan %NAME%{%ORANGE%5%GREEN%fan %NAME%}
+// Conviction Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,123+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cvn %NAME%{%ORANGE%7%GREEN%cvn %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,123+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cvn %NAME%{%ORANGE%6%GREEN%cvn %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,25+MULTI83,3+MULTI107,123+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cvn %NAME%{%ORANGE%5%GREEN%cvn %NAME%}
+// Holy Nova Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,364+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hno %NAME%{%ORANGE%7%GREEN%hno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,364+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hno %NAME%{%ORANGE%6%GREEN%hno %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,24+MULTI83,3+MULTI107,364+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hno %NAME%{%ORANGE%5%GREEN%hno %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,24+MULTI83,3+MULTI107,101+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,102+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,111+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,112+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,113+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,114+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,117+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,118+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,119+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,122+STAT127>4) OR (MULTI188,25+MULTI83,3+MULTI107,123+STAT127>4) OR (MULTI188,24+MULTI83,3+MULTI107,364+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
+// Barbarian
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,34+MULTI83,4+MULTI107,146+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,149+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,150+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,154+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,155+STAT127>4) OR (MULTI188,33+MULTI83,4+MULTI107,368+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Battle Cry Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,146+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bcy %NAME%{%ORANGE%7%GREEN%bcy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,146+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bcy %NAME%{%ORANGE%6%GREEN%bcy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,146+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bcy %NAME%{%ORANGE%5%GREEN%bcy %NAME%}
+// Battle Orders Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,149+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bod %NAME%{%ORANGE%7%GREEN%bod %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,149+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bod %NAME%{%ORANGE%6%GREEN%bod %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,149+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bod %NAME%{%ORANGE%5%GREEN%bod %NAME%}
+// Grim ward Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,150+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%gwd %NAME%{%ORANGE%7%GREEN%gwd %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,150+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%gwd %NAME%{%ORANGE%6%GREEN%gwd %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,150+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%gwd %NAME%{%ORANGE%5%GREEN%gwd %NAME%}
+// War Cry Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,154+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%wcy %NAME%{%ORANGE%7%GREEN%wcy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,154+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%wcy %NAME%{%ORANGE%6%GREEN%wcy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,154+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%wcy %NAME%{%ORANGE%5%GREEN%wcy %NAME%}
+// Battle Command Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,155+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bcm %NAME%{%ORANGE%7%GREEN%bcm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,155+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bcm %NAME%{%ORANGE%6%GREEN%bcm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,34+MULTI83,4+MULTI107,155+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bcm %NAME%{%ORANGE%5%GREEN%bcm %NAME%}
+// Deep wounds Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,33+MULTI83,4+MULTI107,368+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%dew %NAME%{%ORANGE%7%GREEN%dew %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,33+MULTI83,4+MULTI107,368+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%dew %NAME%{%ORANGE%6%GREEN%dew %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,33+MULTI83,4+MULTI107,368+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%dew %NAME%{%ORANGE%5%GREEN%dew %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,34+MULTI83,4+MULTI107,146+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,149+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,150+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,154+STAT127>4) OR (MULTI188,34+MULTI83,4+MULTI107,155+STAT127>4) OR (MULTI188,33+MULTI83,4+MULTI107,368+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
+// Druid
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,40+MULTI83,5+MULTI107,221+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,222+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,226+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,227+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,229+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,234+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,236+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,237+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,240+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,244+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,245+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,247+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,249+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,250+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Raven Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,221+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%rav %NAME%{%ORANGE%7%GREEN%rav %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,221+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%rav %NAME%{%ORANGE%6%GREEN%rav %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,221+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%rav %NAME%{%ORANGE%5%GREEN%rav %NAME%}
+// Poison Creeper Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,222+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%psc %NAME%{%ORANGE%7%GREEN%psc %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,222+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%psc %NAME%{%ORANGE%6%GREEN%psc %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,222+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%psc %NAME%{%ORANGE%5%GREEN%psc %NAME%}
+// Oak Sage Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,226+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%oak %NAME%{%ORANGE%7%GREEN%oak %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,226+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%oak %NAME%{%ORANGE%6%GREEN%oak %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,226+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%oak %NAME%{%ORANGE%5%GREEN%oak %NAME%}
+// Spirit Wolf Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,227+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%swf %NAME%{%ORANGE%7%GREEN%swf %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,227+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%swf %NAME%{%ORANGE%6%GREEN%swf %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,227+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%swf %NAME%{%ORANGE%5%GREEN%swf %NAME%}
+// Molten Boulder Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,229+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%mtb %NAME%{%ORANGE%7%GREEN%mtb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,229+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%mtb %NAME%{%ORANGE%6%GREEN%mtb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,229+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%mtb %NAME%{%ORANGE%5%GREEN%mtb %NAME%}
+// Fissure Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,234+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fis %NAME%{%ORANGE%7%GREEN%fis %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,234+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fis %NAME%{%ORANGE%6%GREEN%fis %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,234+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fis %NAME%{%ORANGE%5%GREEN%fis %NAME%}
+// Heat of Wolverine Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,236+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%how %NAME%{%ORANGE%7%GREEN%how %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,236+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%how %NAME%{%ORANGE%6%GREEN%how %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,236+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%how %NAME%{%ORANGE%5%GREEN%how %NAME%}
+// Dire Wolf Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,237+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%dwf %NAME%{%ORANGE%7%GREEN%dwf %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,237+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%dwf %NAME%{%ORANGE%6%GREEN%dwf %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,237+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%dwf %NAME%{%ORANGE%5%GREEN%dwf %NAME%}
+// Twister Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,240+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%twi %NAME%{%ORANGE%7%GREEN%twi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,240+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%twi %NAME%{%ORANGE%6%GREEN%twi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,240+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%twi %NAME%{%ORANGE%5%GREEN%twi %NAME%}
+// Volcano Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,244+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%vol %NAME%{%ORANGE%7%GREEN%vol %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,244+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%vol %NAME%{%ORANGE%6%GREEN%vol %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,244+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%vol %NAME%{%ORANGE%5%GREEN%vol %NAME%}
+// Tornado Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,245+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%tor %NAME%{%ORANGE%7%GREEN%tor %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,245+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%tor %NAME%{%ORANGE%6%GREEN%tor %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,245+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%tor %NAME%{%ORANGE%5%GREEN%tor %NAME%}
+// Grizzly Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,247+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%gzy %NAME%{%ORANGE%7%GREEN%gzy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,247+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%gzy %NAME%{%ORANGE%6%GREEN%gzy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,40+MULTI83,5+MULTI107,247+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%gzy %NAME%{%ORANGE%5%GREEN%gzy %NAME%}
+// Armageddon Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,249+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%arm %NAME%{%ORANGE%7%GREEN%arm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,249+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%arm %NAME%{%ORANGE%6%GREEN%arm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,249+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%arm %NAME%{%ORANGE%5%GREEN%arm %NAME%}
+// Hurricane Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,250+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%hur %NAME%{%ORANGE%7%GREEN%hur %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,250+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%hur %NAME%{%ORANGE%6%GREEN%hur %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,42+MULTI83,5+MULTI107,250+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%hur %NAME%{%ORANGE%5%GREEN%hur %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,40+MULTI83,5+MULTI107,221+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,222+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,226+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,227+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,229+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,234+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,236+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,237+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,240+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,244+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,245+STAT127>4) OR (MULTI188,40+MULTI83,5+MULTI107,247+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,249+STAT127>4) OR (MULTI188,42+MULTI83,5+MULTI107,250+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
+// Assassin
+// Start Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,48+MULTI83,6+MULTI107,251+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,252+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,253+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,254+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,256+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,257+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,258+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,259+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,262+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,263+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,265+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,266+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,267+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,269+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,271+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,272+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,273+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,274+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,276+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,278+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,280+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,366+STAT127>4))]:%CONTINUE%%RED%<< %ORANGE%<< %RED%<<%CL%%NAME%%BORDER-ED%{%RED%<< %ORANGE%<< %RED%<<%NAME%}
+// Fire Blast Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,251+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fbl %NAME%{%ORANGE%7%GREEN%fbl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,251+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fbl %NAME%{%ORANGE%6%GREEN%fbl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,251+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fbl %NAME%{%ORANGE%5%GREEN%fbl %NAME%}
+// Claw Mastery Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,252+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cdm %NAME%{%ORANGE%7%GREEN%cdm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,252+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cdm %NAME%{%ORANGE%6%GREEN%cdm %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,252+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cdm %NAME%{%ORANGE%5%GREEN%cdm %NAME%}
+// Psychic Hammer Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,253+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%psy %NAME%{%ORANGE%7%GREEN%psy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,253+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%psy %NAME%{%ORANGE%6%GREEN%psy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,253+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%psy %NAME%{%ORANGE%5%GREEN%psy %NAME%}
+// Tiger Strike Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,254+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%tig %NAME%{%ORANGE%7%GREEN%tig %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,254+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%tig %NAME%{%ORANGE%6%GREEN%tig %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,254+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%tig %NAME%{%ORANGE%5%GREEN%tig %NAME%}
+// Shock Web Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,256+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%swb %NAME%{%ORANGE%7%GREEN%swb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,256+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%swb %NAME%{%ORANGE%6%GREEN%swb %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,256+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%swb %NAME%{%ORANGE%5%GREEN%swb %NAME%}
+// Blade Sentinel Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,257+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bsl %NAME%{%ORANGE%7%GREEN%bsl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,257+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bsl %NAME%{%ORANGE%6%GREEN%bsl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,257+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bsl %NAME%{%ORANGE%5%GREEN%bsl %NAME%}
+// Burst of Speed Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,258+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bos %NAME%{%ORANGE%7%GREEN%bos %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,258+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bos %NAME%{%ORANGE%6%GREEN%bos %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,258+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bos %NAME%{%ORANGE%5%GREEN%bos %NAME%}
+// Fists of Fire Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,259+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fof %NAME%{%ORANGE%7%GREEN%fof %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,259+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fof %NAME%{%ORANGE%6%GREEN%fof %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,259+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fof %NAME%{%ORANGE%5%GREEN%fof %NAME%}
+// Wake of Fire Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,262+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%wof %NAME%{%ORANGE%7%GREEN%wof %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,262+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%wof %NAME%{%ORANGE%6%GREEN%wof %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,262+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%wof %NAME%{%ORANGE%5%GREEN%wof %NAME%}
+// Claw Block Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,263+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%wbk %NAME%{%ORANGE%7%GREEN%wbk %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,263+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%wbk %NAME%{%ORANGE%6%GREEN%wbk %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,263+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%wbk %NAME%{%ORANGE%5%GREEN%wbk %NAME%}
+// Cobra Strike Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,265+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cob %NAME%{%ORANGE%7%GREEN%cob %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,265+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cob %NAME%{%ORANGE%6%GREEN%cob %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,265+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cob %NAME%{%ORANGE%5%GREEN%cob %NAME%}
+// Blade Fury Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,266+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%bfy %NAME%{%ORANGE%7%GREEN%bfy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,266+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%bfy %NAME%{%ORANGE%6%GREEN%bfy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,266+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%bfy %NAME%{%ORANGE%5%GREEN%bfy %NAME%}
+// Fade Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,267+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%fde %NAME%{%ORANGE%7%GREEN%fde %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,267+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%fde %NAME%{%ORANGE%6%GREEN%fde %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,267+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%fde %NAME%{%ORANGE%5%GREEN%fde %NAME%}
+// Claws of Thunder Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,269+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cot %NAME%{%ORANGE%7%GREEN%cot %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,269+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cot %NAME%{%ORANGE%6%GREEN%cot %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,269+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cot %NAME%{%ORANGE%5%GREEN%cot %NAME%}
+// Chain Lightning Sentry Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,271+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%cls %NAME%{%ORANGE%7%GREEN%cls %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,271+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%cls %NAME%{%ORANGE%6%GREEN%cls %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,271+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%cls %NAME%{%ORANGE%5%GREEN%cls %NAME%}
+// Wake of Inferno Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,272+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%woi %NAME%{%ORANGE%7%GREEN%woi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,272+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%woi %NAME%{%ORANGE%6%GREEN%woi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,272+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%woi %NAME%{%ORANGE%5%GREEN%woi %NAME%}
+// Mind Blast Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,273+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%mbl %NAME%{%ORANGE%7%GREEN%mbl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,273+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%mbl %NAME%{%ORANGE%6%GREEN%mbl %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,273+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%mbl %NAME%{%ORANGE%5%GREEN%mbl %NAME%}
+// Blades of Ice Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,274+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%boi %NAME%{%ORANGE%7%GREEN%boi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,274+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%boi %NAME%{%ORANGE%6%GREEN%boi %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,274+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%boi %NAME%{%ORANGE%5%GREEN%boi %NAME%}
+// Death Sentry Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,276+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%dsy %NAME%{%ORANGE%7%GREEN%dsy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,276+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%dsy %NAME%{%ORANGE%6%GREEN%dsy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,276+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%dsy %NAME%{%ORANGE%5%GREEN%dsy %NAME%}
+// Venom Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,278+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%ven %NAME%{%ORANGE%7%GREEN%ven %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,278+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%ven %NAME%{%ORANGE%6%GREEN%ven %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,49+MULTI83,6+MULTI107,278+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%ven %NAME%{%ORANGE%5%GREEN%ven %NAME%}
+// Phoenix Strike Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,280+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%phx %NAME%{%ORANGE%7%GREEN%phx %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,280+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%phx %NAME%{%ORANGE%6%GREEN%phx %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,50+MULTI83,6+MULTI107,280+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%phx %NAME%{%ORANGE%5%GREEN%phx %NAME%}
+// Lightning Sentry Skills Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,366+STAT127=7)]:%CONTINUE%%ORANGE%7%GREEN%lsy %NAME%{%ORANGE%7%GREEN%lsy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,366+STAT127=6)]:%CONTINUE%%ORANGE%6%GREEN%lsy %NAME%{%ORANGE%6%GREEN%lsy %NAME%}
+ItemDisplay[!RW !UNI !SET ID (MULTI188,48+MULTI83,6+MULTI107,366+STAT127=5)]:%CONTINUE%%ORANGE%5%GREEN%lsy %NAME%{%ORANGE%5%GREEN%lsy %NAME%}
+// End Highlight For 5/6/7 Tab+Class+Skill+AllSK
+ItemDisplay[!RW !UNI !SET ID ((MULTI188,48+MULTI83,6+MULTI107,251+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,252+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,253+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,254+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,256+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,257+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,258+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,259+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,262+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,263+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,265+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,266+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,267+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,269+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,271+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,272+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,273+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,274+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,276+STAT127>4) OR (MULTI188,49+MULTI83,6+MULTI107,278+STAT127>4) OR (MULTI188,50+MULTI83,6+MULTI107,280+STAT127>4) OR (MULTI188,48+MULTI83,6+MULTI107,366+STAT127>4))]: %RED%>> %ORANGE%>> %RED%>> %NAME%{%RED%>> %ORANGE%>> %RED%>> %NAME%}
 
 
 
@@ -8887,7 +8786,10 @@ ItemDisplay[NMAG DIFF=2 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAN
 
 
 
+
 //------------------------------HIDE_EVERYTHING_ELSE------------------------------
+
+
 
 
 
@@ -8902,9 +8804,10 @@ ItemDisplay[RARE !ID (ILVL>86 OR CLVL>79)]: {%NAME%}
 // HIDE THE REST (MAGIC)
 ItemDisplay[MAG !ID (ILVL>86 OR CLVL>69)]: {%NAME%}
 // HIDE THE REST (NMAG)
-ItemDisplay[NMAG (aqv OR cqv) CLVL>4]:
+ItemDisplay[NMAG (aqv OR cqv) CLVL>2]:
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (GLOVES OR BOOTS OR BELT)]:
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (SOCK=1 OR INF) CLVL>9]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) INF]: {%NAME%}
+ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) SOCK=1 CLVL>4]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) NORM CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) EXC CLVL>29]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) ELT CLVL>59]: {%NAME%}
