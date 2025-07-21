@@ -8787,8 +8787,9 @@ ItemDisplay[FILTLVL=1 NMAG (SOCK=0 OR SOCK=3) !INF !RW SIN !(ktr OR wrb OR axf O
 // SORCERESS ORB'S (NMAG)
 ItemDisplay[FILTLVL=1 NMAG (SOCK=0 OR SOCK=3) !INF !RW (ob5 OR oba OR obf) (SK36=3 OR SK38=3 OR SK41=3 OR SK44=3 OR SK46=3 OR SK47=3 OR SK48=3 OR SK49=3 OR SK50>0 OR SK51=3 OR SK53=3 OR SK56=3 OR SK57=3 OR SK58>0 OR SK59=3 OR SK60>0 OR SK62=3 OR SK64=3 OR SK369=3 OR SK376=3 OR SK383=3)]: %NAME%{%NAME%}
 // GOLD BASE'S (NMAG)
-ItemDisplay[NMAG DIFF=0 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR ob5 OR oba OR obf OR am5 OR ama OR amf) PRICE>9999]: %ORANGE%+%WHITE%${%NAME%}
-ItemDisplay[NMAG DIFF=1 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR ob5 OR oba OR obf OR am5 OR ama OR amf) PRICE>24999]: %ORANGE%+%WHITE%${%NAME%}
+ItemDisplay[NMAG DIFF=0 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>4999 CLVL<15]: %ORANGE%+%WHITE%${%NAME%}
+ItemDisplay[NMAG DIFF=0 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>14999]: %ORANGE%+%WHITE%${%NAME%}
+ItemDisplay[NMAG DIFF=1 !SHOP !RW (CLUB OR DAGGER OR WAND OR SOR OR sst OR 8ss OR 6ss OR scp OR 9sc OR 7sc OR gsc OR 9qs OR 7qs OR SIN OR am5 OR ama OR amf) !THROWING PRICE>24999]: %ORANGE%+%WHITE%${%NAME%}
 ItemDisplay[NMAG DIFF=2 !SHOP !RW (dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR WAND OR ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe) PRICE>34999]: %ORANGE%+%WHITE%${%NAME%}
 
 
