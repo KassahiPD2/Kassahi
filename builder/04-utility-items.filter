@@ -2,32 +2,39 @@
 
 
 
+
 //------------------------------UTILITIE_ITEMS------------------------------
 
 
 
+
+
 // GOLD
-ItemDisplay[GOLD<49]:
-ItemDisplay[GOLD<499 CLVL>17]:
-ItemDisplay[GOLD<4999 CLVL>79]:
+ItemDisplay[GOLD<4999]:
 // POTIONS
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) rvs]: %PURPLE%*%WHITE%35%
 ItemDisplay[rvs]:
 ItemDisplay[rvl]: %PURPLE%O %WHITE%Juice %PURPLE%O
-ItemDisplay[hp1 (MAPID>0 MAPID<39) DIFF=0]: %RED%*%WHITE%Heal 1
-ItemDisplay[hp2 (MAPID>0 MAPID<75) DIFF=0]: %RED%*%WHITE%Heal 2
-ItemDisplay[hp3 (MAPID>0 MAPID<103) DIFF=0]: %RED%*%WHITE%Heal 3
-ItemDisplay[hp4 (MAPID>0 MAPID<133) DIFF<2]: %RED%*%WHITE%Heal 4
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 hp1]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 hp2]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 hp2]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 hp3]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 hp3]: %RED%* %WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 hp4]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 hp4]: %RED%* %WHITE%hp
 ItemDisplay[FILTLVL>6 hp5]:
-ItemDisplay[hp5 (MAPID>0 MAPID<133)]: %RED%*%WHITE%Heal 5
-ItemDisplay[hp5 MAPID>132]: %RED%*%WHITE%H5
-ItemDisplay[mp1 (MAPID>0 MAPID<39) DIFF=0]: %BLUE%*%WHITE%Mana 1
-ItemDisplay[mp2 (MAPID>0 MAPID<75) DIFF=0]: %BLUE%*%WHITE%Mana 2
-ItemDisplay[mp3 (MAPID>0 MAPID<103) DIFF=0]: %BLUE%*%WHITE%Mana 3
-ItemDisplay[mp4 (MAPID>0 MAPID<133) DIFF<2]: %BLUE%*%WHITE%Mana 4
+ItemDisplay[(MAPID>0 MAPID<133) hp5]: %RED%* %WHITE%HP %RED%*
+ItemDisplay[MAPID>132 hp5]: %RED%*%WHITE%hp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 mp1]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 mp2]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 mp2]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 mp3]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 mp3]: %BLUE%* %WHITE%mp
+ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 mp4]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 mp4]: %BLUE%* %WHITE%mp
 ItemDisplay[FILTLVL>6 mp5]:
-ItemDisplay[mp5 (MAPID>0 MAPID<133)]: %BLUE%*%WHITE%Mana 5
-ItemDisplay[mp5 MAPID>132]: %BLUE%*%WHITE%M5
+ItemDisplay[(MAPID>0 MAPID<133) mp5]: %BLUE%* %WHITE%MP %BLUE%*
+ItemDisplay[MAPID>132 mp5]: %BLUE%*%WHITE%mp
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 // UTILITIES
 ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133) OR (MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158 OR MAPID=190)) yps]: %GREEN%*%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
@@ -38,23 +45,23 @@ ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) wms]: %YELLOW%*%WHITE%T{%GRAY%(Time 
 ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) tsc]: %DARK_GREEN%*%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[tsc]:
-ItemDisplay[isc CLVL<35]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
-ItemDisplay[isc CLVL>34]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL<20]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL>19]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome
 ItemDisplay[ibk]: %RED%ID Tome
 ItemDisplay[ear]: %ORANGE%%NAME%
-ItemDisplay[tpfs CLVL<10]: %RED%*%WHITE%F1
-ItemDisplay[tpfm CLVL<20]: %RED%*%WHITE%F2
-ItemDisplay[tpfl CLVL<40]: %RED%*%WHITE%F3
-ItemDisplay[tpgs CLVL<10]: %GREEN%*%WHITE%P1
-ItemDisplay[tpgm CLVL<20]: %GREEN%*%WHITE%P2
-ItemDisplay[tpgl CLVL<40]: %GREEN%*%WHITE%P3
-ItemDisplay[tpcs CLVL<10]: %BLUE%*%WHITE%C1
-ItemDisplay[tpcm CLVL<20]: %BLUE%*%WHITE%C2
-ItemDisplay[tpcl CLVL<40]: %BLUE%*%WHITE%C3
-ItemDisplay[tpls CLVL<10]: %YELLOW%*%WHITE%L1
-ItemDisplay[tplm CLVL<20]: %YELLOW%*%WHITE%L2
-ItemDisplay[tpll CLVL<40]: %YELLOW%*%WHITE%L3
+ItemDisplay[tpfs CLVL<5]: %RED%*%WHITE%F1
+ItemDisplay[tpfm CLVL<15]: %RED%*%WHITE%F2
+ItemDisplay[tpfl CLVL<30]: %RED%*%WHITE%F3
+ItemDisplay[tpgs CLVL<5]: %GREEN%*%WHITE%P1
+ItemDisplay[tpgm CLVL<15]: %GREEN%*%WHITE%P2
+ItemDisplay[tpgl CLVL<30]: %GREEN%*%WHITE%P3
+ItemDisplay[tpcs CLVL<5]: %BLUE%*%WHITE%C1
+ItemDisplay[tpcm CLVL<15]: %BLUE%*%WHITE%C2
+ItemDisplay[tpcl CLVL<30]: %BLUE%*%WHITE%C3
+ItemDisplay[tpls CLVL<5]: %YELLOW%*%WHITE%L1
+ItemDisplay[tplm CLVL<15]: %YELLOW%*%WHITE%L2
+ItemDisplay[tpll CLVL<30]: %YELLOW%*%WHITE%L3
 ItemDisplay[(tpfs OR tpfm OR tpgs OR tpgm OR tpcs OR tpcm OR tpls OR tplm OR tpfl OR tpgl OR tpcl OR tpll) CLVL>0]:
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
 ItemDisplay[pvpp]: %ORANGE%%NAME%
