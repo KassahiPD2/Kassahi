@@ -135,24 +135,6 @@ ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%j
 ItemDisplay[MAG cm3 LIFE>29 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FRW>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FHR>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-// HIGHLIGHTING JEWEL'S (GG'S)
-ItemDisplay[jew FHR>0 STAT91<0 RES>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (FHR>0 OR STAT91<0) RES>14]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (FHR>0 OR STAT91<0) (FRES+CRES+LRES+PRES>25) RES=0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (RES>14 OR STAT91<0 OR FHR>0) (STAT86>2 OR STAT138>2)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (STR+DEX>15) (FHR>0 OR STAT91<0 OR REPLIFE>4 OR STAT86>2 OR STAT138>2)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew STAT86>1 STAT138>1]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>34 (STAT121>34 OR STAT122>34)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM+STAT121+STAT122>69]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>37 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>25)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>29 EDAM<38 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>38)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>9 EDAM<30 (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>57)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>29 STAT501>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew (MINDMG+MINDMG+MINDMG+MAXDMG+MAXDMG>79)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew EDAM>30 IAS>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew RES>9 IAS>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-ItemDisplay[jew RES>6 MAEK=3]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%gg %RED%<< %ORANGE%<< %RED%<<%CL%%NAME%{%NAME%%CL%}
-
 // ------------------------------------------------------------------------------
 // Tool-tip Pts AMU / RING
 // ------------------------------------------------------------------------------
@@ -346,7 +328,6 @@ ItemDisplay[jew !UNI !SET ID LVLREQ<31 (STAT91=-15) (LIFE+LIFE+MANA+MANA+STR+STR
 ItemDisplay[(amu OR rin) !UNI !SET ID LVLREQ<31]: %NAME% LLD{%NAME%}%CONTINUE%
 
 // ------------------------------------------------------------------------------
-
 
 // HIGHLIGHTING AMULET'S (GG'S)
 // magic amulet skill
