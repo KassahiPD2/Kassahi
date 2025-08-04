@@ -273,4 +273,3 @@ ItemDisplay[NMAG !ID SHOP bwn]: %GREEN%Sander's Superstition%CL%%CONTINUE%%CL%%N
 ItemDisplay[NMAG !ID SHOP wsp]: %GREEN%Griswold's Redemption (T3)%CL%%NAME%%CONTINUE%
 
 ItemDisplay[NMAG !ID SHOP (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %CL%%NAME%
-
