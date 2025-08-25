@@ -12,6 +12,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 -   Under The Picture u Find More Info on The Filter Lvls
 
 ![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
+<img width="1351" height="697" alt="image" src="https://github.com/user-attachments/assets/09b23b4c-c36a-41ae-ba5d-837626438eb8" />
 
 === "Starter Filter Lvl (S11) Info"
 
