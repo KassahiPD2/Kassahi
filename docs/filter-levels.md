@@ -15,7 +15,8 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 
 === "Starter Filter Lvl (S11) Info"
 
-    ## Shows:
+    ## Medium/Extra/Extreme Lvls also shows on Starter Lvl
+     Shows:
     -   *35%, *A, *T, *TP
     -   **Rare:** Any Rare
     -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
