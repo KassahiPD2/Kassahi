@@ -3,20 +3,19 @@
 
 The Filter Levels Are Used to Determine The Level of Filtering That is Applied to The Loot Filter
 
--   Filter Lvl 1-4: Medium Strictness, Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
--   Filter Lvl 5-8: Extra Strictness, Used For People That Like a More Balanced Strictness
--   Filter Lvl 9-12: Extra Strictness, The Most Strict Lvl For People That Like a More Zoomer Strictness
--   All 3 Strictness Has Options For All Pots, All Juvs on Medium & Big Juvs on Higher Strictness, That Includes Options to Show Flawless or Not
+-   Filter Lvl 1: Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
+-   Filter Lvl 2, 3, 7, 8: Medium Strictness, The Differences in Lvls Are Potions & Flawless Gems
+-   Filter Lvl 4, 5, 6, 9, 10, 11: Extra Strictness, The Differences in Lvls Are Potions & Flawless Gems
+-   Filter Lvl 12: Extreme Strictness, The Most Strict Lvl
 
+-   w/ (F) = With Flawless Gems, (sF) = With Small Flawless Gems, w/o (F) = Without Flawless Gems
 -   Under The Picture u Find More Info on The Filter Lvls
 
-<img width="1351" height="697" alt="image" src="https://github.com/user-attachments/assets/09b23b4c-c36a-41ae-ba5d-837626438eb8" />
+![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 
-=== "Lvling up Stuff Info"
+=== "Starter Filter Lvl (S11) Info"
 
-    ## Show:
-    -   Stuff That Shows Within Norm/NM/Hell Only
-    -   Medium/Extra/Extreme Lvls also shows on Starter Lvl
+    ## Shows:
     -   *35%, *A, *T, *TP
     -   **Rare:** Any Rare
     -   **Non Eth Mag:** Mithril Point, Flying Axe Families, Amulets, Rings, Arrows, Bolts, Small Crescent, Ettin Axe, Berserker Axe, Feral Axe, Silver-edged Axe, Decapitator, Champion Axe, Glorious Axe, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Conquest Sword, Cryptic Sword, Legend Sword, Highland Blade, Balrog Blade, Champion Sword, Colossus Sword, Colossus Blade, Exceptional Chests
@@ -154,7 +153,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Medium Strictness Info"
 
     ## Shows:
-    -   Extra/Extreme Lvls also shows on Medium Lvl
     -   *35%
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name
@@ -184,7 +182,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Extra Strictness Info"
 
     ## Shows:
-    -   Extreme Lvls also shows on Extra Lvl
     -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name
     -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Flawless Skill ''+ o +'' Name +Notification
