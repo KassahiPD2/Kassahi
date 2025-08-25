@@ -2324,7 +2324,7 @@ ItemDisplay[MAG !ID (cm1 OR cm3) ILVL>89]: %PX-20%%DOT-21%%MAP-97%%PURPLE%+%WHIT
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%+%WHITE%+   %NAME%   %WHITE%+%PURPLE%+
 ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) MAG !ID cm2]: %DOT-97%%PURPLE%+  %NAME%  %PURPLE%+
 ItemDisplay[MAG !ID cm2 ILVL>89]: %NAME%
-
+ 
 // Druid
 // Good Crafting/ID Bases
 ItemDisplay[MAG !ID ETH DRUID (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %PX-60%%DOT-21%%MAP-97%%RED%+%ORANGE%+  %NAME%  %ORANGE%+%RED%+
