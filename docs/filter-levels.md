@@ -154,6 +154,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Medium Strictness Info"
 
     ## Shows:
+    -   Extra/Extreme Lvls also shows on Medium Lvl
     -   *35%
     -   **Filter Lvl 2, 7:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 3, 8:** Flawless Gems '' o '' Name
@@ -183,6 +184,7 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Extra Strictness Info"
 
     ## Shows:
+    -   Extreme Lvls also shows on Extra Lvl
     -   **Filter Lvl 4, 9:** Flawless Gems ''Full'' Name +Notification
     -   **Filter Lvl 5, 10:** Flawless Gems '' o '' Name
     -   **Filter Lvl 4, 5, 6, 9, 10, 11:** Flawless Skill ''+ o +'' Name +Notification
