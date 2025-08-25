@@ -3,20 +3,19 @@
 
 The Filter Levels Are Used to Determine The Level of Filtering That is Applied to The Loot Filter
 
--   Filter Lvl 1: Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
--   Filter Lvl 2, 3, 7, 8: Medium Strictness, The Differences in Lvls Are Potions & Flawless Gems
--   Filter Lvl 4, 5, 6, 9, 10, 11: Extra Strictness, The Differences in Lvls Are Potions & Flawless Gems
--   Filter Lvl 12: Extreme Strictness, The Most Strict Lvl
+-   Filter Lvl 1-4: Medium Strictness, Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
+-   Filter Lvl 5-8: Extra Strictness, Used For People That Like a More Balanced Strictness
+-   Filter Lvl 9-12: Extra Strictness, The Most Strict Lvl For People That Like a More Zoomer Strictness
+-   All 3 Strictness Has Options For All Pots, All Juvs on Medium & Big Juvs on Higher Strictness, That Includes Options to Show Flawless or Not
 
--   w/ (F) = With Flawless Gems, (sF) = With Small Flawless Gems, w/o (F) = Without Flawless Gems
 -   Under The Picture u Find More Info on The Filter Lvls
 
-![Filter Lvls](https://github.com/user-attachments/assets/72d6e025-3df6-4b53-a557-11aba9a27840)
 <img width="1351" height="697" alt="image" src="https://github.com/user-attachments/assets/09b23b4c-c36a-41ae-ba5d-837626438eb8" />
 
-=== "Starter Filter Lvl (S11) Info"
+=== "Lvling up Stuff Info"
 
     ## Show:
+    -   Stuff That Shows Within Norm/NM/Hell Only
     -   Medium/Extra/Extreme Lvls also shows on Starter Lvl
     -   *35%, *A, *T, *TP
     -   **Rare:** Any Rare
