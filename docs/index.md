@@ -4,7 +4,7 @@
 
     Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
-    i highly recommend using 3DFX under graphics in the PD2 Launcher in options
+    i highly recommend using 3DFX under graphics in the PD2 Launcher in options, if u wanna use my filters as im using symbols that needs the HD Text going forward (25/08/25)
 <img width="274" height="111" alt="image" src="https://github.com/user-attachments/assets/df1ed684-bf95-45bf-b08d-038c3f80e727" />
 <img width="105" height="101" alt="image" src="https://github.com/user-attachments/assets/42be9fe7-adb3-42fc-8255-72854bf42c3d" />
 
