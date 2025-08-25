@@ -4,6 +4,10 @@
 
     Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
+    i highly recommend using 3DFX under graphics in the PD2 Launcher in options
+<img width="274" height="111" alt="image" src="https://github.com/user-attachments/assets/df1ed684-bf95-45bf-b08d-038c3f80e727" />
+<img width="782" height="578" alt="image" src="https://github.com/user-attachments/assets/779219f9-f19a-43d1-a704-66a52ef170ca" />
+
     Hiimmark that has his own loot filters also helps me with updates
 
     Currently supports Season 11.
