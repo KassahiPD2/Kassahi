@@ -1,0 +1,3 @@
+CHCP 1252
+
+type 01-header.filter 01-version.filter 01-alias_hyper.filter 02-item-names.filter 03-item-stat-decorators.filter 04-utility-items.filter 05-gems.filter 05-runename.filter 05-runes-hyper.filter 05-runes-tooltip.filter 06-pd2items.filter 06-pd2items-rare.filter 07-maps.filter 08-UNID-ALIAS-HYPER.filter 08-UNID.filter 09-item-descriptions.filter 15-gheed.filter 16-item-highlights.filter 19-LVLING.filter 20-LLD.filter 21-item-stat-names.filter 22-nmag-bases.filter 23-end-hides.filter > "..\Testing-DO-NOT-USE.filter"
