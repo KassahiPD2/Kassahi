@@ -7,91 +7,91 @@
 
 
 
- 
+
 
 // GOLD
 ItemDisplay[GOLD<4999]:
 // POTIONS
-ItemDisplay[(FILTLVL=1 OR FILTLVL=2 OR FILTLVL=3 OR FILTLVL=7 OR FILTLVL=8) rvs]: %PURPLE%*%WHITE%35%
+ItemDisplay[((FILTLVL~1-6) OR (FILTLVL~9-10)) rvs]: %PURPLE%° %WHITE%35%
 ItemDisplay[rvs]:
-ItemDisplay[rvl]: %PURPLE%O %WHITE%Juice %PURPLE%O
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 hp1]: %RED%* %WHITE%hp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 hp2]: %RED%* %WHITE%HP %RED%*
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 hp2]: %RED%* %WHITE%hp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 hp3]: %RED%* %WHITE%HP %RED%*
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 hp3]: %RED%* %WHITE%hp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 hp4]: %RED%* %WHITE%HP %RED%*
-ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 hp4]: %RED%* %WHITE%hp
-ItemDisplay[FILTLVL>6 hp5]:
-ItemDisplay[(MAPID>0 MAPID<133) hp5]: %RED%* %WHITE%HP %RED%*
-ItemDisplay[MAPID>132 hp5]: %RED%*%WHITE%hp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<18 mp1]: %BLUE%* %WHITE%mp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<39) CLVL<25 mp2]: %BLUE%* %WHITE%MP %BLUE%*
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<25 mp2]: %BLUE%* %WHITE%mp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<75) CLVL<30 mp3]: %BLUE%* %WHITE%MP %BLUE%*
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<30 mp3]: %BLUE%* %WHITE%mp
-ItemDisplay[DIFF=0 (MAPID>0 MAPID<103) CLVL<80 mp4]: %BLUE%* %WHITE%MP %BLUE%*
-ItemDisplay[DIFF<2 (MAPID>0 MAPID<133) CLVL<80 mp4]: %BLUE%* %WHITE%mp
-ItemDisplay[FILTLVL>6 mp5]:
-ItemDisplay[(MAPID>0 MAPID<133) mp5]: %BLUE%* %WHITE%MP %BLUE%*
-ItemDisplay[MAPID>132 mp5]: %BLUE%*%WHITE%mp
-ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
+ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°
+ItemDisplay[DIFF=0 CLVL<18 (MAPID>0 MAPID<39) hp1]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<39) hp2]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<75) hp2]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<75) hp3]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<103) hp3]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<80 (MAPID>0 MAPID<103) hp4]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF<2 CLVL<80 (MAPID>0 MAPID<133) hp4]: %RED%· %WHITE%h
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) (MAPID>0 MAPID<133) hp5]: %RED%° %WHITE%H %RED%°
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) MAPID>132 hp5]: %RED%°%WHITE% h
+ItemDisplay[hp5]:
+ItemDisplay[DIFF=0 CLVL<18 (MAPID>0 MAPID<39) mp1]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<39) mp2]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<75) mp2]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<75) mp3]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<103) mp3]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<80 (MAPID>0 MAPID<103) mp4]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF<2 CLVL<80 (MAPID>0 MAPID<133) mp4]: %BLUE%· %WHITE%m
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) (MAPID>0 MAPID<133) mp5]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) MAPID>132 mp5]: %BLUE%°%WHITE% m
+ItemDisplay[mp5]:
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4)]:
 // UTILITIES
-ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133) OR (MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158 OR MAPID=190)) yps]: %GREEN%*%WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133) OR (MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158 OR MAPID=190)) yps]: %GREEN%° %WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
 ItemDisplay[yps]:
-ItemDisplay[vps CLVL<20]: %SAGE%*%WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
+ItemDisplay[vps CLVL<20]: %SAGE%· %WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
-ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) wms]: %YELLOW%*%WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) wms]: %YELLOW%· %WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[FILTLVL=1 ((MAPID>0 MAPID<133)) tsc]: %DARK_GREEN%*%BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
+ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) tsc]: %DARK_GREEN%· %BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[tsc]:
-ItemDisplay[isc CLVL<20]: %DARK_GREEN%*%RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL<20]: %DARK_GREEN%· %RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[isc CLVL>19]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[tbk]: %BLUE%TP Tome
 ItemDisplay[ibk]: %RED%ID Tome
 ItemDisplay[ear]: %ORANGE%%NAME%
-ItemDisplay[tpfs CLVL<5]: %RED%*%WHITE%F1
-ItemDisplay[tpfm CLVL<15]: %RED%*%WHITE%F2
-ItemDisplay[tpfl CLVL<30]: %RED%*%WHITE%F3
-ItemDisplay[tpgs CLVL<5]: %GREEN%*%WHITE%P1
-ItemDisplay[tpgm CLVL<15]: %GREEN%*%WHITE%P2
-ItemDisplay[tpgl CLVL<30]: %GREEN%*%WHITE%P3
-ItemDisplay[tpcs CLVL<5]: %BLUE%*%WHITE%C1
-ItemDisplay[tpcm CLVL<15]: %BLUE%*%WHITE%C2
-ItemDisplay[tpcl CLVL<30]: %BLUE%*%WHITE%C3
-ItemDisplay[tpls CLVL<5]: %YELLOW%*%WHITE%L1
-ItemDisplay[tplm CLVL<15]: %YELLOW%*%WHITE%L2
-ItemDisplay[tpll CLVL<30]: %YELLOW%*%WHITE%L3
+ItemDisplay[tpfs CLVL<5]: %RED%· %WHITE%F
+ItemDisplay[tpfm CLVL<15]: %RED%· %WHITE%F
+ItemDisplay[tpfl CLVL<30]: %RED%· %WHITE%F
+ItemDisplay[tpgs CLVL<5]: %GREEN%· %WHITE%P
+ItemDisplay[tpgm CLVL<15]: %GREEN%· %WHITE%P
+ItemDisplay[tpgl CLVL<30]: %GREEN%· %WHITE%P
+ItemDisplay[tpcs CLVL<5]: %BLUE%· %WHITE%C
+ItemDisplay[tpcm CLVL<15]: %BLUE%· %WHITE%C
+ItemDisplay[tpcl CLVL<30]: %BLUE%· %WHITE%C
+ItemDisplay[tpls CLVL<5]: %YELLOW%· %WHITE%L
+ItemDisplay[tplm CLVL<15]: %YELLOW%· %WHITE%L
+ItemDisplay[tpll CLVL<30]: %YELLOW%· %WHITE%L
 ItemDisplay[(tpfs OR tpfm OR tpgs OR tpgm OR tpcs OR tpcm OR tpls OR tplm OR tpfl OR tpgl OR tpcl OR tpll) CLVL>0]:
 ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
 ItemDisplay[pvpp]: %ORANGE%%NAME%
 // QUEST ITEMS (ACT 1)
-ItemDisplay[bks]: %MAP-51%Scroll of Inifuss %RED%+{%TAN%Now Rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn Bark of The Sacred Tree}
-ItemDisplay[bkd]: %MAP-51%Key to the Cairn Stones %RED%+{%TAN%Find The Sage Deckard Cain%NL%Behest a Demigod Imp, Rakanishu%NL%A portal to Tristram Awaits}
-ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%+{%TAN%Bestowed to The Sisters of The Sightless Eye%NL%Enchanted by Ancient Horadric Mages%NL%Crafted in Necessity of The Sin War}
+ItemDisplay[bks]: %MAP-51%Scroll of Inifuss %RED%•{%TAN%Now Rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn Bark of The Sacred Tree}
+ItemDisplay[bkd]: %MAP-51%Key to the Cairn Stones %RED%•{%TAN%Find The Sage Deckard Cain%NL%Behest a Demigod Imp, Rakanishu%NL%A portal to Tristram Awaits}
+ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%•{%TAN%Bestowed to The Sisters of The Sightless Eye%NL%Enchanted by Ancient Horadric Mages%NL%Crafted in Necessity of The Sin War}
 // QUEST ITEMS (ACT 2)
-ItemDisplay[ass]: %MAP-51%Book of Skill %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
+ItemDisplay[ass]: %MAP-51%Book of Skill %RED%•{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
 ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
-ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%+{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
-ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%+{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
-ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
+ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%•{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
+ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%•{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
+ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%•{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
 // QUEST ITEMS (ACT 3)
-ItemDisplay[j34]: %MAP-51%Jade Figurine %RED%+{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
-ItemDisplay[g34]: %MAP-51%Golden Bird %RED%+{%TAN%Death is The Life After%NL%The Ashes of Ku Y'leh%NL%An Urn of Immortality}
-ItemDisplay[xyz]: %MAP-51%Potion of Life %RED%+{%GOLD%Right Click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is Composed of Nows.}
-ItemDisplay[g33]: %MAP-51%Gidbinn %RED%+{%TAN%Lost in Fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point Edged of Sorcery}
-ItemDisplay[qey]: %MAP-51%Khalim's Eye %RED%+{%TAN%Conception is Evoked Through The Medium of The Eye.}
-ItemDisplay[qbr]: %MAP-51%Khalim's Brain %RED%+{%TAN%The Brain is a Commodity Used to Fertilize Ideas.}
-ItemDisplay[qhr]: %MAP-51%Khalim's Heart %RED%+{%TAN%The Heart Has Its Reasons of Which Reason Knows Nothing.}
-ItemDisplay[qf1]: %MAP-51%Khalim's Flail %RED%+{%TAN%Que-Hegan of Zakarum%NL%Khalim The Uncorruptible}
-ItemDisplay[qf2]: %MAP-51%Khalim's Will %RED%+{%TAN%Will is to Grace as The Horse is to The Rider.}
-ItemDisplay[bbb]: %MAP-51%Lam Esen's Tome %RED%+{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within Can be Known:}
-ItemDisplay[mss]: Mephisto's Soulstone %RED%+{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
+ItemDisplay[j34]: %MAP-51%Jade Figurine %RED%•{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
+ItemDisplay[g34]: %MAP-51%Golden Bird %RED%•{%TAN%Death is The Life After%NL%The Ashes of Ku Y'leh%NL%An Urn of Immortality}
+ItemDisplay[xyz]: %MAP-51%Potion of Life %RED%•{%GOLD%Right Click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is Composed of Nows.}
+ItemDisplay[g33]: %MAP-51%Gidbinn %RED%•{%TAN%Lost in Fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point Edged of Sorcery}
+ItemDisplay[qey]: %MAP-51%Khalim's Eye %RED%•{%TAN%Conception is Evoked Through The Medium of The Eye.}
+ItemDisplay[qbr]: %MAP-51%Khalim's Brain %RED%•{%TAN%The Brain is a Commodity Used to Fertilize Ideas.}
+ItemDisplay[qhr]: %MAP-51%Khalim's Heart %RED%•{%TAN%The Heart Has Its Reasons of Which Reason Knows Nothing.}
+ItemDisplay[qf1]: %MAP-51%Khalim's Flail %RED%•{%TAN%Que-Hegan of Zakarum%NL%Khalim The Uncorruptible}
+ItemDisplay[qf2]: %MAP-51%Khalim's Will %RED%•{%TAN%Will is to Grace as The Horse is to The Rider.}
+ItemDisplay[bbb]: %MAP-51%Lam Esen's Tome %RED%•{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within Can be Known:}
+ItemDisplay[mss]: Mephisto's Soulstone %RED%•{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
 // QUEST ITEMS (ACT 4)
-ItemDisplay[hfh]: %MAP-51%Hellforge Hammer %RED%+{%TAN%Forger of Shadowfang%NL%Legend of The Burning Hells}
+ItemDisplay[hfh]: %MAP-51%Hellforge Hammer %RED%•{%TAN%Forger of Shadowfang%NL%Legend of The Burning Hells}
 // QUEST ITEMS (ACT 5)
-ItemDisplay[ice]: %MAP-51%Malah's Potion %RED%+{%TAN%What is Man But a Mass of Thawing Clay?}
-ItemDisplay[tr2]: %MAP-51%Scroll of Resistance %RED%+{%GOLD%Right Click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where There is Power, There is Resistance.}
+ItemDisplay[ice]: %MAP-51%Malah's Potion %RED%•{%TAN%What is Man But a Mass of Thawing Clay•}
+ItemDisplay[tr2]: %MAP-51%Scroll of Resistance %RED%•{%GOLD%Right Click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where There is Power, There is Resistance.}
 
 // Pathing hints
 ItemDisplay[(key OR rkey) MAPID=1]: %NAME%{%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%Rogue Encampment%CL%%NAME%}%CONTINUE%
@@ -264,5 +264,6 @@ ItemDisplay[(key OR rkey) MAPID<132]:%NAME%{%BLUE%maxroll.gg/d2/resources/map-re
 
 // Keys Final Display
 ItemDisplay[key ASSASSIN]:{%NAME%}
-ItemDisplay[key CLVL<30]: %DARK_GREEN%*%WHITE%Key{%NAME%}
+ItemDisplay[key CLVL<30]: %DARK_GREEN%· %WHITE%Key{%NAME%}
 ItemDisplay[key]:{%NAME%}
+

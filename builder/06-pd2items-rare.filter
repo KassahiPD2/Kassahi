@@ -1,7 +1,11 @@
  
 
 
+
+
 //------------------------------PROJECT_DIABLO_2_ULTRA_RARE------------------------------
+
+
 
 
 
@@ -13,3 +17,4 @@ ItemDisplay[llmr]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Nev
 ItemDisplay[rkey]: %GG_RKEY_LEFT%%NAME%%GG_RKEY_RIGHT%{%NAME%}
 ItemDisplay[rtp]: %GG_RTP_LEFT%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
 ItemDisplay[rid]: %GG_RID_LEFT%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
+

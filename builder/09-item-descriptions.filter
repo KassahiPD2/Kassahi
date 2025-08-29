@@ -2,7 +2,10 @@
 
 
 
+
 //------------------------------DESCRIPTION_INFORMATION------------------------------
+
+
 
 
 
@@ -2384,3 +2387,4 @@ ItemDisplay[SET ID !EQUIPPED xmg FCR>19]: %NAME%{%NL%%GRAY%4:%GREEN%20mtr%CL%%NA
 
 // GHEED FORTUNE
 ItemDisplay[UNI cm3]: %NAME%{%NAME%+69 to Niko Niko Nii Skills}%CONTINUE%
+

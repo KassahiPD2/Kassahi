@@ -1,7 +1,11 @@
  
 
 
+
+
 //------------------------------LLD------------------------------
+
+
 
 
 
@@ -380,3 +384,4 @@ ItemDisplay[CRAFT (9pi OR 9s9 OR 9gl OR 9ts OR ama OR 9ja) ED>139 STAT360=0 LVLR
 ItemDisplay[CRAFT (9pi OR 9s9 OR 9gl OR 9ts OR ama OR 9ja) ((ED>169) OR (ED>149 ((IAS>19) OR (MAXDMG>19)))) STAT360>0 LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw OR 8hx OR 8sb) ((ED>179 STAT360>0 ((IAS>19) OR (MAXDMG>19))) OR (ED>179 STAT360>0 IAS<20 SOCK>2) OR (ED>209 STAT360>0 IAS<20 SOCK<3)) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Usable%NL%%NAME%}
 ItemDisplay[CRAFT (8lw OR 8rx OR am6 OR 8sw OR 8hx OR 8sb) ((ED>169 STAT360=0) OR (STAT360=0 (TABSK0>2 OR (CLSK0>0 TABSK0>1)) (IAS>19 OR FRW>0)) OR (STAT360=0 (TABSK0>3 OR (CLSK0>0 TABSK0>2)))) (!ETH OR (ETH REPAIR)) LVLREQ<31]: %TEAL%<> %ORANGE%%NAME%{%TAN%Low Level Dueling Corruptible%NL%%NAME%}
+
