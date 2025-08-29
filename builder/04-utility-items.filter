@@ -266,3 +266,4 @@ ItemDisplay[(key OR rkey) MAPID<132]:%NAME%{%BLUE%maxroll.gg/d2/resources/map-re
 ItemDisplay[key ASSASSIN]:{%NAME%}
 ItemDisplay[key CLVL<30]: %DARK_GREEN%· %WHITE%Key{%NAME%}
 ItemDisplay[key]:{%NAME%}
+

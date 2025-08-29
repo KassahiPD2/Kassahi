@@ -107,3 +107,4 @@ ItemDisplay[crfh]: %TEAL%•%BLUE%••   %NAME%   %BLUE%••%TEAL%•{%NAME%
 ItemDisplay[crfv]: %GOLD%•%ORANGE%••   %NAME%   %ORANGE%••%GOLD%•{%NAME%}%CONTINUE%
 ItemDisplay[crfu]: %SAGE%•%YELLOW%••   %NAME%   %YELLOW%••%SAGE%•{%NAME%}%CONTINUE%
 ItemDisplay[crfp]: %LIGHT_GRAY%•%WHITE%••   %NAME%   %WHITE%••%LIGHT_GRAY%•{%NAME%}%CONTINUE%
+

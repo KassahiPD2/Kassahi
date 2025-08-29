@@ -15,3 +15,4 @@ ItemDisplay[(lbox OR imrn) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAP
 
 // High PD2 Items
 ItemDisplay[(lsvl OR llmr OR rkey OR rtp OR rid) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Big Mystery%CONTINUE%
+

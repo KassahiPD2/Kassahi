@@ -60,3 +60,4 @@ ItemDisplay[gpbs]: %NAME%{%WHITE%Boots: %ORANGE%Ral %WHITE%Belt: %ORANGE%Tal %WH
 ItemDisplay[gpys]: %NAME%{%WHITE%Boots: %ORANGE%Io %WHITE%Belt: %ORANGE%El %WHITE%Weapon: %ORANGE%Shael%NL%%WHITE%Chest: %ORANGE%Eld %WHITE%Shield: %ORANGE%Dol %WHITE%Gloves: %ORANGE%Hel%NL%%WHITE%Amulet: %ORANGE%Ko %WHITE%Ring: %ORANGE%Lum %WHITE%Helm: %ORANGE%Tir%NL%%YELLOW%Bountiful %WHITE%Crafting Recipes: %YELLOW%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %ORANGE%El %WHITE%Belt: %ORANGE%Eld %WHITE%Weapon: %ORANGE%Shael%NL%%WHITE%Chest: %ORANGE%Tir %WHITE%Shield: %ORANGE%Sol %WHITE%Gloves: %ORANGE%Io%NL%%WHITE%Amulet: %ORANGE%Dol %WHITE%Ring: %ORANGE%Hel %WHITE%Helm: %ORANGE%Lum%NL%%GRAY%Vampiric %WHITE%Crafting Recipes: %GRAY%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
+
