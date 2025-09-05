@@ -2,11 +2,11 @@
 
 !!! warning "Work in progress"
 
-    Welcome to my PD2 loot filters, They are more or less in a constant state of development.
-
     *filters are updated for S11 thx to Mark*, and My filters need HD Text going forward, 3DFX under graphics in the PD2 Launcher in options (25/08/25)
 
     Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
+
+ ##Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
 The loot filters is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
 
