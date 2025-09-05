@@ -5,13 +5,13 @@
 **Smaller & Less Vibrant Highlights**
 
 -   **Meme.Filter**: Got a lot of funny names (open for more suggestions)
--   **Mystery.Filter**: GG items Called Mystery (for another layer of mysteriousness)
+-   **Mystery.Filter**: GG items called mystery (for another layer of mysteriousness)
 -   **Regular.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
 **Bigger & More Vibrant Highlights**
 
 -   **Meme-Hyper.Filter**: Got a lot of funny names (open for more suggestions)
--   **Mystery-Hyper.Filter**: GG items Called Mystery (for another layer of mysteriousness)
+-   **Mystery-Hyper.Filter**: GG items called mystery (for another layer of mysteriousness)
 -   **Regular-Hyper.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
 -   Click Under Here to See The Difference
