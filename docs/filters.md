@@ -14,7 +14,7 @@
 -   **Mystery-Hyper.Filter**: GG items called mystery (for another layer of mysteriousness)
 -   **Regular-Hyper.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
-**Click Under Here to See The Difference**
+**Click under here to see the difference in highlights**
 
 === "Hyper"
 
