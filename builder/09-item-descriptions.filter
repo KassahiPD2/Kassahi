@@ -1445,13 +1445,13 @@ ItemDisplay[NMAG SOCK=6 STAFF !RW]: %NAME%{%GOLD%Obsession:%RED%Zod, %ORANGE%Ist
 ItemDisplay[NMAG SOCK=6 WEAPON !RW]: %NAME%{%GOLD%Breath of the Dying:%RED%Vex, %ORANGE%Hel, El, Eld, %RED%Zod, %ORANGE%Eth%CL%%NAME%}%CONTINUE%
 
 //Notes about socketing recipes
-ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG !SHOP]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Thul, %YELLOW%O:}%CONTINUE%
-ItemDisplay[WEAPON !INF !SUP SOCK=0 NMAG !SHOP]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Amn, %PURPLE%O:}%CONTINUE%
-ItemDisplay[(HELM OR CIRC) !INF !SUP SOCK=0 NMAG !SHOP]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Thul, %BLUE%O:}%CONTINUE%
-ItemDisplay[SHIELD !INF !SUP SOCK=0 NMAG !SHOP]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Amn, %RED%O:}%CONTINUE%
+ItemDisplay[CHEST !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Thul, %YELLOW%O:}%CONTINUE%
+ItemDisplay[WEAPON !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Amn, %PURPLE%O:}%CONTINUE%
+ItemDisplay[(HELM OR CIRC) !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Thul, %BLUE%O:}%CONTINUE%
+ItemDisplay[SHIELD !INF !SUP SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Amn, %RED%O:}%CONTINUE%
 
 //Notes about socketing INF/SUP items
-ItemDisplay[(CHEST OR WEAPON OR HELM OR CIRC OR SHIELD) (INF OR SUP) NMAG SOCK=0 !SHOP]: %NAME%{%NAME%%CL%%WHITE%possible os: }%CONTINUE%
+ItemDisplay[(CHEST OR WEAPON OR HELM OR CIRC OR SHIELD) (INF OR SUP) NMAG SOCK=0]: %NAME%{%NAME%%CL%%WHITE%possible os: }%CONTINUE%
 
 //Notes about Max Sockets in !INF/!SUP NMAG items
 //helmets & circlets
