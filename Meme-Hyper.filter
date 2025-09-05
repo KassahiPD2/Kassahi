@@ -4044,7 +4044,7 @@ ItemDisplay[NORM ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%nor}%CONTINUE%
 ItemDisplay[EXC ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%exc}%CONTINUE%
 ItemDisplay[ELT ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%eli}%CONTINUE%
 
-// BASE VERSION (ITEMS)
+// Potion Slots (ITEMS)
 ItemDisplay[lbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%8}%CONTINUE%
 ItemDisplay[vbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%8}%CONTINUE%
 ItemDisplay[mbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%12}%CONTINUE%
