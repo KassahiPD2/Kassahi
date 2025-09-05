@@ -17,6 +17,7 @@
 **Click under here to see the difference in highlights**
 
 === "Meme versions"
+
 === "Mystery versions"
 
     ![image](https://github.com/user-attachments/assets/750d23f1-e604-463f-afa7-543f0ae72dd9)
