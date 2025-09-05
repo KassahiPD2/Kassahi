@@ -4055,6 +4055,23 @@ ItemDisplay[NORM ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%nor}%CONTINUE%
 ItemDisplay[EXC ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%exc}%CONTINUE%
 ItemDisplay[ELT ID]: %NAME%{%NAME%%CL%%WHITE%base: %DARK_GREEN%eli}%CONTINUE%
 
+// BASE VERSION (ITEMS)
+ItemDisplay[lbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%8}%CONTINUE%
+ItemDisplay[vbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%8}%CONTINUE%
+ItemDisplay[mbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%12}%CONTINUE%
+ItemDisplay[tbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%12}%CONTINUE%
+ItemDisplay[hbl ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[zlb ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[zvb ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[zmb ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[ztb ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[zhb ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[ulc ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[uvc ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[umc ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[utc ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+ItemDisplay[uhc ID]: %NAME%{%NAME%, %WHITE%ps: %DARK_GREEN%16}%CONTINUE%
+
 // Base Weapons Avg Dmg
 // Non Eth Axes
 ItemDisplay[!ETH hax]: %NAME%{%NAME%, %CORAL%avg:%WHITE%4.5}%CONTINUE%
