@@ -10,7 +10,7 @@
  
 -   2) <img width="1246" height="680" alt="image" src="https://github.com/user-attachments/assets/41781d30-b106-4d4e-9d9a-76f28e7b92ca" />
     
-           Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
+-     Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
 
 
  ## Welcome to my PD2 loot filters, They are more or less in a constant state of development.
