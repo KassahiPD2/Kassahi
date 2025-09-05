@@ -12,7 +12,7 @@
 
 -   **Meme-Hyper.Filter**: Got a lot of funny names (open for more suggestions)
 -   **Mystery-Hyper.Filter**: GG items Called Mystery (for another layer of mysteriousness)
--   **Regular-Hyper.Filter**: Regular Theme
+-   **Regular-Hyper.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
 -   Click Under Here to See The Difference
 
