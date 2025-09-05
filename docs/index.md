@@ -11,6 +11,7 @@
 
 
     Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
+<img width="1246" height="680" alt="image" src="https://github.com/user-attachments/assets/ccb2f104-1a35-4fd2-a405-bed236f37dd4" />
 
  ## Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
