@@ -3,6 +3,7 @@
 
 ## Types of filters
 **Smaller & Less Vibrant Highlights**
+
 -   **Meme.Filter**: +Suprising Names
 -   **Mystery.Filter**: +Suprising Names
 -   **Regular.Filter**: -Suprising Names
