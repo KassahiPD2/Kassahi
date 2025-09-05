@@ -6,8 +6,9 @@
     
 -    Also here's 2 ways to use my filters as local because I'm using specifics symbols
     
-    1) Manually copy the file from (''ProjectD2\filters\online'') into (ProjectD2\filters\local.)
-    Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
+    1) Manually copy the file from **ProjectD2\filters\online** into **ProjectD2\filters\local.**
+    
+-    Note: My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
 
  ## Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
