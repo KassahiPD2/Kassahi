@@ -12,7 +12,6 @@
  
 -   2) <img width="1246" height="680" alt="image" src="https://github.com/user-attachments/assets/41781d30-b106-4d4e-9d9a-76f28e7b92ca" />
 
-
 **Welcome to my PD2 loot filters, They are more or less in a constant state of development.**
 
 The loot filters is designed to help you quickly identify valuable items and hide items that are not worth picking up. The filter is designed to be easy to read and understand, with clear visual cues to help you quickly identify items.
