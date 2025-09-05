@@ -1,16 +1,17 @@
 
 # Filters
 
-## Types of filters
+## Type of filters
 **Smaller & Less Vibrant Highlights**
 
--   **Meme.Filter**: +Suprising Names
--   **Mystery.Filter**: +Suprising Names
--   **Regular.Filter**: -Suprising Names
+-   **Meme.Filter**: Meme Theme
+-   **Mystery.Filter**: Mystery Theme
+-   **Regular.Filter**: Regular Theme
+**Bigger & More Vibrant Highlights**
 
--   **Meme-Hyper.Filter**: Bigger & More Vibrant Highlights (+Suprising Names)
--   **Mystery-Hyper.Filter**: Bigger & More Vibrant Highlights (+Suprising Names)
--   **Regular-Hyper.Filter**: Bigger & More Vibrant Highlights (-Suprising Names)
+-   **Meme-Hyper.Filter**: Meme Theme
+-   **Mystery-Hyper.Filter**: Mystery Theme
+-   **Regular-Hyper.Filter**: Regular Theme
 
 -   Click Under Here to See The Difference
 
