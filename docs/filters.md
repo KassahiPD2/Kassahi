@@ -7,6 +7,7 @@
 -   **Meme.Filter**: Meme Theme
 -   **Mystery.Filter**: Mystery Theme
 -   **Regular.Filter**: Regular Theme
+
 **Bigger & More Vibrant Highlights**
 
 -   **Meme-Hyper.Filter**: Meme Theme
