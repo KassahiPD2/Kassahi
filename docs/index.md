@@ -4,7 +4,7 @@
 
     Welcome to my PD2 loot filters, They are more or less in a constant state of development.
 
-    ''filters are updated for S11 thx to Mark'', and My filters need HD Text going forward, 3DFX under graphics in the PD2 Launcher in options (25/08/25)
+    *filters are updated for S11 thx to Mark*, and My filters need HD Text going forward, 3DFX under graphics in the PD2 Launcher in options (25/08/25)
 
     Note: My Github isnt 100% up-to-date with my filters in terms of drops and qol info, im kinda to lazy to keep it 100% udpated, but feel free to ask in discord for help or info on anything
 
