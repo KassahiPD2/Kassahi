@@ -2407,7 +2407,7 @@ ItemDisplay[FILTLVL~1-4 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6
 // Amazon
 // Class Items Starter/Medium Strictness
 ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON ZON]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[(FILTLVL~1-4 RARE !ID AMAZON (ZON OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%•
 // Every Class Item Highlights For Opposite Classes Starter/Medium Strictness
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
 ItemDisplay[FILTLVL~1-4 MAG !ID ETH (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
