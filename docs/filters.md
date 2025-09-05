@@ -4,14 +4,14 @@
 ## Type of filters
 **Smaller & Less Vibrant Highlights**
 
--   **Meme.Filter**: Meme Theme
--   **Mystery.Filter**: Mystery Theme
--   **Regular.Filter**: Regular Theme
+-   **Meme.Filter**: Got a lot of funny names (open for more suggestions)
+-   **Mystery.Filter**: GG items Called Mystery (for another layer of mysteriousness)
+-   **Regular.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
 **Bigger & More Vibrant Highlights**
 
--   **Meme-Hyper.Filter**: Meme Theme
--   **Mystery-Hyper.Filter**: Mystery Theme
+-   **Meme-Hyper.Filter**: Got a lot of funny names (open for more suggestions)
+-   **Mystery-Hyper.Filter**: GG items Called Mystery (for another layer of mysteriousness)
 -   **Regular-Hyper.Filter**: Regular Theme
 
 -   Click Under Here to See The Difference
