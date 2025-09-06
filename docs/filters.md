@@ -18,7 +18,7 @@
 
 === "Meme/Regular versions"
 
-<img width="1084" height="802" alt="image" src="https://github.com/user-attachments/assets/8c5bebcb-a2e0-42af-ba9e-36af890fab4b" />
+    <img width="1084" height="802" alt="image" src="https://github.com/user-attachments/assets/8c5bebcb-a2e0-42af-ba9e-36af890fab4b" />
 
 
 === "Mystery versions"
