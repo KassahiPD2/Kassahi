@@ -25,5 +25,5 @@
 === "Meme/Mystery/Regular-Hyper..Filter"
 
     <img width="1688" height="1016" alt="image" src="https://github.com/user-attachments/assets/cdd98e9e-20c6-4081-ae5d-8e2119b66b51" />
-<img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/ca90c99a-4359-4245-829d-3444ea534274" />
+    <img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/ca90c99a-4359-4245-829d-3444ea534274" />
 
