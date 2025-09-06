@@ -16,20 +16,14 @@
 
 **Click under here to see the difference in highlights**
 
-=== "Meme/Regular versions"
+=== "Meme/Mystery/Regular.Filter versions"
 
     <img width="1084" height="802" alt="image" src="https://github.com/user-attachments/assets/8c5bebcb-a2e0-42af-ba9e-36af890fab4b" />
+    <img width="704" height="1023" alt="image" src="https://github.com/user-attachments/assets/aee9b2cb-3271-4f7a-8f3e-69af51dee6c4" />
 
 
-=== "Mystery versions"
+=== "Meme/Mystery/Regular-Hyper..Filter"
 
-    ![image](https://github.com/user-attachments/assets/750d23f1-e604-463f-afa7-543f0ae72dd9)
-    
-    ![image](https://github.com/user-attachments/assets/308041dc-c360-443c-8068-80fcd4e791b5)
+    <img width="1688" height="1016" alt="image" src="https://github.com/user-attachments/assets/cdd98e9e-20c6-4081-ae5d-8e2119b66b51" />
+<img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/ca90c99a-4359-4245-829d-3444ea534274" />
 
-=== "Regular versions"
-
-    ![image](https://github.com/user-attachments/assets/5513755b-af93-40c5-afd0-df166409549a)
-
-    ![image](https://github.com/user-attachments/assets/f95761ab-29ab-414e-9a15-0f0a50382514)
-    
