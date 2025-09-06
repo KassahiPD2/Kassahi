@@ -14,20 +14,14 @@
 -   **Mystery-Hyper.Filter**: GG items called mystery (for another layer of mysteriousness)
 -   **Regular-Hyper.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
-**Click under here to see the difference in highlights**
+## Under here to see the difference in highlights
 
-=== "Meme/Mystery/Regular.Filter versions"
-
-   **Hr/Mirror etc**
-<img width="1084" height="802" alt="image" src="https://github.com/user-attachments/assets/8c5bebcb-a2e0-42af-ba9e-36af890fab4b" />
-
-   **Set/Uniq etc**
-<img width="704" height="1023" alt="image" src="https://github.com/user-attachments/assets/aee9b2cb-3271-4f7a-8f3e-69af51dee6c4" />
+   **The Top 2 Pic's is .Filter Hr/Mirror/Set/Uniq etc**
+   **Bottom 2 Pic's is Hyper.Filter Hr/Mirror/Set/Uniq etc**
+   
+<img width="1868" height="1935" alt="image" src="https://github.com/user-attachments/assets/1a764753-b5c7-4270-9c32-6e12dcdefb37" />
 
 
-=== "Meme/Mystery/Regular-Hyper..Filter"
 
-<img width="1688" height="1016" alt="image" src="https://github.com/user-attachments/assets/cdd98e9e-20c6-4081-ae5d-8e2119b66b51" />
-    
-<img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/ca90c99a-4359-4245-829d-3444ea534274" />
+
 
