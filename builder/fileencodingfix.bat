@@ -16,4 +16,3 @@ for %%F in ("%srcfolder%\..\*.filter") do (
 
 echo.
 echo Conversion complete. Files are now Windows-1252 encoded.
-pause
