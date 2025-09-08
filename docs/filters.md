@@ -24,6 +24,10 @@
 
 ## highlights under here are the same for all filters
 
+   **Maps**
+
+   <img width="530" height="435" alt="image" src="https://github.com/user-attachments/assets/60a8dab4-fcc6-4d8a-9efd-87d53450068c" />
+
    **PD2/Uber/End Game**
 
 <img width="981" height="775" alt="image" src="https://github.com/user-attachments/assets/91449c8c-ee13-4a8e-aeda-ad32bef33b63" />
