@@ -26,7 +26,7 @@
 
    **Gems/Runes**
 
-<img width="810" height="904" alt="image" src="https://github.com/user-attachments/assets/d5788ae7-2616-41b6-a926-de316de3a25c" />
+<img width="770" height="957" alt="image" src="https://github.com/user-attachments/assets/6d823270-e4d6-4bbb-81c3-a6cda9e3c2ed" />
 
    **Utilitie**
 
