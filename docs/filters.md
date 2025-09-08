@@ -24,7 +24,11 @@
 
 ## highlights under here are the same for all filters
 
-   **Utilitie etc**
+   **Gems/Runes**
+
+<img width="810" height="904" alt="image" src="https://github.com/user-attachments/assets/d5788ae7-2616-41b6-a926-de316de3a25c" />
+
+   **Utilitie**
 
 <img width="576" height="920" alt="image" src="https://github.com/user-attachments/assets/d6acc932-3057-40c7-a66b-ebb632565e2d" />
 
