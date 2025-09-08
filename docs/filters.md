@@ -24,7 +24,7 @@
 
 ## highlights under here are the same for all filters
 
-   **Maps**
+   **Maps/Arena**
 
    <img width="530" height="435" alt="image" src="https://github.com/user-attachments/assets/60a8dab4-fcc6-4d8a-9efd-87d53450068c" />
 
