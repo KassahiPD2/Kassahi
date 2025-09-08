@@ -24,6 +24,10 @@
 
 ## highlights under here are the same for all filters
 
+   **PD2/Uber/End Game**
+
+<img width="981" height="775" alt="image" src="https://github.com/user-attachments/assets/91449c8c-ee13-4a8e-aeda-ad32bef33b63" />
+
    **Gems/Runes**
 
 <img width="770" height="957" alt="image" src="https://github.com/user-attachments/assets/6d823270-e4d6-4bbb-81c3-a6cda9e3c2ed" />
