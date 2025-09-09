@@ -17,50 +17,22 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     ## Show/hide:
     -   Stuff from Medium/Extra/Extreme Strictness are ofc also showen
     -   Any Gold under 5k is hidden (u auto pickup even hidden gold)
+    -   hp1/mp1 shows in a1 or till clvl 18
+    -   hp2/mp2 shows in a2 or till clvl 25
+    -   hp3/mp3 shows in a3 or till clvl 30
+    -   hp4/mp4 shows in a4 till hell or till clvl 80
+    -   Stam/id scroll shows till clvl 20
+    -   Thaw/tp scroll shows in hell Lod areas or till clvl 90
+    -   throw pot 1 shows till clvl 5
+    -   throw pot 2 shows till clvl 15
+    -   throw pot 3 shows till clvl 30
     -   
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
 
 
 
 
 
-
-   
+    
 === "Medium Strictness Info"
 
     ## Shows:
