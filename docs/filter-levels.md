@@ -15,7 +15,6 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
 === "Lvling up Info"
 
     ## Show/hide:
-   
     -   Stuff from Medium/Extra/Extreme Strictness are ofc also showen
     -   Any Gold under 5k is hidden (u auto pickup even hidden gold)
     -   
