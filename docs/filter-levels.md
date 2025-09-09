@@ -3,12 +3,11 @@
 
 The Filter Levels Are Used to Determine The Level of Filtering That is Applied to The Loot Filter
 
--   Filter Lvl 1: Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
--   Filter Lvl 2, 3, 7, 8: Medium Strictness, The Differences in Lvls Are Potions & Flawless Gems
--   Filter Lvl 4, 5, 6, 9, 10, 11: Extra Strictness, The Differences in Lvls Are Potions & Flawless Gems
--   Filter Lvl 12: Extreme Strictness, The Most Strict Lvl
+-   Recommend starting with one of the Medium Strictness Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole
+-   Filter Lvl 1-4: Medium Strictness, *all pots & flawless gems, all pots without flawless, all juvs & flawless, big juv without flawless*
+-   Filter Lvl 5-8: Extra Strictness, *all pots & flawless gems, all pots without flawless, big juv without flawless*
+-   Filter Lvl 9-12: Extreme Strictness, *all pots & flawless gems, all pots without flawless, big juv without flawless*
 
--   w/ (F) = With Flawless Gems, (sF) = With Small Flawless Gems, w/o (F) = Without Flawless Gems
 -   Under The Picture u Find More Info on The Filter Lvls
 
 <img width="1358" height="702" alt="image" src="https://github.com/user-attachments/assets/e911b739-2837-4004-9399-831ea053ac64" />
