@@ -88,8 +88,8 @@ ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-6D%%DOT-21%%MAP-6D%%SAGE%•�
 ItemDisplay[MAG !ID jew]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%•%BLUE%•%WHITE%•   %NAME%   %WHITE%•%BLUE%•%PURPLE%•
 ItemDisplay[MAG !ID ILVL>90 cm3]: %NAME% %WHITE%91+%CONTINUE%
 ItemDisplay[MAG !ID (cm1 OR cm3) ILVL>89]: %PX-20%%DOT-21%%MAP-97%%PURPLE%••%WHITE%••   %NAME%   %WHITE%••%PURPLE%••
-ItemDisplay[MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%•%WHITE%•   %NAME%   %WHITE%•%PURPLE%•
-ItemDisplay[FILTLVL~1-4 MAG !ID cm2]: %DOT-97%%PURPLE%•  %NAME%  %PURPLE%•
+ItemDisplay[MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
+ItemDisplay[FILTLVL~1-4 MAG !ID cm2]: %DOT-97%%PURPLE%• %NAME% %PURPLE%•
 ItemDisplay[MAG !ID cm2 ILVL>89]: %NAME%
 
 // Druid
