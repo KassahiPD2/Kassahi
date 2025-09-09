@@ -23,10 +23,13 @@ The Filter Levels Are Used to Determine The Level of Filtering That is Applied t
     -   hp4/mp4 shows in a4 till hell or till clvl 80
     -   Stam/id scroll shows till clvl 20
     -   Thaw/tp scroll shows in hell Lod areas or till clvl 90
-    -   throw pot 1 shows till clvl 5
-    -   throw pot 2 shows till clvl 15
-    -   throw pot 3 shows till clvl 30
-    -   
+    -   Throw pot 1 shows till clvl 5
+    -   Throw pot 2 shows till clvl 15
+    -   Throw pot 3 shows till clvl 30
+    -   Key shows tilll clvl 30 (never on sin)
+    -   Chip/Fla/normal Gem shows till clvl 24
+    -   Any set/uniq has notify till clvl 80
+    -   All char: any magic char item shows in hell Lod areas or till clvl 90
 
 
 
