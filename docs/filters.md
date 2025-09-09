@@ -24,6 +24,10 @@
 
 ## highlights under here are the same for all filters
 
+   **Magic/Rare**
+
+<img width="1066" height="945" alt="image" src="https://github.com/user-attachments/assets/597723e7-79fe-4a05-aeb0-c98b9a9b6ee0" />
+
    **Maps/Arena**
 
    <img width="530" height="435" alt="image" src="https://github.com/user-attachments/assets/60a8dab4-fcc6-4d8a-9efd-87d53450068c" />
