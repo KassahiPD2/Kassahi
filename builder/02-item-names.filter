@@ -7,7 +7,7 @@
 
 
 
- 
+
 
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm1]: Small Charm%CONTINUE%
@@ -920,6 +920,7 @@ ItemDisplay[UNI !ID 6sw]: Widowmaker%CONTINUE%
 ItemDisplay[UNI !ID lwb]: Blastbark%CONTINUE%
 ItemDisplay[UNI !ID 8lw]: Goldstrike Arch%CONTINUE%
 ItemDisplay[UNI !ID 6lw]: Windforce%CONTINUE%
+ItemDisplay[UNI !ID 6hb]: Crackleshot%CONTINUE%
 // CORSSBOW'S NAME (UNI)
 ItemDisplay[UNI !ID lxb]: Leadcrow%CONTINUE%
 ItemDisplay[UNI !ID 8lx]: Langer Briser%CONTINUE%
