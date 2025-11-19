@@ -1807,9 +1807,9 @@ ItemDisplay[RUNE>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[RUNE>25]: %RED%%NAME%%CONTINUE%
 
 // Rune sounds
-ItemDisplay[RUNE>20 RUNE<26]: %DOT-0A%%SOUNDID-4723%%NAME%%CONTINUE%
-ItemDisplay[RUNE>25 RUNE<30]: %DOT-0A%%SOUNDID-4723%%NAME%%CONTINUE%
-ItemDisplay[RUNE>29 RUNE<34]: %DOT-0A%%SOUNDID-4723%%NAME%%CONTINUE%
+ItemDisplay[RUNE>20 RUNE<26]: %DOT-0A%%SOUNDID-4719%%NAME%%CONTINUE%
+ItemDisplay[RUNE>25 RUNE<30]: %DOT-0A%%SOUNDID-4719%%NAME%%CONTINUE%
+ItemDisplay[RUNE>29 RUNE<34]: %DOT-0A%%SOUNDID-4719%%NAME%%CONTINUE%
 
 ItemDisplay[FILTLVL~1-8 (RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%DARK_GREEN%•%GREEN%•  %NAME%  %GREEN%•%DARK_GREEN%•%CONTINUE%
 ItemDisplay[FILTLVL~1-8 RUNE<20 !(RUNE=3 OR RUNE=5 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12)]: %DOT-0A%%GREEN%• %NAME% %GREEN%•%CONTINUE%
@@ -2364,7 +2364,7 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-
 // War Fist - Whispering Mirage
 // Martyrdom - Overseer Skull
 
-ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4719%
+ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4723%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
