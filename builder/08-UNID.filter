@@ -15,9 +15,9 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 
 // UNIQUES
 // CHARMS
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-2680%
+ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-4719%
 // BOSS ITEMS
-ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-763%
+ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-4728%
 // GG Unique Callouts
 //-----------------------------------------------------------------------------------
 // Griffons Eye - Diadem
@@ -47,7 +47,7 @@ ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl
 // Steel Carapace - Shadow Plate
 // The Reapers Toll - Thresher
 
-ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-2680%
+ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-4726%
 
 // GG Unique Callouts only when ETH
 //-----------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn
 // War Fist - Whispering Mirage
 // Warlords Trust - Military Axe
 
-ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-2680%
+ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-4726%
 
 // Tier 3 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %DOT-0D%%MAP-
 // War Fist - Whispering Mirage
 // Martyrdom - Overseer Skull
 
-ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-2670%
+ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4723%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -131,7 +131,7 @@ ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bad OR bae OR dra OR drd
 // Eschutas Temper - Eldritch Orb
 // Shadow Dancer - Myrmidon Greaves
 
-ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-2678%
+ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7 OR 9wn OR 7bw OR xld OR ulb OR xh9 OR umb OR 9la OR 7bt OR pae OR xtg OR 7lw OR 7wa OR 8ws OR obc OR uhb)]: %PX-0D%%DOT-0A%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-4717%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -155,8 +155,12 @@ ItemDisplay[UNI !ID (drb OR oba OR xea OR zhb OR xmb OR tgl OR xvg OR 7bl OR 7b7
 // Fenris - Alpha Helm
 // Atmas Wail - Embossed Plate
 // Skullders Ire - Russet Armor
+// Elite arrows
+// Elite bolts
+// exceptional arrows
+//  exceptional bolts
 
-ItemDisplay[UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6 OR xth OR xpl)]: %PX-0D%%DOT-0A%%T1_LEFT%%NAME%%T1_RIGHT%%SOUNDID-2666%
+ItemDisplay[UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap OR gsd OR aar OR uld OR 9ls OR 8rx OR ba7 OR dr6 OR xth OR xpl OR aqv2 OR aqv3 OR cqv2 OR cqv3)]: %PX-0D%%DOT-0A%%T1_LEFT%%NAME%%T1_RIGHT%%SOUNDID-4720%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -173,7 +177,7 @@ ItemDisplay[UNI !ID (7tw OR uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc
 // Bloodfist - Heavy Gloves
 // Jadetalon - Wrist Sword
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (zvb OR xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-2666%
+ItemDisplay[FILTLVL~1-4 UNI !ID (zvb OR xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4722%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -239,8 +243,10 @@ ItemDisplay[FILTLVL~1-4 UNI !ID (zvb OR xlg OR xmg OR xhg OR baf OR utp OR uvb O
 // Buriza-Do Kyanon - Ballista
 // Duskdeep - Full Helm
 // The Impaler - War Spear
+// arrows
+// bolts
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR neg OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR 6sw OR ltp OR 7di OR ung OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-2666%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR mbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR neg OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR 6sw OR ltp OR 7di OR ung OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR aqv OR cqv)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4715%
 
 // LLD
 ItemDisplay[FILTLVL~1-4 UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
@@ -324,7 +330,7 @@ ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf OR dir OR 9di OR 7di OR bld 
 // Good Crafting/ID Bases
 // Amazon
 // Good Crafting/ID Bases
-ItemDisplay[RARE !ID AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[RARE !ID AMAZON (mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %DOT-6D%%NAME% %TEAL%•
 ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DOT-97%%NAME% %TEAL%•
 
 // Druid
@@ -358,12 +364,12 @@ ItemDisplay[FILTLVL~1-4 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6
 // Amazon
 // Class Items Starter/Medium Strictness
 ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON ZON]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR aqv OR cqv)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %DOT-6D%%NAME% %TEAL%•
 // Every Class Item Highlights For Opposite Classes Starter/Medium Strictness
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
 ItemDisplay[FILTLVL~1-4 MAG !ID ETH (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
 ItemDisplay[FILTLVL~1-4 MAG !ID !ETH (CLUB OR DRU OR BAR OR DIN OR NEC OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
-ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR aqv OR cqv)]: %NAME% %LIGHT_GRAY%•
+ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %NAME% %LIGHT_GRAY%•
 
 // Extra Strictness
 // Good Crafting/ID Bases
@@ -374,7 +380,7 @@ ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG ETH !ID CHEST]: %RED%• %NAME% %RED%�
 ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID !NORM CHEST]: %NAME% %RED%•
 // Okay Crafting/ID Bases
 ItemDisplay[FILTLVL~1-8 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM)]: %NAME% %RED%•
-ItemDisplay[FILTLVL~1-8 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM OR aqv OR cqv)]: %NAME%
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %NAME%
 ItemDisplay[FILTLVL~1-8 MAG !ID (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%•%WHITE%•  %NAME%  %WHITE%•%BLUE%•
 
 // Starter/Medium Strictness
@@ -385,7 +391,7 @@ ItemDisplay[FILTLVL~1-4 RARE ETH !ID WEAPON]: %NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID (BOW OR XBOW)]: %NAME%
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) RARE !ID]: %NAME%
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID !ETH ((dir OR 9di OR 7di OR tax OR 9ta OR 7ta OR 7ax OR 72a OR 7wa OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR 7wh OR 7m7 OR 7gm OR 7cr OR 7bs OR 7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) OR (EXC CHEST))]: %NAME%
-ItemDisplay[DIFF=0 MAG !ID (aqv OR cqv)]: %NAME%
+ItemDisplay[DIFF=0 MAG !ID (aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %NAME%
 
 // Magic Rings and Amulets
 ItemDisplay[CLVL<29 MAG !ID (amu OR rin)]: %DOT-97%%NAME%
@@ -394,5 +400,5 @@ ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID (amu OR rin)]: %NAME%
 
 // Warrior Map
 ItemDisplay[MAG (amu OR CIRC OR GLOVES OR (ELT (CHEST OR SHIELD))) !ID !DIN !NEC (MAPID=181 OR MAPID=182)]: %NAME%%RED%*
-ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR aqv OR cqv) !ID (MAPID=181 OR MAPID=182)]: %NAME%%RED%*
+ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) !ID (MAPID=181 OR MAPID=182)]: %NAME%%RED%*
 
