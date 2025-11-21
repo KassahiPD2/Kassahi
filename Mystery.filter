@@ -22,7 +22,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/17th/25){%LIGHT_GRAY%Season 12 Updates%CL%%GREEN%Kassahi - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/21st/25){%LIGHT_GRAY%Season 12 Updates%CL%%GREEN%Kassahi - HiimMark%CL%%RED%Announcement:}
 
 
 
@@ -8966,7 +8966,7 @@ ItemDisplay[NMAG (aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) CLVL>2]:
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) (GLOVES OR BOOTS OR BELT)]:
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) INF]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) SOCK=1 CLVL>4]: {%NAME%}
-ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) NORM CLVL>9]: {%NAME%}
+// TBD S12 beta bug ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) NORM CLVL>9]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) EXC CLVL>29]: {%NAME%}
 ItemDisplay[NMAG !(WEAPON AND ARMOR OR RW) ELT CLVL>59]: {%NAME%}
 
