@@ -2,7 +2,7 @@
 
 !!! warning "Work in progress"
 
-    *filters are updated for S11 thx to Mark*, and My filters need HD Text going forward, 3DFX under graphics in the PD2 Launcher in options (25/08/25)
+    *filters are updated for S12 thx to Mark*, and My filters need HD Text going forward, 3DFX under graphics in the PD2 Launcher in options (25/08/25)
     
     My GitHub may not be 100% up-to-date with my filters, but feel free to ask in discord for help or info on anything
     
