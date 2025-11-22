@@ -377,7 +377,6 @@ ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPT
 ItemDisplay[FILTLVL~1-8 RARE !ETH !ID (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9ma OR 7ma OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR kri OR 9kr OR 7kr OR bld OR 9bl OR 7bl OR wax OR 9wa OR 7wa OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR pik OR 9p9 OR 7p7 OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR mxb OR 8mx OR 6mx OR ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR ama OR amf) !(tkf OR 9tk OR 7tk)]: %NAME%
 ItemDisplay[FILTLVL~1-8 MAG ETH !ID (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9ma OR 7ma OR ZON OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR wax OR 9wa OR 7wa OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR gix OR 9gi OR 7gi OR fla OR 9fl OR 7fl OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR pik OR 9p9 OR 7p7 OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ktr OR 9ar OR 7ar OR axf OR 9xf OR 7xf OR skr OR 9qr OR 7qr OR am5 OR ama OR amf) !(tkf OR 9tk OR 7tk)]: %PX-60%%DOT-21%%MAP-97%%RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR NEC)]: %NAME% %RED%•
-ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG ETH !ID CHEST]: %RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID !NORM CHEST]: %NAME% %RED%•
 // Okay Crafting/ID Bases
 ItemDisplay[FILTLVL~1-8 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM)]: %NAME% %RED%•
@@ -387,6 +386,7 @@ ItemDisplay[FILTLVL~1-8 MAG !ID (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%
 // Starter/Medium Strictness
 // Good Crafting/ID Bases
 ItemDisplay[FILTLVL~1-4 MAG ETH !ID !BAR !DRU (BELT OR HELM OR GLOVES)]: %PX-60%%DOT-21%%MAP-97%%RED%• %NAME% %RED%•
+ItemDisplay[FILTLVL~1-4 CRAFTALVL>84 MAG ETH !ID CHEST]: %RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-4 MAG !ID (ci0 OR ci1)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%• %NAME% %PURPLE%•
 // Okay Crafting/ID Bases
 ItemDisplay[FILTLVL~1-4 RARE ETH !ID WEAPON]: %NAME%
