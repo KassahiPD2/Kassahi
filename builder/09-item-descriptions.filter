@@ -1450,7 +1450,7 @@ ItemDisplay[CHEST !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANG
 ItemDisplay[WEAPON !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Amn, %PURPLE%O:}%CONTINUE%
 ItemDisplay[(HELM OR CIRC) !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Ral, Thul, %BLUE%O:}%CONTINUE%
 ItemDisplay[SHIELD !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Amn, %RED%O:}%CONTINUE%
-ItemDisplay[(aqv OR cqv OR aqv2 OR aqv2 OR cqv2 OR cqv3) !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Amn, %RED%O:}%CONTINUE%
+ItemDisplay[(aqv OR cqv OR aqv2 OR aqv3 OR cqv2 OR cqv3) !INF SOCK=0 NMAG]: %NAME%{%NAME%%CL%%WHITE%possible os: %ORANGE%Tal, Amn, %RED%O:}%CONTINUE%
 
 //Notes about socketing INF/SUP items
 //ItemDisplay[(CHEST OR WEAPON OR HELM OR CIRC OR SHIELD) (INF OR SUP) NMAG SOCK=0]: %NAME%{%NAME%%CL%%WHITE%possible os: }%CONTINUE%
@@ -1471,8 +1471,8 @@ ItemDisplay[(qui OR lea OR hla OR stu OR xui OR xea OR xla OR xtu OR scl OR chn 
 ItemDisplay[(rng OR xng OR xcl OR xhn OR brs OR xrs OR xpl OR xlt OR xld OR ltp OR xtp) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-3, }%CONTINUE%
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar OR gth OR ful OR aar OR xth OR xul OR xar) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-4, }%CONTINUE%
 //shields
-ItemDisplay[(buc OR xuc OR aqv OR aqv) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1, }%CONTINUE%
-ItemDisplay[(uuc OR sml OR xml OR uml OR bsh OR aqv2 OR aqv2 OR cqv2 OR cqv3) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-2, }%CONTINUE%
+ItemDisplay[(buc OR xuc OR aqv OR cqv) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1, }%CONTINUE%
+ItemDisplay[(uuc OR sml OR xml OR uml OR bsh OR aqv2 OR aqv3 OR cqv2 OR cqv3) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-2, }%CONTINUE%
 ItemDisplay[(lrg OR xrg OR urg OR upk OR kit OR xit OR ush OR tow OR xow OR gts OR xts OR spk OR xpk OR xsh) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-3, }%CONTINUE%
 ItemDisplay[(uit OR uow OR uts) NMAG !INF SOCK=0]: %NAME%{%NAME%%WHITE%1-4, }%CONTINUE%
 //pala shields
