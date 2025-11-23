@@ -1,4 +1,4 @@
- 
+
 
 
 
@@ -169,6 +169,7 @@ ItemDisplay[t52]: Warlord of Blood Map{%NAME%}%CONTINUE%
 ItemDisplay[t53]: Fallen Gardens Map{%NAME%}%CONTINUE%
 ItemDisplay[t54]: Imperial Palace Map{%NAME%}%CONTINUE%
 ItemDisplay[t55]: Outer Void Map{%NAME%}%CONTINUE%
+ItemDisplay[t56]: City of Ureh Map{%NAME%}%CONTINUE%
 // DUEL ARENAS
 ItemDisplay[t61]: Desert Duel Arena{%NAME%}%CONTINUE%
 ItemDisplay[t62]: Moor Duel Arena{%NAME%}%CONTINUE%
