@@ -2451,9 +2451,8 @@ ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap
 // exceptional bolts
 // Firelizards Talons - Feral Claws
 // Wraithskin - Diamond Mail
-// %SOUNDID-2666%
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR aqv2 OR aqv3 OR cqv2 OR cqv3 OR 7lw OR ung)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4722%
+ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR aqv2 OR aqv3 OR cqv2 OR cqv3 OR 7lw OR ung)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4722%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
