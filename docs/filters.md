@@ -20,7 +20,7 @@
    
    **Bottom 2 Pic's is Hyper.Filter Hr/Mirror/Set/Uniq etc**
    
-<img width="1865" height="1931" alt="Untitled" src="https://github.com/user-attachments/assets/1313e0da-11aa-492e-bac8-c6f6726924f0" />
+<img width="1865" height="1931" alt="Untitled" src="https://github.com/user-attachments/assets/7bbb7877-f23c-4599-87ac-efb49990f5dc" />
 
 ## Highlights under here are the same for all filters
 
