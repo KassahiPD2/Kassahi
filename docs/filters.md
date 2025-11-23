@@ -22,6 +22,9 @@
    
 <img width="1868" height="1935" alt="image" src="https://github.com/user-attachments/assets/1a764753-b5c7-4270-9c32-6e12dcdefb37" />
 
+<img width="1865" height="1931" alt="Untitled" src="https://github.com/user-attachments/assets/1313e0da-11aa-492e-bac8-c6f6726924f0" />
+
+
 ## Highlights under here are the same for all filters
 
    **Magic/Rare**
