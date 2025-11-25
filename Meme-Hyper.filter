@@ -11,18 +11,8 @@ ItemDisplayFilterName[10]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc0All Pots
 ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawless
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
-
-
-
-
-
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-
-
-
-
-
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/25th/25){%LIGHT_GRAY%Season 12 Updates%CL%%GREEN%Kassahi - HiimMark%CL%%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/25th/25){%LIGHT_GRAY%Added/Changed Sounds too POE2 only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 12%RED%Announcement:}
 
 
 
