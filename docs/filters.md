@@ -14,6 +14,9 @@
 -   **Mystery-Hyper.Filter**: GG items called mystery (for another layer of mysteriousness)
 -   **Regular-Hyper.Filter**: This is the boring normie filter (everything is normal here ***mostly***)
 
+**POE Sounds**
+-   **YES**
+
 ## Under here u see the difference in highlights (only display highlights not real items)
 
    **The Top 2 Pic's is .Filter Hr/Mirror/Set/Uniq etc**
