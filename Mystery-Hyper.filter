@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/26th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 16%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/26th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 17%RED%Announcement:}
 
 
 
@@ -6741,8 +6741,7 @@ ItemDisplay[(MAG OR RARE OR CRAFT) (SUFFIX=594 OR SUFFIX=595)]: %NAME%{%YELLOW%+
 // HIGHLIGHTING LVLING LIFE TAP (CHARGE'S/SHOP)
 ItemDisplay[(MAG OR RARE OR CRAFT) (SUFFIX=578 OR SUFFIX=579)]: %NAME%{%YELLOW%++%SAGE%++ %CORAL%Life Tap Charges %SAGE%++%YELLOW%++%CL%%NAME%}
 // HIGHLIGHTING CHEAP CHEST'S FOR SHOPPING
-ItemDisplay[(MAG OR RARE OR CRAFT) BUYPRICE<50001 SHOP CHEST]: %NAME%{%YELLOW%++%SAGE%++ %CORAL%Cheap %SAGE%++%YELLOW%++%CL%%NAME%}
-
+ItemDisplay[(MAG OR RARE) CRAFTALVL>84 BUYPRICE<50001 SHOP CHEST]: %NAME%{%YELLOW%++%SAGE%++ %CORAL%Cheap %SAGE%++%YELLOW%++%CL%%NAME%}
  
 
 
