@@ -39,8 +39,12 @@ ItemDisplay[(MAG OR RARE) jew]: Jewel%CONTINUE%
 ItemDisplay[!SET !UNI !RW amu]: Amulet%CONTINUE%
 ItemDisplay[!SET !UNI !RW rin]: Ring%CONTINUE%
 // QUIVER'S NAME (BASE)
-ItemDisplay[aqv]: Arrows%CONTINUE%
-ItemDisplay[cqv]: Bolts%CONTINUE%
+ItemDisplay[!RW !SET !UNI aqv]: Blunt Arrows%CONTINUE%
+ItemDisplay[!RW !SET !UNI aqv2]: Sharp Arrows%CONTINUE%
+ItemDisplay[!RW !SET !UNI aqv3]: Razor Arrows%CONTINUE%
+ItemDisplay[!RW !SET !UNI cqv]: Light Bolts%CONTINUE%
+ItemDisplay[!RW !SET !UNI cqv2]: Heavy Bolts%CONTINUE%
+ItemDisplay[!RW !SET !UNI cqv3]: War Bolts%CONTINUE%
 // HELMET'S NAME (BASE)
 ItemDisplay[!RW !SET !UNI cap]: Cap%CONTINUE%
 ItemDisplay[!RW !SET !UNI xap]: War Hat%CONTINUE%
