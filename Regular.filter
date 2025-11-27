@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/26th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 18%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 19%RED%Announcement:}
 
 
 
@@ -52,8 +52,8 @@ Alias[GG_RID_RIGHT]: %YELLOW%          •%ORANGE%•%RED%•
 
 
 // WEAPON'S & ARMOR'S NAME (BASE)
-ItemDisplay[BASENAME !ID (SET OR UNI)]: %BASENAME%%CONTINUE%
-ItemDisplay[BASENAME (MAG OR RARE OR CRAFT)]: %BASENAME%%CONTINUE%
+ItemDisplay[!ID (SET OR UNI)]: %BASENAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT)]: %BASENAME%%CONTINUE%
 
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2)]: %PURPLE%Large Charm%CONTINUE%
