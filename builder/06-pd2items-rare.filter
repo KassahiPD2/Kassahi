@@ -9,12 +9,11 @@
 
 
 
-ItemDisplay[lbox]: %GG_BOXES_LEFT%%SOUNDID-4719%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[lbox]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[imrn]: %GG_BOXES_LEFT%%SOUNDID-4719%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
-ItemDisplay[lsvl]: %GG_GG_LEFT%%SOUNDID-4719%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[llmr]: %GG_GG_LEFT%%SOUNDID-4719%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[rkey]: %GG_RKEY_LEFT%%SOUNDID-4719%%NAME%%GG_RKEY_RIGHT%{%NAME%}
-ItemDisplay[rtp]: %GG_RTP_LEFT%%SOUNDID-4719%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
-ItemDisplay[rid]: %GG_RID_LEFT%%SOUNDID-4719%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
-
+ItemDisplay[imrn]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[lsvl]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[rkey]: %GG_RKEY_LEFT%%NAME%%GG_RKEY_RIGHT%{%NAME%}
+ItemDisplay[rtp]: %GG_RTP_LEFT%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
+ItemDisplay[rid]: %GG_RID_LEFT%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
