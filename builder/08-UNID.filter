@@ -113,7 +113,7 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR
 // Widowmaker - Ward Bow
 // Sacred Totem - Hellspawn Skull
 
-ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned OR 7s8 OR xh9 OR 7tw OR zvb OR 6sw OR neg)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4717%
+ItemDisplay[UNI !ID (jew OR amu OR rin OR amf OR ba6 OR bae OR dra OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR 7ls OR pac OR uvg OR ulm OR uow OR 7p7 OR nee OR dre OR xvb OR 7xf OR ned OR 7s8 OR xh9 OR 7tw OR zvb OR 6sw OR neg)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4718%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -190,7 +190,7 @@ ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR 8mx OR drc OR amc OR xap
 // Firelizards Talons - Feral Claws
 // Wraithskin - Diamond Mail
 
-ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR aqv2 OR aqv3 OR cqv2 OR cqv3 OR 7lw OR ung)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4716%
+ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR aqv2 OR aqv3 OR cqv2 OR cqv3 OR 7lw OR ung)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -266,21 +266,21 @@ ItemDisplay[FILTLVL~5-12 UNI !ID]:
 // SETS
 // GG
 ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4719%
-ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4718%
 // TIER 3
-ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl OR rin)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID rin]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%
 // TIER 2
 ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4717%
-ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 // TIER 1
-ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%SET_T1_LEFT%%NAME%%SET_T1_RIGHT%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%SET_T1_LEFT%%NAME%%SET_T1_RIGHT%
 // LLD
 ItemDisplay[FILTLVL~1-4 SET !ID (vbt OR bwn OR vgl OR lgl OR lbl)]: %DOT-84%%NAME% %TEAL%lld
 // LVLING
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 // HIDE THE REST
 ItemDisplay[FILTLVL~5-12 SET !ID]:
-
 
 
 
