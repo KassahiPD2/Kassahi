@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 19%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 20%RED%Announcement:}
 
 
 
@@ -25,19 +25,19 @@ ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Cha
 
 
 // lbox imrn
-Alias[GG_BOXES_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%RED%•%ORANGE%•%YELLOW%•     %RED%
+Alias[GG_BOXES_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•     %RED%
 Alias[GG_BOXES_RIGHT]: %YELLOW%     •%ORANGE%•%RED%•
 // lsvl llmr
-Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%RED%•%ORANGE%•%YELLOW%•               %RED%
+Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•               %RED%
 Alias[GG_GG_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 // rkey
-Alias[GG_RKEY_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%RED%•%ORANGE%•%YELLOW%•               %RED%
+Alias[GG_RKEY_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•               %RED%
 Alias[GG_RKEY_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 // rtp
-Alias[GG_RTP_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%RED%•%ORANGE%•%YELLOW%•               %RED%
+Alias[GG_RTP_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•               %RED%
 Alias[GG_RTP_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 // rid
-Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%RED%•%ORANGE%•%YELLOW%•               %RED%
+Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•               %RED%
 Alias[GG_RID_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 
 
@@ -1411,7 +1411,7 @@ ItemDisplay[wss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[wss]: %PURPLE%•%RED%•%CORAL%•   %NAME%   %CORAL%•%RED%•%PURPLE%•{%NAME%}%CONTINUE%
 ItemDisplay[iwss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %PURPLE%•%RED%•%CORAL%•   %NAME%   %CORAL%•%RED%•%PURPLE%•{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%RED%%NAME%{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
+ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%%NAME%{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %MAP-0A%%SOUNDID-4715%%GOLD%%NAME%{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
@@ -1459,15 +1459,14 @@ ItemDisplay[crfp]: %LIGHT_GRAY%•%WHITE%••   %NAME%   %WHITE%••%LIGHT_GRAY%•{%NAM
 
 
 
-ItemDisplay[lbox]: %GG_BOXES_LEFT%%SOUNDID-4719%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[lbox]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[imrn]: %GG_BOXES_LEFT%%SOUNDID-4719%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
-ItemDisplay[lsvl]: %GG_GG_LEFT%%SOUNDID-4719%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[llmr]: %GG_GG_LEFT%%SOUNDID-4719%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
-ItemDisplay[rkey]: %GG_RKEY_LEFT%%SOUNDID-4719%%NAME%%GG_RKEY_RIGHT%{%NAME%}
-ItemDisplay[rtp]: %GG_RTP_LEFT%%SOUNDID-4719%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
-ItemDisplay[rid]: %GG_RID_LEFT%%SOUNDID-4719%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
-
+ItemDisplay[imrn]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[lsvl]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[llmr]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
+ItemDisplay[rkey]: %GG_RKEY_LEFT%%NAME%%GG_RKEY_RIGHT%{%NAME%}
+ItemDisplay[rtp]: %GG_RTP_LEFT%%NAME%%GG_RTP_RIGHT%{%WHITE%Gives You Infinite %BLUE%TPs}
+ItemDisplay[rid]: %GG_RID_LEFT%%NAME%%GG_RID_RIGHT%{%WHITE%Gives You Infinite %RED%IDs}
 
 
 
