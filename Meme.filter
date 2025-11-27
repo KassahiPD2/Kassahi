@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 24%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/27th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 25%RED%Announcement:}
 
 
 
@@ -3495,9 +3495,9 @@ ItemDisplay[(MAG OR RARE) ID !EQUIPPED STAT486=0 ((WEAPON OR (ARMOR !CIRC) OR am
 
 // Possible Runeword
 ItemDisplay[NMAG !RW (SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) (HELM OR CHEST OR SHIELD OR CIRC OR WEAPON OR QUIVER)]: %NAME%{%WHITE%possible rw:%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=2 QUIVER !RW]: %NAME%{%GOLD%Echo:%ORANGE%Sol, Dol%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 QUIVER !RW]: %NAME%{%GOLD%Ancients Scripture:%ORANGE%Tal, Ort%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 QUIVER !RW]: %NAME%{%GOLD%Ancients Foresight:%ORANGE%Ral, Thul%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=2 QUIVER !RW]: %NAME%{%GOLD%Echo:%ORANGE%Sol, Dol%CL%%NAME%}%CONTINUE%
 // 2os Helmets
 ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Nadir:%ORANGE%Nef, Tir%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=2 (HELM OR CIRC) !RW]: %NAME%{%GOLD%Lore:%ORANGE%Ort, Sol%CL%%NAME%}%CONTINUE%
