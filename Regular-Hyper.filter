@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/28th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 28%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/28th/25){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 29%RED%Announcement:}
 
 
 
@@ -52,8 +52,8 @@ Alias[GG_RID_RIGHT]: %GREEN%   OO%PURPLE%OOO%GREEN%OOO%PURPLE%OOO
 
 
 // WEAPON'S & ARMOR'S NAME (BASE)
-ItemDisplay[!ID (SET OR UNI)]: %BASENAME%%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT)]: %BASENAME%%CONTINUE%
+ItemDisplay[(SET OR UNI) !ID]: %BASENAME%%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW]: %BASENAME%%CONTINUE%
 
 // CHARM'S NAME (BASE)
 ItemDisplay[MAG cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2)]: %PURPLE%Large Charm%CONTINUE%
@@ -1967,7 +1967,7 @@ ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di
 // arrows
 // bolts
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR aqv OR cqv)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR 8cb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 8ls OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR aqv OR cqv)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // LLD
 ItemDisplay[FILTLVL~1-4 UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
@@ -1978,13 +1978,13 @@ ItemDisplay[FILTLVL~5-12 UNI !ID]:
 
 // SETS
 // GG
-ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4719%
-ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4718%
+ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4718%
+ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4717%
 // TIER 3
-ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%
 // TIER 2
-ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4716%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 // TIER 1
 ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%SET_T1_LEFT%%NAME%%SET_T1_RIGHT%
