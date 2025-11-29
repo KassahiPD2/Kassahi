@@ -271,7 +271,7 @@ ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG
 ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%
 // TIER 2
-ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4716%
+ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 // TIER 1
 ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%SET_T1_LEFT%%NAME%%SET_T1_RIGHT%
