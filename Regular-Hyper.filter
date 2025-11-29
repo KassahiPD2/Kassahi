@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/29th/25){%LIGHT_GRAY%Removed common sounds on wss/ppic/maps - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 30}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/29th/25){%LIGHT_GRAY%Removed common sounds on wss/ppic/maps - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 31}
 
 
 
@@ -6757,11 +6757,11 @@ ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT23>0 
 // MAXIMUM DAMAGE
 ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) (STAT22>0 OR STAT24>0) !STAT23>0 !amu !WEAPON !SHIELD !DRU]: %GOLD%max %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT22>0 !STAT23>0 !amu !WEAPON !SHIELD !DRU]: %WHITE%%STAT22%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT24>0 !STAT23>0 !cm1 !cm2 !cm3 !jew !amu !rin !aqv !cqv !HELM !CHEST !SHIELD !CIRC !WEAPON !DRU]: %WHITE%%STAT24%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT24>0 !STAT23>0 !cm1 !cm2 !cm3 !jew !amu !rin !aqv !cqv !HELM !CHEST !SHIELD !CIRC !WEAPON !DRU !QUIVER]: %WHITE%%STAT24%%NAME%{%NAME%}%CONTINUE%
 // MINIMUM DAMAGE
 ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) (STAT21>0 OR STAT23>0) !STAT24>0 !amu !WEAPON !SHIELD !DRU]: %GOLD%min %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT21>0 !STAT24>0 !amu !WEAPON !SHIELD !DRU]: %WHITE%%STAT21%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT23>0 !STAT24>0 !cm1 !cm2 !cm3 !jew !amu !rin !aqv !cqv !HELM !CHEST !SHIELD !CIRC !WEAPON !DRU]: %WHITE%%STAT23%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT23>0 !STAT24>0 !cm1 !cm2 !cm3 !jew !amu !rin !aqv !cqv !HELM !CHEST !SHIELD !CIRC !WEAPON !DRU !QUIVER]: %WHITE%%STAT23%%NAME%{%NAME%}%CONTINUE%
 // IGNORE TARGET'S DEFENSE
 ItemDisplay[(MAG OR RARE OR CRAFT OR (UNI (cm1 OR cm2 OR cm3 OR jew))) STAT115>0]: %SAGE%itd %NAME%{%NAME%}%CONTINUE%
 // ENHANCED DEFENSE
