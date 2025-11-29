@@ -9,4 +9,4 @@
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%Added/Changed Sounds Too POE2 Only - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # --buildnum--%RED%Announcement:}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%Removed common sounds on wss/ppic/maps - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # --buildnum--}
