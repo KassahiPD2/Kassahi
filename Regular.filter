@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/29th/25){%LIGHT_GRAY%Removed common sounds on wss/ppic/maps - Kassahi%CL%Season 12 Updates - HiimMark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Build # 31}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/29th/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 32}
 
 
 
@@ -56,7 +56,7 @@ ItemDisplay[(SET OR UNI) !ID]: %BASENAME%%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW]: %BASENAME%%CONTINUE%
 
 // CHARM'S NAME (BASE)
-ItemDisplay[MAG cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2)]: %PURPLE%Large Charm%CONTINUE%
+ItemDisplay[MAG cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS>5 OR FCR>5)]: %PURPLE%Large Charm%CONTINUE%
 ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1)]: %PURPLE%Grand Charm%CONTINUE%
 ItemDisplay[MAG !ID cm1]: Small%CONTINUE%
 ItemDisplay[MAG !ID cm2]: Large%CONTINUE%
@@ -1984,7 +1984,7 @@ ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG
 ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%
 // TIER 2
-ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%%SOUNDID-4716%
+ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-84%%DOT-0A%%SET_T2_LEFT%%NAME%%SET_T2_RIGHT%
 // TIER 1
 ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-84%%DOT-0A%%SET_T1_LEFT%%NAME%%SET_T1_RIGHT%
@@ -4505,6 +4505,12 @@ ItemDisplay[MAG cm2 FHR>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%
 ItemDisplay[MAG cm2 LIFE>24 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 ItemDisplay[MAG cm2 FRW>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 ItemDisplay[MAG cm2 FHR>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 // GRAND
 ItemDisplay[MAG cm3 LIFE>29 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FRW>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
