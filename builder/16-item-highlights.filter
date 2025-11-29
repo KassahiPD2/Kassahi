@@ -71,6 +71,12 @@ ItemDisplay[MAG cm2 FHR>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%
 ItemDisplay[MAG cm2 LIFE>24 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 ItemDisplay[MAG cm2 FRW>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 ItemDisplay[MAG cm2 FHR>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
 // GRAND
 ItemDisplay[MAG cm3 LIFE>29 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FRW>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
