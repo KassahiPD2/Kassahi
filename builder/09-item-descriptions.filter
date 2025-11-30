@@ -1804,7 +1804,7 @@ ItemDisplay[WEAPON !(BOW OR XBOW OR WAND OR SOR)]: %NAME%{%NAME%, %CORAL%sp:%WHI
 ItemDisplay[WEAPON (BOW OR XBOW)]: %NAME%{%NAME%, %CORAL%sp:%WHITE%%WPNSPD%}%CONTINUE%
 
 // ITEM'S ILVL
-ItemDisplay[(WEAPON OR ARMOR OR amu OR rin OR jew)]: %NAME%{%NAME%%CL%%WHITE%Item Level: %ILVL%}%CONTINUE%
+ItemDisplay[(WEAPON OR ARMOR OR amu OR rin OR jew) OR ((MAG (cm1 OR cm2 OR cm3)))]: %NAME%{%NAME%%CL%%WHITE%Item Level: %ILVL%}%CONTINUE%
 
 // SET BOOT'S KICK DAMAGE (INFO)
 ItemDisplay[SET lbt ID]: %NAME%{%NAME%%CL%%WHITE%kick damage: 3 to 8}%CONTINUE%
