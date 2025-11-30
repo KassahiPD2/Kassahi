@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/29th/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 32}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/30th/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 33}
 
 
 
@@ -1655,6 +1655,7 @@ ItemDisplay[MAPTIER=1]: %MAP-80%%TEAL%T1 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=2]: %MAP-80%%TEAL%T2 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=3]: %MAP-80%%TEAL%T3 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=4]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%•{%NAME%}
+ItemDisplay[(t56)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T1 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
 ItemDisplay[(t53)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T2 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
 ItemDisplay[(t51 OR t52 OR t54 OR t55)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T3 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
 // MAPS NAME IMMUNITIES
@@ -1677,7 +1678,7 @@ ItemDisplay[t31]: %NAME% %LIGHT_GRAY%Im: %BLUE%•%GREEN%•%ORANGE%•{%NAME%}%CONTIN
 ItemDisplay[t32]: %NAME% %LIGHT_GRAY%Im: %RED%•%BLUE%•{%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME% %LIGHT_GRAY%Im: %RED%•%BLUE%•{%NAME%}%CONTINUE% // Lost Temple 158
 ItemDisplay[t34]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%GREEN%•{%NAME%}%CONTINUE% // Ancestral Trial 146
-ItemDisplay[t35]: %PURPLE%•%RED%•  %NAME%  %RED%•%PURPLE%•{%NAME%}%CONTINUE% // Blood Moon 154
+ItemDisplay[t35]: %MAP-80%%SOUNDID-4717%%PURPLE%•%RED%•  %NAME%  %RED%•%PURPLE%•{%NAME%}%CONTINUE% // Blood Moon 154
 ItemDisplay[t36]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%BLUE%•{%NAME%}%CONTINUE% // Fall of Caldeum 155
 ItemDisplay[t37]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%GREEN%•%GOLD%•{%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME% %LIGHT_GRAY%Im: %RED%•%GREEN%•%GOLD%•{%NAME%}%CONTINUE% // Canyon of Sescheron 160
