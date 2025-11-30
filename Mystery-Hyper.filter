@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/30th/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 35}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Nov/30th/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 36}
 
 
 
@@ -7709,7 +7709,7 @@ ItemDisplay[DIFF=0 NMAG SOCK=2 !INF !RW (SCEPTER OR SOR)]: %NAME%{%NAME%}
 // A4 Merc Early Bases Starter/Medium Filters
 ItemDisplay[FILTLVL~1-4 NMAG (SOCK=3 OR SOCK=4) !INF !RW ELT STAFF]: %NAME%{%NAME%}
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) NMAG SOCK=0 !INF !RW ELT STAFF]: %NAME%{%NAME%}
-ItemDisplay[DIFF<2 NMAG (SOCK=3 OR SOCK=4) !INF !RW EXC STAFF]: %NAME%{%NAME%}
+ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) NMAG (SOCK=3 OR SOCK=4) !INF !RW EXC STAFF]: %NAME%{%NAME%}
 ItemDisplay[DIFF<2 NMAG SOCK=0 !INF !RW EXC STAFF]: %NAME%{%NAME%}
 ItemDisplay[DIFF=0 NMAG (SOCK=3 OR SOCK=4) !INF !RW NORM STAFF]: %NAME%{%NAME%}
 // A5 Merc Early Bases Starter/Medium Filters
