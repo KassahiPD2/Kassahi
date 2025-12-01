@@ -407,6 +407,7 @@ ItemDisplay[DIFF=0 MAG !ID (aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %NAME%
 ItemDisplay[CLVL<29 MAG !ID (amu OR rin)]: %DOT-97%%NAME%
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG DIFF=2 ILVL>59 !ID amu]: %DOT-97%%NAME% %BLUE%•
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID (amu OR rin)]: %NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID amu]: %NAME%
 
 // Warrior Map
 ItemDisplay[MAG (amu OR CIRC OR GLOVES OR (ELT (CHEST OR SHIELD))) !ID !DIN !NEC (MAPID=181 OR MAPID=182)]: %NAME%%RED%*
