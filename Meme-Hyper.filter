@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 37}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed sounds on wss/ppic/maps/t2 sets - Kassahi%CL%New ias/fcr large charm highlights%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 38}
 
 
 
@@ -2189,6 +2189,7 @@ ItemDisplay[DIFF=0 MAG !ID (aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3)]: %NAME%
 ItemDisplay[CLVL<29 MAG !ID (amu OR rin)]: %DOT-97%%NAME%
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG DIFF=2 ILVL>59 !ID amu]: %DOT-97%%NAME% %BLUE%•
 ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) MAG !ID (amu OR rin)]: %NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID amu]: %NAME%
 
 // Warrior Map
 ItemDisplay[MAG (amu OR CIRC OR GLOVES OR (ELT (CHEST OR SHIELD))) !ID !DIN !NEC (MAPID=181 OR MAPID=182)]: %NAME%%RED%*
