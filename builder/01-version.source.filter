@@ -9,4 +9,4 @@
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%Removed sounds on Essences (-Baal) - Kassahi%CL%Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # --buildnum--}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # --buildnum--}
