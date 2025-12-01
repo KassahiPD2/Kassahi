@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed sounds on Essences (-Baal) - Kassahi%CL%Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 41}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 42}
 
 
 
@@ -24,9 +24,12 @@ ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed so
 
  
 
-// lbox imrn
-Alias[GG_BOXES_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@@%PURPLE%@@@%GREEN%@@   %RED%
-Alias[GG_BOXES_RIGHT]: %GREEN%   @@%PURPLE%@@@%GREEN%@@@
+// imrn
+Alias[GG_IMRN_LEFT]: %PX-60%%DOT-21%%MAP-0A%%SOUNDID-4714%%PURPLE%@@%GREEN%@  %RED%
+Alias[GG_IMRN_RIGHT]: %GREEN%  @%PURPLE%@@
+// lbox
+Alias[GG_LBOX_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@@%PURPLE%@@@%GREEN%@@   %RED%
+Alias[GG_LBOX_RIGHT]: %GREEN%   @@%PURPLE%@@@%GREEN%@@@
 // lsvl llmr
 Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@@%PURPLE%@@@%GREEN%@@@%PURPLE%@@@%GREEN%@@   %RED%
 Alias[GG_GG_RIGHT]: %GREEN%   @@%PURPLE%@@@%GREEN%@@@%PURPLE%@@@%GREEN%@@@
@@ -39,7 +42,6 @@ Alias[GG_RTP_RIGHT]: %GREEN%   @@%PURPLE%@@@%GREEN%@@@%PURPLE%@@@%GREEN%@@@
 // rid
 Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@@%PURPLE%@@@%GREEN%@@@%PURPLE%@@@%GREEN%@@   %RED%
 Alias[GG_RID_RIGHT]: %GREEN%   @@%PURPLE%@@@%GREEN%@@@%PURPLE%@@@%GREEN%@@@
-
 
 
 
@@ -698,7 +700,7 @@ ItemDisplay[rkey]: Skeleton Key%CONTINUE%
 
 // Out of Town
 // Low PD2 Items
-ItemDisplay[(lbox OR imrn) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Lil Mystery%CONTINUE%
+ItemDisplay[(lbox) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Lil Mystery%CONTINUE%
 
 // High PD2 Items
 ItemDisplay[(lsvl OR llmr OR rkey OR rtp OR rid) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Big Mystery%CONTINUE%
@@ -943,7 +945,7 @@ ItemDisplay[STAT206>0 !(STAT477=4 OR STAT477=21)]: %NAME%*{%NAME%}%CONTINUE%
 
 
 // GOLD
-ItemDisplay[GOLD<4999]:
+ItemDisplay[GOLD<9999]:
 // POTIONS
 ItemDisplay[((FILTLVL~1-6) OR (FILTLVL~9-10)) rvs]: %PURPLE%° %WHITE%35%
 ItemDisplay[rvs]:
@@ -1444,6 +1446,8 @@ ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %MAP-0A%%SOUNDID-4715%%GOLD%%NAME%{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %RED%• %NAME% %RED%•{%NAME%}%CONTINUE%
+ItemDisplay[imrn]: %PX-60%%DOT-21%%MAP-0A%%SOUNDID-4714%%RED%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lmal]: %MAP-68%%WHITE%Larzuk's Malus{%WHITE%All Sockets: 1%NL%%WHITE%Possible Sockets:}
 ItemDisplay[jewf]: %MAP-68%%WHITE%Jewel Fragments %GOLD%O%GOLD%{%WHITE%Crafting As a Regular Jewel%NL%Can Be Used For}%CONTINUE%
 ItemDisplay[imma]: {}
@@ -1487,9 +1491,8 @@ ItemDisplay[crfp]: %LIGHT_GRAY%•%WHITE%••   %NAME%   %WHITE%••%LIGHT_GRAY%•{%NAM
 
 
 
-ItemDisplay[lbox]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
-ItemDisplay[imrn QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[imrn]: %GG_BOXES_LEFT%%NAME%%GG_BOXES_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[lbox]: %GG_LBOX_LEFT%%NAME%%GG_LBOX_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[imrn]: %GG_IMRN_LEFT%%NAME%%GG_IMRN_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[lsvl]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%%TAN%Cube: %ORANGE%VoL, Bis Item %WHITE%to Make it Eth%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[llmr]: %GG_GG_LEFT%%NAME%%GG_GG_RIGHT%{%GRAY%(Mirrored Items Can Never be Modified Again)%NL%%TAN%Cube: %ORANGE%LM, Bis Item %WHITE%to Make a Duplicate Item%NL%%TAN%Drops From: %RED%Anywhere}
 ItemDisplay[rkey]: %GG_RKEY_LEFT%%NAME%%GG_RKEY_RIGHT%{%NAME%}
@@ -2517,9 +2520,6 @@ ItemDisplay[RW WEAPON SOCK=5 MULTI97,155=4]: %NAME%{%NAME%%CL%%WHITE%oskill: %GR
 ItemDisplay[RW WEAPON SOCK=5 MULTI97,155=5]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%Bcm:%WHITE%32%%GRAY%ed}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=5 MULTI97,155=6]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%Bcm:%WHITE%35%%GRAY%ed}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=5 MULTI198,17807=35]: %NAME%{%NAME%%CL%%WHITE%striking: %GRAY%ven:%WHITE%381-406%GRAY%psn}%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=5 MULTI97,228=6]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%wbr:%WHITE%95%%GRAY%ed, %WHITE%95%%GRAY%def, %WHITE%12%%GRAY%unat}%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=5 MULTI97,233=6]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%mal:%WHITE%40-170%GRAY%ed, %WHITE%45%%GRAY%ar}%CONTINUE%
-ItemDisplay[RW WEAPON SOCK=5 MULTI97,242=6]: %NAME%{%NAME%%CL%%WHITE%oskill: %GRAY%hgr:%WHITE%24%%GRAY%csc, %WHITE%22%%GRAY%mms}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=5 MULTI151,122=8]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%fan:%WHITE%28%%GRAY%ias, %WHITE%155%%GRAY%ur ed, %WHITE%77%%GRAY%party ed, %WHITE%75%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=5 MULTI151,122=9]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%fan:%WHITE%29%%GRAY%ias, %WHITE%170%%GRAY%ur ed, %WHITE%85%%GRAY%party ed, %WHITE%80%%GRAY%ar}%CONTINUE%
 ItemDisplay[RW WEAPON SOCK=5 MULTI151,122=10]: %NAME%{%NAME%%CL%%WHITE%aura: %GRAY%fan:%WHITE%30%%GRAY%ias, %WHITE%185%%GRAY%ur ed, %WHITE%92%%GRAY%party ed, %WHITE%85%%GRAY%ar}%CONTINUE%
@@ -6283,7 +6283,7 @@ ItemDisplay[UNI ID rin STAT365>0 STAT87>0]: %WHITE%%LRES%%YELLOW%lres %WHITE%%PR
 ItemDisplay[UNI ID rin STAT366>0 STAT87>0]: %WHITE%%RES%%PURPLE%ares %WHITE%%MFIND%%DARK_GREEN%mf %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI ID rin EDAM>0 STAT87>0]: %WHITE%%RES%%PURPLE%ares %WHITE%%MFIND%%DARK_GREEN%mf %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI ID amu EDAM>0 STAT504>0 RES>0]: %WHITE%%EDAM%%RED%ed %WHITE%%RES%%PURPLE%ares%CL%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[UNI ID amu FRW>0 IAS>0 DEX>0]: %WHITE%%DEX%%DARK_GREEN%dex%CL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[UNI ID amu FRW>0 IAS>0 DEX>0]: %WHITE%%FRW%%ORANGE%frw %WHITE%%DEX%%DARK_GREEN%dex%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI ID amu STAT501>0 PRES>0 STAT119>0]: %WHITE%%STAT501%%GOLD%ow %WHITE%%STAT119%%%DARK_GREEN%ar %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI ID amu STAT127>0 IAS>0 STAT50>0]: %WHITE%%LRES%%YELLOW%lres%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI ID amu STAT363>0 STAT48>0 STAT333>0]: %WHITE%%STAT363%%RED%fsk %WHITE%-%STAT333%%RED%fire%CL%%NAME%{%NAME%}%CONTINUE%
