@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/2nd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 44}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/2nd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 45}
 
 
 
@@ -2136,6 +2136,7 @@ ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID !NORM CHEST]: %NAME% %RED%•
 ItemDisplay[FILTLVL~1-8 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM)]: %NAME% %RED%•
 ItemDisplay[FILTLVL~1-8 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM OR QUIVER)]: %NAME%
 ItemDisplay[FILTLVL~1-8 MAG !ID (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%•%WHITE%•  %NAME%  %WHITE%•%BLUE%•
+ItemDisplay[FILTLVL~1-8 MAG !ETH !ID amu]: %NAME%
 
 // Starter/Medium Strictness
 // Good Crafting/ID Bases
@@ -7490,6 +7491,9 @@ ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) NMAG SOCK=0 !INF !RW wsp]: %NAME%
 // ASSASSIN CLAW'S (NMAG)
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (7ar OR 7xf OR 7qr)]: %PX-21%%DOT-D6%%NAME% %RED%•{%NAME%}
 ItemDisplay[FILTLVL~1-8 NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH (7ar OR 7xf OR 7qr)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
+
+// Specific 0os bases for medium filters
+ItemDisplay[FILTLVL~1-4 NMAG SOCK=0 !INF !RW (6rx OR 6ws)]: %NAME%{%NAME%}
 
 // Druid Early Bases Starter/Medium Filters
 // Helmets
