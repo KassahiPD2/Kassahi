@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/1st/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 42}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/2nd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 43}
 
 
 
@@ -717,8 +717,8 @@ ItemDisplay[INF ID !rin !amu]: %GRAY%Shit %NAME%{%NAME%}%CONTINUE%
 // BOSS ITEMS
 ItemDisplay[ETH UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
 // GG
-ItemDisplay[ETH UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR 7gd OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 7s8)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[ETH UNI !ID (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[ETH UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[ETH UNI !ID (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
 // Other Uniq & Set Tiers
 ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
