@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/2nd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 46}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/2nd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 47}
 
 
 
@@ -4623,7 +4623,7 @@ ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%j
 ItemDisplay[MAG cm3 LIFE>29 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FRW>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 ItemDisplay[MAG cm3 FHR>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 MAXDMG>13]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
+ItemDisplay[MAG cm3 MAXDMG>13]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
 
 
 
