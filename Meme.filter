@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/3rd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 48}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/3rd/25){%LIGHT_GRAY%Removed Demonic Cube from hr highlight/sound to gul - Kassahi%CL%Removed sounds on Essences (-Baal) & Added sounds back on ppic%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 49}
 
 
 
@@ -60,6 +60,7 @@ ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !(MAG (cm1 OR cm2 OR cm3))]: %BAS
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) !STASH !INVENTORY]: %BASENAME%%CONTINUE%
 
 // CHARM'S NAME (BASE)
+ItemDisplay[MAG cm1 (STAT49>20 OR STAT51>32 OR STAT55>17)]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[MAG cm2 (STAT329>2 OR STAT330>2 OR STAT331>2 OR STAT332>2 OR STAT357>2 OR IAS>6 OR FCR>5)]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[MAG cm3 (TABSK40=1 OR TABSK41=1 OR TABSK42=1 OR TABSK32=1 OR TABSK33=1 OR TABSK34=1 OR TABSK24=1 OR TABSK25=1 OR TABSK26=1 OR TABSK16=1 OR TABSK17=1 OR TABSK18=1 OR TABSK8=1 OR TABSK9=1 OR TABSK10=1 OR TABSK48=1 OR TABSK49=1 OR TABSK50=1 OR TABSK0=1 OR TABSK1=1 OR TABSK2=1 OR MAXDMG>9)]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[MAG !ID cm1]: Small%CONTINUE%
@@ -4502,131 +4503,131 @@ ItemDisplay[FILTLVL~5-12 cm3 ILVL<91 !UNI ID !(LIFE>30 OR MANA>30 OR MAXDMG>7 OR
 
 // HIGHLIGHTING CHARM'S (GG'S)
 // SMALL
-ItemDisplay[MAG cm1 ((LIFE>14 (STAT49>23 OR STAT51>39 OR STAT55>20)) OR (LIFE>9 (STAT49>26 OR STAT51>46 OR STAT55>24)))]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 (STAT49>26 OR STAT51>46 OR STAT55>24)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 (STAT49>34 OR STAT51>59 OR STAT55>31)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT49>23 (STAT51>19 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT51>39 (STAT49>10 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 STAT55>20 (STAT49>10 OR STAT51>19)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 (STAT49>20 OR STAT51>32 OR STAT55>17)]: %DOT-0A%%GREEN%veng%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FRW>0 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 FHR>0 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 MFIND>5 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
-ItemDisplay[MAG cm1 LIFE>14 MANA>14]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%life mana %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Small Charm{%NAME%%CL%}
+ItemDisplay[MAG cm1 ((LIFE>14 (STAT49>23 OR STAT51>39 OR STAT55>20)) OR (LIFE>9 (STAT49>26 OR STAT51>46 OR STAT55>24)))]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veg life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 (STAT49>23 OR STAT51>39 OR STAT55>20)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 (STAT49>26 OR STAT51>46 OR STAT55>24)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 (STAT49>34 OR STAT51>59 OR STAT55>31)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT49>23 (STAT51>19 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT51>39 (STAT49>10 OR STAT55>8)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 STAT55>20 (STAT49>10 OR STAT51>19)]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%veng %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 (STAT49>20 OR STAT51>32 OR STAT55>17)]: %GREEN%veng%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 RES>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ares %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 FRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 LRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 CRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 PRES>9]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pres mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FRW>0 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 FHR>0 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 MFIND>5 MAXDMG>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max mf %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm1 LIFE>14 MANA>14]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%life mana %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
 // LARGE
-ItemDisplay[MAG cm2 LIFE>24 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 LIFE>24 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FRW>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
-ItemDisplay[MAG cm2 FHR>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Large Charm{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 STAT329>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fire fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 STAT330>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 STAT331>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cold fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 STAT332>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%psn fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 STAT357>2]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mag fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 IAS>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ias fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 LIFE>24 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FRW>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm2 FHR>0 FCR>5]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fcr fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
 // GRAND
-ItemDisplay[MAG cm3 LIFE>29 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 LIFE>29 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FRW>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 FHR>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
-ItemDisplay[MAG cm3 MAXDMG>13]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%Grand Charm{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK40>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dsm fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK41>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ssg fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK42>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%ele fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK32>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bcb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK33>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%mti fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK34>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%wci fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK24>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pcb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK25>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%off fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK26>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%def fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK16>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%cur fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK17>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pnb fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK18>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%nsm fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK8>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%fir fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK9>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%lig fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK10>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%col fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK48>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%trp fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK49>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%dis fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK50>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%art fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK0>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%bow fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%pas fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 TABSK1>0]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%jav fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 LIFE>29 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max life %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FRW>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max frw %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 FHR>0 MAXDMG>7]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max fhr %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
+ItemDisplay[MAG cm3 MAXDMG>13]: %DOT-0A%%RED%>> %ORANGE%>> %RED%>> %GREEN%max %RED%<< %ORANGE%<< %RED%<<%CL%%PURPLE%%NAME%{%NAME%%CL%}
 
 
 
