@@ -41,9 +41,9 @@ ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) O
 ItemDisplay[yps]:
 ItemDisplay[vps CLVL<20]: %SAGE%· %WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
 ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
-ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) wms]: %YELLOW%· %WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) wms]: %YELLOW%· %WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
 ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
-ItemDisplay[DIFF<3 CLVL<90 (MAPID>0 MAPID<133) tsc]: %DARK_GREEN%· %BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) tsc]: %DARK_GREEN%· %BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
 ItemDisplay[tsc]:
 ItemDisplay[isc CLVL<20]: %DARK_GREEN%· %RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
 ItemDisplay[isc CLVL>19]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
