@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/6th/25){%LIGHT_GRAY%New Highlights for GG/5+/Shop/Lvling Items - Kassahi%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 56}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/6th/25){%LIGHT_GRAY%New Highlights for GG/5+/Shop/Lvling Items - Kassahi%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 57}
 
 
 
@@ -7258,12 +7258,13 @@ ItemDisplay[RW SHIELD EDEF>0 DTM>0]: %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD STAT127=1 STAT3>0]: %WHITE%%FCR%%ORANGE%fcr%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD FBR>0 GFIND>0 STAT153>0]: %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD STAT127=1 STAT1>0]: %WHITE%%FCR%%ORANGE%fcr%CL%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[RW SHIELD DEX>0]: %WHITE%%RES%%PURPLE%ares%CL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[RW SHIELD DEX>0 RES>0 STAT153>0]: %WHITE%%RES%%PURPLE%ares%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD MULTI151,104>0]: %WHITE%%MULTI151,104%%GREEN%dfc%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD MULTI201,17810=20]: %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD MULTI201,5199=10]: %WHITE%%FHR%%ORANGE%fhr %WHITE%%RES%%PURPLE%ares%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD MULTI151,124>0]: %WHITE%%MULTI151,124%%GREEN%red %WHITE%%EDAM%%RED%ed%CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW SHIELD MULTI151,114=16]: %WHITE%%LIFE%%RED%life%CL%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[RW SHIELD STR>0 DEX>0 STAT77>0]: %WHITE%%STR%%DARK_GREEN%att %WHITE%%STAT77%%BLUE%imm%CL%%NAME%{%NAME%}%CONTINUE%
 // CHEST'S
 ItemDisplay[RW CHEST FRW=10 FCR=20]: %CL%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RW CHEST MULTI201,1100=8]: %CL%%NAME%{%NAME%}%CONTINUE%
