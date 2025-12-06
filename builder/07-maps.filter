@@ -180,6 +180,7 @@ ItemDisplay[MAG MAPTIER>0]: %BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RARE MAPTIER>0]: %YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI MAPTIER>0]: %GOLD%%NAME%{%NAME%}%CONTINUE%
 // TIERS FOR MAPS
+ItemDisplay[t35]: %MAP-80%%SOUNDID-4717%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG MAPTIER>0]: %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=0]: %DOT-80%%NAME% %TAN%•{%NAME%}
@@ -210,7 +211,7 @@ ItemDisplay[t31]: %NAME% %LIGHT_GRAY%Im: %BLUE%•%GREEN%•%ORANGE%•{%NAME%}%
 ItemDisplay[t32]: %NAME% %LIGHT_GRAY%Im: %RED%•%BLUE%•{%NAME%}%CONTINUE% // Throne of Insanity 150
 ItemDisplay[t33]: %NAME% %LIGHT_GRAY%Im: %RED%•%BLUE%•{%NAME%}%CONTINUE% // Lost Temple 158
 ItemDisplay[t34]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%GREEN%•{%NAME%}%CONTINUE% // Ancestral Trial 146
-ItemDisplay[t35]: %MAP-80%%SOUNDID-4717%%PURPLE%•%RED%•  %NAME%  %RED%•%PURPLE%•{%NAME%}%CONTINUE% // Blood Moon 154
+ItemDisplay[t35]: %PURPLE%•%RED%•  %NAME%  %RED%•%PURPLE%•{%NAME%}%CONTINUE% // Blood Moon 154
 ItemDisplay[t36]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%BLUE%•{%NAME%}%CONTINUE% // Fall of Caldeum 155
 ItemDisplay[t37]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%GREEN%•%GOLD%•{%NAME%}%CONTINUE% // Pandemonium Citadel 156
 ItemDisplay[t38]: %NAME% %LIGHT_GRAY%Im: %RED%•%GREEN%•%GOLD%•{%NAME%}%CONTINUE% // Canyon of Sescheron 160
