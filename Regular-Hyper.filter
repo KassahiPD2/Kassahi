@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/6th/25){%LIGHT_GRAY%New Highlights for GG/5+/Shop/Lvling Items - Kassahi%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 59}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/7th/25){%LIGHT_GRAY%New Highlights for GG/5+/Shop/Lvling Items - Kassahi%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 60}
 
 
 
@@ -2528,7 +2528,7 @@ ItemDisplay[RARE jew ID RARE ILVL>67 STAT486=0 ((CLVL=99 ILVL=69) OR (CLVL=99 IL
 ItemDisplay[RARE !ETH ci3 !(STAT477=4 OR STAT477=21) (!CIRC-1 !CIRC-2)]: %NAME%{%NAME%%CL%%WHITE%tip: 6x %GRAY%O, %WHITE%to reroll 2/20s infinitely}%CONTINUE%
 
 // GRAND CHARM'S HIGH-LVL
-ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%91+{%NAME%%CL%%WHITE%cube: %PURPLE%charm, %WHITE%3x p-%ORANGE%gems, %WHITE%to reroll}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%90+{%NAME%%CL%%WHITE%cube: %PURPLE%charm, %WHITE%3x p-%ORANGE%gems, %WHITE%to reroll}%CONTINUE%
 
 // CHARSI QUEST CIRCLET'S (IMBUE)
 ItemDisplay[NMAG SOCK=0 !ETH ci3]: %NAME%{%NAME%%CL%%WHITE%charsi quest: %GRAY%can %YELLOW%imbue %GRAY%an item}%CONTINUE%
@@ -8060,6 +8060,8 @@ ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF NMAG !RW SOCK=5]: %PX-
 ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
 ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>2 !INF NMAG !RW SOCK=4]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) (SK50>2 OR SK60>2) !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) (SK50>2 OR SK60>2) !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 // Claws
 // Venom Pre-buff
 ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) SK278>2 (SK258>2 OR SK267>2 OR SK277>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%GG Venom{%NAME%%CL%%PURPLE%GG Venom Pre-buff}
