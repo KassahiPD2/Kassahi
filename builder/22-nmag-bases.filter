@@ -119,6 +119,8 @@ ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>0 SK57>0 !INF NMAG !RW SOCK=5]: %PX-
 ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
 ItemDisplay[(wst OR 8ws OR 6ws) SK50>0 SK60>0 !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 ItemDisplay[(wst OR 8ws OR 6ws) SK58>2 SK50>2 !INF NMAG !RW SOCK=4]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Memory{%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) (SK50>2 OR SK60>2) !INF NMAG !RW SOCK=0]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%GREEN%Roll 5 open sockets for CTA Base%CL%%NAME%}
+ItemDisplay[(wst OR 8ws OR 6ws) (SK50>2 OR SK60>2) !INF NMAG !RW SOCK=5]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%Cta{%NAME%}
 // Claws
 // Venom Pre-buff
 ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) SK278>2 (SK258>2 OR SK267>2 OR SK277>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %PX-84%%DOT-21%%MAP-D6%%NAME% %GREEN%GG Venom{%NAME%%CL%%PURPLE%GG Venom Pre-buff}
