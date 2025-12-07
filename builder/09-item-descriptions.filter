@@ -351,7 +351,7 @@ ItemDisplay[RARE jew ID RARE ILVL>67 STAT486=0 ((CLVL=99 ILVL=69) OR (CLVL=99 IL
 ItemDisplay[RARE !ETH ci3 !(STAT477=4 OR STAT477=21) (!CIRC-1 !CIRC-2)]: %NAME%{%NAME%%CL%%WHITE%tip: 6x %GRAY%O, %WHITE%to reroll 2/20s infinitely}%CONTINUE%
 
 // GRAND CHARM'S HIGH-LVL
-ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%91+{%NAME%%CL%%WHITE%cube: %PURPLE%charm, %WHITE%3x p-%ORANGE%gems, %WHITE%to reroll}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL>90]: %NAME% %WHITE%90+{%NAME%%CL%%WHITE%cube: %PURPLE%charm, %WHITE%3x p-%ORANGE%gems, %WHITE%to reroll}%CONTINUE%
 
 // CHARSI QUEST CIRCLET'S (IMBUE)
 ItemDisplay[NMAG SOCK=0 !ETH ci3]: %NAME%{%NAME%%CL%%WHITE%charsi quest: %GRAY%can %YELLOW%imbue %GRAY%an item}%CONTINUE%
