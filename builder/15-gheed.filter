@@ -193,6 +193,8 @@ ItemDisplay[NMAG !ID SHOP wnd]: %GOLD%Suicide Branch%CL%Torch of Iro%CL%%NAME%%C
 ItemDisplay[NMAG !ID SHOP ywn]: %GOLD%Carin Shard%CL%Maelstrom%CL%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bwn]: %GOLD%Boneshade%CL%Arm of King Leoric%CL%Gravenspine%CL%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gwn]: %GOLD%Death's Web%CL%Blackhand Key%CL%Ume's Lament%CL%%NAME%%CONTINUE%
+ItemDisplay[UNI !ID aqv]: %GOLD%Aetherwing%CL%Basillisk's Quill%CL%Doom's Finger%CL%Swiftwind Needle%CL%%Tombsong%CL%Balefire%CL%%NAME%%CONTINUE%
+ItemDisplay[UNI !ID cqv]: %GOLD%Abyssal Ward%CL%Bannerlord's Call%CL%Frozen Sorrow%CL%Anvilguard Strap%CL%Shatterhaed%CL%Ramfodder%CL%%NAME%%CONTINUE%
 
 // Gheed Event
 ItemDisplay[NMAG !ID SHOP !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%
@@ -258,7 +260,7 @@ ItemDisplay[NMAG !ID SHOP swb]: %GREEN%Arctic Horn%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP dgr]: %GREEN%Infernal Spike%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP mac]: %GREEN%Dangoon's Teaching%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP mst]: %GREEN%Aldur's Rhythm%CL%%CONTINUE%%CL%%NAME%
-ItemDisplay[NMAG !ID SHOP mau]: %GREEN%Immortal King's Stone Crusher (Eth GG)%CL%%CONTINUE%%CL%%NAME%
+ItemDisplay[NMAG !ID SHOP mau]: %GREEN%Immortal King's Stone Crusher%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP vou]: %GREEN%Hwanin's Justice%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP gsc]: %GREEN%Civerb's Cudgel%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP cst]: %GREEN%Naj's Puzzler%CL%%CONTINUE%%CL%%NAME%
@@ -268,10 +270,9 @@ ItemDisplay[NMAG !ID SHOP sbr]: %GREEN%Angelic Sickle%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP bsd]: %GREEN%Isenhart's Lightbrand%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP lsd]: %GREEN%Sazabi's Cobalt Redeemer%CL%Cleglaw's Tooth%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP wsd]: %GREEN%Death's Touch%CL%%CONTINUE%%CL%%NAME%
-ItemDisplay[NMAG !ID SHOP flb]: %GREEN%Bul-Kathos' Tribal Guardian (Eth GG)%CL%%CONTINUE%%CL%%NAME%
-ItemDisplay[NMAG !ID SHOP gsd]: %GREEN%Bul-Kathos' Sacred Charge (Eth GG)%CL%%CONTINUE%%CL%%NAME%
+ItemDisplay[NMAG !ID SHOP flb]: %GREEN%Bul-Kathos' Tribal Guardian%CL%%CONTINUE%%CL%%NAME%
+ItemDisplay[NMAG !ID SHOP gsd]: %GREEN%Bul-Kathos' Sacred Charge%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP bwn]: %GREEN%Sander's Superstition%CL%%CONTINUE%%CL%%NAME%
 ItemDisplay[NMAG !ID SHOP wsp]: %GREEN%Griswold's Redemption%CL%%NAME%%CONTINUE%
 
 ItemDisplay[NMAG !ID SHOP (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %CL%%NAME%
-
