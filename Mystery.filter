@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/11th/25){%LIGHT_GRAY%added sound back on wss - Kassahi%CL%rare ilvl90+ amu sound old highlight%CL%Rare amu/ring smaller highlight%CL%All LC shows on extra%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 65}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/11th/25){%LIGHT_GRAY%added sound back on wss - Kassahi%CL%rare normal helmets on medium now%CL%rare ilvl90+ amu sound old highlight%CL%Rare amu/ring smaller highlight%CL%All LC shows on extra%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 66}
 
 
 
@@ -2197,8 +2197,8 @@ ItemDisplay[FILTLVL~1-8 MAG ETH !ID (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR m
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5 OR NEC)]: %NAME% %RED%•
 ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID !NORM CHEST]: %NAME% %RED%•
 // Okay Crafting/ID Bases
-ItemDisplay[FILTLVL~1-8 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM)]: %NAME% %RED%•
-ItemDisplay[FILTLVL~1-8 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR HELM OR QUIVER)]: %NAME%
+ItemDisplay[FILTLVL~1-8 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT)]: %NAME% %RED%•
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) (SHIELD OR CHEST OR BELT OR QUIVER)]: %NAME%
 ItemDisplay[FILTLVL~1-8 MAG !ID (ci2 OR ci3)]: %DOT-20%%MAP-21%%BORDER-97%%BLUE%•%WHITE%•  %NAME%  %WHITE%•%BLUE%•
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID amu]: %NAME%
 
@@ -2208,6 +2208,8 @@ ItemDisplay[FILTLVL~1-4 MAG ETH !ID !BAR !DRU (BELT OR HELM OR GLOVES)]: %PX-60%
 ItemDisplay[FILTLVL~1-4 CRAFTALVL>84 MAG ETH !ID CHEST]: %RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-4 MAG !ID (ci0 OR ci1)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%• %NAME% %PURPLE%•
 // Okay Crafting/ID Bases
+ItemDisplay[FILTLVL~1-4 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) HELM]: %NAME% %RED%•
+ItemDisplay[FILTLVL~1-4 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) HELM]: %NAME%
 ItemDisplay[FILTLVL~1-4 RARE ETH !ID WEAPON]: %NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID (BOW OR XBOW)]: %NAME%
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) RARE !ID]: %NAME%
