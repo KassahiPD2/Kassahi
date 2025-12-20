@@ -1,0 +1,18 @@
+
+
+
+
+
+//------------------------------Rune-Name-MEME------------------------------
+
+
+
+
+
+// RUNES
+ItemDisplay[RUNE>0]: %RUNENAME% %RUNENUM%%CONTINUE%
+ItemDisplay[RUNE>0 RUNE<20]: %ORANGE%%NAME%%CONTINUE%
+ItemDisplay[RUNE>19]: %PURPLE%%NAME%%CONTINUE%
+ItemDisplay[RUNE>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+ItemDisplay[RUNE>25]: %RED%%NAME%%CONTINUE%
+

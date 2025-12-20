@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 75}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 76}
 
 
 
@@ -983,7 +983,7 @@ ItemDisplay[GOLD<9999]:
 // POTIONS
 ItemDisplay[((FILTLVL~1-6) OR (FILTLVL~9-10)) rvs]: %PURPLE%° %WHITE%35%
 ItemDisplay[rvs]:
-ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°
+ItemDisplay[rvl]: %PURPLE%° %NAME% %PURPLE%°
 ItemDisplay[DIFF=0 CLVL<18 (MAPID>0 MAPID<39) hp1]: %RED%· %WHITE%h
 ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<39) hp2]: %RED%° %WHITE%H %RED%°
 ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<75) hp2]: %RED%· %WHITE%h
