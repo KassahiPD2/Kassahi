@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 78}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 79}
 
 
 
@@ -57,7 +57,7 @@ ItemDisplay[rvl]: %WHITE%Juice%CONTINUE%
 
 // ITEM'S NAME (BASE)
 ItemDisplay[(SET OR UNI) !ID]: %BASENAME%%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !(MAG (cm1 OR cm2 OR cm3))]: %BASENAME%%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !rvl !(MAG (cm1 OR cm2 OR cm3))]: %BASENAME%%CONTINUE%
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) !STASH !INVENTORY]: %BASENAME%%CONTINUE%
 
 // GG Charms

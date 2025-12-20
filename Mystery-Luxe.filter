@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 78}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 79}
 
 
 
@@ -57,7 +57,7 @@ ItemDisplay[rvl]: %PURPLE%juice%CONTINUE%
 
 // ITEM'S NAME (BASE)
 ItemDisplay[(SET OR UNI) !ID]: %BASENAME%%CONTINUE%
-ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !(MAG (cm1 OR cm2 OR cm3))]: %BASENAME%%CONTINUE%
+ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !rvl !(MAG (cm1 OR cm2 OR cm3))]: %BASENAME%%CONTINUE%
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) !STASH !INVENTORY]: %BASENAME%%CONTINUE%
 
 // GG Charms
@@ -1277,7 +1277,7 @@ ItemDisplay[GEM=5 GEMTYPE=4]: %RED%++  %NAME%  %RED%++%CONTINUE%
 ItemDisplay[GEM=5 GEMTYPE=5]: %BLUE%++  %NAME%  %BLUE%++%CONTINUE%
 ItemDisplay[GEM=5 GEMTYPE=6]: %YELLOW%++  %NAME%  %YELLOW%++%CONTINUE%
 ItemDisplay[GEM=5 GEMTYPE=7]: %LIGHT_GRAY%++  %NAME%  %LIGHT_GRAY%++%CONTINUE%
-ItemDisplay[(FILTLVL=6 OR FILTLVL=11 OR FILTLVL=12) !GEMTYPE=7 GEM=4]:
+ItemDisplay[FLAWSKULLLVLS !GEMTYPE=7 GEM=4]:
 ItemDisplay[gpvs]: %NAME%{%WHITE%Boots: %ORANGE%Thul %WHITE%Belt: %ORANGE%Ith %WHITE%Weapon: %ORANGE%Tir%NL%%WHITE%Chest: %ORANGE%Tal %WHITE%Shield: %ORANGE%Eth %WHITE%Gloves: %ORANGE%Ort%NL%%WHITE%Amulet: %ORANGE%Ral %WHITE%Ring: %ORANGE%Amn %WHITE%Helm: %ORANGE%Nef%NL%%PURPLE%Caster %WHITE%Crafting Recipes: %PURPLE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[gpws]: %NAME%{%WHITE%Boots: %ORANGE%Ko %WHITE%Belt: %ORANGE%Io %WHITE%Weapon: %ORANGE%Sol%NL%%WHITE%Chest: %ORANGE%El %WHITE%Shield: %ORANGE%Ort %WHITE%Gloves: %ORANGE%Shael%NL%%WHITE%Amulet: %ORANGE%Tal %WHITE%Ring: %ORANGE%Hel %WHITE%Helm: %ORANGE%Eld%NL%%WHITE%Briliant Crafting Recipes: O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[gpgs]: %NAME%{%WHITE%Boots: %ORANGE%Ort %WHITE%Belt: %ORANGE%Tal %WHITE%Weapon: %ORANGE%Sol%NL%%WHITE%Chest: %ORANGE%Eth %WHITE%Shield: %ORANGE%Nef %WHITE%Gloves: %ORANGE%Ral%NL%%WHITE%Amulet: %ORANGE%Thul %WHITE%Ring: %ORANGE%Amn %WHITE%Helm: %ORANGE%Ith%NL%%GREEN%Safety %WHITE%Crafting Recipes: %GREEN%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
