@@ -30,7 +30,7 @@ ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm%CONTINUE%
 ItemDisplay[MAG cm3p]: %PURPLE%Pvp Arena %BLUE%Grand Charm%CONTINUE%
 ItemDisplay[UNI cm1]: Annihilus%CONTINUE%
-ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: Anti %NAME%%CONTINUE%
+ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: Sky's Anti SSF %NAME%%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=2]: Ama Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK1=2]: Sorc Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK2=2]: Necro Torch%CONTINUE%
