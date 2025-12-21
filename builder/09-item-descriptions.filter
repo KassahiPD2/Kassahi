@@ -362,6 +362,9 @@ ItemDisplay[leg !RW]: %NAME%{%NAME%%CL%%GRAY%(wirt's leg can be used in all diff
 // PRICE FOR ITEM'S
 ItemDisplay[!SHOP INVENTORY !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) !(STAT477=4 OR STAT477=21) (ARMOR OR WEAPON)]: %NAME%{%NAME%%CL%%SAGE%$%PRICE%}%CONTINUE%
 
+// SPECIAL LINK
+ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: %NAME%{%GREEN%www.twitch.tv/sky_88/clip/PerfectSullenKalePipeHype-pS4haIZHk-KVzvQ_%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
+
 //Notes for upgrading
 //Recipes
 ItemDisplay[(ARMOR OR QUIVER) NORM RARE ID]: %NAME%{%NAME%%CL%%WHITE%up: %ORANGE%Ral, Thul, %PURPLE%O,}%CONTINUE%
