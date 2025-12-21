@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/20th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 81}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/21st/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 82}
 
 
 
@@ -76,6 +76,7 @@ ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm%CONTINUE%
 ItemDisplay[MAG cm3p]: %PURPLE%Pvp Arena %BLUE%Grand Charm%CONTINUE%
 ItemDisplay[UNI cm1]: Annihilus%CONTINUE%
+ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: Anti %NAME%%CONTINUE%
 ItemDisplay[UNI cm2 CLSK0=2]: Ama Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK1=2]: Sorc Torch%CONTINUE%
 ItemDisplay[UNI cm2 CLSK2=2]: Necro Torch%CONTINUE%
@@ -2597,6 +2598,9 @@ ItemDisplay[leg !RW]: %NAME%{%NAME%%CL%%GRAY%(wirt's leg can be used in all diff
 
 // PRICE FOR ITEM'S
 ItemDisplay[!SHOP INVENTORY !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) !(STAT477=4 OR STAT477=21) (ARMOR OR WEAPON)]: %NAME%{%NAME%%CL%%SAGE%$%PRICE%}%CONTINUE%
+
+// SPECIAL LINK
+ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: %NAME%{%GREEN%www.twitch.tv/sky_88/clip/PerfectSullenKalePipeHype-pS4haIZHk-KVzvQ_%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
 
 //Notes for upgrading
 //Recipes
