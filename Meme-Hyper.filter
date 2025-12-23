@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/21st/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 84}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/23rd/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 85}
 
 
 
@@ -126,6 +126,7 @@ ItemDisplay[UNI !ID cqv3 INVENTORY]: Abyssal Ward%WHITE%/%GOLD%Bannerlord's Call
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI !ID xap]: Peasant Crown%CONTINUE%
 ItemDisplay[UNI !ID uap]: Shako%CONTINUE%
+ItemDisplay[UNI ID uap STAT36=4 MFIND=28]: Daarmy's -4mf %NAME%%CONTINUE%
 ItemDisplay[UNI !ID skp]: Tarnhelm%CONTINUE%
 ItemDisplay[UNI !ID xkp]: Rockstopper%CONTINUE%
 ItemDisplay[UNI !ID hlm]: Coif of Glory%CONTINUE%
@@ -2001,7 +2002,7 @@ ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar
 // Wraithskin - Diamond Mail
 // Stalker's Cull - Runic Talons
 
-ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2597,6 +2598,7 @@ ItemDisplay[!SHOP INVENTORY !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv 
 
 // SPECIAL LINK
 ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: %NAME%{%GREEN%www.twitch.tv/sky_88/clip/PerfectSullenKalePipeHype-pS4haIZHk-KVzvQ_%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID uap STAT36=4 MFIND=28]: %NAME%{%GREEN%www.twitch.tv/daarmyd2/clip/ThankfulTemperedDiscDatBoi-in9bPp-hkGuzzASU%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
 
 //Notes for upgrading
 //Recipes
@@ -4520,6 +4522,9 @@ ItemDisplay[NMAG !ID SHOP (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID
 
 
 
+
+// Anniversaries Name Items 
+ItemDisplay[UNI ID STAT270>0]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%Anniversary %NAME%{%NAME%%CL%}%CONTINUE%
 
 // MIRRORED ITEM'S (GG'S)
 ItemDisplay[STAT477=4]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%Black%CL%%WHITE%>> %PURPLE%>> %WHITE%>> %PURPLE%Mirrored %WHITE%<< %PURPLE%<< %WHITE%<<%CL%%NAME%{%NAME%%CL%}
