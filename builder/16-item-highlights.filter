@@ -9,6 +9,9 @@
 
 
 
+// Anniversaries Name Items 
+ItemDisplay[UNI ID STAT270>0]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%Anniversary %NAME%{%NAME%%CL%}%CONTINUE%
+
 // MIRRORED ITEM'S (GG'S)
 ItemDisplay[STAT477=4]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%Black%CL%%WHITE%>> %PURPLE%>> %WHITE%>> %PURPLE%Mirrored %WHITE%<< %PURPLE%<< %WHITE%<<%CL%%NAME%{%NAME%%CL%}
 ItemDisplay[STAT477=21]: %DOT-0A%%MAP-9B%%BORDER-1F%%ORANGE%White%CL%%WHITE%>> %PURPLE%>> %WHITE%>> %PURPLE%Mirrored %WHITE%<< %PURPLE%<< %WHITE%<<%CL%%NAME%{%NAME%%CL%}
