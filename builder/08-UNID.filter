@@ -202,7 +202,7 @@ ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar
 // Wraithskin - Diamond Mail
 // Stalker's Cull - Runic Talons
 
-ItemDisplay[UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
