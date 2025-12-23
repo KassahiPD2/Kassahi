@@ -82,6 +82,7 @@ ItemDisplay[UNI !ID cqv3 INVENTORY]: Abyssal Ward%WHITE%/%GOLD%Bannerlord's Call
 ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%
 ItemDisplay[UNI !ID xap]: Peasant Crown%CONTINUE%
 ItemDisplay[UNI !ID uap]: Shako%CONTINUE%
+ItemDisplay[UNI ID uap STAT36=4 MFIND=28]: Daarmy's -4mf %NAME%%CONTINUE%
 ItemDisplay[UNI !ID skp]: Tarnhelm%CONTINUE%
 ItemDisplay[UNI !ID xkp]: Rockstopper%CONTINUE%
 ItemDisplay[UNI !ID hlm]: Coif of Glory%CONTINUE%
