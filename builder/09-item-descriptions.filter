@@ -364,6 +364,7 @@ ItemDisplay[!SHOP INVENTORY !RW !(cm1 OR cm2 OR cm3 OR jew OR UNI OR SET OR aqv 
 
 // SPECIAL LINK
 ItemDisplay[UNI ID cm1 STAT3=30 RES=10 STAT85=5]: %NAME%{%GREEN%www.twitch.tv/sky_88/clip/PerfectSullenKalePipeHype-pS4haIZHk-KVzvQ_%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
+ItemDisplay[UNI ID uap STAT36=4 MFIND=28]: %NAME%{%GREEN%www.twitch.tv/daarmyd2/clip/ThankfulTemperedDiscDatBoi-in9bPp-hkGuzzASU%CL%Link is Save - Kassahi%CL%%NAME%}%CONTINUE%
 
 //Notes for upgrading
 //Recipes
