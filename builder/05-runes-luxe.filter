@@ -7,6 +7,7 @@
 
 
 
+ItemDisplay[RUNE>0 QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 
 // Rune sounds
 ItemDisplay[RUNE>19 RUNE<22]: %DOT-0A%%SOUNDID-4715%%NAME%%CONTINUE%
