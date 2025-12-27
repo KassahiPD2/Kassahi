@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 100}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 101}
 
 
 
@@ -732,26 +732,26 @@ ItemDisplay[(lsvl OR llmr OR rkey OR rtp OR rid) !(MAPID=1 OR MAPID=40 OR MAPID=
 
 
 // Druid Item Colors
-ItemDisplay[MAG !ID DRUID (CLUB OR DRU)]: %TEAL%%NAME%%CONTINUE%
-ItemDisplay[RARE !ID DRUID (CLUB OR DRU)]: %SAGE%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID DRUID (CLUB OR DRU OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID DRUID (CLUB OR DRU OR lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc)]: %SAGE%%NAME%%CONTINUE%
 // Barbarian Item Colors
 ItemDisplay[MAG !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %TEAL%%NAME%%CONTINUE%
 ItemDisplay[RARE !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %SAGE%%NAME%%CONTINUE%
 // Paladin Item Colors
-ItemDisplay[MAG !ID PALADIN (DIN OR SCEPTER)]: %TEAL%%NAME%%CONTINUE%
-ItemDisplay[RARE !ID PALADIN (DIN OR SCEPTER)]: %SAGE%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID PALADIN (DIN OR SCEPTER OR fla OR 9fl OR 7fl)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID PALADIN (DIN OR SCEPTER OR fla OR 9fl OR 7fl)]: %SAGE%%NAME%%CONTINUE%
 // Necromancer Item Colors
-ItemDisplay[MAG !ID NECROMANCER (NEC OR WAND)]: %TEAL%%NAME%%CONTINUE%
-ItemDisplay[RARE !ID NECROMANCER (NEC OR WAND)]: %SAGE%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID NECROMANCER (NEC OR WAND OR kri OR 9kr OR 7kr)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID NECROMANCER (NEC OR WAND OR kri OR 9kr OR 7kr)]: %SAGE%%NAME%%CONTINUE%
 // Assassin Item Colors
-ItemDisplay[MAG !ID ASSASSIN SIN]: %TEAL%%NAME%%CONTINUE%
-ItemDisplay[RARE !ID ASSASSIN SIN]: %SAGE%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID ASSASSIN (SIN OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID ASSASSIN (SIN OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %SAGE%%NAME%%CONTINUE%
 // Sorceress Item Colors
 ItemDisplay[MAG !ID SORCERESS (STAFF OR SOR)]: %TEAL%%NAME%%CONTINUE%
 ItemDisplay[RARE !ID SORCERESS (STAFF OR SOR)]: %SAGE%%NAME%%CONTINUE%
 // Amazon Item Colors
-ItemDisplay[MAG !ID AMAZON (ZON OR QUIVER)]: %TEAL%%NAME%%CONTINUE%
-ItemDisplay[RARE !ID AMAZON (ZON OR QUIVER)]: %SAGE%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID AMAZON (ZON OR QUIVER OR mxb OR 8mx OR 6mx)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID AMAZON (ZON OR QUIVER OR mxb OR 8mx OR 6mx)]: %SAGE%%NAME%%CONTINUE%
 // Charm Item Colors
 ItemDisplay[MAG !ID (CHARM OR jew)]: %PURPLE%%NAME%%CONTINUE%
 // BOSS Item Colors
