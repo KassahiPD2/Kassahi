@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 98}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 99}
 
 
 
@@ -1858,7 +1858,7 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 
 // UNIQUES
 // CHARMS
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-4717%
+ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-4715%
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-4719%
 // GG Unique Callouts
@@ -1919,7 +1919,7 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR
 // Ring
 // jewel
 
-ItemDisplay[UNI !ID (jew OR amu OR rin)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4718%
+ItemDisplay[UNI !ID (jew OR amu OR rin)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4714%
 
 // Thunderstroke - Matriarchal Javelin
 // Halaberds Reign - Conqueror Crown
@@ -1972,7 +1972,7 @@ ItemDisplay[UNI !ID (jew OR amu OR rin)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%
 // exceptional arrows
 
 
-ItemDisplay[UNI !ID (amf OR bae OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR uvg OR ulm OR uow OR 7p7 OR nee OR xvb OR 7xf OR ned OR xh9 OR zvb OR 6sw OR 7gd OR paf OR 8ls OR 7mp OR scl OR 8cb OR 7gm OR zhb OR 7b7 OR drc OR 8rx OR cqv3 OR aqv3 OR aqv2)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4718%
+ItemDisplay[UNI !ID (amf OR bae OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR uvg OR ulm OR uow OR 7p7 OR nee OR xvb OR 7xf OR ned OR xh9 OR zvb OR 6sw OR 7gd OR paf OR 8ls OR 7mp OR scl OR 8cb OR 7gm OR zhb OR 7b7 OR drc OR 8rx OR cqv3 OR aqv3 OR aqv2)]: %PX-0D%%DOT-21%%MAP-0A%%T3_LEFT%%NAME%%T3_RIGHT%%SOUNDID-4714%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2005,7 +2005,7 @@ ItemDisplay[UNI !ID (amf OR bae OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg
 // The Reapers Toll - Thresher
 // Sacred Totem - Hellspawn Skull
 
-ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)]: %PX-0D%%DOT-0A%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-4717%
+ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)]: %PX-0D%%DOT-0A%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-4716%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2118,8 +2118,8 @@ ItemDisplay[FILTLVL~5-12 UNI !ID]:
 
 // SETS
 // GG
-ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4718%
-ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4717%
+ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4714%
+ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %DOT-84%%MAP-21%%BORDER-0A%%SET_GG_LEFT%%NAME%%SET_GG_RIGHT%%SOUNDID-4714%
 // TIER 3
 ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-84%%DOT-21%%MAP-0A%%SET_T3_LEFT%%NAME%%SET_T3_RIGHT%
@@ -2147,7 +2147,7 @@ ItemDisplay[FILTLVL~5-12 SET !ID]:
 
 // Everyone
 // GG
-ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4717%%SAGE%•••%YELLOW%•••%WHITE%••   %NAME%   %WHITE%••%YELLOW%•••%SAGE%•••
+ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4714%%SAGE%•••%YELLOW%•••%WHITE%••   %NAME%   %WHITE%••%YELLOW%•••%SAGE%•••
 ItemDisplay[RARE !ID ((CIRC) OR (amu ILVL>89))]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4716%%SAGE%••%YELLOW%••%WHITE%•   %NAME%   %WHITE%•%YELLOW%••%SAGE%••
 ItemDisplay[RARE !ID (amu OR rin)]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%YELLOW%•%WHITE%•   %NAME%   %WHITE%•%YELLOW%•%SAGE%•
 // Good Crafting/ID Bases
