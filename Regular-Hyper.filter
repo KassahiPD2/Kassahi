@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/23rd/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 97}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 98}
 
 
 
@@ -711,11 +711,43 @@ ItemDisplay[rkey]: Skeleton Key%CONTINUE%
 
 
 
-// ORGINAL COLORS (ITEMS)
+// Druid Item Colors
+ItemDisplay[MAG !ID DRUID (CLUB OR DRU)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID DRUID (CLUB OR DRU)]: %SAGE%%NAME%%CONTINUE%
+// Barbarian Item Colors
+ItemDisplay[MAG !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %SAGE%%NAME%%CONTINUE%
+// Paladin Item Colors
+ItemDisplay[MAG !ID PALADIN (DIN OR SCEPTER)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID PALADIN (DIN OR SCEPTER)]: %SAGE%%NAME%%CONTINUE%
+// Necromancer Item Colors
+ItemDisplay[MAG !ID NECROMANCER (NEC OR WAND)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID NECROMANCER (NEC OR WAND)]: %SAGE%%NAME%%CONTINUE%
+// Assassin Item Colors
+ItemDisplay[MAG !ID ASSASSIN SIN]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID ASSASSIN SIN]: %SAGE%%NAME%%CONTINUE%
+// Sorceress Item Colors
+ItemDisplay[MAG !ID SORCERESS (STAFF OR SOR)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID SORCERESS (STAFF OR SOR)]: %SAGE%%NAME%%CONTINUE%
+// Amazon Item Colors
+ItemDisplay[MAG !ID AMAZON (ZON OR QUIVER)]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[RARE !ID AMAZON (ZON OR QUIVER)]: %SAGE%%NAME%%CONTINUE%
+// Charm Item Colors
+ItemDisplay[MAG !ID (CHARM OR jew)]: %PURPLE%%NAME%%CONTINUE%
+// BOSS Item Colors
+ItemDisplay[ETH UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
+// GG Item Colors
+ItemDisplay[ETH UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 8mx OR dre)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[ETH UNI !ID (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 7ts)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
+// Other Uniq & Set Item Colors
+ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
+// Mirror Item Colors
 ItemDisplay[(STAT477=4 OR STAT477=21)]: %RED%%NAME%%CONTINUE%
+// ORGINAL COLORS (ITEMS)
 ItemDisplay[MAG]: %BLUE%%NAME%%CONTINUE%
-ItemDisplay[CRAFT]: %ORANGE%%NAME%%CONTINUE%
 ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
+ItemDisplay[CRAFT]: %ORANGE%%NAME%%CONTINUE%
 ItemDisplay[SET]: %GREEN%%NAME%%CONTINUE%
 ItemDisplay[ID UNI]: %GOLD%%NAME%%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) NMAG !ETH SOCK=0]: %WHITE%%NAME%%CONTINUE%
@@ -728,15 +760,17 @@ ItemDisplay[SUP WEAPON ED<1]: %RED%Sup %NAME%{%NAME%}%CONTINUE%
 // INFINITE (ITEMS)
 ItemDisplay[INF ID !rin !amu]: %GRAY%Shit %NAME%{%NAME%}%CONTINUE%
 // ETHEREAL (ITEMS)
-// BOSS ITEMS
-ItemDisplay[ETH UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
-// GG
-ItemDisplay[ETH UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7gm OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[ETH UNI !ID (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
-// Other Uniq & Set Tiers
-ItemDisplay[ETH UNI !ID !(STAT477=4 OR STAT477=21)]: %GOLD%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[ETH SET !ID !(STAT477=4 OR STAT477=21)]: %GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[ETH !(STAT477=4 OR STAT477=21)]: %WHITE%Eth %NAME%{%NAME%}%CONTINUE%
+// Good Crafting Bases Callout
+ItemDisplay[(MAG OR RARE) !ID (HELM !CIRC) CRAFTALVL>80]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID amu CRAFTALVL>89]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID WEAPON CRAFTALVL>76]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID CHEST CRAFTALVL>84]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID SHIELD CRAFTALVL>84]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID GLOVES CRAFTALVL>74]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID rin CRAFTALVL>80]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID BELT CRAFTALVL>70]: %ORANGE%°%NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) !ID BOOTS CRAFTALVL>69]: %ORANGE%°%NAME%%CONTINUE%
 // BASE VERSION (ITEMS)
 ItemDisplay[NORM (WEAPON OR ARMOR OR QUIVER) !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%¹{%NAME%}%CONTINUE%
 ItemDisplay[EXC (WEAPON OR ARMOR OR QUIVER) !(STAT477=4 OR STAT477=21)]: %NAME%%DARK_GREEN%²{%NAME%}%CONTINUE%
@@ -2062,17 +2096,6 @@ ItemDisplay[FILTLVL~5-12 SET !ID]:
 
 
 
-// Good Crafting Bases Callout
-ItemDisplay[(MAG OR RARE) !ID (HELM !CIRC) CRAFTALVL>80]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID amu CRAFTALVL>89]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID WEAPON CRAFTALVL>76]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID CHEST CRAFTALVL>84]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID SHIELD CRAFTALVL>84]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID GLOVES CRAFTALVL>74]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID rin CRAFTALVL>80]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID BELT CRAFTALVL>70]: %ORANGE%°%NAME%%CONTINUE%
-ItemDisplay[(MAG OR RARE) !ID BOOTS CRAFTALVL>69]: %ORANGE%°%NAME%%CONTINUE%
-
 // Everyone
 // GG
 ItemDisplay[RARE !ID jew]: %DOT-20%%MAP-21%%BORDER-6D%%SOUNDID-4717%%SAGE%•••%YELLOW%•••%WHITE%••   %NAME%   %WHITE%••%YELLOW%•••%SAGE%•••
@@ -2086,7 +2109,7 @@ ItemDisplay[RARE !ID !ETH (GLOVES OR BOOTS)]: %PX-6D%%DOT-21%%MAP-6D%%SAGE%••  %
 ItemDisplay[MAG !ID jew]: %DOT-20%%MAP-21%%BORDER-97%%PURPLE%•%BLUE%•%WHITE%•   %NAME%   %WHITE%•%BLUE%•%PURPLE%•
 ItemDisplay[MAG !ID (cm1 OR cm3) ILVL>89]: %PX-20%%DOT-21%%MAP-97%%PURPLE%••%WHITE%••   %NAME%   %WHITE%••%PURPLE%••
 ItemDisplay[MAG !ID (cm1 OR cm3)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%•%WHITE%•  %NAME%  %WHITE%•%PURPLE%•
-ItemDisplay[FILTLVL~1-4 MAG !ID cm2]: %DOT-97%%PURPLE%• %NAME% %PURPLE%•
+ItemDisplay[FILTLVL~1-4 MAG !ID cm2]: %DOT-97%%BLUE%•%WHITE%•  %NAME%  %WHITE%•%BLUE%•
 ItemDisplay[FILTLVL~1-8 MAG !ID cm2]: %NAME%
 ItemDisplay[MAG !ID cm2 ILVL>89]: %NAME%
 
@@ -2118,41 +2141,41 @@ ItemDisplay[MAG !ID AMAZON (am1 OR am6 OR amb OR am2 OR am7 OR amc OR am5)]: %DO
 
 // Druid
 // Class Items Starter/Medium Strictness
-ItemDisplay[FILTLVL~1-4 MAG !ID DRUID (CLUB OR DRU)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID DRUID (CLUB OR DRU)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[FILTLVL~1-4 MAG !ID DRUID (CLUB OR DRU)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID DRUID (CLUB OR DRU)]: %DOT-6D%%NAME%
 // Barbarian
 // Class Items Starter/Medium Strictness
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID BARBARIAN THROWING !(am5 OR ama OR amf)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 MAG !ID BARBARIAN ((BAR) OR (ETH (THROWING))) !(am5 OR ama OR amf)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID BARBARIAN THROWING !(am5 OR ama OR amf)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID BARBARIAN ((BAR) OR (ETH (THROWING))) !(am5 OR ama OR amf)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID BARBARIAN (BAR OR THROWING) !(am5 OR ama OR amf)]: %DOT-6D%%NAME%
 // Paladin
 // Class Items Starter/Medium Strictness
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID PALADIN (DIN OR SCEPTER)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 MAG !ID PALADIN ((DIN) OR (ETH (SCEPTER)))]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID PALADIN (DIN OR SCEPTER)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID PALADIN (DIN OR SCEPTER)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID PALADIN ((DIN) OR (ETH (SCEPTER)))]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID PALADIN (DIN OR SCEPTER)]: %DOT-6D%%NAME%
 // Necromancer
 // Class Items Starter/Medium Strictness
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID NECROMANCER (NEC OR WAND)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 MAG !ID NECROMANCER ((NEC) OR (ETH (WAND)))]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID NECROMANCER (NEC OR WAND)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID NECROMANCER (NEC OR WAND)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID NECROMANCER ((NEC) OR (ETH (WAND)))]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID NECROMANCER (NEC OR WAND)]: %DOT-6D%%NAME%
 // Assassin
 // Class Items Starter/Medium Strictness
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID ASSASSIN SIN]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 MAG !ID ASSASSIN ETH SIN]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID ASSASSIN SIN]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID ASSASSIN SIN]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID ASSASSIN ETH SIN]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID ASSASSIN SIN]: %DOT-6D%%NAME%
 // Sorceress
 // Class Items Starter/Medium Strictness
-ItemDisplay[FILTLVL~1-4 MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[FILTLVL~1-4 MAG !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID SORCERESS (ob5 OR oba OR obf OR wst OR 8ws OR 6ws)]: %DOT-6D%%NAME%
 // Amazon
 // Class Items Starter/Medium Strictness
-ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME% %TEAL%•
-ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR QUIVER)]: %DOT-6D%%NAME% %TEAL%•
+ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR QUIVER)]: %DOT-6D%%NAME%
 // Every Class Item Highlights For Opposite Classes Starter/Medium Strictness
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
-ItemDisplay[FILTLVL~1-4 MAG !ID ETH (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME% %LIGHT_GRAY%•
-ItemDisplay[FILTLVL~1-4 MAG !ID !ETH (CLUB OR DRU OR BAR OR DIN OR NEC OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR QUIVER)]: %NAME% %LIGHT_GRAY%•
-ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR QUIVER)]: %NAME% %LIGHT_GRAY%•
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID ETH (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON)]: %NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ID !ETH (CLUB OR DRU OR BAR OR DIN OR NEC OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR QUIVER)]: %NAME%
+ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPTER OR NEC OR WAND OR SIN OR ob5 OR oba OR obf OR wst OR 8ws OR 6ws OR ZON OR QUIVER)]: %NAME%
 
 // Extra Strictness
 // Good Crafting/ID Bases
