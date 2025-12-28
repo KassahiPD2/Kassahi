@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 116}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 117}
 
 
 
@@ -2212,7 +2212,7 @@ ItemDisplay[FILTLVL~1-4 RARE !ID (CLUB OR DRU OR BAR OR THROWING OR DIN OR SCEPT
 
 // Starter/Medium Strictness
 // Good Crafting/ID Bases
-ItemDisplay[FILTLVL~1-4 MAG ETH !ID !BAR !DRU (BELT OR HELM OR GLOVES)]: %PX-60%%DOT-21%%MAP-97%%RED%• %NAME% %RED%•
+ItemDisplay[FILTLVL~1-4 MAG ETH !ID !BAR !DRU (BELT OR HELM OR GLOVES)]: %RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-4 CRAFTALVL>84 MAG ETH !ID CHEST]: %RED%• %NAME% %RED%•
 ItemDisplay[FILTLVL~1-4 MAG !ID (ci0 OR ci1)]: %PX-20%%DOT-21%%MAP-97%%PURPLE%• %NAME% %PURPLE%•
 // Okay Crafting/ID Bases
