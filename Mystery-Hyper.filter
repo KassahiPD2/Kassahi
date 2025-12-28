@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/27th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 101}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 102}
 
 
 
@@ -31,17 +31,17 @@ Alias[GG_IMRN_RIGHT]: %BLACK%  @%PURPLE%@ %BLACK%@%GREEN%@@
 Alias[GG_LBOX_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@   %WHITE%• %RED%
 Alias[GG_LBOX_RIGHT]: %WHITE% •   %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@
 // lsvl llmr
-Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@   %WHITE%• %RED%
-Alias[GG_GG_RIGHT]: %WHITE% •   %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@
+Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@   %WHITE%• %RED%
+Alias[GG_GG_RIGHT]: %WHITE% •   %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@
 // rkey
-Alias[GG_RKEY_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@   %WHITE%• %RED%
-Alias[GG_RKEY_RIGHT]: %WHITE% •   %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@
+Alias[GG_RKEY_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@   %WHITE%• %RED%
+Alias[GG_RKEY_RIGHT]: %WHITE% •   %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@
 // rtp
-Alias[GG_RTP_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@   %WHITE%• %RED%
-Alias[GG_RTP_RIGHT]: %WHITE% •   %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@
+Alias[GG_RTP_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@   %WHITE%• %RED%
+Alias[GG_RTP_RIGHT]: %WHITE% •   %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@
 // rid
-Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@   %WHITE%• %RED%
-Alias[GG_RID_RIGHT]: %WHITE% •   %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@
+Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@ %GREEN%@@%BLACK%@ %PURPLE%@@%BLACK%@   %WHITE%• %RED%
+Alias[GG_RID_RIGHT]: %WHITE% •   %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@ %BLACK%@%PURPLE%@@ %BLACK%@%GREEN%@@
 
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%
 
