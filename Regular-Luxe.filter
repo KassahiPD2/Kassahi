@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 115}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 116}
 
 
 
@@ -1260,20 +1260,20 @@ ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %White%P %Yellow%Topaz%MAP-20%%
 ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %White%P %Gray%Skull%MAP-20%%CONTINUE%
 ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %White%F %Gray%Skull%MAP-20%%CONTINUE%
 ItemDisplay[(GEM=4 OR GEM=5) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=1]: %PURPLE%+  %NAME%  %PURPLE%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=2]: %WHITE%+  %NAME%  %WHITE%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=3]: %GREEN%+  %NAME%  %GREEN%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=4]: %RED%+  %NAME%  %RED%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=5]: %BLUE%+  %NAME%  %BLUE%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=6]: %YELLOW%+  %NAME%  %YELLOW%+%CONTINUE%
-ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=7]: %LIGHT_GRAY%+  %NAME%  %LIGHT_GRAY%+%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=1]: %PURPLE%++  %NAME%  %PURPLE%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=2]: %WHITE%++  %NAME%  %WHITE%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=3]: %GREEN%++  %NAME%  %GREEN%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=4]: %RED%++  %NAME%  %RED%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=5]: %BLUE%++  %NAME%  %BLUE%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=6]: %YELLOW%++  %NAME%  %YELLOW%++%CONTINUE%
-ItemDisplay[GEM=5 GEMTYPE=7]: %LIGHT_GRAY%++  %NAME%  %LIGHT_GRAY%++%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=1]: %PURPLE%+ %NAME% %PURPLE%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=2]: %WHITE%+ %NAME% %WHITE%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=3]: %GREEN%+ %NAME% %GREEN%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=4]: %RED%+ %NAME% %RED%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=5]: %BLUE%+ %NAME% %BLUE%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=6]: %YELLOW%+ %NAME% %YELLOW%+%CONTINUE%
+ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=7]: %LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=1]: %PURPLE%+ %NAME% %PURPLE%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=2]: %WHITE%+ %NAME% %WHITE%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=3]: %GREEN%+ %NAME% %GREEN%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=4]: %RED%+ %NAME% %RED%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=5]: %BLUE%+ %NAME% %BLUE%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=6]: %YELLOW%+ %NAME% %YELLOW%+%CONTINUE%
+ItemDisplay[GEM=5 GEMTYPE=7]: %LIGHT_GRAY%+ %NAME% %LIGHT_GRAY%+%CONTINUE%
 ItemDisplay[FLAWSKULLLVLS !GEMTYPE=7 GEM=4]:
 ItemDisplay[gpvs]: %NAME%{%WHITE%Boots: %ORANGE%Thul %WHITE%Belt: %ORANGE%Ith %WHITE%Weapon: %ORANGE%Tir%NL%%WHITE%Chest: %ORANGE%Tal %WHITE%Shield: %ORANGE%Eth %WHITE%Gloves: %ORANGE%Ort%NL%%WHITE%Amulet: %ORANGE%Ral %WHITE%Ring: %ORANGE%Amn %WHITE%Helm: %ORANGE%Nef%NL%%PURPLE%Caster %WHITE%Crafting Recipes: %PURPLE%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[gpws]: %NAME%{%WHITE%Boots: %ORANGE%Ko %WHITE%Belt: %ORANGE%Io %WHITE%Weapon: %ORANGE%Sol%NL%%WHITE%Chest: %ORANGE%El %WHITE%Shield: %ORANGE%Ort %WHITE%Gloves: %ORANGE%Shael%NL%%WHITE%Amulet: %ORANGE%Tal %WHITE%Ring: %ORANGE%Hel %WHITE%Helm: %ORANGE%Eld%NL%%WHITE%Briliant Crafting Recipes: O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
