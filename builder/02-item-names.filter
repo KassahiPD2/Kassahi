@@ -10,7 +10,7 @@
 
 
 // ITEM'S NAME (BASE)
-ItemDisplay[(SET OR UNI) !ID]: %BASENAME%%CONTINUE%
+ItemDisplay[(SET OR UNI) !ID !jew]: %BASENAME%%CONTINUE%
 ItemDisplay[(NMAG OR MAG OR RARE OR CRAFT) !RW !rvl !(MAG (cm1 OR cm2 OR cm3))]: %BASENAME%%CONTINUE%
 ItemDisplay[MAG (cm1 OR cm2 OR cm3) !STASH !INVENTORY]: %BASENAME%%CONTINUE%
 
@@ -41,6 +41,7 @@ ItemDisplay[UNI cm2 CLSK6=2]: Sin Torch%CONTINUE%
 ItemDisplay[UNI cm3]: Gheed's Fortune%CONTINUE%
 
 // JEWELRY'S NAME (BASE)
+ItemDisplay[UNI !ID jew]: Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT333>0 STAT329>0]: Fire Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT334>0 STAT330>0]: Lightning Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT335>0 STAT331>0]: Cold Facet%CONTINUE%
