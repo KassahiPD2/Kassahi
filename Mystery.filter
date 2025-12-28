@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 103}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/28th/25){%LIGHT_GRAY%hyper filter: hrs/mirror etc. - Kassahi%CL%style changes too mag charms/jewel, mag/rare class items%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 104}
 
 
 
@@ -1858,7 +1858,7 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 
 // UNIQUES
 // CHARMS
-ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-4715%
+ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-0D%%UNICHARM_LEFT%%NAME%%UNICHARM_RIGHT%%SOUNDID-4715%
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%GG_LEFT%%NAME%%GG_RIGHT%%SOUNDID-4719%
 // GG Unique Callouts
@@ -2005,7 +2005,7 @@ ItemDisplay[UNI !ID (amf OR bae OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg
 // The Reapers Toll - Thresher
 // Sacred Totem - Hellspawn Skull
 
-ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)]: %PX-0D%%DOT-0A%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-4716%
+ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)]: %PX-0A%%DOT-21%%MAP-0D%%T2_LEFT%%NAME%%T2_RIGHT%%SOUNDID-4716%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2026,7 +2026,7 @@ ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw
 // Skullders Ire - Russet Armor
 // Treads of Cthon - Chain Boots
 
-ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar OR uld OR 9ls OR ba7 OR dr6 OR xth OR xpl OR mbt)]: %PX-0D%%DOT-0A%%T1_LEFT%%NAME%%T1_RIGHT%%SOUNDID-4716%
+ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar OR uld OR 9ls OR ba7 OR dr6 OR xth OR xpl OR mbt)]: %PX-0A%%DOT-0D%%T1_LEFT%%NAME%%T1_RIGHT%%SOUNDID-4716%
 
 // Tier 0.5 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2045,7 +2045,7 @@ ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar
 // Wraithskin - Diamond Mail
 // Stalker's Cull - Runic Talons
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-C6%%DOT-0D%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2107,7 +2107,7 @@ ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb O
 // exceptional bolts
 // Crow Caw - Tigulated Mail
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR cqv2 OR xcl)]: %PX-0D%%DOT-0A%%T0_LEFT%%NAME%%T0_RIGHT%
+ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR cqv2 OR xcl)]: %PX-C6%%DOT-0D%%T0_LEFT%%NAME%%T0_RIGHT%
 
 // LLD
 ItemDisplay[FILTLVL~1-4 UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
