@@ -18,8 +18,7 @@ Alias[FLAWSKULLLVLS]: (FILTLVL=2 OR FILTLVL=4 OR FILTLVL=6 OR FILTLVL=8 OR FILTL
 ItemDisplay[GEM=1 CLVL<24]: %WHITE%Chip-%SAGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[GEM=2 CLVL<24]: %WHITE%Fla-%SAGE%%GEMTYPE%%CONTINUE%
 ItemDisplay[GEM=3 CLVL<24]: %SAGE%%GEMTYPE%%CONTINUE%
-ItemDisplay[(GEM=1 OR GEM=2 OR GEM=3) CLVL>23]:%Gray%+
-ItemDisplay[(GEM=1 OR GEM=2 OR GEM=3)]:
+ItemDisplay[(GEM=1 OR GEM=2 OR GEM=3) CLVL>23]:
 ItemDisplay[FLAWGEMLVLS GEM=4]: %DOT-20%%WHITE%Flawless%CONTINUE%
 ItemDisplay[GEM=5]: %MAP-20%%WHITE%Perfect%CONTINUE%
 ItemDisplay[FLAWGEMLVLS GEM=4 GEMTYPE=1]: %PURPLE% o %CONTINUE%
@@ -70,4 +69,5 @@ ItemDisplay[gpbs]: %NAME%{%WHITE%Boots: %ORANGE%Ral %WHITE%Belt: %ORANGE%Tal %WH
 ItemDisplay[gpys]: %NAME%{%WHITE%Boots: %ORANGE%Io %WHITE%Belt: %ORANGE%El %WHITE%Weapon: %ORANGE%Shael%NL%%WHITE%Chest: %ORANGE%Eld %WHITE%Shield: %ORANGE%Dol %WHITE%Gloves: %ORANGE%Hel%NL%%WHITE%Amulet: %ORANGE%Ko %WHITE%Ring: %ORANGE%Lum %WHITE%Helm: %ORANGE%Tir%NL%%YELLOW%Bountiful %WHITE%Crafting Recipes: %YELLOW%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[skzs]: %NAME%{%WHITE%Boots: %ORANGE%El %WHITE%Belt: %ORANGE%Eld %WHITE%Weapon: %ORANGE%Shael%NL%%WHITE%Chest: %ORANGE%Tir %WHITE%Shield: %ORANGE%Sol %WHITE%Gloves: %ORANGE%Io%NL%%WHITE%Amulet: %ORANGE%Dol %WHITE%Ring: %ORANGE%Hel %WHITE%Helm: %ORANGE%Lum%NL%%GRAY%Vampiric %WHITE%Crafting Recipes: %GRAY%O, %GOLD%O, %BLUE%Magic%TAN%/%YELLOW%Rare%NL%}
 ItemDisplay[(GEM=4 OR GEM=5)]: %NAME%
+
 
