@@ -28,4 +28,6 @@ Alias[GG_RTP_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%•%ORANGE%•%YELLOW%•               %RED%
 Alias[GG_RID_RIGHT]: %YELLOW%               %YELLOW%•%ORANGE%•%RED%•
 
+Alias[MAIN_DOT]: •
+
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%

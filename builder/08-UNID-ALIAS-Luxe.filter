@@ -1,0 +1,45 @@
+
+
+
+
+
+//------------------------------UNID_ITEM_ALIAS_LuOe------------------------------
+
+
+
+
+
+// UNIQUES
+// CHARMS
+Alias[UNICHARM_LEFT]: %PURPLE%O%ORANGE%O  %GOLD%
+Alias[UNICHARM_RIGHT]: %ORANGE%  O%PURPLE%O
+// GG
+Alias[GG_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·»%YELLOW%«·» %RED%·%BLACK%·%PURPLE%
+Alias[GG_RIGHT]: %BLACK%·%RED%· %YELLOW%«·»%RED%«·»%GREEN%«·»%PURPLE%«·»
+// TIER 3
+Alias[T3_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·» %RED%·%BLACK%·%GOLD%
+Alias[T3_RIGHT]: %BLACK%·%RED%· %RED%«·»%GREEN%«·»%PURPLE%«·»
+// TIER 2
+Alias[T2_LEFT]: %PURPLE%«·»%GREEN%«·» %RED%·%BLACK%·
+Alias[T2_RIGHT]: %BLACK%·%RED%· %GREEN%«·»%PURPLE%«·»
+// TIER 1
+Alias[T1_LEFT]: %PURPLE%«·» %RED%·%BLACK%·%GOLD%
+Alias[T1_RIGHT]: %BLACK%·%RED%· %GREEN%«·»
+// TIER 0
+Alias[T0_LEFT]: %RED%·%BLACK%·%GOLD%
+Alias[T0_RIGHT]: %BLACK%·%RED%·
+
+// SETS
+// GG
+Alias[SET_GG_LEFT]: %PURPLE%O%RED%O%DARK_GREEN%O   %GREEN%
+Alias[SET_GG_RIGHT]: %DARK_GREEN%   O%RED%O%PURPLE%O
+// TIER 3
+Alias[SET_T3_LEFT]: %RED%O%DARK_GREEN%O  %GREEN%
+Alias[SET_T3_RIGHT]: %DARK_GREEN%  O%RED%O
+// TIER 2
+Alias[SET_T2_LEFT]: %RED%O %GREEN%
+Alias[SET_T2_RIGHT]: %RED% O
+// TIER 1
+Alias[SET_T1_LEFT]: %LIGHT_GRAY%O %GREEN%
+Alias[SET_T1_RIGHT]: %LIGHT_GRAY% O
+
