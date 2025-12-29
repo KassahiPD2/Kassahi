@@ -1,4 +1,4 @@
- 
+
 
 
 
@@ -9,8 +9,6 @@
 
 
 
-// Charm Item Colors
-ItemDisplay[MAG !ID (CHARM OR jew)]: %PURPLE%%NAME%%CONTINUE%
 // BOSS Item Colors
 ItemDisplay[ETH UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
 // GG Item Colors

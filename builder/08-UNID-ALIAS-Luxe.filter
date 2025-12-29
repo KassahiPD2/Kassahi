@@ -20,7 +20,7 @@ Alias[GG_RIGHT]: %BLACK%·%RED%· %YELLOW%«·»%RED%«·»%GREEN%«·»%PURPLE%
 Alias[T3_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·» %RED%·%BLACK%·%GOLD%
 Alias[T3_RIGHT]: %BLACK%·%RED%· %RED%«·»%GREEN%«·»%PURPLE%«·»
 // TIER 2
-Alias[T2_LEFT]: %PURPLE%«·»%GREEN%«·» %RED%·%BLACK%·
+Alias[T2_LEFT]: %PURPLE%«·»%GREEN%«·» %RED%·%BLACK%·%GOLD%
 Alias[T2_RIGHT]: %BLACK%·%RED%· %GREEN%«·»%PURPLE%«·»
 // TIER 1
 Alias[T1_LEFT]: %PURPLE%«·» %RED%·%BLACK%·%GOLD%

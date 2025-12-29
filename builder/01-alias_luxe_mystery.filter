@@ -30,5 +30,6 @@ Alias[GG_RID_RIGHT]: %BLACK% O   %BLACK%@%GREEN%@@%BLACK%@%PURPLE%@@%BLACK%@%GRE
 
 Alias[MAIN_DOT]: O
 
+// Rejuves
 ItemDisplay[rvl]: %WHITE%+ %PURPLE%Full %WHITE%+%CONTINUE%
 

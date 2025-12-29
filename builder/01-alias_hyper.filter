@@ -30,4 +30,7 @@ Alias[GG_RID_RIGHT]: %WHITE% •   %BLACK%O%PURPLE%OO %BLACK%O%GREEN%OO %BLACK%O
 
 Alias[MAIN_DOT]: •
 
+// Charm Item Colors
+ItemDisplay[MAG !ID CHARM]: %PURPLE%%NAME%%CONTINUE%
+// Rejuves
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%

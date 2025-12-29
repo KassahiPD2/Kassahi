@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 128}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 129}
 
 
 
@@ -45,6 +45,9 @@ Alias[GG_RID_RIGHT]: %YELLOW%          •%ORANGE%•%RED%•
 
 Alias[MAIN_DOT]: •
 
+// Charm Item Colors
+ItemDisplay[MAG !ID CHARM]: %PURPLE%%NAME%%CONTINUE%
+// Rejuves
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%
 
 
@@ -777,7 +780,7 @@ ItemDisplay[crfu]: %GOLD%Infusion %YELLOW%@{%WHITE%amulet: %BLUE%10-20vit, 20-30
 ItemDisplay[crfp]: %GOLD%Infusion %WHITE%@{%WHITE%amulet: %BLUE%5-10ares, 100-150dvsm, 4-8astat%CL%%WHITE%ring: %BLUE%3-5ares, 50-100dvsm, hfd%CL%%WHITE%belt: %BLUE%5-10ias, 5-50edef, hfd%CL%%WHITE%gloves: %BLUE%5-10ias, 10-20ar, 25-50edef%CL%%WHITE%boots: %BLUE%10ms, 100-150dvsm, hfd%CL%%WHITE%helm: %BLUE%5-10ias, 25-50edef, hfd%CL%%WHITE%chest: %BLUE%5-10ares, 25-50edef, 10-20block%CL%%WHITE%shield: %BLUE%5-10ares, 10-20block, hfd%CL%%WHITE%weapon: %BLUE%20-40edmg, 20ias, 50-100ar%NL%%WHITE%cube: %BLUE%magic%GOLD%/%YELLOW%rare %WHITE%item, Brill @}%CONTINUE%
 ItemDisplay[(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 
- 
+
 
 
 
@@ -788,8 +791,6 @@ ItemDisplay[(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp) QTY>1]: %NAME
 
 
 
-// Charm Item Colors
-ItemDisplay[MAG !ID (CHARM OR jew)]: %PURPLE%%NAME%%CONTINUE%
 // BOSS Item Colors
 ItemDisplay[ETH UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %PURPLE%%NAME%{%NAME%}%CONTINUE%
 // GG Item Colors
