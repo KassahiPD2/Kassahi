@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 130}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 131}
 
 
 
@@ -8206,6 +8206,9 @@ ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG SOCK=0 !INF !RW !ETH (7gs OR
 ItemDisplay[NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME% %RED%•{%NAME%}
 ItemDisplay[FILTLVL~1-8 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH (7gs OR 7fb OR 7gd)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 ItemDisplay[FILTLVL~1-8 NMAG (SOCK=0 OR SOCK=5) !INF !RW ETH 9fb]: %PX-21%%DOT-D6%%NAME%{%NAME%}
+// THROWING WEAPON'S (NMAG)
+ItemDisplay[NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW ETH ED>9 (7b8 OR 7gl OR 7ts)]: %PX-21%%DOT-D6%%NAME% %RED%•{%NAME%}
+ItemDisplay[FILTLVL~1-8 NMAG (SOCK=0 OR SOCK=2 OR SOCK=3) !INF !RW ETH (7b8 OR 7gl OR 7ts)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
 // SPEAR'S/POLEARM'S/AMAZON SPEAR'S (NMAG)
 ItemDisplay[FILTLVL~1-4 NMAG (SOCK=4 OR SOCK=5) !INF !RW !ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %NAME%{%NAME%}
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG SOCK=0 !INF !RW !ETH (7tr OR 7br OR 7st OR 7p7 OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc)]: %NAME%{%NAME%}
