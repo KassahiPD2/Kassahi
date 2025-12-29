@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 129}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 130}
 
 
 
@@ -751,7 +751,9 @@ ItemDisplay[lucd]: %ORANGE%Flesh of Malic{%WHITE%to Make %ORANGE%Shadow of Hatre
 ItemDisplay[(lucb OR lucc OR lucd) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 // PROJECT DIABLO 2 ITEMS
 ItemDisplay[(rid OR rtp OR rkey) INVENTORY]: %RED%%NAME%{%RED%Highlight disabled in inventory%NAME%}
+ItemDisplay[wss]: %MAP-0A%%SOUNDID-4715%%RED%Worldstone{%TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Armor: 1-3, 1h Weapon: 2-4, 2h Weapon: 3-6%NL%%WHITE%Possible Corruptions:}%CONTINUE%
 ItemDisplay[wss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+ItemDisplay[iwss]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%Catalyst{%TAN%Ads: %WHITE%Area Contains a Random Event to Maps%NL%%TAN%Drops From: %RED%An Altar of the Catalyst Event}%CONTINUE%
 ItemDisplay[iwss QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lbox QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 ItemDisplay[lpp QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
@@ -1506,8 +1508,6 @@ ItemDisplay[rtma]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  
 ItemDisplay[(lucb OR lucc OR lucd)]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[luca]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  %NAME%  %RED%%MAIN_DOT%%LIGHT_GRAY%%MAIN_DOT%{%LIGHT_GRAY%(+Minions & Mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%CL%%NL%%GOLD%High %WHITE%Def, %GOLD%Max %WHITE%Block%CL%%ORANGE%T0:%WHITE%50%%GOLD%pdr, %WHITE%90%YELLOW%mlr, %GOLD%Wisp %CL%%DARK_GREEN%Recommended Stats:%NL%}
 // PROJECT DIABLO 2 ITEMS
-ItemDisplay[wss]: %MAP-0A%%SOUNDID-4715%%RED%Worldstone{%TAN%Maps: %WHITE%100% %BLUE%Mod %NL% %TAN%Sock Item: %WHITE%75% %BLUE%Mod %WHITE%25% %BLUE%Brick %NL% %TAN%Unsock Item: %WHITE%50% %BLUE%Mod %WHITE%25%%BLUE% Brick%WHITE%/%BLUE%Sockets %NL%%WHITE%Armor: 1-3, 1h Weapon: 2-4, 2h Weapon: 3-6%NL%%WHITE%Possible Corruptions:}%CONTINUE%
-ItemDisplay[iwss]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%Catalyst{%TAN%Ads: %WHITE%Area Contains a Random Event to Maps%NL%%TAN%Drops From: %RED%An Altar of the Catalyst Event}%CONTINUE%
 ItemDisplay[wss]: %PURPLE%%MAIN_DOT%%RED%%MAIN_DOT%%CORAL%%MAIN_DOT%   %NAME%   %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%PURPLE%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %PURPLE%%MAIN_DOT%%RED%%MAIN_DOT%%CORAL%%MAIN_DOT%   %NAME%   %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%PURPLE%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%%NAME%{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
