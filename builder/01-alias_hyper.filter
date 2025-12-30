@@ -33,7 +33,5 @@ Alias[SHARD_RIGHT]: %CORAL%   •%RED%•%PURPLE%•
 
 Alias[MAIN_DOT]: •
 
-// Charm Item Colors
-ItemDisplay[MAG !ID CHARM]: %PURPLE%%NAME%%CONTINUE%
 // Rejuves
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%
