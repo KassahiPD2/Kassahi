@@ -35,4 +35,8 @@ ItemDisplay[(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp)]: %BLACK%O %N
 
 
 
+ItemDisplay[MAG !ID cm1]: %BLUE%Small%CONTINUE%
+ItemDisplay[MAG !ID cm2]: %BLUE%Large%CONTINUE%
+ItemDisplay[MAG !ID cm3]: %BLUE%Grand%CONTINUE%
+ItemDisplay[MAG !ID jew]: %BLUE%Jewel%CONTINUE%
 
