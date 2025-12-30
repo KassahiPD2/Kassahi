@@ -26,7 +26,7 @@ ItemDisplay[(lucb OR lucc OR lucd)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 // PROJECT DIABLO 2 ITEMS
 ItemDisplay[wss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
+//ItemDisplay[lbox]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[(jewf OR imra OR rera OR scou OR upma OR upmp OR fort OR irma OR irra OR rrra OR urma)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%

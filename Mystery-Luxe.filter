@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 134}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 135}
 
 
 
@@ -28,7 +28,7 @@ ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted 
 Alias[GG_IMRN_LEFT]: %PX-60%%DOT-21%%MAP-0A%%SOUNDID-4714%%PURPLE%oo%GREEN%o  %RED%
 Alias[GG_IMRN_RIGHT]: %GREEN%  o%PURPLE%oo
 // lbox
-Alias[GG_LBOX_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%BLACK%@%GREEN%@%PURPLE%@%BLACK%@%PURPLE%@%GREEN%@%BLACK%@  %BLACK%O%RED%
+Alias[GG_LBOX_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%BLACK%@%GREEN%@%PURPLE%@%BLACK%@%PURPLE%@%GREEN%@%BLACK%@  %BLACK%O%PURPLE%
 Alias[GG_LBOX_RIGHT]: %BLACK%O  %BLACK%@%GREEN%@%PURPLE%@%BLACK%@%PURPLE%@%GREEN%@%BLACK%@
 // lsvl llmr
 Alias[GG_GG_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%BLACK%@%PURPLE%@@%BLACK%@%GREEN%@@%BLACK%@%PURPLE%@@%BLACK%@%GREEN%@@%BLACK%@   %BLACK%O %PURPLE%
@@ -828,7 +828,7 @@ ItemDisplay[(lucb OR lucc OR lucd)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 // PROJECT DIABLO 2 ITEMS
 ItemDisplay[wss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[iwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
-ItemDisplay[lbox]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
+//ItemDisplay[lbox]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[(jewf OR imra OR rera OR scou OR upma OR upmp OR fort OR irma OR irra OR rrra OR urma)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
