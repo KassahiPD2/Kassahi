@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/30th/25){%LIGHT_GRAY%35% juv on extra (testing) - Kassahi%CL%muted sounds in towns%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 148}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/30th/25){%LIGHT_GRAY%35% juv on extra (testing) - Kassahi%CL%muted sounds in towns%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 149}
 // Mute sounds in towns
 ItemDisplay[(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]:%NAME%{%NAME%}%WHITE%%SOUNDID-33%%CONTINUE%
 
@@ -1573,7 +1573,7 @@ ItemDisplay[lpp]: %MAP-0A%%SOUNDID-4715%%GOLD%%NAME%{%GRAY%(Magic/Rare/Crafted)%
 ItemDisplay[lpp]: %RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %PX-60%%DOT-21%%MAP-0A%%SOUNDID-4714%%RED%%NAME%{%RED%IT WILL GET RID OF ANNIVERSARY SKIN%CL%DO NOT USE Demonic Cube ON THE ANNIVERSARY ITEMS%CL%%NAME%}%CONTINUE%
 ItemDisplay[(jewf OR imra OR rera OR scou OR upma OR upmp OR fort OR irma OR irra OR rrra OR urma)]: %MAP-68%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[scrb]: %PX-60%%MAP-0A%%GOLD%%NAME%{%GRAY%(These Are Intended For Groups)%NL%}%CONTINUE%
+ItemDisplay[scrb]: %PX-60%%MAP-0A%%SOUNDID-4715%%GOLD%%NAME%{%GRAY%(These Are Intended For Groups)%NL%}%CONTINUE%
 ItemDisplay[scrb]: %RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[(crfb OR crfc OR crfs OR crfh OR crfv OR crfu OR crfp)]: %MAP-68%%SOUNDID-4715%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[crfb]: %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%MAIN_DOT%   %NAME%   %RED%%MAIN_DOT%%MAIN_DOT%%CORAL%%MAIN_DOT%{%NAME%}%CONTINUE%
