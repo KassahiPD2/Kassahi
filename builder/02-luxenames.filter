@@ -20,12 +20,12 @@ ItemDisplay[(ubaa OR ubab OR ubac)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[(dcho OR dcso OR dcbl)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 // RATHMA ITEMS
 ItemDisplay[(rtmo OR rtmv OR cm2f)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
-ItemDisplay[cwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
+//ItemDisplay[cwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 // LUCION ITEMS
 ItemDisplay[(lucb OR lucc OR lucd)]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 // PROJECT DIABLO 2 ITEMS
-ItemDisplay[wss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
-ItemDisplay[iwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
+//ItemDisplay[wss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
+//ItemDisplay[iwss]: %BLACK%O %NAME% %BLACK%O{%NAME%}%CONTINUE%
 //ItemDisplay[lbox]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[lpp]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%
 ItemDisplay[imrn]: %BLACK%O %GOLD%%NAME% %BLACK%O{%NAME%}%CONTINUE%

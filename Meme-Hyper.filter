@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 135}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/29th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 139}
 
 
 
@@ -42,6 +42,9 @@ Alias[GG_RTP_RIGHT]: %WHITE% •   %BLACK%O%PURPLE%OO %BLACK%O%GREEN%OO
 // rid
 Alias[GG_RID_LEFT]: %DOT-60%%MAP-21%%BORDER-0A%%SOUNDID-4719%%PURPLE%OO%BLACK%O %GREEN%OO%BLACK%O %PURPLE%OO%BLACK%O   %WHITE%• %RED%
 Alias[GG_RID_RIGHT]: %WHITE% •   %BLACK%O%PURPLE%OO %BLACK%O%GREEN%OO %BLACK%O%PURPLE%OO
+// PD2 Shards
+Alias[SHARD_LEFT]: %PURPLE%•%RED%•%CORAL%•
+Alias[SHARD_RIGHT]: %CORAL%•%RED%•%PURPLE%•
 
 Alias[MAIN_DOT]: •
 
@@ -1507,14 +1510,14 @@ ItemDisplay[(dcho OR dcso OR dcbl)]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%%MAIN_DOT
 ItemDisplay[dcma]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  %NAME%  %RED%%MAIN_DOT%%LIGHT_GRAY%%MAIN_DOT%{%LIGHT_GRAY%(+Minions & Mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%CL%%NL%%ORANGE%T0:%WHITE%50%%GOLD%pdr, %WHITE%90%RED%mfr, %WHITE%2%GOLD%Dwarf %CL%%DARK_GREEN%Recommended Stats:%NL%}
 // RATHMA ITEMS
 ItemDisplay[(rtmo OR rtmv OR cm2f)]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
-ItemDisplay[cwss]: %MAP-0A%%SOUNDID-4715%%PURPLE%%MAIN_DOT%%RED%%MAIN_DOT%%CORAL%%MAIN_DOT%   %NAME%   %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%PURPLE%%MAIN_DOT%{%NAME%}%CONTINUE%
+ItemDisplay[cwss]: %MAP-0A%%SOUNDID-4715%%SHARD_LEFT%   %NAME%   %SHARD_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[rtma]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  %NAME%  %RED%%MAIN_DOT%%LIGHT_GRAY%%MAIN_DOT%{%LIGHT_GRAY%(+Minions & Mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%CL%%NL%%ORANGE%T1:%WHITE%119, %ORANGE%T2:%WHITE%123%CL%%WHITE%175%GREEN%plr, %WHITE%90%GREEN%mpr, %WHITE%85+%BLUE%mcr, %WHITE%85+%RED%mfr%CL%%ORANGE%T0:%RED%fres, %BLUE%cres, %GREEN%pres:%WHITE%115%CL%%DARK_GREEN%Recommended Stats:%NL%}
 // LUCION ITEMS
 ItemDisplay[(lucb OR lucc OR lucd)]: %PX-60%%MAP-0A%%SOUNDID-4715%%RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
 ItemDisplay[luca]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  %NAME%  %RED%%MAIN_DOT%%LIGHT_GRAY%%MAIN_DOT%{%LIGHT_GRAY%(+Minions & Mercs Die on Entering)%NL%(You Cannot Make TPs Once You're Inside)%CL%%NL%%GOLD%High %WHITE%Def, %GOLD%Max %WHITE%Block%CL%%ORANGE%T0:%WHITE%50%%GOLD%pdr, %WHITE%90%YELLOW%mlr, %GOLD%Wisp %CL%%DARK_GREEN%Recommended Stats:%NL%}
 // PROJECT DIABLO 2 ITEMS
-ItemDisplay[wss]: %PURPLE%%MAIN_DOT%%RED%%MAIN_DOT%%CORAL%%MAIN_DOT%   %NAME%   %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%PURPLE%%MAIN_DOT%{%NAME%}%CONTINUE%
-ItemDisplay[iwss]: %PURPLE%%MAIN_DOT%%RED%%MAIN_DOT%%CORAL%%MAIN_DOT%   %NAME%   %CORAL%%MAIN_DOT%%RED%%MAIN_DOT%%PURPLE%%MAIN_DOT%{%NAME%}%CONTINUE%
+ItemDisplay[wss]: %SHARD_LEFT%   %NAME%   %SHARD_RIGHT%{%NAME%}%CONTINUE%
+ItemDisplay[iwss]: %SHARD_LEFT%   %NAME%   %SHARD_RIGHT%{%NAME%}%CONTINUE%
 ItemDisplay[lbox]: %DOT-0D%%MAP-21%%BORDER-0A%%SOUNDID-4719%%RED%%NAME%{%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp]: %MAP-0A%%SOUNDID-4715%%GOLD%%NAME%{%GRAY%(Magic/Rare/Crafted)%NL%%WHITE%Armor: 1-2, 1h Weapon: 1-2, 2h Weapon: 2-4%NL%%WHITE%Possible Sockets:}%CONTINUE%
 ItemDisplay[lpp]: %RED%%MAIN_DOT% %NAME% %RED%%MAIN_DOT%{%NAME%}%CONTINUE%
