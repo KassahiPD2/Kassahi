@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/30th/25){%LIGHT_GRAY%reverted mag/rare class items - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 145}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Dec/30th/25){%LIGHT_GRAY%35% juv on extra (testing) - Kassahi%CL%muted sounds in towns%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 146}
 
 
 
@@ -79,7 +79,7 @@ ItemDisplay[MAG cm3 GG_GC]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[MAG !ID cm1]: Small%CONTINUE%
 ItemDisplay[MAG !ID cm2]: Large%CONTINUE%
 ItemDisplay[MAG !ID cm3]: Grand%CONTINUE%
-ItemDisplay[MAG !ID (cm1 OR cm2 OR cm3 OR jew) ILVL>89]: %TEAL%%NAME%%CONTINUE%
+ItemDisplay[MAG !ID ((ILVL>89 (cm1 OR cm2 OR cm3)) OR (ILVL>84 (jew)))]: %PURPLE%%NAME%%CONTINUE%
 ItemDisplay[MAG cm1p]: %PURPLE%Pvp Arena %BLUE%Small Charm%CONTINUE%
 ItemDisplay[MAG cm2p]: %PURPLE%Pvp Arena %BLUE%Large Charm%CONTINUE%
 ItemDisplay[MAG cm3p]: %PURPLE%Pvp Arena %BLUE%Grand Charm%CONTINUE%
