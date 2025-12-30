@@ -42,7 +42,6 @@ ItemDisplay[UNI cm2 CLSK6=2]: Sin Torch%CONTINUE%
 ItemDisplay[UNI cm3]: Gheed's Fortune%CONTINUE%
 
 // JEWELRY'S NAME (BASE)
-ItemDisplay[UNI !ID jew]: Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT333>0 STAT329>0]: Fire Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT334>0 STAT330>0]: Lightning Facet%CONTINUE%
 ItemDisplay[UNI ID jew STAT335>0 STAT331>0]: Cold Facet%CONTINUE%
@@ -65,7 +64,7 @@ ItemDisplay[CRAFT !(STAT477=4 OR STAT477=21) ((amu (STR>3 DEX>3 STAT1>3 STAT3>3)
 ItemDisplay[NMAG !ID (WEAPON OR ARMOR OR amu OR rin)]: %NAME%%CONTINUE%
 
 // JEWELRY'S NAME (UNI)
-ItemDisplay[UNI !ID jew]: Jewel%CONTINUE%
+ItemDisplay[UNI !ID jew]: Facet%CONTINUE%
 ItemDisplay[UNI !ID rin]: Ring%CONTINUE%
 ItemDisplay[UNI !ID amu]: Amulet%CONTINUE%
 ItemDisplay[UNI !ID ram]: The Third Eye%CONTINUE%
