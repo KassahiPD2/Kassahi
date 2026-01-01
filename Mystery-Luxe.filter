@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/1st/26){%LIGHT_GRAY%reduced name stats on Quiver - Kassahi%CL%magic/rare highlight/icon/drops overhaul%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 153}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/1st/26){%LIGHT_GRAY%reduced name stats on Quiver - Kassahi%CL%magic/rare highlight/icon/drops overhaul%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 154}
 // Mute sounds in towns
 ItemDisplay[(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]:%NAME%{%NAME%}%WHITE%%SOUNDID-33%%CONTINUE%
 
@@ -8449,6 +8449,7 @@ ItemDisplay[DIFF<2 NMAG !INF !RW SOR SORCERESS (SK36>1 OR SK38>1 OR SK39>1 OR SK
 // Amazon Early Bases Starter/Medium Filters
 // 2H Weapons
 ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4) !INF !RW !ETH AMAZON (amb OR amc) TABSK0=3]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4) !INF !RW !ETH AMAZON (6hb OR 6cb OR 6rx)]: %NAME%{%NAME%}
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG (SOCK=0 OR SOCK=3 OR SOCK=4) !INF !RW !ETH AMAZON (6hb OR 6cb OR TABSK0=3 OR 6rx) !(am2 OR am7 OR amc)]: %NAME%{%NAME%}
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG (SOCK=2 OR SOCK=3 OR SOCK=4) !INF !RW !ETH AMAZON (8hb OR 8cb OR TABSK0>1 OR 8rx) !(am2 OR am7 OR amc)]: %NAME%{%NAME%}
 ItemDisplay[DIFF=0 NMAG (SOCK=2 OR SOCK=3) !INF !RW !ETH NORM AMAZON (hbw OR cbw OR am1 OR rxb)]: %NAME%{%NAME%}
