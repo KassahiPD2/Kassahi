@@ -9,7 +9,7 @@
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%muted sounds in towns - Kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # --buildnum--}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(--timestamp--){%LIGHT_GRAY%reduced name stats on Quiver - Kassahi%CL%magic/rare highlight/icon/drops overhaul%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # --buildnum--}
 
 
 
