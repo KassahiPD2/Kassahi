@@ -1,0 +1,914 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Kassahi">
+      
+      
+      
+        <link rel="prev" href="../filters/">
+      
+      
+        <link rel="next" href="../filter-examples/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Filter Levels - Kassahi's PD2 Loot Filter</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#filter-levels" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Kassahi&#39;s PD2 Loot Filter" class="md-header__button md-logo" aria-label="Kassahi's PD2 Loot Filter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kassahi's PD2 Loot Filter
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Filter Levels
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/KassahiPD2/Kassahi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KassahiPD2/Kassahi
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Kassahi&#39;s PD2 Loot Filter" class="md-nav__button md-logo" aria-label="Kassahi's PD2 Loot Filter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kassahi's PD2 Loot Filter
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/KassahiPD2/Kassahi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KassahiPD2/Kassahi
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Levels
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Levels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#showhide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show/hide:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filter-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#showhide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Show/hide:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shows_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shows:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hides_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hides:
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="filter-levels">Filter Levels<a class="headerlink" href="#filter-levels" title="Permanent link">&para;</a></h1>
+<p>The Filter Levels Are Used to Determine The Level of Filtering That is Applied to The Loot Filter</p>
+<ul>
+<li>Recommend starting with one of the Medium Strictness Use This Until u Feel Comfortable Enough or Want a More Strict Lvl, Then u Can Start go Down The Rabbit Hole</li>
+<li>Filter Lvl 1-4: Medium Strictness, <em>all pots &amp; flawless gems, all pots without flawless, all juvs &amp; flawless, big juv without flawless</em></li>
+<li>Filter Lvl 5-8: Extra Strictness, <em>all pots &amp; flawless gems, all pots without flawless, big juv without flawless</em></li>
+<li>
+<p>Filter Lvl 9-12: Extreme Strictness, <em>all pots &amp; flawless gems, all pots without flawless, big juv without flawless</em></p>
+</li>
+<li>
+<p>Under The Picture u Find More Info on The Filter Lvls</p>
+</li>
+</ul>
+<p><img width="1358" height="702" alt="image" src="https://github.com/user-attachments/assets/e911b739-2837-4004-9399-831ea053ac64" /></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Lvling up Info</label><label for="__tabbed_1_2">Medium Strictness Info</label><label for="__tabbed_1_3">Extra Strictness Info</label><label for="__tabbed_1_4">Extreme Strictness Info</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h2 id="showhide">Show/hide:<a class="headerlink" href="#showhide" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Stuff from Medium/Extra/Extreme Strictness are ofc also showen</li>
+<li>Any Gold under 5k is hidden (u auto pickup even hidden gold)</li>
+<li>hp1/mp1 shows in a1 or till clvl 18</li>
+<li>hp2/mp2 shows in a2 or till clvl 25</li>
+<li>hp3/mp3 shows in a3 or till clvl 30</li>
+<li>hp4/mp4 shows in a4 till hell or till clvl 80</li>
+<li>Stam/id scroll shows till clvl 20</li>
+<li>Thaw/tp scroll shows in hell Lod areas or till clvl 90</li>
+<li>Throw pot 1 shows till clvl 5</li>
+<li>Throw pot 2 shows till clvl 15</li>
+<li>Throw pot 3 shows till clvl 30</li>
+<li>Key shows tilll clvl 30 (never on sin)</li>
+<li>Chip/Fla/normal Gem shows till clvl 24</li>
+<li>Any set/uniq has notify till clvl 80</li>
+<li>All char: any magic char item shows in hell Lod areas or till clvl 90</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<h2 id="shows">Shows:<a class="headerlink" href="#shows" title="Permanent link">&para;</a></h2>
+<ul>
+<li>*35%</li>
+<li><strong>Filter Lvl 2, 7:</strong> Flawless Gems ''Full'' Name +Notification</li>
+<li><strong>Filter Lvl 3, 8:</strong> Flawless Gems '' o '' Name</li>
+<li><strong>Filter Lvl 2, 3, 7, 8:</strong> Flawless Skill ''+ o +'' Name +Notification</li>
+<li><strong>Filter Lvl 2, 3, 7, 8:</strong> Runes Under 20 +Notification</li>
+<li><strong>Uniq Tier 1:</strong> Wolfhowl, Stalker's Cull, Kalans Legacy, Blackoak Shield, Wizendraw, Magewrath, Widowmaker, Corpsemourn, Titans Grip, Twilights Reflection, Shatterblade, Guardian Angel, Pus Spitter, Que-Hegans Wisdom, Heavenly Garb, Denmother, Wraithskin, Ebonbane, Peasant Crown, The Patriarch, Silks of the Victor, Leviathan, Plague Bearer, Baezils</li>
+<li><strong>Uniq Tier 0:</strong> Bloodravens Charge, Ursa's Nightmare, Skullders Ire, Black Hades, Goldwrap, Razortail, Gorefoot, Treads of Cthon, Infernostride, Sandstorm Trek, Shadow Dancer, The Hand of Broc, Frostburn, Venom Grip, Ghoulhide, Hellmouth, Biggins Bonnet, Rockstopper, Radaments Sphere, Rune Master, Kuko Shakaku, Endlesshail, Gull Dagger, Viperfork, Chromatic Ire, Djinn Slayer, Gimmershred, Lacerator, Bartucs Cut-Throat, Duskdeep, Ondals Wisdom, Atmas Wail, Blackbogs Sharp, The Jade Tan Do, Venom Ward, Raekor's Virtue, Purgatory, Valkyrie Wing, Windhammer, Titans Revenge, Stoneraven, Arreats Face, Homunculus, Chance Guards, Crown of Thieves, Witchwild String, Eaglehorn, Wizardspike, The Reapers Toll, Ariocs Needle, Ribcracker, Blade of Ali Baba, Odium, Cloudcrack, Jadetalon, Swordguard</li>
+<li><strong>Uniq Lld:</strong> Twitchthroe, Rattlecage, Silks of the Victor, The Spirit Shroud, Bloodfist, Peasant Crown, Steelclash, Rakescar, Rogues Bow, Bonesnap, Steeldriver, The Iron Jang Bong, Ripsaw, The Patriarch, Goblin Toe, String of Ears, Quetzalcoatl, Magefist, Rockfleece, True Silver</li>
+<li><strong>Set Tier 1:</strong> Arcannas Flesh, Natalyas Shadow, Natalyas Totem, Natalyas Mark, Hsaru or Hwanin, Laying of Hands, Najs Puzzler, Aldurs Advance, Aldurs Deception, Immortal Kings Will, Immortal Kings Stone Crusher, Immortal Kings Detail, Immortal Kings Forge, Immortal Kings Pillar, Natalyas Soul, Tal Rashas Lidless Eye, Tal Rashas Horadric Crest, Tal Rashas Fine-Spun Cloth, Trang-Ouls Guise, Immortal Kings Soul Cage, Guillaumes Face, Mavinas True Sight, Mavinas Caster, Mavinas Embrace, Mavinas Icy Clutch, Mavinas Tenet, Tal Rashas Guardianship, Rite of Passage, Haemosus Adament, Aldurs Rhythm, Najs Circlet, Najs Light Plate, Dangoons Teaching</li>
+<li><strong>Set Lld:</strong> Cow King or Sander, Sanders Superstition, Sanders Taboo, Deaths Hand, Deaths Guard</li>
+<li><strong>Non Eth Rare:</strong> Bows, Xbows, Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families</li>
+<li><strong>Eth Rare:</strong> Any Weapons</li>
+<li><strong>Mag:</strong> Circlet, Coronet, +Notification</li>
+<li><strong>Pala:</strong> Rare Normal &amp; Pala Shields +Notification</li>
+<li><strong>Dru:</strong> Mag &amp; Rare Clubs, Pelts +Notification</li>
+<li><strong>Bar:</strong> Mag &amp; Rare Bar Helms +Notification</li>
+<li><strong>Pala:</strong> Mag Pala Shields, Eth Scepters, Rare Pala Shields, Scepters +Notification</li>
+<li><strong>Necro:</strong> Mag Necro Shields, Eth Wands, Rare Necro Shields, Wands +Notification</li>
+<li><strong>Sin:</strong> Any Eth Mag Claws, Non Eth Mag Suwayyah, War Fist, Scissors Suwayyah Families, Rare Claws +Notification</li>
+<li><strong>Sorc:</strong> Mag &amp; Rare Dimensional Shard, Archon Staff Families +Notification</li>
+<li><strong>Ama:</strong> Mag &amp; Rare Ama Weapons, Rare Arrows, Bolts +Notification</li>
+<li>Class Items Above Shows on All Classes</li>
+</ul>
+<h2 id="hides">Hides:<a class="headerlink" href="#hides" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Rare:</strong> Any Other Rare</li>
+<li><strong>Mag:</strong> Any Other Magic</li>
+<li><strong>Bases:</strong> Any Other Base</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<h2 id="shows_1">Shows:<a class="headerlink" href="#shows_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Filter Lvl 4, 9:</strong> Flawless Gems ''Full'' Name +Notification</li>
+<li><strong>Filter Lvl 5, 10:</strong> Flawless Gems '' o '' Name</li>
+<li><strong>Filter Lvl 4, 5, 6, 9, 10, 11:</strong> Flawless Skill ''+ o +'' Name +Notification</li>
+<li><strong>Filter Lvl 4, 5, 9, 10:</strong> Runes Under 20, +Notification</li>
+<li><strong>Filter Lvl 6, 11:</strong> Runes Under 20, Runes 3, 5, 8, 9, 11, 12, +Notification</li>
+<li><strong>Set Tier 2:</strong> Cow Kings Horns, Cow Kings Hide, Taebaeks Glory, Griswolds Heart, Griswolds Valor, Aldurs Stony Gaze, Set Amulet</li>
+<li><strong>Non Eth Rare:</strong> Arrows, Bolts, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Gorgon Crossbow, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Bow, Grand Matron Bow, Matriarchal Javelin Families</li>
+<li><strong>Rare:</strong> Helms, Shields, Chests, Belts, (Circlets +Notification)</li>
+<li><strong>Non Eth Mag:</strong> Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Charms, Jewels +Notification</li>
+<li><strong>Eth Mag:</strong> Helmets, Gloves, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Suwayyah, War Fist, Scissors Suwayyah, Matriarchal Javelin Families +Notification</li>
+<li><strong>Mag:</strong> Tiara, Diadem +Notification</li>
+<li><strong>Pala:</strong> Rare Normal &amp; Pala Shields +Notification</li>
+<li><strong>Imbue Bases:</strong> Diadem</li>
+<li><strong>Helmet Bases:</strong> Non Eth 0os, 3os, 10+Ed, Demonhead, Bone Visage, Winged Helm, Diadem</li>
+<li>Eth 0os, 3os, Demonhead, Bone Visage, Diadem, Spired Helm, Corona</li>
+<li><strong>Chest Bases:</strong> Non Eth 0os, 3os, 4os, 10+Ed, Ancient Armor, Mage Plate, Elite Chests</li>
+<li>Eth 0os, 2os, 3os, 4os, Ancient Armor, Mage Plate, Elite Chests</li>
+<li><strong>Shield Bases:</strong> Non Eth 0os, 4os, 10+Ed, Monarch, Aegis, Ward</li>
+<li>Eth 0os, 4os, Monarch, Aegis, Ward</li>
+<li><strong>1 Handed Axe Bases:</strong> Non Eth 0os, 2os, 5os, 6os, 10+Ed, Ettin Axe, Berserker Axe</li>
+<li>Non Eth 0os, 5os, 10+Ed, War Spike</li>
+<li>Eth 0os, 3os, 5os, 6os, Ettin Axe, Berserker Axe</li>
+<li><strong>2 Handed Axe Bases:</strong> Non Eth 0os, 6os, 10+Ed, Decapitator, Champion Axe, Glorious Axe</li>
+<li>Eth 0os, 4os, 5os, 6os, Decapitator, Champion Axe, Glorious Axe</li>
+<li><strong>1 Handed Hammer Bases:</strong> Non Eth 0os, 2os, 3os, 10+Ed, Legendary Mallet</li>
+<li>Eth 0os, 3os, Legendary Mallet</li>
+<li><strong>2 Handed Hammer Bases:</strong> Non Eth 0os, 5os, 6os, 10+Ed, Ogre Maul, Thunder Maul</li>
+<li>Eth 0os, 5os, 6os, Ogre Maul, Thunder Maul</li>
+<li><strong>1 Handed Sword Bases:</strong> Non Eth 0os, 4os, 5os, 6os, 10+Ed, Phase Blade</li>
+<li>Eth 0os, 4os, 5os, Cryptic Sword</li>
+<li><strong>2 Handed Sword Bases:</strong> Non Eth 0os, 2os, 5os, 6os, 10+Ed, Balrog Blade, Colossus Sword, Colossus Blade</li>
+<li>Eth 0os, 3os, 4os, 5os, 6os, Balrog Blade, Colossus Sword, Colossus Blade</li>
+<li>Eth 0os, 5os, Zweihander</li>
+<li><strong>Dagger Bases:</strong> Non Eth 0os, 2os, 3os, 10+Ed, Bone Knife, Fanged Knife (w/ Either +3 Poison Strike +3 Tiger Strike +3 Blade Sentinel +3 Fists of Fire +3 Cobra Strike +3 Blade Fury +3 Claws of Thunder +3 Blades of Ice +3 Phoenix Strike)</li>
+<li><strong>Spear/Polearm/Ama Spear Bases:</strong> Eth 0os, 4os, 5os, 6os, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher</li>
+<li>Non Eth 0os, 4os, 5os, 10+Ed, +3Jav, Matriarchal Spear, Matriarchal Pike</li>
+<li><strong>Purity Bases:</strong> Non Eth 3os, Hell Difficulty, Elite Spear, Elite polearm</li>
+<li><strong>Insight Bases:</strong> Non Eth 4os, Hell Difficulty, Elite Spear, Elite polearm</li>
+<li><strong>Bow/Xbow/Ama Bow Bases:</strong> Non Eth 0os, 4os, 5os, 6os, 10+Ed, Gorgon Crossbow, Colossus Crossbow, Demon Crossbow</li>
+<li>Non Eth 0os, 4os, 5os, 6os, 10+Ed, +3Bow, Matriarchal Bow, Grand Matron Bow</li>
+<li><strong>Staff Bases:</strong> Eth 0os, 2os, 4os, 5os, 6os, Stalagmite, Archon Staff</li>
+<li><strong>Scepter Bases:</strong> Non Eth 0os, 2os, 10+Ed, Seraph Rod, Caduceus</li>
+<li><strong>Claw Bases:</strong> Eth 0os, 3os, Suwayyah, War Fist, Scissors Suwayyah</li>
+</ul>
+<h2 id="hides_1">Hides:<a class="headerlink" href="#hides_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Filter Lvl 6, 11:</strong> Flawless Gems</li>
+<li><strong>Uniq:</strong> lld, T0, T1, +Non Highlighted</li>
+<li><strong>Set:</strong> lld, T1, +Non Highlighted</li>
+<li><strong>Rare:</strong> Any Other Rare</li>
+<li><strong>Mag:</strong> Any Other Magic</li>
+<li><strong>Bases:</strong> Any Other Base</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<h2 id="shows_2">Shows:<a class="headerlink" href="#shows_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Filter Lvl 12:</strong> Flawless Skill ''+ o +'' Name</li>
+<li><strong>Filter Lvl 12:</strong> Runes Under 20 '' Number '' Name Except 3, 5, 8, 9, 11, 12</li>
+<li>Pvp Ear, Quest Items, Perfect Gems, Runes, Essences, token, Uber/Boss mats, PD2 Items, Maps</li>
+<li><strong>Uniqs:</strong> Anni, Torch, Gheed</li>
+<li><strong>Uniq Boss Items:</strong> The Third Eye, Cage of the Unsullied, Band of Skulls, Aidans Scar, Cage of the Unsullied, Dark Abyss, Band of Skulls, Itheraels Path, Overlords Helm, Hadriels Hand</li>
+<li><strong>Uniq GG:</strong> Griffons Eye, Herald of Zakarum, Eschutas Temper, Deaths Fathom, Templars Might or Tyraels Might, Arachnid Mesh, Shako, Steel Shade, Veil of Steel or Nightwings Veil, Andariels Visage, Crown of Ages, Stormshield, Medusas Gaze, Spirit Ward, Death Cleaver, Stone Crusher or Schaefers Hammer, Earth Shifter or The Cranium Basher, Astreons Iron Ward, Steel Pillar, Brimstone Rain, Mang Songs Lesson, Deaths Web, Boneflame, Skull Collector, Gore Rider, The Grandfather</li>
+<li><strong>Uniq Tier 3:</strong> Kiras Guardian, Thunderstroke, Cyclopean Roar, Demonhorns Edge, Halaberds Reign, Jalals Mane, Spirit Keeper, Darkforce, Shaftstop, The Gladiators Bane, Ormus Robes, Arkaines Valor, Steel Carapace, String of Ears, Nosferatus Coil, Verdungos Hearty Cord, Hotspur, Soul Drainer, Occultist, Steelrend, Giant Skull, Lidless Wall, Warlords Trust, The Gavel Of Pain, Horizons Tornado or Stormlash, Stormspire, Tomb Reaver, Flamebellow, Arm of King Leoric, Blackhand Key, Windforce, War Traveler, Snowclash, Dragonscale, The Spirit Shroud, Hellslayer, Lightsabre or Azurewrath, Frostwind, Alma Negra, Lava Gout, Draculs Grasp, Martyrdom, Amulet, Ring</li>
+<li><strong>Uniq Tier 2:</strong> Cerebus Bite, Ravenlore, The Oculus, Skin of the Vipermagi, Thundergods Vigor, Waterwalk, Silkweave, Magefist, Gravepalm, Gerkes Sanctuary, Head Hunters Glory, Ghostflame, Grims Burning Dead Grim, Doombringer, Suicide Branch, Boneshade Lich, Toothrow, Merman's Spocket, Vampire Gaze, Marrowwalk, Buriza-Do Kyanon</li>
+<li><strong>Set GG:</strong> Tancreds Hobnails, Only Eth Immortal Kings Stone Crusher, Bul-Kathos Sacred Charge, Bul-Kathos Tribal Guardian</li>
+<li><strong>Set Tier 3:</strong> Trang-Ouls Wing, Trang-Ouls Girth, Trang-Ouls Claws, Ondals Almighty, Trang-Ouls Scales, Griswolds Redemption, Griswolds Honor, Deaths Hand, Ring</li>
+<li><strong>Uniq Warrior Map:</strong> Mag Amulet, Armors, Weapons, Rare Amulet, Ring, Armors, Weapons, Arrows, Bolts</li>
+<li><strong>Ama:</strong> Mag &amp; Rare Matriarchal Bow, Grand Matron Bow Families, Maiden Javelin, Rare Gorgon Crossbow Family, Arrows, Bolts</li>
+<li><strong>Bar:</strong> Eth Mag Barb Helms, Flying Axe, Balrog Spear Families, Rare Barb Helms</li>
+<li><strong>Dru:</strong> Eth Mag Feral Axe, Champion Axe, Thresher, Giant Thresher Families</li>
+<li><strong>Pala:</strong> Eth Mag Scourge Family</li>
+<li><strong>Sin:</strong> Eth Mag War Fist Family</li>
+<li><strong>Eth Rare:</strong> Chests, Belts, Gloves, Boots, Berserker Axe, Feral Axe, Champion Axe, Glorious Axe, Scourge, Legendary Mallet, Ogre Maul, Thunder Maul, Phase Blade, Colossus Sword, Colossus Blade, Flying Axe, Winged Axe, Stygian Pilum, Balrog Spear, Ghost Glaive, Winged Harpoon, Hyperion Spear, War Pike, Thresher, Giant Thresher, Any claw, Matriarchal Javelin Families</li>
+<li><strong>Non Eth Rare:</strong> Necro Shields, Dru Pelts, Colossus Crossbow Family, Jewels, Amulets, Rings, Glvoes, Boots</li>
+<li><strong>Both Rare:</strong> Circlets</li>
+<li><strong>Non Eth Mag:</strong> Jewels, Charms</li>
+<li><strong>Ferocity Base:</strong> Eth 0os, 3os, 10+Ed Winged Helm</li>
+<li><strong>Flickering Flame Bases:</strong> 0os, 3os, Pelts, +3 Molten Boulder +3 Volcano (w/ Either 2+ Armageddon 2+ Gust 1+ Oak Sage 1+ Carrion Vine 1+ Solar Creeper 1+ Grizzly)</li>
+<li>+3 Fury +3 Werewolf +3 Lycanthropy</li>
+<li>+3 Maul +3 Hunger +3 Lycanthropy</li>
+<li><strong>Avatar Druid Plague Bases:</strong> 0os, 3os, Clubs, 2+ Armageddon +2 Hurricane (w/ Either 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)</li>
+<li>+3 Armageddon or +3 Hurricane (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 1+ Gust), (w/ 1+ Grizzly w/ Either 1+ Carrion Vine 1+ Gust), (w/ 1+ Carrion Vine 1+ Gust)</li>
+<li><strong>Fire Druid Plague Bases:</strong> 0os, 3os, Clubs, 2+ Molten Boulder 2+ Volcano (w/ Either 2+ Armageddon 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)</li>
+<li>+3 Molten Boulder or +3 Volcano (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Armageddon 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Armageddon 1+ Gust), (w/ 2+ Armageddon 1+ Gust)</li>
+<li><strong>Wind Druid Plague Bases:</strong> 0os, 3os, Clubs, 2+ Twister 2+ Tornado (w/ Either 2+ Hurricane 1+ Oak Sage 1+ Carrion Vine 1+ Grizzly 1+ Gust)</li>
+<li>+3 Twister or +3 Tornado (w/ 1+ Oak Sage w/ Either 1+ Carrion Vine 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Carrion Vine w/ Either 1+ Grizzly 2+ Hurricane 1+ Gust), (w/ 1+ Grizzly w/ Either 2+ Hurricane 1+ Gust), (w/ 2+ Hurricane 1+ Gust)</li>
+<li><strong>Shock Wave Druid Bases:</strong> 0os, 3os, Clubs, +3 Shock Wave 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)</li>
+<li>+3 Shock Wave (w/ 1+ Carrion Vine 1+ Grizzly)</li>
+<li><strong>Summoner Druid Bases:</strong> 0os, 3os, Clubs, 2+ Raven 2+ Grizzly (w/ Either 1+ Oak Sage 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust)</li>
+<li>+3 Raven or +3 Grizzly (w/ 1+ Oak Sage w/ Either 2+ Spirit Wolf 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Spirit Wolf w/ Either 1+ Carrion Vine 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 1+ Carrion Vine w/ Either 2+ Heart of Wolverine 2+ Dire Wolf 1+ Gust), (w/ 2+ Heart of Wolverine w/ Either 2+ Dire Wolf 1+ Gust), (w/ 2+ Dire Wolf 1+ Gust)</li>
+<li><strong>Maul Druid Bases:</strong> 0os, 3os, Clubs, +3 Maul 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Hunger 1+ Grizzly)</li>
+<li>+3 Maul 1+ Carrion Vine (w/ Either 1+ Hunger 1+ Grizzly)</li>
+<li>+3 Maul (w/ 1+ Hunger 1+ Grizzly)</li>
+<li><strong>Rabies Druid Bases:</strong> 0os, 3os, Clubs, +3 Rabies 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)</li>
+<li>+3 Rabies (w/ 1+ Carrion Vine 1+ Grizzly)</li>
+<li><strong>Fury Druid Bases:</strong> 0os, 3os, Clubs, +3 Fury 1+ Oak Sage (w/ Either 1+ Carrion Vine 1+ Grizzly)</li>
+<li>+3 Fury (w/ 1+ Carrion Vine 1+ Grizzly)</li>
+<li><strong>Fire Claw Druid Bases:</strong> 0os, 3os, Clubs, +3 Fire Claw 1+ Oak Sage (w/ Either 1+ Carrion Vine 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly)</li>
+<li>+3 Fire Claw 1+ Carrion Vine (w/ Either 2+ Feral Rage 1+ Hunger 2+ Fury 1+ Grizzly)</li>
+<li>+3 Fire Claw 2+ Feral Rage (w/ Either 1+ Hunger 2+ Fury 1+ Grizzly)</li>
+<li>+3 Fire Claw 1+ Hunger (w/ Either 2+ Fury 1+ Grizzly)</li>
+<li>+3 Fire Claw (w/ 2+ Fury 1+ Grizzly)</li>
+<li><strong>Lld Pala Bases:</strong> Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Blessed Hammer (w/ Either +3 Joust +3 Concentration)</li>
+<li>+3 Concentration (w/ Either +3 Joust +3 Blessed Hammer)</li>
+<li>+3 Joust (w/ Either +3 Concentration +3 Blessed Hammer)</li>
+<li>Non Eth 0os, 4os, Divine Scepter, +3 Zeal (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Charge)</li>
+<li>+3 Charge (w/ Either 1+ Vigor 1+ Holy Shield 1+ Fanaticism 1+ Zeal 1+ Might)</li>
+<li>+3 Blessed Hammer (w/ Either 1+ Vigor 1+ Holy Shield 1+ Zeal 1+ Concentration)</li>
+<li>Non Eth 0os, 4os, War Scepter, Divine Scepter, +3 Holy Bolt (w/ Either 1+ Vigor 1+ Holy Shield)</li>
+<li><strong>Lld Sorc Bases:</strong> Non Eth 0os, 4os, Gnarled Staff, Cedar Staff, Battle Staff, Gothic Staff, War Staff, Rune Staff, +3 Blaze (w/ Either +3 Chilling Armor +3 Shiver Armor)</li>
+<li><strong>Plague Pala Bases:</strong> 0os, 3os, Scepters, +3 Fist of the Heavens 2+ Holy Bolt</li>
+<li>+3 Blessed Hammer 2+ Concentration</li>
+<li><strong>Fury Pala Bases:</strong> Eth 0os, 3os, Mighty Scepter, Seraph Rod, Caduceus, 2+ Fanaticism 2+ Zeal</li>
+<li><strong>Hoj/Doom Pala Bases:</strong> Non Eth 0os, 4os, 5os, Caduceus, 3+ Conviction</li>
+<li><strong>Phoenix Pala Bases:</strong> 0os, 4os, War Scepter, Divine Scepter, Caduceus, +3 Blessed Hammer 2+ Concentration</li>
+<li><strong>Eternity Pala Bases:</strong> Eth 0os, 5os, Caduceus, 2+ Fanaticism 2+ Zeal</li>
+<li><strong>Cta Pala Bases:</strong> 0os, 5os, War Scepter, Divine Scepter, Caduceus, (w/ Either +3 Holy Sword 3+ Holy Shield)</li>
+<li><strong>Merc Insight/Doom/Beast Bases:</strong> 0os, 5os, War Scepter, Divine Scepter, Caduceus, +3 Prayer</li>
+<li><strong>Chaos Bases:</strong> 0os, 3os, 15Ed, War Fist, 1+ Dragon Flight (w/ +3 Claw and Dagger Mastery +3 Weapon Block)</li>
+<li>1+ Dragon Flight (w/ Either +3 Claw and Dagger Mastery +3 Weapon Block)</li>
+<li>Eth 0os, 3os, War Fist, 1+ Dragon Flight, 1+ Claw and Dagger Mastery, 10+Ed</li>
+<li><strong>Chest Bases:</strong> Eth 0os, 4os, Elite Chests, 900+Def</li>
+<li><strong>Dominion Bases:</strong> 0os, 2os, Wands, +3 Fire Golem 1+ Bone Armor (w/ Either 1+ Lower Resist 1+ Revive)</li>
+<li>+3 Fire Golem (w/ Either 1+ Blood Warp 1+ Bone Armor 1+ Lower Resist 1+ Revive)</li>
+<li>+3 Lower Resist 1+ Bone Armor (w/ Either 1+ Revive 1+ Blood Warp)</li>
+<li>+3 Lower Resist 1+ Revive +3 Blood Warp</li>
+<li>+3 Blood Warp +3 Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)</li>
+<li>2+ Blood Warp 2+ Fire Golem (w/ Either 1+ Bone Armor 1+ Lower Resist 1+ Revive)</li>
+<li>2+ Blood Warp 1+ Lower Resist 1+ Revive</li>
+<li>+3 Blood Warp 1+ Lower Resist 1+ Bone Armor</li>
+<li>+3 Blood Warp 1+ Revive 1+ Bone Armor</li>
+<li>1+ Bone Armor 1+ Lower Resist 1+ Revive</li>
+<li><strong>Leap Attack Bases:</strong> Eth 0os, 5os, 6os, 15Ed, War Pike, Thunder Maul</li>
+<li>Eth 0os, 2os, 3os, 4os, 5os, 6os, 15Ed, Archon Staff</li>
+<li><strong>Infinity Bases:</strong> 0os, 4os, Elder Staff, Shillelagh, Archon Staff, +3 Nova or +3 Charged Bolt or +3 Chain Lightning, (w/ Either 1+ Lightning Mastery +3 Teleport)</li>
+<li><strong>Obsession Bases:</strong> 0os, 6os, Archon Staff, +3 Blizzard or +3 Ice Bolt, (w/ Either +3 Cold Mastery 1+ Blaze)</li>
+<li>0os, 6os, Archon Staff, +3 Meteor +3 Fire Mastery</li>
+<li><strong>Cta Sorc Bases:</strong> 0os, 5os, War Staff, Rune Staff, Archon Staff, +3 Energy Shield 1+ Shiver Armor 1+ Thunder Storm</li>
+<li>1+ Shiver Armor 1+ Chilling Armor</li>
+<li>+3 Energy Shield +3 Shiver Armor</li>
+<li><strong>Venom Pre-Buff Bases:</strong> 0os, 3os, Claws, +3 Venom (w/ Either +3 Burst of Speed +3 Fade +3 Blade Shield)</li>
+<li><strong>Venom Blade Dance Bases:</strong> 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Claw and Dagger Mastery +3 Weapon Block</li>
+<li><strong>Venom Blade Sentinal Bases:</strong> 0os, 3os, Blade Talons, Greater Talons, Runic Talons, +3 Blade Sentinel +3 Weapon Block +3 Dragon Flight</li>
+<li><strong>Helmet Bases:</strong> Eth 0os, 3os, 10+Ed, Demonhead, Bone Visage, Diadem, Spired Helm, Corona</li>
+<li><strong>Chest Bases:</strong> Eth 0os, 3os, 4os, 10+Ed, Mage Plate, Elite Chests</li>
+<li><strong>Shield Bases:</strong> Eth 0os, 4os, 10+Ed, Monarch, Aegis, Ward</li>
+<li><strong>Pala Shield Bases:</strong> Non Eth 0os, 3os, 4os, 25+All Res, Elite Pala Shields</li>
+<li>60+Ed, Elite Pala Shields</li>
+<li>Eth 0os, 4os, 20+All Res, Elite Pala Shields</li>
+<li>50+Ed, Elite Pala Shields</li>
+<li><strong>1 Handed Axe Bases:</strong> Eth 0os, 3os, 4os, 5os, 6os, 10+Ed, Ettin Axe, Berserker Axe</li>
+<li><strong>2 Handed Axe Bases:</strong> Eth 0os, 4os, 5os, 6os, 10+Ed, Decapitator, Champion Axe, Glorious Axe</li>
+<li><strong>1 Handed Hammer Bases:</strong> Eth 0os, 3os, 10+Ed, Legendary Mallet</li>
+<li><strong>2 Handed Hammer Bases:</strong> Eth 0os, 5os, 6os, 10+Ed, Ogre Maul, Thunder Maul</li>
+<li><strong>1 Handed Sword Bases:</strong> Eth 0os, 4os, 5os, 10+Ed, Cryptic Sword</li>
+<li><strong>2 Handed Sword Bases:</strong> Eth 0os, 3os, 4os, 5os, 6os, 10+Ed, Balrog Blade, Colossus Sword, Colossus Blade</li>
+<li><strong>Spear/Polearm/Ama Spear Bases:</strong> Eth 0os, 4os, 5os, 6os, 10+Ed, Stygian Pike, Mancatcher, Ghost Spear, War Pike, Ogre Axe, Thresher, Cryptic Axe, Great Poleaxe, Giant Thresher</li>
+<li>Eth 0os, 6os, 10+Ed, +3Jav, Matriarchal Spear, Matriarchal Pike</li>
+<li><strong>Staff Bases:</strong> Eth 0os, 2os, 4os, 6os, 10+Ed, Stalagmite, Archon Staff</li>
+<li><strong>Scepter Bases:</strong> Eth 0os, 3os, 10+Ed, Seraph Rod, Caduceus</li>
+<li><strong>Claw Bases:</strong> Eth 0os, 3os, 10+Ed, Suwayyah, War Fist, Scissors Suwayyah</li>
+<li><strong>Gold Bases:</strong> 35K, 2 Slot Weapons</li>
+<li><strong>Cow Bases:</strong> Wirt's Leg</li>
+</ul>
+<h2 id="hides_2">Hides:<a class="headerlink" href="#hides_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Filter Lvl 12:</strong> Flawless Gems</li>
+<li><strong>Uniq:</strong> lld, T0, T1, T2, +Non Highlighted</li>
+<li><strong>Set:</strong> lld, T1, T2, +Non Highlighted</li>
+<li><strong>Rare:</strong> Any Other Rare</li>
+<li><strong>Mag:</strong> Any Other Magic</li>
+<li><strong>Bases:</strong> Any Other Base</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
