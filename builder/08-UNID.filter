@@ -367,7 +367,7 @@ ItemDisplay[FILTLVL~1-4 RARE !ID AMAZON (ZON OR QUIVER)]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME%
 
 // Magic/Rare Quivers
-ItemDisplay[RARE !ETH !ID QUIVER]: %PX-62%%DOT-6D%%RED%· %NAME% %RED%·
+ItemDisplay[RARE !ETH !ID QUIVER]: %RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID QUIVER]: %NAME%
 // Magic/Rare Armors
 ItemDisplay[RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
@@ -403,7 +403,7 @@ ItemDisplay[RARE !ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR 
 ItemDisplay[MAG ETH !ID GG_CLASS_ITEMS_2 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %ORANGE%• %NAME% %ORANGE%•
 ItemDisplay[RARE !ID WAND]: %PX-20%%DOT-21%%MAP-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
 ItemDisplay[RARE ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-6D%%RED%·%ORANGE%·  %NAME%  %ORANGE%·%RED%·
-ItemDisplay[FILTLVL~1-8 RARE !ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %PX-62%%DOT-6D%%RED%· %NAME% %RED%·
+ItemDisplay[FILTLVL~1-8 RARE !ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %RED%· %NAME% %RED%·
 ItemDisplay[FILTLVL~1-8 MAG ETH !ID GOOD_WEAPON_ITEMS_1 !(tkf OR 9tk OR 7tk OR am5 OR ama OR amf)]: %ORANGE%· %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 MAG !ETH !ID GOOD_WEAPON_ITEMS_2]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-4 RARE ETH !ID WEAPON]: %NAME%
