@@ -32,6 +32,8 @@ Alias[SHARD_LEFT]: %PURPLE%•%RED%•%CORAL%•   %CORAL%
 Alias[SHARD_RIGHT]: %CORAL%   •%RED%•%PURPLE%•
 
 Alias[MAIN_DOT]: •
+Alias[PD2_MATS_LEFT]: %PURPLE%«%BLACK%·%RED%»
+Alias[PD2_MATS_RIGHT]: %RED%«%BLACK%·%PURPLE%»
 
 // Rejuves
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%
