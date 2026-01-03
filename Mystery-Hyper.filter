@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/3rd/26){%LIGHT_GRAY%vs infusion - Kassahi%CL%need feedback on pgems description%CL%drop sounds are back in town temporarily%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 165}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/3rd/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 166}
 
 
 
@@ -2208,7 +2208,7 @@ ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME%
 
 // Magic/Rare Quivers
 ItemDisplay[RARE !ETH !ID QUIVER]: %RED%· %NAME% %RED%·
-ItemDisplay[FILTLVL~1-8 MAG !ETH !ID QUIVER]: %NAME%
+ItemDisplay[FILTLVL~1-4 MAG !ETH !ID QUIVER]: %NAME%
 // Magic/Rare Armors
 ItemDisplay[RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
 ItemDisplay[RARE !ID NEC]: %DOT-20%%MAP-21%%BORDER-6D%%SAGE%•%WHITE%•  %NAME%  %WHITE%•%SAGE%•
@@ -2216,7 +2216,7 @@ ItemDisplay[RARE !ID DRU]: %PX-20%%DOT-21%%MAP-6D%%SAGE%·%WHITE%·  %NAME%  %WHIT
 ItemDisplay[RARE !ID (GLOVES OR BOOTS)]: %DOT-6D%%SAGE%· %NAME% %SAGE%·
 ItemDisplay[FILTLVL~1-8 RARE !ETH !ID CHEST]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 MAG !ID NEC]: %NAME% %ORANGE%·
-ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID !NORM CHEST]: %NAME% %ORANGE%·
+ItemDisplay[FILTLVL~1-8 CRAFTALVL>84 MAG !ETH !ID ELT CHEST]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-8 RARE !ID !(DIN OR NEC) (SHIELD OR BELT)]: %NAME%
 ItemDisplay[FILTLVL~1-4 MAG ETH !ID !BAR !DRU (BELT OR HELM OR GLOVES)]: %NAME% %ORANGE%·
 ItemDisplay[FILTLVL~1-4 CRAFTALVL>84 MAG ETH !ID CHEST]: %NAME% %ORANGE%·
