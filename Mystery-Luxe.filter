@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/6th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 173}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/6th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 174}
 
 
 
@@ -8429,8 +8429,8 @@ ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG SOCK=0 !INF !RW !ETH (7s8 OR
 ItemDisplay[DIFF<2 NMAG SOCK=4 !INF !RW !ETH (9s8 OR 9wc) DRUID]: %NAME%{%NAME%}
 ItemDisplay[(ILVL>25 AND ILVL<41) NMAG SOCK=0 !INF !RW !ETH (9s8 OR 9wc) DRUID]: %NAME%{%NAME%}
 // 1H Weapons
-ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=2) !INF !RW CLUB DRUID (SK221=3 OR SK222=3 OR SK225=3 OR SK227=3 OR SK229=3 OR SK230=3 OR SK234=3 OR SK237=3 OR SK240=3 OR SK243=3 OR SK244=3 OR SK245=3 OR SK247=3)]: %NAME%{%NAME%}
-ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG !INF !RW CLUB DRUID (SK221>1 OR SK222>1 OR SK225>1 OR SK227>1 OR SK229>1 OR SK230>1 OR SK234>1 OR SK237>1 OR SK240>1 OR SK243>1 OR SK244>1 OR SK245>1 OR SK247>1)]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=2) !INF !RW CLUB DRUID (SK221=3 OR SK222=3 OR SK225=3 OR SK227=3 OR SK229=3 OR SK230=3 OR SK234=3 OR SK237=3 OR SK238=3 OR SK240=3 OR SK243=3 OR SK244=3 OR SK245=3 OR SK247=3)]: %NAME%{%NAME%}
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) NMAG !INF !RW CLUB DRUID (SK221>1 OR SK222>1 OR SK225>1 OR SK227>1 OR SK229>1 OR SK230>1 OR SK234>1 OR SK237>1 OR SK238>1 OR SK240>1 OR SK243>1 OR SK244>1 OR SK245>1 OR SK247>1)]: %NAME%{%NAME%}
 
 // Barbarian Early Bases Starter/Medium Filters
 // Helmets
