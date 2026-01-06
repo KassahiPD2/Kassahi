@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/5th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 172}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/6th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 173}
 
 
 
@@ -8354,10 +8354,10 @@ ItemDisplay[NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH ED>9 (7ar OR 7xf OR 7qr)]: %NAM
 ItemDisplay[FILTLVL~1-8 NMAG (SOCK=0 OR SOCK=3) !INF !RW ETH (7ar OR 7xf OR 7qr)]: %NAME%{%NAME%}
 
 // Any non Eth Chest 15ed
-ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4) !INF !RW !ETH ED>9 CHEST]: %PX-21%%DOT-D6%%NAME%{%NAME%}
+ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4) !INF !RW !ETH ED>9 CHEST]: %NAME%{%NAME%}
 // Any Elite Weapon 15ed
-ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 ELT WEAPON]: %PX-21%%DOT-D6%%NAME%{%NAME%}
-ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW !ETH ED>9 ELT WEAPON !(7ta OR 7ja OR 7dg OR 7tk)]: %PX-21%%DOT-D6%%NAME%{%NAME%}
+ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=2 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW ETH ED>9 ELT WEAPON]: %NAME%{%NAME%}
+ItemDisplay[FILTLVL~1-4 NMAG (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) !INF !RW !ETH ED>9 ELT WEAPON !(THROWING OR SOR OR WAND)]: %NAME%{%NAME%}
 
 // Druid Early Bases Starter/Medium Filters
 // Helmets
