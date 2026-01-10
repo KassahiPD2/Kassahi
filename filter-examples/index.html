@@ -1,0 +1,1580 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Kassahi">
+      
+      
+      
+        <link rel="prev" href="../filter-levels/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Filter Examples - Kassahi's PD2 Loot Filter</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#filter-examples" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Kassahi&#39;s PD2 Loot Filter" class="md-header__button md-logo" aria-label="Kassahi's PD2 Loot Filter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Kassahi's PD2 Loot Filter
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Filter Examples
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/KassahiPD2/Kassahi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KassahiPD2/Kassahi
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Kassahi&#39;s PD2 Loot Filter" class="md-nav__button md-logo" aria-label="Kassahi's PD2 Loot Filter" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Kassahi's PD2 Loot Filter
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/KassahiPD2/Kassahi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    KassahiPD2/Kassahi
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filter-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Levels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Examples
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filter Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#low-level-dueling-lld" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-level Dueling (LLD)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LoD style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-charms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magic Charms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafted-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafted items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unique-charms-and-jewels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unique Charms and Jewels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-and-rare-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magic and rare items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superior-items-0-ed-infinite-ethereal-socketed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Superior items (0 ED, infinite, ethereal, socketed)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corrupted-slammed-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corrupted (slammed) items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Potions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Potions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rejuvenation-potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rejuvenation Potions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-and-mana-potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health and Mana Potions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#antidotes-thawing-and-stamina-potions-tp-and-id-scrolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antidotes, Thawing, and Stamina Potions; TP and ID scrolls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keys
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#throwables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throwables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#essences-and-tokens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Essences and Tokens
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-uber-keys-organs-and-similar-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mini Uber Keys, Organs, and similar items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infusion-crafting-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infusion crafting materials
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#map-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map materials
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellaneus-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Miscellaneus stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runeword-bases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runeword bases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item-descriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Item descriptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Item descriptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auras
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#half-freeze-duration-and-cannot-be-fronzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Half Freeze Duration and Cannot Be Fronzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bases-with-open-sockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bases with open sockets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gold-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gold information
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gamble-vendors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gamble vendors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirroring-and-gg-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mirroring and GG items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shop-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shop items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-leveling-dueling-lld" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-leveling Dueling (LLD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jewels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jewels
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#low-level-dueling-lld" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-level Dueling (LLD)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lod-style" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LoD style
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-charms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magic Charms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafted-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafted items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unique-charms-and-jewels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unique Charms and Jewels
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-and-rare-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Magic and rare items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superior-items-0-ed-infinite-ethereal-socketed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Superior items (0 ED, infinite, ethereal, socketed)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#corrupted-slammed-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Corrupted (slammed) items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Potions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Potions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rejuvenation-potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rejuvenation Potions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-and-mana-potions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health and Mana Potions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#antidotes-thawing-and-stamina-potions-tp-and-id-scrolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antidotes, Thawing, and Stamina Potions; TP and ID scrolls
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Keys
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#throwables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Throwables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#essences-and-tokens" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Essences and Tokens
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-uber-keys-organs-and-similar-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mini Uber Keys, Organs, and similar items
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infusion-crafting-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infusion crafting materials
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#map-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Map materials
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crafting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellaneus-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Miscellaneus stats
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#runeword-bases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runeword bases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item-descriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Item descriptions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Item descriptions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auras
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#half-freeze-duration-and-cannot-be-fronzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Half Freeze Duration and Cannot Be Fronzen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bases-with-open-sockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bases with open sockets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gold-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gold information
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Set items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gamble-vendors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gamble vendors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mirroring-and-gg-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mirroring and GG items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shop-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shop items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-leveling-dueling-lld" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-leveling Dueling (LLD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jewels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jewels
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="filter-examples">Filter Examples<a class="headerlink" href="#filter-examples" title="Permanent link">&para;</a></h1>
+<h2 id="low-level-dueling-lld">Low-level Dueling (LLD)<a class="headerlink" href="#low-level-dueling-lld" title="Permanent link">&para;</a></h2>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/7283a570-0134-4263-bcb4-766e52df9d35" /></p>
+<h2 id="lod-style">LoD style<a class="headerlink" href="#lod-style" title="Permanent link">&para;</a></h2>
+<p>All items will always show the LoD style of colors on items (except high runes, DClone, and Rathma items in Hyper versions).</p>
+<p>All white, gray, magic, rare, and crafted items have the real base name.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/286847ad-066c-4148-a234-c1628760fa4d" /></p>
+<h2 id="magic-charms">Magic Charms<a class="headerlink" href="#magic-charms" title="Permanent link">&para;</a></h2>
+<p>Magic Large &amp; Grand Charms have additional info for what type they are.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/0857f7ec-af37-4b04-9e7a-fca35ac0fb98" /></p>
+<h2 id="crafted-items">Crafted items<a class="headerlink" href="#crafted-items" title="Permanent link">&para;</a></h2>
+<p>Crafted items also have the type of craft in the names.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/02353976-9e0b-497a-a584-eaf842e6f2b6" /></p>
+<h2 id="unique-charms-and-jewels">Unique Charms and Jewels<a class="headerlink" href="#unique-charms-and-jewels" title="Permanent link">&para;</a></h2>
+<p>Unique Charms and Jewels are also the same. Hellfire Torchs and Rainbow Facets have additional info for what type they are.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/332298ce-1003-4e5d-9b5a-1a10febef4fd" /></p>
+<h2 id="magic-and-rare-items">Magic and rare items<a class="headerlink" href="#magic-and-rare-items" title="Permanent link">&para;</a></h2>
+<p>Magic and rare items have a little dark green <code>*</code> (star) to show what items is identified.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/6db65f15-4c48-4a4a-a835-c429f299aa3f" /></p>
+<h2 id="superior-items-0-ed-infinite-ethereal-socketed">Superior items (0 ED, infinite, ethereal, socketed)<a class="headerlink" href="#superior-items-0-ed-infinite-ethereal-socketed" title="Permanent link">&para;</a></h2>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/6ff81fc9-58ae-491b-9bf3-e4d01e892ce7" /></p>
+<h2 id="corrupted-slammed-items">Corrupted (slammed) items<a class="headerlink" href="#corrupted-slammed-items" title="Permanent link">&para;</a></h2>
+<p>Shows corrupted (slammed) tag in names.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The red <code>*</code> (star) on the right side of the number of sockets. This is from the corruption.</p>
+</div>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/80462760-5a7d-43c1-a1bd-1060a2266591" /></p>
+<h2 id="potions">Potions<a class="headerlink" href="#potions" title="Permanent link">&para;</a></h2>
+<h3 id="rejuvenation-potions">Rejuvenation Potions<a class="headerlink" href="#rejuvenation-potions" title="Permanent link">&para;</a></h3>
+<p>+35% Rejuvenation Potions hidden on filter levels 3-9</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/b39ee7bf-9af6-41d8-90d8-a5644e1d74fd" /></p>
+<p>+65% Rejuvenation Potions always shown</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/ad62a5ab-22d0-4ea4-a924-35340d588bb0" /></p>
+<h3 id="health-and-mana-potions">Health and Mana Potions<a class="headerlink" href="#health-and-mana-potions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Health and Mana potion 1 hidden after level 7</li>
+<li>Health and Mana potion 2 hidden after level 15</li>
+<li>Health and Mana potion 3 hidden after level 19</li>
+<li>Health and Mana potion 4 hidden after level 59</li>
+<li>Health and Mana potion 5+ hidden on filter levels 3-9</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/f6b77fe6-4e0b-46c1-a52e-57943ca83675" /></p>
+<h3 id="antidotes-thawing-and-stamina-potions-tp-and-id-scrolls">Antidotes, Thawing, and Stamina Potions; TP and ID scrolls<a class="headerlink" href="#antidotes-thawing-and-stamina-potions-tp-and-id-scrolls" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Antidotes hidden on filter levels 6-9<ul>
+<li>Antidotes are still shown when doing (high poison damage areas):<ul>
+<li>Rathma</li>
+<li>Ruins of Viz-Jun</li>
+<li>Ancestral Trial</li>
+<li>Kehjistan Marketplace</li>
+<li>Tomb of Zoltun Kulle</li>
+<li>Lost Temple</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Stamina potions hidden after level 19</li>
+<li>Thawing potions and TP scrolls hidden on filter levels 3-9</li>
+<li>ID scrolls hidden after level 74</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/f3472392-3a96-4aaf-92cc-05612823b303" /></p>
+<h2 id="keys">Keys<a class="headerlink" href="#keys" title="Permanent link">&para;</a></h2>
+<p>Keys in shop show the chat commands</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/7bcf704f-396f-46d3-ab78-5b3a54b3af9f" /></p>
+<p>Keys on ground hidden after level 29</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/c6cfed7e-d0bb-4ac2-be90-299d5302e0f8" /></p>
+<h2 id="throwables">Throwables<a class="headerlink" href="#throwables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Throwing potions 1 hidden after level 10</li>
+<li>Throwing potions 2 hidden after level 20</li>
+<li>Throwing potions 3 hidden after level 40</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/88c81bff-c1d5-439d-833c-705f715e1302" /></p>
+<h2 id="gems">Gems<a class="headerlink" href="#gems" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Chipped, flawed, and normal gems hidden after level 23</li>
+<li>Flawless and perfect gems are always shown<ul>
+<li>Flawless gems can be hidden with filter level 9</li>
+</ul>
+</li>
+<li>Perfect gems have notifications</li>
+<li><code>F-</code> for Flawless, includes colored <code>O</code></li>
+<li><code>P-</code> for Perfect, includes colored <code>O</code> and orange colored name</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/56f43d6a-b647-41a0-9c85-1ed2e6fbfedf" /></p>
+<ul>
+<li>The orange <code>#</code> is used to highligh which ones are most used in crafting for the playing class</li>
+<li>The gray <code>#</code> is used to highlight which ones are most used in crafting for other classes</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/a848e916-63d5-4bca-9995-5cc0f052f9ac" /></p>
+<p>Gems also have good miscellaneus information</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/cd80ccb6-793e-4639-acf9-d22de3a7b6f8" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/70446976-7447-419d-b70e-43ccf421421b" /></p>
+<h2 id="runes">Runes<a class="headerlink" href="#runes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Runes are always shown</li>
+<li>Includes the rune number, quantity, then <code>#</code> for crafting (orange for playing class, gray for other classes; same as gems)</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/051999b5-b5d9-4936-92b1-b6fb1ebba2e2" /></p>
+<p>Runes also have good miscellaneus information</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/45ca76af-c03e-47f4-9779-5340f8d25af0" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/98282026-8478-421e-b43c-5122eb5b9a6a" /></p>
+<h2 id="essences-and-tokens">Essences and Tokens<a class="headerlink" href="#essences-and-tokens" title="Permanent link">&para;</a></h2>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/2cc35e76-e53e-44b5-bb54-05c432d2b35e" /></p>
+<h2 id="mini-uber-keys-organs-and-similar-items">Mini Uber Keys, Organs, and similar items<a class="headerlink" href="#mini-uber-keys-organs-and-similar-items" title="Permanent link">&para;</a></h2>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/650754ef-b628-439a-a9de-69a341a85f08" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/8a36a1ca-6c7a-40a9-b50d-f99e9050c6d1" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/9780d717-b501-411c-a5e9-1892d564d97b" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/3c7c43b2-725c-48d9-b302-dab22a55c2ca" /></p>
+<h2 id="infusion-crafting-materials">Infusion crafting materials<a class="headerlink" href="#infusion-crafting-materials" title="Permanent link">&para;</a></h2>
+<p>Similar to gems and runes, infusion crafting materials have the same type of idea as gems and runes (<code>O</code>'s and <code>#</code>)</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/3753fdcc-4b71-4c53-b20e-ee80479c60fb" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/474da0d1-4f21-4e51-b2f4-2c15b0b8523d" /></p>
+<h2 id="maps">Maps<a class="headerlink" href="#maps" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Show immunities</li>
+<li>Show highest resistance</li>
+<li>Show density</li>
+<li>Show negative and positive modifiers</li>
+<li>Show warnings if a type of map always has the same bad monsters</li>
+</ul>
+<p>Color legend:</p>
+<ul>
+<li>Density: Teal</li>
+<li>Negative Modifiers: Orange</li>
+<li>Positive: Green</li>
+<li>Warnings: Red</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/e71c92a3-20ed-4f1c-9c84-74b9e7179c34" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/06168677-acdd-491a-8273-2edd2ec68d41" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/aae46f15-1af7-4b14-a280-fb810e68cf58" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/6e64ddc3-694e-4a25-ab3a-83dacb98836f" /></p>
+<h3 id="map-materials">Map materials<a class="headerlink" href="#map-materials" title="Permanent link">&para;</a></h3>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/04b42cc7-9b24-4992-8eac-bba0765f7279" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/7a082eeb-e766-4e23-aa13-d994b1247da1" /></p>
+<h2 id="crafting">Crafting<a class="headerlink" href="#crafting" title="Permanent link">&para;</a></h2>
+<p>Rings and amulets have <code>C: xx+</code> in the names (C = Crafting), meaning it's the minimum character level needed in order to get some like 2+ to skills and 20 FCR</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/e6e6bdf6-db27-4ab6-ab87-fdab59c4407d" /></p>
+<p>Magic and rare items also have the outcome of the craft in the description</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/bff31d0a-325c-4754-b344-6d677c9e6eb4" /></p>
+<p>To see the alvl (crafted ilvl) before it's crafted with the character you're using, if the number is orange you're good to go, if white you need a higher clvl (character level) or a higher ilvl (item level) from the item itself</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/4c92f64e-821f-4e9d-935d-e678380ca4fd" /></p>
+<h2 id="miscellaneus-stats">Miscellaneus stats<a class="headerlink" href="#miscellaneus-stats" title="Permanent link">&para;</a></h2>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/62f634f7-5f63-4978-9900-817d848beebb" /></p>
+<h2 id="runeword-bases">Runeword bases<a class="headerlink" href="#runeword-bases" title="Permanent link">&para;</a></h2>
+<p>Show for both leveling and end game.</p>
+<ul>
+<li>Leveling is orange and only shown on filter level 1</li>
+<li>End game is green and is on all filter levels</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/e9742ba5-9cfb-45aa-afc9-5ad18219985d" /></p>
+<h2 id="item-descriptions">Item descriptions<a class="headerlink" href="#item-descriptions" title="Permanent link">&para;</a></h2>
+<h3 id="general">General<a class="headerlink" href="#general" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Up: Upgrading an item to the next tier</li>
+<li>Weapons: More damage</li>
+<li>Armors: More defense usually</li>
+<li>Green numbers: What runes are needed</li>
+<li>O: What gem is needed, plus color</li>
+<li>Dark Green S:/D:/L: How much Strength, Dexterity, and/or levels required</li>
+<li>Max OS: Maximum open sockets<ul>
+<li>Teal Q: Laruzk's Socket Quest</li>
+<li>Gold LB: Larzuk's Puzzlebox or Puzzlepiece for magic, rare, and crafted items</li>
+<li>Red C: Worldstone Shard</li>
+<li>Orange C: Upgrade item two times in order to get additional sockets with Worldstone Shards</li>
+</ul>
+</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/cad87ccb-8d13-40ff-bb66-edc2d4b3872b" /></p>
+<ul>
+<li>Rolls OS: Rolls Open Sockets</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/66df5e8e-485f-412d-8a7b-c2a01e440a53" /></p>
+<ul>
+<li>Base: Base of weapon</li>
+<li>Sp: Weapon attack speed</li>
+<li>R: Weapon range</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/ca4f153c-fff2-480f-b836-d8de3b4e79cb" /></p>
+<h3 id="auras">Auras<a class="headerlink" href="#auras" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Aura: Information about the weapon's aura. Example, Infinity:<ul>
+<li>None: How much negative resistence the monsters get from Infinity if a monster isn't immune</li>
+<li>Immus: How much negative resistence the monsters get from Infinity if a monster is immune</li>
+<li>This way makes it easier to know what Infinity (and other items with Amp, LRE, etc) can or can't break</li>
+</ul>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As you can see in the picture, it also says (Cya: Absord Ele Dmg:###). That's for the (+3 to Cyclone Armor not buffed from energy). There are many more cases like this on other items as well.</p>
+</div>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/19ba8013-0964-4e36-9bd0-8f1c0319be57" /></p>
+<h3 id="half-freeze-duration-and-cannot-be-fronzen">Half Freeze Duration and Cannot Be Fronzen<a class="headerlink" href="#half-freeze-duration-and-cannot-be-fronzen" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Inventory And Stash = 2x HFD = CBF</li>
+<li>1 = Gray, 2 = Green, 3+ = Red</li>
+<li>If you already have CBF on it'll let you know</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/7b135409-9f34-4ba3-bd13-5a5eb3e15be7" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/d46cef96-7984-4e34-bcf1-74490314b581" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/73bf7f6a-4157-43bd-b3f9-bd4c5fe324d2" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/33d5fa27-d19a-4ba0-af38-40e91fc74966" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/032fd23b-23e1-408f-9eb7-7b786d9de691" /></p>
+<h3 id="bases-with-open-sockets">Bases with open sockets<a class="headerlink" href="#bases-with-open-sockets" title="Permanent link">&para;</a></h3>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/f52901c3-5952-49fb-a6b0-ae3e08f96509" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/e0e01ef2-5b18-4bc5-a806-8ca20144de54" /></p>
+<h3 id="gold-information">Gold information<a class="headerlink" href="#gold-information" title="Permanent link">&para;</a></h3>
+<p>Most items have this information.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/4ab06a1c-8dd2-4a30-a31a-f8ed7e877520" /></p>
+<h3 id="set-items">Set items<a class="headerlink" href="#set-items" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Set items will show their set bonuses<ul>
+<li>2:, 3:, 4:, etc, is how many pieces are needed</li>
+<li>Full: is full set</li>
+<li>Set boots also have kick damage info</li>
+</ul>
+</li>
+</ul>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/8322e77b-5d6f-4762-a011-5acbed0182ca" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/7c773401-e8ef-4060-897b-50490c75349e" /></p>
+<h3 id="gamble-vendors">Gamble vendors<a class="headerlink" href="#gamble-vendors" title="Permanent link">&para;</a></h3>
+<p>Shows possible uniques and sets.</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/aa2ceef7-6e0d-40da-9b68-a2c5e03a6a9e" /></p>
+<h3 id="mirroring-and-gg-items">Mirroring and GG items<a class="headerlink" href="#mirroring-and-gg-items" title="Permanent link">&para;</a></h3>
+<p>Mirror items have purple, white, orange, white, purple colors</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/f996d68b-1e7a-4d0c-9316-e37871cb982b" /></p>
+<p>Good and 5+ to skills items have orange, red, green, red, orange colors</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/079f0284-fb95-4f55-a769-2e151bf9a4c6" /></p>
+<h3 id="shop-items">Shop items<a class="headerlink" href="#shop-items" title="Permanent link">&para;</a></h3>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/957abc45-c459-45e9-b10f-a820a72251ec" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/88b3d46e-edcd-4819-b45f-ab46202ca30d" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/a0ac6564-6fe5-4104-b5f7-961ac1b7ba9b" /></p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/cb5621a7-c92d-4e61-9217-d2053edc639c" /></p>
+<h3 id="low-leveling-dueling-lld">Low-leveling Dueling (LLD)<a class="headerlink" href="#low-leveling-dueling-lld" title="Permanent link">&para;</a></h3>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/3ee3c050-0be6-4b94-8b15-7f7f10837ebe" /></p>
+<p>LLD Base Means is a Ideal Crafting Base For LLD
+<img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/6f1e6b9a-0559-4a56-8ad7-541b5b8a63dd" /></p>
+<h3 id="jewels">Jewels<a class="headerlink" href="#jewels" title="Permanent link">&para;</a></h3>
+<p>Rare jewels rerolling info: shows the ilvl before its rerolled</p>
+<p><img alt="image" src="https://github.com/KassahiPD2/Kassahi/assets/87786927/006794dc-7333-429c-a6ad-d4026e65ea0f" /></p>
+<h1 id="filter-examples_1">Filter Examples<a class="headerlink" href="#filter-examples_1" title="Permanent link">&para;</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
