@@ -12,7 +12,7 @@ ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawl
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/6th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 174}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/10th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 175}
 
 
 
@@ -2246,9 +2246,9 @@ ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID NECROMANCER (NEC OR WAND)
 ItemDisplay[FILTLVL~1-4 MAG !ID NECROMANCER ((NEC) OR (ETH (WAND)))]: %DOT-97%%NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID NECROMANCER (NEC OR WAND)]: %DOT-6D%%NAME%
 // Magic/Rare Assassin
-ItemDisplay[RARE !ID ETH ASSASSIN (SIN OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
-ItemDisplay[RARE !ID !ETH ASSASSIN (SIN OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
-ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl)]: %PX-60%%DOT-21%%MAP-97%%ORANGE%• %NAME% %ORANGE%•
+ItemDisplay[RARE !ID ETH ASSASSIN SIN]: %DOT-62%%MAP-21%%BORDER-6D%%RED%•%ORANGE%•  %NAME%  %ORANGE%•%RED%•
+ItemDisplay[RARE !ID !ETH ASSASSIN SIN]: %PX-62%%DOT-21%%MAP-6D%%RED%• %NAME% %RED%•
+ItemDisplay[MAG !ID ETH ASSASSIN (axf OR 9xf OR 7xf)]: %PX-60%%DOT-21%%MAP-97%%ORANGE%• %NAME% %ORANGE%•
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID ASSASSIN SIN]: %DOT-97%%NAME%
 ItemDisplay[FILTLVL~1-4 RARE !ID ASSASSIN SIN]: %DOT-6D%%NAME%
 ItemDisplay[FILTLVL~1-4 MAG !ID ASSASSIN ETH SIN]: %DOT-97%%NAME%
@@ -2283,9 +2283,9 @@ ItemDisplay[FILTLVL~1-4 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) HELM]: %NAME%
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID !ETH EXC CHEST]: %NAME%
 
 // GG Class Specific Eth Rare Weapons (with all rare claws)
-Alias[GG_CLASS_ITEMS_1]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR SIN OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)
+Alias[GG_CLASS_ITEMS_1]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR SIN OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)
 // GG Class Specific Eth Magic and uneth Rare Weapons (with War Fist family)
-Alias[GG_CLASS_ITEMS_2]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR axf OR 9xf OR 7xf)
+Alias[GG_CLASS_ITEMS_2]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR axf OR 9xf OR 7xf)
 
 // Good Specific Eth Magic and uneth Rare Weapons
 Alias[GOOD_WEAPON_ITEMS_1]: (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9ma OR 7ma OR dgr OR 9dg OR 7dg OR wax OR 9wa OR 7wa OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR pik OR 9p9 OR 7p7)
