@@ -10,9 +10,8 @@ ItemDisplayFilterName[9]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc0All Pots ÿc7& ÿc.Fla
 ItemDisplayFilterName[10]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc0All Pots
 ItemDisplayFilterName[11]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice ÿc7& ÿc.Flawless
 ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
-
 //------------------------------FILTER_VERSION_ON_CUBE------------------------------
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Jan/27th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 177}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Feb/14th/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 178}
 
 
 
