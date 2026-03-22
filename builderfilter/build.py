@@ -19,13 +19,13 @@ def update_version():
     today = datetime.date.today()
     timestamp = today.strftime("%b/%d/%y")
 
-    with open(VERSION_SOURCE, encoding="cp1252") as f:
+    with open(VERSION_SOURCE, encoding="utf-8") as f:
         content = f.read()
 
     content = content.replace("--timestamp--", timestamp)
     content = content.replace("--buildnum--", str(version))
 
-    with open(VERSION_FILTER, "w", encoding="cp1252") as f:
+    with open(VERSION_FILTER, "w", encoding="cp1252", newline="\n") as f:
         f.write(content)
 
     print(f"Version: build {version} ({timestamp})")
@@ -96,7 +96,7 @@ def build_filter(entry, groups):
             if tag is None:
                 continue  # template / untagged file — skip
             if source_included(tag, entry, groups):
-                with open(filepath, encoding="cp1252") as f:
+                with open(filepath, encoding="utf-8") as f:
                     parts.append(f.read())
     return "".join(parts)
 
@@ -108,7 +108,7 @@ def main():
         print(f"Building {entry['file']} ...")
         content = build_filter(entry, groups)
         out_path = os.path.join(OUTPUT_DIR, entry["file"])
-        with open(out_path, "w", encoding="cp1252") as f:
+        with open(out_path, "w", encoding="cp1252", newline="\n") as f:
             f.write(content)
         print(f"  wrote {len(content):,} chars -> {out_path}")
     print("All filters built.")
