@@ -1,0 +1,269 @@
+
+
+
+
+
+//------------------------------UTILITIE_ITEMS------------------------------
+
+
+
+
+
+// GOLD
+ItemDisplay[GOLD<14999]:
+// POTIONS
+ItemDisplay[((FILTLVL~1-6) OR (FILTLVL~9-10)) rvs]: %PURPLE%° %WHITE%35%
+ItemDisplay[rvs]:
+ItemDisplay[rvl]: %NAME%
+ItemDisplay[DIFF=0 CLVL<18 (MAPID>0 MAPID<39) hp1]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<39) hp2]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<75) hp2]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<75) hp3]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<103) hp3]: %RED%· %WHITE%h
+ItemDisplay[DIFF=0 CLVL<80 (MAPID>0 MAPID<103) hp4]: %RED%° %WHITE%H %RED%°
+ItemDisplay[DIFF<2 CLVL<80 (MAPID>0 MAPID<133) hp4]: %RED%· %WHITE%h
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) (MAPID>0 MAPID<133) hp5]: %RED%° %WHITE%H %RED%°
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) MAPID>132 hp5]: %RED%° %WHITE%h
+ItemDisplay[hp5]:
+ItemDisplay[DIFF=0 CLVL<18 (MAPID>0 MAPID<39) mp1]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<39) mp2]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF=0 CLVL<25 (MAPID>0 MAPID<75) mp2]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<75) mp3]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF=0 CLVL<30 (MAPID>0 MAPID<103) mp3]: %BLUE%· %WHITE%m
+ItemDisplay[DIFF=0 CLVL<80 (MAPID>0 MAPID<103) mp4]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[DIFF<2 CLVL<80 (MAPID>0 MAPID<133) mp4]: %BLUE%· %WHITE%m
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) (MAPID>0 MAPID<133) mp5]: %BLUE%° %WHITE%M %BLUE%°
+ItemDisplay[((FILTLVL~1-2) OR (FILTLVL~5-6) OR (FILTLVL~9-10)) MAPID>132 mp5]: %BLUE%° %WHITE%m
+ItemDisplay[mp5]:
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4)]:
+// UTILITIES
+ItemDisplay[((MAPID>1 MAPID<40) OR (MAPID>40 MAPID<75) OR (MAPID>75 MAPID<103) OR (MAPID>103 MAPID<109) OR (MAPID>109 MAPID<133) OR (MAPID>160 MAPID<164) OR (MAPID=143 OR MAPID=146 OR MAPID=147 OR MAPID=151 OR MAPID=158 OR MAPID=190)) yps]: %GREEN%° %WHITE%A{%GRAY%(Time Stack)%NL%%WHITE%+25 Psn Res For 30s%NL%%TAN%Instantly Cures Poison:}
+ItemDisplay[yps]:
+ItemDisplay[vps CLVL<20]: %SAGE%· %WHITE%S{%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
+ItemDisplay[vps CLVL>19]: {%GRAY%(Time Stack)%NL%%WHITE%For 30s%NL%%TAN%Infinite Stamina:}
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) wms]: %YELLOW%· %WHITE%T{%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[wms]: {%GRAY%(Time Stack)%NL%%WHITE%+25 Cold Res For 30s%NL%%TAN%Instantly Thaws Character:}
+ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) tsc]: %DARK_GREEN%· %BLUE%TP{%GRAY%(You Will Lose The Runes/Gems)%NL%%TAN%Cube:%WHITE%Socketed Item, %DARK_GREEN%+ %BLUE%TP, %ORANGE%Hel Rune}
+ItemDisplay[tsc]:
+ItemDisplay[isc CLVL<20]: %DARK_GREEN%· %RED%ID{%WHITE%Let %ORANGE%Deckard Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[isc CLVL>19]: {%WHITE%Let %ORANGE%Cain %WHITE%ID ur Items%NL%%TAN%Professional Tip:}
+ItemDisplay[tbk]: %BLUE%TP Tome
+ItemDisplay[ibk]: %RED%ID Tome
+ItemDisplay[ear]: %ORANGE%%NAME%
+ItemDisplay[tpfs CLVL<5]: %RED%· %WHITE%F
+ItemDisplay[tpfm CLVL<15]: %RED%· %WHITE%F
+ItemDisplay[tpfl CLVL<30]: %RED%· %WHITE%F
+ItemDisplay[tpgs CLVL<5]: %GREEN%· %WHITE%P
+ItemDisplay[tpgm CLVL<15]: %GREEN%· %WHITE%P
+ItemDisplay[tpgl CLVL<30]: %GREEN%· %WHITE%P
+ItemDisplay[tpcs CLVL<5]: %BLUE%· %WHITE%C
+ItemDisplay[tpcm CLVL<15]: %BLUE%· %WHITE%C
+ItemDisplay[tpcl CLVL<30]: %BLUE%· %WHITE%C
+ItemDisplay[tpls CLVL<5]: %YELLOW%· %WHITE%L
+ItemDisplay[tplm CLVL<15]: %YELLOW%· %WHITE%L
+ItemDisplay[tpll CLVL<30]: %YELLOW%· %WHITE%L
+ItemDisplay[(tpfs OR tpfm OR tpgs OR tpgm OR tpcs OR tpcm OR tpls OR tplm OR tpfl OR tpgl OR tpcl OR tpll) CLVL>0]:
+ItemDisplay[(gps OR ops OR gpm OR opm OR gpl OR opl)]:
+ItemDisplay[pvpp]: %ORANGE%%NAME%
+// QUEST ITEMS (ACT 1)
+ItemDisplay[bks]: %MAP-51%Scroll of Inifuss %RED%•{%TAN%Now Rests Treehead Woodfist%NL%Ageless, protected by Wilds%NL%Torn Bark of The Sacred Tree}
+ItemDisplay[bkd]: %MAP-51%Key to the Cairn Stones %RED%•{%TAN%Find The Sage Deckard Cain%NL%Behest a Demigod Imp, Rakanishu%NL%A portal to Tristram Awaits}
+ItemDisplay[hdm]: %MAP-51%Horadric Malus %RED%•{%TAN%Bestowed to The Sisters of The Sightless Eye%NL%Enchanted by Ancient Horadric Mages%NL%Crafted in Necessity of The Sin War}
+// QUEST ITEMS (ACT 2)
+ItemDisplay[ass]: %MAP-51%Book of Skill %RED%•{%GOLD%Right Click to Read%NL%%GRAY%(Grants +1 Skill Point Permanently)%NL%%NL%%TAN%Learned Are Those Who Stay Awhile And Listen.}
+ItemDisplay[tr1]: Horadric Scroll{%TAN%Onward, The Tomb of Tal Rasha%NL%Found, The Details of The Binding of Baal%NL%Slain, Radament The Fallen, Mummified Horadrim}
+ItemDisplay[msf]: %MAP-51%Staff of Kings %RED%•{%TAN%A Relic of Royalty, withered of Dust%NL%Beneath The Tunnels Woven of Arthropods}
+ItemDisplay[vip]: %MAP-51%Amulet of the Viper %RED%•{%TAN%Fangskin The Salamander Abides%NL%An Endless Eclipse, Buried in Scales%NL%Amidst The Darkness, An Amulet Unworn}
+ItemDisplay[hst]: %MAP-51%Horadric Staff %RED%•{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
+// QUEST ITEMS (ACT 3)
+ItemDisplay[j34]: %MAP-51%Jade Figurine %RED%•{%TAN%The Mage Clans United%NL%In Archangel Tyrael Confided%NL%The Dark Exile Provided}
+ItemDisplay[g34]: %MAP-51%Golden Bird %RED%•{%TAN%Death is The Life After%NL%The Ashes of Ku Y'leh%NL%An Urn of Immortality}
+ItemDisplay[xyz]: %MAP-51%Potion of Life %RED%•{%GOLD%Right Click to Drink%NL%%GRAY%(Grants +20 to Maximum Life Permanently)%NL%%NL%%TAN%Forever is Composed of Nows.}
+ItemDisplay[g33]: %MAP-51%Gidbinn %RED%•{%TAN%Lost in Fervor of Zakarum%NL%Furnished by Skatsimi%NL%Point Edged of Sorcery}
+ItemDisplay[qey]: %MAP-51%Khalim's Eye %RED%•{%TAN%Conception is Evoked Through The Medium of The Eye.}
+ItemDisplay[qbr]: %MAP-51%Khalim's Brain %RED%•{%TAN%The Brain is a Commodity Used to Fertilize Ideas.}
+ItemDisplay[qhr]: %MAP-51%Khalim's Heart %RED%•{%TAN%The Heart Has Its Reasons of Which Reason Knows Nothing.}
+ItemDisplay[qf1]: %MAP-51%Khalim's Flail %RED%•{%TAN%Que-Hegan of Zakarum%NL%Khalim The Uncorruptible}
+ItemDisplay[qf2]: %MAP-51%Khalim's Will %RED%•{%TAN%Will is to Grace as The Horse is to The Rider.}
+ItemDisplay[bbb]: %MAP-51%Lam Esen's Tome %RED%•{%TAN%Prime Evil Influences%NL%Ancient Kehjani Mysticism%NL%Within Can be Known:}
+ItemDisplay[mss]: Mephisto's Soulstone %RED%•{%TAN%Doomed to Black Abyss%NL%Hatred Unbound Eminates}
+// QUEST ITEMS (ACT 4)
+ItemDisplay[hfh]: %MAP-51%Hellforge Hammer %RED%•{%TAN%Forger of Shadowfang%NL%Legend of The Burning Hells}
+// QUEST ITEMS (ACT 5)
+ItemDisplay[ice]: %MAP-51%Malah's Potion %RED%•{%TAN%What is Man But a Mass of Thawing Clay•}
+ItemDisplay[tr2]: %MAP-51%Scroll of Resistance %RED%•{%GOLD%Right Click to Read%NL%%GRAY%(Grants +10 to All Resistances Permanently)%NL%%NL%%TAN%Where There is Power, There is Resistance.}
+
+// Pathing hints
+ItemDisplay[(key OR rkey) MAPID=1]: %NAME%{%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%Rogue Encampment%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=2]: %NAME%{%BLACK%-%CL%%TAN%Follow the %WHITE%Road%CL%%BLACK%-%CL%%GOLD%Blood Moor%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=3]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Cold Plains%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=4]: %NAME%{%BLACK%-%CL%%TAN%Stones near the %WHITE%Road%CL%%LIGHT_GRAY%To Tristam%CL%%BLACK%-%CL%%TAN%Follow the %WHITE%Road%CL%%BLACK%-%CL%%GOLD%Stony Field%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=5]: %NAME%{%BLACK%-%CL%%TAN%Follow the %WHITE%Road%CL%%BLACK%-%CL%%GOLD%Dark Wood%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=6]: %NAME%{%BLACK%-%CL%%TAN%Follow the %WHITE%Road%CL%%BLACK%-%CL%%GOLD%Black Marsh%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=7]: %NAME%{%BLACK%-%CL%%TAN%Follow the %WHITE%Road%CL%%BLACK%-%CL%%GOLD%Tamoe Highland%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=8]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Den of Evil%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=9]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Cave Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=10]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Underground Passage Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=11]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Hole Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=12]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Pit Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=13]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Cave Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=14]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Underground Passage Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=15]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Hole Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=16]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Pit Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=17]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Burial Grounds%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=18]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Crypt%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=19]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Mausoleum%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=20]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Forgotten Tower%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=21]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tower Cellar Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=22]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tower Cellar Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=23]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tower Cellar Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=24]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tower Cellar Level 4%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=25]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Tower Cellar Level 5%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=26]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Monastery Gate%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=27]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Outer Cloister%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=28]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left %WHITE%or %TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Barracks%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=29]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Jail Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=30]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Jail Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=31]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Jail Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=32]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Inner Cloister%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=33]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Cathedral%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=34]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Catacombs Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=35]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the Waypoint:%CL%%BLACK%-%CL%%GOLD%Catacombs Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=36]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Catacombs Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=37]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Catacombs Level 4%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=38]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Tristram%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=39]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Moo Moo Farm (Cows)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=40]: %NAME%{%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%Lut Gholein%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=41]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Rocky Waste%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=42]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Dry Hills%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=43]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Far Oasis%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=44]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Lost City%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=45]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Valley of Snakes%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=46]: %NAME%{%BLACK%-%CL%%TAN%O  )   []   +   VV   /\   O)%CL%%WHITE%Tomb Symbols%CL%%BLACK%-%CL%%GOLD%Canyon of the Magi%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=47]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Sewers Level 1 (Act 2)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=48]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Sewers Level 2 (Act 2)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=49]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Sewers Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=50]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Harem Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=51]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Harem Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=52]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Palace Cellar Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=53]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Palace Cellar Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=54]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Palace Cellar Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=55]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Stony Tomb Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=56]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Halls of the Dead Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=57]: %NAME%{%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Halls of the Dead Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=57]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the Waypoint:%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=58]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Claw Viper Temple Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=59]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Stony Tomb Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=60]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Halls of the Dead Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=61]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Claw Viper Temple Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=62]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Maggot Lair Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=63]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Maggot Lair Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=64]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Maggot Lair Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=65]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Ancient Tunnels%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=66]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=67]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=68]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=69]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 4%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=70]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 5%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=71]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 6%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=72]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Tomb 7%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=73]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Tal Rasha's Chamber%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=74]: %NAME%{%BLACK%-%CL%%WHITE%Good luck in this zone%CL%%BLACK%-%CL%%GOLD%Arcane Sanctuary%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=75]: %NAME%{%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%Kurast Docks%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=76]: %NAME%{%BLACK%-%CL%%TAN%Follow the %BLUE%River%CL%%BLACK%-%CL%%GOLD%Spider Forest%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=77]: %NAME%{%BLACK%-%CL%%TAN%Follow the %BLUE%River%CL%%BLACK%-%CL%%GOLD%Great Marsh%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=78]: %NAME%{%BLACK%-%CL%%TAN%Follow the %BLUE%River%CL%%BLACK%-%CL%%GOLD%Flayer Jungle%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=79]: %NAME%{%BLACK%-%CL%%TAN%Go North%CL%%BLACK%-%CL%%GOLD%Lower Kurast%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=80]: %NAME%{%BLACK%-%CL%%TAN%Go North%CL%%BLACK%-%CL%%GOLD%Kurast Bazaar%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=81]: %NAME%{%BLACK%-%CL%%TAN%Go North%CL%%BLACK%-%CL%%GOLD%Upper Kurast%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=82]: %NAME%{%BLACK%-%CL%%TAN%Go North%CL%%BLACK%-%CL%%GOLD%Kurast Causeway%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=83]: %NAME%{%BLACK%-%CL%%TAN%Go North%CL%%BLACK%-%CL%%GOLD%Travincal%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=84]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Arachnid Lair%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=85]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Spider Cavern%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=86]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Swampy Pit Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=87]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Swampy Pit Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=88]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Flayer Dungeon Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=89]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Flayer Dungeon Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=90]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Swampy Pit Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=91]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Flayer Dungeon Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=92]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the Superchest:%CL%%BLACK%-%CL%%GOLD%Sewers Level 1 (Act 3)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=93]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Sewers Level 2 (Act 3)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=94]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Ruined Temple%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=95]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Disused Fane%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=96]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Forgotten Reliquary%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=97]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Forgotten Temple%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=98]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Ruined Fane%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=99]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Disused Reliquary%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=100]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Durance of Hate Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=101]: %NAME%{%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Durance of Hate Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=101]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the Waypoint:%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=102]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Durance of Hate Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=103]: %NAME%{%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%The Pandemonium Fortress%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=104]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Outer Steppes%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=105]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Plains of Despair%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=106]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%City of the Damned%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=107]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%River of Flame%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=108]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Chaos Sanctuary%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=109]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%GRAY%Town!%CL%%BLACK%-%CL%%GOLD%Harrogath%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=110]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Bloody Foothills%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=111]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Frigid Highlands%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=112]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Arreat Plateau%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=113]: %NAME%{%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%LIGHT_GRAY%To Glacial Trail (Progression)%CL%%BLACK%-%CL%%GOLD%Crystalline Passage%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=113]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the Waypoint:%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=113]: %NAME%{%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%LIGHT_GRAY%To Frozen River (Res Quest)%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=113]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the Waypoint:%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=114]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Frozen River%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=115]: %NAME%{%BLACK%-%CL%%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Glacial Trail%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=116]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Drifter Cavern%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=117]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Frozen Tundra%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=118]: %NAME%{%TAN%Character %YELLOW%Left%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%The Ancients' Way%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=118]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the Waypoint:%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=119]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Icy Cellar%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=120]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Arreat Summit%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=121]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Nihlathak's Temple%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=122]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Halls of Anguish%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=123]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Halls of Pain%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=124]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Halls of Vaught%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=125]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Abaddon%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=126]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Pit of Acheron%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=127]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Infernal Pit%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=128]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Worldstone Keep Level 1%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=129]: %NAME%{%BLACK%-%CL%%TAN%Character %DARK_GREEN%Right%CL%%WHITE%From the Waypoint:%CL%%BLACK%-%CL%%GOLD%Worldstone Keep Level 2%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=130]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Worldstone Keep Level 3%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=131]: %NAME%{%BLACK%-%CL%%TAN%Character %BLUE%Straight%CL%%WHITE%From the level entrance:%CL%%BLACK%-%CL%%GOLD%Throne of Destruction%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=132]: %NAME%{%BLACK%-%CL%%WHITE%No pathing hints for this zone%CL%%BLACK%-%CL%%GOLD%Worldstone Chamber%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=139]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Arreat Battlefield%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=141]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a loop%CL%%BLACK%-%CL%%GOLD%Sewers of Harrogath%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=142]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a figure 8%CL%%BLACK%-%CL%%GOLD%Horazon's Memory%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=143]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Hug outer wall then go center%CL%%BLACK%-%CL%%GOLD%Ruins of Viz-jun%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=144]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a loop%CL%%BLACK%-%CL%%GOLD%River of Blood%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=145]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a line%CL%%BLACK%-%CL%%GOLD%Phlegethon%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=146]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Ancestral Trial%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=147]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Kehjistan Marketplace%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=148]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a loop%CL%%BLACK%-%CL%%GOLD%Torajan Jungle%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=149]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Hug outer wall then go center%CL%%BLACK%-%CL%%GOLD%Bastion Keep%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=150]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Throne of Insanity%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=151]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Tomb of Zoltun Kulle%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=154]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Hug outer wall then go center%CL%%BLACK%-%CL%%GOLD%Blood Moon%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=155]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Fall of Caldeum%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=156]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Pandemonium Citadel%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=158]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Lost Temple%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=160]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Canyon of Sescheron%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=167]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Hug outer wall then go center%CL%%BLACK%-%CL%%GOLD%Sanatorium%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=169]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Shadows of Westmarch%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=170]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Royal Crypts%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=174]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Ruined Cistern%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=175]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Ashen Plains%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=190]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%See Diagrams for optimal clear path%CL%%BLACK%-%CL%%GOLD%Skovos Stronghold%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=191]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a loop%CL%%BLACK%-%CL%%GOLD%Demon Road%CL%%NAME%}%CONTINUE%
+ItemDisplay[(key OR rkey) MAPID=193]: %NAME%{%BLACK%-%CL%%BLUE%tinyurl.com/HiimMapPathing%CL%%WHITE%Map Pathing Guides Visit:%CL%%BLACK%-%CL%%CL%%WHITE%Map path is a loop%CL%%BLACK%-%CL%%GOLD%Halls of Torture%CL%%NAME%}%CONTINUE%
+
+// Pathing note
+ItemDisplay[(key OR rkey) MAPID<132]:%NAME%{%BLUE%maxroll.gg/d2/resources/map-reading%CL%%WHITE%To learn what Character left/straight/right means visit:%CL%%NAME%}%CONTINUE%
+
+
+// Keys Final Display
+ItemDisplay[key ASSASSIN]:{%NAME%}
+ItemDisplay[key CLVL<30]: %DARK_GREEN%· %WHITE%Key{%NAME%}
+ItemDisplay[key]:{%NAME%}
+

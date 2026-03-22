@@ -1,0 +1,12 @@
+{
+  "filters": [
+    { "name": "Regular-Standard",       "file": "Regular.filter",       "tags": [] },
+    { "name": "Regular-Hyper", "file": "Regular-Hyper.filter", "tags": ["Hyper"] },
+    { "name": "Regular-Luxe",  "file": "Regular-Luxe.filter",  "tags": ["Luxe"] },
+    { "name": "Meme-Standard",          "file": "Meme.filter",          "tags": ["Meme"] },
+    { "name": "Meme-Hyper",    "file": "Meme-Hyper.filter",    "tags": ["Meme","Hyper"] },
+    { "name": "Mystery-Standard",       "file": "Mystery.filter",       "tags": ["Mystery"] },
+    { "name": "Mystery-Hyper", "file": "Mystery-Hyper.filter", "tags": ["Mystery","Hyper"] },
+    { "name": "Mystery-Luxe",  "file": "Mystery-Luxe.filter",  "tags": ["Mystery","Luxe"] }
+  ]
+}
