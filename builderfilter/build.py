@@ -101,6 +101,21 @@ def build_filter(entry, groups):
     return "".join(parts)
 
 
+def build_filter_definitions(filters):
+    """Write filter_definitions.json to the output directory."""
+    filter_info = {}
+    for i, entry in enumerate(filters, start=1):
+        filter_info[str(i)] = {
+            "display_name": entry["name"],
+            "description": entry.get("description", ""),
+            "file_name": entry["file"],
+        }
+    out_path = os.path.join(OUTPUT_DIR, "filter_definitions.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump({"filter_info": filter_info}, f, indent=2)
+    print(f"  wrote filter_definitions.json -> {out_path}")
+
+
 def main():
     update_version()
     filters, groups = load_config()
@@ -111,6 +126,7 @@ def main():
         with open(out_path, "w", encoding="cp1252", newline="\n") as f:
             f.write(content)
         print(f"  wrote {len(content):,} chars -> {out_path}")
+    build_filter_definitions(filters)
     print("All filters built.")
 
 

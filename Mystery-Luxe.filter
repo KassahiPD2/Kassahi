@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Mar/22/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 178}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Mar/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 178}
 
 
 
@@ -1929,51 +1929,6 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR
 
 
 
-//------------------------------UNID_ITEM_ALIAS_LuOe------------------------------
-
-
-
-
-
-// UNIQUES
-// CHARMS
-Alias[UNICHARM_LEFT]: %PURPLE%O%ORANGE%O  %GOLD%
-Alias[UNICHARM_RIGHT]: %ORANGE%  O%PURPLE%O
-// GG
-Alias[GG_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·»%YELLOW%«·» %RED%·%BLACK%·%PURPLE%
-Alias[GG_RIGHT]: %BLACK%·%RED%· %YELLOW%«·»%RED%«·»%GREEN%«·»%PURPLE%«·»
-// TIER 3
-Alias[T3_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·» %RED%·%BLACK%·%GOLD%
-Alias[T3_RIGHT]: %BLACK%·%RED%· %RED%«·»%GREEN%«·»%PURPLE%«·»
-// TIER 2
-Alias[T2_LEFT]: %PURPLE%«·»%GREEN%«·» %RED%·%BLACK%·%GOLD%
-Alias[T2_RIGHT]: %BLACK%·%RED%· %GREEN%«·»%PURPLE%«·»
-// TIER 1
-Alias[T1_LEFT]: %PURPLE%«·» %RED%·%BLACK%·%GOLD%
-Alias[T1_RIGHT]: %BLACK%·%RED%· %GREEN%«·»
-// TIER 0
-Alias[T0_LEFT]: %RED%·%BLACK%·%GOLD%
-Alias[T0_RIGHT]: %BLACK%·%RED%·
-
-// SETS
-// GG
-Alias[SET_GG_LEFT]: %PURPLE%O%RED%O%DARK_GREEN%O   %GREEN%
-Alias[SET_GG_RIGHT]: %DARK_GREEN%   O%RED%O%PURPLE%O
-// TIER 3
-Alias[SET_T3_LEFT]: %RED%O%DARK_GREEN%O  %GREEN%
-Alias[SET_T3_RIGHT]: %DARK_GREEN%  O%RED%O
-// TIER 2
-Alias[SET_T2_LEFT]: %RED%O %GREEN%
-Alias[SET_T2_RIGHT]: %RED% O
-// TIER 1
-Alias[SET_T1_LEFT]: %LIGHT_GRAY%O %GREEN%
-Alias[SET_T1_RIGHT]: %LIGHT_GRAY% O
-
-
-
-
-
-
 //------------------------------UNID_ITEM_ALERTS------------------------------
 
 
@@ -2412,6 +2367,51 @@ ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR QUIVER) !ID (MAPID=181 OR MAP
 
 
 
+
+
+
+
+
+
+//------------------------------UNID_ITEM_ALIAS_LuOe------------------------------
+
+
+
+
+
+// UNIQUES
+// CHARMS
+Alias[UNICHARM_LEFT]: %PURPLE%O%ORANGE%O  %GOLD%
+Alias[UNICHARM_RIGHT]: %ORANGE%  O%PURPLE%O
+// GG
+Alias[GG_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·»%YELLOW%«·» %RED%·%BLACK%·%PURPLE%
+Alias[GG_RIGHT]: %BLACK%·%RED%· %YELLOW%«·»%RED%«·»%GREEN%«·»%PURPLE%«·»
+// TIER 3
+Alias[T3_LEFT]: %PURPLE%«·»%GREEN%«·»%RED%«·» %RED%·%BLACK%·%GOLD%
+Alias[T3_RIGHT]: %BLACK%·%RED%· %RED%«·»%GREEN%«·»%PURPLE%«·»
+// TIER 2
+Alias[T2_LEFT]: %PURPLE%«·»%GREEN%«·» %RED%·%BLACK%·%GOLD%
+Alias[T2_RIGHT]: %BLACK%·%RED%· %GREEN%«·»%PURPLE%«·»
+// TIER 1
+Alias[T1_LEFT]: %PURPLE%«·» %RED%·%BLACK%·%GOLD%
+Alias[T1_RIGHT]: %BLACK%·%RED%· %GREEN%«·»
+// TIER 0
+Alias[T0_LEFT]: %RED%·%BLACK%·%GOLD%
+Alias[T0_RIGHT]: %BLACK%·%RED%·
+
+// SETS
+// GG
+Alias[SET_GG_LEFT]: %PURPLE%O%RED%O%DARK_GREEN%O   %GREEN%
+Alias[SET_GG_RIGHT]: %DARK_GREEN%   O%RED%O%PURPLE%O
+// TIER 3
+Alias[SET_T3_LEFT]: %RED%O%DARK_GREEN%O  %GREEN%
+Alias[SET_T3_RIGHT]: %DARK_GREEN%  O%RED%O
+// TIER 2
+Alias[SET_T2_LEFT]: %RED%O %GREEN%
+Alias[SET_T2_RIGHT]: %RED% O
+// TIER 1
+Alias[SET_T1_LEFT]: %LIGHT_GRAY%O %GREEN%
+Alias[SET_T1_RIGHT]: %LIGHT_GRAY% O
 
 //------------------------------DESCRIPTION_INFORMATION------------------------------
 
