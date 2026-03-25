@@ -2,6 +2,8 @@ import datetime
 import json
 import os
 import re
+import subprocess
+import urllib.request
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR  = os.path.dirname(SCRIPT_DIR)
@@ -116,7 +118,44 @@ def build_filter_definitions(filters):
     print(f"  wrote filter_definitions.json -> {out_path}")
 
 
+HIIM_SOURCES = [
+    "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/refs/heads/main/builderfilter/02-alias/04-alias-economy-values%5BALL%5D.filter",
+    "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/refs/heads/main/builderfilter/02-alias/05-unid-unique-set-stars%5BALL%5D.filter",
+]
+HIIM_DIR = os.path.join(SCRIPT_DIR, "02-alias", "hiim")
+
+
+def sync_hiim_aliases():
+    """Download latest HiimFilter alias files and commit if any changed in CI."""
+    updated = []
+    for url in HIIM_SOURCES:
+        filename = os.path.basename(urllib.request.url2pathname(url))
+        dest = os.path.join(HIIM_DIR, filename)
+        data = urllib.request.urlopen(url).read()
+        new_text = data.decode("utf-8")
+        old_text = None
+        if os.path.exists(dest):
+            with open(dest, encoding="utf-8") as f:
+                old_text = f.read()
+        if new_text != old_text:
+            with open(dest, "w", encoding="utf-8", newline="\n") as f:
+                f.write(new_text)
+            updated.append(filename)
+            print(f"  updated {filename}")
+        else:
+            print(f"  unchanged {filename}")
+    if updated and os.environ.get("CI"):
+        subprocess.run(["git", "add"] + [os.path.join(HIIM_DIR, f) for f in updated], check=True)
+        subprocess.run(
+            ["git", "commit", "-m", "Update HiimFilter alias sources"],
+            check=True,
+        )
+        print("  committed hiim alias updates")
+
+
 def main():
+    print("Syncing HiimFilter aliases...")
+    sync_hiim_aliases()
     update_version()
     filters, groups = load_config()
     for entry in filters:

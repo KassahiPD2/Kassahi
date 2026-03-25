@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Mar/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 178}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Mar/25/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 178}
 
 
 //------------------------------ALIAS NORMAL------------------------------
@@ -46,6 +46,437 @@ Alias[PD2_MATS]: %PURPLE%«%BLACK%·%RED%» %NAME% %RED%«%BLACK%·%PURPLE%»
 
 // Rejuves
 ItemDisplay[rvl]: %PURPLE%° %WHITE%Juice %PURPLE%°%CONTINUE%
+
+
+
+//------------------------------UNID_ITEM_ALIAS_HYPER------------------------------
+
+
+
+
+// UNIQUES
+// CHARMS
+Alias[UNICHARM]: %PURPLE%•%ORANGE%•  %GOLD%%NAME%%ORANGE%  •%PURPLE%•
+// GG
+Alias[UNID_GG]: %PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX   %WHITE%• %PURPLE%%NAME%%WHITE% •   %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx
+// TIER 3
+Alias[UNID_T3]: %PURPLE%xX%RED%xX%ORANGE%xX  %GOLD%%NAME%%ORANGE%  Xx%RED%Xx%PURPLE%Xx
+// TIER 2
+Alias[UNID_T2]: %RED%xX%ORANGE%xX  %GOLD%%NAME%%ORANGE%  Xx%RED%Xx
+// TIER 1
+Alias[UNID_T1]: %RED%xX %GOLD%%NAME%%RED% Xx
+// TIER 0
+Alias[UNID_T0]: %LIGHT_GRAY%x %GOLD%%NAME%%LIGHT_GRAY% x
+
+// SETS
+// GG
+Alias[UNID_SET_GG]: %PURPLE%x%RED%x%DARK_GREEN%x   %GREEN%%NAME%%DARK_GREEN%   x%RED%x%PURPLE%x
+// TIER 3
+Alias[UNID_SET_T3]: %RED%x%DARK_GREEN%x  %GREEN%%NAME%%DARK_GREEN%  x%RED%x
+// TIER 2
+Alias[UNID_SET_T2]: %RED%x %GREEN%%NAME%%RED% x
+// TIER 1
+Alias[UNID_SET_T1]: %LIGHT_GRAY%x %GREEN%%NAME%%LIGHT_GRAY% x
+
+//-----------------------------------------------------------------------------------
+// Economy estimated values — update these when economy shifts
+//-----------------------------------------------------------------------------------
+
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated March 16 2026
+
+//-----------------------------------------------------------------------------------
+// HR Rune estimated values
+//-----------------------------------------------------------------------------------
+
+Alias[OHM_RUNE_VALUE]: 0.75
+Alias[LO_RUNE_VALUE]: 1
+Alias[SUR_RUNE_VALUE]: 1.5
+Alias[BER_RUNE_VALUE]: 3
+Alias[JAH_RUNE_VALUE]: 2
+Alias[CHAM_RUNE_VALUE]: 2.25
+Alias[ZOD_RUNE_VALUE]: 4.5
+
+//-----------------------------------------------------------------------------------
+// PD2 Item estimated values
+//-----------------------------------------------------------------------------------
+
+Alias[TAINTED_WORLDSTONE_SHARD_VALUE]: 0.65
+Alias[LARZUK_PUZZLEBOX_VALUE]: 0.75
+Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.05
+Alias[DEMONIC_CUBE_VALUE]: 1.25
+Alias[CATALYST_SHARD_VALUE]: 0.2
+
+//-----------------------------------------------------------------------------------
+// Boss Mat estimated values
+//-----------------------------------------------------------------------------------
+
+// DClone mats
+Alias[BLACK_SOULSTONE_VALUE]: 0.35
+Alias[PRIME_EVIL_SOUL_VALUE]: 0.45
+Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.04
+
+// Rathma mats
+Alias[HELLFIRE_ASHES_VALUE]: 0.45
+Alias[SPLINTER_OF_THE_VOID_VALUE]: 0.5
+Alias[TRANG_OUL_JAWBONE_VALUE]: 0.05
+
+// Lucion mats
+Alias[FLESH_OF_MALIC_VALUE]: 0.1
+Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.25
+Alias[DEMONIC_INSIGNIA_VALUE]: 0.5
+//-----------------------------------------------------------------------------------
+// Star Ratings
+//-----------------------------------------------------------------------------------
+
+// 4 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+// Griffons Eye - Diadem
+// Herald of Zakarum - Gilded Shield
+// Deaths Fathom - Dimensional Shard
+// Templars Might or Tyraels Might Sacred Armor
+// Arachnid Mesh - Spiderweb Sash
+// SHAKO Harlequin Crest Shako
+// Veil of Steel or Nightwings Veil Spired Helm
+// Andariels Visage - Demonhead
+// Crown of Ages - Corona
+// Stormshield Monarch
+// Spirit Ward Ward
+// Stone Crusher or Schaefers Hammer Legendary Mallet
+// Astreons Iron Ward - Caduceus
+// Brimstone Rain - Shillelagh
+// Mang Songs Lesson - Archon Staff
+// Deaths Web - Unearthed Wand
+// Gore Rider - War Boots
+// Siggard's Staunch - Colossus Girdle
+// Kiras Guardian - Tiara
+// Darkforce - Spawn Bloodlord Skull
+// Ormus Robes - Dusk Shroud
+// Arkaines Valor - Balrog Skin
+// Steel Carapace - Shadow Plate
+// Pus Spitter - Siege Crossbow
+// Ravenlore - Sky Spirit
+// Tomb Reaver - Cryptic Axe
+// Spirit Keeper - Earth Spirit
+// Verdungos Hearty Cord - Mithril Coil
+// Soul Drainer - Vambraces
+// Occultist - Crusader Gauntlets
+// Snowclash - Battle Belt
+// Waterwalk - Sharkskin Boots
+// Elite bolts
+// Lidless Wall - Grim Shield
+
+Alias[4_STAR_UNIQUE]: (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 8mx OR dre OR 7pa OR drd OR umc OR umg OR utg OR ztb OR xvb OR cqv3 OR xsh)
+
+// 4 Star Unique Callouts only when ETH
+//-----------------------------------------------------------------------------------
+// Purgatory - Archon Plate
+// Thunderstroke - Matriarchal Javelin
+// The Gavel Of Pain - Martel de Fer
+// Steel Pillar - War Pike
+// War Fist - Whispering Mirage
+// Warlords Trust - Military Axe
+// The Reapers Toll - Thresher
+// Doombringer - Champion Sword
+// Lacerator - Winged Axe
+// Titans Revenge - Ceremonial Javelin
+// Silks of the Victor - Ancient Armor
+// Guardian Angel - Templar Coat
+// The Grandfather - Colossus Blade
+// Tomb Reaver - Cryptic Axe
+// Ribcracker - Quarterstaff
+// Earth Shifter or The Cranium Basher Thunder Maul
+// Gargoyles Bite - Winged Harpoon
+
+Alias[4_STAR_ETH_UNIQUE]: (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 7ts)
+
+// 3 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+// Thunderstroke - Matriarchal Javelin
+// Halaberds Reign - Conqueror Crown
+// Shaftstop - Mesh Armor
+// The Gladiators Bane Wire Fleece
+// String of Ears - Demonhide Sash
+// Nosferatus Coil - Vampirefang Belt
+// Steelrend - Ogre Gauntlets
+// Giant Skull - Bone Visage
+// The Gavel Of Pain - Martel de Fer
+// Horizons Tornado or Stormlash - Scourge
+// Stormspire - Giant Thresher
+// Arm of King Leoric - Tomb Wand
+// Blackhand Key - Grave Wand
+// Windforce - Hydra Bow
+// War Traveler - Battle Boots
+// The Spirit Shroud - Ghost Armor
+// Lightsabre or Azurewrath//  Phase Blade
+// Draculs Grasp - Vampirebone Gloves
+// Steel Shade - Armet
+// Medusas Gaze - Aegis
+// Steel Pillar - War Pike
+// Boneflame - Succubus Skull
+// War Fist - Whispering Mirage
+// Martyrdom - Overseer Skull
+// Vampire Gaze - Grim Helm
+// Razortail - Sharkskin Belt
+// Widowmaker - Ward Bow
+// The Grandfather - Colossus Blade
+// Vortex Shield - Skywarden
+// Ribcracker - Quarterstaff
+// Cranebeak - War Spike
+// Hawkmaul - Scale Mail
+// Endlesshail - Double Bow
+// Earth Shifter or The Cranium Basher Thunder Maul
+// Thundergods Vigor - War Belt
+// Doombringer - Champion Sword
+// Denmother - Sun Spirit
+// Demon Machine - Chu-Ko-Nu
+// Elite arrows
+// exceptional arrows
+
+Alias[3_STAR_UNIQUE]: (amf OR bae OR xhn OR utu OR zlb OR uvc OR uhg OR uh9 OR 9gm OR 7fl OR 7wc OR 9bw OR 9gw OR 6lw OR xtb OR xui OR 7cr OR uvg OR ulm OR uow OR 7p7 OR nee OR 7xf OR ned OR xh9 OR zvb OR 6sw OR 7gd OR paf OR 8ls OR 7mp OR scl OR 8cb OR 7gm OR zhb OR 7b7 OR drc OR 8rx OR aqv3 OR aqv2)
+
+// 2 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+// Cerebus Bite - Blood Spirit
+// The Oculus - Swirling Crystal
+// Skin of the Vipermagi - Serpentskin Armor
+// Silkweave - Mesh Boots
+// Magefist - Light Gauntlets
+// Gravepalm - Sharkskin Gloves
+// Ghostflame - Legend Spike
+// Suicide Branch - Burnt Wand
+// Boneshade Lich - Wand
+// Toothrow - Sharktooth Armor
+// Merman's Spocket - Wyrmhide Boots
+// Marrowwalk - Boneweave Boots
+// Warlords Trust - Military Axe
+// Hellslayer - Decapitator
+// Dragonscale - Zakarum Shield
+// Lava Gout - Battle Gauntlets
+// Death Cleaver - Berserker Axe
+// Skull Collector - Rune Staff
+// Eschutas Temper - Eldritch Orb
+// Shadow Dancer - Myrmidon Greaves
+// Demonhorns Edge - Destroyer Helm
+// Athenas Wrath - Battle Scythe
+// Cyclopean Roar - Jawbone Visor
+// Jalals Mane - Totemic Mask
+// Frostwind - Cryptic Sword
+// Alma Negra - Sacred Rondache
+// The Reapers Toll - Thresher
+// Sacred Totem - Hellspawn Skull
+
+Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)
+
+// 1 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+
+// Blackoak Shield - Luna
+// Corpsemourn - Ornate Plate
+// Titans Grip - Bramble Mitts
+// Twilights Reflection - Hyperion
+// Guardian Angel - Templar Coat
+// Ebonbane - Grand Matron Bow
+// Peasant Crown - War Hat
+// The Patriarch - Great Sword
+// Silks of the Victor - Ancient Armor
+// Leviathan - Kraken Shell
+// Plague Bearer - Rune Sword
+// Wildspeaker - Lion Helm
+// Fenris - Alpha Helm
+// Atmas Wail - Embossed Plate
+// Skullders Ire - Russet Armor
+// Treads of Cthon - Chain Boots
+
+Alias[1_STAR_UNIQUE]: (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar OR uld OR 9ls OR ba7 OR dr6 OR xth OR xpl OR mbt)
+
+
+// 0 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+// Venom Grip - Demonhide Gloves
+// Ghoulhide - Heavy Bracers
+// Hellmouth - War Gauntlets
+// Raekor's Virtue - Guardian Crown
+// Purgatory - Archon Plate
+// Sandstorm Trek - Scarabshell Boots
+// Bloodravens Charge - Matriarchal Bow
+// Stoneraven - Matriarchal Spear
+// Heart Carver - Rondel
+// Bloodfist - Heavy Gloves
+// Jadetalon - Wrist Sword
+// Firelizards Talons - Feral Claws
+// Wraithskin - Diamond Mail
+// Stalker's Cull - Runic Talons
+
+Alias[0_STAR_UNIQUE]: (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)
+
+
+// 0 Star Unique Callouts
+//-----------------------------------------------------------------------------------
+// Black Hades - Chaos Armor
+// Goldwrap - Heavy Belt
+// Gorefoot - Heavy Boots
+// Infernostride - Demonhide Boots
+// The Hand of Broc - Leather Gloves
+// Biggins Bonnet - Cap
+// Rockstopper - Sallet
+// Radaments Sphere - Ancient Shield
+// Rune Master - Ettin Axe
+// Kuko Shakaku - Cedar Bow
+// Gull Dagger
+// Viperfork - Mancatcher
+// Chromatic Ire - Cedar Staff
+// Djinn Slayer - Ataghan
+// Gimmershred - Flying Axe
+// Lacerator - Winged Axe
+// Bartucs Cut-Throat - Greater Talons
+// Ondals Wisdom - Elder Staff
+// The Jade Tan Do - Kris
+// Venom Ward - Breast Plate
+// Valkyrie Wing - Winged Helm
+// Windhammer - Ogre Maul
+// Titans Revenge - Ceremonial Javelin
+// Arreats Face - Slayer Guard
+// Homunculus - Hierophant Trophy
+// Chance Guards - Chain Gloves
+// Crown of Thieves - Grand Crown
+// Witchwild String - Short Siege Bow
+// Eaglehorn - Crusader Bow
+// Wizardspike - Bone Knife
+// Ariocs Needle - Hyperion Spear
+// Blade of Ali Baba - Tulwar
+// Odium - Colossus Sword
+// Cloudcrack - Gothic Sword
+// Swordguard - Executioner Sword
+// Zerae's Resolve - Matriarchal Pike
+// Spike Thorn - Blade Barrier
+// Que-Hegans Wisdom - Mage Plate
+// Flamebellow - Balrog Blade
+// Gerkes Sanctuary - Pavise
+// Head Hunters Glory - Troll Nest
+// Grims Burning Dead Grim - Scythe
+// Wolfhowl - Fury Visor
+// Wizendraw - Long Battle Bow
+// Magewrath - Rune Bow
+// Heavenly Garb - Light Plate
+// Shatterblade - Mithril Point
+// Baezils - Vortex Knout
+// Executioners Justice - Glorious Axe
+// Frostburn - Gauntlets
+// Blackbogs Sharp - Cinquedeas
+// Ursa's Nightmare - Dream Spirit
+// Buriza-Do Kyanon - Ballista
+// Duskdeep - Full Helm
+// The Impaler - War Spear
+// exceptional bolts
+// Crow Caw - Tigulated Mail
+
+Alias[NO_STAR_UNIQUE]: (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR cqv2 OR xcl)
+
+//  lld
+//-----------------------------------------------------------------------------------
+// Twitchthroe - Studded Leather
+// Rattlecage - Gothic Plate
+// Silks of the Victor - Ancient Armor
+// The Spirit Shroud - Ghost Armor
+// Bloodfist - Heavy Gloves
+// Peasant Crown - War Hat
+// Steelclash - Kite Shield
+// Rakescar - War Axe
+// Rogues Bow - Composite Bow
+// Bonesnap - Maul
+// Steeldriver - Great Maul
+// The Iron Jang Bong - War Staff
+// Ripsaw - Flamberge
+// The Patriarch - Great Sword
+// Goblin Toe - Light Plated Boots
+// String of Ears - Demonhide Sash
+// Quetzalcoatl - Hawk Helm
+// Magefist - Light Gauntlets
+// Rockfleece - Field Plate
+// True Silver - Maiden Javelin
+// Tearhaunch - Greaves
+
+Alias[LLD_UNIQUE]: (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5 OR hbt)
+
+// Set 3 star Callouts
+//-----------------------------------------------------------------------------------
+// Trang-Ouls Wing - Cantor Trophy
+// Trang-Ouls Girth - Troll Belt
+// Trang-Ouls Claws - Heavy Bracers
+// Ondals Almighty - Spired Helm
+// Trang-Ouls Scales - Chaos Armor
+// Griswolds Redemption - Caduceus
+// Griswolds Honor - Vortex Shield
+// Deaths Hand - Leather Glove
+// Magnus Skin - Sharkskin Gloves
+
+
+Alias[3_STAR_SET]: (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl OR xvg)
+
+// Set 2 star Callouts
+//-----------------------------------------------------------------------------------
+// Cow Kings Horns - War Hat
+// Cow Kings Hide - Studded Leather
+// Taebaeks Glory - Ward
+// Griswolds Heart - Ornate Plate
+// Griswolds Valor - Corona
+// Aldurs Stony Gaze - Hunters Guise
+// Natalyas Shadow - Loricated Mail
+// Natalyas Totem - Grim Helm
+// Natalyas Mark - Scissors Suwayyah
+// Cow King or Sander - Heavy Boots
+
+Alias[2_STAR_SET]: (xap OR stu OR uts OR xar OR urn OR dr8 OR ucl OR xh9 OR 7qr OR vbt)
+
+// Set 1 star Callouts
+//-----------------------------------------------------------------------------------
+// Laying of Hands - Bramble Mitts
+// Najs Puzzler//  Elder Staff
+// Aldurs Advance - Battle Boots
+// Aldurs Deception - Shadow Plate
+// Immortal Kings Will - Avenger Guard
+// Immortal Kings Stone Crusher - Ogre Maul
+// Immortal Kings Detail - War Belt
+// Immortal Kings Forge - War Gauntlets
+// Immortal Kings Pillar - War Boots
+// Natalyas Soul - Mesh Boots
+// Tal Rashas Lidless Eye - Swirling Crystal
+// Tal Rashas Horadric Crest - Death Mask
+// Tal Rashas Fine-Spun Cloth - Mesh Belt
+// Trang-Ouls Guise - Bone Visage
+// Immortal Kings Soul Cage - Sacred Armor
+// Guillaumes Face - Winged Helm
+// Mavinas True Sight - Diadem
+// Mavinas Caster - Grand Matron Bow
+// Mavinas Embrace - Kraken Shell
+// Mavinas Icy Clutch - Battle Gauntlets
+// Mavinas Tenet - Sharkskin Belt
+// Tal Rashas Guardianship - Lacquered Plate
+// Hsaru or Hwanin - Belt
+
+Alias[1_STAR_SET]: (ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR mbl)
+
+// Set 0 star Callouts
+//-----------------------------------------------------------------------------------
+
+// Rite of Passage - Demonhide Boots
+// Haemosus Adament - Cuirass
+// Aldurs Rhythm - Jagged Star
+// Najs Circlet - Circlet
+// Najs Light Plate - Hellforge Plate
+// Dangoons Teaching - Reinforced Mace
+
+Alias[0_STAR_SET]: (xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)
+
+// LLD  lld catch callouts
+//-----------------------------------------------------------------------------------
+// Cow King or Sander - Heavy Boots
+// Sanders Taboo - Heavy Gloves
+// Deaths Hand - Leather Gloves
+// Deaths Guard - Sash
+// Tancreds Hobnails - Boots
+
+Alias[LLD_SET]: (vbt OR vgl OR lgl OR lbl OR lbt)
 
 
 
@@ -1850,8 +2281,8 @@ ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t21 OR t22 OR t23 
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Mystery%CONTINUE%
 // GG
-ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 8mx OR dre) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Mystery%CONTINUE%
-ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 7ts) !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Mystery%CONTINUE%
+ItemDisplay[UNI !ID 4_STAR_UNIQUE !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Mystery%CONTINUE%
+ItemDisplay[UNI !ID ETH 4_STAR_ETH_UNIQUE !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: Mystery%CONTINUE%
 
 
 
@@ -1872,57 +2303,14 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-0D%%UNICHARM%%SOUNDID-4715%
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
+
 // GG Unique Callouts
 //-----------------------------------------------------------------------------------
-// Griffons Eye - Diadem
-// Herald of Zakarum - Gilded Shield
-// Deaths Fathom - Dimensional Shard
-// Templars Might or Tyraels Might Sacred Armor
-// Arachnid Mesh - Spiderweb Sash
-// SHAKO Harlequin Crest Shako
-// Veil of Steel or Nightwings Veil Spired Helm
-// Andariels Visage - Demonhead
-// Crown of Ages - Corona
-// Stormshield Monarch
-// Spirit Ward Ward
-// Stone Crusher or Schaefers Hammer Legendary Mallet
-// Astreons Iron Ward - Caduceus
-// Brimstone Rain - Shillelagh
-// Mang Songs Lesson - Archon Staff
-// Deaths Web - Unearthed Wand
-// Gore Rider - War Boots
-// Siggard's Staunch - Colossus Girdle
-// Kiras Guardian - Tiara
-// Darkforce - Spawn Bloodlord Skull
-// Ormus Robes - Dusk Shroud
-// Arkaines Valor - Balrog Skin
-// Steel Carapace - Shadow Plate
-// Pus Spitter - Siege Crossbow
-// Ravenlore - Sky Spirit
-
-ItemDisplay[UNI !ID (ci3 OR pa9 OR obf OR uar OR ulc OR uap OR uhm OR usk OR urn OR uit OR uts OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR ci2 OR nef OR uui OR upl OR uul OR 8mx OR dre)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
+ItemDisplay[UNI !ID 4_STAR_UNIQUE]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
 
 // GG Unique Callouts only when ETH
 //-----------------------------------------------------------------------------------
-// Purgatory - Archon Plate
-// Thunderstroke - Matriarchal Javelin
-// The Gavel Of Pain - Martel de Fer
-// Steel Pillar - War Pike
-// War Fist - Whispering Mirage
-// Warlords Trust - Military Axe
-// The Reapers Toll - Thresher
-// Doombringer - Champion Sword
-// Lacerator - Winged Axe
-// Titans Revenge - Ceremonial Javelin
-// Silks of the Victor - Ancient Armor
-// Guardian Angel - Templar Coat
-// The Grandfather - Colossus Blade
-// Tomb Reaver - Cryptic Axe
-// Ribcracker - Quarterstaff
-// Earth Shifter or The Cranium Basher Thunder Maul
-// Gargoyles Bite - Winged Harpoon
-
-ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 7ts)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
+ItemDisplay[UNI !ID ETH 4_STAR_ETH_UNIQUE]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
 
 // Tier 3 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -1931,197 +2319,27 @@ ItemDisplay[UNI !ID ETH (utp OR amf OR 9gm OR 7p7 OR 7xf OR 9la OR 7s8 OR 7b7 OR
 // jewel
 
 ItemDisplay[UNI !ID (jew OR amu OR rin)]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
-
-// Thunderstroke - Matriarchal Javelin
-// Halaberds Reign - Conqueror Crown
-// Spirit Keeper - Earth Spirit
-// Shaftstop - Mesh Armor
-// The Gladiators Bane Wire Fleece
-// String of Ears - Demonhide Sash
-// Nosferatus Coil - Vampirefang Belt
-// Verdungos Hearty Cord - Mithril Coil
-// Soul Drainer - Vambraces
-// Occultist - Crusader Gauntlets
-// Steelrend - Ogre Gauntlets
-// Giant Skull - Bone Visage
-// Lidless Wall - Grim Shield
-// The Gavel Of Pain - Martel de Fer
-// Horizons Tornado or Stormlash - Scourge
-// Stormspire - Giant Thresher
-// Tomb Reaver - Cryptic Axe
-// Arm of King Leoric - Tomb Wand
-// Blackhand Key - Grave Wand
-// Windforce - Hydra Bow
-// War Traveler - Battle Boots
-// Snowclash - Battle Belt
-// The Spirit Shroud - Ghost Armor
-// Lightsabre or Azurewrath//  Phase Blade
-// Draculs Grasp - Vampirebone Gloves
-// Steel Shade - Armet
-// Medusas Gaze - Aegis
-// Steel Pillar - War Pike
-// Boneflame - Succubus Skull
-// Waterwalk - Sharkskin Boots
-// War Fist - Whispering Mirage
-// Martyrdom - Overseer Skull
-// Vampire Gaze - Grim Helm
-// Razortail - Sharkskin Belt
-// Widowmaker - Ward Bow
-// The Grandfather - Colossus Blade
-// Vortex Shield - Skywarden
-// Ribcracker - Quarterstaff
-// Cranebeak - War Spike
-// Hawkmaul - Scale Mail
-// Endlesshail - Double Bow
-// Earth Shifter or The Cranium Basher Thunder Maul
-// Thundergods Vigor - War Belt
-// Doombringer - Champion Sword
-// Denmother - Sun Spirit
-// Demon Machine - Chu-Ko-Nu
-// Elite bolts
-// Elite arrows
-// exceptional arrows
-
-
-ItemDisplay[UNI !ID (amf OR bae OR drd OR xhn OR utu OR zlb OR uvc OR umc OR umg OR utg OR uhg OR uh9 OR xsh OR 9gm OR 7fl OR 7wc OR 7pa OR 9bw OR 9gw OR 6lw OR xtb OR ztb OR xui OR 7cr OR uvg OR ulm OR uow OR 7p7 OR nee OR xvb OR 7xf OR ned OR xh9 OR zvb OR 6sw OR 7gd OR paf OR 8ls OR 7mp OR scl OR 8cb OR 7gm OR zhb OR 7b7 OR drc OR 8rx OR cqv3 OR aqv3 OR aqv2)]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
+ItemDisplay[UNI !ID 3_STAR_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
-// Cerebus Bite - Blood Spirit
-// The Oculus - Swirling Crystal
-// Skin of the Vipermagi - Serpentskin Armor
-// Silkweave - Mesh Boots
-// Magefist - Light Gauntlets
-// Gravepalm - Sharkskin Gloves
-// Ghostflame - Legend Spike
-// Suicide Branch - Burnt Wand
-// Boneshade Lich - Wand
-// Toothrow - Sharktooth Armor
-// Merman's Spocket - Wyrmhide Boots
-// Marrowwalk - Boneweave Boots
-// Warlords Trust - Military Axe
-// Hellslayer - Decapitator
-// Dragonscale - Zakarum Shield
-// Lava Gout - Battle Gauntlets
-// Death Cleaver - Berserker Axe
-// Skull Collector - Rune Staff
-// Eschutas Temper - Eldritch Orb
-// Shadow Dancer - Myrmidon Greaves
-// Demonhorns Edge - Destroyer Helm
-// Athenas Wrath - Battle Scythe
-// Cyclopean Roar - Jawbone Visor
-// Jalals Mane - Totemic Mask
-// Frostwind - Cryptic Sword
-// Alma Negra - Sacred Rondache
-// The Reapers Toll - Thresher
-// Sacred Totem - Hellspawn Skull
-
-ItemDisplay[UNI !ID (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg)]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
+ItemDisplay[UNI !ID 2_STAR_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
-// Blackoak Shield - Luna
-// Corpsemourn - Ornate Plate
-// Titans Grip - Bramble Mitts
-// Twilights Reflection - Hyperion
-// Guardian Angel - Templar Coat
-// Ebonbane - Grand Matron Bow
-// Peasant Crown - War Hat
-// The Patriarch - Great Sword
-// Silks of the Victor - Ancient Armor
-// Leviathan - Kraken Shell
-// Plague Bearer - Rune Sword
-// Wildspeaker - Lion Helm
-// Fenris - Alpha Helm
-// Atmas Wail - Embossed Plate
-// Skullders Ire - Russet Armor
-// Treads of Cthon - Chain Boots
-
-ItemDisplay[UNI !ID (uml OR xar OR ulg OR urg OR xlt OR amc OR xap OR gsd OR aar OR uld OR 9ls OR ba7 OR dr6 OR xth OR xpl OR mbt)]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
-
-// Tier 0.5 Unique Callouts
-//-----------------------------------------------------------------------------------
-// Venom Grip - Demonhide Gloves
-// Ghoulhide - Heavy Bracers
-// Hellmouth - War Gauntlets
-// Raekor's Virtue - Guardian Crown
-// Purgatory - Archon Plate
-// Sandstorm Trek - Scarabshell Boots
-// Bloodravens Charge - Matriarchal Bow
-// Stoneraven - Matriarchal Spear
-// Heart Carver - Rondel
-// Bloodfist - Heavy Gloves
-// Jadetalon - Wrist Sword
-// Firelizards Talons - Feral Claws
-// Wraithskin - Diamond Mail
-// Stalker's Cull - Runic Talons
-
-ItemDisplay[FILTLVL~1-4 UNI !ID (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw)]: %PX-C6%%DOT-0D%%UNID_T0%
+ItemDisplay[UNI !ID 1_STAR_UNIQUE]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
-// Black Hades - Chaos Armor
-// Goldwrap - Heavy Belt
-// Gorefoot - Heavy Boots
-// Infernostride - Demonhide Boots
-// The Hand of Broc - Leather Gloves
-// Biggins Bonnet - Cap
-// Rockstopper - Sallet
-// Radaments Sphere - Ancient Shield
-// Rune Master - Ettin Axe
-// Kuko Shakaku - Cedar Bow
-// Gull Dagger
-// Viperfork - Mancatcher
-// Chromatic Ire - Cedar Staff
-// Djinn Slayer - Ataghan
-// Gimmershred - Flying Axe
-// Lacerator - Winged Axe
-// Bartucs Cut-Throat - Greater Talons
-// Ondals Wisdom - Elder Staff
-// The Jade Tan Do - Kris
-// Venom Ward - Breast Plate
-// Valkyrie Wing - Winged Helm
-// Windhammer - Ogre Maul
-// Titans Revenge - Ceremonial Javelin
-// Arreats Face - Slayer Guard
-// Homunculus - Hierophant Trophy
-// Chance Guards - Chain Gloves
-// Crown of Thieves - Grand Crown
-// Witchwild String - Short Siege Bow
-// Eaglehorn - Crusader Bow
-// Wizardspike - Bone Knife
-// Ariocs Needle - Hyperion Spear
-// Blade of Ali Baba - Tulwar
-// Odium - Colossus Sword
-// Cloudcrack - Gothic Sword
-// Swordguard - Executioner Sword
-// Zerae's Resolve - Matriarchal Pike
-// Spike Thorn - Blade Barrier
-// Que-Hegans Wisdom - Mage Plate
-// Flamebellow - Balrog Blade
-// Gerkes Sanctuary - Pavise
-// Head Hunters Glory - Troll Nest
-// Grims Burning Dead Grim - Scythe
-// Wolfhowl - Fury Visor
-// Wizendraw - Long Battle Bow
-// Magewrath - Rune Bow
-// Heavenly Garb - Light Plate
-// Shatterblade - Mithril Point
-// Baezils - Vortex Knout
-// Executioners Justice - Glorious Axe
-// Frostburn - Gauntlets
-// Blackbogs Sharp - Cinquedeas
-// Ursa's Nightmare - Dream Spirit
-// Buriza-Do Kyanon - Ballista
-// Duskdeep - Full Helm
-// The Impaler - War Spear
-// exceptional bolts
-// Crow Caw - Tigulated Mail
+ItemDisplay[FILTLVL~1-4 UNI !ID 0_STAR_UNIQUE]: %PX-C6%%DOT-0D%%UNID_T0%
 
-ItemDisplay[FILTLVL~1-4 UNI !ID (xul OR tbl OR vbt OR xlb OR lgl OR cap OR xkp OR xts OR 72a OR 8lb OR dgr OR 7br OR 8cs OR 7sm OR 7ta OR 7b8 OR 9tw OR 6cs OR kri OR brs OR xhm OR 7m7 OR ama OR baa OR nea OR mgl OR xrn OR 8s8 OR 6l7 OR 7dg OR 7sr OR 9fc OR 7fb OR 9b9 OR 9gd OR ame OR upk OR xtp OR 7gs OR xow OR ush OR 9wc OR bac OR lbb OR 8sw OR ltp OR 7di OR 9fl OR 7gi OR hgl OR 9kr OR drf OR 8hx OR fhl OR 9sr OR cqv2 OR xcl)]: %PX-C6%%DOT-0D%%UNID_T0%
+// Tier 00 Unique Callouts
+//-----------------------------------------------------------------------------------
+
+ItemDisplay[FILTLVL~1-4 UNI !ID NO_STAR_UNIQUE]: %PX-C6%%DOT-0D%%UNID_T0%
 
 // LLD
-ItemDisplay[FILTLVL~1-4 UNI !ID (stu OR gth OR aar OR xui OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5)]: %DOT-0D%%NAME% %TEAL%lld
+ItemDisplay[FILTLVL~1-4 UNI !ID LLD_UNIQUE]: %DOT-0D%%NAME% %TEAL%lld
 // LVLING
 ItemDisplay[UNI !ID CLVL<79]: %DOT-0D%%NAME%
 // HIDE THE REST
@@ -2132,15 +2350,17 @@ ItemDisplay[FILTLVL~5-12 UNI !ID]:
 ItemDisplay[SET !ID lbt]: %DOT-84%%MAP-21%%BORDER-0A%%UNID_SET_GG%%SOUNDID-4714%
 ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %PX-84%%DOT-21%%MAP-0A%%UNID_SET_GG%%SOUNDID-4714%
 // TIER 3
-ItemDisplay[SET !ID (ne9 OR utc OR xmg OR uhm OR xul OR 7ws OR paf OR lgl)]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%%SOUNDID-4716%
+ItemDisplay[SET !ID 3_STAR_SET]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%
 // TIER 2
-ItemDisplay[SET !ID (xap OR stu OR uts OR xar OR urn OR dr8)]: %PX-0A%%DOT-84%%UNID_SET_T2%
+ItemDisplay[SET !ID 2_STAR_SET]: %PX-0A%%DOT-84%%UNID_SET_T2%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-0A%%DOT-84%%UNID_SET_T2%
 // TIER 1
-ItemDisplay[FILTLVL~1-4 SET !ID (ltp OR ucl OR xh9 OR 7qr OR mbl OR ulg OR 6cs OR xtb OR uul OR ba5 OR 7m7 OR zhb OR xhg OR xhb OR xmb OR oba OR xsk OR zmb OR uh9 OR uar OR xhm OR ci3 OR amc OR uld OR xtg OR zvb OR uth OR xlb OR xrs OR 9mt OR ci0 OR ult OR 7ma)]: %PX-C6%%DOT-84%%UNID_SET_T1%
+ItemDisplay[FILTLVL~1-4 SET !ID 1_STAR_SET]: %PX-C6%%DOT-84%%UNID_SET_T1%
+// TIER 0
+ItemDisplay[FILTLVL~1-4 SET !ID 0_STAR_SET]: %PX-C6%%DOT-84%%UNID_SET_T1%
 // LLD
-ItemDisplay[FILTLVL~1-4 SET !ID (vbt OR bwn OR vgl OR lgl OR lbl)]: %DOT-84%%NAME% %TEAL%lld
+ItemDisplay[FILTLVL~1-4 SET !ID LLD_SET]: %DOT-84%%NAME% %TEAL%lld
 // LVLING
 ItemDisplay[SET !ID CLVL<79]: %DOT-84%%NAME%
 // HIDE THE REST
@@ -2262,7 +2482,7 @@ Alias[GOOD_WEAPON_ITEMS_1]: (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9m
 // Good Specific Magic Weapons
 Alias[GOOD_WEAPON_ITEMS_2]: (am1 OR am6 OR amb OR am2 OR am7 OR amc)
 
-// Okay Specific uneth Magic Weapons 
+// Okay Specific uneth Magic Weapons
 Alias[OKAY_WEAPON_ITEMS]: (dir OR 9di OR 7di OR tax OR 9ta OR 7ta OR 7ax OR 72a OR 7wa OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR 7wh OR 7m7 OR 7gm OR 7cr OR 7bs OR 7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd)
 
 // Magic/Rare Weapons
@@ -2295,38 +2515,6 @@ ItemDisplay[RARE (amu OR rin OR ARMOR OR WEAPON OR QUIVER) !ID (MAPID=181 OR MAP
 
 
 
-
-
-
-
-//------------------------------UNID_ITEM_ALIAS_HYPER------------------------------
-
-
-
-
-// UNIQUES
-// CHARMS
-Alias[UNICHARM]: %PURPLE%•%ORANGE%•  %GOLD%%NAME%%ORANGE%  •%PURPLE%•
-// GG
-Alias[UNID_GG]: %PURPLE%xX%RED%xX%ORANGE%xX%YELLOW%xX   %WHITE%• %PURPLE%%NAME%%WHITE% •   %YELLOW%Xx%ORANGE%Xx%RED%Xx%PURPLE%Xx
-// TIER 3
-Alias[UNID_T3]: %PURPLE%xX%RED%xX%ORANGE%xX  %GOLD%%NAME%%ORANGE%  Xx%RED%Xx%PURPLE%Xx
-// TIER 2
-Alias[UNID_T2]: %RED%xX%ORANGE%xX  %GOLD%%NAME%%ORANGE%  Xx%RED%Xx
-// TIER 1
-Alias[UNID_T1]: %RED%xX %GOLD%%NAME%%RED% Xx
-// TIER 0
-Alias[UNID_T0]: %LIGHT_GRAY%x %GOLD%%NAME%%LIGHT_GRAY% x
-
-// SETS
-// GG
-Alias[UNID_SET_GG]: %PURPLE%x%RED%x%DARK_GREEN%x   %GREEN%%NAME%%DARK_GREEN%   x%RED%x%PURPLE%x
-// TIER 3
-Alias[UNID_SET_T3]: %RED%x%DARK_GREEN%x  %GREEN%%NAME%%DARK_GREEN%  x%RED%x
-// TIER 2
-Alias[UNID_SET_T2]: %RED%x %GREEN%%NAME%%RED% x
-// TIER 1
-Alias[UNID_SET_T1]: %LIGHT_GRAY%x %GREEN%%NAME%%LIGHT_GRAY% x
 
 //------------------------------DESCRIPTION_INFORMATION------------------------------
 
