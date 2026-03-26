@@ -2,7 +2,6 @@ import datetime
 import json
 import os
 import re
-import subprocess
 import urllib.parse
 import urllib.request
 
@@ -127,8 +126,7 @@ HIIM_DIR = os.path.join(SCRIPT_DIR, "02-alias", "hiim")
 
 
 def sync_hiim_aliases():
-    """Download latest HiimFilter alias files and commit if any changed in CI."""
-    updated = []
+    """Download latest HiimFilter alias files."""
     for url in HIIM_SOURCES:
         filename = urllib.parse.unquote(url.rsplit("/", 1)[-1])
         dest = os.path.join(HIIM_DIR, filename)
@@ -141,17 +139,9 @@ def sync_hiim_aliases():
         if new_text != old_text:
             with open(dest, "w", encoding="utf-8", newline="\n") as f:
                 f.write(new_text)
-            updated.append(filename)
             print(f"  updated {filename}")
         else:
             print(f"  unchanged {filename}")
-    if updated and os.environ.get("CI"):
-        subprocess.run(["git", "add"] + [os.path.join(HIIM_DIR, f) for f in updated], check=True)
-        subprocess.run(
-            ["git", "commit", "-m", "Update HiimFilter alias sources"],
-            check=True,
-        )
-        print("  committed hiim alias updates")
 
 
 def main():
