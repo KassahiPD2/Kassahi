@@ -3,6 +3,7 @@ import json
 import os
 import re
 import subprocess
+import urllib.parse
 import urllib.request
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
@@ -129,7 +130,7 @@ def sync_hiim_aliases():
     """Download latest HiimFilter alias files and commit if any changed in CI."""
     updated = []
     for url in HIIM_SOURCES:
-        filename = os.path.basename(urllib.request.url2pathname(url))
+        filename = urllib.parse.unquote(url.rsplit("/", 1)[-1])
         dest = os.path.join(HIIM_DIR, filename)
         data = urllib.request.urlopen(url).read()
         new_text = data.decode("utf-8")
