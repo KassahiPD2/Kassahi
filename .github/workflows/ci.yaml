@@ -26,6 +26,9 @@ jobs:
           curl -fsSL -o builderfilter/02-alias/hiim/05-unid-unique-set-stars[ALL].filter \
             "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/main/builderfilter/02-alias/05-unid-unique-set-stars%5BALL%5D.filter"
 
+      - name: Validate filters
+        run: python builderfilter/validate_filters.py
+
       - name: Bump version
         run: |
           version=$(cat version.txt)
