@@ -1,42 +1,56 @@
-name: Continuous Integration
+name: Sync HiimFilter
+
 on:
-  push:
-    branches-ignore:
-      - main
-  pull_request:
-    branches:
-      - main
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch: # allow manual trigger
+
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
+          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
-      - name: Sync HiimFilter alias files
+      - name: Download latest HiimFilter files
         run: |
           curl -fsSL -o builderfilter/02-alias/hiim/04-alias-economy-values[ALL].filter \
             "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/main/builderfilter/02-alias/04-alias-economy-values%5BALL%5D.filter"
           curl -fsSL -o builderfilter/02-alias/hiim/05-unid-unique-set-stars[ALL].filter \
             "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/main/builderfilter/02-alias/05-unid-unique-set-stars%5BALL%5D.filter"
 
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet builderfilter/02-alias/hiim/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat builderfilter/02-alias/hiim/
+          fi
+
       - name: Bump version
+        if: steps.check.outputs.changed == 'true'
         run: |
           version=$(cat version.txt)
           echo $(( version + 1 )) > version.txt
 
       - name: Build filters
+        if: steps.check.outputs.changed == 'true'
         env:
           CI: "true"
         run: python builderfilter/build.py
 
-      - name: Commit updated filters
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -44,9 +58,5 @@ jobs:
             version.txt \
             *.filter \
             builderfilter/02-alias/hiim/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Build filters [ci skip]"
-            git push
-          fi
+          git commit -m "Sync HiimFilter updates and rebuild filters"
+          git push
