@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Mar/26/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 180}
+ItemDisplay[box]: %MAP-51%Horadric Cube %RED%(Apr/04/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 12 Build # 181}
 
 
 //------------------------------ALIAS NORMAL------------------------------
@@ -83,7 +83,7 @@ Alias[UNID_SET_T1]: %LIGHT_GRAY%O %GREEN%%NAME%%LIGHT_GRAY% O
 // Economy estimated values — update these when economy shifts
 //-----------------------------------------------------------------------------------
 
-Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated March 16 2026
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated April 3 2026
 
 //-----------------------------------------------------------------------------------
 // HR Rune estimated values
