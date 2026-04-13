@@ -105,18 +105,22 @@ def build_filter(entry, groups):
     return "".join(parts)
 
 
-def build_filter_definitions(filters):
+def build_filter_definitions(filters, beta=False):
     """Write filter_definitions.json to the output directory."""
     filter_info = {}
     for i, entry in enumerate(filters, start=1):
-        filter_info[str(i)] = {
+        info = {
             "display_name": entry["name"],
             "description": entry.get("description", ""),
             "file_name": entry["file"],
         }
+        if beta:
+            info["file_name_beta"] = entry["file"].replace(".filter", "_beta.filter")
+        filter_info[str(i)] = info
     out_path = os.path.join(OUTPUT_DIR, "filter_definitions.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"filter_info": filter_info}, f, indent=2)
+        f.write("\n")
     print(f"  wrote filter_definitions.json -> {out_path}")
 
 
@@ -207,7 +211,7 @@ def main():
         with open(out_path, "w", encoding="utf-8", newline="\n") as f:
             f.write(content)
         print(f"  wrote {len(content):,} chars -> {out_path}")
-    build_filter_definitions(filters)
+    build_filter_definitions(filters, beta)
     print("All filters built.")
 
 
