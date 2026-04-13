@@ -27,7 +27,7 @@ def update_version():
     content = content.replace("--timestamp--", timestamp)
     content = content.replace("--buildnum--", str(version))
 
-    with open(VERSION_FILTER, "w", encoding="cp1252", newline="\n") as f:
+    with open(VERSION_FILTER, "w", encoding="utf-8", newline="\n") as f:
         f.write(content)
 
     print(f"Version: build {version} ({timestamp})")
@@ -153,7 +153,7 @@ def main():
         print(f"Building {entry['file']} ...")
         content = build_filter(entry, groups)
         out_path = os.path.join(OUTPUT_DIR, entry["file"])
-        with open(out_path, "w", encoding="cp1252", newline="\n") as f:
+        with open(out_path, "w", encoding="utf-8", newline="\n") as f:
             f.write(content)
         print(f"  wrote {len(content):,} chars -> {out_path}")
     build_filter_definitions(filters)
