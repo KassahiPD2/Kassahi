@@ -8,5 +8,6 @@
     { "name": "Mystery-Standard", "description": "Filter where high-value items are renamed to hide their identity.",           "file": "Mystery.filter",       "tags": ["Mystery"] },
     { "name": "Mystery-Hyper",    "description": "Mystery filter with a Hyper visual theme.",                                   "file": "Mystery-Hyper.filter", "tags": ["Mystery","Hyper"] },
     { "name": "Mystery-Luxe",     "description": "Mystery filter with a Luxe visual theme.",                                    "file": "Mystery-Luxe.filter",  "tags": ["Mystery","Luxe"] }
-  ]
+  ],
+  "beta": true
 }
