@@ -46,6 +46,7 @@ jobs:
           git add \
             version.txt \
             *.filter \
+            filter_definitions.json \
             builderfilter/02-alias/hiim/
           if git diff --cached --quiet; then
             echo "No changes to commit"
