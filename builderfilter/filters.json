@@ -9,5 +9,5 @@
     { "name": "Mystery-Hyper",    "description": "Mystery filter with a Hyper visual theme.",                                   "file": "Mystery-Hyper.filter", "tags": ["Mystery","Hyper"] },
     { "name": "Mystery-philanthropy777",     "description": "Mystery filter with a philanthropy777 visual theme.",                                    "file": "Mystery-Luxe.filter",  "tags": ["Mystery","Luxe"] }
   ],
-  "beta": true
+  "beta": false
 }
