@@ -170,6 +170,7 @@ def cleanup_beta_files(filters):
 HIIM_SOURCES = [
     "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/refs/heads/main/builderfilter/02-alias/04-alias-economy-values%5BALL%5D.filter",
     "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/refs/heads/main/builderfilter/02-alias/05-unid-unique-set-stars%5BALL%5D.filter",
+    "https://raw.githubusercontent.com/Maaaaaarrk/HiimFilter-PD2-Filter/refs/heads/main/builderfilter/02-alias/06-score_pts_formula%5BALL%5D.filter",
 ]
 HIIM_DIR = os.path.join(SCRIPT_DIR, "02-alias", "hiim")
 
