@@ -20,6 +20,9 @@ ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-0D%%UNICHARM%%SOUNDID-4715
 // BOSS ITEMS
 ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
 
+// Overlords Helm
+ItemDisplay[UNI !ID uh9 MAPID=137]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
+
 // GG Unique Callouts
 //-----------------------------------------------------------------------------------
 ItemDisplay[UNI !ID 4_STAR_UNIQUE]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
@@ -66,6 +69,13 @@ ItemDisplay[FILTLVL~1-4 UNI !ID NO_STAR_UNIQUE]: %PX-C6%%DOT-0D%%UNID_T0%
 ItemDisplay[FILTLVL~1-4 UNI !ID LLD_UNIQUE]: %DOT-0D%%NAME% %TEAL%lld
 // LVLING
 ItemDisplay[UNI !ID CLVL<79]: %DOT-0D%%NAME%
+// Boss zone catch
+//-----------------------------------------------------------------------------------
+// Dclone
+ItemDisplay[UNI !ID MAPID=137]: %NAME%
+// Rathma
+ItemDisplay[UNI !ID (MAPID=161 OR MAPID=162 OR MAPID=163)]: %NAME%
+//-----------------------------------------------------------------------------------
 // HIDE THE REST
 ItemDisplay[FILTLVL~5-12 UNI !ID]:
 
