@@ -777,6 +777,7 @@ ItemDisplay[UNI !ID brs]: Venom Ward%CONTINUE%
 ItemDisplay[UNI !ID xrs]: Duriel's Shell%CONTINUE%
 ItemDisplay[UNI !ID chn]: Sparking Mail%CONTINUE%
 ItemDisplay[UNI !ID xhn]: Shaftstop%CONTINUE%
+ItemDisplay[UNI !ID uhn]: Cage of the Unsullied%CONTINUE%
 ItemDisplay[UNI !ID spl]: Iceblink%CONTINUE%
 ItemDisplay[UNI !ID xpl]: Skullder's Ire%CONTINUE%
 ItemDisplay[UNI !ID upl]: Arkaine's Valor%CONTINUE%
@@ -894,6 +895,7 @@ ItemDisplay[UNI !ID baa]: Arreat's Face%CONTINUE%
 ItemDisplay[UNI !ID baf]: Raekor's Virtue%CONTINUE%
 // PALADIN SHIELD'S NAME (UNI)
 ItemDisplay[UNI !ID pac]: Alma Negra%CONTINUE%
+ItemDisplay[UNI !ID pab]: Ephemeral%CONTINUE%
 ItemDisplay[UNI !ID pa3]: Sankekur's Fall%CONTINUE%
 ItemDisplay[UNI !ID pa9]: Herald of Zakarum%CONTINUE%
 ItemDisplay[UNI !ID pae]: Dragonscale%CONTINUE%
@@ -1047,6 +1049,7 @@ ItemDisplay[UNI !ID 9b7]: The Meat Scraper%CONTINUE%
 ItemDisplay[UNI !ID 7o7]: Bonehew%CONTINUE%
 ItemDisplay[UNI !ID vou]: Steelgoad%CONTINUE%
 ItemDisplay[UNI !ID 9vo]: Blackleach Blade%CONTINUE%
+ItemDisplay[UNI !ID 7vo]: Giant Maimer%CONTINUE%
 ItemDisplay[UNI !ID scy]: Soul Harvest%CONTINUE%
 ItemDisplay[UNI !ID 9s8]: Athena's Wrath%CONTINUE%
 ItemDisplay[UNI !ID 7s8]: The Reaper's Toll%CONTINUE%
@@ -1109,6 +1112,7 @@ ItemDisplay[UNI !ID wnd]: Torch of Iro%CONTINUE%
 ItemDisplay[UNI !ID 9wn]: Suicide Branch%CONTINUE%
 ItemDisplay[UNI !ID ywn]: Maelstrom%CONTINUE%
 ItemDisplay[UNI !ID 9yw]: Carin Shard%CONTINUE%
+ItemDisplay[UNI !ID 7yw]: Nethercrux%CONTINUE%
 ItemDisplay[UNI !ID bwn]: Gravenspine%CONTINUE%
 ItemDisplay[UNI !ID 9bw]: Arm of King Leoric%CONTINUE%
 ItemDisplay[UNI !ID 7bw]: Boneshade%CONTINUE%
@@ -1140,6 +1144,8 @@ ItemDisplay[UNI !ID ob6]: Tempest%CONTINUE%
 ItemDisplay[UNI !ID ob7]: Skorn%CONTINUE%
 ItemDisplay[UNI !ID obc]: Eschuta's Temper%CONTINUE%
 ItemDisplay[UNI !ID oba]: The Oculus%CONTINUE%
+ItemDisplay[UNI !ID obd]: Embersworn%CONTINUE%
+ItemDisplay[UNI !ID obe]: Skyfall%CONTINUE%
 ItemDisplay[UNI !ID obf]: Death's Fathom%CONTINUE%
 // AMAZON WEAPON'S NAME (UNI)
 ItemDisplay[UNI !ID amb]: Blood Raven's Charge%CONTINUE%
