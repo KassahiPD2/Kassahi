@@ -2576,8 +2576,8 @@ ItemDisplay[UNI !ID ETH 4_STAR_ETH_UNIQUE]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%
 
 // GG Unique Callouts only when not ETH
 //-----------------------------------------------------------------------------------
-ItemDisplay[UNI !ID !ETH 4_STAR_NO_ETH_UNIQUE]: %BLAME_ONION%
-ItemDisplay[UNI !ID 4_STAR_NO_ETH_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
+ItemDisplay[UNI !ID ETH 4_STAR_NO_ETH_UNIQUE]: %BLAME_ONION%
+ItemDisplay[UNI !ID 4_STAR_NO_ETH_UNIQUE]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
 
 // Tier 3 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2588,8 +2588,8 @@ ItemDisplay[UNI !ID 4_STAR_NO_ETH_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUN
 ItemDisplay[UNI !ID (jew OR amu OR rin)]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
 ItemDisplay[UNI !ID 3_STAR_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
 // Only when not eth
-ItemDisplay[UNI !ID !ETH 3_STAR_NO_ETH_UNIQUE]: %BLAME_ONION%
-ItemDisplay[UNI !ID 3_STAR_NO_ETH_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
+ItemDisplay[UNI !ID ETH 3_STAR_NO_ETH_UNIQUE]: %BLAME_ONION%
+ItemDisplay[UNI !ID 3_STAR_NO_ETH_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUNDID-4714%
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
