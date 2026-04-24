@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/22/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 19}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 20}
 ItemDisplay[box]: %NAME%
 
 
@@ -3827,7 +3827,7 @@ ItemDisplay[NMAG SOCK=4 (POLEARM OR SPEAR OR STAFF) !RW]: %NAME%{%GOLD%Pride:%RE
 ItemDisplay[NMAG SOCK=5 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Honor:%ORANGE%Amn, El, Ith, Tir, Sol%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 (POLEARM OR SPEAR OR HAMMER) !RW]: %NAME%{%GOLD%Obedience:%ORANGE%Hel, Ko, Thul, Eth, Fal%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 (SWORD OR AXE) !RW]: %NAME%{%GOLD%Death:%ORANGE%Hel, El, %RED%Vex, %ORANGE%Ort, Gul%CL%%NAME%}%CONTINUE%
-ItemDisplay[NMAG SOCK=5 WEAPON !RW]: %NAME%{%GOLD%Call to Arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm%CL%%NAME%}%CONTINUE%
+ItemDisplay[NMAG SOCK=5 WEAPON !BOW !XBOW !RW]: %NAME%{%GOLD%Call to Arms:%ORANGE%Amn, Ral, Mal, Ist, %RED%Ohm%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 (SWORD OR AXE OR POLEARM) !RW]: %NAME%{%GOLD%Grief:%ORANGE%Eth, Tir, %RED%Lo, %ORANGE%Mal, Ral%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 (AXE OR SCEPTER OR HAMMER OR STAFF) !RW]: %NAME%{%GOLD%Beast:%RED%Ber, %ORANGE%Tir, Um, Mal, Lum%CL%%NAME%}%CONTINUE%
 ItemDisplay[NMAG SOCK=5 WEAPON !BOW !XBOW !WAND !SOR !RW]: %NAME%{%GOLD%Eternity:%ORANGE%Amn, %RED%Ber, %ORANGE%Ist, Sol, %RED%Sur%CL%%NAME%}%CONTINUE%
