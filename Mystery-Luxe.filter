@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 20}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 21}
 ItemDisplay[box]: %NAME%
 
 
@@ -2226,7 +2226,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3)]: %DOT-0A%%SOUNDID-4715%%PD2_MATS%{%NAME%}%CONTI
 // ORGAN & UBER ITEMS
 ItemDisplay[(mbr OR dhn OR bey OR std)]: %DOT-0A%%SOUNDID-4715%%PD2_MATS%{%NAME%}%CONTINUE%
 // EARS
-//Once patch is done un comment ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives)]: %MAP-4A%%PD2_MATS%{%NAME%}
+ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives)]: %MAP-4A%%PD2_MATS%{%NAME%}
 ItemDisplay[ubtm]: %MAP-0A%%SOUNDID-4715%%LIGHT_GRAY%%MAIN_DOT%%RED%%MAIN_DOT%  %NAME%  %RED%%MAIN_DOT%%LIGHT_GRAY%%MAIN_DOT%{%LIGHT_GRAY%(You Get 3 Tps in Town Once u Enter Ubers)%CL%%NL%%RED%fres, %BLUE%cres:%WHITE%150, %YELLOW%lres:%WHITE%125%CL%%DARK_GREEN%Recommended Stats:%NL%}
 ItemDisplay[UNI cm2]: %NAME%%CONTINUE%{%WHITE%Make Hellfire Ashes%NL%%TAN%Cube: %WHITE%Torch, Key, to}
 // UBER ANCIENTS
@@ -2289,41 +2289,45 @@ ItemDisplay[rid]: %GG_RID%{%WHITE%Gives You Infinite %RED%IDs}
 
 
 
-// Map Immunes/Highest Res
-ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:80%NAME%}%CONTINUE% // Ruins of Viz-jun 143
-ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %RED%F:135, %BLUE%C:130, Spire:1000%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Horazon's Memory 142
-ItemDisplay[t13]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GOLD%Ph:110%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:50%NAME%}%CONTINUE% // Bastion Keep 149
-ItemDisplay[t14]: %NAME%{%WHITE%Immunes: %YELLOW%L:125, %GREEN%P:130%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:35, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
-ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:105, %ORANGE%M:150%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:60%NAME%}%CONTINUE% // Royal Crypts 170
-ItemDisplay[t16]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %BLUE%C:115, %ORANGE%M:125%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
-ItemDisplay[t17]: %NAME%{%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %BLUE%C:85, %GREEN%P:85, %ORANGE%M:35, %GOLD%Ph:50%NAME%}%CONTINUE% // Halls of Torture
-ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:140, %YELLOW%L:125%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:75%NAME%}%CONTINUE% // Phlegethon 145
-ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:105%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Torajan Jungle 148
-ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %RED%F:130, %YELLOW%L:100%NL%%WHITE%Highest Res: %BLUE%C:80, %GREEN%P:85, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
-ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:110, %GOLD%Ph:105%NL%%WHITE%Highest Res: %RED%F:85, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
-ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:125%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:85, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
-ItemDisplay[t26]: %NAME%{%WHITE%Immunes: %GREEN%P:135, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:85, %ORANGE%M:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
-ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %BLUE%C:125, %GREEN%P:135%NL%%WHITE%Highest Res: %RED%F:85, %YELLOW%L:85, %ORANGE%M:40, %GOLD%Ph:45%NAME%}%CONTINUE% // Demon Road 191
-ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %RED%F:125, %YELLOW%L:130, %GOLD%Ph:125%NL%%WHITE%Highest Res: %BLUE%C:85, %GREEN%P:85, %ORANGE%M:40%NAME%}%CONTINUE% // Skovos Stronghold 190
-ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %BLUE%C:180, %GREEN%P:130, %ORANGE%M:100%NL%%WHITE%Highest Res: %RED%F:90, %YELLOW%L:85, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
-ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %RED%F:130, %BLUE%C:130%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:85, %ORANGE%M:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Throne of Insanity 150
-ItemDisplay[t33]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:110%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
-ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %YELLOW%L:130, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ancestral Trial 146
+// Map Immunes/Highest Res (Updated: Apr 23rd 2026)
+ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GREEN%P:80, %ORANGE%M:50%NAME%}%CONTINUE% // Ruins of Viz-jun 143
+ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GOLD%Ph:115, Spire:1000%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GREEN%P:75, %ORANGE%M:50%NAME%}%CONTINUE% // Horazon's Memory 142
+ItemDisplay[t13]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %ORANGE%M:105, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GREEN%P:85%NAME%}%CONTINUE% // Bastion Keep 149
+ItemDisplay[t14]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
+ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:120%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:45, %GOLD%Ph:50%NAME%}%CONTINUE% // Royal Crypts 170
+ItemDisplay[t16]: %NAME%{%WHITE%Immunes: %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
+ItemDisplay[t17]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %BLUE%C:120%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:85, %ORANGE%M:35, %GOLD%Ph:50%NAME%}%CONTINUE% // Halls of Torture 193
+ItemDisplay[t21]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120%NL%%WHITE%Highest Res: %YELLOW%L:80, %BLUE%C:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Phlegethon 145
+ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Torajan Jungle 148
+ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
+ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %GREEN%P:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
+ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
+ItemDisplay[t26]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:85, %GOLD%Ph:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %RED%F:120, %YELLOW%L:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:75, %ORANGE%M:40%NAME%}%CONTINUE% // Demon Road 191
+ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:40, %GOLD%Ph:55%NAME%}%CONTINUE% // Skovos Stronghold 190
+ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
+ItemDisplay[t32]: %NAME%{%WHITE%Immunes: %GREEN%P:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %ORANGE%M:75%NAME%}%CONTINUE% // Throne of Insanity 150
+ItemDisplay[t33]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GREEN%P:80, %GOLD%Ph:55%NAME%}%CONTINUE% // Lost Temple 158
+ItemDisplay[t34]: %NAME%{%WHITE%Immunes: %RED%F:120, %YELLOW%L:120%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ancestral Trial 146
 ItemDisplay[t35]: %NAME%{%WHITE%Highest Res: %RED%F:65, %YELLOW%L:65, %BLUE%C:65, %GREEN%P:65, %ORANGE%M:33, %GOLD%Ph:50%NAME%}%CONTINUE% // Blood Moon 154
-ItemDisplay[t36]: %NAME%{%WHITE%Immunes: %YELLOW%L:100, %BLUE%C:130%NL%%WHITE%Highest Res: %RED%F:95, %GREEN%P:80, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Fall of Caldeum 155
-ItemDisplay[t37]: %NAME%{%WHITE%Immunes: %YELLOW%L:135, %GREEN%P:130, %GOLD%Ph:100%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
-ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:130, %GREEN%P:110, %GOLD%Ph:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:70%NAME%}%CONTINUE% // Canyon of Sescheron 160
-ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:125, %BLUE%C:130, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:90, %ORANGE%M:50, %GOLD%Ph:40%NAME%}%CONTINUE% // Kehjistan Marketplace 147
-ItemDisplay[t3a]: %NAME%{%WHITE%Immunes: %BLUE%C:130, %GREEN%P:130, %ORANGE%M:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:80, %GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
-ItemDisplay[t41]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
-ItemDisplay[t42]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
-ItemDisplay[t43]: %NAME%{%WHITE%Immunes: %RED%F:165 %YELLOW%L:165 %BLUE%C:165 %GREEN%P:165 %ORANGE%M:165 %GOLD%Ph:165}%CONTINUE%
-ItemDisplay[t51]: %NAME%{%WHITE%Highest Res: %RED%F:85 %YELLOW%L:85 %BLUE%C:85 %GREEN%P:95 %ORANGE%M:40 %GOLD%Ph:65}%CONTINUE%
-ItemDisplay[t52]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:60 %BLUE%C:65 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE%
-ItemDisplay[t53]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:75 %BLUE%C:65 %GREEN%P:80 %ORANGE%M:80 %GOLD%Ph:60}%CONTINUE%
-ItemDisplay[t54]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:65 %BLUE%C:65 %GREEN%P:65 %ORANGE%M:20 %GOLD%Ph:20}%CONTINUE% // Imperial Palace Level id 192 Updated: May 16 2025
-ItemDisplay[t55]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:75 %BLUE%C:50 %GREEN%P:30 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE% // Outer Void Level id 180 Updated: May 16 2025
-ItemDisplay[t56]: %NAME%{%WHITE%Highest Res: %RED%F:85 %YELLOW%L:85 %BLUE%C:85 %GREEN%P:95 %ORANGE%M:40 %GOLD%Ph:65}%CONTINUE%
+ItemDisplay[t36]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %ORANGE%M:105, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GREEN%P:80%NAME%}%CONTINUE% // Fall of Caldeum 155
+ItemDisplay[t37]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GREEN%P:80, %GOLD%Ph:50%NAME%}%CONTINUE% // Pandemonium Citadel 156
+ItemDisplay[t38]: %NAME%{%WHITE%Immunes: %RED%F:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %GREEN%P:75, %ORANGE%M:55%NAME%}%CONTINUE% // Canyon of Sescheron 160
+ItemDisplay[t39]: %NAME%{%WHITE%Immunes: %RED%F:120, %GOLD%Ph:115, %GREEN%Tower:1000%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:75, %GREEN%P:75, %ORANGE%M:50%NAME%}%CONTINUE% // Kehjistan Marketplace 147
+ItemDisplay[t3a]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:130%NL%%WHITE%Highest Res: %YELLOW%L:75, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:50%NAME%}%CONTINUE% // Ashen Plains 175
+ItemDisplay[t3b]: %NAME%{%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %GREEN%P:75, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Kyovoshad 201
+ItemDisplay[t41]: %NAME%{%WHITE%Immunes: %RED%F:145 %YELLOW%L:145 %BLUE%C:145 %GREEN%P:145 %ORANGE%M:145 %GOLD%Ph:120}%CONTINUE% // Cathedral of Light 152
+ItemDisplay[t42]: %NAME%{%WHITE%Immunes: %RED%F:145 %YELLOW%L:145 %BLUE%C:145 %GREEN%P:145 %ORANGE%M:145 %GOLD%Ph:120}%CONTINUE% // Plains of Torment 164
+ItemDisplay[t43]: %NAME%{%WHITE%Immunes: %RED%F:145 %YELLOW%L:145 %BLUE%C:145 %GREEN%P:145 %ORANGE%M:145 %GOLD%Ph:120}%CONTINUE% // Sanctuary of Sin 171
+ItemDisplay[t44]: %NAME%{%WHITE%Immunes: %RED%F:145 %YELLOW%L:145 %BLUE%C:145 %GREEN%P:145 %ORANGE%M:145 %GOLD%Ph:120}%CONTINUE% // Steppes of Daken-Shar 186
+ItemDisplay[t51]: %NAME%{%WHITE%Highest Res: %RED%F:85 %YELLOW%L:85 %BLUE%C:85 %GREEN%P:95 %ORANGE%M:50 %GOLD%Ph:65}%CONTINUE% // Zhar 177 178 179
+ItemDisplay[t52]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:65 %BLUE%C:65 %GREEN%P:65 %ORANGE%M:50 %GOLD%Ph:55}%CONTINUE% // Hellcaves 181
+ItemDisplay[t53]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:65 %BLUE%C:75 %GREEN%P:80 %ORANGE%M:80 %GOLD%Ph:65}%CONTINUE% // Fallen Gardens 183
+ItemDisplay[t54]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:65 %BLUE%C:65 %GREEN%P:65 %ORANGE%M:20 %GOLD%Ph:20}%CONTINUE% // Imperial Palace 192
+ItemDisplay[t55]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:75 %BLUE%C:50 %GREEN%P:30 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE% // Outer Void 180
+ItemDisplay[t56]: %NAME%{%WHITE%Immunes: %YELLOW%L:100%NL%%WHITE%Highest Res: %RED%F:85 %BLUE%C:80 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:65}%CONTINUE% // City of Ureh 195
+ItemDisplay[t57]: %NAME%{%WHITE%Immunes: %RED%F:110 %YELLOW%L:120 %BLUE%C:145 %GREEN%P:110 %GOLD%Ph:100%NL%%WHITE%Highest Res: %ORANGE%M:50}%CONTINUE% // Djinn's Domain 197 198 199
+ItemDisplay[t58]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:80 %BLUE%C:85 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE% // Na-Krul's Abyss 200
 
 // Map Monster Types
 ItemDisplay[(t13 OR t14 OR t16 OR t26 OR t36 OR t37 OR t3a) OR (STAT437>0 OR STAT438>0 OR STAT439>0 OR STAT441>0 OR STAT470>0 OR STAT499>0)]: %NAME%{%CL%%NAME%}%CONTINUE%
