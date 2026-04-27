@@ -730,7 +730,7 @@ ItemDisplay[UNI !ID aqv3 GROUND]: Razor Arrows%CONTINUE%
 ItemDisplay[UNI !ID aqv3 INVENTORY]: Aetherwing%WHITE%/%GOLD%Basillisk's Quill%WHITE%/%GOLD%Doom's Finger%CONTINUE%
 ItemDisplay[UNI !ID cqv]: Ramfodder%CONTINUE%
 ItemDisplay[UNI !ID cqv2 GROUND]: Heavy Bolts%CONTINUE%
-ItemDisplay[UNI !ID cqv2 INVENTORY]: Anvilguard Strap%WHITE%/%GOLD%Shatterhaed%CONTINUE%
+ItemDisplay[UNI !ID cqv2 INVENTORY]: Anvilguard Strap%WHITE%/%GOLD%Shatterhead%CONTINUE%
 ItemDisplay[UNI !ID cqv3 GROUND]: War Bolts%CONTINUE%
 ItemDisplay[UNI !ID cqv3 INVENTORY]: Abyssal Ward%WHITE%/%GOLD%Bannerlord's Call%WHITE%/%GOLD%Frozen Sorrow%CONTINUE%
 // HELMET'S NAME (UNI)
@@ -8264,7 +8264,7 @@ ItemDisplay[NMAG !ID SHOP ywn]: %GOLD%Carin Shard%CL%Maelstrom%CL%%NAME%%CONTINU
 ItemDisplay[NMAG !ID SHOP bwn]: %GOLD%Boneshade%CL%Arm of King Leoric%CL%Gravenspine%CL%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gwn]: %GOLD%Death's Web%CL%Blackhand Key%CL%Ume's Lament%CL%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP aqv]: %GOLD%Aetherwing%CL%Basillisk's Quill%CL%Doom's Finger%CL%Swiftwind Needle%CL%%Tombsong%CL%Balefire%CL%%NAME%%CONTINUE%
-ItemDisplay[NMAG !ID SHOP cqv]: %GOLD%Abyssal Ward%CL%Bannerlord's Call%CL%Frozen Sorrow%CL%Anvilguard Strap%CL%Shatterhaed%CL%Ramfodder%CL%%NAME%%CONTINUE%
+ItemDisplay[NMAG !ID SHOP cqv]: %GOLD%Abyssal Ward%CL%Bannerlord's Call%CL%Frozen Sorrow%CL%Anvilguard Strap%CL%Shatterhead%CL%Ramfodder%CL%%NAME%%CONTINUE%
 
 // Gheed Event
 ItemDisplay[NMAG !ID SHOP !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%
