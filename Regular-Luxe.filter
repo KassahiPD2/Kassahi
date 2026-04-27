@@ -2288,8 +2288,8 @@ ItemDisplay[t52]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:65 %BLUE%C:65 %
 ItemDisplay[t53]: %NAME%{%WHITE%Highest Res: %RED%F:70 %YELLOW%L:65 %BLUE%C:75 %GREEN%P:80 %ORANGE%M:80 %GOLD%Ph:65}%CONTINUE% // Fallen Gardens 183
 ItemDisplay[t54]: %NAME%{%WHITE%Highest Res: %RED%F:65 %YELLOW%L:65 %BLUE%C:65 %GREEN%P:65 %ORANGE%M:20 %GOLD%Ph:20}%CONTINUE% // Imperial Palace 192
 ItemDisplay[t55]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:75 %BLUE%C:50 %GREEN%P:30 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE% // Outer Void 180
-ItemDisplay[t56]: %NAME%{%WHITE%Immunes: %YELLOW%L:100%NL%%WHITE%Highest Res: %RED%F:85 %BLUE%C:80 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:65}%CONTINUE% // City of Ureh 195
-ItemDisplay[t57]: %NAME%{%WHITE%Immunes: %RED%F:110 %YELLOW%L:120 %BLUE%C:145 %GREEN%P:110 %GOLD%Ph:100%NL%%WHITE%Highest Res: %ORANGE%M:50}%CONTINUE% // Djinn's Domain 197 198 199
+ItemDisplay[t56]: %NAME%{%YELLOW%(*broken w/ Infinity)%NL%%WHITE%Immunes: %YELLOW%L:100*%NL%%WHITE%Highest Res: %RED%F:85 %BLUE%C:80 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:65}%CONTINUE% // City of Ureh 195
+ItemDisplay[t57]: %NAME%{%RED%(*broken w/ Infinity)%NL%%WHITE%Immunes: %RED%F:110* %YELLOW%L:120 %BLUE%C:145 %GREEN%P:110 %GOLD%Ph:100%NL%%WHITE%Highest Res: %ORANGE%M:50}%CONTINUE% // Djinn's Domain 197 198 199
 ItemDisplay[t58]: %NAME%{%WHITE%Highest Res: %RED%F:75 %YELLOW%L:80 %BLUE%C:85 %GREEN%P:75 %ORANGE%M:50 %GOLD%Ph:50}%CONTINUE% // Na-Krul's Abyss 200
 
 // Map Monster Types
