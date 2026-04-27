@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/27/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 22}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/27/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 23}
 ItemDisplay[box]: %NAME%
 
 
@@ -746,7 +746,7 @@ ItemDisplay[UNI !ID xlm]: Stealskull%CONTINUE%
 ItemDisplay[UNI !ID ulm]: Steel Shade%CONTINUE%
 ItemDisplay[UNI !ID fhl]: Duskdeep%CONTINUE%
 ItemDisplay[UNI !ID xhl]: Darksight Helm%CONTINUE%
-ItemDisplay[UNI !ID uhl]: Overlord's Helm%CONTINUE%
+ItemDisplay[UNI !ID uhl]: Sage's Defiance%CONTINUE%
 ItemDisplay[UNI !ID msk]: The Face of Horror%CONTINUE%
 ItemDisplay[UNI !ID xsk]: Blackhorn's Face%CONTINUE%
 ItemDisplay[UNI !ID usk]: Andariel's Visage%CONTINUE%
@@ -2490,6 +2490,8 @@ ItemDisplay[t53]: Fallen Gardens Map{%NAME%}%CONTINUE%
 ItemDisplay[t54]: Imperial Palace Map{%NAME%}%CONTINUE%
 ItemDisplay[t55]: Outer Void Map{%NAME%}%CONTINUE%
 ItemDisplay[t56]: City of Ureh Map{%NAME%}%CONTINUE%
+ItemDisplay[t57]: Djinn's Domain{%NAME%}%CONTINUE%
+ItemDisplay[t58]: Na-Krul's Abyss{%NAME%}%CONTINUE%
 // DUEL ARENAS
 ItemDisplay[t61]: Desert Duel Arena{%NAME%}%CONTINUE%
 ItemDisplay[t62]: Moor Duel Arena{%NAME%}%CONTINUE%
@@ -2573,7 +2575,7 @@ ItemDisplay[UNI !ETH !ID uar ILVL<86]: %NAME%{%NAME%%RED%Don't Be Scammed if Tra
 // CHARMS
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %PX-9B%%DOT-0D%%UNICHARM%%SOUNDID-4715%
 // BOSS ITEMS
-ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR uhl OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
+ItemDisplay[UNI !ID (ram OR rar OR rbe OR 7qr OR uhn OR uth OR utc OR utb OR 7bs OR 7cr2)]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
 
 // Overlords Helm
 ItemDisplay[UNI !ID uh9 MAPID=137]: %DOT-0D%%MAP-21%%BORDER-0A%%UNID_GG%%SOUNDID-4719%
