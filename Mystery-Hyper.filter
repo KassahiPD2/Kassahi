@@ -2230,11 +2230,11 @@ ItemDisplay[rid]: %GG_RID%{%WHITE%Gives You Infinite %RED%IDs}
 
 
 
-// Map Immunes/Highest Res (Updated: Apr 23rd 2026)
+// Map Immunes/Highest Res (Updated: Apr 27th 2026)
 ItemDisplay[t11]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GREEN%P:80, %ORANGE%M:50%NAME%}%CONTINUE% // Ruins of Viz-jun 143
 ItemDisplay[t12]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GOLD%Ph:115, Spire:1000%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GREEN%P:75, %ORANGE%M:50%NAME%}%CONTINUE% // Horazon's Memory 142
 ItemDisplay[t13]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %ORANGE%M:105, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %GREEN%P:85%NAME%}%CONTINUE% // Bastion Keep 149
-ItemDisplay[t14]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
+ItemDisplay[t14]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GREEN%P:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Sanatorium 167
 ItemDisplay[t15]: %NAME%{%WHITE%Immunes: %RED%F:120, %BLUE%C:120%NL%%WHITE%Highest Res: %YELLOW%L:80, %GREEN%P:75, %ORANGE%M:45, %GOLD%Ph:50%NAME%}%CONTINUE% // Royal Crypts 170
 ItemDisplay[t16]: %NAME%{%WHITE%Immunes: %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %GOLD%Ph:60%NAME%}%CONTINUE% // Ruined Cistern 174
 ItemDisplay[t17]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %BLUE%C:120%NL%%WHITE%Highest Res: %RED%F:75, %GREEN%P:85, %ORANGE%M:35, %GOLD%Ph:50%NAME%}%CONTINUE% // Halls of Torture 193
@@ -2243,7 +2243,7 @@ ItemDisplay[t22]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GREEN%P:120%NL%%WHITE%Hig
 ItemDisplay[t23]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Arreat Battlefield 139
 ItemDisplay[t24]: %NAME%{%WHITE%Immunes: %GREEN%P:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %BLUE%C:75, %ORANGE%M:50%NAME%}%CONTINUE% // Tomb of Zoltun Kulle 151
 ItemDisplay[t25]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:80, %ORANGE%M:50, %GOLD%Ph:66%NAME%}%CONTINUE% // Sewers of Harrogath 141
-ItemDisplay[t26]: %NAME%{%WHITE%Immunes: %RED%F:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:85, %GOLD%Ph:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
+ItemDisplay[t26]: %NAME%{%WHITE%Immunes: %RED%F:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %YELLOW%L:75, %BLUE%C:85, %GREEN%P:75, %GOLD%Ph:50%NAME%}%CONTINUE% // Shadows of Westmarch 169
 ItemDisplay[t27]: %NAME%{%WHITE%Immunes: %RED%F:120, %YELLOW%L:120, %GOLD%Ph:115%NL%%WHITE%Highest Res: %BLUE%C:75, %GREEN%P:75, %ORANGE%M:40%NAME%}%CONTINUE% // Demon Road 191
 ItemDisplay[t28]: %NAME%{%WHITE%Immunes: %BLUE%C:120, %GREEN%P:120%NL%%WHITE%Highest Res: %RED%F:75, %YELLOW%L:75, %ORANGE%M:40, %GOLD%Ph:55%NAME%}%CONTINUE% // Skovos Stronghold 190
 ItemDisplay[t31]: %NAME%{%WHITE%Immunes: %YELLOW%L:120, %GREEN%P:120, %ORANGE%M:105%NL%%WHITE%Highest Res: %RED%F:75, %BLUE%C:75, %GOLD%Ph:66%NAME%}%CONTINUE% // River of Blood 144
