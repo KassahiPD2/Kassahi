@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/27/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 26}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/29/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 27}
 ItemDisplay[box]: %NAME%
 
 
@@ -123,7 +123,7 @@ Alias[UNID_SET_T1]: %LIGHT_GRAY%• %GREEN%%NAME%%LIGHT_GRAY% •
 // Economy estimated values — update these when economy shifts
 //-----------------------------------------------------------------------------------
 
-Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated April 3 2026
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated April 29 2026
 
 //-----------------------------------------------------------------------------------
 // HR Rune estimated values
@@ -133,18 +133,18 @@ Alias[OHM_RUNE_VALUE]: 0.75
 Alias[LO_RUNE_VALUE]: 1
 Alias[SUR_RUNE_VALUE]: 1.5
 Alias[BER_RUNE_VALUE]: 3
-Alias[JAH_RUNE_VALUE]: 2
-Alias[CHAM_RUNE_VALUE]: 2.25
-Alias[ZOD_RUNE_VALUE]: 4.5
+Alias[JAH_RUNE_VALUE]: 1.5
+Alias[CHAM_RUNE_VALUE]: 1.5
+Alias[ZOD_RUNE_VALUE]: 3
 
 // WSS equivalent values for runes (HR value * 100)
 Alias[OHM_WSS_VALUE]: 75
 Alias[LO_WSS_VALUE]: 100
 Alias[SUR_WSS_VALUE]: 150
 Alias[BER_WSS_VALUE]: 300
-Alias[JAH_WSS_VALUE]: 200
-Alias[CHAM_WSS_VALUE]: 225
-Alias[ZOD_WSS_VALUE]: 450
+Alias[JAH_WSS_VALUE]: 150
+Alias[CHAM_WSS_VALUE]: 150
+Alias[ZOD_WSS_VALUE]: 300
 
 // Stack HR and WSS formulas for lower runes
 Alias[PUL_STACK_HR]: (QTY*0.01)
@@ -167,18 +167,18 @@ Alias[OHM_STACK_HR]: (QTY*0.75)
 Alias[LO_STACK_HR]: (QTY*1)
 Alias[SUR_STACK_HR]: (QTY*1.5)
 Alias[BER_STACK_HR]: (QTY*3)
-Alias[JAH_STACK_HR]: (QTY*2)
-Alias[CHAM_STACK_HR]: (QTY*2.25)
-Alias[ZOD_STACK_HR]: (QTY*4.5)
+Alias[JAH_STACK_HR]: (QTY*1.5)
+Alias[CHAM_STACK_HR]: (QTY*1.5)
+Alias[ZOD_STACK_HR]: (QTY*3)
 
 // Stack WSS formulas for runes (QTY * WSS value each)
 Alias[OHM_STACK_WSS]: (QTY*75)
 Alias[LO_STACK_WSS]: (QTY*100)
 Alias[SUR_STACK_WSS]: (QTY*150)
 Alias[BER_STACK_WSS]: (QTY*300)
-Alias[JAH_STACK_WSS]: (QTY*200)
-Alias[CHAM_STACK_WSS]: (QTY*225)
-Alias[ZOD_STACK_WSS]: (QTY*450)
+Alias[JAH_STACK_WSS]: (QTY*150)
+Alias[CHAM_STACK_WSS]: (QTY*150)
+Alias[ZOD_STACK_WSS]: (QTY*300)
 
 //-----------------------------------------------------------------------------------
 // PD2 Item estimated values
@@ -384,8 +384,9 @@ Alias[3_STAR_NO_ETH_UNIQUE]: (zhb OR zvb OR ulm OR uh9 OR bae OR nee OR ned OR d
 // Lidless Wall - Grim Shield
 // Grims Burning Dead Grim - Scythe
 // Humongous - Giant Axe
+// Wraithskin - Diamond Mail
 
-Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg OR pab OR uui OR xsh OR 9wc OR gix)
+Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR xmb OR tgl OR xvg OR 7bl OR 9wn OR 7bw OR xld OR ulb OR umb OR 9la OR 7bt OR pae OR xtg OR 7wa OR 8ws OR obc OR uhb OR bad OR 9s8 OR ba6 OR dra OR 7ls OR pac OR 7s8 OR neg OR pab OR uui OR xsh OR 9wc OR gix OR ung)
 
 // 1 Star Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -424,13 +425,12 @@ Alias[1_STAR_UNIQUE]: (uml OR xar OR ulg OR urg OR amc OR xap OR gsd OR aar OR u
 // Bloodfist - Heavy Gloves
 // Jadetalon - Wrist Sword
 // Firelizards Talons - Feral Claws
-// Wraithskin - Diamond Mail
 // Stalker's Cull - Runic Talons
 // Sage's Defiance - Giant Conch
 // Giant Maimer - Colossus Voulge
 // Que-Hegans Wisdom - Mage Plate
 
-Alias[0_STAR_UNIQUE]: (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR ung OR 8cb OR 7tw OR uhl OR 7vo OR xtp)
+Alias[0_STAR_UNIQUE]: (xlg OR xmg OR xhg OR baf OR utp OR uvb OR amb OR amd OR 9di OR vgl OR 7wb OR 7lw OR 8cb OR 7tw OR uhl OR 7vo OR xtp)
 
 
 // 0 Star Unique Callouts
