@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/29/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 27}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/30/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 28}
 ItemDisplay[box]: %NAME%
 
 
@@ -221,19 +221,19 @@ Alias[CATALYST_SHARD_STACK_WSS]: (QTY*20)
 //-----------------------------------------------------------------------------------
 
 // DClone mats
-Alias[BLACK_SOULSTONE_VALUE]: 0.35
-Alias[PRIME_EVIL_SOUL_VALUE]: 0.45
-Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.04
+Alias[BLACK_SOULSTONE_VALUE]: 0.25
+Alias[PRIME_EVIL_SOUL_VALUE]: 0.25
+Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.1
 
 // Rathma mats
-Alias[HELLFIRE_ASHES_VALUE]: 0.45
-Alias[SPLINTER_OF_THE_VOID_VALUE]: 0.5
+Alias[HELLFIRE_ASHES_VALUE]: 0.6
+Alias[SPLINTER_OF_THE_VOID_VALUE]: 0.25
 Alias[TRANG_OUL_JAWBONE_VALUE]: 0.05
 
 // Lucion mats
-Alias[FLESH_OF_MALIC_VALUE]: 0.1
-Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.25
-Alias[DEMONIC_INSIGNIA_VALUE]: 0.5
+Alias[FLESH_OF_MALIC_VALUE]: 0.05
+Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.05
+Alias[DEMONIC_INSIGNIA_VALUE]: 0.15
 //-----------------------------------------------------------------------------------
 // Star Ratings
 //-----------------------------------------------------------------------------------
