@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Apr/30/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 28}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/01/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 29}
 ItemDisplay[box]: %NAME%
 
 
@@ -187,7 +187,7 @@ Alias[ZOD_STACK_WSS]: (QTY*300)
 
 Alias[WSS_ITEM_HR_VALUE]: 0.01
 Alias[TAINTED_WORLDSTONE_SHARD_VALUE]: 0.65
-Alias[LARZUK_PUZZLEBOX_VALUE]: 0.75
+Alias[LARZUK_PUZZLEBOX_VALUE]: 0.5
 Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.05
 Alias[DEMONIC_CUBE_VALUE]: 1.25
 Alias[CATALYST_SHARD_VALUE]: 0.2
@@ -195,7 +195,7 @@ Alias[CATALYST_SHARD_VALUE]: 0.2
 // WSS equivalent values for PD2 items (HR value * 100)
 Alias[WSS_ITEM_WSS_VALUE]: 1
 Alias[TAINTED_WORLDSTONE_SHARD_WSS_VALUE]: 65
-Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 75
+Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 50
 Alias[LARZUK_PUZZLEPIECE_WSS_VALUE]: 5
 Alias[DEMONIC_CUBE_WSS_VALUE]: 125
 Alias[CATALYST_SHARD_WSS_VALUE]: 20
@@ -203,7 +203,7 @@ Alias[CATALYST_SHARD_WSS_VALUE]: 20
 // Stack HR formulas for PD2 items (QTY * HR value each)
 Alias[WSS_ITEM_STACK_HR]: (QTY*0.01)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_HR]: (QTY*0.65)
-Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.75)
+Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.5)
 Alias[LARZUK_PUZZLEPIECE_STACK_HR]: (QTY*0.05)
 Alias[DEMONIC_CUBE_STACK_HR]: (QTY*1.25)
 Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.2)
@@ -211,7 +211,7 @@ Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.2)
 // Stack WSS formulas for PD2 items (QTY * WSS value each)
 Alias[WSS_ITEM_STACK_WSS]: (QTY*1)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_WSS]: (QTY*65)
-Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*75)
+Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*50)
 Alias[LARZUK_PUZZLEPIECE_STACK_WSS]: (QTY*5)
 Alias[DEMONIC_CUBE_STACK_WSS]: (QTY*125)
 Alias[CATALYST_SHARD_STACK_WSS]: (QTY*20)
@@ -261,8 +261,9 @@ Alias[DEMONIC_INSIGNIA_VALUE]: 0.15
 // Occultist - Crusader Gauntlets
 // Waterwalk - Sharkskin Boots
 // Elite bolts
+// Bloodtree Stump - War Club
 
-Alias[4_STAR_UNIQUE]: (obf OR uar OR uhm OR usk OR urn OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR uul OR 8mx OR 7pa OR drd OR umc OR umg OR utg OR xvb OR cqv3)
+Alias[4_STAR_UNIQUE]: (obf OR uar OR uhm OR usk OR urn OR 7wh OR 7ws OR 6bs OR 6ws OR 7gw OR xhb OR uhc OR uul OR 8mx OR 7pa OR drd OR umc OR umg OR utg OR xvb OR cqv3 OR 9m9)
 
 // 4 Star Unique Callouts only when not ETH
 //-----------------------------------------------------------------------------------
