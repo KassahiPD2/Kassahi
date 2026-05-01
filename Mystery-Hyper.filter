@@ -3644,8 +3644,8 @@ ItemDisplay[(rng OR xng OR xcl OR xhn OR brs OR xrs OR xpl OR xlt OR xld OR ltp 
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR utp OR uul OR uar OR gth OR ful OR aar OR xth OR xul OR xar) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-3}%CONTINUE%
 //shields
 ItemDisplay[(aqv OR cqv OR buc OR xuc) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1}%CONTINUE%
-ItemDisplay[(aqv2 OR cqv2 OR aqv3 OR cqv3 OR uuc OR sml OR xml OR uml) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-2}%CONTINUE%
-ItemDisplay[(lrg OR xrg OR urg OR upk OR kit OR xit OR ush OR tow OR xow OR gts OR xts OR spk OR xpk OR bsh OR xsh) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-3}%CONTINUE%
+ItemDisplay[(aqv2 OR cqv2 OR aqv3 OR cqv3 OR uuc OR sml OR xml OR uml OR bsh) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-2}%CONTINUE%
+ItemDisplay[(lrg OR xrg OR urg OR upk OR kit OR xit OR ush OR tow OR xow OR gts OR xts OR spk OR xpk OR xsh) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-3}%CONTINUE%
 ItemDisplay[(uit OR uow OR uts) (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0]: %NAME%{%NAME%, %RED%c:%WHITE%1-3}%CONTINUE%
 //pala shields
 ItemDisplay[DIN NORM (RARE OR CRAFT OR UNI OR SET OR MAG) SOCK=0 STAT360=0 ILVL<26]: %NAME%{%NAME%, %RED%c:%WHITE%1-3}%CONTINUE%
