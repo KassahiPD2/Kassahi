@@ -186,6 +186,15 @@ ItemDisplay[FILTLVL~1-4 MAG !ID AMAZON (ZON OR QUIVER)]: %DOT-97%%NAME%
 ItemDisplay[ILVL>84 RARE !ETH !ID QUIVER]: %FMT_WPN_T2%
 ItemDisplay[FILTLVL~1-8 RARE !ETH !ID QUIVER]: %NAME% %RED%·
 ItemDisplay[FILTLVL~1-4 MAG !ETH !ID QUIVER]: %NAME%
+// Magic/Rare Barbarian Hats (mirrors filter levels of necro heads)
+ItemDisplay[ILVL>84 RARE !ID BAR]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
+ItemDisplay[FILTLVL~1-8 RARE !ID BAR]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_T2%
+// Magic/Rare 4-socket Chest Armors (mirrors filter levels of necro heads)
+ItemDisplay[ILVL>84 RARE !ID CHEST MAXSOCKETS=4]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
+ItemDisplay[FILTLVL~1-8 RARE !ID CHEST MAXSOCKETS=4]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_T2%
+// Magic/Rare 4-socket Shields (non-Paladin; mirrors filter levels of necro heads)
+ItemDisplay[ILVL>84 RARE !ID !DIN SHIELD MAXSOCKETS=4]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
+ItemDisplay[FILTLVL~1-8 RARE !ID !DIN SHIELD MAXSOCKETS=4]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_T2%
 // Magic/Rare Armors
 ItemDisplay[ILVL>84 RARE ETH !ID CHEST]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
 ItemDisplay[ILVL>84 RARE !ID NEC]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
