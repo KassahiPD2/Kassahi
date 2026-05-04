@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/04/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 42}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/04/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 43}
 ItemDisplay[box]: %NAME%
 
 
@@ -2715,13 +2715,13 @@ ItemDisplay[FILTLVL~1-4 RARE ETH !ID !(DRU OR BAR OR DIN OR NEC) HELM]: %FMT_TAG
 ItemDisplay[FILTLVL~1-4 RARE !ETH !ID !(DRU OR BAR OR DIN OR NEC) HELM]: %NAME%
 ItemDisplay[DIFF<3 CLVL<85 (MAPID>0 MAPID<133) MAG !ID !ETH EXC CHEST]: %NAME%
 
-// GG Class Specific Eth Rare Weapons (with all rare claws)
-Alias[GG_CLASS_ITEMS_1]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR SIN OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc)
-// GG Class Specific Eth Magic and uneth Rare Weapons (with War Fist family)
-Alias[GG_CLASS_ITEMS_2]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR axf OR 9xf OR 7xf)
+// GG Class Specific Eth Rare Weapons (with all rare claws and Ogre Maul tier chain)
+Alias[GG_CLASS_ITEMS_1]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR SIN OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR mau OR 9m9 OR 7m7)
+// GG Class Specific Eth Magic and uneth Rare Weapons (with War Fist family and Ogre Maul tier chain)
+Alias[GG_CLASS_ITEMS_2]: (lax OR 9la OR 7la OR gax OR 9ga OR 7ga OR scy OR 9s8 OR 7s8 OR wsc OR 9wc OR 7wc OR ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts OR hxb OR 8hx OR 6hx OR mxb OR 8mx OR 6mx OR am1 OR am6 OR amb OR am2 OR am7 OR amc OR axf OR 9xf OR 7xf OR mau OR 9m9 OR 7m7)
 
 // Good Specific Eth Magic and uneth Rare Weapons
-Alias[GOOD_WEAPON_ITEMS_1]: (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9ma OR 7ma OR wax OR 9wa OR 7wa OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR pik OR 9p9 OR 7p7)
+Alias[GOOD_WEAPON_ITEMS_1]: (pax OR 9pa OR 7pa OR mst OR 9mt OR 7mt OR mac OR 9ma OR 7ma OR wax OR 9wa OR 7wa OR gix OR 9gi OR 7gi OR whm OR 9wh OR 7wh OR gma OR 9gm OR 7gm OR crs OR 9cr OR 7cr OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd OR THROWING OR pik OR 9p9 OR 7p7)
 // Good Specific Magic Weapons
 Alias[GOOD_WEAPON_ITEMS_2]: (am1 OR am6 OR amb OR am2 OR am7 OR amc)
 
