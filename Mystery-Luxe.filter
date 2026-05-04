@@ -1339,6 +1339,8 @@ ItemDisplay[dhn]: %ORANGE%Diablo's Horn{%ORANGE%Pandemonium Talisman%NL%%TAN%Cub
 ItemDisplay[bey]: %ORANGE%Baal's Eye{%ORANGE%Pandemonium Talisman%NL%%TAN%Cube: %WHITE%1 of each %ORANGE%Organs, %GRAY%Key %WHITE%to Make%NL%%TAN%Drops From: %RED%Hell Duriel %GRAY%(%RED%Mini Uber%GRAY%)}%CONTINUE%
 ItemDisplay[std]: %ORANGE%%NAME%{%TAN%Drops From: %RED%Hell Ubers}%CONTINUE%
 ItemDisplay[(mbr OR dhn OR bey OR std) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
+// EARS
+ItemDisplay[(ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives) QTY>1]: %NAME% %TAN%x%WHITE%%QTY%{%NAME%}%CONTINUE%
 // UBER ANCIENTS
 ItemDisplay[ubaa]: %ORANGE%Sigil of Madawc{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %TEAL%T1}%CONTINUE%
 ItemDisplay[ubab]: %ORANGE%Sigil of Talic{%ORANGE%Relic of The Ancients%NL%%TAN%Cube: %ORANGE%SoM, SoT, SoK %WHITE%to Make a%NL%%TAN%Drops From: %TEAL%T2}%CONTINUE%
