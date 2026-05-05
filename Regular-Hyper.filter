@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/05/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 45}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/05/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 46}
 ItemDisplay[box]: %NAME%
 
 
@@ -2643,7 +2643,7 @@ ItemDisplay[ILVL>84 RARE !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7
 ItemDisplay[ILVL>84 RARE !ID !ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-62%%DOT-21%%MAP-6D%%FMT_WPN_GG%
 ItemDisplay[MAG !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-60%%DOT-21%%MAP-97%%FMT_WPN_ETH_T3%
 ItemDisplay[ILVL>84 RARE !ID BARBARIAN BAR]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_GG%
-ItemDisplay[MAG !ID ETH BARBARIAN BAR]: %PX-60%%DOT-21%%MAP-97%%FMT_TAG_ORG_LG%
+ItemDisplay[MAG !ID BARBARIAN BAR]: %PX-60%%DOT-21%%MAP-97%%FMT_TAG_ORG_LG%
 ItemDisplay[FILTLVL~1-8 RARE !ID ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %DOT-62%%MAP-21%%BORDER-6D%%FMT_WPN_ETH_T2%
 ItemDisplay[FILTLVL~1-8 RARE !ID !ETH BARBARIAN (ssp OR 9s9 OR 7s7 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %PX-62%%DOT-21%%MAP-6D%%FMT_WPN_T2%
 ItemDisplay[FILTLVL~1-8 RARE !ID BARBARIAN BAR]: %DOT-20%%MAP-21%%BORDER-6D%%FMT_ARM_T2%
