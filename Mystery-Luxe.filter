@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/07/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 51}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/08/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 52}
 ItemDisplay[box]: %NAME%
 
 
@@ -2546,9 +2546,7 @@ ItemDisplay[MAPTIER=1]: %MAP-80%%TEAL%T1 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=2]: %MAP-80%%TEAL%T2 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=3]: %MAP-80%%TEAL%T3 %NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAPTIER=4]: %MAP-80%%ORANGE%T4 %NAME% %ORANGE%•{%NAME%}
-ItemDisplay[(t51)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T1 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
-ItemDisplay[(t53)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T2 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
-ItemDisplay[(t52 OR t54 OR t55 OR t56)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%T3 %NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
+ItemDisplay[(t51 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58)]: %MAP-80%%SOUNDID-4718%%PURPLE%••%RED%••%ORANGE%•   %RED%%NAME%   %ORANGE%•%RED%••%PURPLE%••{%NAME%}
 // MAPS NAME IMMUNITIES
 ItemDisplay[t11]: %NAME% %LIGHT_GRAY%Im: %BLUE%•%GOLD%•{%NAME%}%CONTINUE% // Ruins of Viz-jun 143
 ItemDisplay[t12]: %NAME% %LIGHT_GRAY%Im: %YELLOW%•%GOLD%•{%NAME%}%CONTINUE% // Horazon's Memory 142
