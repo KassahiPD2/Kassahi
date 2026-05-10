@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/10/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 53}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/10/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 54}
 ItemDisplay[box]: %NAME%
 
 
@@ -130,21 +130,21 @@ Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 10 2026
 //-----------------------------------------------------------------------------------
 
 Alias[OHM_RUNE_VALUE]: 0.85
-Alias[LO_RUNE_VALUE]: 1.05
-Alias[SUR_RUNE_VALUE]: 1.45
-Alias[BER_RUNE_VALUE]: 3.1
-Alias[JAH_RUNE_VALUE]: 2.2
-Alias[CHAM_RUNE_VALUE]: 3
-Alias[ZOD_RUNE_VALUE]: 6
+Alias[LO_RUNE_VALUE]: 1
+Alias[SUR_RUNE_VALUE]: 1.5
+Alias[BER_RUNE_VALUE]: 3
+Alias[JAH_RUNE_VALUE]: 1.75
+Alias[CHAM_RUNE_VALUE]: 2.75
+Alias[ZOD_RUNE_VALUE]: 5.5
 
 // WSS equivalent values for runes (HR value * 100)
 Alias[OHM_WSS_VALUE]: 85
-Alias[LO_WSS_VALUE]: 105
-Alias[SUR_WSS_VALUE]: 145
-Alias[BER_WSS_VALUE]: 310
-Alias[JAH_WSS_VALUE]: 220
-Alias[CHAM_WSS_VALUE]: 300
-Alias[ZOD_WSS_VALUE]: 600
+Alias[LO_WSS_VALUE]: 100
+Alias[SUR_WSS_VALUE]: 150
+Alias[BER_WSS_VALUE]: 300
+Alias[JAH_WSS_VALUE]: 175
+Alias[CHAM_WSS_VALUE]: 275
+Alias[ZOD_WSS_VALUE]: 550
 
 // Stack HR and WSS formulas for lower runes
 Alias[PUL_STACK_HR]: (QTY*0.01)
@@ -164,21 +164,21 @@ Alias[HALFHR_STACK_WSS]: (QTY*50)
 
 // Stack HR formulas for runes (QTY * HR value each)
 Alias[OHM_STACK_HR]: (QTY*0.85)
-Alias[LO_STACK_HR]: (QTY*1.05)
-Alias[SUR_STACK_HR]: (QTY*1.45)
-Alias[BER_STACK_HR]: (QTY*3.1)
-Alias[JAH_STACK_HR]: (QTY*2.2)
-Alias[CHAM_STACK_HR]: (QTY*3)
-Alias[ZOD_STACK_HR]: (QTY*6)
+Alias[LO_STACK_HR]: (QTY*1)
+Alias[SUR_STACK_HR]: (QTY*1.5)
+Alias[BER_STACK_HR]: (QTY*3)
+Alias[JAH_STACK_HR]: (QTY*1.75)
+Alias[CHAM_STACK_HR]: (QTY*2.75)
+Alias[ZOD_STACK_HR]: (QTY*5.5)
 
 // Stack WSS formulas for runes (QTY * WSS value each)
 Alias[OHM_STACK_WSS]: (QTY*85)
-Alias[LO_STACK_WSS]: (QTY*105)
-Alias[SUR_STACK_WSS]: (QTY*145)
-Alias[BER_STACK_WSS]: (QTY*310)
-Alias[JAH_STACK_WSS]: (QTY*220)
-Alias[CHAM_STACK_WSS]: (QTY*300)
-Alias[ZOD_STACK_WSS]: (QTY*600)
+Alias[LO_STACK_WSS]: (QTY*100)
+Alias[SUR_STACK_WSS]: (QTY*150)
+Alias[BER_STACK_WSS]: (QTY*300)
+Alias[JAH_STACK_WSS]: (QTY*175)
+Alias[CHAM_STACK_WSS]: (QTY*275)
+Alias[ZOD_STACK_WSS]: (QTY*550)
 
 //-----------------------------------------------------------------------------------
 // PD2 Item estimated values
@@ -2601,11 +2601,11 @@ ItemDisplay[UNI !ID 3_STAR_NO_ETH_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUN
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
-ItemDisplay[UNI !ID 2_STAR_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-8 UNI !ID 2_STAR_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
-ItemDisplay[UNI !ID 1_STAR_UNIQUE]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-4 UNI !ID 1_STAR_UNIQUE]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -2638,7 +2638,7 @@ ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %PX-84%%DOT-21%%MAP-0A%%UNID_SET_G
 ItemDisplay[SET !ID 3_STAR_SET]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%
 // TIER 2
-ItemDisplay[SET !ID 2_STAR_SET]: %PX-0A%%DOT-84%%UNID_SET_T2%
+ItemDisplay[FILTLVL~1-8 SET !ID 2_STAR_SET]: %PX-0A%%DOT-84%%UNID_SET_T2%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-0A%%DOT-84%%UNID_SET_T2%
 // TIER 1
 ItemDisplay[FILTLVL~1-4 SET !ID 1_STAR_SET]: %PX-C6%%DOT-84%%UNID_SET_T1%

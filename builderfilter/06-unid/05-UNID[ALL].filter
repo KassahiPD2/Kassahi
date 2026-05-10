@@ -50,11 +50,11 @@ ItemDisplay[UNI !ID 3_STAR_NO_ETH_UNIQUE]: %PX-0D%%DOT-21%%MAP-0A%%UNID_T3%%SOUN
 
 // Tier 2 Unique Callouts
 //-----------------------------------------------------------------------------------
-ItemDisplay[UNI !ID 2_STAR_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-8 UNI !ID 2_STAR_UNIQUE]: %PX-0A%%DOT-21%%MAP-0D%%UNID_T2%%SOUNDID-4716%
 
 // Tier 1 Unique Callouts
 //-----------------------------------------------------------------------------------
-ItemDisplay[UNI !ID 1_STAR_UNIQUE]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
+ItemDisplay[FILTLVL~1-4 UNI !ID 1_STAR_UNIQUE]: %PX-0A%%DOT-0D%%UNID_T1%%SOUNDID-4716%
 
 // Tier 0 Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ ItemDisplay[SET !ID ETH (7m7 OR 7gd OR 7fb)]: %PX-84%%DOT-21%%MAP-0A%%UNID_SET_G
 ItemDisplay[SET !ID 3_STAR_SET]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%%SOUNDID-4716%
 ItemDisplay[SET !ID rin]: %PX-0A%%DOT-21%%MAP-84%%UNID_SET_T3%
 // TIER 2
-ItemDisplay[SET !ID 2_STAR_SET]: %PX-0A%%DOT-84%%UNID_SET_T2%
+ItemDisplay[FILTLVL~1-8 SET !ID 2_STAR_SET]: %PX-0A%%DOT-84%%UNID_SET_T2%
 ItemDisplay[FILTLVL~1-4 SET !ID amu]: %PX-0A%%DOT-84%%UNID_SET_T2%
 // TIER 1
 ItemDisplay[FILTLVL~1-4 SET !ID 1_STAR_SET]: %PX-C6%%DOT-84%%UNID_SET_T1%
