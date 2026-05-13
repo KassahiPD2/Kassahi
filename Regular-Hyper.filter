@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/12/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 56}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/13/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 57}
 ItemDisplay[box]: %NAME%
 
 
@@ -123,28 +123,28 @@ Alias[UNID_SET_T1]: %LIGHT_GRAY%x %GREEN%%NAME%%LIGHT_GRAY% x
 // Economy estimated values — update these when economy shifts
 //-----------------------------------------------------------------------------------
 
-Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 11 2026
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 13 2026
 
 //-----------------------------------------------------------------------------------
 // HR Rune estimated values
 //-----------------------------------------------------------------------------------
 
-Alias[OHM_RUNE_VALUE]: 0.85
-Alias[LO_RUNE_VALUE]: 0.95
+Alias[OHM_RUNE_VALUE]: 0.8
+Alias[LO_RUNE_VALUE]: 1
 Alias[SUR_RUNE_VALUE]: 1.5
 Alias[BER_RUNE_VALUE]: 3
-Alias[JAH_RUNE_VALUE]: 1.75
+Alias[JAH_RUNE_VALUE]: 1.7
 Alias[CHAM_RUNE_VALUE]: 3
-Alias[ZOD_RUNE_VALUE]: 6
+Alias[ZOD_RUNE_VALUE]: 5.85
 
 // WSS equivalent values for runes (HR value * 100)
-Alias[OHM_WSS_VALUE]: 85
-Alias[LO_WSS_VALUE]: 95
+Alias[OHM_WSS_VALUE]: 80
+Alias[LO_WSS_VALUE]: 100
 Alias[SUR_WSS_VALUE]: 150
 Alias[BER_WSS_VALUE]: 300
-Alias[JAH_WSS_VALUE]: 175
+Alias[JAH_WSS_VALUE]: 170
 Alias[CHAM_WSS_VALUE]: 300
-Alias[ZOD_WSS_VALUE]: 600
+Alias[ZOD_WSS_VALUE]: 585
 
 // Stack HR and WSS formulas for lower runes
 Alias[PUL_STACK_HR]: (QTY*0.01)
@@ -163,22 +163,22 @@ Alias[VEX_STACK_WSS]: (QTY*25)
 Alias[HALFHR_STACK_WSS]: (QTY*50)
 
 // Stack HR formulas for runes (QTY * HR value each)
-Alias[OHM_STACK_HR]: (QTY*0.85)
-Alias[LO_STACK_HR]: (QTY*0.95)
+Alias[OHM_STACK_HR]: (QTY*0.8)
+Alias[LO_STACK_HR]: (QTY*1)
 Alias[SUR_STACK_HR]: (QTY*1.5)
 Alias[BER_STACK_HR]: (QTY*3)
-Alias[JAH_STACK_HR]: (QTY*1.75)
+Alias[JAH_STACK_HR]: (QTY*1.7)
 Alias[CHAM_STACK_HR]: (QTY*3)
-Alias[ZOD_STACK_HR]: (QTY*6)
+Alias[ZOD_STACK_HR]: (QTY*5.85)
 
 // Stack WSS formulas for runes (QTY * WSS value each)
-Alias[OHM_STACK_WSS]: (QTY*85)
-Alias[LO_STACK_WSS]: (QTY*95)
+Alias[OHM_STACK_WSS]: (QTY*80)
+Alias[LO_STACK_WSS]: (QTY*100)
 Alias[SUR_STACK_WSS]: (QTY*150)
 Alias[BER_STACK_WSS]: (QTY*300)
-Alias[JAH_STACK_WSS]: (QTY*175)
+Alias[JAH_STACK_WSS]: (QTY*170)
 Alias[CHAM_STACK_WSS]: (QTY*300)
-Alias[ZOD_STACK_WSS]: (QTY*600)
+Alias[ZOD_STACK_WSS]: (QTY*585)
 
 //-----------------------------------------------------------------------------------
 // PD2 Item estimated values
@@ -523,6 +523,14 @@ Alias[NO_STAR_UNIQUE]: (vbt OR lgl OR cap OR xts OR 8lb OR dgr OR 7sm OR kri OR 
 
 Alias[LLD_UNIQUE]: (stu OR gth OR aar OR vgl OR xap OR kit OR wax OR cbw OR mau OR gma OR wst OR flb OR gsd OR tbt OR zlb OR dr2 OR tgl OR fld OR am5 OR hbt)
 
+// Set 4 star (GG) Callouts
+//-----------------------------------------------------------------------------------
+// Tancreds Hobnails - Boots
+// Immortal Kings Soul Cage - Sacred Armor
+// Trang-Oul's Scales - Chaos Armor
+
+Alias[4_STAR_SET]: (lbt OR uar OR xul)
+
 // Set 3 star Callouts
 //-----------------------------------------------------------------------------------
 // Trang-Oul's Wing - Cantor Trophy
@@ -530,10 +538,10 @@ Alias[LLD_UNIQUE]: (stu OR gth OR aar OR vgl OR xap OR kit OR wax OR cbw OR mau 
 // Trang-Oul's Claws - Heavy Bracers
 // Griswold's Redemption - Caduceus
 // Griswold's Honor - Vortex Shield
-// Immortal Kings Soul Cage - Sacred Armor
+// Natalya's Shadow - Loricated Mail
 
 
-Alias[3_STAR_SET]: (ne9 OR utc OR xmg OR 7ws OR paf OR uar)
+Alias[3_STAR_SET]: (ne9 OR utc OR xmg OR 7ws OR paf OR ucl)
 
 // Set 2 star Callouts
 //-----------------------------------------------------------------------------------
@@ -543,14 +551,12 @@ Alias[3_STAR_SET]: (ne9 OR utc OR xmg OR 7ws OR paf OR uar)
 // Griswold's Heart - Ornate Plate
 // Griswold's Valor - Corona
 // Aldur's Stony Gaze - Hunters Guise
-// Natalya's Shadow - Loricated Mail
 // Natalya's Totem - Grim Helm
 // Natalya's Mark - Scissors Suwayyah
 // Cow King or Sander - Heavy Boots
 // Ondals Almighty - Spired Helm
-// Trang-Oul's Scales - Chaos Armor
 
-Alias[2_STAR_SET]: (xap OR stu OR uts OR xar OR urn OR dr8 OR ucl OR xh9 OR 7qr OR vbt OR uhm OR xul)
+Alias[2_STAR_SET]: (xap OR stu OR uts OR xar OR urn OR dr8 OR xh9 OR 7qr OR vbt OR uhm)
 
 // Set 1 star Callouts
 //-----------------------------------------------------------------------------------
