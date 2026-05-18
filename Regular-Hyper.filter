@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/17/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 61}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/18/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 62}
 ItemDisplay[box]: %NAME%
 
 
@@ -123,7 +123,7 @@ Alias[UNID_SET_T1]: %LIGHT_GRAY%x %GREEN%%NAME%%LIGHT_GRAY% x
 // Economy estimated values — update these when economy shifts
 //-----------------------------------------------------------------------------------
 
-Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 16 2026
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 18 2026
 
 // Valuable crafting runes — TIR(3), NEF(4), ETH(5), TAL(7), RAL(8), ORT(9), AMN(11), SOL(12), HEL(15), IO(16), LUM(17), KO(18), FAL(19)
 Alias[CRAFTING_RUNES_SET]: (RUNE=3 OR RUNE=4 OR RUNE=5 OR RUNE=7 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12 OR RUNE=15 OR RUNE=16 OR RUNE=17 OR RUNE=18 OR RUNE=19)
@@ -136,8 +136,8 @@ Alias[OHM_RUNE_VALUE]: 0.85
 Alias[LO_RUNE_VALUE]: 1
 Alias[SUR_RUNE_VALUE]: 1.5
 Alias[BER_RUNE_VALUE]: 3
-Alias[JAH_RUNE_VALUE]: 1.75
-Alias[CHAM_RUNE_VALUE]: 3
+Alias[JAH_RUNE_VALUE]: 1.85
+Alias[CHAM_RUNE_VALUE]: 3.1
 Alias[ZOD_RUNE_VALUE]: 6
 
 // WSS equivalent values for runes (HR value * 100)
@@ -145,8 +145,8 @@ Alias[OHM_WSS_VALUE]: 85
 Alias[LO_WSS_VALUE]: 100
 Alias[SUR_WSS_VALUE]: 150
 Alias[BER_WSS_VALUE]: 300
-Alias[JAH_WSS_VALUE]: 175
-Alias[CHAM_WSS_VALUE]: 300
+Alias[JAH_WSS_VALUE]: 185
+Alias[CHAM_WSS_VALUE]: 310
 Alias[ZOD_WSS_VALUE]: 600
 
 // Stack HR and WSS formulas for lower runes
@@ -170,8 +170,8 @@ Alias[OHM_STACK_HR]: (QTY*0.85)
 Alias[LO_STACK_HR]: (QTY*1)
 Alias[SUR_STACK_HR]: (QTY*1.5)
 Alias[BER_STACK_HR]: (QTY*3)
-Alias[JAH_STACK_HR]: (QTY*1.75)
-Alias[CHAM_STACK_HR]: (QTY*3)
+Alias[JAH_STACK_HR]: (QTY*1.85)
+Alias[CHAM_STACK_HR]: (QTY*3.1)
 Alias[ZOD_STACK_HR]: (QTY*6)
 
 // Stack WSS formulas for runes (QTY * WSS value each)
@@ -179,8 +179,8 @@ Alias[OHM_STACK_WSS]: (QTY*85)
 Alias[LO_STACK_WSS]: (QTY*100)
 Alias[SUR_STACK_WSS]: (QTY*150)
 Alias[BER_STACK_WSS]: (QTY*300)
-Alias[JAH_STACK_WSS]: (QTY*175)
-Alias[CHAM_STACK_WSS]: (QTY*300)
+Alias[JAH_STACK_WSS]: (QTY*185)
+Alias[CHAM_STACK_WSS]: (QTY*310)
 Alias[ZOD_STACK_WSS]: (QTY*600)
 
 //-----------------------------------------------------------------------------------
@@ -189,7 +189,7 @@ Alias[ZOD_STACK_WSS]: (QTY*600)
 
 Alias[WSS_ITEM_HR_VALUE]: 0.01
 Alias[TAINTED_WORLDSTONE_SHARD_VALUE]: 1.25
-Alias[LARZUK_PUZZLEBOX_VALUE]: 0.5
+Alias[LARZUK_PUZZLEBOX_VALUE]: 0.75
 Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.07
 Alias[DEMONIC_CUBE_VALUE]: 0.75
 Alias[CATALYST_SHARD_VALUE]: 0.15
@@ -197,7 +197,7 @@ Alias[CATALYST_SHARD_VALUE]: 0.15
 // WSS equivalent values for PD2 items (HR value * 100)
 Alias[WSS_ITEM_WSS_VALUE]: 1
 Alias[TAINTED_WORLDSTONE_SHARD_WSS_VALUE]: 125
-Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 50
+Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 75
 Alias[LARZUK_PUZZLEPIECE_WSS_VALUE]: 7
 Alias[DEMONIC_CUBE_WSS_VALUE]: 75
 Alias[CATALYST_SHARD_WSS_VALUE]: 15
@@ -205,7 +205,7 @@ Alias[CATALYST_SHARD_WSS_VALUE]: 15
 // Stack HR formulas for PD2 items (QTY * HR value each)
 Alias[WSS_ITEM_STACK_HR]: (QTY*0.01)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_HR]: (QTY*1.25)
-Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.5)
+Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.75)
 Alias[LARZUK_PUZZLEPIECE_STACK_HR]: (QTY*0.07)
 Alias[DEMONIC_CUBE_STACK_HR]: (QTY*0.75)
 Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
@@ -213,7 +213,7 @@ Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
 // Stack WSS formulas for PD2 items (QTY * WSS value each)
 Alias[WSS_ITEM_STACK_WSS]: (QTY*1)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_WSS]: (QTY*125)
-Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*50)
+Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*75)
 Alias[LARZUK_PUZZLEPIECE_STACK_WSS]: (QTY*7)
 Alias[DEMONIC_CUBE_STACK_WSS]: (QTY*75)
 Alias[CATALYST_SHARD_STACK_WSS]: (QTY*15)
@@ -235,7 +235,7 @@ Alias[TRANG_OUL_JAWBONE_VALUE]: 0.03
 // Lucion mats
 Alias[FLESH_OF_MALIC_VALUE]: 0.15
 Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.03
-Alias[DEMONIC_INSIGNIA_VALUE]: 0.3
+Alias[DEMONIC_INSIGNIA_VALUE]: 0.35
 //-----------------------------------------------------------------------------------
 // Star Ratings
 //-----------------------------------------------------------------------------------
@@ -257,8 +257,7 @@ Alias[DEMONIC_INSIGNIA_VALUE]: 0.3
 // Spirit Keeper - Earth Spirit
 // Verdungos Hearty Cord - Mithril Coil
 // Soul Drainer - Vambraces
-// Griffons Eye - Diadem (promoted from 3★)
-
+// Griffons Eye - Diadem
 Alias[4_STAR_UNIQUE]: (uar OR uhm OR usk OR urn OR 7wh OR 7ws OR 6ws OR 7gw OR xhb OR uhc OR uul OR 7pa OR drd OR umc OR umg OR uhg OR 7cr OR obe OR 7bl OR pac OR 7gi OR bae OR ung OR xvb OR 7s8 OR amf OR ci3)
 
 // 4 Star Unique Callouts only when not ETH
@@ -277,7 +276,6 @@ Alias[4_STAR_NO_ETH_UNIQUE]: (dre OR ulc OR uts OR ci2 OR upl OR ulm)
 // Thunderstroke - Matriarchal Javelin
 // The Gavel Of Pain - Martel de Fer
 // Steel Pillar - War Pike
-// War Fist - Whispering Mirage
 // Warlords Trust - Military Axe
 // The Reapers Toll - Thresher
 // Doombringer - Champion Sword
@@ -294,7 +292,7 @@ Alias[4_STAR_NO_ETH_UNIQUE]: (dre OR ulc OR uts OR ci2 OR upl OR ulm)
 // Stoneraven - Matriarchal Spear
 // Zerae's Resolve - eth gets 4★, non-eth falls to 3★ (also in 3_STAR_UNIQUE)
 
-Alias[4_STAR_ETH_UNIQUE]: (utp OR 9gm OR 7p7 OR 7xf OR 9la OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 9m9 OR amd OR 7wa OR 7m7 OR ame)
+Alias[4_STAR_ETH_UNIQUE]: (utp OR 9gm OR 7p7 OR 9la OR 7b7 OR 7b8 OR ama OR aar OR xlt OR 7gd OR 7pa OR 8ls OR 7gm OR 9m9 OR amd OR 7wa OR 7m7 OR ame)
 
 // 3 Star Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -325,7 +323,7 @@ Alias[4_STAR_ETH_UNIQUE]: (utp OR 9gm OR 7p7 OR 7xf OR 9la OR 7b7 OR 7b8 OR ama 
 // Herald of Zakarum - Gilded Shield
 // Zerae's Resolve - Cryptic Axe (non-eth; eth -> 4★)
 
-Alias[3_STAR_UNIQUE]: (xhn OR zlb OR uvc OR 7wc OR xtb OR uvg OR 7p7 OR 7xf OR xh9 OR 6sw OR 7gd OR paf OR 7gm OR 7b7 OR xlt OR cqv3 OR 9m9 OR amd OR xtg OR 7wa OR uh9 OR baa OR 7sr OR pa9 OR 7m7 OR ame OR xmb OR xsh)
+Alias[3_STAR_UNIQUE]: (xhn OR zlb OR uvc OR 7wc OR xtb OR uvg OR 7p7 OR 7xf OR xh9 OR 6sw OR 7gd OR paf OR 7gm OR 7b7 OR xlt OR cqv3 OR 9m9 OR amd OR xtg OR uh9 OR baa OR 7sr OR pa9 OR 7m7 OR ame OR xmb OR xsh)
 
 // 3 Star Unique Callouts when not eth
 //-----------------------------------------------------------------------------------
@@ -355,7 +353,7 @@ Alias[3_STAR_NO_ETH_UNIQUE]: (zhb OR ned OR uap OR uit OR ztb OR uui)
 // Hellslayer - Decapitator
 // Dragonscale - Zakarum Shield
 // Lava Gout - Battle Gauntlets
-// Death Cleaver - Berserker Axe
+// Death Cleaver - Berserker Axe (non-ETH; eth -> 4★)
 // Skull Collector - Rune Staff
 // Eschutas Temper - Eldritch Orb
 // Shadow Dancer - Myrmidon Greaves
@@ -406,10 +404,10 @@ Alias[3_STAR_NO_ETH_UNIQUE]: (zhb OR ned OR uap OR uit OR ztb OR uui)
 // The Gladiators Bane - Wire Fleece
 // Fenris - Alpha Helm
 // Raekor's Virtue - Guardian Crown
-// Ursa's Nightmare - Loricated Mail (promoted from 1★)
-// Brimstone Rain - Shillelagh (demoted from 4★)
-
-Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR tgl OR xvg OR 9wn OR 7bw OR xld OR umb OR 7bt OR pae OR 8ws OR obc OR uhb OR bad OR 9s8 OR dra OR 7ls OR neg OR pab OR 9wc OR 8ls OR 8rx OR 8mx OR aqv3 OR aqv2 OR obf OR uow OR 9gm OR 7fl OR 9bw OR 6lw OR utg OR nee OR zvb OR drc OR 9gw OR uml OR xar OR ulg OR urg OR amc OR xap OR gsd OR uld OR 9ls OR xth OR xpl OR obd OR ulb OR xlg OR xmg OR xhg OR uvb OR amb OR 7wb OR 7lw OR uhl OR 7vo OR ama OR 7fb OR 7ts OR nef OR 7tw OR 9fc OR upk OR 72a OR ush OR utu OR xhm OR xlb OR xow OR tbl OR 6cs OR 9tw OR ltp OR mgl OR nea OR 7gs OR dr6 OR baf OR drf OR 6bs)
+// Ursa's Nightmare - Loricated Mail
+// Brimstone Rain - Shillelagh
+// Frostburn - Gauntlets
+Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR tgl OR xvg OR 9wn OR 7bw OR xld OR umb OR 7bt OR pae OR 8ws OR obc OR uhb OR bad OR 9s8 OR dra OR 7ls OR neg OR pab OR 9wc OR 8ls OR 8rx OR 8mx OR aqv3 OR aqv2 OR obf OR uow OR 9gm OR 7fl OR 9bw OR 6lw OR utg OR nee OR zvb OR drc OR 9gw OR uml OR xar OR ulg OR urg OR amc OR xap OR gsd OR uld OR 9ls OR xth OR xpl OR obd OR ulb OR xlg OR xmg OR xhg OR uvb OR amb OR 7wb OR 7lw OR uhl OR 7vo OR ama OR 7fb OR 7ts OR nef OR 7tw OR 9fc OR upk OR 72a OR ush OR utu OR xhm OR xlb OR xow OR tbl OR 6cs OR 9tw OR ltp OR mgl OR nea OR 7gs OR dr6 OR baf OR drf OR 6bs OR hgl OR 7wa)
 
 // 1 Star Unique Callouts
 //-----------------------------------------------------------------------------------
@@ -428,13 +426,12 @@ Alias[2_STAR_UNIQUE]: (drb OR oba OR xea OR tgl OR xvg OR 9wn OR 7bw OR xld OR u
 // Skullders Ire - Russet Armor
 // Treads of Cthon - Chain Boots
 // Embersworn - Demon Heart
-// Warlords Trust - Military Axe (non-ETH)
 // Merman's Sprocket - Wyrmhide Boots
 // Cyclopean Roar - Jawbone Visor
 // Humongous - Giant Axe
 // Blackbogs Sharp - Cinquedeas
 
-Alias[1_STAR_UNIQUE]: (aar OR ba7 OR 9la OR xul OR 7br OR 8cs OR 7b8 OR brs OR xrn OR 8s8 OR 6l7 OR 7dg OR 9gd OR bac OR 7di OR hgl OR 8hx OR cqv2 OR 7yw OR gix OR mbt OR ba6 OR 9kr)
+Alias[1_STAR_UNIQUE]: (aar OR ba7 OR xul OR 7br OR 8cs OR 7b8 OR brs OR xrn OR 8s8 OR 6l7 OR 7dg OR 9gd OR bac OR 7di OR 8hx OR cqv2 OR 7yw OR gix OR mbt OR ba6 OR 9kr)
 
 
 // 0 Star Unique Callouts
@@ -491,7 +488,7 @@ Alias[0_STAR_UNIQUE]: (utp OR 9di OR vgl OR xtp OR xkp OR lbb OR kri OR vbt)
 // Shatterblade - Mithril Point
 // Baezils Vortex - Knout
 // Executioners Justice - Glorious Axe
-// Frostburn - Gauntlets
+// Warlords Trust - Military Axe (non-ETH; eth -> 4★)
 // Ursa's Nightmare - Dream Spirit
 // Buriza-Do Kyanon - Ballista
 // Duskdeep - Full Helm
@@ -502,7 +499,7 @@ Alias[0_STAR_UNIQUE]: (utp OR 9di OR vgl OR xtp OR xkp OR lbb OR kri OR vbt)
 // The Spirit Shroud - Ghost Armor
 // Endlesshail - Double Bow
 
-Alias[NO_STAR_UNIQUE]: (lgl OR cap OR xts OR 8lb OR dgr OR 7sm OR 9b9 OR 8sw OR 9fl OR fhl OR 9sr OR xcl OR xui OR 7ta OR 8cb)
+Alias[NO_STAR_UNIQUE]: (lgl OR cap OR xts OR 8lb OR dgr OR 7sm OR 9b9 OR 8sw OR 9fl OR fhl OR 9sr OR xcl OR xui OR 7ta OR 8cb OR 9la)
 
 //  lld
 //-----------------------------------------------------------------------------------
@@ -542,12 +539,11 @@ Alias[4_STAR_SET]: (lbt OR uar)
 // Griswold's Redemption - Caduceus
 // Natalya's Shadow - Loricated Mail
 // Natalya's Mark - Scissors Suwayyah
-// Griswold's Heart - Ornate Plate
 // Immortal Kings Stone Crusher - Ogre Maul
 // Trang-Oul's Scales - Chaos Armor
+// Trang-Oul's Claws - Heavy Bracers
 
-
-Alias[3_STAR_SET]: (ne9 OR 7ws OR ucl OR 7qr OR xar OR 7m7 OR xul)
+Alias[3_STAR_SET]: (ne9 OR 7ws OR ucl OR 7qr OR 7m7 OR xul OR xmg)
 
 // Set 2 star Callouts
 //-----------------------------------------------------------------------------------
@@ -565,12 +561,12 @@ Alias[3_STAR_SET]: (ne9 OR 7ws OR ucl OR 7qr OR xar OR 7m7 OR xul)
 // Tal Rasha's Horadric Crest - Death Mask
 // Tal Rasha's Lidless Eye - Swirling Crystal
 // Aldur's Deception - Shadow Plate
-// Natalya's Totem (exc) - Grim Helm (demoted from 3★)
-// Griswold's Honor - Vortex Shield (demoted from 3★)
-// Trang-Oul's Claws - Heavy Bracers (demoted from 3★)
-// Trang-Oul's Girth - Troll Belt (demoted from 3★)
-
-Alias[2_STAR_SET]: (xap OR stu OR urn OR vbt OR xhm OR xmb OR xvg OR zhb OR ulg OR xhb OR uth OR xsk OR oba OR uul OR xh9 OR paf OR xmg OR utc)
+// Natalya's Totem (exc) - Grim Helm
+// Griswold's Honor - Vortex Shield
+// Trang-Oul's Girth - Troll Belt
+// Griswold's Heart - Ornate Plate
+// Aldur's Stony Gaze - Hunters Guise
+Alias[2_STAR_SET]: (xap OR stu OR urn OR vbt OR xhm OR xmb OR xvg OR zhb OR ulg OR xhb OR uth OR xsk OR oba OR uul OR xh9 OR paf OR utc OR xar OR dr8)
 
 // Set 1 star Callouts
 //-----------------------------------------------------------------------------------
@@ -587,13 +583,11 @@ Alias[2_STAR_SET]: (xap OR stu OR urn OR vbt OR xhm OR xmb OR xvg OR zhb OR ulg 
 // Mavinas Tenet - Sharkskin Belt
 // Hsaru or Hwanin - Belt
 // Death's Hand - Leather Gloves
-// Sigon's Guard - Tower Shield (demoted from 2★)
-// Ondals Almighty - Spired Helm (demoted from 2★)
-// Taebaeks Glory - Ward (demoted from 2★)
-// Aldur's Rhythm - Jagged Star (demoted from 2★)
-// Aldur's Stony Gaze - Hunters Guise (demoted from 2★)
-
-Alias[1_STAR_SET]: (6cs OR xtb OR ba5 OR xhg OR zmb OR ci3 OR amc OR uld OR xtg OR zvb OR mbl OR lgl OR tow OR uhm OR uts OR 9mt OR dr8)
+// Sigon's Guard - Tower Shield
+// Ondals Almighty - Spired Helm
+// Taebaeks Glory - Ward
+// Aldur's Rhythm - Jagged Star
+Alias[1_STAR_SET]: (6cs OR xtb OR ba5 OR xhg OR zmb OR ci3 OR amc OR uld OR xtg OR zvb OR mbl OR lgl OR tow OR uhm OR uts OR 9mt)
 
 // Set 0 star Callouts
 //-----------------------------------------------------------------------------------
