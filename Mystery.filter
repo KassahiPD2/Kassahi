@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/18/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 62}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/20/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 63}
 ItemDisplay[box]: %NAME%
 
 
@@ -123,7 +123,7 @@ Alias[UNID_SET_T1]: %LIGHT_GRAY%• %GREEN%%NAME%%LIGHT_GRAY% •
 // Economy estimated values — update these when economy shifts
 //-----------------------------------------------------------------------------------
 
-Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 18 2026
+Alias[CURRENCY_TIMESTAMP]: %WHITE%HR Values Last updated May 20 2026
 
 // Valuable crafting runes — TIR(3), NEF(4), ETH(5), TAL(7), RAL(8), ORT(9), AMN(11), SOL(12), HEL(15), IO(16), LUM(17), KO(18), FAL(19)
 Alias[CRAFTING_RUNES_SET]: (RUNE=3 OR RUNE=4 OR RUNE=5 OR RUNE=7 OR RUNE=8 OR RUNE=9 OR RUNE=11 OR RUNE=12 OR RUNE=15 OR RUNE=16 OR RUNE=17 OR RUNE=18 OR RUNE=19)
@@ -136,7 +136,7 @@ Alias[OHM_RUNE_VALUE]: 0.85
 Alias[LO_RUNE_VALUE]: 1
 Alias[SUR_RUNE_VALUE]: 1.5
 Alias[BER_RUNE_VALUE]: 3
-Alias[JAH_RUNE_VALUE]: 1.85
+Alias[JAH_RUNE_VALUE]: 1.75
 Alias[CHAM_RUNE_VALUE]: 3.1
 Alias[ZOD_RUNE_VALUE]: 6
 
@@ -145,7 +145,7 @@ Alias[OHM_WSS_VALUE]: 85
 Alias[LO_WSS_VALUE]: 100
 Alias[SUR_WSS_VALUE]: 150
 Alias[BER_WSS_VALUE]: 300
-Alias[JAH_WSS_VALUE]: 185
+Alias[JAH_WSS_VALUE]: 175
 Alias[CHAM_WSS_VALUE]: 310
 Alias[ZOD_WSS_VALUE]: 600
 
@@ -170,7 +170,7 @@ Alias[OHM_STACK_HR]: (QTY*0.85)
 Alias[LO_STACK_HR]: (QTY*1)
 Alias[SUR_STACK_HR]: (QTY*1.5)
 Alias[BER_STACK_HR]: (QTY*3)
-Alias[JAH_STACK_HR]: (QTY*1.85)
+Alias[JAH_STACK_HR]: (QTY*1.75)
 Alias[CHAM_STACK_HR]: (QTY*3.1)
 Alias[ZOD_STACK_HR]: (QTY*6)
 
@@ -179,7 +179,7 @@ Alias[OHM_STACK_WSS]: (QTY*85)
 Alias[LO_STACK_WSS]: (QTY*100)
 Alias[SUR_STACK_WSS]: (QTY*150)
 Alias[BER_STACK_WSS]: (QTY*300)
-Alias[JAH_STACK_WSS]: (QTY*185)
+Alias[JAH_STACK_WSS]: (QTY*175)
 Alias[CHAM_STACK_WSS]: (QTY*310)
 Alias[ZOD_STACK_WSS]: (QTY*600)
 
@@ -190,7 +190,7 @@ Alias[ZOD_STACK_WSS]: (QTY*600)
 Alias[WSS_ITEM_HR_VALUE]: 0.01
 Alias[TAINTED_WORLDSTONE_SHARD_VALUE]: 1.25
 Alias[LARZUK_PUZZLEBOX_VALUE]: 0.75
-Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.07
+Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.08
 Alias[DEMONIC_CUBE_VALUE]: 0.75
 Alias[CATALYST_SHARD_VALUE]: 0.15
 
@@ -198,7 +198,7 @@ Alias[CATALYST_SHARD_VALUE]: 0.15
 Alias[WSS_ITEM_WSS_VALUE]: 1
 Alias[TAINTED_WORLDSTONE_SHARD_WSS_VALUE]: 125
 Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 75
-Alias[LARZUK_PUZZLEPIECE_WSS_VALUE]: 7
+Alias[LARZUK_PUZZLEPIECE_WSS_VALUE]: 8
 Alias[DEMONIC_CUBE_WSS_VALUE]: 75
 Alias[CATALYST_SHARD_WSS_VALUE]: 15
 
@@ -206,7 +206,7 @@ Alias[CATALYST_SHARD_WSS_VALUE]: 15
 Alias[WSS_ITEM_STACK_HR]: (QTY*0.01)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_HR]: (QTY*1.25)
 Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.75)
-Alias[LARZUK_PUZZLEPIECE_STACK_HR]: (QTY*0.07)
+Alias[LARZUK_PUZZLEPIECE_STACK_HR]: (QTY*0.08)
 Alias[DEMONIC_CUBE_STACK_HR]: (QTY*0.75)
 Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
 
@@ -214,7 +214,7 @@ Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
 Alias[WSS_ITEM_STACK_WSS]: (QTY*1)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_WSS]: (QTY*125)
 Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*75)
-Alias[LARZUK_PUZZLEPIECE_STACK_WSS]: (QTY*7)
+Alias[LARZUK_PUZZLEPIECE_STACK_WSS]: (QTY*8)
 Alias[DEMONIC_CUBE_STACK_WSS]: (QTY*75)
 Alias[CATALYST_SHARD_STACK_WSS]: (QTY*15)
 
@@ -225,7 +225,7 @@ Alias[CATALYST_SHARD_STACK_WSS]: (QTY*15)
 // DClone mats
 Alias[BLACK_SOULSTONE_VALUE]: 0.25
 Alias[PRIME_EVIL_SOUL_VALUE]: 0.5
-Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.04
+Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.03
 
 // Rathma mats
 Alias[HELLFIRE_ASHES_VALUE]: 0.5
@@ -619,8 +619,10 @@ Alias[MAP_MAGICFIND]:((STAT370+MAX(CHARSTAT80,1))*250/((STAT370+MAX(CHARSTAT80,1
 
 // Weighted XP-roll score for maps: 2xDensity + 2xRarity + 3xXP + 100 per +AreaLevel
 Alias[MAP_XP_SCORE]:(STAT372+STAT372+STAT375+STAT375+STAT373+STAT373+STAT373+100*STAT374)
-// Weighted MF-roll score for maps: 2xDensity + MF
-Alias[MAP_MF_SCORE]:(STAT372+STAT372+STAT370)
+// Weighted MF-roll score for maps: Density + Rarity (equal weight)
+Alias[MAP_MF_SCORE]:(STAT372+STAT375)
+// Weighted Crafting-roll score for maps: Density + Rarity + Crafting (7% craft == 100% density)
+Alias[MAP_CRAFT_SCORE]:(STAT372+STAT375+STAT497*100/6)
 
 // XP-roll thresholds: _ROLLS = unslammed (prompts SLAM), _SLAM = already slammed
 Alias[MAP_XP_T3_ROLLS]:249
@@ -630,10 +632,10 @@ Alias[MAP_XP_T2_SLAM]:259
 Alias[MAP_XP_T1_ROLLS]:174
 Alias[MAP_XP_T1_SLAM]:233
 // MF-roll thresholds (T21 = shared Tier 2 / Tier 1 band)
-Alias[MAP_MF_T3_ROLLS]:297
-Alias[MAP_MF_T3_SLAM]:446
-Alias[MAP_MF_T21_ROLLS]:197
-Alias[MAP_MF_T21_SLAM]:296
+Alias[MAP_MF_T3_ROLLS]:99
+Alias[MAP_MF_T3_SLAM]:149
+Alias[MAP_MF_T21_ROLLS]:79
+Alias[MAP_MF_T21_SLAM]:109
 
 // Weighted score aliases for Ring/Amulet/Jewel Pt tooltips
 Alias[PTSRING_MELEE]:(STR*8+DEX*10+CRES*3+FRES*3+LRES*3+PRES*3+MINDMG*27+MAXDMG*19+AR+STAT3*8+STAT60*17+STAT62*26+STAT110*6+STAT80*8)
