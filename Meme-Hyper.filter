@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/23/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 66}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(May/24/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 67}
 ItemDisplay[box]: %NAME%
 
 
@@ -133,20 +133,20 @@ Alias[CRAFTING_RUNES_SET]: (RUNE=3 OR RUNE=4 OR RUNE=5 OR RUNE=7 OR RUNE=8 OR RU
 //-----------------------------------------------------------------------------------
 
 Alias[OHM_RUNE_VALUE]: 0.85
-Alias[LO_RUNE_VALUE]: 0.95
-Alias[SUR_RUNE_VALUE]: 1.6
+Alias[LO_RUNE_VALUE]: 1
+Alias[SUR_RUNE_VALUE]: 1.5
 Alias[BER_RUNE_VALUE]: 3
-Alias[JAH_RUNE_VALUE]: 1.75
-Alias[CHAM_RUNE_VALUE]: 2.95
+Alias[JAH_RUNE_VALUE]: 2
+Alias[CHAM_RUNE_VALUE]: 3.5
 Alias[ZOD_RUNE_VALUE]: 6
 
 // WSS equivalent values for runes (HR value * 100)
 Alias[OHM_WSS_VALUE]: 85
-Alias[LO_WSS_VALUE]: 95
-Alias[SUR_WSS_VALUE]: 160
+Alias[LO_WSS_VALUE]: 100
+Alias[SUR_WSS_VALUE]: 150
 Alias[BER_WSS_VALUE]: 300
-Alias[JAH_WSS_VALUE]: 175
-Alias[CHAM_WSS_VALUE]: 295
+Alias[JAH_WSS_VALUE]: 200
+Alias[CHAM_WSS_VALUE]: 350
 Alias[ZOD_WSS_VALUE]: 600
 
 // Stack HR and WSS formulas for lower runes
@@ -167,20 +167,20 @@ Alias[HALFHR_STACK_WSS]: (QTY*50)
 
 // Stack HR formulas for runes (QTY * HR value each)
 Alias[OHM_STACK_HR]: (QTY*0.85)
-Alias[LO_STACK_HR]: (QTY*0.95)
-Alias[SUR_STACK_HR]: (QTY*1.6)
+Alias[LO_STACK_HR]: (QTY*1)
+Alias[SUR_STACK_HR]: (QTY*1.5)
 Alias[BER_STACK_HR]: (QTY*3)
-Alias[JAH_STACK_HR]: (QTY*1.75)
-Alias[CHAM_STACK_HR]: (QTY*2.95)
+Alias[JAH_STACK_HR]: (QTY*2)
+Alias[CHAM_STACK_HR]: (QTY*3.5)
 Alias[ZOD_STACK_HR]: (QTY*6)
 
 // Stack WSS formulas for runes (QTY * WSS value each)
 Alias[OHM_STACK_WSS]: (QTY*85)
-Alias[LO_STACK_WSS]: (QTY*95)
-Alias[SUR_STACK_WSS]: (QTY*160)
+Alias[LO_STACK_WSS]: (QTY*100)
+Alias[SUR_STACK_WSS]: (QTY*150)
 Alias[BER_STACK_WSS]: (QTY*300)
-Alias[JAH_STACK_WSS]: (QTY*175)
-Alias[CHAM_STACK_WSS]: (QTY*295)
+Alias[JAH_STACK_WSS]: (QTY*200)
+Alias[CHAM_STACK_WSS]: (QTY*350)
 Alias[ZOD_STACK_WSS]: (QTY*600)
 
 //-----------------------------------------------------------------------------------
@@ -189,7 +189,7 @@ Alias[ZOD_STACK_WSS]: (QTY*600)
 
 Alias[WSS_ITEM_HR_VALUE]: 0.01
 Alias[TAINTED_WORLDSTONE_SHARD_VALUE]: 1.25
-Alias[LARZUK_PUZZLEBOX_VALUE]: 0.75
+Alias[LARZUK_PUZZLEBOX_VALUE]: 0.7
 Alias[LARZUK_PUZZLEPIECE_VALUE]: 0.1
 Alias[DEMONIC_CUBE_VALUE]: 0.75
 Alias[CATALYST_SHARD_VALUE]: 0.15
@@ -197,7 +197,7 @@ Alias[CATALYST_SHARD_VALUE]: 0.15
 // WSS equivalent values for PD2 items (HR value * 100)
 Alias[WSS_ITEM_WSS_VALUE]: 1
 Alias[TAINTED_WORLDSTONE_SHARD_WSS_VALUE]: 125
-Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 75
+Alias[LARZUK_PUZZLEBOX_WSS_VALUE]: 70
 Alias[LARZUK_PUZZLEPIECE_WSS_VALUE]: 10
 Alias[DEMONIC_CUBE_WSS_VALUE]: 75
 Alias[CATALYST_SHARD_WSS_VALUE]: 15
@@ -205,7 +205,7 @@ Alias[CATALYST_SHARD_WSS_VALUE]: 15
 // Stack HR formulas for PD2 items (QTY * HR value each)
 Alias[WSS_ITEM_STACK_HR]: (QTY*0.01)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_HR]: (QTY*1.25)
-Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.75)
+Alias[LARZUK_PUZZLEBOX_STACK_HR]: (QTY*0.7)
 Alias[LARZUK_PUZZLEPIECE_STACK_HR]: (QTY*0.1)
 Alias[DEMONIC_CUBE_STACK_HR]: (QTY*0.75)
 Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
@@ -213,7 +213,7 @@ Alias[CATALYST_SHARD_STACK_HR]: (QTY*0.15)
 // Stack WSS formulas for PD2 items (QTY * WSS value each)
 Alias[WSS_ITEM_STACK_WSS]: (QTY*1)
 Alias[TAINTED_WORLDSTONE_SHARD_STACK_WSS]: (QTY*125)
-Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*75)
+Alias[LARZUK_PUZZLEBOX_STACK_WSS]: (QTY*70)
 Alias[LARZUK_PUZZLEPIECE_STACK_WSS]: (QTY*10)
 Alias[DEMONIC_CUBE_STACK_WSS]: (QTY*75)
 Alias[CATALYST_SHARD_STACK_WSS]: (QTY*15)
@@ -225,7 +225,7 @@ Alias[CATALYST_SHARD_STACK_WSS]: (QTY*15)
 // DClone mats
 Alias[BLACK_SOULSTONE_VALUE]: 0.25
 Alias[PRIME_EVIL_SOUL_VALUE]: 0.5
-Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.04
+Alias[PURE_DEMONIC_ESSENCE_VALUE]: 0.03
 
 // Rathma mats
 Alias[HELLFIRE_ASHES_VALUE]: 0.45
@@ -233,8 +233,8 @@ Alias[SPLINTER_OF_THE_VOID_VALUE]: 0.4
 Alias[TRANG_OUL_JAWBONE_VALUE]: 0.03
 
 // Lucion mats
-Alias[FLESH_OF_MALIC_VALUE]: 0.15
-Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.04
+Alias[FLESH_OF_MALIC_VALUE]: 0.2
+Alias[TALISMAN_OF_TRANSGRESSION_VALUE]: 0.03
 Alias[DEMONIC_INSIGNIA_VALUE]: 0.35
 //-----------------------------------------------------------------------------------
 // Star Ratings
