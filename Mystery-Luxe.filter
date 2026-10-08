@@ -21,7 +21,7 @@ ItemDisplayFilterName[12]: ÿc1Extreme ÿc4Strictness ÿc7w/ ÿc;Juice
 
 
 
-ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Sep/16/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 90}
+ItemDisplay[box (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %MAP-51%Horadric Cube %RED%(Oct/08/26){%LIGHT_GRAY%removed magic exc chests and quivers from extra - kassahi%CL%added new luxe filter - Mark%CL%%GREEN%Kassahi - HiimMark%CL%%WHITE%Season 13 Build # 91}
 ItemDisplay[box]: %NAME%
 
 
@@ -327,7 +327,7 @@ Alias[4_STAR_ETH_UNIQUE]: (utp OR 9gm OR 7p7 OR 9la OR 7b7 OR 7b8 OR ama OR aar 
 // Stoneraven - Matriarchal Spear (non-ETH)
 // Kiras Guardian - Tiara
 // Herald of Zakarum - Gilded Shield
-// Zerae's Resolve - Cryptic Axe (non-eth; eth -> 4★)
+// Zerae's Resolve - Matriarchal Pike (non-eth; eth -> 4★)
 // Magefist - Light Gauntlets
 // Pus Spitter - Siege Crossbow
 // Occultist - Crusader Gauntlets
